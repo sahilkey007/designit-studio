@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Dashboard — Adda 247 | Designit Case Study</title>
+    <meta name="description" content="Comprehensive analytics dashboard providing actionable insights into test performance, study patterns, and personalized improvement paths for Adda 247 students.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../theme.css">
+    <link rel="stylesheet" href="../../intake-form.css">
+    <style>
+        .pd-hero { background: var(--bg-gradient-hero); padding: 140px 48px 80px; text-align: center; color: #fff; }
+        .pd-hero .sec-label { color: rgba(255,255,255,0.6); }
+        .pd-hero h1 { font-size: 48px; font-weight: 700; color: #fff; letter-spacing: -2px; line-height: 1.15; margin-bottom: 16px; }
+        .pd-hero p { font-size: 18px; color: rgba(255,255,255,0.8); max-width: 640px; margin: 0 auto 32px; line-height: 1.7; }
+        .pd-hero-chips { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+        .pd-hero-chips span { padding: 8px 18px; border: 1px solid rgba(255,255,255,0.25); border-radius: 100px; font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.85); }
+        .pd-hero-img { padding: 0 48px; margin-top: -40px; margin-bottom: 80px; }
+        .pd-hero-img .container { max-width: 1100px; margin: 0 auto; }
+        .pd-hero-img img { width: 100%; border-radius: 24px; box-shadow: 0 24px 60px rgba(0,0,0,0.15); display: block; }
+        .pd-section { padding: 80px 0; }
+        .pd-section-alt { padding: 80px 0; background: var(--bg-secondary); }
+        .pd-section-dark { padding: 80px 0; background: var(--bg-dark); color: #fff; }
+        .pd-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+        .pd-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .pd-meta-card { padding: 20px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-meta-card .label { font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 6px; }
+        .pd-meta-card .value { font-size: 15px; font-weight: 600; color: var(--text-primary); line-height: 1.4; }
+        .pd-results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 48px; }
+        .pd-result-card { text-align: center; padding: 40px 24px; border: 1px solid var(--border-light); border-radius: 20px; background: var(--bg-page); }
+        .pd-result-num { font-size: 48px; font-weight: 700; letter-spacing: -2px; color: var(--text-primary); line-height: 1; margin-bottom: 8px; }
+        .pd-result-label { font-size: 15px; color: var(--text-secondary); }
+        .pd-process-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 40px; }
+        .pd-process-step { padding: 32px; border: 1px solid var(--border-light); border-radius: 20px; transition: all 0.3s ease; }
+        .pd-process-step:hover { border-color: var(--border-medium); box-shadow: 0 4px 12px rgba(0,0,0,0.06); transform: translateY(-2px); }
+        .pd-process-num { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+        .pd-process-step h4 { font-size: 20px; font-weight: 600; margin-bottom: 8px; color: var(--text-primary); }
+        .pd-process-step p { font-size: 15px; color: var(--text-secondary); line-height: 1.6; }
+        .pd-gallery { display: grid; grid-template-columns: 1fr; gap: 32px; margin-top: 40px; }
+        .pd-gallery img { width: 100%; border-radius: 20px; display: block; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .pd-gallery-2col { grid-template-columns: 1fr 1fr; }
+        .pd-nav { display: flex; justify-content: space-between; align-items: center; padding: 40px 0; border-top: 1px solid var(--border-light); margin-top: 40px; }
+        .pd-nav a { font-size: 15px; font-weight: 600; color: var(--text-primary); display: flex; align-items: center; gap: 8px; transition: color 0.2s; }
+        .pd-nav a:hover { color: var(--text-secondary); }
+        .pd-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+        .pd-feature { padding: 28px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-feature h4 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+        .pd-feature p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+        @media(max-width:768px) {
+            .pd-hero { padding: 120px 24px 60px; }
+            .pd-hero h1 { font-size: 36px; }
+            .pd-hero-img { padding: 0 24px; }
+            .pd-grid { grid-template-columns: 1fr; gap: 40px; }
+            .pd-meta-grid { grid-template-columns: 1fr; }
+            .pd-results-grid { grid-template-columns: 1fr; }
+            .pd-process-steps { grid-template-columns: 1fr; }
+            .pd-features { grid-template-columns: 1fr; }
+            .pd-gallery-2col { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a>
+        <nav class="nav-links" id="navLinks">
+            <a href="../../index.html#services">Services</a>
+            <a href="../../projects.html" class="active">Case studies <span class="badge">05</span></a>
+            <a href="../../pricing.html">Pricing</a>
+            <a href="../../about.html">About us</a>
+            <a href="../../blog.html">Blog</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+        <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary btn-sm nav-cta">Contact Us &rarr;</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </header>
+
+    <!-- HERO -->
+    <section class="pd-hero">
+        <span class="sec-label">ADDA 247 / PERFORMANCE DASHBOARD</span>
+        <h1>Performance Dashboard</h1>
+        <p>Comprehensive analytics dashboard providing actionable insights into test performance, content consumption, and personalized improvement paths.</p>
+        <div class="pd-hero-chips">
+            <span>Data Visualization</span>
+            <span>Dashboard Design</span>
+            <span>Analytics UX</span>
+            <span>Personalization</span>
+        </div>
+    </section>
+
+    <!-- HERO IMAGE -->
+    <section class="pd-hero-img">
+        <div class="container">
+            <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fperformance-dashboard%2Fasset1.png&w=1920&q=75" alt="Performance Dashboard — Designit case study" loading="lazy">
+        </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section class="pd-section">
+        <div class="container">
+            <div class="pd-grid">
+                <div>
+                    <span class="sec-label">Overview</span>
+                    <h2 class="sec-title" style="font-size:40px;">The Challenge &amp; Opportunity</h2>
+                    <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;">Adda 247 generates enormous amounts of data about student performance — test scores, time spent per question, topic-wise accuracy, comparison with peers, and content consumption patterns. But this data was either invisible to students or presented in basic tables that required significant effort to interpret. We designed a comprehensive performance dashboard that transforms raw data into actionable insights, helping students understand not just how they performed, but what to do next to improve. The goal was to make data the foundation of every study decision.</p>
+                </div>
+                <div class="pd-meta-grid">
+                    <div class="pd-meta-card"><div class="label">Client</div><div class="value">Adda 247</div></div>
+                    <div class="pd-meta-card"><div class="label">Category</div><div class="value">EdTech</div></div>
+                    <div class="pd-meta-card"><div class="label">Services</div><div class="value">Data Visualization, Dashboard Design, Analytics UX</div></div>
+                    <div class="pd-meta-card"><div class="label">Tools</div><div class="value">Figma, Prototyping</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEM STATEMENT -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">The Problem</span>
+            <h2 class="sec-title" style="font-size:40px;">What Needed to Change</h2>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;">Students had no visibility into their overall performance trends. After completing a test, they saw a score and a rank — nothing more. There was no way to understand which subjects were improving, which were declining, or how their performance compared to peers over time. Without trend data, students couldn't tell if their preparation strategy was working or if they needed to change approach. They were essentially studying blind, relying on gut feeling rather than data.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-top:16px;">Identifying weak subjects was particularly painful. Students had to manually recall their scores across multiple tests, mentally calculate topic-wise averages, and try to spot patterns — an exercise that was both tedious and unreliable. Even motivated students rarely did this analysis, which meant they kept making the same mistakes in the same topics without realizing the pattern. The irony was that the platform had all this data but wasn't surfacing it in a useful way.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-top:16px;">Study time was being spent inefficiently as a result. Without data-driven guidance, students defaulted to comfortable patterns — studying subjects they enjoyed rather than subjects they needed to improve. Research shows that targeted practice on weak areas is 3-5x more effective than general practice, but students had no tool to identify those weak areas. The platform was sitting on a goldmine of performance data that could dramatically improve student outcomes — it just needed to be designed into an accessible, actionable interface.</p>
+        </div>
+    </section>
+
+    <!-- DESIGN PROCESS -->
+    <section class="pd-section">
+        <div class="container">
+            <span class="sec-label">Design Process</span>
+            <h2 class="sec-title" style="font-size:40px;">How We Approached It</h2>
+            <div class="pd-process-steps">
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 01</div>
+                    <h4>Discovery &amp; Research</h4>
+                    <p>We analyzed what data points matter most to competitive exam students by interviewing 40 students across different performance levels — toppers, average performers, and struggling students. Top performers wanted detailed topic-level breakdowns and time analysis. Average performers wanted to know where they stood relative to peers and what to focus on. Struggling students wanted simple, clear guidance on what to do next without being overwhelmed by data. We also interviewed 10 coaching institute teachers to understand which metrics they tracked for their students — accuracy by difficulty level, speed vs. accuracy trade-offs, and consistency across test attempts.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 02</div>
+                    <h4>Information Architecture</h4>
+                    <p>We designed a data hierarchy with four levels of progressive detail: (1) Overview — a single-screen summary with overall score trend, strengths, weaknesses, and a "focus area" recommendation, (2) Subject Level — per-subject performance with accuracy, speed, and improvement trends, (3) Topic Level — granular topic-by-topic breakdown with question-type analysis, and (4) Question Level — individual question review with time spent, correct answer, and explanation. Each level could be reached from the previous one through intuitive drill-down — tap a subject card to see topics, tap a topic to see questions. This progressive disclosure ensured the dashboard served both quick-glancers and deep-analysis users.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 03</div>
+                    <h4>Wireframing &amp; Prototyping</h4>
+                    <p>We created interactive chart prototypes and tested data visualization approaches with 50 students. We tested line charts vs. bar charts vs. radar charts for subject comparison — radar charts won because they showed the "shape" of performance across all subjects at once, making imbalances immediately visible. For trend analysis, simple line charts with clear up/down indicators performed best — students didn't need complex statistical visualizations, they needed to know "am I improving or not?" We tested three overview layouts: score-centric, improvement-centric, and action-centric. The action-centric approach — which led with "what to focus on next" rather than just showing data — had the highest engagement and follow-through rate.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 04</div>
+                    <h4>Visual Design &amp; Handoff</h4>
+                    <p>We built a responsive dashboard with progressive disclosure — simple overview first, detailed analysis on demand. The visual language used a consistent color system: green for strengths, red for weaknesses, blue for neutral data, and purple for recommendations. Chart designs were deliberately simplified — no unnecessary grid lines, minimal axis labels, and prominent data points that convey the story at a glance. Animation was used purposefully: score trend lines animate on load to draw attention to the direction of change, and drill-down transitions use expand animations that maintain spatial context. We delivered 32 screens covering all data states, empty states (for new users with insufficient data), and responsive layouts for mobile, tablet, and desktop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">The Solution</span>
+            <h2 class="sec-title" style="font-size:40px;">What We Built</h2>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-bottom:48px;">A comprehensive analytics dashboard that transforms raw test data into personalized, actionable study guidance. The overview screen presents a "Performance Score" — a composite metric that combines accuracy, speed, consistency, and improvement trend into a single number that students can track over time. Below this, a radar chart shows subject-level performance balance, and a "Focus Area" card highlights the single most impactful topic to study next based on algorithmic analysis of the student's performance patterns.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-bottom:48px;">Drilling deeper, the subject-level view shows accuracy and speed trends over the last 10 tests, topic-wise breakdown with performance indicators, and peer comparison for that subject. The topic-level view reveals question-type analysis (e.g., in Mathematics: are you struggling with word problems specifically?), time analysis (which topics eat disproportionate time?), and a curated practice set of questions targeting identified weak patterns. The dashboard becomes a study strategist — not just reporting what happened, but recommending what to do about it.</p>
+        </div>
+    </section>
+
+    <!-- KEY FEATURES -->
+    <section class="pd-section">
+        <div class="container">
+            <span class="sec-label">Key Features</span>
+            <h2 class="sec-title" style="font-size:40px;">Design Highlights</h2>
+            <div class="pd-features">
+                <div class="pd-feature">
+                    <h4>Overall Performance Score</h4>
+                    <p>A composite metric combining accuracy, speed, consistency, and improvement trend — providing a single trackable number that captures overall preparation quality.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Subject-wise Breakdown</h4>
+                    <p>Radar chart visualization showing performance balance across all subjects, with drill-down into topic-level accuracy, speed, and improvement trends.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Trend Analysis</h4>
+                    <p>Performance trend lines across the last 10-20 tests with clear up/down indicators — answering the crucial question: "Am I actually improving?"</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Peer Comparison</h4>
+                    <p>Anonymous percentile ranking showing where the student stands relative to others preparing for the same exam — providing context for raw scores.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Weak Area Identification</h4>
+                    <p>Algorithmic analysis identifying the single most impactful topic to focus on next — based on frequency of errors, exam weightage, and improvement potential.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Study Time Analytics</h4>
+                    <p>Breakdown of how study time is distributed across subjects and content types, with recommendations for optimal time allocation based on weak areas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VISUAL GALLERY -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">Visual Design</span>
+            <h2 class="sec-title" style="font-size:40px;">The Final Product</h2>
+            <div class="pd-gallery">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fperformance-dashboard%2Fasset1.png&w=1920&q=75" alt="Performance Dashboard — overview" loading="lazy">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fperformance-dashboard%2Fasset2.png&w=1920&q=75" alt="Performance Dashboard — subject breakdown" loading="lazy">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fperformance-dashboard%2Fasset3.png&w=1920&q=75" alt="Performance Dashboard — trend analysis" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="pd-section">
+        <div class="container center">
+            <span class="sec-label">Results</span>
+            <h2 class="sec-title" style="font-size:40px;">Measurable Impact</h2>
+            <div class="pd-results-grid">
+                <div class="pd-result-card">
+                    <div class="pd-result-num">58%</div>
+                    <div class="pd-result-label">Increase in strategic study time</div>
+                </div>
+                <div class="pd-result-card">
+                    <div class="pd-result-num">34%</div>
+                    <div class="pd-result-label">Improvement in test scores</div>
+                </div>
+                <div class="pd-result-card">
+                    <div class="pd-result-num">2x</div>
+                    <div class="pd-result-label">Daily dashboard visits</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT NAVIGATION -->
+    <section class="pd-section" style="padding:40px 0;">
+        <div class="container">
+            <div class="pd-nav">
+                <a href="community.html">&larr; Previous Project</a>
+                <a href="../adda247.html">All Adda 247 Projects</a>
+                <a href="test-series.html">Next Project &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="pd-section-dark" style="text-align:center;">
+        <div class="container">
+            <h2 style="font-size:40px;font-weight:700;color:#fff;margin-bottom:16px;">Have a similar challenge?</h2>
+            <p style="font-size:18px;color:rgba(255,255,255,0.7);margin-bottom:32px;">Let's solve it together.</p>
+            <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background:#fff;color:#0A0A0A;">Start Your Project &rarr;</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a>
+                    <p>Designit is a global UI/UX design agency that boosts brand value with user-friendly, effective designs for web, mobile, and SaaS platforms.</p>
+                    <a href="#" class="btn btn-outline btn-sm">Company Deck &darr;</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <a href="#">UI UX Design</a>
+                    <a href="#">Design System Development</a>
+                    <a href="#">UI/UX Strategy &amp; Consulting</a>
+                    <a href="#">UX Research &amp; Discovery</a>
+                    <a href="#">UX Design Audit &amp; Analysis</a>
+                    <a href="#">Digital Prototyping</a>
+                    <a href="#">Digital Branding &amp; Identity</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="../../projects.html">Our Work</a>
+                    <a href="../../about.html">About Us</a>
+                    <a href="#contact">Contact</a>
+                    <a href="../../careers.html">Careers</a>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h4>Contact</h4>
+                    <div class="fc-item"><div class="fc-label">Location</div><div class="fc-value">Noida Sector 45, Uttar Pradesh, India</div></div>
+                    <div class="fc-item"><div class="fc-label">Email</div><div class="fc-value">contact@designit.co.in</div></div>
+                    <div class="fc-item"><div class="fc-label">Call Us</div><div class="fc-value">+91 8564948954</div></div>
+                </div>
+            </div>
+            <div class="footer-lang">
+                <label for="langSelect">🌐</label>
+                <select id="langSelect" class="lang-select">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </div>
+            <div class="footer-bottom">
+                <span>designit LLC &copy; 2025</span>
+                <div class="footer-socials">
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Twitter">&#120143;</a>
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                </div>
+            </div>
+            <div class="footer-wordmark">design<span>it</span></div>
+        </div>
+    </footer>
+
+    <script src="../../theme.js"></script>
+
+    <script src="../../i18n.js"></script>
+
+    <script src="../../intake-form.js"></script>
+    <script src="../../script.js"></script>
+
+</body>
+</html>

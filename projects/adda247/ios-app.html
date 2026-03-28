@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS &amp; iPad App — Adda 247 | Designit Case Study</title>
+    <meta name="description" content="Expanding Adda247's reach to Apple users with a native iOS and iPad experience following platform-specific design conventions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../theme.css">
+    <link rel="stylesheet" href="../../intake-form.css">
+    <style>
+        .pd-hero { background: var(--bg-gradient-hero); padding: 140px 48px 80px; text-align: center; color: #fff; }
+        .pd-hero .sec-label { color: rgba(255,255,255,0.6); }
+        .pd-hero h1 { font-size: 48px; font-weight: 700; color: #fff; letter-spacing: -2px; line-height: 1.15; margin-bottom: 16px; }
+        .pd-hero p { font-size: 18px; color: rgba(255,255,255,0.8); max-width: 640px; margin: 0 auto 32px; line-height: 1.7; }
+        .pd-hero-chips { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+        .pd-hero-chips span { padding: 8px 18px; border: 1px solid rgba(255,255,255,0.25); border-radius: 100px; font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.85); }
+        .pd-hero-img { padding: 0 48px; margin-top: -40px; margin-bottom: 80px; }
+        .pd-hero-img .container { max-width: 1100px; margin: 0 auto; }
+        .pd-hero-img img { width: 100%; border-radius: 24px; box-shadow: 0 24px 60px rgba(0,0,0,0.15); display: block; }
+        .pd-section { padding: 80px 0; }
+        .pd-section-alt { padding: 80px 0; background: var(--bg-secondary); }
+        .pd-section-dark { padding: 80px 0; background: var(--bg-dark); color: #fff; }
+        .pd-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+        .pd-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .pd-meta-card { padding: 20px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-meta-card .label { font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 6px; }
+        .pd-meta-card .value { font-size: 15px; font-weight: 600; color: var(--text-primary); line-height: 1.4; }
+        .pd-results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 48px; }
+        .pd-result-card { text-align: center; padding: 40px 24px; border: 1px solid var(--border-light); border-radius: 20px; background: var(--bg-page); }
+        .pd-result-num { font-size: 48px; font-weight: 700; letter-spacing: -2px; color: var(--text-primary); line-height: 1; margin-bottom: 8px; }
+        .pd-result-label { font-size: 15px; color: var(--text-secondary); }
+        .pd-process-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 40px; }
+        .pd-process-step { padding: 32px; border: 1px solid var(--border-light); border-radius: 20px; transition: all 0.3s ease; }
+        .pd-process-step:hover { border-color: var(--border-medium); box-shadow: 0 4px 12px rgba(0,0,0,0.06); transform: translateY(-2px); }
+        .pd-process-num { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+        .pd-process-step h4 { font-size: 20px; font-weight: 600; margin-bottom: 8px; color: var(--text-primary); }
+        .pd-process-step p { font-size: 15px; color: var(--text-secondary); line-height: 1.6; }
+        .pd-gallery { display: grid; grid-template-columns: 1fr; gap: 32px; margin-top: 40px; }
+        .pd-gallery img { width: 100%; border-radius: 20px; display: block; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .pd-gallery-2col { grid-template-columns: 1fr 1fr; }
+        .pd-nav { display: flex; justify-content: space-between; align-items: center; padding: 40px 0; border-top: 1px solid var(--border-light); margin-top: 40px; }
+        .pd-nav a { font-size: 15px; font-weight: 600; color: var(--text-primary); display: flex; align-items: center; gap: 8px; transition: color 0.2s; }
+        .pd-nav a:hover { color: var(--text-secondary); }
+        .pd-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+        .pd-feature { padding: 28px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-feature h4 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+        .pd-feature p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+        @media(max-width:768px) {
+            .pd-hero { padding: 120px 24px 60px; }
+            .pd-hero h1 { font-size: 36px; }
+            .pd-hero-img { padding: 0 24px; }
+            .pd-grid { grid-template-columns: 1fr; gap: 40px; }
+            .pd-meta-grid { grid-template-columns: 1fr; }
+            .pd-results-grid { grid-template-columns: 1fr; }
+            .pd-process-steps { grid-template-columns: 1fr; }
+            .pd-features { grid-template-columns: 1fr; }
+            .pd-gallery-2col { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a>
+        <nav class="nav-links" id="navLinks">
+            <a href="../../index.html#services">Services</a>
+            <a href="../../projects.html" class="active">Case studies <span class="badge">05</span></a>
+            <a href="../../pricing.html">Pricing</a>
+            <a href="../../about.html">About us</a>
+            <a href="../../blog.html">Blog</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+        <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary btn-sm nav-cta">Contact Us &rarr;</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </header>
+
+    <!-- HERO -->
+    <section class="pd-hero">
+        <span class="sec-label">ADDA 247 / iOS &amp; iPAD APP</span>
+        <h1>iOS &amp; iPad App</h1>
+        <p>Expanding Adda247's reach to Apple users with a native iOS and iPad experience designed with platform-specific conventions and seamless cross-device continuity.</p>
+        <div class="pd-hero-chips">
+            <span>iOS Design</span>
+            <span>iPad Optimization</span>
+            <span>Apple HIG</span>
+            <span>Cross-platform</span>
+        </div>
+    </section>
+
+    <!-- HERO IMAGE -->
+    <section class="pd-hero-img">
+        <div class="container">
+            <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fadda247-app%2Fasset1.png&w=1920&q=75" alt="iOS &amp; iPad App — Designit case study" loading="lazy">
+        </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section class="pd-section">
+        <div class="container">
+            <div class="pd-grid">
+                <div>
+                    <span class="sec-label">Overview</span>
+                    <h2 class="sec-title" style="font-size:40px;">The Challenge &amp; Opportunity</h2>
+                    <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;">Adda 247's platform was primarily Android-focused, leaving approximately 30% of their target audience — Apple device users — without a native app experience. The mobile web experience on Safari was suboptimal, with layout issues, poor offline support, and missing platform-native interactions that iOS users expect. We designed a native iOS and iPad application that brings the complete Adda247 learning experience to Apple devices while respecting platform conventions and leveraging unique Apple capabilities like Handoff, Widgets, and Split View.</p>
+                </div>
+                <div class="pd-meta-grid">
+                    <div class="pd-meta-card"><div class="label">Client</div><div class="value">Adda 247</div></div>
+                    <div class="pd-meta-card"><div class="label">Category</div><div class="value">EdTech</div></div>
+                    <div class="pd-meta-card"><div class="label">Services</div><div class="value">iOS Design, iPad Design, Design System</div></div>
+                    <div class="pd-meta-card"><div class="label">Tools</div><div class="value">Figma, Prototyping</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEM STATEMENT -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">The Problem</span>
+            <h2 class="sec-title" style="font-size:40px;">What Needed to Change</h2>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;">30% of the target audience used Apple devices but had no native app. These were often premium users — working professionals preparing for competitive exams — who were willing to pay for quality content but were frustrated by the suboptimal mobile web experience. The Safari-based experience suffered from inconsistent layouts, no push notifications for class reminders, and zero offline capability — critical for students who studied during commutes.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-top:16px;">Simply porting the Android app to iOS would have been a mistake. iOS users have different expectations around navigation patterns (tab bars vs. hamburger menus), gesture interactions (swipe-to-go-back), and visual design (blur effects, SF Symbols). A direct port would feel foreign and cheap to Apple users accustomed to polished, platform-native experiences. We needed to rethink the entire interaction model while maintaining feature parity and brand consistency.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-top:16px;">The iPad presented an additional challenge — and opportunity. Many students used iPads as their primary study device, and the larger screen could support split-view layouts, Apple Pencil annotations, and side-by-side multitasking that would significantly enhance the study experience. But this required designing entirely new layouts, not just scaling up the phone interface.</p>
+        </div>
+    </section>
+
+    <!-- DESIGN PROCESS -->
+    <section class="pd-section">
+        <div class="container">
+            <span class="sec-label">Design Process</span>
+            <h2 class="sec-title" style="font-size:40px;">How We Approached It</h2>
+            <div class="pd-process-steps">
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 01</div>
+                    <h4>Discovery &amp; Research</h4>
+                    <p>We conducted a thorough analysis of iOS user behavior patterns and Apple Human Interface Guidelines. We audited 12 top-rated iOS education apps to understand what "feels native" on Apple platforms. User interviews with 40 iOS users revealed that they expected swipe gestures, haptic feedback, and seamless iCloud sync as baseline features. We also analyzed device usage data showing that 35% of iOS users owned both an iPhone and iPad, making cross-device continuity a critical requirement.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 02</div>
+                    <h4>Information Architecture</h4>
+                    <p>We adapted the existing information architecture for iOS navigation patterns — replacing the Android drawer navigation with a tab bar for primary sections, implementing large title headers with scroll collapse, and using iOS-native sheet presentations for secondary flows. The iPad IA introduced a sidebar-based navigation that transforms into a split-view layout, allowing students to browse courses in one panel while reading content in another. We mapped every Android screen to its iOS equivalent, identifying 15 screens that needed entirely new layouts.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 03</div>
+                    <h4>Wireframing &amp; Prototyping</h4>
+                    <p>We created platform-specific prototypes respecting iOS conventions while maintaining brand consistency. Key decisions included adopting SF Symbols throughout the interface, implementing native iOS blur effects for overlays, and using iOS-standard action sheets instead of custom bottom drawers. The iPad prototype featured a dedicated split-view test experience where the question appears on one side and the question palette on the other. We tested both iPhone and iPad prototypes with 25 users, iterating on gesture-based navigation and the sidebar collapse behavior.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 04</div>
+                    <h4>Visual Design &amp; Handoff</h4>
+                    <p>We built a comprehensive iOS design system with SF Symbols, native components, and Apple-specific interaction patterns. The visual language maintained Adda247's brand colors and typography hierarchy while adapting to iOS conventions — using Apple's standard corner radii, shadow styles, and animation curves. The design system included 80+ iOS-specific components, supporting both light and dark mode. Handoff included SwiftUI-ready specifications, asset catalogs, and accessibility annotations for VoiceOver support across all 65 screens.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">The Solution</span>
+            <h2 class="sec-title" style="font-size:40px;">What We Built</h2>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-bottom:48px;">A native iOS and iPad application that feels like it was built by Apple themselves. The iPhone app uses a tab-bar-first navigation with fluid swipe gestures, haptic feedback on interactions, and native iOS animations. The iPad version leverages the larger screen with split-view layouts for test-taking, picture-in-picture for live classes, and Apple Pencil support for annotating study materials.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-bottom:48px;">Cross-device continuity through Handoff means students can start a test on their iPhone during a commute and seamlessly continue on their iPad at home. Home screen widgets surface upcoming classes and study streak data. Offline mode downloads courses, tests, and study materials for uninterrupted learning anywhere. The app supports both light and dark mode with automatic switching based on system preferences.</p>
+        </div>
+    </section>
+
+    <!-- KEY FEATURES -->
+    <section class="pd-section">
+        <div class="container">
+            <span class="sec-label">Key Features</span>
+            <h2 class="sec-title" style="font-size:40px;">Design Highlights</h2>
+            <div class="pd-features">
+                <div class="pd-feature">
+                    <h4>Native iOS Navigation</h4>
+                    <p>Tab bar navigation, swipe-to-go-back, large title headers with scroll collapse, and iOS-native sheet presentations — every interaction feels platform-native.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>iPad Split View</h4>
+                    <p>Dedicated iPad layouts with sidebar navigation, split-view test experience, and multitasking support — turning the iPad into the ultimate study companion.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Offline Mode</h4>
+                    <p>Download courses, tests, and study materials for offline access. Smart storage management suggests what to keep based on upcoming exams and study schedule.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Handoff Between Devices</h4>
+                    <p>Start studying on your iPhone during commute and seamlessly continue on iPad at home. Progress, bookmarks, and test state sync instantly via iCloud.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Widget Support</h4>
+                    <p>Home screen widgets showing upcoming classes, study streak, and daily practice reminders — keeping exam preparation visible and top-of-mind throughout the day.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Apple Pencil Support</h4>
+                    <p>iPad users can annotate PDFs, mark up solutions, and take handwritten notes directly within the app — bridging the gap between digital and physical study methods.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VISUAL GALLERY -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">Visual Design</span>
+            <h2 class="sec-title" style="font-size:40px;">The Final Product</h2>
+            <div class="pd-gallery">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fadda247-app%2Fasset1.png&w=1920&q=75" alt="iOS App — home screen" loading="lazy">
+                <div class="pd-gallery pd-gallery-2col" style="margin-top:0;">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fadda247-app%2Fasset2.png&w=1920&q=75" alt="iOS App — course view" loading="lazy">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fadda247-app%2Fasset3.png&w=1920&q=75" alt="iOS App — test interface" loading="lazy">
+                </div>
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fadda247-app%2Fasset4.png&w=1920&q=75" alt="iOS App — iPad split view" loading="lazy">
+                <div class="pd-gallery pd-gallery-2col" style="margin-top:0;">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fadda247-app%2Fasset5.png&w=1920&q=75" alt="iOS App — widgets" loading="lazy">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fadda247-app%2Fasset6.png&w=1920&q=75" alt="iOS App — dark mode" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="pd-section">
+        <div class="container center">
+            <span class="sec-label">Results</span>
+            <h2 class="sec-title" style="font-size:40px;">Measurable Impact</h2>
+            <div class="pd-results-grid">
+                <div class="pd-result-card">
+                    <div class="pd-result-num">25%</div>
+                    <div class="pd-result-label">New user acquisition from iOS</div>
+                </div>
+                <div class="pd-result-card">
+                    <div class="pd-result-num">4.6</div>
+                    <div class="pd-result-label">App Store rating</div>
+                </div>
+                <div class="pd-result-card">
+                    <div class="pd-result-num">40%</div>
+                    <div class="pd-result-label">Higher retention vs mobile web</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT NAVIGATION -->
+    <section class="pd-section" style="padding:40px 0;">
+        <div class="container">
+            <div class="pd-nav">
+                <a href="live-class.html">&larr; Previous Project</a>
+                <a href="../adda247.html">All Adda 247 Projects</a>
+                <a href="sankalp-bharat.html">Next Project &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="pd-section-dark" style="text-align:center;">
+        <div class="container">
+            <h2 style="font-size:40px;font-weight:700;color:#fff;margin-bottom:16px;">Have a similar challenge?</h2>
+            <p style="font-size:18px;color:rgba(255,255,255,0.7);margin-bottom:32px;">Let's solve it together.</p>
+            <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background:#fff;color:#0A0A0A;">Start Your Project &rarr;</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a>
+                    <p>Designit is a global UI/UX design agency that boosts brand value with user-friendly, effective designs for web, mobile, and SaaS platforms.</p>
+                    <a href="#" class="btn btn-outline btn-sm">Company Deck &darr;</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <a href="#">UI UX Design</a>
+                    <a href="#">Design System Development</a>
+                    <a href="#">UI/UX Strategy &amp; Consulting</a>
+                    <a href="#">UX Research &amp; Discovery</a>
+                    <a href="#">UX Design Audit &amp; Analysis</a>
+                    <a href="#">Digital Prototyping</a>
+                    <a href="#">Digital Branding &amp; Identity</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="../../projects.html">Our Work</a>
+                    <a href="../../about.html">About Us</a>
+                    <a href="#contact">Contact</a>
+                    <a href="../../careers.html">Careers</a>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h4>Contact</h4>
+                    <div class="fc-item"><div class="fc-label">Location</div><div class="fc-value">Noida Sector 45, Uttar Pradesh, India</div></div>
+                    <div class="fc-item"><div class="fc-label">Email</div><div class="fc-value">contact@designit.co.in</div></div>
+                    <div class="fc-item"><div class="fc-label">Call Us</div><div class="fc-value">+91 8564948954</div></div>
+                </div>
+            </div>
+            <div class="footer-lang">
+                <label for="langSelect">🌐</label>
+                <select id="langSelect" class="lang-select">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </div>
+            <div class="footer-bottom">
+                <span>designit LLC &copy; 2025</span>
+                <div class="footer-socials">
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Twitter">&#120143;</a>
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                </div>
+            </div>
+            <div class="footer-wordmark">design<span>it</span></div>
+        </div>
+    </footer>
+
+    <script src="../../theme.js"></script>
+
+    <script src="../../i18n.js"></script>
+
+    <script src="../../intake-form.js"></script>
+    <script src="../../script.js"></script>
+
+</body>
+</html>

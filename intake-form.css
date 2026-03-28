@@ -1,0 +1,548 @@
+/* ===== INTAKE FORM MODAL ===== */
+
+/* Overlay */
+.intake-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.35s ease, visibility 0.35s ease;
+    padding: 24px;
+}
+
+.intake-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Card */
+.intake-card {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    max-height: 90vh;
+    background: #FFFFFF;
+    border-radius: 24px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transform: scale(0.95) translateY(12px);
+    opacity: 0;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.35s ease;
+}
+
+.intake-overlay.active .intake-card {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+
+/* Close button */
+.intake-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 10;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.intake-close:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.intake-close svg {
+    width: 16px;
+    height: 16px;
+    stroke: #333;
+    stroke-width: 2;
+}
+
+/* Progress bar */
+.intake-progress-track {
+    width: 100%;
+    height: 3px;
+    background: #F3F3F3;
+    flex-shrink: 0;
+}
+
+.intake-progress-bar {
+    height: 100%;
+    background: #1A1A1A;
+    border-radius: 0 3px 3px 0;
+    transition: width 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Scrollable body */
+.intake-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 48px 40px 32px;
+    position: relative;
+}
+
+/* Step container */
+.intake-step {
+    display: none;
+    animation: intakeFadeIn 0.35s ease forwards;
+}
+
+.intake-step.active {
+    display: block;
+}
+
+@keyframes intakeFadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes intakeFadeOut {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-16px);
+    }
+}
+
+/* Step label */
+.intake-step-label {
+    display: block;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 8px;
+}
+
+/* Headings */
+.intake-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1A1A1A;
+    line-height: 1.25;
+    margin-bottom: 8px;
+}
+
+.intake-subheading {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+/* Form fields */
+.intake-field {
+    margin-bottom: 20px;
+}
+
+.intake-field label {
+    display: block;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.intake-field label .required {
+    color: #DC2626;
+    margin-left: 2px;
+}
+
+.intake-field input,
+.intake-field textarea {
+    width: 100%;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    color: #1A1A1A;
+    padding: 12px 14px;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background: #FAFAFA;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    box-sizing: border-box;
+}
+
+.intake-field input::placeholder,
+.intake-field textarea::placeholder {
+    color: #AAA;
+}
+
+.intake-field input:focus,
+.intake-field textarea:focus {
+    border-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04);
+    background: #FFF;
+}
+
+.intake-field textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+
+.intake-field.error input,
+.intake-field.error textarea {
+    border-color: #DC2626;
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.08);
+    animation: intakeShake 0.4s ease;
+}
+
+.intake-error-msg {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 12px;
+    color: #DC2626;
+    margin-top: 4px;
+    display: none;
+}
+
+.intake-field.error .intake-error-msg {
+    display: block;
+}
+
+@keyframes intakeShake {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-6px); }
+    40% { transform: translateX(5px); }
+    60% { transform: translateX(-4px); }
+    80% { transform: translateX(3px); }
+}
+
+/* Grid selector (project type, budget, timeline, source) */
+.intake-grid-label {
+    display: block;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.intake-grid-label .required {
+    color: #DC2626;
+    margin-left: 2px;
+}
+
+.intake-select-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.intake-select-grid button {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 16px;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    background: #FFF;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.intake-select-grid button:hover {
+    border-color: rgba(0, 0, 0, 0.25);
+    background: #F5F5F5;
+}
+
+.intake-select-grid button.selected {
+    background: #1A1A1A;
+    color: #FFF;
+    border-color: #1A1A1A;
+}
+
+.intake-grid-group {
+    margin-bottom: 24px;
+}
+
+.intake-grid-group.error .intake-select-grid button {
+    border-color: rgba(220, 38, 38, 0.3);
+    animation: intakeShake 0.4s ease;
+}
+
+.intake-grid-group .intake-error-msg {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 12px;
+    color: #DC2626;
+    margin-top: 4px;
+    display: none;
+}
+
+.intake-grid-group.error .intake-error-msg {
+    display: block;
+}
+
+/* Row layout for two fields side by side */
+.intake-field-row {
+    display: flex;
+    gap: 12px;
+}
+
+.intake-field-row .intake-field {
+    flex: 1;
+}
+
+/* Footer with navigation buttons */
+.intake-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 32px;
+    flex-shrink: 0;
+}
+
+.intake-btn-back {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 0;
+    transition: color 0.2s ease;
+}
+
+.intake-btn-back:hover {
+    color: #1A1A1A;
+}
+
+.intake-btn-back.hidden {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.intake-btn-next,
+.intake-btn-start,
+.intake-btn-submit {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFF;
+    background: #1A1A1A;
+    border: none;
+    border-radius: 100px;
+    padding: 14px 32px;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.intake-btn-next:hover,
+.intake-btn-start:hover,
+.intake-btn-submit:hover {
+    background: #333;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+.intake-btn-next:active,
+.intake-btn-start:active,
+.intake-btn-submit:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.intake-btn-submit {
+    background: #1A1A1A;
+}
+
+/* Welcome step (centered) */
+.intake-welcome {
+    text-align: center;
+    padding: 40px 0 16px;
+}
+
+.intake-welcome .intake-heading {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.intake-welcome p {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+/* Done step (centered) */
+.intake-done {
+    text-align: center;
+    padding: 32px 0 16px;
+}
+
+.intake-done .intake-heading {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.intake-done p {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.intake-done-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #F0FDF4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+}
+
+.intake-done-icon svg {
+    width: 28px;
+    height: 28px;
+    stroke: #16A34A;
+    stroke-width: 2.5;
+    fill: none;
+}
+
+.intake-done-steps {
+    text-align: left;
+    background: #FAFAFA;
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 24px;
+}
+
+.intake-done-steps h4 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+    margin-bottom: 16px;
+}
+
+.intake-done-steps ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.intake-done-steps li {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    color: #333;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.intake-done-steps li span.done-num {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #1A1A1A;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.intake-btn-close-done {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFF;
+    background: #1A1A1A;
+    border: none;
+    border-radius: 100px;
+    padding: 14px 32px;
+    cursor: pointer;
+    margin-top: 28px;
+    transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.intake-btn-close-done:hover {
+    background: #333;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+.intake-btn-close-done:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* Responsive: full-screen on mobile */
+@media (max-width: 640px) {
+    .intake-overlay {
+        padding: 0;
+    }
+
+    .intake-card {
+        max-width: 100%;
+        max-height: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .intake-body {
+        padding: 48px 24px 24px;
+    }
+
+    .intake-footer {
+        padding: 16px 24px 24px;
+    }
+
+    .intake-field-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .intake-heading {
+        font-size: 24px;
+    }
+
+    .intake-welcome .intake-heading {
+        font-size: 26px;
+    }
+
+    .intake-select-grid button {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}

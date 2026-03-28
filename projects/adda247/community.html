@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Module — Adda 247 | Designit Case Study</title>
+    <meta name="description" content="Building a collaborative community for peer-to-peer learning, doubt resolution, and gamified knowledge sharing on Adda 247.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../theme.css">
+    <link rel="stylesheet" href="../../intake-form.css">
+    <style>
+        .pd-hero { background: var(--bg-gradient-hero); padding: 140px 48px 80px; text-align: center; color: #fff; }
+        .pd-hero .sec-label { color: rgba(255,255,255,0.6); }
+        .pd-hero h1 { font-size: 48px; font-weight: 700; color: #fff; letter-spacing: -2px; line-height: 1.15; margin-bottom: 16px; }
+        .pd-hero p { font-size: 18px; color: rgba(255,255,255,0.8); max-width: 640px; margin: 0 auto 32px; line-height: 1.7; }
+        .pd-hero-chips { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+        .pd-hero-chips span { padding: 8px 18px; border: 1px solid rgba(255,255,255,0.25); border-radius: 100px; font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.85); }
+        .pd-hero-img { padding: 0 48px; margin-top: -40px; margin-bottom: 80px; }
+        .pd-hero-img .container { max-width: 1100px; margin: 0 auto; }
+        .pd-hero-img img { width: 100%; border-radius: 24px; box-shadow: 0 24px 60px rgba(0,0,0,0.15); display: block; }
+        .pd-section { padding: 80px 0; }
+        .pd-section-alt { padding: 80px 0; background: var(--bg-secondary); }
+        .pd-section-dark { padding: 80px 0; background: var(--bg-dark); color: #fff; }
+        .pd-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+        .pd-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .pd-meta-card { padding: 20px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-meta-card .label { font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 6px; }
+        .pd-meta-card .value { font-size: 15px; font-weight: 600; color: var(--text-primary); line-height: 1.4; }
+        .pd-results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 48px; }
+        .pd-result-card { text-align: center; padding: 40px 24px; border: 1px solid var(--border-light); border-radius: 20px; background: var(--bg-page); }
+        .pd-result-num { font-size: 48px; font-weight: 700; letter-spacing: -2px; color: var(--text-primary); line-height: 1; margin-bottom: 8px; }
+        .pd-result-label { font-size: 15px; color: var(--text-secondary); }
+        .pd-process-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 40px; }
+        .pd-process-step { padding: 32px; border: 1px solid var(--border-light); border-radius: 20px; transition: all 0.3s ease; }
+        .pd-process-step:hover { border-color: var(--border-medium); box-shadow: 0 4px 12px rgba(0,0,0,0.06); transform: translateY(-2px); }
+        .pd-process-num { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+        .pd-process-step h4 { font-size: 20px; font-weight: 600; margin-bottom: 8px; color: var(--text-primary); }
+        .pd-process-step p { font-size: 15px; color: var(--text-secondary); line-height: 1.6; }
+        .pd-gallery { display: grid; grid-template-columns: 1fr; gap: 32px; margin-top: 40px; }
+        .pd-gallery img { width: 100%; border-radius: 20px; display: block; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .pd-gallery-2col { grid-template-columns: 1fr 1fr; }
+        .pd-nav { display: flex; justify-content: space-between; align-items: center; padding: 40px 0; border-top: 1px solid var(--border-light); margin-top: 40px; }
+        .pd-nav a { font-size: 15px; font-weight: 600; color: var(--text-primary); display: flex; align-items: center; gap: 8px; transition: color 0.2s; }
+        .pd-nav a:hover { color: var(--text-secondary); }
+        .pd-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+        .pd-feature { padding: 28px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-feature h4 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+        .pd-feature p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+        @media(max-width:768px) {
+            .pd-hero { padding: 120px 24px 60px; }
+            .pd-hero h1 { font-size: 36px; }
+            .pd-hero-img { padding: 0 24px; }
+            .pd-grid { grid-template-columns: 1fr; gap: 40px; }
+            .pd-meta-grid { grid-template-columns: 1fr; }
+            .pd-results-grid { grid-template-columns: 1fr; }
+            .pd-process-steps { grid-template-columns: 1fr; }
+            .pd-features { grid-template-columns: 1fr; }
+            .pd-gallery-2col { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a>
+        <nav class="nav-links" id="navLinks">
+            <a href="../../index.html#services">Services</a>
+            <a href="../../projects.html" class="active">Case studies <span class="badge">05</span></a>
+            <a href="../../pricing.html">Pricing</a>
+            <a href="../../about.html">About us</a>
+            <a href="../../blog.html">Blog</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+        <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary btn-sm nav-cta">Contact Us &rarr;</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </header>
+
+    <!-- HERO -->
+    <section class="pd-hero">
+        <span class="sec-label">ADDA 247 / COMMUNITY</span>
+        <h1>Community Module</h1>
+        <p>Building a collaborative community for peer-to-peer learning — enabling doubt resolution, study groups, and gamified knowledge sharing.</p>
+        <div class="pd-hero-chips">
+            <span>Social Design</span>
+            <span>Gamification</span>
+            <span>Community UX</span>
+            <span>Engagement Design</span>
+        </div>
+    </section>
+
+    <!-- HERO IMAGE -->
+    <section class="pd-hero-img">
+        <div class="container">
+            <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fcommunity%2Fasset1.png&w=1920&q=75" alt="Community Module — Designit case study" loading="lazy">
+        </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section class="pd-section">
+        <div class="container">
+            <div class="pd-grid">
+                <div>
+                    <span class="sec-label">Overview</span>
+                    <h2 class="sec-title" style="font-size:40px;">The Challenge &amp; Opportunity</h2>
+                    <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;">Competitive exam preparation is traditionally a solitary journey, with students studying in isolation for months or even years. Adda 247 had a massive user base of millions of aspirants, but no mechanism for them to connect, help each other, or learn collaboratively. We designed a community module that transforms isolated study into a social, collaborative experience — combining the best elements of Q&amp;A platforms, study groups, and gamification to create a vibrant learning community that keeps students engaged and supported throughout their preparation journey.</p>
+                </div>
+                <div class="pd-meta-grid">
+                    <div class="pd-meta-card"><div class="label">Client</div><div class="value">Adda 247</div></div>
+                    <div class="pd-meta-card"><div class="label">Category</div><div class="value">EdTech</div></div>
+                    <div class="pd-meta-card"><div class="label">Services</div><div class="value">Social Design, Gamification, Community UX</div></div>
+                    <div class="pd-meta-card"><div class="label">Tools</div><div class="value">Figma, Prototyping</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEM STATEMENT -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">The Problem</span>
+            <h2 class="sec-title" style="font-size:40px;">What Needed to Change</h2>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;">Students prepared in isolation with no peer support system. When they encountered a difficult concept or a tricky question, their only option was to wait for a teacher's response — which could take hours or days. This led to frustration, stalled progress, and a sense of loneliness that is well-documented in educational psychology as a major factor in dropout rates. Students preparing for the same exam had no way to connect, share strategies, or motivate each other.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-top:16px;">Engagement dropped significantly after the initial sign-up enthusiasm. Students would download the app, explore content for a few weeks, and then gradually stop opening it. There was no social hook — no reason to come back beyond personal discipline. Competitor platforms and general social media were capturing attention because they offered the social interaction and community feeling that Adda 247 lacked. The platform was a content library when it needed to be a learning community.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-top:16px;">There was also no mechanism for knowledge sharing. Top-performing students had valuable insights about study strategies, shortcut techniques, and exam patterns, but there was no way for them to share this knowledge with the broader community. This untapped user-generated content represented a massive opportunity — it could supplement the official content while creating a sense of ownership and belonging among active contributors.</p>
+        </div>
+    </section>
+
+    <!-- DESIGN PROCESS -->
+    <section class="pd-section">
+        <div class="container">
+            <span class="sec-label">Design Process</span>
+            <h2 class="sec-title" style="font-size:40px;">How We Approached It</h2>
+            <div class="pd-process-steps">
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 01</div>
+                    <h4>Discovery &amp; Research</h4>
+                    <p>We studied successful community platforms — Reddit for threaded discussions, Discord for real-time group interaction, Stack Overflow for structured Q&amp;A, and Duolingo for educational gamification. We also analyzed educational communities like Brainly, Quora's exam preparation spaces, and Telegram study groups that students were already using. Interviews with 50 power users revealed three primary needs: instant doubt resolution, peer motivation through friendly competition, and a space to share and receive study tips. We mapped the community behaviors students already practiced on external platforms to inform our feature design.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 02</div>
+                    <h4>Information Architecture</h4>
+                    <p>We designed interaction models for three core community experiences: (1) Q&amp;A Forum — structured question-answer threads with voting, tagging, and expert verification, (2) Study Groups — small, focused groups of students preparing for the same exam with shared goals and progress tracking, and (3) Discussion Feed — a moderated feed for sharing study tips, exam updates, and motivational content. The IA challenge was balancing these three models without overwhelming users. We used a tabbed interface with smart defaults — the Q&amp;A tab auto-filters to the user's exam category, study groups show the user's active groups first, and the feed is algorithmically personalized.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 03</div>
+                    <h4>Wireframing &amp; Prototyping</h4>
+                    <p>We prototyped a comprehensive gamification system with reputation points, badges, and leaderboards. We tested different reward structures with 100 users over three weeks: points-only, badges-only, and a combined system with levels. The combined system drove 3x more engagement than either individual approach. Key insight: students cared more about badges tied to expertise (e.g., "Reasoning Expert") than generic activity badges (e.g., "10 Posts"). We designed 25 unique badges across categories — subject expertise, helping others, consistency, and community participation — each with clear earning criteria and visual distinctiveness.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 04</div>
+                    <h4>Visual Design &amp; Handoff</h4>
+                    <p>We built a moderation system and content quality scoring mechanism into the visual design. High-quality answers (marked by upvotes and expert verification) bubble to the top with visual distinction — larger cards, highlighted borders, and "Verified Answer" badges. The moderation interface for community managers included flagging workflows, user reputation tracking, and content quality dashboards. We delivered 42 screens covering all community states, the full gamification visual system (badges, levels, leaderboard), and detailed interaction specifications for notifications, real-time updates, and content moderation flows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">The Solution</span>
+            <h2 class="sec-title" style="font-size:40px;">What We Built</h2>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-bottom:48px;">A vibrant community space that transforms isolated exam preparation into a collaborative, social experience. The Q&amp;A forum enables students to post doubts with image and equation support, receive answers from peers and verified experts, and upvote the best responses. Subject and topic tags ensure questions reach the right audience, while a notification system alerts students who can help based on their expertise areas. The average doubt resolution time dropped from days to under 30 minutes.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-bottom:48px;">Study groups bring together students preparing for the same exam with shared daily goals, group challenges, and progress comparisons. The gamification layer — featuring reputation points, 25 distinct badges, weekly leaderboards, and level progression — creates compelling engagement loops that keep students coming back. Expert contributors earn visible recognition that motivates continued participation. The moderation system ensures content quality through community voting, automated spam detection, and a team of verified experts who mark authoritative answers.</p>
+        </div>
+    </section>
+
+    <!-- KEY FEATURES -->
+    <section class="pd-section">
+        <div class="container">
+            <span class="sec-label">Key Features</span>
+            <h2 class="sec-title" style="font-size:40px;">Design Highlights</h2>
+            <div class="pd-features">
+                <div class="pd-feature">
+                    <h4>Q&amp;A Forum</h4>
+                    <p>Structured question-answer threads with image/equation support, voting, subject tagging, and expert verification — ensuring students get accurate, fast responses.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Study Groups</h4>
+                    <p>Small, focused groups of students preparing for the same exam with shared daily goals, group challenges, and mutual accountability.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Doubt Resolution</h4>
+                    <p>Smart routing of doubts to students with proven expertise in the topic, with average resolution time under 30 minutes — faster than any teacher support system.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Gamification &amp; Badges</h4>
+                    <p>25 distinct badges across expertise, helpfulness, consistency, and participation categories — with visible reputation scores and weekly leaderboards driving engagement.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Expert Answers</h4>
+                    <p>Verified expert badges for top contributors and teachers, with their answers visually distinguished and prioritized in search results and doubt threads.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Content Sharing</h4>
+                    <p>Share study tips, shortcut techniques, exam strategies, and motivational content in a moderated feed — creating a valuable user-generated content layer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VISUAL GALLERY -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">Visual Design</span>
+            <h2 class="sec-title" style="font-size:40px;">The Final Product</h2>
+            <div class="pd-gallery">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fcommunity%2Fasset1.png&w=1920&q=75" alt="Community — Q&amp;A forum" loading="lazy">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fcommunity%2Fasset2.png&w=1920&q=75" alt="Community — gamification" loading="lazy">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fcommunity%2Fasset3.png&w=1920&q=75" alt="Community — study groups" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="pd-section">
+        <div class="container center">
+            <span class="sec-label">Results</span>
+            <h2 class="sec-title" style="font-size:40px;">Measurable Impact</h2>
+            <div class="pd-results-grid">
+                <div class="pd-result-card">
+                    <div class="pd-result-num">80%</div>
+                    <div class="pd-result-label">Faster doubt resolution</div>
+                </div>
+                <div class="pd-result-card">
+                    <div class="pd-result-num">35%</div>
+                    <div class="pd-result-label">Improvement in retention</div>
+                </div>
+                <div class="pd-result-card">
+                    <div class="pd-result-num">10K+</div>
+                    <div class="pd-result-label">Community contributions per month</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT NAVIGATION -->
+    <section class="pd-section" style="padding:40px 0;">
+        <div class="container">
+            <div class="pd-nav">
+                <a href="my-content.html">&larr; Previous Project</a>
+                <a href="../adda247.html">All Adda 247 Projects</a>
+                <a href="performance-dashboard.html">Next Project &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="pd-section-dark" style="text-align:center;">
+        <div class="container">
+            <h2 style="font-size:40px;font-weight:700;color:#fff;margin-bottom:16px;">Have a similar challenge?</h2>
+            <p style="font-size:18px;color:rgba(255,255,255,0.7);margin-bottom:32px;">Let's solve it together.</p>
+            <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background:#fff;color:#0A0A0A;">Start Your Project &rarr;</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a>
+                    <p>Designit is a global UI/UX design agency that boosts brand value with user-friendly, effective designs for web, mobile, and SaaS platforms.</p>
+                    <a href="#" class="btn btn-outline btn-sm">Company Deck &darr;</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <a href="#">UI UX Design</a>
+                    <a href="#">Design System Development</a>
+                    <a href="#">UI/UX Strategy &amp; Consulting</a>
+                    <a href="#">UX Research &amp; Discovery</a>
+                    <a href="#">UX Design Audit &amp; Analysis</a>
+                    <a href="#">Digital Prototyping</a>
+                    <a href="#">Digital Branding &amp; Identity</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="../../projects.html">Our Work</a>
+                    <a href="../../about.html">About Us</a>
+                    <a href="#contact">Contact</a>
+                    <a href="../../careers.html">Careers</a>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h4>Contact</h4>
+                    <div class="fc-item"><div class="fc-label">Location</div><div class="fc-value">Noida Sector 45, Uttar Pradesh, India</div></div>
+                    <div class="fc-item"><div class="fc-label">Email</div><div class="fc-value">contact@designit.co.in</div></div>
+                    <div class="fc-item"><div class="fc-label">Call Us</div><div class="fc-value">+91 8564948954</div></div>
+                </div>
+            </div>
+            <div class="footer-lang">
+                <label for="langSelect">🌐</label>
+                <select id="langSelect" class="lang-select">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </div>
+            <div class="footer-bottom">
+                <span>designit LLC &copy; 2025</span>
+                <div class="footer-socials">
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Twitter">&#120143;</a>
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                </div>
+            </div>
+            <div class="footer-wordmark">design<span>it</span></div>
+        </div>
+    </footer>
+
+    <script src="../../theme.js"></script>
+
+    <script src="../../i18n.js"></script>
+
+    <script src="../../intake-form.js"></script>
+    <script src="../../script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "slug": "ux-design-subscriptions-for-startups",
+    "title": "UX Design Subscriptions for Startups",
+    "excerpt": "How to access world-class design without the overhead of a full-time team. The subscription model that's changing the game for early-stage startups.",
+    "category": "SaaS",
+    "tags": ["Leadership", "Management"],
+    "author": "Alex Whitten",
+    "date": "17 Jan 2022",
+    "thumbnail": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": 2,
+    "slug": "black-and-orange-website-design-ideas",
+    "title": "15 Black and Orange Website Design Ideas for 2025",
+    "excerpt": "Discover the most striking black and orange website designs that are dominating the web design landscape this year.",
+    "category": "UI UX",
+    "tags": ["Leadership", "Management"],
+    "author": "Alex Whitten",
+    "date": "17 Jan 2022",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": 3,
+    "slug": "mvp-development-companies-usa",
+    "title": "Top MVP Development Companies in the USA for Startups",
+    "excerpt": "A curated list of the best MVP development agencies that help startups go from idea to launch in record time.",
+    "category": "MVP",
+    "tags": ["Leadership", "Management"],
+    "author": "Alex Whitten",
+    "date": "17 Jan 2022",
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": 4,
+    "slug": "banking-apps-exceptional-ux-design",
+    "title": "Banking Apps with Exceptional UX Design 2025",
+    "excerpt": "Analyzing the top banking applications that have mastered user experience, from onboarding to daily transactions.",
+    "category": "UI UX",
+    "tags": ["Leadership", "Management"],
+    "author": "Alex Whitten",
+    "date": "17 Jan 2023",
+    "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f2?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": 5,
+    "slug": "ultimate-mobile-app-design-brief",
+    "title": "The Ultimate Mobile App Design Brief Example",
+    "excerpt": "A step-by-step template for creating design briefs that set your mobile app project up for success from day one.",
+    "category": "UI UX",
+    "tags": ["Leadership", "Management"],
+    "author": "Alex Whitten",
+    "date": "17 Jan 2022",
+    "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": 6,
+    "slug": "top-mobile-app-design-agencies-usa",
+    "title": "20 Top Mobile App Design Agencies in the USA",
+    "excerpt": "The definitive ranking of mobile app design agencies that are shaping the industry with innovative user experiences.",
+    "category": "MVP",
+    "tags": ["Leadership", "Management"],
+    "author": "Alex Whitten",
+    "date": "17 Jan 2022",
+    "thumbnail": "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": 7,
+    "slug": "webflow-agencies-best-2025",
+    "title": "Webflow Agencies in October 2025 Ranking",
+    "excerpt": "A comprehensive ranking of the best Webflow development agencies based on portfolio quality, client reviews, and technical expertise.",
+    "category": "Webflow",
+    "tags": ["Leadership", "Management"],
+    "author": "Alex Whitten",
+    "date": "17 Jan 2022",
+    "thumbnail": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": 8,
+    "slug": "branding-ui-agency-digital-design",
+    "title": "Branding & UI Agency Digital Design for Growth",
+    "excerpt": "How to choose the right branding and UI design agency to accelerate your company's digital transformation and growth.",
+    "category": "SaaS",
+    "tags": ["Leadership", "Management"],
+    "author": "Alex Whitten",
+    "date": "17 Jan 2022",
+    "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": 9,
+    "slug": "saas-dashboard-design-principles",
+    "title": "SaaS Dashboard Design: 10 Principles That Convert",
+    "excerpt": "Master the art of dashboard design with these proven principles that turn data into actionable insights for SaaS users.",
+    "category": "SaaS",
+    "tags": ["Leadership", "Management"],
+    "author": "Alex Whitten",
+    "date": "17 Jan 2022",
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600"
+  }
+]

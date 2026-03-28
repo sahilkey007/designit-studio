@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Instrument Cluster — Tata Elxsi — Designit</title>
+    <meta name="description" content="Digital cockpit instrument cluster with clear visual hierarchy and adaptive display.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../theme.css">
+    <link rel="stylesheet" href="../../intake-form.css">
+    <style>
+        .chip{display:inline-block;padding:6px 16px;border:1px solid rgba(255,255,255,0.3);border-radius:100px;font-size:13px;font-weight:500;color:#fff}.pd-hero{position:relative}.pd-section{padding:80px 0}.pd-section-alt{padding:80px 0;background:var(--bg-secondary)}.pd-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}.pd-meta-card{padding:20px;border:1px solid var(--border-light);border-radius:var(--radius-sm)}.pd-meta-card .label{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);margin-bottom:4px}.pd-meta-card .value{font-size:15px;font-weight:500;color:var(--text-primary)}.pd-results-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:48px}.result-card{text-align:center;padding:40px 24px;background:#fff;border-radius:var(--radius-md);border:1px solid var(--border-light)}.result-card .num{font-size:48px;font-weight:700;letter-spacing:-2px;color:var(--text-primary);display:block;margin-bottom:8px}.result-card .label{font-size:14px;color:var(--text-secondary)}.pd-process-steps{display:grid;grid-template-columns:repeat(2,1fr);gap:40px;margin-top:48px}.pd-process-step{padding:32px;border:1px solid var(--border-light);border-radius:var(--radius-md);background:#fff}.pd-process-step .step-num{font-size:14px;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}.pd-process-step h4{font-size:20px;font-weight:600;margin-bottom:12px;color:var(--text-primary)}.pd-process-step p{font-size:15px;color:var(--text-secondary);line-height:1.7}.pd-features{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:48px}.pd-feature-card{padding:32px;border:1px solid var(--border-light);border-radius:var(--radius-md);background:#fff}.pd-feature-card h4{font-size:18px;font-weight:600;margin-bottom:8px;color:var(--text-primary)}.pd-feature-card p{font-size:15px;color:var(--text-secondary);line-height:1.6}.pd-gallery{display:grid;grid-template-columns:1fr;gap:24px;margin-top:48px}.pd-gallery img{width:100%;border-radius:var(--radius-md);display:block}.pd-nav{display:flex;justify-content:space-between;align-items:center;padding:40px 0;border-top:1px solid var(--border-light);margin-top:80px}.pd-nav a{font-size:15px;font-weight:600;color:var(--text-primary);text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:gap .2s ease}.pd-nav a:hover{gap:12px}@media(max-width:768px){.hero-title{font-size:36px!important}.pd-grid{grid-template-columns:1fr!important;gap:32px!important}.pd-meta-grid{grid-template-columns:1fr!important}.pd-results-grid{grid-template-columns:1fr!important}.pd-process-steps{grid-template-columns:1fr!important}.pd-features{grid-template-columns:1fr!important}.hero-padding{padding:120px 24px 60px!important}.pd-nav{flex-direction:column;gap:16px;text-align:center}}
+    </style>
+</head>
+<body>
+    <header class="navbar" id="navbar"><a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a><nav class="nav-links" id="navLinks"><a href="../../index.html#services">Services</a><a href="../../projects.html" class="active">Case studies <span class="badge">05</span></a><a href="../../pricing.html">Pricing</a><a href="../../about.html">About us</a><a href="../../blog.html">Blog</a></nav><button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+        <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary btn-sm nav-cta">Contact Us &rarr;</a><button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button></header>
+
+    <main>
+        <section class="pd-hero" style="background: var(--bg-gradient-hero);">
+            <div class="container center hero-padding" style="padding: 140px 48px 80px; color: #fff;">
+                <span class="sec-label" style="color: rgba(255,255,255,0.7);">Tata Elxsi</span>
+                <h1 class="hero-title" style="font-size: 52px; font-weight: 700; color: #fff; letter-spacing: -2px; line-height: 1.15; margin-bottom: 16px;">Digital Instrument Cluster</h1>
+                <p style="font-size: 18px; color: rgba(255,255,255,0.8); max-width: 640px; margin: 0 auto 32px; line-height: 1.7;">Digital cockpit instrument cluster with clear visual hierarchy and adaptive display.</p>
+                <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+                    <span class="chip">HMI Design</span><span class="chip">Digital Cockpit</span><span class="chip">Automotive UI</span>
+                </div>
+            </div>
+        </section>
+
+        <section style="padding: 0 48px 80px; margin-top: -40px;"><div class="container"><div style="border-radius: 24px; overflow: hidden; box-shadow: 0 24px 60px rgba(0,0,0,0.12);"><img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Ftata-elxsi%2Fcluster%2Fasset1.png&w=1920&q=75" alt="Instrument Cluster hero" style="width: 100%; display: block;" loading="lazy"></div></div></section>
+
+        <section class="pd-section">
+            <div class="container"><div class="pd-grid">
+                <div>
+                    <span class="sec-label">Overview</span>
+                    <h2 class="sec-title" style="font-size: 40px;">Beyond Analog Gauges</h2>
+                    <p style="font-size: 17px; color: var(--text-secondary); line-height: 1.7;">The digital instrument cluster replaces traditional analog gauges with a fully programmable display that adapts to driving conditions, modes, and driver preferences. We designed adaptive display modes for city driving, highway cruising, sport, and eco — each prioritizing different information based on what matters most in that context. The design system was built with strict automotive contrast ratios and readability standards, ensuring critical information is always instantly scannable.</p>
+                </div>
+                <div class="pd-meta-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+                    <div class="pd-meta-card"><div class="label">Client</div><div class="value">Tata Elxsi</div></div>
+                    <div class="pd-meta-card"><div class="label">Category</div><div class="value">Automotive HMI</div></div>
+                    <div class="pd-meta-card"><div class="label">Services</div><div class="value">Cluster Design, Motion Design, Design System</div></div>
+                    <div class="pd-meta-card"><div class="label">Tools</div><div class="value">Figma, After Effects, Prototyping</div></div>
+                </div>
+            </div></div>
+        </section>
+
+        <section class="pd-section-alt">
+            <div class="container">
+                <span class="sec-label">Problem Statement</span>
+                <h2 class="sec-title" style="font-size: 40px;">The Challenge</h2>
+                <p style="font-size: 17px; color: var(--text-secondary); line-height: 1.7; max-width: 800px; margin-top: 24px;">Traditional analog clusters were being replaced by digital screens, but early digital clusters simply mimicked analog gauges without leveraging the medium's capabilities. This was a wasted opportunity — digital displays can show contextual information, adapt to conditions, and present data in ways that physical gauges never could. The challenge was designing a system that leverages digital capabilities while maintaining the instant readability that analog gauges provided through decades of driver familiarity.</p>
+            </div>
+        </section>
+
+        <section class="pd-section">
+            <div class="container">
+                <span class="sec-label">Design Process</span>
+                <h2 class="sec-title" style="font-size: 40px;">How We Approached It</h2>
+                <div class="pd-process-steps">
+                    <div class="pd-process-step"><div class="step-num">Phase 01</div><h4>Information Needs Research</h4><p>We researched driver information needs at different speeds and conditions, studying ergonomic guidelines from SAE International and automotive HMI research papers. We cataloged every piece of information a driver might need — from critical (speed, warnings) to useful (range, temperature) to informational (media, calls). This hierarchy became the foundation for our adaptive display logic, ensuring the most important data is always visible regardless of mode.</p></div>
+                    <div class="pd-process-step"><div class="step-num">Phase 02</div><h4>Adaptive Mode Design</h4><p>We designed four adaptive display modes: city driving prioritizes speed and navigation with simplified gauges; highway mode emphasizes cruise control, fuel range, and ADAS status; sport mode features a tachometer-centric layout with lap timing and performance data; eco mode shows efficiency metrics, regenerative braking indicators, and range optimization. Each mode was designed as a complete, self-contained visual system with smooth transitions between them.</p></div>
+                    <div class="pd-process-step"><div class="step-num">Phase 03</div><h4>Transition Animation</h4><p>We prototyped animation transitions between modes, ensuring zero distraction during mode changes. The transitions use morphing animations that maintain spatial consistency — the speedometer always stays in the same relative position, but surrounding elements reorganize around it. We measured glance disruption during transitions in simulator tests, iterating until mode changes were imperceptible to drivers focused on the road.</p></div>
+                    <div class="pd-process-step"><div class="step-num">Phase 04</div><h4>Automotive Design System</h4><p>We created a comprehensive design system for automotive UI with strict contrast ratios (minimum 7:1 for critical info), readability standards calibrated for peripheral vision, and a color language where red always means critical, amber means caution, and green means normal. The system includes guidelines for every lighting condition from bright sunlight to complete darkness, with automatic brightness and color temperature adjustment.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pd-section-alt">
+            <div class="container">
+                <span class="sec-label">Solution</span>
+                <h2 class="sec-title" style="font-size: 40px;">What We Delivered</h2>
+                <p style="font-size: 17px; color: var(--text-secondary); line-height: 1.7; max-width: 800px; margin-top: 24px;">A production-ready digital instrument cluster with four adaptive display modes that prioritize information based on driving context. The design system ensures automotive-grade readability under all conditions, while seamless mode transitions maintain driver focus. The work was published on Behance and recognized within the automotive HMI design community.</p>
+            </div>
+        </section>
+
+        <section class="pd-section">
+            <div class="container">
+                <span class="sec-label">Key Features</span>
+                <h2 class="sec-title" style="font-size: 40px;">What Makes It Stand Out</h2>
+                <div class="pd-features">
+                    <div class="pd-feature-card"><h4>Adaptive Display Modes</h4><p>Four context-aware modes: City, Highway, Sport, and Eco — each optimized for different driving needs.</p></div>
+                    <div class="pd-feature-card"><h4>Speed-based Layout</h4><p>Automatic layout adaptation based on vehicle speed for safety-first information display.</p></div>
+                    <div class="pd-feature-card"><h4>ADAS Integration</h4><p>Visual representation of advanced driver assistance systems including lane keep and adaptive cruise.</p></div>
+                    <div class="pd-feature-card"><h4>Night Mode</h4><p>Automatic brightness and color temperature adjustment for comfortable night driving.</p></div>
+                    <div class="pd-feature-card"><h4>Navigation Overlay</h4><p>Turn-by-turn navigation integrated directly into the cluster with upcoming maneuver previews.</p></div>
+                    <div class="pd-feature-card"><h4>Vehicle Health Monitoring</h4><p>Real-time vehicle diagnostics with clear warning hierarchy and maintenance reminders.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pd-section-alt">
+            <div class="container"><span class="sec-label">Visual Gallery</span><h2 class="sec-title" style="font-size: 40px;">Design Highlights</h2>
+                <div class="pd-gallery"><img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Ftata-elxsi%2Fcluster%2Fasset1.png&w=1920&q=75" alt="Instrument Cluster design" loading="lazy"></div>
+            </div>
+        </section>
+
+        <section class="pd-section">
+            <div class="container center">
+                <span class="sec-label">Results</span><h2 class="sec-title" style="font-size: 40px;">Measurable Impact</h2>
+                <div class="pd-results-grid">
+                    <div class="result-card"><span class="num">2</span><span class="label">HMI systems in production</span></div>
+                    <div class="result-card"><span class="num">Behance</span><span class="label">Published showcase</span></div>
+                    <div class="result-card"><span class="num">30%</span><span class="label">Faster information scanning</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section><div class="container"><div class="pd-nav"><a href="infotainment.html">&larr; Infotainment System</a><a href="../tata-elxsi.html">All Tata Elxsi Projects</a><a href="infotainment.html">Infotainment System &rarr;</a></div></div></section>
+
+        <section style="padding: 80px 0; background: var(--bg-dark); text-align: center;"><div class="container"><h2 style="font-size: 40px; font-weight: 700; color: #fff; margin-bottom: 16px;">Have a similar challenge?</h2><p style="font-size: 18px; color: rgba(255,255,255,0.7); margin-bottom: 32px;">Let's solve it together.</p><a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background: #fff; color: #0A0A0A;">Start Your Project &rarr;</a></div></section>
+    </main>
+
+    <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a><p>Designit is a global UI/UX design agency that boosts brand value with user-friendly, effective designs for web, mobile, and SaaS platforms.</p><a href="#" class="btn btn-outline btn-sm">Company Deck &darr;</a></div><div class="footer-col"><h4>Services</h4><a href="#">UI UX Design</a><a href="#">Design System Development</a><a href="#">UI/UX Strategy &amp; Consulting</a><a href="#">UX Research &amp; Discovery</a><a href="#">UX Design Audit &amp; Analysis</a><a href="#">Digital Prototyping</a><a href="#">Digital Branding &amp; Identity</a></div><div class="footer-col"><h4>Company</h4><a href="../../projects.html">Our Work</a><a href="../../about.html">About Us</a><a href="#contact">Contact</a><a href="../../careers.html">Careers</a></div><div class="footer-col footer-contact"><h4>Contact</h4><div class="fc-item"><div class="fc-label">Location</div><div class="fc-value">Noida Sector 45, Uttar Pradesh, India</div></div><div class="fc-item"><div class="fc-label">Email</div><div class="fc-value">contact@designit.co.in</div></div><div class="fc-item"><div class="fc-label">Call Us</div><div class="fc-value">+91 8564948954</div></div></div></div><div class="footer-lang">
+                <label for="langSelect">🌐</label>
+                <select id="langSelect" class="lang-select">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </div>
+            <div class="footer-bottom"><span>designit LLC &copy; 2025</span><div class="footer-socials"><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Twitter">&#120143;</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a></div></div><div class="footer-wordmark">design<span>it</span></div></div></footer>
+    <script src="../../theme.js"></script>
+    <script src="../../i18n.js"></script>
+    <script src="../../intake-form.js"></script>
+    <script src="../../script.js"></script>
+</body>
+</html>

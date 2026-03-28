@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — Designit | Let's Build Something Great Together</title>
+    <meta name="description" content="Have a project in mind? Get in touch with Designit. We respond within 24 hours with senior UX experts ready to help.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="intake-form.css">
+    <style>
+        /* ===== CONTACT PAGE SPECIFIC STYLES ===== */
+
+        /* Contact hero - full width form at top */
+        .contact-hero-section {
+            padding: 140px 0 80px;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        /* What to expect section */
+        .expect-section {
+            padding: 100px 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+        .expect-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: start;
+        }
+        .expect-layout h2 {
+            font-size: 44px;
+            font-weight: 700;
+            letter-spacing: -1.5px;
+            color: var(--text-primary);
+            line-height: 1.15;
+            position: sticky;
+            top: 120px;
+        }
+        .expect-steps {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+        .expect-step {
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+        .expect-step:first-child {
+            padding-top: 0;
+        }
+        .expect-step-num {
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: -2px;
+            color: var(--bg-muted);
+            line-height: 1;
+            margin-bottom: 12px;
+            display: block;
+        }
+        .expect-step h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+        .expect-step p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+        }
+
+        /* Location section */
+        .location-section {
+            padding: 100px 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+        .location-header {
+            margin-bottom: 48px;
+        }
+        .location-header h2 {
+            font-size: 44px;
+            font-weight: 700;
+            letter-spacing: -1.5px;
+            color: var(--text-primary);
+            line-height: 1.15;
+            margin-bottom: 24px;
+        }
+        .location-pills {
+            display: flex;
+            gap: 8px;
+        }
+        .location-pill {
+            padding: 10px 24px;
+            border: 1px solid var(--border-default);
+            border-radius: var(--radius-full);
+            background: transparent;
+            font-family: var(--font);
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s var(--ease);
+        }
+        .location-pill.active {
+            background: var(--text-primary);
+            color: var(--text-white);
+            border-color: var(--text-primary);
+        }
+        .location-pill:hover:not(.active) {
+            border-color: var(--border-strong);
+            color: var(--text-primary);
+        }
+        .location-map {
+            position: relative;
+            background: var(--bg-muted);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            aspect-ratio: 16/7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .location-map-bg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .location-card {
+            position: relative;
+            z-index: 2;
+            background: var(--bg-page);
+            border-radius: var(--radius-md);
+            padding: 28px 32px;
+            box-shadow: var(--shadow-lg);
+            max-width: 340px;
+        }
+        .location-card-flag {
+            width: 40px;
+            height: 28px;
+            border-radius: 4px;
+            background: linear-gradient(180deg, #FF9933 33%, #fff 33%, #fff 66%, #138808 66%);
+            margin-bottom: 12px;
+            position: relative;
+        }
+        .location-card-flag::after {
+            content: '';
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            border: 1.5px solid #000080;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .location-card h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 6px;
+        }
+        .location-card p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        .location-ctas {
+            display: flex;
+            gap: 12px;
+            margin-top: 32px;
+        }
+
+        /* Form chips selected state */
+        .form-help-chips label.selected {
+            background: var(--text-primary);
+            color: var(--text-white);
+            border-color: var(--text-primary);
+        }
+
+        /* Responsive overrides for contact page */
+        @media (max-width: 1024px) {
+            .expect-layout {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .expect-layout h2 {
+                position: static;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .contact-hero-section {
+                padding: 120px 0 64px;
+            }
+            .expect-section,
+            .location-section {
+                padding: 64px 0;
+            }
+            .expect-layout h2 {
+                font-size: 32px;
+            }
+            .location-header h2 {
+                font-size: 32px;
+            }
+            .location-map {
+                aspect-ratio: 4/3;
+            }
+            .location-ctas {
+                flex-direction: column;
+            }
+            .location-ctas .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <a href="index.html" class="logo"><img src="logo.svg" alt="designit" height="32"></a>
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html#services">Services <svg width="10" height="6" viewBox="0 0 10 6" fill="none" style="margin-left:4px"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
+            <a href="projects.html">Case studies <span class="badge">09</span></a>
+            <a href="pricing.html">Pricing</a>
+            <a href="about.html">About us</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+        <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary btn-sm nav-cta">Contact Us →</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+
+        <!-- Contact Form Section (Hero) -->
+        <section class="contact-hero-section" id="contact">
+            <div class="container">
+                <div class="contact-layout">
+                    <div class="contact-left">
+                        <h2>Have a Project?<br>Let's talk!</h2>
+                        <div class="contact-checks">
+                            <label>NDA? Absolutely just ask.</label>
+                            <label>We'll respond in 24 hours fast & focused.</label>
+                            <label>Work with senior UX experts, not juniors.</label>
+                        </div>
+                        <div style="margin-bottom:16px;font-size:14px;font-weight:600;color:var(--text-muted)">Schedule a Discovery Call</div>
+                        <a href="#contact" class="btn btn-primary btn-sm">Book a Call &rarr;</a>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>E-mail</label>
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text" placeholder="Full name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Project budget</label>
+                                <select>
+                                    <option value="">Select budget range</option>
+                                    <option>₹40,000 — ₹75,000</option>
+                                    <option>₹75,000 — ₹1,50,000</option>
+                                    <option>₹1,50,000 — ₹3,00,000</option>
+                                    <option>₹3,00,000+</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>How did you hear about us?</label>
+                                <select>
+                                    <option value="">Select an option</option>
+                                    <option>Google Search</option>
+                                    <option>Social Media</option>
+                                    <option>Referral</option>
+                                    <option>Dribbble/Behance</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Tell us about your project</label>
+                            <textarea rows="4" placeholder="Tell us about your product and goals."></textarea>
+                        </div>
+                        <div>
+                            <div style="font-size:13px;font-weight:600;color:var(--text-secondary);margin-bottom:10px">How can we help you?</div>
+                            <div class="form-help-chips">
+                                <label>UI/UX Design</label>
+                                <label>SaaS Design</label>
+                                <label>Branding</label>
+                                <label>CRO</label>
+                                <label>Mobile app</label>
+                                <label>Development</label>
+                                <label>MVP Development</label>
+                                <label>Web Design</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" style="margin-top:8px">Send message →</button>
+                        <div class="form-alt">Prefer email? <a href="mailto:contact@designit.co.in">contact@designit.co.in</a></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trusted By -->
+        <section class="trusted-by">
+            <div class="container">
+                <span class="sec-label">Trusted by</span>
+                <h3>Industry Leaders And Visionary Startups</h3>
+                <div class="logo-strip">
+                    <span>Omniyat</span>
+                    <span>Liv</span>
+                    <span>Kelp</span>
+                    <span>Driveit</span>
+                    <span>OpenXcell</span>
+                    <span>Tata Elxsi</span>
+                    <span>Adda247</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- What To Expect -->
+        <section class="expect-section">
+            <div class="container">
+                <div class="expect-layout">
+                    <h2>What To Expect.<br>Fourth Base On<br>A First Date?</h2>
+                    <div class="expect-steps">
+                        <div class="expect-step" data-anim>
+                            <span class="expect-step-num">01.</span>
+                            <h4>Send us a message</h4>
+                            <p>Tell us about your project and goals. We'll review within 24 hours.</p>
+                        </div>
+                        <div class="expect-step" data-anim>
+                            <span class="expect-step-num">02.</span>
+                            <h4>We will get back to you soon</h4>
+                            <p>You'll hear from a senior designer — not a sales rep — within one business day.</p>
+                        </div>
+                        <div class="expect-step" data-anim>
+                            <span class="expect-step-num">03.</span>
+                            <h4>Meet and proposal</h4>
+                            <p>We'll present a clear scope, timeline, and fixed quote. No hidden fees.</p>
+                        </div>
+                        <div class="expect-step" data-anim>
+                            <span class="expect-step-num">04.</span>
+                            <h4>Let's collaborate!</h4>
+                            <p>Once approved, we start within 48 hours. Weekly updates, direct Slack access, full transparency.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Timeline -->
+        <section class="process-section" id="process">
+            <div class="container">
+                <div class="center">
+                    <h2 class="sec-title">A Rigorous Process That Moves<br>At The Speed Of Business</h2>
+                </div>
+                <div class="layout" style="margin-top:48px">
+                    <div class="process-steps">
+                        <div class="process-step active">
+                            <span class="process-step-num">Step 01</span>
+                            <h4>Strategic Onboarding (&lt;24 Hours)</h4>
+                            <p>We align on goals, KPIs, and timelines in a focused kickoff.</p>
+                        </div>
+                        <div class="process-step">
+                            <span class="process-step-num">Step 02</span>
+                            <h4>Deep Dive & Scoping (2-3 Days)</h4>
+                            <p>We immerse in your business context to define a precise project roadmap.</p>
+                        </div>
+                        <div class="process-step">
+                            <span class="process-step-num">Step 03</span>
+                            <h4>Tangible Designs in 5 Days</h4>
+                            <p>You see high-fidelity concepts for immediate feedback — no vague wireframes.</p>
+                        </div>
+                    </div>
+                    <div class="process-visual">
+                        <div class="process-testimonial">
+                            <blockquote>"The speed and clarity of their process was a game-changer. We had actionable designs and a clear path forward in the first week."</blockquote>
+                            <cite>
+                                Ronil Mehta
+                                <span>Founder, Portle</span>
+                            </cite>
+                            <div style="margin-top:24px">
+                                <a href="#contact" class="btn btn-primary btn-sm">Contact Us →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location -->
+        <section class="location-section">
+            <div class="container">
+                <div class="location-header">
+                    <span class="sec-label">LOCATION</span>
+                    <h2>Uptime. Performance.<br>Security. Let's Talk.</h2>
+                    <div class="location-pills">
+                        <button class="location-pill active">Offices</button>
+                        <button class="location-pill">Clients</button>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1400" alt="Map" class="location-map-bg" loading="lazy">
+                    <div class="location-card">
+                        <div class="location-card-flag"></div>
+                        <h4>India</h4>
+                        <p>PT, Sarvopari, Mahalasa,<br>Sanskruti-pari, 380006,<br>Gujarat, India</p>
+                    </div>
+                </div>
+                <div class="location-ctas">
+                    <a href="mailto:contact@designit.co.in" class="btn btn-outline btn-sm">contact@designit.co.in →</a>
+                    <a href="#contact" class="btn btn-primary btn-sm">Book a call →</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo"><img src="logo.svg" alt="designit" height="32"></a>
+                    <p>Designit is a global UI/UX design agency that boosts brand value with user-friendly, effective designs for web, mobile, and SaaS platforms.</p>
+                    <a href="#" class="btn btn-outline btn-sm">Company Deck ↓</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <a href="#">UI UX Design</a>
+                    <a href="#">Design System Development</a>
+                    <a href="#">UI/UX Strategy & Consulting</a>
+                    <a href="#">Heuristic Evaluation</a>
+                    <a href="#">UX Research & Discovery</a>
+                    <a href="#">UX Design Audit & Analysis</a>
+                    <a href="#">Digital Prototyping</a>
+                    <a href="#">Usability Testing</a>
+                    <a href="#">Digital Branding & Identity</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="projects.html">Our Work</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="careers.html">Careers</a>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h4>Contact</h4>
+                    <div class="fc-item">
+                        <div class="fc-label">Location</div>
+                        <div class="fc-value">Noida Sector 45, Uttar Pradesh, India</div>
+                    </div>
+                    <div class="fc-item">
+                        <div class="fc-label">Email</div>
+                        <div class="fc-value">contact@designit.co.in</div>
+                    </div>
+                    <div class="fc-item">
+                        <div class="fc-label">Call Us</div>
+                        <div class="fc-value">+91 8564948954</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-lang">
+                <label for="langSelect">🌐</label>
+                <select id="langSelect" class="lang-select">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </div>
+            <div class="footer-bottom">
+                <span>designit LLC © 2025</span>
+                <div class="footer-socials">
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                </div>
+            </div>
+            <div class="footer-wordmark">design<span>it</span></div>
+        </div>
+    </footer>
+
+    <script src="theme.js"></script>
+
+    <script src="i18n.js"></script>
+
+    <script src="intake-form.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Location pill toggle
+        document.querySelectorAll('.location-pill').forEach(pill => {
+            pill.addEventListener('click', () => {
+                document.querySelectorAll('.location-pill').forEach(p => p.classList.remove('active'));
+                pill.classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>

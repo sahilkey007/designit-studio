@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Class Module — Adda 247 | Designit Case Study</title>
+    <meta name="description" content="In-house live streaming module replacing third-party services with real-time interaction, content sharing, and engagement tools for competitive exam preparation.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../theme.css">
+    <link rel="stylesheet" href="../../intake-form.css">
+    <style>
+        .pd-hero { background: var(--bg-gradient-hero); padding: 140px 48px 80px; text-align: center; color: #fff; }
+        .pd-hero .sec-label { color: rgba(255,255,255,0.6); }
+        .pd-hero h1 { font-size: 48px; font-weight: 700; color: #fff; letter-spacing: -2px; line-height: 1.15; margin-bottom: 16px; }
+        .pd-hero p { font-size: 18px; color: rgba(255,255,255,0.8); max-width: 640px; margin: 0 auto 32px; line-height: 1.7; }
+        .pd-hero-chips { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+        .pd-hero-chips span { padding: 8px 18px; border: 1px solid rgba(255,255,255,0.25); border-radius: 100px; font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.85); }
+        .pd-hero-img { padding: 0 48px; margin-top: -40px; margin-bottom: 80px; }
+        .pd-hero-img .container { max-width: 1100px; margin: 0 auto; }
+        .pd-hero-img img { width: 100%; border-radius: 24px; box-shadow: 0 24px 60px rgba(0,0,0,0.15); display: block; }
+        .pd-section { padding: 80px 0; }
+        .pd-section-alt { padding: 80px 0; background: var(--bg-secondary); }
+        .pd-section-dark { padding: 80px 0; background: var(--bg-dark); color: #fff; }
+        .pd-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+        .pd-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .pd-meta-card { padding: 20px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-meta-card .label { font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 6px; }
+        .pd-meta-card .value { font-size: 15px; font-weight: 600; color: var(--text-primary); line-height: 1.4; }
+        .pd-results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 48px; }
+        .pd-result-card { text-align: center; padding: 40px 24px; border: 1px solid var(--border-light); border-radius: 20px; background: var(--bg-page); }
+        .pd-result-num { font-size: 48px; font-weight: 700; letter-spacing: -2px; color: var(--text-primary); line-height: 1; margin-bottom: 8px; }
+        .pd-result-label { font-size: 15px; color: var(--text-secondary); }
+        .pd-process-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 40px; }
+        .pd-process-step { padding: 32px; border: 1px solid var(--border-light); border-radius: 20px; transition: all 0.3s ease; }
+        .pd-process-step:hover { border-color: var(--border-medium); box-shadow: 0 4px 12px rgba(0,0,0,0.06); transform: translateY(-2px); }
+        .pd-process-num { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+        .pd-process-step h4 { font-size: 20px; font-weight: 600; margin-bottom: 8px; color: var(--text-primary); }
+        .pd-process-step p { font-size: 15px; color: var(--text-secondary); line-height: 1.6; }
+        .pd-gallery { display: grid; grid-template-columns: 1fr; gap: 32px; margin-top: 40px; }
+        .pd-gallery img { width: 100%; border-radius: 20px; display: block; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .pd-gallery-2col { grid-template-columns: 1fr 1fr; }
+        .pd-nav { display: flex; justify-content: space-between; align-items: center; padding: 40px 0; border-top: 1px solid var(--border-light); margin-top: 40px; }
+        .pd-nav a { font-size: 15px; font-weight: 600; color: var(--text-primary); display: flex; align-items: center; gap: 8px; transition: color 0.2s; }
+        .pd-nav a:hover { color: var(--text-secondary); }
+        .pd-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+        .pd-feature { padding: 28px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-feature h4 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+        .pd-feature p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+        @media(max-width:768px) {
+            .pd-hero { padding: 120px 24px 60px; }
+            .pd-hero h1 { font-size: 36px; }
+            .pd-hero-img { padding: 0 24px; }
+            .pd-grid { grid-template-columns: 1fr; gap: 40px; }
+            .pd-meta-grid { grid-template-columns: 1fr; }
+            .pd-results-grid { grid-template-columns: 1fr; }
+            .pd-process-steps { grid-template-columns: 1fr; }
+            .pd-features { grid-template-columns: 1fr; }
+            .pd-gallery-2col { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a>
+        <nav class="nav-links" id="navLinks">
+            <a href="../../index.html#services">Services</a>
+            <a href="../../projects.html" class="active">Case studies <span class="badge">05</span></a>
+            <a href="../../pricing.html">Pricing</a>
+            <a href="../../about.html">About us</a>
+            <a href="../../blog.html">Blog</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+        <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary btn-sm nav-cta">Contact Us &rarr;</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </header>
+
+    <!-- HERO -->
+    <section class="pd-hero">
+        <span class="sec-label">ADDA 247 / LIVE CLASS</span>
+        <h1>Live Class Module</h1>
+        <p>In-house live streaming module replacing third-party services — built for real-time interaction, content sharing, and meaningful student-teacher engagement.</p>
+        <div class="pd-hero-chips">
+            <span>Product Design</span>
+            <span>Interaction Design</span>
+            <span>Real-time UX</span>
+            <span>Mobile First</span>
+        </div>
+    </section>
+
+    <!-- HERO IMAGE -->
+    <section class="pd-hero-img">
+        <div class="container">
+            <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Flive-class%2Fasset1.png&w=1920&q=75" alt="Live Class Module — Designit case study" loading="lazy">
+        </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section class="pd-section">
+        <div class="container">
+            <div class="pd-grid">
+                <div>
+                    <span class="sec-label">Overview</span>
+                    <h2 class="sec-title" style="font-size:40px;">The Challenge &amp; Opportunity</h2>
+                    <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;">Adda 247 relied on third-party streaming services for live classes, which created a fragmented learning experience. Students had to switch between apps, engagement was passive, and the platform had no control over the streaming quality or features. We designed a fully integrated in-house live class module that transforms passive video watching into active, interactive learning sessions — complete with real-time Q&amp;A, in-class polls, resource sharing, and attendance tracking.</p>
+                </div>
+                <div class="pd-meta-grid">
+                    <div class="pd-meta-card"><div class="label">Client</div><div class="value">Adda 247</div></div>
+                    <div class="pd-meta-card"><div class="label">Category</div><div class="value">EdTech</div></div>
+                    <div class="pd-meta-card"><div class="label">Services</div><div class="value">Product Design, Interaction Design, Real-time UX</div></div>
+                    <div class="pd-meta-card"><div class="label">Tools</div><div class="value">Figma, Prototyping</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEM STATEMENT -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">The Problem</span>
+            <h2 class="sec-title" style="font-size:40px;">What Needed to Change</h2>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;">Third-party streaming was unreliable, expensive, and completely disconnected from the learning platform. Students would join a Zoom-like call, passively watch the teacher, and have no way to interact meaningfully with the content being taught. There was no mechanism for teachers to share PDFs, slides, or practice questions during the live session — they had to upload materials separately, creating a disjointed experience.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-top:16px;">Engagement metrics were alarming: average session duration was only 12 minutes despite classes being 60-90 minutes long. Students would join, watch briefly, and leave — there was no reason to stay engaged. Teachers had no way to gauge comprehension in real-time, ask poll questions, or identify which students were struggling. The lack of integrated attendance tracking also meant there was no accountability or motivation for consistent participation.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-top:16px;">From a business perspective, the third-party streaming costs were significant — eating into margins on a per-student basis. More critically, the poor live class experience was a major factor in low conversion from free to paid tiers, since live classes were a key premium differentiator that wasn't delivering on its promise.</p>
+        </div>
+    </section>
+
+    <!-- DESIGN PROCESS -->
+    <section class="pd-section">
+        <div class="container">
+            <span class="sec-label">Design Process</span>
+            <h2 class="sec-title" style="font-size:40px;">How We Approached It</h2>
+            <div class="pd-process-steps">
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 01</div>
+                    <h4>Discovery &amp; Research</h4>
+                    <p>We studied leading streaming platforms — Zoom, Google Meet, Twitch, and proprietary EdTech solutions like Unacademy and BYJU's — to understand the landscape of live learning interfaces. We conducted interviews with 30 teachers and 100 students to map their ideal live class experience. Key finding: teachers wanted tools to check comprehension mid-class, while students wanted the ability to ask doubts without interrupting the flow. We also analyzed bandwidth constraints across tier-2 and tier-3 cities where most users lived.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 02</div>
+                    <h4>Information Architecture</h4>
+                    <p>We designed an interaction model that supported five parallel activities: video streaming, live chat, Q&amp;A queue, resource sharing, and poll/quiz participation. The challenge was fitting all of this into a single screen without overwhelming the user. We created a priority-based layout system where the most relevant panel expands based on context — when the teacher launches a poll, the poll panel auto-expands; when a doubt is being answered, the Q&amp;A panel takes focus. Attendance tracking ran silently in the background.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 03</div>
+                    <h4>Wireframing &amp; Prototyping</h4>
+                    <p>We built interactive prototypes testing three different layouts for the video + content + chat trifecta. Layout A was a traditional sidebar chat; Layout B used a bottom drawer for interactions; Layout C employed a floating panel system. We tested each with 15 students in simulated live class conditions. Layout C won — students appreciated the ability to resize and reposition panels based on their preference. We also prototyped the teacher-side interface, ensuring they could manage polls, resources, and Q&amp;A without interrupting their teaching flow.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 04</div>
+                    <h4>Visual Design &amp; Handoff</h4>
+                    <p>We created adaptive layouts optimized for mobile-first experience, since 78% of students attended live classes from phones. The mobile design used a tabbed interface switching between video, chat, and resources — keeping each context clean and focused. Bandwidth optimization was a key design consideration: we designed graceful degradation states for low-bandwidth scenarios, including audio-only mode with slide sync. The handoff package included 45 screens, micro-interaction specifications, and edge-case documentation for network interruptions and reconnection flows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">The Solution</span>
+            <h2 class="sec-title" style="font-size:40px;">What We Built</h2>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-bottom:48px;">A fully integrated live class experience that transforms passive video watching into active, participatory learning. The interface adapts fluidly between teaching modes — lecture, Q&amp;A, quiz, and resource sharing — with each mode optimizing the screen layout for the current activity. Teachers have a dedicated control panel for managing class flow, launching polls, pinning important messages, and tracking student engagement in real-time.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-bottom:48px;">The recording and playback system captures not just the video but the entire interactive experience — including chat timeline, poll results, and shared resources — so students who missed the live session get a near-identical experience during replay. Smart notifications remind students of upcoming classes, and a post-class summary automatically generates highlights and key takeaways.</p>
+        </div>
+    </section>
+
+    <!-- KEY FEATURES -->
+    <section class="pd-section">
+        <div class="container">
+            <span class="sec-label">Key Features</span>
+            <h2 class="sec-title" style="font-size:40px;">Design Highlights</h2>
+            <div class="pd-features">
+                <div class="pd-feature">
+                    <h4>In-class Polls &amp; Quizzes</h4>
+                    <p>Teachers can launch instant comprehension checks during the session. Results appear in real-time, letting teachers adjust pace based on understanding levels.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Live Doubt Resolution</h4>
+                    <p>A structured Q&amp;A queue where students submit doubts, upvote popular questions, and get answers without disrupting the class flow for everyone.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Resource Sharing</h4>
+                    <p>Teachers share PDFs, slides, and practice questions directly within the class interface. Students can bookmark, download, and annotate shared materials in real-time.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Attendance Tracking</h4>
+                    <p>Automated attendance based on active participation time, not just join/leave timestamps. Streak tracking motivates consistent class attendance.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Recording &amp; Playback</h4>
+                    <p>Full-fidelity recording capturing video, chat, polls, and resources in a synchronized playback experience — with speed controls and chapter markers.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Multi-device Support</h4>
+                    <p>Seamless experience across phone, tablet, and desktop with responsive layouts. Start on your phone during commute, continue on desktop at home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VISUAL GALLERY -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">Visual Design</span>
+            <h2 class="sec-title" style="font-size:40px;">The Final Product</h2>
+            <div class="pd-gallery">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Flive-class%2Fasset1.png&w=1920&q=75" alt="Live Class — main interface" loading="lazy">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Flive-class%2Fasset2.png&w=1920&q=75" alt="Live Class — interaction panels" loading="lazy">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Flive-class%2Fasset3.png&w=1920&q=75" alt="Live Class — mobile experience" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="pd-section">
+        <div class="container center">
+            <span class="sec-label">Results</span>
+            <h2 class="sec-title" style="font-size:40px;">Measurable Impact</h2>
+            <div class="pd-results-grid">
+                <div class="pd-result-card">
+                    <div class="pd-result-num">72%</div>
+                    <div class="pd-result-label">Increase in class attendance</div>
+                </div>
+                <div class="pd-result-card">
+                    <div class="pd-result-num">40%</div>
+                    <div class="pd-result-label">Longer average session duration</div>
+                </div>
+                <div class="pd-result-card">
+                    <div class="pd-result-num">3x</div>
+                    <div class="pd-result-label">Improvement in engagement metrics</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT NAVIGATION -->
+    <section class="pd-section" style="padding:40px 0;">
+        <div class="container">
+            <div class="pd-nav">
+                <a href="test-series.html">&larr; Previous Project</a>
+                <a href="../adda247.html">All Adda 247 Projects</a>
+                <a href="ios-app.html">Next Project &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="pd-section-dark" style="text-align:center;">
+        <div class="container">
+            <h2 style="font-size:40px;font-weight:700;color:#fff;margin-bottom:16px;">Have a similar challenge?</h2>
+            <p style="font-size:18px;color:rgba(255,255,255,0.7);margin-bottom:32px;">Let's solve it together.</p>
+            <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background:#fff;color:#0A0A0A;">Start Your Project &rarr;</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a>
+                    <p>Designit is a global UI/UX design agency that boosts brand value with user-friendly, effective designs for web, mobile, and SaaS platforms.</p>
+                    <a href="#" class="btn btn-outline btn-sm">Company Deck &darr;</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <a href="#">UI UX Design</a>
+                    <a href="#">Design System Development</a>
+                    <a href="#">UI/UX Strategy &amp; Consulting</a>
+                    <a href="#">UX Research &amp; Discovery</a>
+                    <a href="#">UX Design Audit &amp; Analysis</a>
+                    <a href="#">Digital Prototyping</a>
+                    <a href="#">Digital Branding &amp; Identity</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="../../projects.html">Our Work</a>
+                    <a href="../../about.html">About Us</a>
+                    <a href="#contact">Contact</a>
+                    <a href="../../careers.html">Careers</a>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h4>Contact</h4>
+                    <div class="fc-item"><div class="fc-label">Location</div><div class="fc-value">Noida Sector 45, Uttar Pradesh, India</div></div>
+                    <div class="fc-item"><div class="fc-label">Email</div><div class="fc-value">contact@designit.co.in</div></div>
+                    <div class="fc-item"><div class="fc-label">Call Us</div><div class="fc-value">+91 8564948954</div></div>
+                </div>
+            </div>
+            <div class="footer-lang">
+                <label for="langSelect">🌐</label>
+                <select id="langSelect" class="lang-select">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </div>
+            <div class="footer-bottom">
+                <span>designit LLC &copy; 2025</span>
+                <div class="footer-socials">
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Twitter">&#120143;</a>
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                </div>
+            </div>
+            <div class="footer-wordmark">design<span>it</span></div>
+        </div>
+    </footer>
+
+    <script src="../../theme.js"></script>
+
+    <script src="../../i18n.js"></script>
+
+    <script src="../../intake-form.js"></script>
+    <script src="../../script.js"></script>
+
+</body>
+</html>

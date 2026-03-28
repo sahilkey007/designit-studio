@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Series Enhancement — Adda 247 | Designit Case Study</title>
+    <meta name="description" content="Comprehensive upgrade of the online test-taking experience for competitive exam students with real-time progress tracking and smart question navigation.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../theme.css">
+    <link rel="stylesheet" href="../../intake-form.css">
+    <style>
+        .pd-hero { background: var(--bg-gradient-hero); padding: 140px 48px 80px; text-align: center; color: #fff; }
+        .pd-hero .sec-label { color: rgba(255,255,255,0.6); }
+        .pd-hero h1 { font-size: 48px; font-weight: 700; color: #fff; letter-spacing: -2px; line-height: 1.15; margin-bottom: 16px; }
+        .pd-hero p { font-size: 18px; color: rgba(255,255,255,0.8); max-width: 640px; margin: 0 auto 32px; line-height: 1.7; }
+        .pd-hero-chips { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+        .pd-hero-chips span { padding: 8px 18px; border: 1px solid rgba(255,255,255,0.25); border-radius: 100px; font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.85); }
+        .pd-hero-img { padding: 0 48px; margin-top: -40px; margin-bottom: 80px; }
+        .pd-hero-img .container { max-width: 1100px; margin: 0 auto; }
+        .pd-hero-img img { width: 100%; border-radius: 24px; box-shadow: 0 24px 60px rgba(0,0,0,0.15); display: block; }
+        .pd-section { padding: 80px 0; }
+        .pd-section-alt { padding: 80px 0; background: var(--bg-secondary); }
+        .pd-section-dark { padding: 80px 0; background: var(--bg-dark); color: #fff; }
+        .pd-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+        .pd-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .pd-meta-card { padding: 20px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-meta-card .label { font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 6px; }
+        .pd-meta-card .value { font-size: 15px; font-weight: 600; color: var(--text-primary); line-height: 1.4; }
+        .pd-results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 48px; }
+        .pd-result-card { text-align: center; padding: 40px 24px; border: 1px solid var(--border-light); border-radius: 20px; background: var(--bg-page); }
+        .pd-result-num { font-size: 48px; font-weight: 700; letter-spacing: -2px; color: var(--text-primary); line-height: 1; margin-bottom: 8px; }
+        .pd-result-label { font-size: 15px; color: var(--text-secondary); }
+        .pd-process-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 40px; }
+        .pd-process-step { padding: 32px; border: 1px solid var(--border-light); border-radius: 20px; transition: all 0.3s ease; }
+        .pd-process-step:hover { border-color: var(--border-medium); box-shadow: 0 4px 12px rgba(0,0,0,0.06); transform: translateY(-2px); }
+        .pd-process-num { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+        .pd-process-step h4 { font-size: 20px; font-weight: 600; margin-bottom: 8px; color: var(--text-primary); }
+        .pd-process-step p { font-size: 15px; color: var(--text-secondary); line-height: 1.6; }
+        .pd-gallery { display: grid; grid-template-columns: 1fr; gap: 32px; margin-top: 40px; }
+        .pd-gallery img { width: 100%; border-radius: 20px; display: block; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .pd-gallery-2col { grid-template-columns: 1fr 1fr; }
+        .pd-nav { display: flex; justify-content: space-between; align-items: center; padding: 40px 0; border-top: 1px solid var(--border-light); margin-top: 40px; }
+        .pd-nav a { font-size: 15px; font-weight: 600; color: var(--text-primary); display: flex; align-items: center; gap: 8px; transition: color 0.2s; }
+        .pd-nav a:hover { color: var(--text-secondary); }
+        .pd-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+        .pd-feature { padding: 28px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-feature h4 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+        .pd-feature p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+        @media(max-width:768px) {
+            .pd-hero { padding: 120px 24px 60px; }
+            .pd-hero h1 { font-size: 36px; }
+            .pd-hero-img { padding: 0 24px; }
+            .pd-grid { grid-template-columns: 1fr; gap: 40px; }
+            .pd-meta-grid { grid-template-columns: 1fr; }
+            .pd-results-grid { grid-template-columns: 1fr; }
+            .pd-process-steps { grid-template-columns: 1fr; }
+            .pd-features { grid-template-columns: 1fr; }
+            .pd-gallery-2col { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a>
+        <nav class="nav-links" id="navLinks">
+            <a href="../../index.html#services">Services</a>
+            <a href="../../projects.html" class="active">Case studies <span class="badge">05</span></a>
+            <a href="../../pricing.html">Pricing</a>
+            <a href="../../about.html">About us</a>
+            <a href="../../blog.html">Blog</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+        <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary btn-sm nav-cta">Contact Us &rarr;</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </header>
+
+    <!-- HERO -->
+    <section class="pd-hero">
+        <span class="sec-label">ADDA 247 / TEST SERIES</span>
+        <h1>Test Series Enhancement</h1>
+        <p>Comprehensive upgrade of the online test-taking experience for competitive exam students — from question navigation to performance analytics.</p>
+        <div class="pd-hero-chips">
+            <span>UI/UX Design</span>
+            <span>User Research</span>
+            <span>Prototyping</span>
+            <span>Data Visualization</span>
+        </div>
+    </section>
+
+    <!-- HERO IMAGE -->
+    <section class="pd-hero-img">
+        <div class="container">
+            <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Ftest-series%2Fasset1.png&w=1920&q=75" alt="Test Series Enhancement — Designit case study" loading="lazy">
+        </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section class="pd-section">
+        <div class="container">
+            <div class="pd-grid">
+                <div>
+                    <span class="sec-label">Overview</span>
+                    <h2 class="sec-title" style="font-size:40px;">The Challenge &amp; Opportunity</h2>
+                    <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;">Adda 247's test series is the backbone of its competitive exam preparation platform, used by millions of students daily to practice mock tests for SSC, Banking, Railways, and other government exams. The existing test player was functional but dated — it created unnecessary friction during high-stakes practice sessions. Students struggled with navigation, lost track of time, and had limited insight into their performance after completing tests. We saw an opportunity to transform this core experience into something that genuinely helps students perform better under pressure while providing actionable post-test analytics.</p>
+                </div>
+                <div class="pd-meta-grid">
+                    <div class="pd-meta-card"><div class="label">Client</div><div class="value">Adda 247</div></div>
+                    <div class="pd-meta-card"><div class="label">Category</div><div class="value">EdTech</div></div>
+                    <div class="pd-meta-card"><div class="label">Services</div><div class="value">UI/UX Design, User Research, Data Visualization</div></div>
+                    <div class="pd-meta-card"><div class="label">Tools</div><div class="value">Figma, Prototyping</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEM STATEMENT -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">The Problem</span>
+            <h2 class="sec-title" style="font-size:40px;">What Needed to Change</h2>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;">Students found the existing test interface confusing and anxiety-inducing. The UI did not simulate real exam conditions, which meant students were unprepared for the actual test environment when exam day arrived. Navigation between questions was clunky — requiring multiple clicks to move between sections — which caused unnecessary time loss during timed practice sessions.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-top:16px;">Performance analytics were limited to basic score summaries. Students had no way to identify their weak areas, track improvement trends over time, or understand which question types consumed the most time. This meant study time was spent inefficiently, with students re-practicing topics they already knew well while neglecting areas that needed attention.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-top:16px;">Support tickets related to the test series module accounted for nearly 40% of all customer queries — ranging from confusion about question status indicators to inability to resume interrupted tests. The business impact was clear: low test completion rates, poor retention after initial sign-up, and negative app store reviews citing the test experience specifically.</p>
+        </div>
+    </section>
+
+    <!-- DESIGN PROCESS -->
+    <section class="pd-section">
+        <div class="container">
+            <span class="sec-label">Design Process</span>
+            <h2 class="sec-title" style="font-size:40px;">How We Approached It</h2>
+            <div class="pd-process-steps">
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 01</div>
+                    <h4>Discovery &amp; Research</h4>
+                    <p>We conducted in-depth interviews with 50+ students across different exam categories — SSC, Banking, and Railways aspirants — to understand their pain points during mock tests. We analyzed completion rate data across 10,000+ test sessions to identify exact drop-off points. Competitive analysis of 8 rival platforms revealed industry best practices and gaps. We also shadowed 15 students during live test sessions, documenting every moment of confusion, hesitation, or frustration.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 02</div>
+                    <h4>Information Architecture</h4>
+                    <p>We mapped the complete test-taking journey from test selection through to performance review — a flow spanning 23 distinct screens. Through this mapping, we identified 12 critical friction points in the existing journey, including redundant confirmation screens, unclear question status indicators, and a confusing section-switching mechanism. We redesigned the navigation hierarchy to prioritize the most common actions: answering, flagging, skipping, and reviewing questions.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 03</div>
+                    <h4>Wireframing &amp; Prototyping</h4>
+                    <p>We created low-fidelity wireframes for the test player, question navigator, section timer, and results dashboard. Three distinct layout approaches were explored — sidebar navigation, bottom-bar navigation, and an overlay panel approach. Each was prototyped as an interactive Figma prototype and tested with 20 students in moderated usability sessions. The sidebar approach won decisively, with 85% of testers finding it the most intuitive for tracking progress during tests.</p>
+                </div>
+                <div class="pd-process-step">
+                    <div class="pd-process-num">Phase 04</div>
+                    <h4>Visual Design &amp; Handoff</h4>
+                    <p>The final visual design system introduced a calming color palette to reduce test anxiety, clear typographic hierarchy for readability under pressure, and prominent but non-distracting progress indicators. We delivered pixel-perfect screens for all 23 flows, a comprehensive component library with 60+ reusable components, and detailed interaction specifications. Developer handoff included annotated Figma files, a behavior specification document, and weekly sync sessions during the 6-week build phase.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">The Solution</span>
+            <h2 class="sec-title" style="font-size:40px;">What We Built</h2>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-bottom:48px;">We reimagined the test player from the ground up with a focus on reducing cognitive load during high-pressure timed sessions. The new interface features a persistent sidebar with a visual question map showing answered, unanswered, flagged, and skipped questions at a glance. Section-wise timers help students allocate time strategically across different parts of the exam.</p>
+            <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;max-width:800px;margin-bottom:48px;">The post-test analytics dashboard was completely rebuilt to provide actionable insights — not just scores. Students can now drill down into time-per-question analysis, accuracy by topic, difficulty-level performance, and comparative rankings against peers. An intelligent recommendation engine suggests which topics to focus on based on historical performance patterns, turning raw data into a personalized study plan.</p>
+        </div>
+    </section>
+
+    <!-- KEY FEATURES -->
+    <section class="pd-section">
+        <div class="container">
+            <span class="sec-label">Key Features</span>
+            <h2 class="sec-title" style="font-size:40px;">Design Highlights</h2>
+            <div class="pd-features">
+                <div class="pd-feature">
+                    <h4>Real-time Progress Tracking</h4>
+                    <p>A persistent visual question map showing answered, unanswered, flagged, and skipped questions — providing instant awareness of test completion status without breaking focus.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Smart Question Navigator</h4>
+                    <p>One-click navigation to any question with color-coded status indicators and keyboard shortcuts for power users, reducing navigation time by 60%.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Section-wise Timer</h4>
+                    <p>Individual countdown timers for each test section with visual warnings at threshold points, helping students allocate time strategically across the exam.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Detailed Performance Analytics</h4>
+                    <p>Post-test dashboard with time-per-question analysis, topic-wise accuracy, difficulty breakdown, and peer comparison — turning scores into study strategies.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Exam Simulation Mode</h4>
+                    <p>Full-screen distraction-free mode that mirrors actual exam conditions including section locks, time limits, and negative marking — preparing students for reality.</p>
+                </div>
+                <div class="pd-feature">
+                    <h4>Review &amp; Retry System</h4>
+                    <p>Comprehensive post-test review with detailed solutions, the ability to retry only incorrect questions, and spaced-repetition reminders for weak topics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VISUAL GALLERY -->
+    <section class="pd-section-alt">
+        <div class="container">
+            <span class="sec-label">Visual Design</span>
+            <h2 class="sec-title" style="font-size:40px;">The Final Product</h2>
+            <div class="pd-gallery">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Ftest-series%2Fasset1.png&w=1920&q=75" alt="Test Series — main interface" loading="lazy">
+                <div class="pd-gallery pd-gallery-2col" style="margin-top:0;">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Ftest-series%2Fasset2.png&w=1920&q=75" alt="Test Series — question navigator" loading="lazy">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Ftest-series%2Fasset3.png&w=1920&q=75" alt="Test Series — analytics" loading="lazy">
+                </div>
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Ftest-series%2Fasset4.png&w=1920&q=75" alt="Test Series — results dashboard" loading="lazy">
+                <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Ftest-series%2Fasset5.png&w=1920&q=75" alt="Test Series — review mode" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="pd-section">
+        <div class="container center">
+            <span class="sec-label">Results</span>
+            <h2 class="sec-title" style="font-size:40px;">Measurable Impact</h2>
+            <div class="pd-results-grid">
+                <div class="pd-result-card">
+                    <div class="pd-result-num">45%</div>
+                    <div class="pd-result-label">Increase in test completion rate</div>
+                </div>
+                <div class="pd-result-card">
+                    <div class="pd-result-num">30%</div>
+                    <div class="pd-result-label">More time spent on analytics</div>
+                </div>
+                <div class="pd-result-card">
+                    <div class="pd-result-num">60%</div>
+                    <div class="pd-result-label">Reduction in support queries</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT NAVIGATION -->
+    <section class="pd-section" style="padding:40px 0;">
+        <div class="container">
+            <div class="pd-nav">
+                <a href="performance-dashboard.html">&larr; Previous Project</a>
+                <a href="../adda247.html">All Adda 247 Projects</a>
+                <a href="live-class.html">Next Project &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="pd-section-dark" style="text-align:center;">
+        <div class="container">
+            <h2 style="font-size:40px;font-weight:700;color:#fff;margin-bottom:16px;">Have a similar challenge?</h2>
+            <p style="font-size:18px;color:rgba(255,255,255,0.7);margin-bottom:32px;">Let's solve it together.</p>
+            <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background:#fff;color:#0A0A0A;">Start Your Project &rarr;</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../../index.html" class="logo"><img src="../../logo.svg" alt="designit" height="32"></a>
+                    <p>Designit is a global UI/UX design agency that boosts brand value with user-friendly, effective designs for web, mobile, and SaaS platforms.</p>
+                    <a href="#" class="btn btn-outline btn-sm">Company Deck &darr;</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <a href="#">UI UX Design</a>
+                    <a href="#">Design System Development</a>
+                    <a href="#">UI/UX Strategy &amp; Consulting</a>
+                    <a href="#">UX Research &amp; Discovery</a>
+                    <a href="#">UX Design Audit &amp; Analysis</a>
+                    <a href="#">Digital Prototyping</a>
+                    <a href="#">Digital Branding &amp; Identity</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="../../projects.html">Our Work</a>
+                    <a href="../../about.html">About Us</a>
+                    <a href="#contact">Contact</a>
+                    <a href="../../careers.html">Careers</a>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h4>Contact</h4>
+                    <div class="fc-item"><div class="fc-label">Location</div><div class="fc-value">Noida Sector 45, Uttar Pradesh, India</div></div>
+                    <div class="fc-item"><div class="fc-label">Email</div><div class="fc-value">contact@designit.co.in</div></div>
+                    <div class="fc-item"><div class="fc-label">Call Us</div><div class="fc-value">+91 8564948954</div></div>
+                </div>
+            </div>
+            <div class="footer-lang">
+                <label for="langSelect">🌐</label>
+                <select id="langSelect" class="lang-select">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </div>
+            <div class="footer-bottom">
+                <span>designit LLC &copy; 2025</span>
+                <div class="footer-socials">
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Twitter">&#120143;</a>
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                </div>
+            </div>
+            <div class="footer-wordmark">design<span>it</span></div>
+        </div>
+    </footer>
+
+    <script src="../../theme.js"></script>
+
+    <script src="../../i18n.js"></script>
+
+    <script src="../../intake-form.js"></script>
+    <script src="../../script.js"></script>
+
+</body>
+</html>
