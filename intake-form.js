@@ -330,14 +330,29 @@
     /* ---------- submit ---------- */
 
     function submitForm() {
-        console.log('Intake form submitted:', JSON.stringify(formData, null, 2));
-        /* In production, send to your backend here, e.g.:
-        fetch('/api/intake', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(formData)
+        var payload = Object.assign({}, formData, {
+            access_key: '47d61ba4-4432-4e45-930e-9888feb0e34f',
+            subject: '🚀 New Lead: ' + (formData.fullName || 'Unknown') + ' — ' + (formData.projectType || 'Project Inquiry'),
+            from_name: 'Designit Website',
+            replyto: formData.email
         });
-        */
+
+        fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify(payload)
+        })
+        .then(function(res) { return res.json(); })
+        .then(function(data) {
+            if (data.success) {
+                console.log('Lead submitted successfully:', formData.email);
+            } else {
+                console.error('Web3Forms error:', data.message);
+            }
+        })
+        .catch(function(err) {
+            console.error('Form submission failed:', err);
+        });
     }
 
     /* ---------- event binding ---------- */
