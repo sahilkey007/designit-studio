@@ -2155,3 +2155,106 @@
     order: 2;
   }
 }
+
+/* ============================================
+   ABOUT PAGE — FOUNDER + RECOMMENDERS
+   ============================================ */
+.founder-card {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 48px;
+  align-items: center;
+  background: #161616;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: 48px;
+  margin-top: 56px;
+}
+.founder-img {
+  border-radius: 16px;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+  background: #1c1c1c;
+}
+.founder-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.founder-body h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 6px;
+  letter-spacing: -0.5px;
+}
+.founder-body .role {
+  display: block;
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.founder-body p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.75);
+  margin: 0 0 16px;
+}
+.founder-cta {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .founder-card {
+    grid-template-columns: 1fr;
+    padding: 28px;
+    gap: 24px;
+  }
+  .founder-img {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+  .founder-body { text-align: center; }
+  .founder-cta { justify-content: center; }
+}
+
+.recommenders-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 56px;
+}
+.recommender-card {
+  background: #161616;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 24px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.recommender-card:hover {
+  border-color: rgba(255,255,255,0.18);
+  transform: translateY(-2px);
+}
+.recommender-card h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 6px;
+}
+.recommender-card .role {
+  font-size: 12.5px;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.5;
+  display: block;
+}
+@media (max-width: 900px) {
+  .recommenders-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .recommenders-grid { grid-template-columns: 1fr; }
+}
