@@ -3,74 +3,274 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keeping ADDA Home Simple — Designit Case Study</title>
-    <meta name="description" content="How we redesigned ADDA 247's home experience to increase onboarding by 45% and reduce support tickets by 60%.">
+    <title>Adda 247 — Case Study | Designit</title>
+    <meta name="description" content="How we redesigned Adda 247's learning experience to increase onboarding by 45% and reduce support tickets by 60%.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="design-system.css">
+    <link rel="stylesheet" href="pages.css">
     <link rel="stylesheet" href="intake-form.css">
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
     <style>
-        .pd-hero { padding: 140px 0 0; position: relative; overflow: hidden; }
-        .pd-hero-gradient {
-            width: 100%; aspect-ratio: 16/6;
-            background: linear-gradient(135deg, #FF6B35 0%, #E8446D 35%, #A855F7 65%, #6366F1 100%);
-            border-radius: var(--radius-xl) var(--radius-xl) 0 0;
-            overflow: hidden; position: relative;
-            display: flex; align-items: center; justify-content: center;
+        /* ===== PROJECT DETAIL STYLES ===== */
+
+        /* Breadcrumb */
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: var(--text-tertiary, #888);
+            margin-bottom: 20px;
         }
-        .pd-hero-gradient img { width: 60%; max-width: 600px; border-radius: var(--radius-md); box-shadow: var(--shadow-xl); }
-        .pd-hero-content { padding: 48px 0; max-width: 800px; }
-        .pd-hero-content .sec-label { margin-bottom: 8px; }
-        .pd-hero-content h1 { font-size: 48px; font-weight: 700; letter-spacing: -2px; line-height: 1.15; color: var(--text-primary); margin-bottom: 16px; }
-        .pd-hero-content p { font-size: 18px; color: var(--text-secondary); line-height: 1.7; }
+        .breadcrumb a {
+            color: var(--text-tertiary, #888);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .breadcrumb a:hover {
+            color: var(--text-primary);
+        }
+        .breadcrumb .separator {
+            opacity: 0.4;
+        }
+        .breadcrumb .current {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
 
-        .pd-overview { padding: 80px 0; border-bottom: 1px solid var(--border-light); }
-        .pd-overview-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 64px; }
-        .pd-overview h2 { font-size: 32px; font-weight: 700; letter-spacing: -0.8px; color: var(--text-primary); margin-bottom: 16px; }
-        .pd-overview p { font-size: 16px; color: var(--text-secondary); line-height: 1.7; }
-        .pd-meta { display: flex; flex-direction: column; gap: 24px; }
-        .pd-meta-item .pd-meta-label { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 4px; }
-        .pd-meta-item .pd-meta-value { font-size: 16px; font-weight: 500; color: var(--text-primary); }
+        /* Project Hero */
+        .project-hero {
+            padding: 140px 0 80px;
+        }
+        .project-hero .tag {
+            margin-bottom: 16px;
+            display: inline-block;
+        }
+        .project-hero h1 {
+            font-size: clamp(48px, 7vw, 72px);
+            font-weight: 800;
+            letter-spacing: -3px;
+            line-height: 1.05;
+            margin-bottom: 20px;
+        }
+        .project-hero .subtitle {
+            font-size: 19px;
+            color: var(--text-tertiary, #888);
+            line-height: 1.7;
+            max-width: 640px;
+        }
 
-        .pd-section { padding: 80px 0; border-bottom: 1px solid var(--border-light); }
-        .pd-section h2 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; color: var(--text-primary); margin-bottom: 12px; }
-        .pd-section p { font-size: 16px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 20px; }
-        .pd-section-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+        /* Project Overview */
+        .project-overview {
+            padding: 80px 0;
+            border-top: 1px solid var(--border, rgba(255,255,255,0.08));
+            border-bottom: 1px solid var(--border, rgba(255,255,255,0.08));
+        }
+        .project-overview-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 64px;
+            align-items: start;
+        }
+        .project-overview h2 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.8px;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+        .project-overview .overview-text {
+            font-size: 16px;
+            color: var(--text-tertiary, #888);
+            line-height: 1.8;
+        }
+        .meta-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+        .meta-item .meta-label {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: var(--text-tertiary, #666);
+            margin-bottom: 6px;
+        }
+        .meta-item .meta-value {
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+        .meta-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 6px;
+        }
+        .meta-tags .tag {
+            font-size: 13px;
+            padding: 4px 12px;
+        }
 
-        .pd-img-full { border-radius: var(--radius-lg); overflow: hidden; margin: 40px 0; }
-        .pd-img-full img { width: 100%; display: block; }
+        /* Content Sections */
+        .project-section {
+            padding: 80px 0;
+            border-bottom: 1px solid var(--border, rgba(255,255,255,0.08));
+        }
+        .project-section h2 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+        .project-section p {
+            font-size: 16px;
+            color: var(--text-tertiary, #888);
+            line-height: 1.8;
+            max-width: 720px;
+        }
+        .bg-elevated-2 {
+            background: var(--bg-elevated, #111);
+        }
 
-        .pd-dark-section { background: var(--bg-dark); color: var(--text-white); padding: 80px 0; }
-        .pd-dark-section h2 { color: var(--text-white); }
-        .pd-dark-section p { color: rgba(255,255,255,0.7); }
+        /* Subprojects */
+        .subproject {
+            padding: 80px 0;
+            border-bottom: 1px solid var(--border, rgba(255,255,255,0.08));
+        }
+        .subproject h3 {
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+        .subproject p {
+            font-size: 16px;
+            color: var(--text-tertiary, #888);
+            line-height: 1.8;
+            max-width: 720px;
+            margin-bottom: 32px;
+        }
+        .image-grid-2col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 24px;
+        }
+        .image-grid-2col img {
+            width: 100%;
+            border-radius: 12px;
+            display: block;
+        }
+        .image-full {
+            margin-top: 24px;
+        }
+        .image-full img {
+            width: 100%;
+            border-radius: 12px;
+            display: block;
+        }
 
-        .pd-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 40px 0; }
-        .pd-gallery img { width: 100%; border-radius: var(--radius-sm); aspect-ratio: 1; object-fit: cover; }
+        /* Results Grid */
+        .results-section {
+            padding: 80px 0;
+            border-bottom: 1px solid var(--border, rgba(255,255,255,0.08));
+        }
+        .results-section .section-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .results-section .section-header h2 {
+            max-width: none;
+        }
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .result-card {
+            text-align: center;
+            padding: 40px 24px;
+            border: 1px solid var(--border, rgba(255,255,255,0.08));
+            border-radius: 16px;
+        }
+        .result-number {
+            font-size: 52px;
+            font-weight: 800;
+            letter-spacing: -2px;
+            line-height: 1;
+            margin-bottom: 8px;
+            display: block;
+        }
+        .result-label {
+            font-size: 15px;
+            color: var(--text-tertiary, #888);
+            line-height: 1.5;
+        }
 
-        .pd-results { padding: 80px 0; }
-        .pd-results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 40px; }
-        .pd-result-card { text-align: center; padding: 32px; border: 1px solid var(--border-light); border-radius: var(--radius-md); }
-        .pd-result-num { font-size: 48px; font-weight: 700; letter-spacing: -2px; color: var(--text-primary); margin-bottom: 8px; display: block; }
-        .pd-result-label { font-size: 14px; color: var(--text-secondary); }
+        /* Next Project */
+        .next-project {
+            padding: 80px 0;
+            border-bottom: 1px solid var(--border, rgba(255,255,255,0.08));
+        }
+        .next-project .label {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: var(--text-tertiary, #666);
+            margin-bottom: 20px;
+        }
+        .next-project-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+            background: var(--bg-elevated, #111);
+            border-radius: 16px;
+            overflow: hidden;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .next-project-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .next-project-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .next-project-body {
+            padding: 40px;
+        }
+        .next-project-body h4 {
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+        .next-project-body p {
+            font-size: 15px;
+            color: var(--text-tertiary, #888);
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
 
-        .pd-next { padding: 80px 0; border-top: 1px solid var(--border-light); }
-        .pd-next h3 { font-size: 20px; font-weight: 600; color: var(--text-muted); margin-bottom: 16px; }
-        .pd-next-card { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; background: var(--bg-muted); border-radius: var(--radius-lg); overflow: hidden; }
-        .pd-next-card img { width: 100%; height: 300px; object-fit: cover; }
-        .pd-next-card-body { padding: 40px; }
-        .pd-next-card-body h4 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; color: var(--text-primary); margin-bottom: 12px; }
-        .pd-next-card-body p { font-size: 15px; color: var(--text-secondary); margin-bottom: 20px; }
-
+        /* Responsive */
         @media (max-width: 768px) {
-            .pd-hero-content h1 { font-size: 32px; }
-            .pd-overview-grid { grid-template-columns: 1fr; gap: 32px; }
-            .pd-section-2col { grid-template-columns: 1fr; gap: 24px; }
-            .pd-gallery { grid-template-columns: 1fr 1fr; }
-            .pd-results-grid { grid-template-columns: 1fr; }
-            .pd-next-card { grid-template-columns: 1fr; }
-            .pd-next-card img { height: 200px; }
+            .project-overview-grid { grid-template-columns: 1fr; gap: 40px; }
+            .image-grid-2col { grid-template-columns: 1fr; }
+            .results-grid { grid-template-columns: 1fr; }
+            .next-project-card { grid-template-columns: 1fr; }
+            .next-project-card img { height: 200px; }
+            .next-project-body { padding: 24px; }
         }
     </style>
 </head>
@@ -78,19 +278,16 @@
 
     <!-- Navbar -->
     <header class="navbar" id="navbar">
-        <a href="index.html" class="logo"><img src="logo.svg" alt="designit" height="32"></a>
+        <a href="index.html" class="logo"><img src="logo.svg" alt="Designit" height="28"></a>
         <nav class="nav-links" id="navLinks">
-            <a href="index.html#services">Services <svg width="10" height="6" viewBox="0 0 10 6" fill="none" style="margin-left:4px"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
-            <a href="projects.html" class="active">Case studies <span class="badge">09</span></a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
             <a href="pricing.html">Pricing</a>
-            <a href="about.html">About us</a>
-            <a href="blog.html">Blog</a>
+            <a href="blog/index.html">Blog</a>
+            <a href="contact.html">Contact</a>
         </nav>
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-                    <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-                    <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-                </button>
-        <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary btn-sm nav-cta">Contact Us →</a>
+        <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary btn-sm nav-cta">Let's Chat!</a>
         <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
             <span></span><span></span><span></span>
         </button>
@@ -98,336 +295,260 @@
 
     <main>
 
-        <!-- Hero -->
-        <section class="pd-hero">
+        <!-- Project Hero -->
+        <section class="project-hero">
             <div class="container">
-                <div class="pd-hero-gradient">
-                    <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&q=80&w=800" alt="ADDA 247 App" loading="eager">
-                </div>
-                <div class="pd-hero-content" data-entrance>
-                    <span class="sec-label">CASE STUDY</span>
-                    <h1>Keeping ADDA Home Simple And Approachable</h1>
-                    <p>How we redesigned ADDA 247's home experience to boost user onboarding, reduce friction, and create an intuitive learning platform for millions of students.</p>
-                </div>
+                <nav class="breadcrumb">
+                    <a href="projects.html">Projects</a>
+                    <span class="separator">/</span>
+                    <a href="projects.html">EdTech</a>
+                    <span class="separator">/</span>
+                    <span class="current">Adda 247</span>
+                </nav>
+                <span class="tag">EdTech</span>
+                <h1 class="gradient-text">Adda 247</h1>
+                <p class="subtitle">Redesigning India's leading test preparation platform to simplify learning, boost engagement, and create a seamless experience for millions of government exam aspirants.</p>
             </div>
         </section>
 
-        <!-- Overview -->
-        <section class="pd-overview">
+        <!-- Project Overview -->
+        <section class="project-overview">
             <div class="container">
-                <div class="pd-overview-grid">
+                <div class="project-overview-grid">
                     <div>
-                        <h2>About Vaultik</h2>
-                        <p>ADDA 247 is India's leading test preparation platform serving millions of government exam aspirants. The platform needed a complete UX overhaul to simplify navigation, improve content discovery, and create a cohesive learning experience across web and mobile.</p>
-                        <br>
-                        <p>The existing interface was cluttered with too many entry points, causing decision paralysis. Students couldn't find relevant content quickly, leading to high bounce rates and poor engagement metrics.</p>
+                        <h2>Overview</h2>
+                        <p class="overview-text">Adda 247 is India's largest test preparation platform, serving millions of students preparing for government examinations. The platform needed a complete UX overhaul to simplify navigation, improve content discovery, and create a cohesive learning experience across web and mobile. We partnered with the Adda 247 team to rethink the entire product experience from the ground up -- restructuring information architecture, building a scalable design system, and designing intuitive interfaces that reduce cognitive load while maximizing learning outcomes.</p>
                     </div>
-                    <div class="pd-meta">
-                        <div class="pd-meta-item">
-                            <div class="pd-meta-label">Client</div>
-                            <div class="pd-meta-value">ADDA 247</div>
+                    <div class="meta-grid">
+                        <div class="meta-item">
+                            <div class="meta-label">Client</div>
+                            <div class="meta-value">Adda 247</div>
                         </div>
-                        <div class="pd-meta-item">
-                            <div class="pd-meta-label">Industry</div>
-                            <div class="pd-meta-value">EdTech / Online Learning</div>
+                        <div class="meta-item">
+                            <div class="meta-label">Category</div>
+                            <div class="meta-value">EdTech</div>
                         </div>
-                        <div class="pd-meta-item">
-                            <div class="pd-meta-label">Services</div>
-                            <div class="pd-meta-value">UX Research, UI Design, Design System</div>
+                        <div class="meta-item">
+                            <div class="meta-label">Services</div>
+                            <div class="meta-tags">
+                                <span class="tag">UI/UX Design</span>
+                                <span class="tag">Product Strategy</span>
+                                <span class="tag">Design System</span>
+                                <span class="tag">Mobile App Design</span>
+                                <span class="tag">User Research</span>
+                            </div>
                         </div>
-                        <div class="pd-meta-item">
-                            <div class="pd-meta-label">Timeline</div>
-                            <div class="pd-meta-value">4 Weeks</div>
-                        </div>
-                        <div class="pd-meta-item">
-                            <div class="pd-meta-label">Platform</div>
-                            <div class="pd-meta-value">iOS, Android, Web</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- The Problem -->
-        <section class="pd-section">
-            <div class="container">
-                <div class="pd-section-2col">
-                    <div>
-                        <h2>The Problem</h2>
-                        <p>Students were overwhelmed by the home screen. With 15+ entry points competing for attention, the cognitive load was too high. Key metrics were suffering:</p>
-                        <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;margin-top:16px">
-                            <li style="display:flex;gap:10px;font-size:15px;color:var(--text-secondary)"><span style="color:var(--text-primary);font-weight:600">→</span> 62% of new users didn't complete onboarding</li>
-                            <li style="display:flex;gap:10px;font-size:15px;color:var(--text-secondary)"><span style="color:var(--text-primary);font-weight:600">→</span> Average session duration was just 2.3 minutes</li>
-                            <li style="display:flex;gap:10px;font-size:15px;color:var(--text-secondary)"><span style="color:var(--text-primary);font-weight:600">→</span> Support tickets about navigation exceeded 200/week</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <div class="pd-img-full" style="margin:0">
-                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=600" alt="Old interface" loading="lazy">
+                        <div class="meta-item">
+                            <div class="meta-label">Tools</div>
+                            <div class="meta-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">Prototyping</span>
+                                <span class="tag">User Testing</span>
+                                <span class="tag">Analytics</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- The Solution (dark) -->
-        <div class="pd-dark-section">
+        <!-- Problem Section -->
+        <section class="project-section bg-elevated-2">
             <div class="container">
-                <div class="pd-section-2col" style="align-items:center">
-                    <div>
-                        <div class="pd-img-full" style="margin:0">
-                            <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?auto=format&fit=crop&q=80&w=600" alt="New interface" loading="lazy">
-                        </div>
-                    </div>
-                    <div>
-                        <span class="sec-label" style="color:rgba(255,255,255,0.5)">THE SOLUTION</span>
-                        <h2 style="color:#fff;font-size:32px;margin-bottom:16px">A Focused, Goal-Oriented Home</h2>
-                        <p>We restructured the entire information architecture around student goals. Instead of showing everything, we surfaced what matters: their active course, next scheduled test, and personalized recommendations.</p>
-                        <br>
-                        <p>The new design reduced entry points from 15 to 5, implemented progressive disclosure, and added contextual navigation that adapts based on the student's learning stage.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Design Process -->
-        <section class="pd-section">
-            <div class="container">
-                <h2>Design Process</h2>
-                <p>Our process followed a rigorous 4-phase approach, ensuring every decision was backed by data and validated with real users.</p>
+                <p class="section-label">The Challenge</p>
+                <h2 class="gradient-text-102">The Problem</h2>
+                <p>Students were overwhelmed by the home screen. With 15+ entry points competing for attention, the cognitive load was too high. New users struggled to find relevant courses, navigate between test series and live classes, and track their progress. The existing interface suffered from inconsistent patterns, cluttered layouts, and a lack of clear hierarchy -- resulting in 62% of new users dropping off before completing onboarding, an average session duration of just 2.3 minutes, and over 200 navigation-related support tickets per week.</p>
             </div>
         </section>
 
-        <!-- UX Research -->
-        <section class="pd-section" style="background:var(--bg-secondary)">
+        <!-- Solution Section -->
+        <section class="project-section">
             <div class="container">
-                <div class="pd-section-2col">
-                    <div>
-                        <span class="sec-label">PHASE 1</span>
-                        <h2>UX Research & Design Validation</h2>
-                        <p>We conducted 25 user interviews, analyzed 3 months of analytics data, and ran a comprehensive heuristic evaluation. Key findings shaped every design decision.</p>
-                        <p>Card sorting exercises with 40 participants helped us restructure the navigation taxonomy, reducing the average task completion time by 40%.</p>
-                    </div>
-                    <div>
-                        <div class="pd-img-full" style="margin:0">
-                            <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=600" alt="Research findings" loading="lazy">
-                        </div>
-                    </div>
+                <p class="section-label">Our Approach</p>
+                <h2 class="gradient-text-102">The Solution</h2>
+                <p>We restructured the entire information architecture around student goals. Instead of showing everything at once, we surfaced what matters most: the active course, next scheduled test, and personalized recommendations. The new design reduced entry points from 15 to 5, implemented progressive disclosure patterns, and introduced contextual navigation that adapts based on the student's learning stage. A comprehensive design system ensured consistency across all touchpoints while enabling the engineering team to ship updates 2x faster.</p>
+            </div>
+        </section>
+
+        <!-- Subproject: Test Series -->
+        <section class="subproject">
+            <div class="container">
+                <p class="section-label">Subproject 01</p>
+                <h3>Test Series</h3>
+                <p>We redesigned the test series experience to help students discover, purchase, and take mock tests with minimal friction. The new interface features a clean card-based layout with clear categorization by exam type, difficulty level indicators, and progress tracking -- making it effortless for students to find and resume their practice sessions.</p>
+                <div class="image-grid-2col">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Ftest-series%2Fasset1.png&w=1920&q=75" alt="Test Series - Asset 1" loading="lazy">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Ftest-series%2Fasset2.png&w=1920&q=75" alt="Test Series - Asset 2" loading="lazy">
+                </div>
+                <div class="image-full">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Ftest-series%2Fasset3.png&w=1920&q=75" alt="Test Series - Asset 3" loading="lazy">
                 </div>
             </div>
         </section>
 
-        <!-- Visual Design Gallery -->
-        <section class="pd-section">
+        <!-- Subproject: Live Class -->
+        <section class="subproject">
             <div class="container">
-                <h2>Visual Identity and Brand Tiles</h2>
-                <p>The refreshed visual system maintains ADDA 247's brand recognition while introducing cleaner typography, improved contrast ratios, and a more spacious layout.</p>
-                <div class="pd-gallery">
-                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=400" alt="Brand color palette" loading="lazy">
-                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&q=80&w=400" alt="Typography system" loading="lazy">
-                    <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=400" alt="Component library" loading="lazy">
-                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=400" alt="Icon set" loading="lazy">
-                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=400" alt="Dashboard design" loading="lazy">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=400" alt="Mobile screens" loading="lazy">
+                <p class="section-label">Subproject 02</p>
+                <h3>Live Class</h3>
+                <p>The live class module was rebuilt from scratch to create an engaging, distraction-free learning environment. We introduced a streamlined schedule view, real-time class status indicators, and a seamless transition from browsing to joining live sessions. The redesigned interface also includes note-taking integration, doubt resolution features, and class recordings for students who miss live sessions.</p>
+                <div class="image-grid-2col">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Flive-class%2Fasset1.png&w=1920&q=75" alt="Live Class - Asset 1" loading="lazy">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Flive-class%2Fasset2.png&w=1920&q=75" alt="Live Class - Asset 2" loading="lazy">
+                </div>
+                <div class="image-full">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Flive-class%2Fasset3.png&w=1920&q=75" alt="Live Class - Asset 3" loading="lazy">
                 </div>
             </div>
         </section>
 
-        <!-- Design System -->
-        <div class="pd-dark-section">
-            <div class="container center">
-                <h2 style="color:#fff;font-size:36px;margin-bottom:16px">Design System</h2>
-                <p style="max-width:600px;margin:0 auto 40px;color:rgba(255,255,255,0.7)">A comprehensive design system with 80+ components, ensuring consistency across all platforms and enabling the dev team to ship 2x faster.</p>
-                <div class="pd-img-full" style="max-width:900px;margin:0 auto">
-                    <img src="https://images.unsplash.com/photo-1581291518633-83b4eef1d2fa?auto=format&fit=crop&q=80&w=1200" alt="Design system overview" loading="lazy">
-                </div>
-            </div>
-        </div>
-
-        <!-- UI Design -->
-        <section class="pd-section">
+        <!-- Subproject: iOS & iPad App -->
+        <section class="subproject">
             <div class="container">
-                <h2>UI Design</h2>
-                <p>The final UI balances visual appeal with functional clarity. Every element serves a purpose, every interaction feels natural.</p>
-                <div class="pd-img-full">
-                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=1200" alt="Final UI screens" loading="lazy">
+                <p class="section-label">Subproject 03</p>
+                <h3>iOS & iPad App</h3>
+                <p>We designed a native iOS and iPad application that leverages platform-specific patterns and capabilities. The app features adaptive layouts optimized for different screen sizes, split-view support on iPad for multitasking during study sessions, and native gesture interactions. Special attention was given to offline mode, allowing students to download content and practice tests for use in areas with limited connectivity.</p>
+                <div class="image-grid-2col">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fadda247-app%2Fasset1.png&w=1920&q=75" alt="iOS & iPad App - Asset 1" loading="lazy">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fadda247-app%2Fasset2.png&w=1920&q=75" alt="iOS & iPad App - Asset 2" loading="lazy">
+                </div>
+                <div class="image-full">
+                    <img src="https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fadda247-app%2Fasset3.png&w=1920&q=75" alt="iOS & iPad App - Asset 3" loading="lazy">
                 </div>
             </div>
         </section>
 
         <!-- Results -->
-        <section class="pd-results">
+        <section class="results-section">
             <div class="container">
-                <div class="center">
-                    <span class="sec-label">RESULTS & OUTCOMES</span>
-                    <h2 class="sec-title" style="font-size:36px">Results & Outcomes</h2>
-                    <p class="sec-desc" style="margin:0 auto 48px">The redesign delivered measurable improvements across all key metrics within the first 30 days of launch.</p>
+                <div class="section-header">
+                    <p class="section-label">Impact</p>
+                    <h2 class="gradient-text-102">Results</h2>
                 </div>
-                <div class="pd-results-grid">
-                    <div class="pd-result-card">
-                        <span class="pd-result-num stat-num">45%</span>
-                        <span class="pd-result-label">Increase in onboarding completion</span>
+                <div class="results-grid">
+                    <div class="result-card">
+                        <span class="result-number gradient-text">45%</span>
+                        <span class="result-label">Increase in user onboarding completion</span>
                     </div>
-                    <div class="pd-result-card">
-                        <span class="pd-result-num stat-num">60%</span>
-                        <span class="pd-result-label">Reduction in support tickets</span>
+                    <div class="result-card">
+                        <span class="result-number gradient-text">60%</span>
+                        <span class="result-label">Reduction in support tickets</span>
                     </div>
-                    <div class="pd-result-card">
-                        <span class="pd-result-num stat-num">3.2x</span>
-                        <span class="pd-result-label">Increase in session duration</span>
+                    <div class="result-card">
+                        <span class="result-number gradient-text">8</span>
+                        <span class="result-label">Product modules designed end-to-end</span>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Next Case Study -->
-        <section class="pd-next">
+        <section class="next-project">
             <div class="container">
-                <h3>Next Case Study</h3>
-                <a href="project-detail.html" class="pd-next-card" style="text-decoration:none">
-                    <img src="https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?auto=format&fit=crop&q=80&w=600" alt="Tournament App" loading="lazy">
-                    <div class="pd-next-card-body">
-                        <h4>Tournament — Sport Management Web App</h4>
-                        <p>How we built a comprehensive tournament management platform that streamlined operations for 500+ sports organizations.</p>
-                        <span class="btn btn-outline btn-sm">View Case Study →</span>
+                <p class="label">Next Case Study</p>
+                <a href="project-detail.html" class="next-project-card">
+                    <img src="https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?auto=format&fit=crop&q=80&w=600" alt="R-Centric" loading="lazy">
+                    <div class="next-project-body">
+                        <h4>R-Centric</h4>
+                        <p>How we helped R-Centric build a scalable design system and modernize their enterprise product suite for improved user productivity.</p>
+                        <span class="btn btn-outline btn-sm">View Case Study</span>
                     </div>
                 </a>
             </div>
         </section>
 
-        <!-- Contact Form -->
-        <section class="contact-section" id="contact">
+        <!-- CTA -->
+        <section class="cta-section">
             <div class="container">
-                <div class="contact-layout">
-                    <div class="contact-left">
-                        <h2>Have a Project?<br>Let's talk!</h2>
-                        <div class="contact-checks">
-                            <label>NDA? Absolutely just ask.</label>
-                            <label>We'll respond in 24 hours fast & focused.</label>
-                            <label>Work with senior UX experts, not juniors.</label>
-                        </div>
-                        <div style="margin-bottom:16px;font-size:14px;font-weight:600;color:var(--text-muted)">Schedule a call:</div>
-                        <div class="schedule-call">
-                            <div class="schedule-avatar">
-                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=96&h=96" alt="Designit Team" loading="lazy">
-                            </div>
-                            <div>
-                                <strong>Designit Team</strong>
-                                <span>Design Experts</span>
-                            </div>
-                            <div class="cal-btn">📅</div>
-                        </div>
-                    </div>
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label>E-mail</label>
-                                <input type="email" placeholder="Email" required>
-                            </div>
-                            <div class="form-group">
-                                <label>Full Name</label>
-                                <input type="text" placeholder="Full name" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label>Project budget</label>
-                                <select><option value="">Select budget range</option><option>₹40,000 — ₹75,000</option><option>₹75,000 — ₹1,50,000</option><option>₹1,50,000 — ₹3,00,000</option><option>₹3,00,000+</option></select>
-                            </div>
-                            <div class="form-group">
-                                <label>How did you hear about us?</label>
-                                <select><option value="">Select an option</option><option>Google Search</option><option>Social Media</option><option>Referral</option><option>Dribbble/Behance</option><option>Other</option></select>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label>Tell us about your project</label>
-                            <textarea rows="4" placeholder="Tell us about your product and goals."></textarea>
-                        </div>
-                        <div>
-                            <div style="font-size:13px;font-weight:600;color:var(--text-secondary);margin-bottom:10px">How can we help you?</div>
-                            <div class="form-help-chips">
-                                <label>UI/UX Design</label>
-                                <label>SaaS Design</label>
-                                <label>Branding</label>
-                                <label>CRO</label>
-                                <label>Mobile app</label>
-                                <label>Development</label>
-                                <label>MVP Development</label>
-                                <label>Web Design</label>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block" style="margin-top:8px">Send message →</button>
-                        <div class="form-alt">Prefer email? <a href="mailto:contact@designit.co.in">contact@designit.co.in</a></div>
-                    </form>
-                </div>
+                <h2 class="section-title gradient-text">Ready to Build a Product<br>Your Users Will Love?</h2>
+                <p>Let's discuss your project and explore how we can help you achieve your goals.</p>
+                <a href="https://calendly.com/sahilnsharma77/new-meeting" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Schedule a Call</a>
             </div>
         </section>
 
     </main>
+
+    <!-- Pre-Footer CTA -->
+    <section class="prefooter-cta section">
+        <div class="container">
+            <div class="prefooter-grid">
+                <div class="prefooter-content">
+                    <h2 class="section-title gradient-text">Have a Project?<br>Let's Talk!</h2>
+                    <div class="prefooter-items">
+                        <div class="prefooter-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <span>NDA? Absolutely — just ask.</span>
+                        </div>
+                        <div class="prefooter-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            <span>We'll respond in 24 hours — fast & focused.</span>
+                        </div>
+                        <div class="prefooter-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                            <span>Work with senior UX experts, not juniors.</span>
+                        </div>
+                    </div>
+                    <div class="prefooter-ctas">
+                        <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary btn-lg">Start a Project</a>
+                        <a href="https://calendly.com/sahilnsharma77/new-meeting" target="_blank" rel="noopener" class="btn btn-outline btn-lg">Schedule a Call</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="index.html" class="logo"><img src="logo.svg" alt="designit" height="32"></a>
-                    <p>Designit is a global UI/UX design agency that boosts brand value with user-friendly, effective designs for web, mobile, and SaaS platforms.</p>
-                    <a href="#" class="btn btn-outline btn-sm">Company Deck ↓</a>
+                    <a href="index.html"><img src="logo.svg" alt="Designit" height="28"></a>
+                    <p>End-to-end product design partner. We design high-conversion digital experiences that drive growth, strengthen retention, and deliver measurable ROI.</p>
                 </div>
-                <div class="footer-col">
-                    <h4>Services</h4>
-                    <a href="#">UI UX Design</a>
-                    <a href="#">Design System Development</a>
-                    <a href="#">UI/UX Strategy & Consulting</a>
-                    <a href="#">UX Research & Discovery</a>
-                    <a href="#">UX Design Audit & Analysis</a>
-                    <a href="#">Digital Prototyping</a>
-                    <a href="#">Digital Branding & Identity</a>
+                <div>
+                    <h4 class="footer-col-title">Services</h4>
+                    <div class="footer-links">
+                        <a href="index.html#services">UI/UX Design</a>
+                        <a href="index.html#services">Design Systems</a>
+                        <a href="index.html#services">SaaS Strategy</a>
+                        <a href="index.html#services">UX Research</a>
+                        <a href="index.html#services">Prototyping</a>
+                    </div>
                 </div>
-                <div class="footer-col">
-                    <h4>Company</h4>
-                    <a href="projects.html">Our Work</a>
-                    <a href="about.html">About Us</a>
-                    <a href="#contact">Contact</a>
-                    <a href="careers.html">Careers</a>
+                <div>
+                    <h4 class="footer-col-title">Company</h4>
+                    <div class="footer-links">
+                        <a href="about.html">About</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="pricing.html">Pricing</a>
+                        <a href="blog/index.html">Blog</a>
+                        <a href="careers.html">Careers</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
                 </div>
-                <div class="footer-col footer-contact">
-                    <h4>Contact</h4>
-                    <div class="fc-item"><div class="fc-label">Location</div><div class="fc-value">Noida Sector 45, Uttar Pradesh, India</div></div>
-                    <div class="fc-item"><div class="fc-label">Email</div><div class="fc-value">contact@designit.co.in</div></div>
-                    <div class="fc-item"><div class="fc-label">Call Us</div><div class="fc-value">+91 8564948954</div></div>
+                <div>
+                    <h4 class="footer-col-title">Contact</h4>
+                    <div class="footer-links">
+                        <a href="mailto:contact@designit.co.in">contact@designit.co.in</a>
+                        <a href="tel:+918564948954">+91 8564948954</a>
+                        <a>Noida Sector 45, UP, India</a>
+                    </div>
                 </div>
-            </div>
-            <div class="footer-lang">
-                <label for="langSelect">🌐</label>
-                <select id="langSelect" class="lang-select">
-                    <option value="en">English</option>
-                    <option value="hi">हिन्दी</option>
-                    <option value="de">Deutsch</option>
-                    <option value="fr">Français</option>
-                    <option value="es">Español</option>
-                    <option value="ar">العربية</option>
-                </select>
             </div>
             <div class="footer-bottom">
-                <span>designit LLC © 2025</span>
-                <div class="footer-socials">
-                    <a href="#" aria-label="LinkedIn">in</a>
-                    <a href="#" aria-label="Twitter">𝕏</a>
-                    <a href="#" aria-label="Facebook">f</a>
-                    <a href="#" aria-label="Instagram">ig</a>
+                <span>&copy; 2024 Designit. All rights reserved.</span>
+                <div class="footer-social">
+                    <a href="#" aria-label="Twitter"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                    <a href="#" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                    <a href="#" aria-label="Dribbble"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.81zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.914 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702-1.81-1.61-4.19-2.586-6.795-2.586-.825 0-1.63.1-2.4.29zm10.335 3.483c-.218.29-1.91 2.493-5.724 4.04.24.49.47.985.68 1.486.08.18.15.36.22.53 3.41-.43 6.8.26 7.14.33-.02-2.42-.88-4.64-2.31-6.38z"/></svg></a>
+                    <a href="#" aria-label="Behance"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.938 4.503c.702 0 1.34.06 1.92.188.577.13 1.07.33 1.485.61.41.28.733.65.96 1.12.225.47.34 1.05.34 1.73 0 .74-.17 1.36-.507 1.86-.338.5-.837.9-1.502 1.22.906.26 1.576.72 2.022 1.37.448.66.665 1.45.665 2.36 0 .75-.13 1.39-.41 1.93-.28.55-.67 1-1.16 1.35-.48.348-1.05.6-1.67.767-.62.16-1.26.25-1.92.25H0V4.51h6.938v-.007zM6.545 10.16c.58 0 1.06-.15 1.425-.47.37-.32.55-.79.55-1.42 0-.35-.06-.64-.19-.87-.13-.23-.3-.42-.52-.55a2.07 2.07 0 00-.73-.26 3.68 3.68 0 00-.86-.1H3.2v3.68h3.345v-.01zm.25 5.98c.32 0 .63-.03.92-.1.29-.07.55-.18.77-.35.22-.16.39-.38.52-.67.12-.29.18-.65.18-1.1 0-.87-.24-1.49-.73-1.87-.49-.38-1.14-.56-1.95-.56H3.2v4.66h3.595v-.01zM15.4 14.41c.39.49.96.74 1.7.74.53 0 .99-.13 1.36-.4.38-.27.62-.55.72-.84h2.37c-.38 1.2-.97 2.06-1.76 2.58-.78.53-1.74.79-2.86.79-.79 0-1.51-.14-2.14-.4-.64-.27-1.18-.65-1.62-1.13-.44-.49-.78-1.07-1.01-1.75-.24-.68-.35-1.42-.35-2.22 0-.78.12-1.5.37-2.18.24-.67.59-1.25 1.04-1.73.45-.48.99-.86 1.62-1.13.63-.28 1.33-.42 2.1-.42.84 0 1.58.16 2.21.49.63.33 1.14.78 1.54 1.36.4.58.7 1.25.88 2.02.19.77.25 1.59.2 2.45H14.98c.03.87.28 1.58.67 2.07h-.25zm2.96-5.1c-.32-.39-.82-.59-1.5-.59-.44 0-.81.08-1.1.24-.3.16-.53.36-.7.6-.17.24-.29.5-.35.76-.06.27-.1.52-.12.77h4.98c-.09-.72-.35-1.38-.68-1.77l-.53-.01zM15.73 3.56h5.04v1.42h-5.04V3.56z"/></svg></a>
                 </div>
             </div>
-            <div class="footer-wordmark">design<span>it</span></div>
+            <div class="footer-wordmark">DESIGNIT</div>
         </div>
     </footer>
 
-    <script src="theme.js"></script>
-
-    <script src="i18n.js"></script>
-
+    <script src="main.js"></script>
     <script src="intake-form.js"></script>
-    <script src="script.js"></script>
-
 </body>
 </html>

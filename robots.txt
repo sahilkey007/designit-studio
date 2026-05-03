@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block build artifacts and tooling directories
+Disallow: /_next/
+Disallow: /.claude/
+Disallow: /data/
+
+Sitemap: https://designit.co.in/blog/sitemap.xml

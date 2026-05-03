@@ -1,11 +1,46 @@
-# OS files
+# ─── OS / Editor ────────────────────────────────────────────────────
 .DS_Store
+.DS_Store?
 Thumbs.db
+._*
+.Spotlight-V100
+.Trashes
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
 
-# Design reference screenshots (too large for git)
+# ─── Claude / AI tooling ─────────────────────────────────────────────
+.claude/
+
+# ─── Node ────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ─── Build artifacts ─────────────────────────────────────────────────
+dist/
+build/
+.next/
+_next/
+out/
+
+# ─── Next.js extraction artifacts (blog RSC payloads) ────────────────
+**/__next.*.txt
+**/index.txt
+blog/__next*
+
+# ─── Environment & secrets ───────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Design reference screenshots (too large for git) ────────────────
 homepage.jpg
 projects.jpg
 project detail page.png
+services cards.png
 pricing.png
 About.png
 blog .png
