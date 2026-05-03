@@ -54,10 +54,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="design-system.css">
-    <link rel="stylesheet" href="pages.css">
-    <link rel="stylesheet" href="intake-form.css">
-    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <link rel="stylesheet" href="/design-system.css">
+    <link rel="stylesheet" href="/pages.css">
+    <link rel="stylesheet" href="/intake-form.css">
+    <link rel="icon" type="image/svg+xml" href="/logo.svg">
     <style>
         /* Testimonial Marquee */
         .testimonial-marquee {
@@ -121,91 +121,8 @@
             color: #888;
         }
 
-        /* Rich Service Cards */
-        .services-rich {
-            display: flex;
-            flex-direction: column;
-            gap: 3rem;
-        }
-        .service-rich-card {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 3rem;
-            background: #141414;
-            border: 1px solid #222;
-            border-radius: 20px;
-            overflow: hidden;
-            transition: border-color 0.3s ease, transform 0.2s ease;
-        }
-        .service-rich-card:hover {
-            border-color: #444;
-            transform: translateY(-4px);
-        }
-        .service-rich-content {
-            padding: 3rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .service-rich-content .card-number {
-            font-size: 0.85rem;
-            color: #666;
-            font-weight: 600;
-            margin-bottom: 0.75rem;
-            display: block;
-        }
-        .service-rich-content h3 {
-            font-size: 1.75rem;
-            font-weight: 700;
-            color: #fff;
-            margin: 0 0 1rem 0;
-        }
-        .service-rich-content > p {
-            color: #999;
-            line-height: 1.7;
-            margin-bottom: 1.5rem;
-        }
-        .service-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-bottom: 2rem;
-        }
-        .service-tags .tag {
-            background: rgba(255,255,255,0.06);
-            border: 1px solid #333;
-            color: #bbb;
-            font-size: 0.8rem;
-            padding: 0.35rem 0.85rem;
-            border-radius: 100px;
-        }
-        .service-rich-img {
-            position: relative;
-            min-height: 360px;
-            overflow: hidden;
-        }
-        .service-rich-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            filter: grayscale(100%);
-            transition: filter 0.4s ease;
-        }
-        .service-rich-card:hover .service-rich-img img {
-            filter: grayscale(60%);
-        }
+        /* Rich Service Cards — styles in pages.css for cross-page consistency */
         @media (max-width: 768px) {
-            .service-rich-card {
-                grid-template-columns: 1fr;
-            }
-            .service-rich-img {
-                min-height: 220px;
-                order: -1;
-            }
-            .service-rich-content {
-                padding: 2rem;
-            }
             .marquee-card {
                 width: 300px;
             }
@@ -254,14 +171,14 @@
 
     <!-- Navbar -->
     <header class="navbar" id="navbar">
-        <a href="index.html" class="logo"><img src="logo.svg" alt="Designit" height="28"></a>
+        <a href="/" class="logo"><img src="/logo.svg" alt="Designit" height="28"></a>
         <nav class="nav-links" id="navLinks">
-            <a href="index.html" class="active">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="pricing.html">Pricing</a>
-            <a href="blog/index.html">Blog</a>
-            <a href="contact.html">Contact</a>
+            <a href="/" class="active">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/pricing.html">Pricing</a>
+            <a href="/blog/index.html">Blog</a>
+            <a href="/contact.html">Contact</a>
         </nav>
         <a href="#" class="btn btn-primary btn-sm nav-cta" onclick="openIntakeForm(); return false;">Let's Chat!</a>
         <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
@@ -285,7 +202,7 @@
                     <p class="hero-subtitle reveal">From strategy to pixel-perfect UI — we help SaaS, fintech, and AI companies ship products that convert better, retain longer, and scale faster.</p>
                     <div class="hero-ctas reveal">
                         <a href="#" class="btn btn-primary btn-lg" onclick="openIntakeForm(); return false;">Start Your Project</a>
-                        <a href="projects.html" class="btn btn-outline btn-lg">See Our Work</a>
+                        <a href="/projects.html" class="btn btn-outline btn-lg">See Our Work</a>
                     </div>
                 </div>
             </div>
@@ -346,7 +263,7 @@
                         <p class="section-label">Projects</p>
                         <h2 class="section-title gradient-text-106">Real Results From<br>Real Projects</h2>
                     </div>
-                    <a href="projects.html" class="btn btn-outline btn-sm">View all projects</a>
+                    <a href="/projects.html" class="btn btn-outline btn-sm">View all projects</a>
                 </div>
                 <div class="projects-grid">
                     <a href="projects/adda247.html" class="project-card reveal">
@@ -840,28 +757,28 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="index.html"><img src="logo.svg" alt="Designit" height="28"></a>
+                    <a href="/"><img src="/logo.svg" alt="Designit" height="28"></a>
                     <p>End-to-end product design partner. We design high-conversion digital experiences that drive growth, strengthen retention, and deliver measurable ROI.</p>
                 </div>
                 <div>
                     <h4 class="footer-col-title">Services</h4>
                     <div class="footer-links">
-                        <a href="index.html#services">UI/UX Design</a>
-                        <a href="index.html#services">Design Systems</a>
-                        <a href="index.html#services">SaaS Strategy</a>
-                        <a href="index.html#services">UX Research</a>
-                        <a href="index.html#services">Prototyping</a>
+                        <a href="/#services">UI/UX Design</a>
+                        <a href="/#services">Design Systems</a>
+                        <a href="/#services">SaaS Strategy</a>
+                        <a href="/#services">UX Research</a>
+                        <a href="/#services">Prototyping</a>
                     </div>
                 </div>
                 <div>
                     <h4 class="footer-col-title">Company</h4>
                     <div class="footer-links">
-                        <a href="about.html">About</a>
-                        <a href="projects.html">Projects</a>
-                        <a href="pricing.html">Pricing</a>
-                        <a href="blog/index.html">Blog</a>
-                        <a href="careers.html">Careers</a>
-                        <a href="contact.html">Contact</a>
+                        <a href="/about.html">About</a>
+                        <a href="/projects.html">Projects</a>
+                        <a href="/pricing.html">Pricing</a>
+                        <a href="/blog/index.html">Blog</a>
+                        <a href="/careers.html">Careers</a>
+                        <a href="/contact.html">Contact</a>
                     </div>
                 </div>
                 <div>
@@ -886,7 +803,7 @@
         </div>
     </footer>
 
-    <script src="main.js"></script>
-    <script src="intake-form.js"></script>
+    <script src="/main.js"></script>
+    <script src="/intake-form.js"></script>
 </body>
 </html>
