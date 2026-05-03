@@ -981,18 +981,12 @@ h5, .text-h5 {
    ANIMATIONS
    ============================================ */
 
+/* .reveal always visible - removed opacity:0 trick that hid content if JS observer didn't fire */
 .reveal {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
-
-/* JS adds .js-reveal-active to <html> before observer fires - only then animate from hidden state */
-html.js-reveal-active .reveal:not(.visible) {
-  opacity: 0;
-  transform: translateY(30px);
-}
-
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
