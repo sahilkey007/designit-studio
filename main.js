@@ -41,6 +41,9 @@
   // --- Scroll reveal animations ---
   var revealElements = document.querySelectorAll('.reveal');
   if (revealElements.length > 0 && 'IntersectionObserver' in window) {
+    // Mark html so CSS hides .reveal items until they intersect (animation enabled)
+    document.documentElement.classList.add('js-reveal-active');
+
     var revealObserver = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
@@ -50,12 +53,19 @@
       });
     }, {
       threshold: 0.06,
-      rootMargin: '0px 0px -30px 0px'
+      rootMargin: '0px 0px 200px 0px'
     });
 
     revealElements.forEach(function (el) {
       revealObserver.observe(el);
     });
+
+    // Safety net: after 2s, mark any remaining as visible so nothing stays hidden
+    setTimeout(function () {
+      document.querySelectorAll('.reveal:not(.visible)').forEach(function (el) {
+        el.classList.add('visible');
+      });
+    }, 2000);
   }
 
   // --- Counter animation ---
