@@ -918,8 +918,8 @@ h5, .text-h5 {
 
 .process-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
 }
 
 .process-step {
@@ -1014,6 +1014,12 @@ h5, .text-h5 {
     gap: 32px;
   }
 
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
   .process-grid {
     grid-template-columns: 1fr;
   }
