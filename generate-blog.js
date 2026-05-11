@@ -670,15 +670,70 @@ function generateBlogPost(post, relatedPosts) {
   <link rel="stylesheet" href="/design-system.css">
   <link rel="stylesheet" href="/pages.css">
   <link rel="icon" type="image/svg+xml" href="/logo.svg">
+  <link rel="apple-touch-icon" href="/logo.svg">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "${post.title.replace(/"/g, '\\"')}",
-    "description": "${post.metaDescription.replace(/"/g, '\\"')}",
-    "datePublished": "${post.date}",
-    "author": { "@type": "Organization", "name": "Designit" },
-    "publisher": { "@type": "Organization", "name": "Designit" }
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": "https://designit.co.in/blog/${post.slug}/#article",
+        "headline": "${post.title.replace(/"/g, '\\"')}",
+        "description": "${post.metaDescription.replace(/"/g, '\\"')}",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://designit.co.in${post.thumbnail}",
+          "width": 1200,
+          "height": 630
+        },
+        "datePublished": "${post.date}",
+        "dateModified": "${post.date}",
+        "author": {
+          "@type": "Person",
+          "name": "Sahil Sharma",
+          "url": "https://www.linkedin.com/in/sahilnsharma",
+          "jobTitle": "Founder & Lead Product Designer"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Designit",
+          "url": "https://designit.co.in/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://designit.co.in/logo.svg",
+            "width": 200,
+            "height": 60
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://designit.co.in/blog/${post.slug}/"
+        },
+        "articleSection": "${post.category}",
+        "keywords": "${post.category}, UI/UX Design, Product Design, Designit, India"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://designit.co.in/"},
+          {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://designit.co.in/blog/"},
+          {"@type": "ListItem", "position": 3, "name": "${post.title.replace(/"/g, '\\"')}", "item": "https://designit.co.in/blog/${post.slug}/"}
+        ]
+      }${post.faqs && post.faqs.length > 0 ? `,
+      {
+        "@type": "FAQPage",
+        "mainEntity": [${post.faqs.map(faq => `
+          {
+            "@type": "Question",
+            "name": "${faq.question.replace(/"/g, '\\"')}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "${faq.answer.replace(/"/g, '\\"').replace(/\n/g, ' ')}"
+            }
+          }`).join(',')}
+        ]
+      }` : ''}
+    ]
   }
   </script>
   ${BLOG_CSS}
@@ -692,9 +747,9 @@ ${navbar('Blog')}
     <div class="blog-post-header">
       <!-- Breadcrumb -->
       <nav class="blog-breadcrumb">
-        <a href="/index.html">Home</a>
+        <a href="/">Home</a>
         <span>/</span>
-        <a href="/blog/index.html">Blog</a>
+        <a href="/blog/">Blog</a>
         <span>/</span>
         <span style="color:var(--text-subtle);">${post.title}</span>
       </nav>

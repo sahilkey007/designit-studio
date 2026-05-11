@@ -28,32 +28,89 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "DesignAgency",
-      "name": "Designit",
-      "image": "https://designit.co.in/logo.svg",
-      "@id": "https://designit.co.in/",
-      "url": "https://designit.co.in/",
-      "telephone": "+918564948954",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Sector 45",
-        "addressLocality": "Noida",
-        "addressRegion": "UP",
-        "postalCode": "201303",
-        "addressCountry": "IN"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 28.5355,
-        "longitude": 77.3910
-      },
-      "priceRange": "₹₹₹"
+      "@graph": [
+        {
+          "@type": ["Organization", "ProfessionalService"],
+          "@id": "https://designit.co.in/#organization",
+          "name": "Designit",
+          "url": "https://designit.co.in/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://designit.co.in/logo.svg",
+            "width": 200,
+            "height": 60
+          },
+          "image": "https://designit.co.in/homepage.jpg",
+          "description": "India's premier B2B SaaS and product design agency. End-to-end UI/UX, branding, and conversion optimisation for startups and enterprise.",
+          "telephone": "+918564948954",
+          "email": "sahilnsharma77@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Sector 45",
+            "addressLocality": "Noida",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "201303",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 28.5355,
+            "longitude": 77.3910
+          },
+          "priceRange": "₹₹₹",
+          "currenciesAccepted": "INR, USD",
+          "areaServed": ["IN", "US", "GB", "AE"],
+          "serviceType": ["UI/UX Design", "Product Design", "Branding", "Conversion Rate Optimisation", "Website Redesign"],
+          "knowsAbout": ["B2B SaaS Design", "Product Design", "UI/UX", "Conversion Optimisation", "Branding", "Fintech Design"],
+          "founder": {
+            "@type": "Person",
+            "@id": "https://designit.co.in/about#sahil-sharma",
+            "name": "Sahil Sharma",
+            "jobTitle": "Founder & Lead Product Designer",
+            "url": "https://www.linkedin.com/in/sahilnsharma"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/sahilnsharma",
+            "https://designit.co.in/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://designit.co.in/#website",
+          "url": "https://designit.co.in/",
+          "name": "Designit",
+          "description": "Premium B2B SaaS & Product Design Agency India",
+          "publisher": {"@id": "https://designit.co.in/#organization"},
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://designit.co.in/blog/?search={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://designit.co.in/#webpage",
+          "url": "https://designit.co.in/",
+          "name": "Designit — Premium B2B SaaS & Product Design Agency India",
+          "isPartOf": {"@id": "https://designit.co.in/#website"},
+          "about": {"@id": "https://designit.co.in/#organization"},
+          "description": "End-to-end product design partner. We design high-conversion digital experiences that drive growth, strengthen retention, and deliver measurable ROI.",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://designit.co.in/"}]
+          }
+        }
+      ]
     }
     </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="/logo.svg">
     <link rel="stylesheet" href="/design-system.css">
     <link rel="stylesheet" href="/pages.css">
     <link rel="stylesheet" href="/intake-form.css">
