@@ -107,9 +107,89 @@
     }
     </script>
 
+    <!-- FAQPage schema — powers FAQ rich results and AI answer boxes -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Designit do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Designit is India's premier B2B SaaS and product design agency. We design high-conversion digital experiences — dashboards, onboarding flows, landing pages, mobile apps, and design systems — for SaaS companies, fintech startups, and enterprise software products."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Designit charge for UI/UX design?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Designit offers transparent, published pricing. Design Sprints (fixed-scope deliverables in 5 business days) and monthly retainers are available. Full pricing is at https://designit.co.in/pricing — no discovery call required to see rates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is the founder of Designit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Designit was founded by Sahil Sharma, a senior product designer with 5+ years of experience in B2B SaaS and e-commerce conversion design. Sahil leads every client engagement directly — clients work with the founder, not junior designers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Designit work with international clients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Designit works with clients in India, the US, the UK, and the UAE. All communication is in English and invoicing is available in INR or USD."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What industries does Designit specialise in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Designit specialises in B2B SaaS, fintech, edtech, proptech, and enterprise software. Past clients include Adda 247, Tata Elxsi, Kelp Global, Betacrew, Rcentric, and Omniyat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a design project take at Designit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing with one active request at a time and a 24-hour response time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Designit a good UI/UX design agency for startups in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Designit is specifically built for startups. The agency offers direct founder access, transparent pricing, 5-day delivery sprints, and a track record with funded Indian startups and global enterprise clients."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- SpeakableSpecification — helps voice search and AI assistants read the right content -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Designit — Premium B2B SaaS & Product Design Agency India",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".hero-headline", ".hero-sub", ".section-title", "h1", "h2"]
+      },
+      "url": "https://designit.co.in/"
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" href="/logo.svg">
     <link rel="stylesheet" href="/design-system.css">
     <link rel="stylesheet" href="/pages.css">

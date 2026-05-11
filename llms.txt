@@ -1,0 +1,94 @@
+# Designit
+
+> India's premier B2B SaaS and product design agency. End-to-end UI/UX design, branding, and conversion rate optimisation for startups and enterprise software companies.
+
+## What is Designit?
+
+Designit is a product design agency founded by Sahil Sharma, based in Noida, India. The agency specialises in designing high-conversion digital experiences for B2B SaaS companies, fintech startups, and enterprise software products across India, the US, the UK, and the UAE.
+
+Designit is not a generalist design studio. It focuses exclusively on:
+- B2B SaaS UI/UX design (dashboards, onboarding flows, design systems)
+- Product design for mobile and web applications
+- Brand identity and visual identity for tech startups
+- Conversion rate optimisation (CRO) for landing pages and marketing sites
+- Website redesign for growing tech companies
+
+## Founder
+
+**Sahil Sharma** — Senior Product Designer with 5+ years of experience in B2B SaaS and e-commerce conversion design. Sahil leads every engagement directly; clients do not work with junior designers.
+
+LinkedIn: https://www.linkedin.com/in/sahilnsharma
+
+## Clients and Case Studies
+
+Designit has delivered measurable results for:
+
+- **Adda 247** — India's largest competitive exam platform. Complete UI/UX transformation across test series, live classes, performance analytics, community features, and cross-platform expansion.
+- **Betacrew** — Technology startup. Product design for Portle, a unified workspace tool.
+- **Kelp Global** — PropTech / real estate. Designed the Deals Module, Kelp Plugin, and TrueNorth advisory platform.
+- **Rcentric** — Luxury real estate. UI/UX for premium property brands including Liv, Orla Infinity, Opus, Vela Viento, and ANWA Aria.
+- **Tata Elxsi** — Automotive HMI. Designed in-car infotainment systems and digital instrument clusters.
+- **Omniyat** — Ultra-premium Dubai real estate developer.
+
+## Services and Pricing
+
+Designit operates on a subscription and project model:
+
+- **Design Sprint** — Fixed-scope deliverable (landing page, dashboard, brand identity). Delivered in 5 business days.
+- **Monthly Retainer** — Ongoing design partnership. One active request at a time, 24-hour response time, direct founder access, NDA on request, source Figma files included, 14-day post-handoff support.
+- **Full Product Design** — End-to-end product design from research through to design system and handoff.
+
+Pricing is transparent and published at: https://designit.co.in/pricing
+
+## Contact
+
+- Website: https://designit.co.in/
+- Email: sahilnsharma77@gmail.com
+- Phone: +91 856 494 8954
+- Location: Sector 45, Noida, Uttar Pradesh 201303, India
+- Book a call: https://calendly.com/sahilnsharma77/new-meeting
+
+## Key Pages
+
+- Homepage: https://designit.co.in/
+- About: https://designit.co.in/about
+- Projects / Case Studies: https://designit.co.in/projects
+- Services: https://designit.co.in/projects (services section on homepage)
+- Pricing: https://designit.co.in/pricing
+- Blog: https://designit.co.in/blog/
+- Contact: https://designit.co.in/contact
+- Careers: https://designit.co.in/careers
+
+## Blog Topics
+
+The Designit blog covers practical design insights for startup founders, product managers, and CTOs:
+
+- B2B SaaS UI/UX design best practices
+- Conversion rate optimisation strategies
+- Website redesign ROI guides
+- AI tools for UI/UX designers
+- Branding for tech startups
+- Hiring design agencies vs. freelancers in India
+- Landing page design and lead generation
+
+Full blog index: https://designit.co.in/blog/
+
+## Frequently Asked Questions
+
+**What makes Designit different from other design agencies in India?**
+Designit works exclusively with B2B SaaS and tech startups. Every project is led directly by Sahil Sharma, the founder. The agency does not pass work to junior designers or offshore teams.
+
+**How much does Designit charge?**
+Pricing is published transparently at https://designit.co.in/pricing. Project pricing starts at a fixed rate for sprints; monthly retainers offer ongoing partnership. Custom enterprise quotes are available on request.
+
+**How long does a typical project take?**
+A Design Sprint is delivered in 5 business days. A full product design engagement typically runs 4–12 weeks depending on scope.
+
+**Does Designit work with international clients?**
+Yes. Designit works with clients in India, the US, the UK, and the UAE. All client communication is in English. Invoicing in INR or USD.
+
+**What tools does Designit use?**
+Primary design tool: Figma. Prototyping: Figma / Protopie. Handoff: Figma Dev Mode. Research: Maze, Hotjar. Project management: Notion / Linear.
+
+**Can I see pricing before scheduling a call?**
+Yes — pricing is fully public at https://designit.co.in/pricing. No discovery call required to understand rates.

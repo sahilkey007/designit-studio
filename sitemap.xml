@@ -38,6 +38,13 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://designit.co.in/about-designit</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Blog index -->
   <url>
     <loc>https://designit.co.in/blog/</loc>

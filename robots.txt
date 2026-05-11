@@ -6,5 +6,62 @@ Disallow: /_next/
 Disallow: /.claude/
 Disallow: /data/
 
+# ── Explicitly allow all major AI / LLM crawlers ──────────────────────────────
+# ChatGPT / OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Google AI (Gemini, SGE, AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft Bing / Copilot
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# Apple (Siri, Spotlight)
+User-agent: Applebot
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Common Crawl (trains many open-source LLMs)
+User-agent: CCBot
+Allow: /
+
+# Cohere / AI21 / Mistral research crawlers
+User-agent: cohere-ai
+Allow: /
+
+# ── Discovery files ───────────────────────────────────────────────────────────
+# llms.txt — machine-readable site summary for LLMs (https://llmstxt.org)
+# Location: https://designit.co.in/llms.txt
+
+# ── Sitemaps ──────────────────────────────────────────────────────────────────
 Sitemap: https://designit.co.in/sitemap.xml
 Sitemap: https://designit.co.in/blog/sitemap.xml
