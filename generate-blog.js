@@ -151,7 +151,8 @@ function markdownToHtml(md) {
     }
     if (line.startsWith('# ')) {
       closeList(); closeBlockquote();
-      html.push(`<h1 class="blog-h1">${parseInline(line.slice(2))}</h1>`);
+      // SEO: avoid duplicate <h1> — first heading in body becomes h2 since post title is already h1
+      html.push(`<h2 class="blog-h1">${parseInline(line.slice(2))}</h2>`);
       continue;
     }
 
@@ -262,11 +263,23 @@ function loadPosts() {
       { question: 'Do you work with international clients?', answer: 'Yes, we work with clients across India, UAE, USA, UK and beyond.' }
     ];
 
+    // Trim meta description to <=158 chars for Google SERP — keeps full phrase, no mid-word cut
+    const rawDesc = data.meta_description || '';
+    const trimmedDesc = rawDesc.length > 158
+      ? rawDesc.slice(0, 155).replace(/\s+\S*$/, '') + '…'
+      : rawDesc;
+
+    // Trim meta title to <=60 chars (SERP cutoff is 60 incl. brand suffix)
+    const rawTitle = data.meta_title || data.title;
+    const trimmedTitle = rawTitle.length > 60
+      ? rawTitle.slice(0, 57).replace(/\s+\S*$/, '') + '…'
+      : rawTitle;
+
     return {
       slug,
       title: data.title || '',
-      metaTitle: data.meta_title || data.title,
-      metaDescription: data.meta_description || '',
+      metaTitle: trimmedTitle,
+      metaDescription: trimmedDesc,
       date: DATE_MAP[slug] || data.date || '2026-04-30',
       author: data.author || 'Sahil Sharma',
       category: CATEGORY_MAP[slug] || 'Design & Strategy',
@@ -572,6 +585,44 @@ function generateBlogIndex(posts) {
   <link rel="stylesheet" href="/design-system.css">
   <link rel="stylesheet" href="/pages.css">
   <link rel="icon" type="image/svg+xml" href="/logo.svg">
+  <link rel="apple-touch-icon" href="/logo.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Blog",
+        "@id": "https://designit.co.in/blog/#blog",
+        "name": "Designit Blog",
+        "description": "Practical design insights for startup founders, product managers, and CTOs. Conversion optimisation, UI/UX, branding, and product design.",
+        "url": "https://designit.co.in/blog/",
+        "inLanguage": "en",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Designit",
+          "url": "https://designit.co.in/",
+          "logo": {"@type": "ImageObject", "url": "https://designit.co.in/logo.svg"}
+        },
+        "blogPost": [${posts.slice(0, 10).map(p => `
+          {
+            "@type": "BlogPosting",
+            "headline": "${p.title.replace(/"/g, '\\"')}",
+            "url": "https://designit.co.in/blog/${p.slug}/",
+            "datePublished": "${p.date}",
+            "author": {"@type": "Person", "name": "Sahil Sharma"}
+          }`).join(',')}
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://designit.co.in/"},
+          {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://designit.co.in/blog/"}
+        ]
+      }
+    ]
+  }
+  </script>
   ${BLOG_CSS}
 </head>
 <body>
