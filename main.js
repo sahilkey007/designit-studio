@@ -314,4 +314,148 @@
     });
   });
 
+  // ============================================
+  // Legacy selectors + project-page features
+  // (merged from former script.js)
+  // ============================================
+
+  // --- Staggered page entrance ([data-entrance]) ---
+  window.addEventListener('load', function () {
+    document.querySelectorAll('[data-entrance]').forEach(function (el, i) {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(24px)';
+      el.style.transition = 'opacity 0.7s cubic-bezier(0.16,1,0.3,1) ' + (i * 0.1) + 's, transform 0.7s cubic-bezier(0.16,1,0.3,1) ' + (i * 0.1) + 's';
+      requestAnimationFrame(function () {
+        el.style.opacity = '1';
+        el.style.transform = 'translateY(0)';
+      });
+    });
+  });
+
+  // --- Magnetic buttons (.btn mouse-follow) ---
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('.btn').forEach(function (btn) {
+      btn.addEventListener('mousemove', function (e) {
+        var rect = btn.getBoundingClientRect();
+        var x = e.clientX - rect.left - rect.width / 2;
+        var y = e.clientY - rect.top - rect.height / 2;
+        btn.style.transform = 'translate(' + (x * 0.12) + 'px, ' + (y * 0.12) + 'px)';
+      });
+      btn.addEventListener('mouseleave', function () {
+        btn.style.transform = '';
+        btn.style.transition = 'transform 0.4s cubic-bezier(0.16,1,0.3,1)';
+        setTimeout(function () { btn.style.transition = ''; }, 400);
+      });
+    });
+
+    // --- Card tilt (.svc-full-card, .process-step) ---
+    document.querySelectorAll('.svc-full-card, .process-step').forEach(function (card) {
+      card.addEventListener('mousemove', function (e) {
+        var rect = card.getBoundingClientRect();
+        var x = (e.clientX - rect.left) / rect.width - 0.5;
+        var y = (e.clientY - rect.top) / rect.height - 0.5;
+        card.style.transform = 'translateY(-2px) perspective(800px) rotateX(' + (y * -2) + 'deg) rotateY(' + (x * 2) + 'deg)';
+      });
+      card.addEventListener('mouseleave', function () {
+        card.style.transform = '';
+        card.style.transition = 'all 0.5s cubic-bezier(0.16,1,0.3,1)';
+        setTimeout(function () { card.style.transition = ''; }, 500);
+      });
+    });
+  }
+
+  // --- Pricing toggle (.pricing-toggle button) ---
+  var pricingBtns = document.querySelectorAll('.pricing-toggle button');
+  if (pricingBtns.length) {
+    pricingBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        pricingBtns.forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+      });
+    });
+  }
+
+  // --- Legacy FAQ markup (.faq-q + .open) ---
+  document.querySelectorAll('.faq-q').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var item = btn.parentElement;
+      var isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(function (i) { i.classList.remove('open'); });
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+
+  // --- Legacy stat counter (.stat-num parsing text content) ---
+  var legacyStatEls = document.querySelectorAll('.stat-num');
+  if (legacyStatEls.length && 'IntersectionObserver' in window) {
+    var legacyStatObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        var el = e.target;
+        var match = el.textContent.match(/^([\$₹]?)([\d.]+)(.*)$/);
+        if (!match) return;
+        var prefix = match[1], num = parseFloat(match[2]), suffix = match[3];
+        var duration = 1500;
+        var start = performance.now();
+        (function update(now) {
+          var p = Math.min((now - start) / duration, 1);
+          var eased = 1 - Math.pow(1 - p, 4);
+          var current = num % 1 !== 0 ? (eased * num).toFixed(1) : Math.round(eased * num);
+          el.textContent = prefix + current + suffix;
+          if (p < 1) requestAnimationFrame(update);
+        })(performance.now());
+        legacyStatObs.unobserve(el);
+      });
+    }, { threshold: 0.3 });
+    legacyStatEls.forEach(function (el) { legacyStatObs.observe(el); });
+  }
+
+  // --- Legacy project filter (.projects-filter button) ---
+  var projectFilterBtns = document.querySelectorAll('.projects-filter button');
+  if (projectFilterBtns.length) {
+    projectFilterBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        projectFilterBtns.forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        var cat = btn.dataset.filter;
+        document.querySelectorAll('.project-card[data-category]').forEach(function (card) {
+          if (cat === 'all' || card.dataset.category === cat) {
+            card.style.display = '';
+            card.classList.add('visible');
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  }
+
+  // --- Legacy blog filter (.blog-filters button) ---
+  var blogFilterBtns = document.querySelectorAll('.blog-filters button');
+  if (blogFilterBtns.length) {
+    blogFilterBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        blogFilterBtns.forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        var cat = btn.dataset.filter;
+        document.querySelectorAll('.blog-card[data-category]').forEach(function (card) {
+          if (cat === 'all' || card.dataset.category === cat) {
+            card.style.display = '';
+            setTimeout(function () { card.classList.add('visible'); }, 50);
+          } else {
+            card.style.display = 'none';
+            card.classList.remove('visible');
+          }
+        });
+      });
+    });
+  }
+
+  // --- Legacy form chip toggle (.form-help-chips label) ---
+  document.querySelectorAll('.form-help-chips label').forEach(function (label) {
+    label.addEventListener('click', function () {
+      label.classList.toggle('selected');
+    });
+  });
+
 })();

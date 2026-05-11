@@ -6,4 +6,5 @@ Disallow: /_next/
 Disallow: /.claude/
 Disallow: /data/
 
+Sitemap: https://designit.co.in/sitemap.xml
 Sitemap: https://designit.co.in/blog/sitemap.xml

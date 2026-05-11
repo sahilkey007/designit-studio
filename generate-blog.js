@@ -43,28 +43,52 @@ const CATEGORY_MAP = {
   'why-website-not-converting-visitors-india': 'CRO',
 };
 
-// Curated Unsplash thumbnails for each slug
+// Self-hosted SVG thumbnails per slug (generated to /assets/blog/)
 const THUMBNAIL_MAP = {
-  'ai-driven-website-design-services-india': 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&q=80&w=800',
-  'b2b-saas-ui-ux-design-services-india': 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
-  'b2b-website-redesign-services-india': 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800',
-  'best-ai-tools-ui-ux-designers-2026': 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800',
-  'best-branding-agency-tech-startups-india': 'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=800',
-  'branding-services-for-startups-india-cost': 'https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&q=80&w=800',
-  'cost-ui-ux-design-mobile-app-india': 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800',
-  'cro-strategies-for-b2b-saas-india': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
-  'custom-website-vs-template-roi-india': 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&q=80&w=800',
-  'generative-ai-website-personalization': 'https://images.unsplash.com/photo-1655720845083-801f4f63ae3b?auto=format&fit=crop&q=80&w=800',
-  'hire-ui-ux-designer-vs-agency-india': 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800',
-  'how-ai-is-changing-ux-design-india': 'https://images.unsplash.com/photo-1678995632928-298d05d41671?auto=format&fit=crop&q=80&w=800',
-  'how-to-improve-website-conversion-rate-india': 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=800',
-  'landing-page-conversion-audit-services-india': 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&q=80&w=800',
-  'landing-page-design-lead-generation-india': 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800',
-  'signs-your-company-needs-a-rebrand-india': 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&q=80&w=800',
-  'ui-ux-audit-for-website-india': 'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=800',
-  'visual-identity-vs-branding-startups': 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800',
-  'why-ecommerce-bounce-rate-so-high-india': 'https://images.unsplash.com/photo-1563986768609-322da13575f2?auto=format&fit=crop&q=80&w=800',
-  'why-website-not-converting-visitors-india': 'https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?auto=format&fit=crop&q=80&w=800',
+  'ai-driven-website-design-services-india':       '/assets/blog/ai-driven-website-design.svg',
+  'b2b-saas-ui-ux-design-services-india':           '/assets/blog/b2b-saas-ui-ux.svg',
+  'b2b-website-redesign-services-india':            '/assets/blog/b2b-website-redesign.svg',
+  'best-ai-tools-ui-ux-designers-2026':             '/assets/blog/best-ai-tools.svg',
+  'best-branding-agency-tech-startups-india':       '/assets/blog/best-branding-agency.svg',
+  'branding-services-for-startups-india-cost':      '/assets/blog/branding-services-cost.svg',
+  'cost-ui-ux-design-mobile-app-india':             '/assets/blog/cost-mobile-app.svg',
+  'cro-strategies-for-b2b-saas-india':              '/assets/blog/cro-strategies.svg',
+  'custom-website-vs-template-roi-india':           '/assets/blog/custom-vs-template.svg',
+  'generative-ai-website-personalization':          '/assets/blog/generative-ai-personalization.svg',
+  'hire-ui-ux-designer-vs-agency-india':            '/assets/blog/designer-vs-agency.svg',
+  'how-ai-is-changing-ux-design-india':             '/assets/blog/ai-changing-ux.svg',
+  'how-to-improve-website-conversion-rate-india':   '/assets/blog/improve-conversion.svg',
+  'landing-page-conversion-audit-services-india':   '/assets/blog/landing-page-audit.svg',
+  'landing-page-design-lead-generation-india':      '/assets/blog/landing-page-leadgen.svg',
+  'signs-your-company-needs-a-rebrand-india':       '/assets/blog/needs-rebrand.svg',
+  'ui-ux-audit-for-website-india':                  '/assets/blog/ui-ux-audit.svg',
+  'visual-identity-vs-branding-startups':           '/assets/blog/visual-identity-branding.svg',
+  'why-ecommerce-bounce-rate-so-high-india':        '/assets/blog/ecommerce-bounce.svg',
+  'why-website-not-converting-visitors-india':      '/assets/blog/not-converting.svg',
+};
+
+// Staggered publish dates — distributed across Jun 2025 → Apr 2026 so cards look authored over time
+const DATE_MAP = {
+  'visual-identity-vs-branding-startups':           '2025-06-12',
+  'why-ecommerce-bounce-rate-so-high-india':        '2025-07-03',
+  'best-branding-agency-tech-startups-india':       '2025-07-24',
+  'b2b-website-redesign-services-india':            '2025-08-14',
+  'custom-website-vs-template-roi-india':           '2025-09-02',
+  'cost-ui-ux-design-mobile-app-india':             '2025-09-19',
+  'signs-your-company-needs-a-rebrand-india':       '2025-10-08',
+  'hire-ui-ux-designer-vs-agency-india':            '2025-10-27',
+  'landing-page-design-lead-generation-india':      '2025-11-13',
+  'branding-services-for-startups-india-cost':      '2025-12-01',
+  'ui-ux-audit-for-website-india':                  '2025-12-18',
+  'why-website-not-converting-visitors-india':      '2026-01-09',
+  'landing-page-conversion-audit-services-india':   '2026-01-27',
+  'b2b-saas-ui-ux-design-services-india':           '2026-02-12',
+  'cro-strategies-for-b2b-saas-india':              '2026-02-26',
+  'how-to-improve-website-conversion-rate-india':   '2026-03-12',
+  'how-ai-is-changing-ux-design-india':             '2026-03-26',
+  'best-ai-tools-ui-ux-designers-2026':             '2026-04-09',
+  'generative-ai-website-personalization':          '2026-04-23',
+  'ai-driven-website-design-services-india':        '2026-04-30',
 };
 
 // ─── Markdown → HTML converter ────────────────────────────────────────────────
@@ -243,10 +267,10 @@ function loadPosts() {
       title: data.title || '',
       metaTitle: data.meta_title || data.title,
       metaDescription: data.meta_description || '',
-      date: data.date || '2026-01-15',
-      author: data.author || 'Designit Team',
+      date: DATE_MAP[slug] || data.date || '2026-04-30',
+      author: data.author || 'Sahil Sharma',
       category: CATEGORY_MAP[slug] || 'Design & Strategy',
-      thumbnail: THUMBNAIL_MAP[slug] || 'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=800',
+      thumbnail: THUMBNAIL_MAP[slug] || '/assets/blog/default.svg',
       readTime: '5 min read',
       contentHtml: markdownToHtml(bodyMd),
       faqs,
@@ -329,14 +353,8 @@ function footer() {
       <div class="footer-bottom">
         <span>© 2025 Designit. All rights reserved.</span>
         <div class="footer-social">
-          <a href="#" aria-label="X / Twitter">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </a>
-          <a href="#" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/sahilnsharma" target="_blank" rel="noopener" aria-label="LinkedIn">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-          </a>
-          <a href="#" aria-label="Dribbble">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.81zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855z"/></svg>
           </a>
         </div>
       </div>
@@ -537,9 +555,17 @@ function generateBlogIndex(posts) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog | Designit — UI/UX Insights for Startup Founders</title>
   <meta name="description" content="Actionable design insights for startup founders, product managers, and CTOs. Conversion optimization, hiring guides, product design process, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://designit.co.in/blog/">
   <meta property="og:title" content="Blog | Designit">
   <meta property="og:description" content="Actionable design insights for startup founders, product managers, and CTOs.">
-  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://designit.co.in/homepage.jpg">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://designit.co.in/blog/">
+  <meta property="twitter:title" content="Blog | Designit">
+  <meta property="twitter:description" content="Actionable design insights for startup founders, product managers, and CTOs.">
+  <meta property="twitter:image" content="https://designit.co.in/homepage.jpg">
+  <link rel="canonical" href="https://designit.co.in/blog/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -601,7 +627,6 @@ ${navbar('Blog')}
 ${footer()}
 
 <script src="/main.js"></script>
-<script src="/script.js"></script>
 ${filterScript}
 </body>
 </html>`;
@@ -628,9 +653,16 @@ function generateBlogPost(post, relatedPosts) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${post.metaTitle} | Designit</title>
   <meta name="description" content="${post.metaDescription}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://designit.co.in/blog/${post.slug}/">
   <meta property="og:title" content="${post.metaTitle}">
   <meta property="og:description" content="${post.metaDescription}">
-  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://designit.co.in${post.thumbnail}">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://designit.co.in/blog/${post.slug}/">
+  <meta property="twitter:title" content="${post.metaTitle}">
+  <meta property="twitter:description" content="${post.metaDescription}">
+  <meta property="twitter:image" content="https://designit.co.in${post.thumbnail}">
   <link rel="canonical" href="https://designit.co.in/blog/${post.slug}/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -728,7 +760,6 @@ ${navbar('Blog')}
 ${footer()}
 
 <script src="/main.js"></script>
-<script src="/script.js"></script>
 </body>
 </html>`;
 }
