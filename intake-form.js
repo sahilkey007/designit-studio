@@ -329,7 +329,53 @@
 
     /* ---------- submit ---------- */
 
+    var SUPABASE_URL  = 'https://xrrmeuftnhqhwhigztym.supabase.co';
+    var SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhycm1ldWZ0bmhxaHdoaWd6dHltIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg1Njc4NjAsImV4cCI6MjA5NDE0Mzg2MH0.vLZ0prx7vG0zj5AZA8iIerhv2hyJ9eK0lL3NFqCfwQ4';
+
+    function saveLeadToSupabase() {
+        var lead = {
+            full_name:       formData.fullName      || null,
+            company:         formData.company        || null,
+            website:         formData.website        || null,
+            email:           formData.email,
+            phone:           formData.phone          || null,
+            project_type:    formData.projectType    || null,
+            description:     formData.description    || null,
+            reference_links: formData.referenceLinks || null,
+            budget:          formData.budget         || null,
+            timeline:        formData.timeline       || null,
+            source:          formData.source         || null,
+            anything_else:   formData.anythingElse   || null,
+            page_url:        location.pathname,
+            user_agent:      navigator.userAgent
+        };
+        fetch(SUPABASE_URL + '/rest/v1/leads', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'apikey': SUPABASE_ANON,
+                'Authorization': 'Bearer ' + SUPABASE_ANON,
+                'Prefer': 'return=minimal'
+            },
+            body: JSON.stringify(lead)
+        }).catch(function (err) { console.error('Supabase lead save failed:', err); });
+    }
+
     function submitForm() {
+        /* 1. Save to Supabase leads table */
+        saveLeadToSupabase();
+
+        /* 2. Fire analytics event */
+        if (typeof window.trackEvent === 'function') {
+            window.trackEvent('form_submitted', {
+                project_type: formData.projectType,
+                budget:       formData.budget,
+                timeline:     formData.timeline,
+                source:       formData.source
+            });
+        }
+
+        /* 3. Send email via Web3Forms */
         var payload = Object.assign({}, formData, {
             access_key: '47d61ba4-4432-4e45-930e-9888feb0e34f',
             subject: '🚀 New Lead: ' + (formData.fullName || 'Unknown') + ' — ' + (formData.projectType || 'Project Inquiry'),
@@ -377,6 +423,9 @@
         document.getElementById('intakeBtnStart').addEventListener('click', function () {
             currentStep = 1;
             showStep(currentStep);
+            if (typeof window.trackEvent === 'function') {
+                window.trackEvent('form_started', {});
+            }
         });
 
         /* Close button (done step) */
@@ -395,6 +444,9 @@
         /* Next / Submit */
         document.getElementById('intakeBtnNext').addEventListener('click', function () {
             if (!validateStep(currentStep)) return;
+            if (typeof window.trackEvent === 'function') {
+                window.trackEvent('form_step_complete', { step: currentStep });
+            }
             if (currentStep === 3) {
                 submitForm();
                 currentStep = 4;
@@ -477,6 +529,11 @@
         syncGridSelections();
         clearErrors();
         showStep(0);
+
+        /* Track form open */
+        if (typeof window.trackEvent === 'function') {
+            window.trackEvent('form_opened', { page_url: location.pathname });
+        }
 
         /* Prevent body scroll */
         document.body.style.overflow = 'hidden';
