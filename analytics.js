@@ -45,8 +45,18 @@
             .catch(function () { /* silent fail — never break UX */ });
     }
 
+    /* ---- forward to PostHog if loaded ---- */
+    function sendToPosthog(eventName, props) {
+        if (window.posthog && typeof window.posthog.capture === 'function') {
+            window.posthog.capture(eventName, props || {});
+        }
+    }
+
     /* ---- expose globally for intake-form.js ---- */
-    window.trackEvent = send;
+    window.trackEvent = function(eventName, props) {
+        send(eventName, props);          // Supabase events table
+        sendToPosthog(eventName, props); // PostHog
+    };
 
     /* ---- 1. page_view ---- */
     send('page_view', {
