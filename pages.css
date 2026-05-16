@@ -2058,26 +2058,12 @@
 /* ============================================
    SERVICES — COLORED RICH BANDS
    ============================================ */
-/* ── Cards Parallax: sticky-stacking service cards ─────────────────── */
 .services-rich {
-  display: block;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   margin-top: 48px;
 }
-
-/* Each track is a full-viewport STICKY container pinned at the top —
-   mirrors `.cardContainer` in the Framer Motion reference. Because every
-   track sticks at top:0 within the tall .services-rich, successive cards
-   stack on top of each other as you scroll, forming a persistent deck. */
-.spc-track {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: sticky;
-  top: 0;
-}
-
 .service-rich-card {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
@@ -2087,38 +2073,32 @@
   background: #131313;
   border: 1px solid rgba(255,255,255,0.08);
   color: #fff;
+  transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
   position: relative;
-  /* per-card vertical offset set by JS: calc(-5vh + i*28px) so each
-     stacked card peeks slightly below the one in front */
-  top: -5vh;
-  width: 100%;
-  max-width: 1140px;
-  transform-origin: top center;
-  will-change: transform;
-  transition: border-color 0.3s ease, background 0.3s ease;
 }
 .service-rich-card:hover {
+  transform: translateY(-2px);
   border-color: rgba(255,255,255,0.18);
   background: #181818;
 }
-
-/* Left accent bar — nth-child now targets .spc-track since card is no
-   longer a direct child of .services-rich */
+/* Left accent bar — distinct color per service */
 .service-rich-card::before {
   content: '';
   position: absolute;
-  top: 0; left: 0; bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
   width: 4px;
   background: linear-gradient(180deg, #ff8a8a, #ff5e5e);
   z-index: 1;
 }
-.spc-track:nth-child(1) .service-rich-card::before { background: linear-gradient(180deg, #ff8a8a, #ff5e5e); }
-.spc-track:nth-child(2) .service-rich-card::before { background: linear-gradient(180deg, #6ea8ff, #3d7eff); }
-.spc-track:nth-child(3) .service-rich-card::before { background: linear-gradient(180deg, #c98aff, #8e5cff); }
-.spc-track:nth-child(4) .service-rich-card::before { background: linear-gradient(180deg, #6ee49a, #2cc56a); }
-.spc-track:nth-child(5) .service-rich-card::before { background: linear-gradient(180deg, #ffd56a, #f5b51c); }
-.spc-track:nth-child(6) .service-rich-card::before { background: linear-gradient(180deg, #5fe2c5, #1cb59a); }
-.spc-track:nth-child(7) .service-rich-card::before { background: linear-gradient(180deg, #ffb976, #f58a2c); }
+.service-rich-card:nth-child(1)::before { background: linear-gradient(180deg, #ff8a8a, #ff5e5e); }
+.service-rich-card:nth-child(2)::before { background: linear-gradient(180deg, #6ea8ff, #3d7eff); }
+.service-rich-card:nth-child(3)::before { background: linear-gradient(180deg, #c98aff, #8e5cff); }
+.service-rich-card:nth-child(4)::before { background: linear-gradient(180deg, #6ee49a, #2cc56a); }
+.service-rich-card:nth-child(5)::before { background: linear-gradient(180deg, #ffd56a, #f5b51c); }
+.service-rich-card:nth-child(6)::before { background: linear-gradient(180deg, #5fe2c5, #1cb59a); }
+.service-rich-card:nth-child(7)::before { background: linear-gradient(180deg, #ffb976, #f58a2c); }
 
 .service-rich-content {
   padding: 48px 56px;
@@ -2188,19 +2168,8 @@
 }
 
 @media (max-width: 900px) {
-  /* Disable sticky parallax on mobile — just stack cards normally */
-  .spc-track {
-    height: auto;
-    position: static;
-    margin-bottom: 16px;
-  }
   .service-rich-card {
     grid-template-columns: 1fr;
-    position: relative;
-    top: auto !important;
-    max-width: none;
-    transform: none !important;
-    will-change: auto;
   }
   .service-rich-content {
     padding: 32px 28px;
