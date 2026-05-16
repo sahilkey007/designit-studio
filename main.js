@@ -458,6 +458,52 @@
     });
   });
 
+  // --- Services Cards Parallax (adapted from Framer Motion stacking demo) ---
+  // Each .spc-track is height:100vh (scroll space); the .service-rich-card inside
+  // is sticky. JS computes scale per card: card i goes from scale 1 down to
+  // targetScale = 1 - (n - i) * 0.04 as the section progresses,
+  // starting its animation at rangeStart = i / n of the section's progress.
+  (function () {
+    var spcTracks = document.querySelectorAll('.spc-track');
+    if (!spcTracks.length) return;
+
+    var cards = [];
+    spcTracks.forEach(function (track, i) {
+      var card = track.querySelector('.service-rich-card');
+      if (!card) return;
+      // Stagger sticky-top offset for depth — card 0 deepest, last card on top
+      card.style.top = (80 + i * 20) + 'px';
+      cards.push({ el: card, i: i });
+    });
+
+    var n = cards.length;
+    var section = document.getElementById('services');
+    if (!section || n < 2) return;
+
+    function spcUpdate() {
+      var rect  = section.getBoundingClientRect();
+      var secH  = section.offsetHeight;
+      var winH  = window.innerHeight;
+      // progress: 0 = section top just hit viewport top, 1 = section bottom at viewport bottom
+      var progress = Math.max(0, Math.min(1, -rect.top / Math.max(1, secH - winH)));
+
+      cards.forEach(function (c) {
+        var i           = c.i;
+        var targetScale = 1 - (n - i) * 0.04;   // last card stays at 0.96, first at 0.72
+        var rangeStart  = i / n;                  // card i starts scaling at this progress
+        var p = rangeStart >= 1
+          ? 0
+          : Math.max(0, Math.min(1, (progress - rangeStart) / (1 - rangeStart)));
+        var scale = 1 - (1 - targetScale) * p;
+        c.el.style.transform = 'scale(' + scale.toFixed(4) + ')';
+      });
+    }
+
+    window.addEventListener('scroll', spcUpdate, { passive: true });
+    window.addEventListener('resize', spcUpdate, { passive: true });
+    spcUpdate();
+  })();
+
   // --- Footer wordmark — Payload-style cursor glow ---
   var wmEl = document.querySelector('.footer-wordmark');
   if (wmEl) {
