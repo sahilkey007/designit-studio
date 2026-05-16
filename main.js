@@ -289,6 +289,9 @@
       img.addEventListener('load', function () {
         img.style.opacity = '1';
       });
+      img.addEventListener('error', function () {
+        img.style.opacity = '1';
+      });
     }
   });
 
