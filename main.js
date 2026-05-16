@@ -463,67 +463,66 @@
   // is sticky. JS computes scale per card: card i goes from scale 1 down to
   // targetScale = 1 - (n - i) * 0.04 as the section progresses,
   // starting its animation at rangeStart = i / n of the section's progress.
+  // Faithful port of the Olivier Larose "Smooth Scroll Cards Parallax"
+  // (Framer Motion + Lenis) reference:
+  //   • each .spc-track is a 100vh `position:sticky; top:0` container, so
+  //     every card pins at the viewport top and they stack into a deck
+  //   • global scroll progress of .services-rich drives per-card scale
+  //     over range [i/n , 1]  →  [1 , 1-(n-i)*0.05]
+  //   • Lenis' buttery feel is reproduced with per-frame lerp damping of
+  //     the scale (no scroll hijacking of the rest of the page)
   (function () {
-    var spcTracks = document.querySelectorAll('.spc-track');
-    if (!spcTracks.length) return;
+    var rich = document.querySelector('.services-rich');
+    if (!rich) return;
+    var spcTracks = rich.querySelectorAll('.spc-track');
+    if (spcTracks.length < 2) return;
 
+    var n = spcTracks.length;
     var cards = [];
     spcTracks.forEach(function (track, i) {
       var card = track.querySelector('.service-rich-card');
       if (!card) return;
-      // Stagger sticky-top offset for depth — each stuck card sits a touch
-      // lower than the previous, so the stack is visible behind the top card.
-      card.style.top = (90 + i * 18) + 'px';
-      cards.push({ track: track, el: card, i: i });
+      // Each stacked card peeks 25px below the one in front of it.
+      card.style.top = 'calc(-5vh + ' + (i * 25) + 'px)';
+      cards.push({
+        el: card,
+        i: i,
+        targetScale: 1 - (n - i) * 0.05, // resting (stacked) scale
+        rangeStart: i / n,               // progress at which it starts shrinking
+        cur: 1                            // smoothed scale (lerp state)
+      });
     });
 
-    var n = cards.length;
-    if (n < 2) return;
-
-    // Disable on small screens (CSS already unsticks the cards there).
     var mq = window.matchMedia('(max-width: 900px)');
+    var lerp = function (a, b, t) { return a + (b - a) * t; };
 
-    var ticking = false;
+    function frame() {
+      window.requestAnimationFrame(frame);
 
-    function spcRender() {
-      ticking = false;
-      if (mq.matches) {
-        // Ensure no leftover transform from a wider layout.
-        cards.forEach(function (c) { c.el.style.transform = ''; });
-        return;
-      }
+      if (mq.matches) return; // CSS unsticks cards on mobile
 
+      var rect = rich.getBoundingClientRect();
       var winH = window.innerHeight;
+      // progress: 0 when section top reaches viewport top,
+      //           1 when section bottom reaches viewport bottom
+      var denom = rect.height - winH;
+      var progress = denom <= 0 ? 0 : -rect.top / denom;
+      progress = progress < 0 ? 0 : progress > 1 ? 1 : progress;
 
-      cards.forEach(function (c) {
-        var i = c.i;
-        // Final resting scale for this card — deeper cards (lower index)
-        // shrink more so the stack reads as layered depth.
-        var targetScale = 1 - (n - 1 - i) * 0.05;
-
-        // Per-card progress: 0 when the track's top is at the bottom of the
-        // viewport (card entering), 1 when the track's top reaches the
-        // viewport top (card now fully stuck). Each card animates on its
-        // OWN travel — no shared/global progress, so no jelly wobble.
-        var top = c.track.getBoundingClientRect().top;
-        var p = (winH - top) / winH;
+      for (var k = 0; k < cards.length; k++) {
+        var c = cards[k];
+        var span = 1 - c.rangeStart;
+        var p = span <= 0 ? 1 : (progress - c.rangeStart) / span;
         p = p < 0 ? 0 : p > 1 ? 1 : p;
-
-        var scale = 1 - (1 - targetScale) * p;
-        c.el.style.transform = 'scale(' + scale.toFixed(4) + ')';
-      });
-    }
-
-    function spcRequest() {
-      if (!ticking) {
-        ticking = true;
-        window.requestAnimationFrame(spcRender);
+        var target = 1 + (c.targetScale - 1) * p;
+        // damping → smooth even on jumpy native wheel/trackpad scroll
+        c.cur = lerp(c.cur, target, 0.1);
+        if (Math.abs(c.cur - target) < 0.0002) c.cur = target;
+        c.el.style.transform = 'scale(' + c.cur.toFixed(4) + ')';
       }
     }
 
-    window.addEventListener('scroll', spcRequest, { passive: true });
-    window.addEventListener('resize', spcRequest, { passive: true });
-    spcRender();
+    window.requestAnimationFrame(frame);
   })();
 
   // --- Footer wordmark — Payload-style cursor glow ---

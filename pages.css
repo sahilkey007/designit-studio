@@ -2061,17 +2061,21 @@
 /* ── Cards Parallax: sticky-stacking service cards ─────────────────── */
 .services-rich {
   display: block;
+  position: relative;
   margin-top: 48px;
 }
 
-/* Each track holds 100vh of scroll space so its card can stick while
-   the next one slides in from below — mirrors cardContainer in the
-   Framer Motion reference */
+/* Each track is a full-viewport STICKY container pinned at the top —
+   mirrors `.cardContainer` in the Framer Motion reference. Because every
+   track sticks at top:0 within the tall .services-rich, successive cards
+   stack on top of each other as you scroll, forming a persistent deck. */
 .spc-track {
   height: 100vh;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
+  position: sticky;
+  top: 0;
 }
 
 .service-rich-card {
@@ -2083,13 +2087,14 @@
   background: #131313;
   border: 1px solid rgba(255,255,255,0.08);
   color: #fff;
-  position: sticky;
-  /* top offset set per-card by JS (80px + i*20px) for depth layering */
-  top: 80px;
+  position: relative;
+  /* per-card vertical offset set by JS: calc(-5vh + i*28px) so each
+     stacked card peeks slightly below the one in front */
+  top: -5vh;
   width: 100%;
+  max-width: 1140px;
   transform-origin: top center;
   will-change: transform;
-  /* keep only non-transform transitions so JS scale isn't janky */
   transition: border-color 0.3s ease, background 0.3s ease;
 }
 .service-rich-card:hover {
@@ -2186,12 +2191,14 @@
   /* Disable sticky parallax on mobile — just stack cards normally */
   .spc-track {
     height: auto;
+    position: static;
     margin-bottom: 16px;
   }
   .service-rich-card {
     grid-template-columns: 1fr;
     position: relative;
     top: auto !important;
+    max-width: none;
     transform: none !important;
     will-change: auto;
   }
