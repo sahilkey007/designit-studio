@@ -471,37 +471,59 @@
     spcTracks.forEach(function (track, i) {
       var card = track.querySelector('.service-rich-card');
       if (!card) return;
-      // Stagger sticky-top offset for depth — card 0 deepest, last card on top
-      card.style.top = (80 + i * 20) + 'px';
-      cards.push({ el: card, i: i });
+      // Stagger sticky-top offset for depth — each stuck card sits a touch
+      // lower than the previous, so the stack is visible behind the top card.
+      card.style.top = (90 + i * 18) + 'px';
+      cards.push({ track: track, el: card, i: i });
     });
 
     var n = cards.length;
-    var section = document.getElementById('services');
-    if (!section || n < 2) return;
+    if (n < 2) return;
 
-    function spcUpdate() {
-      var rect  = section.getBoundingClientRect();
-      var secH  = section.offsetHeight;
-      var winH  = window.innerHeight;
-      // progress: 0 = section top just hit viewport top, 1 = section bottom at viewport bottom
-      var progress = Math.max(0, Math.min(1, -rect.top / Math.max(1, secH - winH)));
+    // Disable on small screens (CSS already unsticks the cards there).
+    var mq = window.matchMedia('(max-width: 900px)');
+
+    var ticking = false;
+
+    function spcRender() {
+      ticking = false;
+      if (mq.matches) {
+        // Ensure no leftover transform from a wider layout.
+        cards.forEach(function (c) { c.el.style.transform = ''; });
+        return;
+      }
+
+      var winH = window.innerHeight;
 
       cards.forEach(function (c) {
-        var i           = c.i;
-        var targetScale = 1 - (n - i) * 0.04;   // last card stays at 0.96, first at 0.72
-        var rangeStart  = i / n;                  // card i starts scaling at this progress
-        var p = rangeStart >= 1
-          ? 0
-          : Math.max(0, Math.min(1, (progress - rangeStart) / (1 - rangeStart)));
+        var i = c.i;
+        // Final resting scale for this card — deeper cards (lower index)
+        // shrink more so the stack reads as layered depth.
+        var targetScale = 1 - (n - 1 - i) * 0.05;
+
+        // Per-card progress: 0 when the track's top is at the bottom of the
+        // viewport (card entering), 1 when the track's top reaches the
+        // viewport top (card now fully stuck). Each card animates on its
+        // OWN travel — no shared/global progress, so no jelly wobble.
+        var top = c.track.getBoundingClientRect().top;
+        var p = (winH - top) / winH;
+        p = p < 0 ? 0 : p > 1 ? 1 : p;
+
         var scale = 1 - (1 - targetScale) * p;
         c.el.style.transform = 'scale(' + scale.toFixed(4) + ')';
       });
     }
 
-    window.addEventListener('scroll', spcUpdate, { passive: true });
-    window.addEventListener('resize', spcUpdate, { passive: true });
-    spcUpdate();
+    function spcRequest() {
+      if (!ticking) {
+        ticking = true;
+        window.requestAnimationFrame(spcRender);
+      }
+    }
+
+    window.addEventListener('scroll', spcRequest, { passive: true });
+    window.addEventListener('resize', spcRequest, { passive: true });
+    spcRender();
   })();
 
   // --- Footer wordmark — Payload-style cursor glow ---
