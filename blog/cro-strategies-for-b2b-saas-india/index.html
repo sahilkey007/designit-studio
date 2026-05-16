@@ -175,12 +175,12 @@
 .blog-faq { max-width: 760px; margin: 0 auto; padding: 0 1.5rem 4rem; }
 .blog-faq-box { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 20px; padding: 2.5rem; }
 .blog-faq-title { font-size: 1.5rem; font-weight: 700; color: #fff; margin-bottom: 2rem; }
-.faq-item { border: 1px solid var(--border-subtle); border-radius: 12px; overflow: hidden; margin-bottom: 0.75rem; }
-.faq-item summary { display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 1.25rem; cursor: pointer; list-style: none; color: #fff; font-weight: 600; font-size: 0.95rem; }
-.faq-item summary::-webkit-details-marker { display: none; }
+.blog-faq-box .faq-item { border: 1px solid var(--border-subtle); border-radius: 12px; overflow: hidden; margin-bottom: 0.75rem; padding: 0; }
+.blog-faq-box .faq-question { font-size: 0.95rem; padding: 1.1rem 1.25rem; }
 .faq-icon { font-size: 1.25rem; color: var(--text-ghost); transition: transform 0.3s; }
-.faq-item[open] .faq-icon { transform: rotate(45deg); }
-.faq-answer { padding: 0 1.25rem 1.1rem; color: var(--text-tertiary); font-size: 0.9rem; line-height: 1.7; }
+.blog-faq-box .faq-answer { padding: 0 1.25rem; }
+.blog-faq-box .faq-item.active .faq-answer { padding: 0 1.25rem 1.1rem; }
+.blog-faq-box .faq-answer p { font-size: 0.9rem; line-height: 1.7; margin: 0; color: var(--text-tertiary); }
 
 /* CTA */
 .blog-cta { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 5rem; }
@@ -315,20 +315,20 @@
     <div class="blog-faq-box">
       <h2 class="blog-faq-title">Frequently Asked Questions</h2>
       
-    <details class="faq-item" open>
-      <summary>What is a good conversion rate for B2B SaaS?<span class="faq-icon">+</span></summary>
-      <p class="faq-answer">For a free trial signup, a conversion rate of 2% to 5% from unique website visitors is standard. For "Request a Demo" high-intent forms, 1% to 3% is considered healthy.</p>
-    </details>
+    <div class="faq-item">
+      <button class="faq-question">What is a good conversion rate for B2B SaaS?<span class="faq-icon">+</span></button>
+      <div class="faq-answer"><p>For a free trial signup, a conversion rate of 2% to 5% from unique website visitors is standard. For "Request a Demo" high-intent forms, 1% to 3% is considered healthy.</p></div>
+    </div>
 
-    <details class="faq-item" >
-      <summary>How do we start implementing CRO strategies?<span class="faq-icon">+</span></summary>
-      <p class="faq-answer">Start with data. Install heatmaps, run a technical SEO audit, and analyze your Google Analytics to see exactly where users are dropping off (e.g., Pricing Page vs. Feature Pages).</p>
-    </details>
+    <div class="faq-item">
+      <button class="faq-question">How do we start implementing CRO strategies?<span class="faq-icon">+</span></button>
+      <div class="faq-answer"><p>Start with data. Install heatmaps, run a technical SEO audit, and analyze your Google Analytics to see exactly where users are dropping off (e.g., Pricing Page vs. Feature Pages).</p></div>
+    </div>
 
-    <details class="faq-item" >
-      <summary>Do we need a specialized B2B SaaS UI/UX design agency?<span class="faq-icon">+</span></summary>
-      <p class="faq-answer">Yes. B2B SaaS requires a deep understanding of complex user roles, data visualization, and enterprise sales cycles. A generic web design agency often lacks the technical depth to optimize a SaaS funnel.</p>
-    </details>
+    <div class="faq-item">
+      <button class="faq-question">Do we need a specialized B2B SaaS UI/UX design agency?<span class="faq-icon">+</span></button>
+      <div class="faq-answer"><p>Yes. B2B SaaS requires a deep understanding of complex user roles, data visualization, and enterprise sales cycles. A generic web design agency often lacks the technical depth to optimize a SaaS funnel.</p></div>
+    </div>
     </div>
   </section>
 

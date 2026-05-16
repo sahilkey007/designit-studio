@@ -175,12 +175,12 @@
 .blog-faq { max-width: 760px; margin: 0 auto; padding: 0 1.5rem 4rem; }
 .blog-faq-box { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 20px; padding: 2.5rem; }
 .blog-faq-title { font-size: 1.5rem; font-weight: 700; color: #fff; margin-bottom: 2rem; }
-.faq-item { border: 1px solid var(--border-subtle); border-radius: 12px; overflow: hidden; margin-bottom: 0.75rem; }
-.faq-item summary { display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 1.25rem; cursor: pointer; list-style: none; color: #fff; font-weight: 600; font-size: 0.95rem; }
-.faq-item summary::-webkit-details-marker { display: none; }
+.blog-faq-box .faq-item { border: 1px solid var(--border-subtle); border-radius: 12px; overflow: hidden; margin-bottom: 0.75rem; padding: 0; }
+.blog-faq-box .faq-question { font-size: 0.95rem; padding: 1.1rem 1.25rem; }
 .faq-icon { font-size: 1.25rem; color: var(--text-ghost); transition: transform 0.3s; }
-.faq-item[open] .faq-icon { transform: rotate(45deg); }
-.faq-answer { padding: 0 1.25rem 1.1rem; color: var(--text-tertiary); font-size: 0.9rem; line-height: 1.7; }
+.blog-faq-box .faq-answer { padding: 0 1.25rem; }
+.blog-faq-box .faq-item.active .faq-answer { padding: 0 1.25rem 1.1rem; }
+.blog-faq-box .faq-answer p { font-size: 0.9rem; line-height: 1.7; margin: 0; color: var(--text-tertiary); }
 
 /* CTA */
 .blog-cta { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 5rem; }
@@ -321,20 +321,20 @@
     <div class="blog-faq-box">
       <h2 class="blog-faq-title">Frequently Asked Questions</h2>
       
-    <details class="faq-item" open>
-      <summary>Are there affordable branding packages for small businesses in India?<span class="faq-icon">+</span></summary>
-      <p class="faq-answer">Yes, many agencies offer "Startup MVP Packages" which strip out the deep strategic research and focus entirely on delivering a high-quality, professional visual identity and brand book at a lower price point.</p>
-    </details>
+    <div class="faq-item">
+      <button class="faq-question">Are there affordable branding packages for small businesses in India?<span class="faq-icon">+</span></button>
+      <div class="faq-answer"><p>Yes, many agencies offer "Startup MVP Packages" which strip out the deep strategic research and focus entirely on delivering a high-quality, professional visual identity and brand book at a lower price point.</p></div>
+    </div>
 
-    <details class="faq-item" >
-      <summary>How long does the branding process take?<span class="faq-icon">+</span></summary>
-      <p class="faq-answer">A proper brand strategy and visual identity project typically takes between 4 to 8 weeks, depending on the number of revisions and decision-maker availability.</p>
-    </details>
+    <div class="faq-item">
+      <button class="faq-question">How long does the branding process take?<span class="faq-icon">+</span></button>
+      <div class="faq-answer"><p>A proper brand strategy and visual identity project typically takes between 4 to 8 weeks, depending on the number of revisions and decision-maker availability.</p></div>
+    </div>
 
-    <details class="faq-item" >
-      <summary>Should I do branding before or after website design?<span class="faq-icon">+</span></summary>
-      <p class="faq-answer">Always do branding *before* website design. Your brand's color palette, typography, and tone of voice will dictate the entire UI/UX of your website.</p>
-    </details>
+    <div class="faq-item">
+      <button class="faq-question">Should I do branding before or after website design?<span class="faq-icon">+</span></button>
+      <div class="faq-answer"><p>Always do branding *before* website design. Your brand's color palette, typography, and tone of voice will dictate the entire UI/UX of your website.</p></div>
+    </div>
     </div>
   </section>
 

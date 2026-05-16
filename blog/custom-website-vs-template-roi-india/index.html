@@ -175,12 +175,12 @@
 .blog-faq { max-width: 760px; margin: 0 auto; padding: 0 1.5rem 4rem; }
 .blog-faq-box { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 20px; padding: 2.5rem; }
 .blog-faq-title { font-size: 1.5rem; font-weight: 700; color: #fff; margin-bottom: 2rem; }
-.faq-item { border: 1px solid var(--border-subtle); border-radius: 12px; overflow: hidden; margin-bottom: 0.75rem; }
-.faq-item summary { display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 1.25rem; cursor: pointer; list-style: none; color: #fff; font-weight: 600; font-size: 0.95rem; }
-.faq-item summary::-webkit-details-marker { display: none; }
+.blog-faq-box .faq-item { border: 1px solid var(--border-subtle); border-radius: 12px; overflow: hidden; margin-bottom: 0.75rem; padding: 0; }
+.blog-faq-box .faq-question { font-size: 0.95rem; padding: 1.1rem 1.25rem; }
 .faq-icon { font-size: 1.25rem; color: var(--text-ghost); transition: transform 0.3s; }
-.faq-item[open] .faq-icon { transform: rotate(45deg); }
-.faq-answer { padding: 0 1.25rem 1.1rem; color: var(--text-tertiary); font-size: 0.9rem; line-height: 1.7; }
+.blog-faq-box .faq-answer { padding: 0 1.25rem; }
+.blog-faq-box .faq-item.active .faq-answer { padding: 0 1.25rem 1.1rem; }
+.blog-faq-box .faq-answer p { font-size: 0.9rem; line-height: 1.7; margin: 0; color: var(--text-tertiary); }
 
 /* CTA */
 .blog-cta { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 5rem; }
@@ -297,20 +297,20 @@
     <div class="blog-faq-box">
       <h2 class="blog-faq-title">Frequently Asked Questions</h2>
       
-    <details class="faq-item" open>
-      <summary>How much does a custom WordPress website design cost in India?<span class="faq-icon">+</span></summary>
-      <p class="faq-answer">A professionally designed, custom WordPress website for a small business in India typically ranges from ₹75,000 to ₹2,00,000, depending on the number of pages and custom functionalities required.</p>
-    </details>
+    <div class="faq-item">
+      <button class="faq-question">How much does a custom WordPress website design cost in India?<span class="faq-icon">+</span></button>
+      <div class="faq-answer"><p>A professionally designed, custom WordPress website for a small business in India typically ranges from ₹75,000 to ₹2,00,000, depending on the number of pages and custom functionalities required.</p></div>
+    </div>
 
-    <details class="faq-item" >
-      <summary>Is a template ever a good idea?<span class="faq-icon">+</span></summary>
-      <p class="faq-answer">Yes. If you are a solo freelancer, a local bakery, or literally launching your business tomorrow with zero budget, a Wix or Squarespace template is fine. But the moment you rely on your website for B2B lead generation or high-volume sales, you need to upgrade to custom.</p>
-    </details>
+    <div class="faq-item">
+      <button class="faq-question">Is a template ever a good idea?<span class="faq-icon">+</span></button>
+      <div class="faq-answer"><p>Yes. If you are a solo freelancer, a local bakery, or literally launching your business tomorrow with zero budget, a Wix or Squarespace template is fine. But the moment you rely on your website for B2B lead generation or high-volume sales, you need to upgrade to custom.</p></div>
+    </div>
 
-    <details class="faq-item" >
-      <summary>Do custom websites take longer to build?<span class="faq-icon">+</span></summary>
-      <p class="faq-answer">Yes. A template can be deployed in a weekend. A custom website involves UX research, wireframing, UI design, and development, usually taking 4 to 8 weeks. However, the resulting ROI heavily outweighs the wait time.</p>
-    </details>
+    <div class="faq-item">
+      <button class="faq-question">Do custom websites take longer to build?<span class="faq-icon">+</span></button>
+      <div class="faq-answer"><p>Yes. A template can be deployed in a weekend. A custom website involves UX research, wireframing, UI design, and development, usually taking 4 to 8 weeks. However, the resulting ROI heavily outweighs the wait time.</p></div>
+    </div>
     </div>
   </section>
 
