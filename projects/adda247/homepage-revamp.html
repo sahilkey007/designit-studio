@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Revamp — Adda247 | Designit Case Study</title>
+    <meta name="description" content="Keeping ADDA home simple and approachable — revamping the Adda247 home screen to enhance onboarding, boost engagement, and drive free-to-paid conversion for 3M+ competitive exam students.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/design-system.css">
+    <link rel="stylesheet" href="/pages.css">
+    <link rel="stylesheet" href="/intake-form.css">
+    <style>
+        .pd-hero { background: #0A0A0A; padding: 140px 48px 80px; text-align: center; color: #fff; }
+        .pd-hero .sec-label { color: rgba(255,255,255,0.6); }
+        .pd-hero h1 { font-size: 48px; font-weight: 700; color: #fff; letter-spacing: -2px; line-height: 1.15; margin-bottom: 16px; }
+        .pd-hero p { font-size: 18px; color: rgba(255,255,255,0.8); max-width: 640px; margin: 0 auto 32px; line-height: 1.7; }
+        .pd-hero-chips { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+        .pd-hero-chips span { padding: 8px 18px; border: 1px solid rgba(255,255,255,0.25); border-radius: 100px; font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.85); }
+        .pd-hero-img { padding: 0 48px; margin-top: -40px; margin-bottom: 80px; }
+        .pd-hero-img .container { max-width: 1100px; margin: 0 auto; }
+        .pd-hero-img img { width: 100%; border-radius: 24px; box-shadow: 0 24px 60px rgba(0,0,0,0.15); display: block; }
+        .pd-section { padding: 80px 0; }
+        .pd-section-alt { padding: 80px 0; background: var(--bg-secondary); }
+        .pd-section-dark { padding: 80px 0; background: var(--bg-dark); color: #fff; }
+        .pd-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+        .pd-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .pd-meta-card { padding: 20px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-meta-card .label { font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 6px; }
+        .pd-meta-card .value { font-size: 15px; font-weight: 600; color: var(--text-primary); line-height: 1.4; }
+        .pd-results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 48px; }
+        .pd-result-card { text-align: center; padding: 40px 24px; border: 1px solid var(--border-light); border-radius: 20px; background: var(--bg-page); }
+        .pd-result-num { font-size: 48px; font-weight: 700; letter-spacing: -2px; color: var(--text-primary); line-height: 1; margin-bottom: 8px; }
+        .pd-result-label { font-size: 15px; color: var(--text-secondary); }
+        .pd-process-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 40px; }
+        .pd-process-step { padding: 32px; border: 1px solid var(--border-light); border-radius: 20px; transition: all 0.3s ease; }
+        .pd-process-step:hover { border-color: var(--border-medium); box-shadow: 0 4px 12px rgba(0,0,0,0.06); transform: translateY(-2px); }
+        .pd-process-num { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+        .pd-process-step h4 { font-size: 20px; font-weight: 600; margin-bottom: 8px; color: var(--text-primary); }
+        .pd-process-step p { font-size: 15px; color: var(--text-secondary); line-height: 1.6; }
+        .pd-gallery { display: grid; grid-template-columns: 1fr; gap: 32px; margin-top: 40px; }
+        .pd-gallery img { width: 100%; border-radius: 20px; display: block; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .pd-gallery-2col { grid-template-columns: 1fr 1fr; }
+        .pd-nav { display: flex; justify-content: space-between; align-items: center; padding: 40px 0; border-top: 1px solid var(--border-light); margin-top: 40px; }
+        .pd-nav a { font-size: 15px; font-weight: 600; color: var(--text-primary); display: flex; align-items: center; gap: 8px; transition: color 0.2s; }
+        .pd-nav a:hover { color: var(--text-secondary); }
+        .pd-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+        .pd-feature { padding: 28px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-feature h4 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+        .pd-feature p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+        .pd-challenges { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 40px; }
+        .pd-challenge { padding: 28px; border: 1px solid var(--border-light); border-radius: 16px; }
+        .pd-challenge h4 { font-size: 17px; font-weight: 600; margin-bottom: 8px; color: var(--text-primary); }
+        .pd-challenge p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+        .pd-insight-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+        .pd-insight { padding: 32px 24px; border: 1px solid var(--border-light); border-radius: 20px; text-align: center; }
+        .pd-insight-stat { font-size: 40px; font-weight: 700; letter-spacing: -2px; color: var(--text-primary); margin-bottom: 8px; line-height: 1; }
+        .pd-insight-label { font-size: 14px; color: var(--text-secondary); line-height: 1.5; }
+        @media(max-width:768px) {
+            .pd-hero { padding: 120px 24px 60px; }
+            .pd-hero h1 { font-size: 36px; }
+            .pd-hero-img { padding: 0 24px; }
+            .pd-grid { grid-template-columns: 1fr; gap: 40px; }
+            .pd-meta-grid { grid-template-columns: 1fr; }
+            .pd-results-grid { grid-template-columns: 1fr; }
+            .pd-process-steps { grid-template-columns: 1fr; }
+            .pd-features { grid-template-columns: 1fr; }
+            .pd-gallery-2col { grid-template-columns: 1fr; }
+            .pd-challenges { grid-template-columns: 1fr; }
+            .pd-insight-row { grid-template-columns: 1fr; }
+        }
+    </style>
+    <link rel="canonical" href="https://designit.co.in/projects/adda247/homepage-revamp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://designit.co.in/projects/adda247/homepage-revamp">
+    <meta property="og:title" content="Homepage Revamp — Adda247 | Designit Case Study">
+    <meta property="og:description" content="Keeping ADDA home simple and approachable — revamping the Adda247 home screen to enhance onboarding, boost engagement, and drive free-to-paid conversion for 3M+ competitive exam students.">
+    <meta property="og:image" content="https://designit.co.in/assets/projects/adda247/homepage-revamp-hero.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:image" content="https://designit.co.in/assets/projects/adda247/homepage-revamp-hero.png">
+</head>
+<body>
+    <!-- NAV -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="/" class="logo"><img src="/logo.svg" alt="Designit" height="28"></a>
+            <nav class="nav-links" id="navLinks">
+                <a href="/">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/projects.html">Projects</a>
+                <a href="/pricing.html">Pricing</a>
+                <a href="/blog/index.html">Blog</a>
+                <a href="/contact.html">Contact</a>
+            </nav>
+            <a href="/contact.html" class="btn btn-primary btn-sm">Let's Chat!</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="pd-hero">
+            <p class="sec-label">Adda247 &mdash; EdTech</p>
+            <h1>Keeping ADDA Home<br>Simple &amp; Approachable</h1>
+            <p>Revamping the Adda247 home screen to enhance onboarding, boost engagement, and drive free-to-paid conversion for 3M+ competitive exam students.</p>
+            <div class="pd-hero-chips">
+                <span>UX Research &amp; Discovery</span>
+                <span>Product Design</span>
+                <span>Interaction Design</span>
+                <span>Information Architecture</span>
+                <span>Prototyping</span>
+            </div>
+        </section>
+
+        <!-- HERO IMAGE -->
+        <section class="pd-hero-img">
+            <div class="container">
+                <img src="/assets/projects/adda247/homepage-revamp-hero.png" alt="Adda247 Homepage Revamp — Designit case study" loading="lazy">
+            </div>
+        </section>
+
+        <!-- OVERVIEW -->
+        <section class="pd-section">
+            <div class="container">
+                <div class="pd-grid">
+                    <div>
+                        <p class="section-label">Project Overview</p>
+                        <h2 class="section-title" style="font-size:36px; margin-bottom:20px;">A smarter home for<br>India's biggest EdTech</h2>
+                        <p style="font-size:16px; color:var(--text-secondary); line-height:1.8; margin-bottom:16px;">The Adda247 app serves millions of students preparing for competitive exams. However, its home screen felt outdated and failed to guide users effectively — leading to low retention and drop-off at a critical stage.</p>
+                        <p style="font-size:16px; color:var(--text-secondary); line-height:1.8;">This project focused on revamping the home section to deliver a structured, frictionless onboarding flow for new users and a personalised, high-engagement experience for existing ones — while nudging free users toward paid conversion.</p>
+                    </div>
+                    <div class="pd-meta-grid">
+                        <div class="pd-meta-card">
+                            <div class="label">Client</div>
+                            <div class="value">Adda247</div>
+                        </div>
+                        <div class="pd-meta-card">
+                            <div class="label">Platform</div>
+                            <div class="value">iOS &amp; Android App</div>
+                        </div>
+                        <div class="pd-meta-card">
+                            <div class="label">Domain</div>
+                            <div class="value">EdTech / Competitive Exams</div>
+                        </div>
+                        <div class="pd-meta-card">
+                            <div class="label">My Role</div>
+                            <div class="value">Lead Product Designer</div>
+                        </div>
+                        <div class="pd-meta-card" style="grid-column: 1 / -1;">
+                            <div class="label">Scope</div>
+                            <div class="value">UX Research · Information Architecture · UI Design · Prototyping · Handoff</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESEARCH INSIGHTS -->
+        <section class="pd-section-alt">
+            <div class="container">
+                <p class="section-label">Research &amp; Insights</p>
+                <h2 class="section-title" style="font-size:36px; margin-bottom:8px;">What the data revealed</h2>
+                <p style="font-size:16px; color:var(--text-secondary); line-height:1.8; max-width:640px; margin-bottom:0;">Deep behavioural analysis of 3M+ users surfaced critical gaps between what users needed and what the home screen offered.</p>
+                <div class="pd-insight-row">
+                    <div class="pd-insight">
+                        <div class="pd-insight-stat">3.12M</div>
+                        <div class="pd-insight-label">clicks on study materials — the #1 action, but access required extra navigation steps</div>
+                    </div>
+                    <div class="pd-insight">
+                        <div class="pd-insight-stat">1.47M</div>
+                        <div class="pd-insight-label">Daily Quiz clicks — a top feature that was visually deprioritised in the UI</div>
+                    </div>
+                    <div class="pd-insight">
+                        <div class="pd-insight-stat">8.8%</div>
+                        <div class="pd-insight-label">of users engaged with video content — poor discovery buried high-value content</div>
+                    </div>
+                    <div class="pd-insight">
+                        <div class="pd-insight-stat">37.5K</div>
+                        <div class="pd-insight-label">users clicked the hamburger menu — a signal of navigation failure, not preference</div>
+                    </div>
+                    <div class="pd-insight">
+                        <div class="pd-insight-stat">3–5×</div>
+                        <div class="pd-insight-label">scroll required before users found relevant content, despite infinite scroll design</div>
+                    </div>
+                    <div class="pd-insight">
+                        <div class="pd-insight-stat">&lt;2%</div>
+                        <div class="pd-insight-label">social engagement — community features lacked incentive and visual prominence</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BUSINESS CHALLENGES -->
+        <section class="pd-section">
+            <div class="container">
+                <p class="section-label">Business Challenges</p>
+                <h2 class="section-title" style="font-size:36px; margin-bottom:8px;">Four problems to solve</h2>
+                <p style="font-size:16px; color:var(--text-secondary); line-height:1.8; max-width:640px; margin-bottom:0;">The platform had high engagement potential but was actively undermining its own retention and conversion goals.</p>
+                <div class="pd-challenges">
+                    <div class="pd-challenge">
+                        <h4>Outdated UI</h4>
+                        <p>The home section lacked modern design aesthetics, making it less appealing and trustworthy — especially to first-time users evaluating whether to invest time in the platform.</p>
+                    </div>
+                    <div class="pd-challenge">
+                        <h4>High Drop-off Rates</h4>
+                        <p>Many new users abandoned the app immediately due to a poor onboarding experience. There were no guided entry points to communicate value before redirecting users to the store.</p>
+                    </div>
+                    <div class="pd-challenge">
+                        <h4>Lack of Product Discovery</h4>
+                        <p>Users struggled to navigate and understand the app's value proposition. High-click features like Quizzes and Job Alerts were buried — causing users to miss the most engaging content.</p>
+                    </div>
+                    <div class="pd-challenge">
+                        <h4>Retention Issues</h4>
+                        <p>Engaged users did not find enough reasons to return consistently. The home feed was cluttered with competing content types, banner ads, and cognitive overload that discouraged daily use.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROBLEM STATEMENT -->
+        <section class="pd-section-dark">
+            <div class="container" style="text-align:center; max-width:800px; margin:0 auto;">
+                <p class="sec-label" style="color:rgba(255,255,255,0.6);">Problem Statement</p>
+                <h2 style="font-size:32px; font-weight:700; color:#fff; line-height:1.4; margin-bottom:0;">"How might we create a seamless and engaging home experience that fosters trust, enhances product discovery, and motivates students to study — while reducing clutter, improving navigation, and leveraging top educators to drive retention and conversions?"</h2>
+            </div>
+        </section>
+
+        <!-- PROCESS -->
+        <section class="pd-section">
+            <div class="container">
+                <p class="section-label">Our Process</p>
+                <h2 class="section-title" style="font-size:36px; margin-bottom:8px;">How we approached it</h2>
+                <p style="font-size:16px; color:var(--text-secondary); line-height:1.8; max-width:640px; margin-bottom:0;">A structured four-phase design process grounded in user behaviour data and iterative validation.</p>
+                <div class="pd-process-steps">
+                    <div class="pd-process-step">
+                        <div class="pd-process-num">01 &mdash; Discover</div>
+                        <h4>Research &amp; Opportunity Areas</h4>
+                        <p>Behavioural analysis of 3M+ user interactions, heatmaps, session recordings, and stakeholder interviews to identify the biggest friction points and missed engagement opportunities.</p>
+                    </div>
+                    <div class="pd-process-step">
+                        <div class="pd-process-num">02 &mdash; Define</div>
+                        <h4>What &amp; How</h4>
+                        <p>Synthesised research into a clear problem statement, user persona (Yash — a first-time free user preparing for defence exams), and a structured information architecture for the new home experience.</p>
+                    </div>
+                    <div class="pd-process-step">
+                        <div class="pd-process-num">03 &mdash; Ideate</div>
+                        <h4>Feedback, UX Patterns &amp; Consistency</h4>
+                        <p>Explored multiple layout concepts around three content buckets — Watch, Practice, Read. Validated patterns against competitive benchmarks and Adda247's own highest-performing content types.</p>
+                    </div>
+                    <div class="pd-process-step">
+                        <div class="pd-process-num">04 &mdash; Design</div>
+                        <h4>Mockups, High-fidelity &amp; Prototype Delivery</h4>
+                        <p>Iterated through multiple design rounds, built interactive prototypes for user validation, and delivered production-ready Figma files with full component documentation and developer handoff specs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KEY DESIGN DECISIONS -->
+        <section class="pd-section-alt">
+            <div class="container">
+                <p class="section-label">Design Decisions</p>
+                <h2 class="section-title" style="font-size:36px; margin-bottom:8px;">What we redesigned</h2>
+                <p style="font-size:16px; color:var(--text-secondary); line-height:1.8; max-width:640px; margin-bottom:0;">Five structural changes that transformed the home screen from a cluttered feed into a high-conversion learning hub.</p>
+                <div class="pd-features">
+                    <div class="pd-feature">
+                        <h4>Unified Home Experience</h4>
+                        <p>Replaced the scattered Feed &amp; Study Material dual-tab structure with a single, cohesive home screen organised around user intent: Watch, Practice, Read.</p>
+                    </div>
+                    <div class="pd-feature">
+                        <h4>Improved Navigation</h4>
+                        <p>Reduced reliance on the hamburger menu by surfacing key sections directly in the bottom nav and home screen. Teacher-based navigation was elevated per user preference data.</p>
+                    </div>
+                    <div class="pd-feature">
+                        <h4>Data-Driven Feature Placement</h4>
+                        <p>High-traffic content — Quizzes (1.47M clicks), Job Alerts, Study Materials, Current Affairs — was promoted to above-the-fold positions with visual hierarchy matching actual usage.</p>
+                    </div>
+                    <div class="pd-feature">
+                        <h4>Engagement Boosters</h4>
+                        <p>Added daily streaks, badges, personalised educator recommendations, and community nudges to create sustainable return loops and build emotional connection with the platform.</p>
+                    </div>
+                    <div class="pd-feature">
+                        <h4>Optimised Premium Visibility</h4>
+                        <p>Premium content and trial offers were repositioned with clear value framing — ensuring new users experienced product value before being redirected to purchase, reducing early drop-off.</p>
+                    </div>
+                    <div class="pd-feature">
+                        <h4>Structured Onboarding Flow</h4>
+                        <p>New users now receive a guided, frictionless entry experience that showcases the app's core value proposition through self-trial flows before any premium upsell prompt.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- OUTCOME -->
+        <section class="pd-section">
+            <div class="container">
+                <p class="section-label">Outcome</p>
+                <h2 class="section-title" style="font-size:36px; margin-bottom:8px;">Impact of the redesign</h2>
+                <p style="font-size:16px; color:var(--text-secondary); line-height:1.8; max-width:640px; margin-bottom:48px;">The new design streamlined navigation, improved content discoverability, and prioritised high-engagement features — delivering a more intuitive, personalised learning journey.</p>
+                <div class="pd-results-grid">
+                    <div class="pd-result-card">
+                        <div class="pd-result-num">3M+</div>
+                        <div class="pd-result-label">Active users impacted by the redesigned home experience</div>
+                    </div>
+                    <div class="pd-result-card">
+                        <div class="pd-result-num">↓ Clutter</div>
+                        <div class="pd-result-label">Unified feed replaced dual-tab confusion and banner ad disruption</div>
+                    </div>
+                    <div class="pd-result-card">
+                        <div class="pd-result-num">↑ Discovery</div>
+                        <div class="pd-result-label">High-click features surfaced above the fold for immediate engagement</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NAV BETWEEN PROJECTS -->
+        <section class="pd-section">
+            <div class="container">
+                <div class="pd-nav">
+                    <a href="/projects/adda247/test-series.html">&larr; Test Series</a>
+                    <a href="/projects/adda247.html">All Adda247 Projects</a>
+                    <a href="/projects/adda247/live-class.html">Live Class Module &rarr;</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/"><img src="/logo.svg" alt="Designit" height="28"></a>
+                    <p>End-to-end product design partner. We design high-conversion digital experiences that drive growth, strengthen retention, and deliver measurable ROI.</p>
+                </div>
+                <div>
+                    <h4 class="footer-col-title">Services</h4>
+                    <div class="footer-links">
+                        <a href="/#services">UI/UX Design</a>
+                        <a href="/#services">Design Systems</a>
+                        <a href="/#services">SaaS Strategy</a>
+                        <a href="/#services">UX Research</a>
+                        <a href="/#services">Prototyping</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-col-title">Company</h4>
+                    <div class="footer-links">
+                        <a href="/about.html">About</a>
+                        <a href="/projects.html">Projects</a>
+                        <a href="/pricing.html">Pricing</a>
+                        <a href="/blog/index.html">Blog</a>
+                        <a href="/careers.html">Careers</a>
+                        <a href="/contact.html">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-col-title">Contact</h4>
+                    <div class="footer-links">
+                        <a href="mailto:contact@designit.co.in">contact@designit.co.in</a>
+                        <a href="tel:+918564948954">+91 8564948954</a>
+                        <a>Noida Sector 45, UP, India</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2024 Designit. All rights reserved.</span>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/sahilnsharma" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                </div>
+            </div>
+            <div class="footer-wordmark">DESIGNIT</div>
+        </div>
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+</html>
