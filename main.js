@@ -458,4 +458,20 @@
     });
   });
 
+  // --- Footer wordmark — Payload-style cursor glow ---
+  var wmEl = document.querySelector('.footer-wordmark');
+  if (wmEl) {
+    wmEl.addEventListener('mousemove', function (e) {
+      var r = wmEl.getBoundingClientRect();
+      var x = ((e.clientX - r.left) / r.width) * 100;
+      var y = ((e.clientY - r.top)  / r.height) * 100;
+      wmEl.style.setProperty('--wm-x', x.toFixed(2) + '%');
+      wmEl.style.setProperty('--wm-y', y.toFixed(2) + '%');
+    });
+    wmEl.addEventListener('mouseleave', function () {
+      // Move glow off-element so text returns to dim base state
+      wmEl.style.setProperty('--wm-y', '200%');
+    });
+  }
+
 })();
