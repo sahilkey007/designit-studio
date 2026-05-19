@@ -1037,8 +1037,6 @@ h5, .text-h5 {
 .logo-ticker-track .logo-item img[alt="Tata Elxsi"]    { height: 18px; } /* 7.67:1 ratio → ~138px wide */
 .logo-ticker-track .logo-item img[alt="Adda 247"]      { height: 30px; } /* 4.74:1 ratio → ~142px wide */
 .logo-ticker-track .logo-item img[alt="Betacrew Labs"]  { height: 28px; } /* 4.74:1 ratio → ~133px wide */
-.logo-ticker-track .logo-item img[alt="R-Centric"]     { height: 26px; } /* 3.44:1 ratio → ~89px wide  */
-.logo-ticker-track .logo-item img[alt="Driveit"]       { height: 26px; } /* 3.13:1 ratio → ~81px wide  */
 .logo-ticker-track .logo-item img[alt="LIV Residences"]{ height: 32px; } /* 2.5:1  ratio → ~80px wide  */
 .logo-ticker-track .logo-item img[alt="Kelp Global"]   { height: 36px; } /* 2.13:1 ratio → ~77px wide  */
 
