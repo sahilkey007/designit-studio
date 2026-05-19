@@ -175,12 +175,12 @@
 .blog-faq { max-width: 760px; margin: 0 auto; padding: 0 1.5rem 4rem; }
 .blog-faq-box { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 20px; padding: 2.5rem; }
 .blog-faq-title { font-size: 1.5rem; font-weight: 700; color: #fff; margin-bottom: 2rem; }
-.blog-faq-box .faq-item { border: 1px solid var(--border-subtle); border-radius: 12px; overflow: hidden; margin-bottom: 0.75rem; padding: 0; }
-.blog-faq-box .faq-question { font-size: 0.95rem; padding: 1.1rem 1.25rem; }
+.faq-item { border: 1px solid var(--border-subtle); border-radius: 12px; overflow: hidden; margin-bottom: 0.75rem; }
+.faq-item summary { display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 1.25rem; cursor: pointer; list-style: none; color: #fff; font-weight: 600; font-size: 0.95rem; }
+.faq-item summary::-webkit-details-marker { display: none; }
 .faq-icon { font-size: 1.25rem; color: var(--text-ghost); transition: transform 0.3s; }
-.blog-faq-box .faq-answer { padding: 0 1.25rem; }
-.blog-faq-box .faq-item.active .faq-answer { padding: 0 1.25rem 1.1rem; }
-.blog-faq-box .faq-answer p { font-size: 0.9rem; line-height: 1.7; margin: 0; color: var(--text-tertiary); }
+.faq-item[open] .faq-icon { transform: rotate(45deg); }
+.faq-answer { padding: 0 1.25rem 1.1rem; color: var(--text-tertiary); font-size: 0.9rem; line-height: 1.7; }
 
 /* CTA */
 .blog-cta { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 5rem; }
@@ -212,7 +212,6 @@
   .blog-post-title { font-size: 2rem; }
 }
 </style>
-    <script>function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script");o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,o.onload=function(){window.trackingFunctions.onLoad({appId:"69abc54e9a3ec100215a7630"})},document.head.appendChild(o)}initApollo();</script>
 </head>
 <body>
 
@@ -316,20 +315,20 @@
     <div class="blog-faq-box">
       <h2 class="blog-faq-title">Frequently Asked Questions</h2>
       
-    <div class="faq-item">
-      <button class="faq-question">What is a normal bounce rate for an ecommerce site in India?<span class="faq-icon">+</span></button>
-      <div class="faq-answer"><p>A healthy bounce rate for an ecommerce website is generally between 40% and 55%. If your bounce rate is above 70%, you have significant UI/UX, site speed, or traffic quality issues.</p></div>
-    </div>
+    <details class="faq-item" open>
+      <summary>What is a normal bounce rate for an ecommerce site in India?<span class="faq-icon">+</span></summary>
+      <p class="faq-answer">A healthy bounce rate for an ecommerce website is generally between 40% and 55%. If your bounce rate is above 70%, you have significant UI/UX, site speed, or traffic quality issues.</p>
+    </details>
 
-    <div class="faq-item">
-      <button class="faq-question">How can I optimize my checkout page for conversions?<span class="faq-icon">+</span></button>
-      <div class="faq-answer"><p>To optimize your checkout page in India, minimize form fields, offer 1-click UPI payments (GPay, PhonePe), prominent COD options, and an isolated checkout process (remove the main navigation menu so they don't get distracted).</p></div>
-    </div>
+    <details class="faq-item" >
+      <summary>How can I optimize my checkout page for conversions?<span class="faq-icon">+</span></summary>
+      <p class="faq-answer">To optimize your checkout page in India, minimize form fields, offer 1-click UPI payments (GPay, PhonePe), prominent COD options, and an isolated checkout process (remove the main navigation menu so they don't get distracted).</p>
+    </details>
 
-    <div class="faq-item">
-      <button class="faq-question">Does A/B testing help reduce bounce rates?<span class="faq-icon">+</span></button>
-      <div class="faq-answer"><p>Absolutely. A/B testing services for ecommerce allow you to test two different versions of a product page (e.g., changing the CTA button color or moving the reviews higher up) to see which one statistically retains more users.</p></div>
-    </div>
+    <details class="faq-item" >
+      <summary>Does A/B testing help reduce bounce rates?<span class="faq-icon">+</span></summary>
+      <p class="faq-answer">Absolutely. A/B testing services for ecommerce allow you to test two different versions of a product page (e.g., changing the CTA button color or moving the reviews higher up) to see which one statistically retains more users.</p>
+    </details>
     </div>
   </section>
 

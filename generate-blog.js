@@ -41,6 +41,7 @@ const CATEGORY_MAP = {
   'visual-identity-vs-branding-startups': 'Branding',
   'why-ecommerce-bounce-rate-so-high-india': 'CRO',
   'why-website-not-converting-visitors-india': 'CRO',
+  'freelancer-vs-design-agency-startups': 'Strategy',
 };
 
 // Self-hosted SVG thumbnails per slug (generated to /assets/blog/)
@@ -65,6 +66,7 @@ const THUMBNAIL_MAP = {
   'visual-identity-vs-branding-startups':           '/assets/blog/visual-identity-branding.svg',
   'why-ecommerce-bounce-rate-so-high-india':        '/assets/blog/ecommerce-bounce.svg',
   'why-website-not-converting-visitors-india':      '/assets/blog/not-converting.svg',
+  'freelancer-vs-design-agency-startups':            '/assets/blog/freelancer-vs-agency.svg',
 };
 
 // Staggered publish dates — distributed across Jun 2025 → Apr 2026 so cards look authored over time
@@ -89,6 +91,7 @@ const DATE_MAP = {
   'best-ai-tools-ui-ux-designers-2026':             '2026-04-09',
   'generative-ai-website-personalization':          '2026-04-23',
   'ai-driven-website-design-services-india':        '2026-04-30',
+  'freelancer-vs-design-agency-startups':            '2026-05-18',
 };
 
 // ─── Markdown → HTML converter ────────────────────────────────────────────────

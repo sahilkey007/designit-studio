@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f0f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="420" fill="url(#bg)" />
+
+  <!-- Grid lines -->
+  <line x1="0" y1="140" x2="800" y2="140" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="0" y1="280" x2="800" y2="280" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="420" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="420" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="420" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- Left card — Freelancer -->
+  <rect x="60" y="80" width="220" height="260" rx="12" fill="#1e1e2e" stroke="#6366f1" stroke-opacity="0.3" stroke-width="1"/>
+  <rect x="60" y="80" width="220" height="4" rx="2" fill="url(#accent)" opacity="0.8"/>
+  <text x="170" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-size="36" fill="#6366f1">👤</text>
+  <text x="170" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Freelancer</text>
+  <text x="170" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">Fast · Affordable</text>
+  <text x="170" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Pre-PMF</text>
+  <rect x="110" y="258" width="120" height="28" rx="6" fill="#6366f1" fill-opacity="0.15"/>
+  <text x="170" y="276" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#818cf8">₹15K – ₹1L</text>
+
+  <!-- VS badge -->
+  <circle cx="400" cy="210" r="32" fill="#1e1e2e" stroke="#6366f1" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="400" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff">VS</text>
+
+  <!-- Right card — Agency -->
+  <rect x="520" y="80" width="220" height="260" rx="12" fill="#1e1e2e" stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1"/>
+  <rect x="520" y="80" width="220" height="4" rx="2" fill="url(#accent)" opacity="0.8"/>
+  <text x="630" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-size="36" fill="#8b5cf6">🏢</text>
+  <text x="630" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Agency</text>
+  <text x="630" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">Process · Scale</text>
+  <text x="630" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Series A+</text>
+  <rect x="570" y="258" width="120" height="28" rx="6" fill="#8b5cf6" fill-opacity="0.15"/>
+  <text x="630" y="276" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#a78bfa">₹2L – ₹30L+</text>
+
+  <!-- Bottom label -->
+  <text x="400" y="375" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#64748b">designit.co.in</text>
+
+  <!-- Title -->
+  <text x="400" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Freelancer vs Design Agency</text>
+  <text x="400" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6366f1">Which is right for your startup?</text>
+</svg>
