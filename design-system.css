@@ -1026,19 +1026,19 @@ h5, .text-h5 {
 }
 
 .logo-ticker-track .logo-item img {
-  height: 28px;
-  width: auto;
+  height: 28px !important;
+  width: auto !important;
   display: block;
   object-fit: contain;
 }
 
 /* Per-logo height balancing — target ~130–180px visual width each */
-.logo-ticker-track .logo-item img[alt="Omniyat"]       { height: 13px; } /* 13.6:1 ratio → ~177px wide */
-.logo-ticker-track .logo-item img[alt="Tata Elxsi"]    { height: 18px; } /* 7.67:1 ratio → ~138px wide */
-.logo-ticker-track .logo-item img[alt="Adda 247"]      { height: 30px; } /* 4.74:1 ratio → ~142px wide */
-.logo-ticker-track .logo-item img[alt="Betacrew Labs"]  { height: 28px; } /* 4.74:1 ratio → ~133px wide */
-.logo-ticker-track .logo-item img[alt="LIV Residences"]{ height: 32px; } /* 2.5:1  ratio → ~80px wide  */
-.logo-ticker-track .logo-item img[alt="Kelp Global"]   { height: 36px; } /* 2.13:1 ratio → ~77px wide  */
+.logo-ticker-track .logo-item img[alt="Omniyat"]       { height: 13px !important; } /* 13.6:1 ratio → ~177px wide */
+.logo-ticker-track .logo-item img[alt="Tata Elxsi"]    { height: 18px !important; } /* 7.67:1 ratio → ~138px wide */
+.logo-ticker-track .logo-item img[alt="Adda 247"]      { height: 30px !important; } /* 4.74:1 ratio → ~142px wide */
+.logo-ticker-track .logo-item img[alt="Betacrew Labs"]  { height: 28px !important; } /* 4.74:1 ratio → ~133px wide */
+.logo-ticker-track .logo-item img[alt="LIV Residences"]{ height: 32px !important; } /* 2.5:1  ratio → ~80px wide  */
+.logo-ticker-track .logo-item img[alt="Kelp Global"]   { height: 36px !important; } /* 2.13:1 ratio → ~77px wide  */
 
 @keyframes ticker {
   0% { transform: translateX(0); }
