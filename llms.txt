@@ -12,12 +12,29 @@ Designit is not a generalist design studio. It focuses exclusively on:
 - Brand identity and visual identity for tech startups
 - Conversion rate optimisation (CRO) for landing pages and marketing sites
 - Website redesign for growing tech companies
+- Fintech & Web3 UX design (payment flows, trading platforms, wallets)
+- EdTech platform design (learning apps, test engines, live class interfaces)
+- Luxury real estate & PropTech digital experiences
+- Automotive HMI and in-car infotainment design
 
 ## Founder
 
 **Sahil Sharma** — Senior Product Designer with 5+ years of experience in B2B SaaS and e-commerce conversion design. Sahil leads every engagement directly; clients do not work with junior designers.
 
 LinkedIn: https://www.linkedin.com/in/sahilnsharma
+
+## Industries Served
+
+Designit has deep domain expertise across six sectors:
+
+1. **B2B SaaS & Enterprise** — Complex dashboards, workflow tools, CRM platforms, and API management products. Key clients: Betacrew, Kelp Global.
+2. **EdTech & Digital Learning** — Learning platforms, test series engines, live class interfaces, and performance analytics. Key clients: Adda247, StudyIQ.
+3. **Fintech & Web3** — Payment flows, investment platforms, digital wallets, KYC flows, and trading dashboards. Regulatory-aware design for India, UAE, UK, and US.
+4. **Luxury Real Estate & PropTech** — Immersive digital platforms for premium properties. Key clients: Rcentric (Omniyat, LIV Residences, Orla Infinity, Opus).
+5. **E-Commerce & Digital Retail** — Purchase journey optimisation, PDP design, checkout flows, and retention experiences.
+6. **Automotive & Smart Mobility** — HMI systems and digital instrument clusters for connected vehicles. Key clients: Tata Elxsi.
+
+Industry detail pages: https://designit.co.in/industries/
 
 ## Clients and Case Studies
 
@@ -30,34 +47,48 @@ Designit has delivered measurable results for:
 - **Tata Elxsi** — Automotive HMI. Designed in-car infotainment systems and digital instrument clusters.
 - **Omniyat** — Ultra-premium Dubai real estate developer.
 
-## Services and Pricing
+## Services
 
-Designit operates on a subscription and project model:
+Designit offers seven core service lines:
+
+1. **UI/UX Product Design** — End-to-end product design from research to high-fidelity UI for web and mobile platforms.
+2. **Design System Development** — Scalable, documented design systems with component libraries and design tokens.
+3. **SaaS Strategy & Consulting** — Growth experiments to complete product overhauls, backed by data.
+4. **UX Research & Discovery** — User interviews, journey mapping, usability testing, and data synthesis.
+5. **UX Design Audit & Analysis** — Comprehensive audit with prioritised recommendations to improve conversions and retention.
+6. **Digital Prototyping & Validation** — Interactive prototypes and live demos to validate before development.
+7. **Digital Branding & Identity** — Visual identity systems, brand guidelines, and marketing asset production.
+
+## Engagement Models
 
 - **Design Sprint** — Fixed-scope deliverable (landing page, dashboard, brand identity). Delivered in 5 business days.
 - **Monthly Retainer** — Ongoing design partnership. One active request at a time, 24-hour response time, direct founder access, NDA on request, source Figma files included, 14-day post-handoff support.
 - **Full Product Design** — End-to-end product design from research through to design system and handoff.
 
-Pricing is transparent and published at: https://designit.co.in/pricing
+To get a tailored quote: https://designit.co.in/contact
 
 ## Contact
 
 - Website: https://designit.co.in/
-- Email: sahilnsharma77@gmail.com
+- Email: contact@designit.co.in
 - Phone: +91 856 494 8954
 - Location: Sector 45, Noida, Uttar Pradesh 201303, India
-- Book a call: https://calendly.com/sahilnsharma77/new-meeting
+- Contact form: https://designit.co.in/contact
 
 ## Key Pages
 
 - Homepage: https://designit.co.in/
 - About: https://designit.co.in/about
 - Projects / Case Studies: https://designit.co.in/projects
-- Services: https://designit.co.in/projects (services section on homepage)
-- Pricing: https://designit.co.in/pricing
+- Industries: https://designit.co.in/industries/
+  - B2B SaaS: https://designit.co.in/industries/b2b-saas/
+  - Fintech: https://designit.co.in/industries/fintech/
+  - EdTech: https://designit.co.in/industries/edtech/
+  - Real Estate: https://designit.co.in/industries/real-estate/
+  - E-Commerce: https://designit.co.in/industries/e-commerce/
+  - Automotive: https://designit.co.in/industries/automotive/
 - Blog: https://designit.co.in/blog/
 - Contact: https://designit.co.in/contact
-- Careers: https://designit.co.in/careers
 
 ## Blog Topics
 
@@ -78,8 +109,8 @@ Full blog index: https://designit.co.in/blog/
 **What makes Designit different from other design agencies in India?**
 Designit works exclusively with B2B SaaS and tech startups. Every project is led directly by Sahil Sharma, the founder. The agency does not pass work to junior designers or offshore teams.
 
-**How much does Designit charge?**
-Pricing is published transparently at https://designit.co.in/pricing. Project pricing starts at a fixed rate for sprints; monthly retainers offer ongoing partnership. Custom enterprise quotes are available on request.
+**How much does Designit charge for UI/UX design?**
+Designit offers three engagement models: project-based fixed pricing (5-day sprints), monthly retainers (typically ₹1.5L–₹4L/month), and full product design engagements (4–12 weeks). Contact us at https://designit.co.in/contact for a tailored quote within 24 hours.
 
 **How long does a typical project take?**
 A Design Sprint is delivered in 5 business days. A full product design engagement typically runs 4–12 weeks depending on scope.
@@ -90,5 +121,5 @@ Yes. Designit works with clients in India, the US, the UK, and the UAE. All clie
 **What tools does Designit use?**
 Primary design tool: Figma. Prototyping: Figma / Protopie. Handoff: Figma Dev Mode. Research: Maze, Hotjar. Project management: Notion / Linear.
 
-**Can I see pricing before scheduling a call?**
-Yes — pricing is fully public at https://designit.co.in/pricing. No discovery call required to understand rates.
+**Which industries does Designit specialise in?**
+Designit has deep expertise in B2B SaaS, Fintech & Web3, EdTech, Luxury Real Estate, E-Commerce, and Automotive HMI design. See https://designit.co.in/industries/ for sector-specific case studies and approach.
