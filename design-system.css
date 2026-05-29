@@ -946,7 +946,7 @@ h5, .text-h5 {
   padding-top: 32px;
   border-top: 1px solid var(--border-subtle);
   font-size: 14px;
-  color: var(--text-faint);
+  color: var(--text-tertiary);
 }
 
 .footer-social {
