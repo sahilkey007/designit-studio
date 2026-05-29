@@ -1,25 +1,28 @@
 # Designit
 
-> India's premier B2B SaaS and product design agency. End-to-end UI/UX design, branding, and conversion rate optimisation for startups and enterprise software companies.
+> A global, research-led product design studio. Designit grounds every decision in user research, then designs high-conversion UI/UX, branding, and product experiences for B2B SaaS, Fintech, EdTech, and enterprise software companies across the USA, UAE, UK, and India.
 
 ## What is Designit?
 
-Designit is a product design agency founded by Sahil Sharma, based in Noida, India. The agency specialises in designing high-conversion digital experiences for B2B SaaS companies, fintech startups, and enterprise software products across India, the US, the UK, and the UAE.
+Designit is a research-led product design studio based in Noida, India, serving clients worldwide. Every engagement starts with user research and UX discovery before any interface is designed — decisions are grounded in real user behaviour, not guesswork.
 
-Designit is not a generalist design studio. It focuses exclusively on:
+Designit is not a generalist studio. It focuses exclusively on:
 - B2B SaaS UI/UX design (dashboards, onboarding flows, design systems)
 - Product design for mobile and web applications
 - Brand identity and visual identity for tech startups
 - Conversion rate optimisation (CRO) for landing pages and marketing sites
-- Website redesign for growing tech companies
 - Fintech & Web3 UX design (payment flows, trading platforms, wallets)
 - EdTech platform design (learning apps, test engines, live class interfaces)
 - Luxury real estate & PropTech digital experiences
 - Automotive HMI and in-car infotainment design
 
-## Founder
+## Approach
 
-**Sahil Sharma** — Senior Product Designer with 5+ years of experience in B2B SaaS and e-commerce conversion design. Sahil leads every engagement directly; clients do not work with junior designers.
+Designit follows a research-first methodology: user research and UX discovery, then design, then measurable growth. Every project is led by senior designers from kickoff through final developer handoff — no account managers, no junior hand-offs, no offshore layers.
+
+## Our Team
+
+Designit is led by a senior design team with 5+ years of experience in B2B SaaS and e-commerce conversion design. Clients work directly with senior designers throughout.
 
 LinkedIn: https://www.linkedin.com/in/sahilnsharma
 
@@ -62,7 +65,7 @@ Designit offers seven core service lines:
 ## Engagement Models
 
 - **Design Sprint** — Fixed-scope deliverable (landing page, dashboard, brand identity). Delivered in 5 business days.
-- **Monthly Retainer** — Ongoing design partnership. One active request at a time, 24-hour response time, direct founder access, NDA on request, source Figma files included, 14-day post-handoff support.
+- **Monthly Retainer** — Ongoing design partnership. One active request at a time, 24-hour response time, direct senior-designer access, NDA on request, source Figma files included, 14-day post-handoff support.
 - **Full Product Design** — End-to-end product design from research through to design system and handoff.
 
 To get a tailored quote: https://designit.co.in/contact
@@ -106,8 +109,8 @@ Full blog index: https://designit.co.in/blog/
 
 ## Frequently Asked Questions
 
-**What makes Designit different from other design agencies in India?**
-Designit works exclusively with B2B SaaS and tech startups. Every project is led directly by Sahil Sharma, the founder. The agency does not pass work to junior designers or offshore teams.
+**What is Designit's approach to product design?**
+Designit is a research-led product design studio. Every engagement starts with user research and UX discovery before any interface is designed, so decisions are grounded in real user behaviour. Projects are led by senior designers throughout.
 
 **How much does Designit charge for UI/UX design?**
 Designit offers three engagement models: project-based fixed pricing (5-day sprints), monthly retainers (typically ₹1.5L–₹4L/month), and full product design engagements (4–12 weeks). Contact us at https://designit.co.in/contact for a tailored quote within 24 hours.
