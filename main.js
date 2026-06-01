@@ -478,3 +478,117 @@
   }
 
 })();
+
+/* ===== FLOATING BOOK-A-CALL CTA (desktop ≥1024px) ===== */
+(function () {
+  'use strict';
+
+  var DISMISS_KEY = 'ftCTAdismissed_v1';
+  var SCROLL_THRESHOLD = 0.35;
+
+  function isEligible() {
+    if (window.innerWidth < 1024) return false;
+    var p = window.location.pathname.replace(/\/+$/, '');
+    if (p === '/contact' || p === '/contact.html') return false;
+    try { if (sessionStorage.getItem(DISMISS_KEY)) return false; } catch(e) {}
+    return true;
+  }
+
+  if (!isEligible()) return;
+
+  var el = null;
+  var visible = false;
+  var injected = false;
+
+  function inject() {
+    if (injected) return;
+    injected = true;
+
+    var style = document.createElement('style');
+    style.textContent = [
+      '#ftCTA{position:fixed;bottom:32px;right:32px;z-index:9900;display:flex;align-items:center;gap:10px;',
+      'background:var(--accent,#6c63ff);color:#fff;border:none;border-radius:40px;padding:14px 22px 14px 18px;',
+      'font-family:inherit;font-size:15px;font-weight:600;letter-spacing:-.2px;cursor:pointer;',
+      'box-shadow:0 8px 32px rgba(108,99,255,.35),0 2px 8px rgba(0,0,0,.15);',
+      'transform:translateY(120px);opacity:0;transition:transform .4s cubic-bezier(.22,1,.36,1),opacity .4s ease;',
+      'pointer-events:none;}',
+      '#ftCTA.ftVisible{transform:translateY(0);opacity:1;pointer-events:auto;}',
+      '#ftCTA:hover{filter:brightness(1.08);}',
+      '#ftCTA svg{flex-shrink:0;}',
+      '#ftCTADismiss{position:absolute;top:-8px;right:-8px;background:#1a1a2e;border:1.5px solid rgba(255,255,255,.15);',
+      'border-radius:50%;width:22px;height:22px;display:flex;align-items:center;justify-content:center;',
+      'cursor:pointer;opacity:.7;transition:opacity .2s;}',
+      '#ftCTADismiss:hover{opacity:1;}',
+      '#ftCTADismiss svg{display:block;}'
+    ].join('');
+    document.head.appendChild(style);
+
+    el = document.createElement('button');
+    el.id = 'ftCTA';
+    el.type = 'button';
+    el.setAttribute('aria-label', 'Book a free discovery call');
+    el.innerHTML = [
+      '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">',
+      '<path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.75 9.81 19.79 19.79 0 01.69 1.18 2 2 0 012.68 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.65a16 16 0 006 6l1.02-1.02a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>',
+      '</svg>',
+      '<span>Book a Free Call</span>',
+      '<div id="ftCTADismiss" role="button" aria-label="Dismiss">',
+      '<svg width="10" height="10" viewBox="0 0 10 10"><path d="M7.5 2.5l-5 5M2.5 2.5l5 5" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg>',
+      '</div>'
+    ].join('');
+    document.body.appendChild(el);
+
+    el.addEventListener('click', function (e) {
+      if (e.target.closest('#ftCTADismiss')) {
+        dismiss();
+        return;
+      }
+      if (typeof window.openIntakeForm === 'function') {
+        window.openIntakeForm();
+      } else {
+        window.location.href = '/contact.html';
+      }
+      if (typeof window.trackEvent === 'function') {
+        window.trackEvent('floating_cta_click', { page: location.pathname });
+      }
+    });
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onResize, { passive: true });
+    onScroll();
+  }
+
+  function onScroll() {
+    if (!el) return;
+    var scrollPct = window.scrollY / Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+    var footer = document.querySelector('footer.footer');
+    var nearFooter = footer && footer.getBoundingClientRect().top < window.innerHeight + 80;
+    var shouldShow = scrollPct >= SCROLL_THRESHOLD && !nearFooter;
+    if (shouldShow !== visible) {
+      visible = shouldShow;
+      el.classList.toggle('ftVisible', visible);
+    }
+  }
+
+  function onResize() {
+    if (window.innerWidth < 1024 && el) {
+      el.remove();
+      el = null;
+    }
+  }
+
+  function dismiss() {
+    try { sessionStorage.setItem(DISMISS_KEY, '1'); } catch(e) {}
+    if (el) {
+      el.classList.remove('ftVisible');
+      setTimeout(function () { if (el) { el.remove(); el = null; } }, 450);
+    }
+    window.removeEventListener('scroll', onScroll);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', inject);
+  } else {
+    inject();
+  }
+})();
