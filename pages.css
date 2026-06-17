@@ -2335,15 +2335,20 @@
 
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 0;
   }
 
   .stats-grid .stat-card {
     border-right: none;
-    padding: 24px 16px;
+    padding: 28px 16px;
   }
 
   .stats-grid .stat-card:nth-child(odd) {
     border-right: 1px solid var(--border-subtle);
+  }
+
+  .stats-grid .stat-card:nth-child(-n+2) {
+    border-bottom: 1px solid var(--border-subtle);
   }
 
   .about-stats,
