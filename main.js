@@ -592,6 +592,56 @@
     inject();
   }
 
+  // --- Services accordion (mobile only) ---
+  if (window.innerWidth <= 768) {
+    var serviceCards = document.querySelectorAll('.service-rich-card');
+    serviceCards.forEach(function(card) {
+      var content = card.querySelector('.service-rich-content');
+      if (!content) return;
+      var h3 = content.querySelector('h3');
+      var p = content.querySelector('p');
+      var tags = content.querySelector('.service-tags');
+      if (!h3) return;
+
+      // Wrap h3 in a clickable header row with chevron
+      var header = document.createElement('div');
+      header.className = 'service-card-header';
+      var svgNS = 'http://www.w3.org/2000/svg';
+      var svg = document.createElementNS(svgNS, 'svg');
+      svg.setAttribute('class', 'service-card-chevron');
+      svg.setAttribute('width', '20');
+      svg.setAttribute('height', '20');
+      svg.setAttribute('viewBox', '0 0 24 24');
+      svg.setAttribute('fill', 'none');
+      svg.setAttribute('stroke', 'currentColor');
+      svg.setAttribute('stroke-width', '2');
+      svg.setAttribute('stroke-linecap', 'round');
+      svg.setAttribute('stroke-linejoin', 'round');
+      var poly = document.createElementNS(svgNS, 'polyline');
+      poly.setAttribute('points', '6 9 12 15 18 9');
+      svg.appendChild(poly);
+      h3.parentNode.insertBefore(header, h3);
+      header.appendChild(h3);
+      header.appendChild(svg);
+
+      // Wrap p + tags in collapsible body div (before the btn)
+      var body = document.createElement('div');
+      body.className = 'service-card-body';
+      if (p) {
+        p.parentNode.insertBefore(body, p);
+        body.appendChild(p);
+      } else if (tags) {
+        tags.parentNode.insertBefore(body, tags);
+      }
+      if (tags) body.appendChild(tags);
+
+      // Toggle on header click
+      header.addEventListener('click', function() {
+        card.classList.toggle('is-expanded');
+      });
+    });
+  }
+
   // --- Industries carousel pagination dots (mobile only) ---
   var industriesGrid = document.querySelector('.industries-grid');
   var industriesDots = document.querySelectorAll('#industriesPagination .dot');
