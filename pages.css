@@ -2176,12 +2176,14 @@
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     gap: 16px;
-    padding: 4px 4px 16px;
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 4px 0 16px;
     scrollbar-width: none;
+  }
+
+  .industries-grid::after {
+    content: '';
+    min-width: 4px;
+    flex-shrink: 0;
   }
 
   .industries-grid::-webkit-scrollbar {
@@ -2189,8 +2191,8 @@
   }
 
   .industries-grid .industry-card {
-    min-width: 82vw;
-    max-width: 82vw;
+    min-width: 78vw;
+    max-width: 78vw;
     scroll-snap-align: start;
     flex-shrink: 0;
   }
