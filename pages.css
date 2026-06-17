@@ -2607,20 +2607,32 @@
 }
 
 @media (max-width: 768px) {
-  /* Services accordion — collapsed by default */
+  /* Services accordion — image on top, then heading, then CTA */
+  .service-rich-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Image moves to top, full width, no crop */
+  .service-rich-img {
+    order: -1 !important;
+    min-height: unset !important;
+    max-height: unset;
+    overflow: visible;
+    width: 100%;
+  }
+
+  .service-rich-img img {
+    width: 100%;
+    height: auto;
+    object-fit: initial;
+    display: block;
+  }
+
   .service-rich-content {
+    order: 1;
     padding: 20px 20px 16px;
     gap: 12px;
-  }
-
-  .service-rich-img {
-    min-height: 120px !important;
-    max-height: 120px;
-    transition: max-height 0.4s ease;
-  }
-
-  .service-rich-card.is-expanded .service-rich-img {
-    max-height: 200px;
   }
 
   /* Header row: h3 + chevron */
