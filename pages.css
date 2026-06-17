@@ -2606,6 +2606,72 @@
   }
 }
 
+@media (max-width: 768px) {
+  /* Services accordion — collapsed by default */
+  .service-rich-content {
+    padding: 20px 20px 16px;
+    gap: 12px;
+  }
+
+  .service-rich-img {
+    min-height: 120px !important;
+    max-height: 120px;
+    transition: max-height 0.4s ease;
+  }
+
+  .service-rich-card.is-expanded .service-rich-img {
+    max-height: 200px;
+  }
+
+  /* Header row: h3 + chevron */
+  .service-card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+
+  .service-card-header h3 {
+    flex: 1;
+    font-size: 20px;
+  }
+
+  .service-card-chevron {
+    flex-shrink: 0;
+    margin-top: 3px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease;
+  }
+
+  .service-rich-card.is-expanded .service-card-chevron {
+    transform: rotate(180deg);
+  }
+
+  /* Collapsible body: p + tags */
+  .service-card-body {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: max-height 0.4s ease, opacity 0.25s ease;
+  }
+
+  .service-rich-card.is-expanded .service-card-body {
+    max-height: 600px;
+    opacity: 1;
+  }
+
+  /* CTA always visible */
+  .service-rich-content .btn {
+    margin-top: 4px;
+  }
+}
+
 /* ============================================
    ABOUT PAGE — FOUNDER + RECOMMENDERS
    ============================================ */
