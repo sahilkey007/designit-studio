@@ -591,4 +591,32 @@
   } else {
     inject();
   }
+
+  // --- Industries carousel pagination dots (mobile only) ---
+  var industriesGrid = document.querySelector('.industries-grid');
+  var industriesDots = document.querySelectorAll('#industriesPagination .dot');
+  if (industriesGrid && industriesDots.length > 0) {
+    function updateIndustriesDot() {
+      if (window.innerWidth > 768) return;
+      var cards = industriesGrid.querySelectorAll('.industry-card');
+      if (!cards.length) return;
+      var scrollLeft = industriesGrid.scrollLeft;
+      var cardWidth = cards[0].getBoundingClientRect().width + 16;
+      var index = Math.round(scrollLeft / cardWidth);
+      index = Math.max(0, Math.min(index, industriesDots.length - 1));
+      industriesDots.forEach(function (d, i) {
+        d.classList.toggle('active', i === index);
+      });
+    }
+    industriesGrid.addEventListener('scroll', updateIndustriesDot, { passive: true });
+    industriesDots.forEach(function (dot, i) {
+      dot.addEventListener('click', function () {
+        var cards = industriesGrid.querySelectorAll('.industry-card');
+        if (!cards.length) return;
+        var cardWidth = cards[0].getBoundingClientRect().width + 16;
+        industriesGrid.scrollTo({ left: i * cardWidth, behavior: 'smooth' });
+      });
+    });
+  }
+
 })();
