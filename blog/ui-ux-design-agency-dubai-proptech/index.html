@@ -28,6 +28,26 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
   details[open] summary span{transform:rotate(45deg)}
   @media(max-width:640px){.rel-grid{grid-template-columns:1fr !important}}
   </style>
+
+    <!-- Meta Pixel (lazy-loaded) -->
+    <script>__lt(function(){
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init','517991158551582');fbq('track','PageView');
+      // Conversion events
+      document.addEventListener('click',function(e){
+        var el=e.target.closest('a[href]');if(!el)return;
+        var h=el.getAttribute('href')||'';
+        if(h.indexOf('calendly.com')>-1){fbq('track','Schedule');}
+        else if(h.indexOf('mailto:')===0){fbq('track','Contact');}
+      });
+      // Contact form submit
+      var form=document.querySelector('form');
+      if(form){form.addEventListener('submit',function(){fbq('track','Lead');});}
+    });</script>
 </head>
 <body>
 <header style="position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(10,10,10,.88);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.07);padding:0 2rem;height:68px;display:flex;align-items:center;justify-content:space-between;gap:2rem;">
