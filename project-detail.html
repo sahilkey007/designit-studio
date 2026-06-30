@@ -334,6 +334,26 @@
     <script>function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script");o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,o.onload=function(){window.trackingFunctions.onLoad({appId:"69abc54e9a3ec100215a7630"})},document.head.appendChild(o)}__lt(initApollo);</script>
 <script>__lt(function(){var s=document.createElement("script");s.id="vtag-ai-js";s.async=true;s.src="https://r2.leadsy.ai/tag.js";s.setAttribute("data-pid","n0EB50kmwDbwsqd");s.setAttribute("data-version","062024");document.head.appendChild(s)});</script>
 <script>__lt(function(){var s=document.createElement("script");s.async=true;s.src="https://t.contentsquare.net/uxa/e856346044b9a.js";document.head.appendChild(s)});</script>
+
+    <!-- Meta Pixel (lazy-loaded) -->
+    <script>__lt(function(){
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init','517991158551582');fbq('track','PageView');
+      // Conversion events
+      document.addEventListener('click',function(e){
+        var el=e.target.closest('a[href]');if(!el)return;
+        var h=el.getAttribute('href')||'';
+        if(h.indexOf('calendly.com')>-1){fbq('track','Schedule');}
+        else if(h.indexOf('mailto:')===0){fbq('track','Contact');}
+      });
+      // Contact form submit
+      var form=document.querySelector('form');
+      if(form){form.addEventListener('submit',function(){fbq('track','Lead');});}
+    });</script>
 </head>
 <body>
 
