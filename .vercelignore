@@ -4,4 +4,15 @@ IMPLEMENTATION_STATUS.md
 SEO_MANUAL_STEPS.md
 SEO_KEYWORD_MAP.md
 DEPLOY_NOTES.md
+README.md
 .claude/
+
+# Unreferenced design mockups living at the repo root (~66MB, 0 inbound refs).
+# Kept in git, just not shipped to the CDN.
+project detail page.png
+pricing.png
+About.png
+blog .png
+contact.png
+projects.jpg
+services cards.png
