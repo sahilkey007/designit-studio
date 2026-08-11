@@ -1,0 +1,468 @@
+{
+  "real-estate": {
+    "title": "PropTech & Luxury Real Estate Design Agency — Digital Experiences | Designit",
+    "ogTitle": "Luxury Real Estate & PropTech Design | Designit",
+    "description": "Digital experiences for luxury property and PropTech: immersive project sites, enquiry journeys and RTL-ready experiences for Gulf markets. 7 properties delivered with Rcentric — 3x qualified leads.",
+    "keywords": "real estate web design agency, proptech ux design, luxury property website design, real estate digital experience, dubai property website design",
+    "schemaName": "Luxury Real Estate & PropTech Design",
+    "schemaDescription": "Digital product and experience design for luxury real estate and PropTech: immersive property presentation, enquiry and qualification journeys, and multi-market localisation.",
+    "serviceType": [
+      "Real Estate Web Design",
+      "PropTech UX",
+      "Luxury Digital Experience",
+      "RTL Localisation"
+    ],
+    "audience": "Luxury property developers, real estate brokerages and PropTech platforms",
+    "breadcrumb": "Real Estate & PropTech",
+    "pills": [
+      "Luxury property",
+      "Gulf markets",
+      "RTL-ready"
+    ],
+    "h1": "Property design where the website is the first viewing.",
+    "subtitle": "For a nine-figure development, the digital experience is where a buyer decides whether to take the call. We design property platforms that hold attention long enough to produce a qualified enquiry — not a form fill from someone who will never transact.",
+    "cta": "Book a 30-minute review",
+    "ctaHeading": "Is your project site producing qualified enquiries?",
+    "ctaBody": "Thirty minutes. We'll tell you where the enquiry journey is leaking and whether the problem is presentation, qualification, or the form itself.",
+    "proofHref": "/projects/rcentric/",
+    "proofLabel": "Rcentric",
+    "stats": [
+      {
+        "num": "7",
+        "label": "Luxury properties delivered — Rcentric"
+      },
+      {
+        "num": "3x",
+        "label": "Increase in qualified leads — Rcentric"
+      },
+      {
+        "num": "100%",
+        "label": "Client retention — Rcentric"
+      },
+      {
+        "num": "RTL",
+        "label": "Arabic-ready for Gulf markets"
+      }
+    ],
+    "problemHeading": "What luxury property design actually has to solve",
+    "problems": [
+      {
+        "icon": "&#9888;",
+        "name": "Enquiry volume is the wrong metric",
+        "body": "A form that anyone can complete in eight seconds produces a pipeline your sales team cannot work. In high-value property the job is qualification, not capture — fewer, better enquiries beat more of them, and the design decides which you get."
+      },
+      {
+        "icon": "&#9783;",
+        "name": "Luxury is communicated through restraint",
+        "body": "Premium positioning is carried by pacing, typography, whitespace and image quality, not by more features. A site that behaves like an e-commerce listing tells a buyer this is a commodity, whatever the price says."
+      },
+      {
+        "icon": "&#9635;",
+        "name": "The assets are enormous",
+        "body": "Renders, fly-throughs, floorplates and 4K photography are the product. Presenting them at the quality the property demands while remaining usable on a phone in a lift is a genuine engineering constraint, not a preference."
+      },
+      {
+        "icon": "&#8635;",
+        "name": "Gulf markets are not a translation job",
+        "body": "Arabic RTL mirrors layout, but numerals, directional icons, floorplan orientation and reading gravity follow their own rules. A mirrored English site is immediately obvious to a native reader — and in a trust-driven purchase, obvious means disqualifying."
+      }
+    ],
+    "deliverables": [
+      {
+        "icon": "&#9906;",
+        "name": "Project presentation experiences",
+        "body": "Immersive single-property experiences that sequence a buyer through location, architecture, amenity and unit detail in the order that builds conviction rather than the order the brochure happened to use."
+      },
+      {
+        "icon": "&#9638;",
+        "name": "Enquiry and qualification journeys",
+        "body": "Progressive qualification that filters for intent — budget band, timeline, unit type — without feeling like an interrogation. This is where the 3x qualified-lead improvement at Rcentric came from."
+      },
+      {
+        "icon": "&#8594;",
+        "name": "Unit and floorplate explorers",
+        "body": "Interactive availability, floorplan comparison and orientation tools that let a serious buyer self-serve the detail they would otherwise need a broker call to obtain."
+      },
+      {
+        "icon": "&#9707;",
+        "name": "Asset-heavy performance design",
+        "body": "Art direction and loading strategy that preserves render quality while keeping the experience usable on mobile connections — progressive loading, responsive art direction, considered motion."
+      },
+      {
+        "icon": "&#9998;",
+        "name": "Arabic RTL and multi-market",
+        "body": "Genuine RTL design rather than a mirrored stylesheet, with numerals, iconography and layout gravity handled correctly for UAE and wider Gulf audiences."
+      },
+      {
+        "icon": "&#9711;",
+        "name": "Multi-property design systems",
+        "body": "A shared system across a developer's portfolio, so each new launch takes weeks rather than months while retaining its own identity — the pattern behind seven Rcentric properties."
+      }
+    ],
+    "process": [
+      {
+        "name": "Positioning",
+        "body": "Week 1. Understanding the property, the buyer and the competitive set. A branded residence, an off-plan tower and a completed villa need materially different digital treatments."
+      },
+      {
+        "name": "Narrative structure",
+        "body": "Weeks 2–3. The sequence in which the property is revealed — the single biggest determinant of whether a visitor reaches the enquiry point at all."
+      },
+      {
+        "name": "Design and art direction",
+        "body": "Weeks 3–7. Visual design, motion and asset direction, reviewed against the standard the property itself sets."
+      },
+      {
+        "name": "Build support",
+        "body": "Ongoing. Handover with performance budgets specified, because an asset-heavy experience that loads slowly fails regardless of how it looks in Figma."
+      }
+    ],
+    "proof": {
+      "title": "Rcentric — seven luxury properties",
+      "body": "Digital experiences for Omniyat, LIV Residences, Orla Infinity, Opus, Anwa Aria, Ela and Vela Viento. Qualified leads rose 3x and client retention across the portfolio has been 100% — largely because a shared system let each new launch ship quickly without looking templated.",
+      "related": "Explore the individual properties from the <a href=\"/projects/rcentric/\">Rcentric case study</a>, or read our <a href=\"/blog/arabic-rtl-ux-design-proptech-uae/\">guide to Arabic RTL design for Gulf PropTech</a>."
+    },
+    "pricing": {
+      "title": "How property engagements usually run",
+      "body": "Single-property experiences are project-scoped. Developers with a pipeline of launches typically move to a retainer with a shared design system, which is materially cheaper per property from the third one onward. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "A single property experience runs 6–8 weeks. Subsequent properties on an established system are usually 3–4."
+    },
+    "faqs": [
+      {
+        "q": "How do you increase qualified enquiries rather than total enquiries?",
+        "a": "By designing the enquiry journey as progressive qualification rather than a single form. Serious buyers will answer questions about budget band, timeline and unit preference if those questions are sequenced sensibly and clearly justified; casual browsers will not. That self-selection is the mechanism — at Rcentric it produced a 3x increase in qualified leads without a proportional increase in raw volume."
+      },
+      {
+        "q": "Can you handle Arabic and RTL for Gulf markets?",
+        "a": "Yes, and properly. RTL is a structural design task rather than a stylesheet flag — layout mirrors, but numerals stay left-to-right, directional icons need individual decisions, floorplan orientation carries its own conventions, and the visual centre of gravity shifts. A naively mirrored English site is immediately recognisable to a native reader, which in a trust-driven purchase is disqualifying."
+      },
+      {
+        "q": "How do you keep render-heavy sites fast?",
+        "a": "By treating performance as an art-direction decision rather than a build afterthought. That means responsive art direction so mobile gets a genuinely different crop rather than a scaled-down 4K file, progressive and prioritised loading so the hero resolves before the gallery, and motion that is specified with a frame budget. We hand over performance budgets with the design."
+      },
+      {
+        "q": "Do you work with developers or with brokerages?",
+        "a": "Both, though they are different problems. Developer work is single-property narrative — one asset, deep storytelling, conviction-building. Brokerage work is inventory, search and comparison at scale. We have done more of the former; if you are a brokerage, say so early because the architecture question dominates."
+      },
+      {
+        "q": "Can you design across a portfolio of properties?",
+        "a": "That is the most efficient way to work with us. A shared design system means each launch retains its own identity while reusing the structural work — the pattern behind seven Rcentric properties, and the reason per-property cost falls significantly from the third onward."
+      },
+      {
+        "q": "What about PropTech platforms rather than property marketing?",
+        "a": "Yes — listing platforms, property management tools and investment products are closer to our <a href=\"/industries/b2b-saas/\">B2B SaaS work</a> in structure, and we approach them that way: workflows, dashboards and data density rather than narrative and art direction."
+      }
+    ]
+  },
+  "automotive": {
+    "title": "Automotive HMI Design Agency — Infotainment & Instrument Clusters | Designit",
+    "ogTitle": "Automotive HMI & Mobility Design | Designit",
+    "description": "In-car HMI design where interface decisions carry safety consequences: infotainment systems and digital instrument clusters. 30% reduction in driver distraction with Tata Elxsi.",
+    "keywords": "automotive hmi design, infotainment ux design, instrument cluster design, in-car interface design, automotive ux agency, mobility product design",
+    "schemaName": "Automotive HMI & Mobility Design",
+    "schemaDescription": "Human-machine interface design for connected vehicles: infotainment systems, digital instrument clusters, and driver-attention-aware interaction design.",
+    "serviceType": [
+      "Automotive HMI",
+      "Infotainment UX",
+      "Instrument Cluster Design",
+      "Mobility UX"
+    ],
+    "audience": "Automotive OEMs, tier-one suppliers and connected-mobility platforms",
+    "breadcrumb": "Automotive & Mobility",
+    "pills": [
+      "Infotainment",
+      "Instrument clusters",
+      "Safety-critical"
+    ],
+    "h1": "In-car design where a second of attention is the budget.",
+    "subtitle": "Automotive HMI is the one place where an interface decision has a physical safety consequence. We design infotainment and cluster experiences around glance duration and cognitive load — constraints that make most conventional UI thinking actively wrong.",
+    "cta": "Book a 30-minute review",
+    "ctaHeading": "Designing an in-car experience?",
+    "ctaBody": "Thirty minutes on your HMI concept — glance load, interaction cost, and what we'd change before it reaches a driving simulator.",
+    "proofHref": "/projects/tata-elxsi/",
+    "proofLabel": "Tata Elxsi",
+    "stats": [
+      {
+        "num": "30%",
+        "label": "Reduction in driver distraction — Tata Elxsi"
+      },
+      {
+        "num": "2",
+        "label": "HMI systems designed — Tata Elxsi"
+      },
+      {
+        "num": "2s",
+        "label": "Glance-duration design target"
+      },
+      {
+        "num": "Tier 1",
+        "label": "Experience with OEM supply chains"
+      }
+    ],
+    "problemHeading": "Why automotive HMI breaks normal design rules",
+    "problems": [
+      {
+        "icon": "&#9888;",
+        "name": "Attention is borrowed, not given",
+        "body": "Every glance at a screen is attention taken from the road. Guidance converges on roughly two seconds per glance — a budget that invalidates most patterns designed for people looking directly at a device."
+      },
+      {
+        "icon": "&#9783;",
+        "name": "The user is physically moving",
+        "body": "Vibration, changing light, gloved or occupied hands, and peripheral vision only. Touch targets, contrast and motion tolerances that pass on a desk fail comprehensively at 80km/h."
+      },
+      {
+        "icon": "&#9635;",
+        "name": "Hardware is fixed years ahead",
+        "body": "Screen size, resolution, processing budget and physical control layout are locked long before design starts and cannot be revised. Designing as though a spec change is available is how automotive projects fail late and expensively."
+      },
+      {
+        "icon": "&#8635;",
+        "name": "Safety-critical and comfort share a screen",
+        "body": "Speed, warnings and ADAS status sit alongside media and climate. The hierarchy between what a driver must see and what they might want is a safety decision expressed as a layout."
+      }
+    ],
+    "deliverables": [
+      {
+        "icon": "&#9906;",
+        "name": "Digital instrument cluster design",
+        "body": "Speed, range, warnings and ADAS state designed for peripheral legibility and immediate comprehension — the information a driver must absorb without deliberate reading."
+      },
+      {
+        "icon": "&#9638;",
+        "name": "Infotainment system design",
+        "body": "Navigation, media, climate, connectivity and vehicle settings structured so common tasks resolve within a safe glance budget rather than requiring sustained attention."
+      },
+      {
+        "icon": "&#8594;",
+        "name": "Glance-load analysis",
+        "body": "Task-by-task assessment of how long each interaction takes and how many glances it costs, so distraction is measured during design rather than discovered in validation."
+      },
+      {
+        "icon": "&#9707;",
+        "name": "Day, night and adverse-condition states",
+        "body": "Full state design across lighting conditions and glare, where contrast requirements differ sharply from any screen used indoors."
+      },
+      {
+        "icon": "&#9998;",
+        "name": "Multi-modal interaction",
+        "body": "Coherent behaviour across touch, physical controls, steering-wheel input and voice, so a driver can complete a task by whichever route their hands and attention currently allow."
+      },
+      {
+        "icon": "&#9711;",
+        "name": "Design systems for vehicle ranges",
+        "body": "A consistent HMI language across trim levels and model years, adapting to different screen hardware without redesigning from scratch for each variant."
+      }
+    ],
+    "process": [
+      {
+        "name": "Constraints first",
+        "body": "Weeks 1–2. Hardware specification, regulatory context, physical control layout and driving contexts. In automotive the constraints define the design space far more tightly than user preference does."
+      },
+      {
+        "name": "Task and glance modelling",
+        "body": "Weeks 2–4. Mapping every driver task against the attention it costs, and prioritising what belongs on screen at all versus what belongs on a physical control."
+      },
+      {
+        "name": "Design and simulate",
+        "body": "Weeks 4–10. Interface design validated in driving-simulator conditions rather than on a monitor, because desk evaluation systematically underestimates glance cost."
+      },
+      {
+        "name": "Handover",
+        "body": "Ongoing. Specifications detailed enough for embedded engineering teams, including behaviour under degraded conditions and hardware constraint."
+      }
+    ],
+    "proof": {
+      "title": "Tata Elxsi — two in-car HMI systems",
+      "body": "An infotainment interface and a digital instrument cluster designed for connected vehicles, working within a tier-one supplier's engineering constraints. Driver distraction fell 30% — the clearest evidence we have that interface design is an engineering discipline with measurable physical outcomes.",
+      "related": "See the <a href=\"/projects/tata-elxsi/infotainment/\">infotainment</a> and <a href=\"/projects/tata-elxsi/instrument-cluster/\">instrument cluster</a> case studies. The same constraint-first approach informs our <a href=\"/services/product-design/\">product design</a> practice."
+    },
+    "pricing": {
+      "title": "How automotive engagements run",
+      "body": "Automotive projects are project-scoped with longer timelines than equivalent software work, because hardware constraints, validation cycles and supplier review add stages that cannot be compressed. We scope for that rather than discovering it midway. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "A single HMI surface typically runs 8–10 weeks. A full cluster plus infotainment programme is a multi-month engagement with validation gates built in."
+    },
+    "faqs": [
+      {
+        "q": "How do you design for driver distraction?",
+        "a": "By treating glance duration as the primary design budget. Industry guidance converges on roughly two seconds per glance and a limited total for any single task, so we model each task's glance cost during design rather than discovering it in validation. Practically this means larger type than feels necessary, fewer simultaneous decisions, information positioned for peripheral pickup, and moving genuinely frequent actions to physical controls where possible. At Tata Elxsi this approach reduced measured distraction by 30%."
+      },
+      {
+        "q": "Do you work within existing hardware constraints?",
+        "a": "Always — in automotive that is the job. Screen size, resolution, processing budget and physical control layout are typically locked years before design begins. Designing as though a hardware revision might be available is the most common way automotive design programmes fail expensively and late. We start from the specification sheet."
+      },
+      {
+        "q": "Can you design instrument clusters as well as infotainment?",
+        "a": "Yes, and we have done both. They are genuinely different problems: a cluster is glanceable, safety-critical, largely non-interactive and must be legible in peripheral vision, while infotainment is interactive and task-based. The hard part is making them feel like one coherent system while respecting that the cluster's job is fundamentally different."
+      },
+      {
+        "q": "How do you validate automotive HMI designs?",
+        "a": "In driving-simulator conditions rather than on a desk. Desktop evaluation systematically underestimates glance cost, because a seated designer with full attention and no vibration is not the user. Where you have simulator access we design against it; where you do not, we model glance load analytically and flag the tasks most in need of physical validation."
+      },
+      {
+        "q": "Do you have experience with OEM and tier-one supply chains?",
+        "a": "Yes, through Tata Elxsi. It matters more than it might sound: automotive programmes carry review gates, documentation standards and engineering handover expectations that are far heavier than consumer software, and a design team unfamiliar with them creates schedule risk regardless of design quality."
+      },
+      {
+        "q": "What about EV-specific interfaces?",
+        "a": "Range, charging state and energy flow are the defining EV information problems, and they carry an anxiety dimension that fuel gauges never did. Range confidence is largely a design outcome — how estimation uncertainty is communicated, how charging is planned, how regeneration is made legible. We treat it as a trust problem as much as a data-display one."
+      }
+    ]
+  },
+  "e-commerce": {
+    "title": "E-Commerce UX Design Agency — Checkout, PDP & Retention | Designit",
+    "ogTitle": "E-Commerce & Digital Retail Design | Designit",
+    "description": "Conversion-focused e-commerce design: product detail pages, checkout flows and retention experiences. We find where the purchase journey leaks and design the fix.",
+    "keywords": "ecommerce ux design agency, checkout ux design, product page design, ecommerce conversion design, dtc website design, retail ux agency",
+    "schemaName": "E-Commerce & Digital Retail Design",
+    "schemaDescription": "Conversion-oriented design for online retail: product discovery, product detail pages, cart and checkout flows, and post-purchase retention experiences.",
+    "serviceType": [
+      "E-Commerce UX",
+      "Checkout Design",
+      "Conversion Rate Optimisation",
+      "Retail Product Design"
+    ],
+    "audience": "DTC brands, online retailers and marketplace platforms",
+    "breadcrumb": "E-Commerce",
+    "pills": [
+      "PDP",
+      "Checkout",
+      "Retention"
+    ],
+    "h1": "E-commerce design judged on revenue per visitor, not aesthetics.",
+    "subtitle": "Most online stores lose the majority of buyers at three specific points: the product page, the cart, and the first checkout step. We find which one is costing you most, then design the fix and measure it.",
+    "cta": "Book a 30-minute funnel review",
+    "ctaHeading": "Where is your funnel leaking?",
+    "ctaBody": "Send us your store. Thirty minutes and we'll tell you which of the three usual drop-off points is costing you most — and what we'd change first.",
+    "proofHref": "/services/ux-audit/",
+    "proofLabel": "UX audit",
+    "stats": [
+      {
+        "num": "3",
+        "label": "Points where most revenue leaks"
+      },
+      {
+        "num": "2 wks",
+        "label": "Fixed-scope conversion audit"
+      },
+      {
+        "num": "AA",
+        "label": "WCAG 2.1 accessibility standard"
+      },
+      {
+        "num": "Mobile",
+        "label": "Designed mobile-first by default"
+      }
+    ],
+    "problemHeading": "Where online retail actually loses money",
+    "problems": [
+      {
+        "icon": "&#9888;",
+        "name": "The product page doesn't answer the objection",
+        "body": "Shoppers leave a PDP because a specific question went unanswered — sizing, materials, delivery timing, returns. The page presents what the business wants to say rather than what the buyer needs resolved before committing."
+      },
+      {
+        "icon": "&#9783;",
+        "name": "Checkout asks too much, too early",
+        "body": "Account creation before guest checkout, address before shipping cost, surprise fees at the final step. Each is a defensible internal decision and each measurably costs orders — abandonment concentrates on exactly these moments."
+      },
+      {
+        "icon": "&#9635;",
+        "name": "Mobile is the majority and the afterthought",
+        "body": "Most sessions are mobile; most stores are designed and reviewed on a desktop. Thumb reach, form input, image zoom and payment-sheet integration are where mobile conversion is won or quietly lost."
+      },
+      {
+        "icon": "&#8635;",
+        "name": "Acquisition is subsidising a leaky funnel",
+        "body": "Paid spend rises to compensate for a conversion rate nobody has interrogated. Fixing the funnel is almost always cheaper per incremental order than buying more traffic to pour into it."
+      }
+    ],
+    "deliverables": [
+      {
+        "icon": "&#9906;",
+        "name": "Funnel diagnostic",
+        "body": "Analytics and session review to locate exactly which step loses the most revenue, so design effort is spent where the money actually is rather than where the page looks worst."
+      },
+      {
+        "icon": "&#9638;",
+        "name": "Product detail page design",
+        "body": "PDPs structured around the objections that stop purchase — imagery, specification, sizing, delivery, returns and social proof, sequenced by what buyers ask rather than by what is easy to populate."
+      },
+      {
+        "icon": "&#8594;",
+        "name": "Cart and checkout redesign",
+        "body": "Guest checkout, transparent costs shown early, minimal field counts, address autocomplete and native payment-sheet integration. The highest-leverage surface in most stores."
+      },
+      {
+        "icon": "&#9707;",
+        "name": "Discovery and navigation",
+        "body": "Category structure, filtering and search designed so shoppers reach a relevant product quickly — the step before the funnel that determines how much enters it."
+      },
+      {
+        "icon": "&#9998;",
+        "name": "Post-purchase and retention",
+        "body": "Order tracking, returns and re-order experiences. Retention design is consistently underinvested relative to acquisition, despite a far better return per hour of work."
+      },
+      {
+        "icon": "&#9711;",
+        "name": "Accessible, mobile-first design",
+        "body": "WCAG 2.1 AA as standard and mobile as the primary design target rather than a responsive afterthought — both of which correlate directly with conversion on real device mixes."
+      }
+    ],
+    "process": [
+      {
+        "name": "Diagnose",
+        "body": "Weeks 1–2. Funnel analysis and heuristic review to identify and size the biggest leaks. Delivered as a ranked list before any redesign is proposed."
+      },
+      {
+        "name": "Prioritise",
+        "body": "Week 2. Issues scored on revenue impact against build effort, so the work sequences by return rather than by enthusiasm."
+      },
+      {
+        "name": "Design",
+        "body": "Weeks 3–7. Redesign of the highest-impact surfaces, mobile-first, with every state specified including out-of-stock, partial availability and payment failure."
+      },
+      {
+        "name": "Measure",
+        "body": "Post-launch. Against the conversion metric agreed at the start. Retail is one of the few categories where design impact is unambiguously measurable, so we commit to it."
+      }
+    ],
+    "proof": {
+      "title": "Conversion work across sectors",
+      "body": "Our e-commerce practice draws on conversion work across our client base rather than a single flagship retail launch — the funnel diagnostics that reduced Adda247's support tickets 60% and lifted onboarding completion 45% use the same method applied to a purchase journey.",
+      "related": "Start with a <a href=\"/services/ux-audit/\">fixed-scope UX audit</a> — for retail it is almost always the right first engagement because the return is measurable within weeks. Related reading: <a href=\"/blog/why-ecommerce-bounce-rate-so-high-india/\">why e-commerce bounce rates run high</a>."
+    },
+    "pricing": {
+      "title": "How retail engagements usually run",
+      "body": "Most start with a two-week fixed-scope conversion audit, because in e-commerce the return on a diagnostic is measurable quickly and it tells us whether a redesign is even warranted. Design work follows on the surfaces the audit identifies. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "Audit is two weeks. A checkout or PDP redesign typically runs 3–5 weeks. Full-store work is 8–10."
+    },
+    "faqs": [
+      {
+        "q": "What has the biggest impact on e-commerce conversion?",
+        "a": "In most stores we look at, checkout and the product detail page dominate, and checkout usually wins. Forced account creation, shipping costs revealed late, and excessive form fields are the three most common and most fixable causes of abandonment. Before assuming, though, run the diagnostic — the biggest leak differs by store, and redesigning the wrong surface is expensive and demoralising."
+      },
+      {
+        "q": "How much can we expect conversion to improve?",
+        "a": "We will not quote you a number before looking, and be sceptical of anyone who does. Improvement depends entirely on where you start — a store with forced account creation and hidden shipping has far more headroom than one already following current practice. What we commit to is agreeing the metric upfront and measuring honestly against it, including when the result is smaller than hoped."
+      },
+      {
+        "q": "Do you work with Shopify, WooCommerce and other platforms?",
+        "a": "Yes. We design against your platform's actual constraints rather than producing an idealised design that requires replatforming to build. If a recommendation genuinely does need a platform capability you do not have, we say so explicitly and separate it from the changes achievable within your current setup."
+      },
+      {
+        "q": "Is a redesign or a targeted fix better value?",
+        "a": "Usually targeted fixes, and that is what the audit is for. Full redesigns carry real risk — you change everything simultaneously, so when conversion moves nobody knows which change caused it, and if it drops you cannot isolate the cause. Sequenced, measurable changes to the highest-impact surfaces are lower risk and usually deliver most of the value."
+      },
+      {
+        "q": "Do you do conversion rate optimisation and A/B testing?",
+        "a": "We design the variants and interpret the results; we do not run the testing infrastructure. Worth noting that most stores below a certain traffic volume cannot reach statistical significance on small changes in reasonable time — in that situation, applying well-established practice is a better use of effort than under-powered testing."
+      },
+      {
+        "q": "How important is mobile for e-commerce design?",
+        "a": "It is the primary case, not a variant. The majority of sessions are mobile in most catalogues we see, yet most stores are designed and signed off on desktop. Thumb reach, input friction, image zoom and native payment-sheet integration are where mobile conversion is decided, and none of them are visible in a desktop review."
+      }
+    ],
+    "proofCta": "Start with a conversion audit"
+  }
+}

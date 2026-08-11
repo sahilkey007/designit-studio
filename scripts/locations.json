@@ -1,0 +1,196 @@
+{
+  "ux-design-agency-dubai": {
+    "title": "UX Design Agency Dubai & UAE — PropTech, FinTech & Luxury | Designit",
+    "ogTitle": "UX Design Agency Dubai & UAE | Designit",
+    "description": "A product design partner for UAE businesses: Arabic RTL done properly, DIFC and ADGM-aware fintech flows, and luxury PropTech experience. Seven Dubai properties delivered with Rcentric.",
+    "keywords": "ux design agency dubai, ui ux design company uae, product design agency dubai, arabic rtl design agency, proptech design dubai, fintech ux design uae",
+    "schemaName": "UX Design Agency — Dubai & UAE",
+    "schemaDescription": "Product and UX design services for UAE businesses, including Arabic RTL design, luxury PropTech experiences, and regulated fintech interfaces for DIFC and ADGM entities.",
+    "serviceType": ["UX Design", "Arabic RTL Design", "PropTech Design", "Fintech UX"],
+    "audience": "UAE property developers, fintech companies and enterprise teams in Dubai and Abu Dhabi",
+    "breadcrumb": "Dubai & UAE",
+    "pills": ["Arabic RTL", "Dubai PropTech", "GST +4 overlap"],
+    "h1": "A UX design partner in the UAE, with the work to prove it.",
+    "subtitle": "We have delivered seven luxury property experiences in Dubai, including for Omniyat. That means Arabic RTL done properly, an understanding of how Gulf buyers actually evaluate, and a working timezone rather than a nine-hour lag.",
+    "cta": "Book a 30-minute review",
+    "ctaHeading": "Building for the UAE market?",
+    "ctaBody": "Thirty minutes. Tell us what you're launching and we'll tell you what we'd tackle first — including the RTL and localisation work most teams underestimate.",
+    "proofHref": "/projects/rcentric/",
+    "proofLabel": "Rcentric Dubai",
+    "stats": [
+      { "num": "7", "label": "Dubai properties delivered — Rcentric" },
+      { "num": "3x", "label": "Increase in qualified leads — Rcentric" },
+      { "num": "RTL", "label": "Arabic design, not mirrored English" },
+      { "num": "+1.5h", "label": "IST to GST — same working day" }
+    ],
+    "problemHeading": "What working in the UAE actually requires",
+    "problems": [
+      { "icon": "&#9888;", "name": "Arabic is not a translation task", "body": "RTL mirrors layout, but numerals stay left-to-right, directional icons each need a decision, and the visual centre of gravity shifts. A mirrored English site is instantly recognisable to a native reader — and in a trust-driven purchase, that is disqualifying." },
+      { "icon": "&#9783;", "name": "The audience is genuinely multilingual", "body": "A Dubai product may serve Emirati, South Asian, European and Chinese users in one session mix. Designing for a single assumed reader — in either direction — quietly excludes a large part of the market." },
+      { "icon": "&#9635;", "name": "Regulated finance has its own perimeter", "body": "DIFC and ADGM operate distinct regulatory regimes with their own onboarding and disclosure expectations. Fintech flows built for an Indian or US regime need genuine rework, not relabelling." },
+      { "icon": "&#8635;", "name": "Premium is the baseline, not the aspiration", "body": "In Dubai's property and luxury segments, competitors are already presenting at a high standard. Adequate design reads as a downgrade rather than as neutral." }
+    ],
+    "deliverables": [
+      { "icon": "&#9906;", "name": "Arabic RTL design", "body": "Genuine bidirectional design — layout, numerals, iconography, typography and reading gravity handled correctly rather than flipped with a stylesheet flag." },
+      { "icon": "&#9638;", "name": "Luxury property experiences", "body": "Immersive project sites and qualification journeys for developers and brokerages, built on the system behind seven Dubai properties." },
+      { "icon": "&#8594;", "name": "Regulated fintech flows", "body": "Onboarding, KYC and payment journeys designed around DIFC and ADGM expectations, worked through with your compliance team rather than around them." },
+      { "icon": "&#9707;", "name": "Multi-market design systems", "body": "One system serving Arabic and English without maintaining two parallel design efforts — the difference between a manageable product and a doubling of cost." },
+      { "icon": "&#9998;", "name": "Enterprise and government-adjacent standards", "body": "WCAG 2.1 AA accessibility and the documentation standards that surface in UAE enterprise and semi-government procurement." },
+      { "icon": "&#9711;", "name": "Same-day collaboration", "body": "India to Gulf is a 1.5-hour offset. Full working-day overlap, live calls at normal hours, and no waiting overnight for an answer." }
+    ],
+    "process": [
+      { "name": "Market and language scoping", "body": "Week 1. Which languages, which audiences, which regulatory perimeter. Getting this wrong is the most expensive mistake available in a UAE project." },
+      { "name": "Structure", "body": "Weeks 2–3. Architecture and flows designed bidirectionally from the start, because retrofitting RTL is substantially more expensive than designing for it." },
+      { "name": "Design", "body": "Weeks 3–8. Visual design in both directions, reviewed against the standard the local competitive set is already setting." },
+      { "name": "Handover", "body": "Ongoing. Specs covering both language directions, with the RTL rules documented so your engineers are not guessing." }
+    ],
+    "proof": {
+      "title": "Rcentric — seven Dubai properties",
+      "body": "Digital experiences for Omniyat, LIV Residences, Orla Infinity, Opus, Anwa Aria, Ela and Vela Viento. Qualified leads rose 3x, with 100% client retention across the portfolio.",
+      "related": "See the <a href=\"/projects/rcentric/\">Rcentric case study</a>, our <a href=\"/industries/real-estate/\">PropTech practice</a>, and our <a href=\"/blog/arabic-rtl-ux-design-proptech-uae/\">guide to Arabic RTL design</a>."
+    },
+    "pricing": {
+      "title": "How UAE engagements run",
+      "body": "Quoted in USD or AED. Bilingual projects carry genuine additional scope — roughly a third more design work than a single-direction equivalent — and we scope for that upfront rather than raising it midway. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "A single property experience runs 6–8 weeks; bilingual product work is typically 10–12."
+    },
+    "faqs": [
+      { "q": "Do you have actual UAE experience, or just a Dubai landing page?", "a": "Actual experience. We designed seven luxury property experiences in Dubai through Rcentric, including work for Omniyat, with a 3x increase in qualified leads across the portfolio. That is the only UAE claim we make — we are an India-based studio serving UAE clients, not a Dubai-registered agency, and we would rather say that plainly than imply a local office we do not have." },
+      { "q": "How do you handle Arabic RTL properly?", "a": "By designing bidirectionally from the start rather than mirroring at the end. Layout flips, but numerals remain left-to-right, directional icons each need an individual decision, Arabic typography has different vertical rhythm and line-height needs, and the visual entry point of every screen moves. We document these rules in handover so engineering is not making judgement calls." },
+      { "q": "Can you work with DIFC or ADGM-regulated entities?", "a": "Yes. Both operate distinct regulatory regimes with their own onboarding, disclosure and record-keeping expectations, so fintech flows designed for another jurisdiction need genuine rework rather than relabelling. We work directly with your compliance team from week one, because designing first and seeking approval later is how these projects overrun." },
+      { "q": "What are your working hours relative to the UAE?", "a": "India is 1.5 hours ahead of Gulf Standard Time, so we share essentially the entire working day. Live calls happen at normal hours for both sides, and you are not waiting overnight for a response — which is the practical difference between a Gulf-adjacent partner and a US or European one." },
+      { "q": "Do you work in Abu Dhabi and the wider Gulf as well as Dubai?", "a": "Yes. Our delivered work is concentrated in Dubai, but the design considerations — bilingual audiences, RTL, premium expectations, Gulf regulatory context — carry across Abu Dhabi, Saudi Arabia and the wider GCC. Market-specific conventions differ and we scope for that." },
+      { "q": "Can you handle both English and Arabic in one design system?", "a": "That is the efficient approach and what we recommend. A single bidirectional system with direction-aware tokens and components costs meaningfully less to build and far less to maintain than two parallel design efforts, and it prevents the two language versions drifting apart over time." }
+    ]
+  },
+
+  "ui-ux-design-agency-usa": {
+    "title": "UI/UX Design Agency for US Startups & SaaS Teams | Designit",
+    "ogTitle": "UI/UX Design Agency for US Startups | Designit",
+    "description": "A senior product design partner for US SaaS and enterprise teams. ADA and WCAG 2.1 AA by default, USD contracts, EST/PST overlap hours, and async-first collaboration that doesn't need a 9am standup.",
+    "keywords": "ui ux design agency usa, product design agency united states, saas design agency usa, remote ux design team usa, hire ui ux designer usa",
+    "schemaName": "UI/UX Design Agency — United States",
+    "schemaDescription": "Product design services for United States SaaS companies, funded startups and enterprise software teams, delivered remotely with EST/PST overlap and ADA/WCAG accessibility standards.",
+    "serviceType": ["UI/UX Design", "SaaS Product Design", "Accessibility Design", "Design Systems"],
+    "audience": "US SaaS companies, venture-funded startups and enterprise software teams",
+    "breadcrumb": "United States",
+    "pills": ["EST/PST overlap", "ADA / WCAG 2.1 AA", "USD contracts"],
+    "h1": "A senior design team for US software companies, without the US agency rate.",
+    "subtitle": "We work with American SaaS and enterprise teams the way a good in-house function works: senior people, async by default, live overlap when it matters, and accessibility treated as a legal requirement rather than a nice-to-have.",
+    "cta": "Book a 30-minute product review",
+    "ctaHeading": "Let's look at your product.",
+    "ctaBody": "Thirty minutes at a time that works in EST or PST. We'll tell you what we'd tackle first — no deck, no pitch.",
+    "proofHref": "/projects/kelp-global/",
+    "proofLabel": "Kelp Global",
+    "stats": [
+      { "num": "40%", "label": "Faster onboarding — Kelp Global" },
+      { "num": "2x", "label": "Feature adoption — Kelp Global" },
+      { "num": "9a–1p", "label": "EST overlap for live collaboration" },
+      { "num": "AA", "label": "WCAG 2.1 / ADA as standard" }
+    ],
+    "problemHeading": "What US software teams tend to need",
+    "problems": [
+      { "icon": "&#9888;", "name": "Accessibility is a litigation surface", "body": "ADA web accessibility claims in the US run into the thousands annually, and enterprise procurement increasingly requires a VPAT. Designing to WCAG 2.1 AA from the start costs a fraction of retrofitting under legal pressure." },
+      { "icon": "&#9783;", "name": "In-house senior design is expensive and slow to hire", "body": "A senior product designer in a US metro is a significant salary plus a months-long search. For many teams the constraint is not budget in principle — it is getting senior capacity onto the problem this quarter." },
+      { "icon": "&#9635;", "name": "Enterprise buyers audit design maturity", "body": "Procurement reviews now examine accessibility conformance, design consistency and documentation. Inconsistency that a startup tolerates internally becomes a blocker in an enterprise sales cycle." },
+      { "icon": "&#8635;", "name": "Offshore has burned you before", "body": "The common failure is not skill — it is layers. Account managers relaying requirements, junior designers appearing after the pitch, and no overlap hours. Those are structural choices, and we have made the opposite ones." }
+    ],
+    "deliverables": [
+      { "icon": "&#9906;", "name": "Senior designers, directly", "body": "No account managers and no junior hand-off after the sale. You work with the people designing your product, which is the main reason clients move to retainers with us." },
+      { "icon": "&#9638;", "name": "ADA and WCAG 2.1 AA compliance", "body": "Contrast, keyboard navigation, focus states and screen-reader semantics designed in rather than retrofitted — with the documentation enterprise procurement asks for." },
+      { "icon": "&#8594;", "name": "SaaS product design", "body": "Dashboards, onboarding and workflow tools — the surfaces where usability drives activation and retention. See our <a href=\"/services/saas-product-design/\">SaaS product design service</a>." },
+      { "icon": "&#9707;", "name": "Async-first collaboration", "body": "Loom walkthroughs, structured written updates and Figma comments, so progress does not depend on both sides being awake simultaneously — with EST/PST overlap for the conversations that genuinely need it." },
+      { "icon": "&#9998;", "name": "US contracting norms", "body": "USD contracts, NDAs and IP assignment as standard, with W-8BEN documentation handled so your finance team is not solving an unfamiliar problem." },
+      { "icon": "&#9711;", "name": "Engineering-compatible handover", "body": "Specs designed against your stack and sprint cadence, delivered in increments matching your release rhythm rather than one large drop at the end." }
+    ],
+    "process": [
+      { "name": "Discovery", "body": "Week 1. Interviews, product walkthrough and analytics review, ending in a written problem definition signed off before design starts." },
+      { "name": "Structure", "body": "Weeks 2–3. Architecture and flows — where the hard decisions are made and most of the value is created." },
+      { "name": "Design", "body": "Weeks 3–8. High-fidelity design reviewed weekly during overlap hours, with accessibility checked continuously rather than at the end." },
+      { "name": "Build support", "body": "Ongoing. Handover, engineering walkthroughs and design QA against what actually ships." }
+    ],
+    "proof": {
+      "title": "Kelp Global — CRM intelligence platform",
+      "body": "Three connected products on one design system: a Chrome extension, an analytics dashboard and a deals module. Onboarding time fell 40% and feature adoption doubled.",
+      "related": "We are an India-based studio serving US clients remotely — we do not have a US office and would rather say so. Our work spans <a href=\"/projects/betacrew/\">Betacrew</a>, <a href=\"/projects/adda247/\">Adda247</a> and <a href=\"/projects/tata-elxsi/\">Tata Elxsi</a>; see <a href=\"/industries/b2b-saas/\">our B2B SaaS practice</a>."
+    },
+    "pricing": {
+      "title": "Engagement models",
+      "body": "Project, retainer or fixed-scope audit, quoted and contracted in USD. Most US clients start with a <a href=\"/services/ux-audit/\">two-week UX audit</a> because it is the lowest-risk way to test working together across a distance. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "Design kickoff within 48 hours of signature. Focused work runs 3–5 weeks; a full product redesign with a design system is 10–12."
+    },
+    "faqs": [
+      { "q": "How do you handle the time difference with US teams?", "a": "We keep a 9am–1pm EST overlap window for live calls and reviews, and run everything else async — Loom walkthroughs, written updates, Figma comments. In practice most US clients find this faster than a local agency, because async forces decisions to be written down rather than lost in a meeting. For PST teams the overlap shifts earlier in our day." },
+      { "q": "Do you have a US office?", "a": "No. We are an India-based studio serving US clients remotely, and we would rather state that plainly than imply a presence we do not have. What we do offer is USD contracting, US-standard NDAs and IP assignment, EST/PST overlap hours, and senior designers on your project rather than an account layer." },
+      { "q": "Do you design to ADA and WCAG standards?", "a": "WCAG 2.1 AA is our default, not an upgrade. In the US this matters commercially as well as ethically — web accessibility claims run into the thousands annually and enterprise procurement increasingly requires a VPAT. Designing to standard from the start costs a fraction of retrofitting under legal pressure." },
+      { "q": "How do you handle IP, NDAs and contracting?", "a": "US-standard NDAs, full IP assignment on payment, and USD contracts. We provide W-8BEN documentation so your finance team is not navigating an unfamiliar process. These are routine for us — most of our client base is outside India." },
+      { "q": "Why work with an India-based studio rather than a US agency?", "a": "The honest answer is cost and senior availability. You get senior designers directly rather than the account-manager-plus-junior structure common at that price point in the US, and capacity is available in weeks rather than after a months-long hire. The real trade-off is timezone, which async working and a defined overlap window address but do not eliminate — if you need someone in the room daily, hire locally." },
+      { "q": "How quickly can you start?", "a": "Design kickoff is normally within 48 hours of signature. We run a structured onboarding session to gather product context, access and analytics, and typically have an initial direction within five working days." }
+    ]
+  },
+
+  "ui-ux-design-agency-uk": {
+    "title": "UI/UX Design Agency for UK Startups & SaaS Companies | Designit",
+    "ogTitle": "UI/UX Design Agency for UK Startups | Designit",
+    "description": "A senior product design partner for UK software teams. UK GDPR-aware flows, WCAG 2.2 AA and public-sector accessibility standards, GBP invoicing and a working-day overlap with GMT.",
+    "keywords": "ui ux design agency uk, product design agency london, saas design agency uk, ux design company united kingdom, hire ux designer uk",
+    "schemaName": "UI/UX Design Agency — United Kingdom",
+    "schemaDescription": "Product design services for United Kingdom SaaS companies, startups and enterprise teams, delivered remotely with GMT working-day overlap, UK GDPR awareness and WCAG 2.2 accessibility standards.",
+    "serviceType": ["UI/UX Design", "SaaS Product Design", "Accessibility Design", "Design Systems"],
+    "audience": "UK SaaS companies, funded startups, and enterprise and public-sector-adjacent teams",
+    "breadcrumb": "United Kingdom",
+    "pills": ["GMT working-day overlap", "WCAG 2.2 AA", "GBP invoicing"],
+    "h1": "A senior design partner for UK software teams, in your working day.",
+    "subtitle": "India to the UK is a 4.5-hour offset — a genuinely shared working day rather than a handoff. We design for UK teams with GDPR-aware data flows, WCAG 2.2 accessibility, and the documentation standards public-sector-adjacent buyers expect.",
+    "cta": "Book a 30-minute product review",
+    "ctaHeading": "Let's look at your product.",
+    "ctaBody": "Thirty minutes in your morning or afternoon. We'll tell you what we'd tackle first — no deck, no pitch.",
+    "proofHref": "/projects/betacrew/",
+    "proofLabel": "Betacrew",
+    "stats": [
+      { "num": "60%", "label": "Reduction in cognitive load — Betacrew" },
+      { "num": "4x", "label": "Faster documentation workflow — Betacrew" },
+      { "num": "4.5h", "label": "IST to GMT — shared working day" },
+      { "num": "2.2 AA", "label": "WCAG standard for UK public sector" }
+    ],
+    "problemHeading": "What UK software teams tend to need",
+    "problems": [
+      { "icon": "&#9888;", "name": "UK GDPR shapes the interface, not just the backend", "body": "Consent, data minimisation and subject-access rights all surface as design decisions — how consent is requested, what is collected at signup, how a user exercises deletion. Treating this as purely a legal or engineering concern produces flows that technically comply and measurably underperform." },
+      { "icon": "&#9783;", "name": "Public-sector-adjacent work has a higher accessibility bar", "body": "The Public Sector Bodies Accessibility Regulations set WCAG 2.2 AA as the requirement, and that expectation increasingly propagates to suppliers and to enterprise buyers generally. Retrofitting is far more expensive than designing to it." },
+      { "icon": "&#9635;", "name": "Senior design capacity is scarce and expensive", "body": "London senior product design salaries plus a lengthy hiring cycle mean many UK teams cannot get senior capacity onto a problem in the quarter it matters." },
+      { "icon": "&#8635;", "name": "Offshore has usually meant a handoff, not a collaboration", "body": "The common failure mode is layers and lag: account managers relaying requirements, and questions answered overnight. With a 4.5-hour offset and senior designers working directly with you, neither is structural." }
+    ],
+    "deliverables": [
+      { "icon": "&#9906;", "name": "Senior designers, directly", "body": "No account managers and no junior hand-off after the pitch. You work with the people designing your product." },
+      { "icon": "&#9638;", "name": "WCAG 2.2 AA accessibility", "body": "Designed in from the start, with the conformance documentation UK enterprise and public-sector-adjacent procurement asks for." },
+      { "icon": "&#8594;", "name": "GDPR-aware flows", "body": "Consent, onboarding and data-collection journeys designed so compliance and conversion are not in opposition — worked through with your DPO or legal counsel." },
+      { "icon": "&#9707;", "name": "SaaS and enterprise product design", "body": "Dashboards, onboarding and workflow tools. See our <a href=\"/services/saas-product-design/\">SaaS product design service</a> and <a href=\"/industries/b2b-saas/\">B2B SaaS practice</a>." },
+      { "icon": "&#9998;", "name": "GBP invoicing and UK contracting", "body": "Invoiced in GBP, UK-standard NDAs and full IP assignment on payment." },
+      { "icon": "&#9711;", "name": "Same-day collaboration", "body": "A 4.5-hour offset means our afternoon is your morning. Live calls happen at civilised hours on both sides and questions are answered the same day." }
+    ],
+    "process": [
+      { "name": "Discovery", "body": "Week 1. Interviews, product walkthrough and analytics review, ending in a written problem definition agreed before design starts." },
+      { "name": "Structure", "body": "Weeks 2–3. Architecture and flows, with GDPR and accessibility constraints factored in at the structural stage rather than reviewed at the end." },
+      { "name": "Design", "body": "Weeks 3–8. High-fidelity design reviewed weekly in your working day." },
+      { "name": "Build support", "body": "Ongoing. Handover, engineering walkthroughs and design QA against what ships." }
+    ],
+    "proof": {
+      "title": "Betacrew — trading infrastructure",
+      "body": "Three disconnected internal tools consolidated into one platform in a regulated, precision-critical environment. Cognitive load fell 60% and the documentation workflow ran 4x faster.",
+      "related": "We are an India-based studio serving UK clients remotely — no UK office, and we would rather say so. See also <a href=\"/projects/kelp-global/\">Kelp Global</a> and our <a href=\"/industries/fintech/\">fintech practice</a>."
+    },
+    "pricing": {
+      "title": "Engagement models",
+      "body": "Project, retainer or fixed-scope audit, invoiced in GBP. Most UK clients start with a <a href=\"/services/ux-audit/\">two-week UX audit</a> as a low-risk way to test the working relationship. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "Design kickoff within 48 hours of signature. Focused work runs 3–5 weeks; a full product redesign with a design system is 10–12."
+    },
+    "faqs": [
+      { "q": "How does the time difference work with UK teams?", "a": "India is 4.5 hours ahead of GMT, which means our afternoon is your morning and we share a genuine working day. Live calls happen at reasonable hours for both sides and questions get answered the same day rather than overnight. Of the three markets we serve remotely, the UK has the most workable overlap." },
+      { "q": "Do you have a UK office?", "a": "No. We are an India-based studio working with UK clients remotely, and we would rather state that than imply a London presence we do not have. What we do provide is GBP invoicing, UK-standard NDAs and IP assignment, a shared working day, and senior designers rather than an account layer." },
+      { "q": "Do you design to WCAG 2.2 and UK accessibility requirements?", "a": "Yes. WCAG 2.2 AA is the standard set by the Public Sector Bodies Accessibility Regulations, and that expectation increasingly reaches suppliers and enterprise buyers well beyond the public sector itself. We design to it from the start and provide conformance documentation, because retrofitting accessibility is consistently more expensive than building to standard." },
+      { "q": "How do you handle UK GDPR in design?", "a": "By treating it as a design problem rather than a legal paste-in. Consent requests, signup data minimisation and subject-access journeys are all interface decisions, and the difference between a compliant flow that converts and one that does not is almost entirely design. We work through this with your DPO or counsel rather than presenting finished work for approval." },
+      { "q": "Can you work with UK public sector or regulated clients?", "a": "We have worked in regulated environments — Betacrew is trading infrastructure, and we have fintech experience across several jurisdictions. For UK public-sector procurement specifically, we would be a subcontractor rather than a prime, and the accessibility and documentation standards are the part we are well set up for." },
+      { "q": "How do you invoice and contract?", "a": "GBP invoicing, UK-standard NDAs, and full IP assignment on payment. We handle the international-supplier paperwork so your finance team is not solving an unfamiliar problem." }
+    ]
+  }
+}

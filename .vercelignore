@@ -1,0 +1,7 @@
+# Build/content tooling — not part of the served site
+scripts/
+IMPLEMENTATION_STATUS.md
+SEO_MANUAL_STEPS.md
+SEO_KEYWORD_MAP.md
+DEPLOY_NOTES.md
+.claude/

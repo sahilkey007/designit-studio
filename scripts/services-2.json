@@ -1,0 +1,331 @@
+{
+  "ux-audit": {
+    "title": "UX Audit Services — Find What's Costing You Conversions | Designit",
+    "ogTitle": "UX Audit Services | Designit",
+    "description": "A fixed-scope UX audit of your product or site. We find where users drop, quantify what it costs, and hand you a prioritised fix list your team can build. Delivered in 2 weeks.",
+    "keywords": "ux audit services, ux audit agency, website ux audit, product ux audit, usability audit, conversion audit, ux review services",
+    "schemaName": "UX Audit",
+    "schemaDescription": "A fixed-scope usability and conversion audit of a digital product or website, delivering a prioritised list of issues ranked by revenue impact and implementation effort.",
+    "serviceType": ["UX Audit", "Usability Audit", "Conversion Audit", "Heuristic Evaluation"],
+    "audience": "SaaS companies, e-commerce brands and enterprise software teams with an existing product",
+    "breadcrumb": "UX Audit",
+    "pills": ["Fixed scope", "2 weeks", "Prioritised fix list"],
+    "h1": "A UX audit that tells you what to fix first — and what it's worth.",
+    "subtitle": "Most audits hand over 60 observations and no priorities. Ours ranks every issue by revenue impact against implementation effort, so your team knows exactly what to build on Monday. Fixed scope, fixed price, two weeks.",
+    "cta": "Book a 30-minute teardown",
+    "ctaHeading": "See the first three problems for free.",
+    "ctaBody": "Send us your product. In 30 minutes we'll walk you through the three biggest issues we find and what we'd fix first — no deck, no pitch, whether or not you hire us.",
+    "proofHref": "/projects/adda247/",
+    "proofLabel": "Adda247",
+    "stats": [
+      { "num": "2 wks", "label": "From kickoff to prioritised findings" },
+      { "num": "60%", "label": "Reduction in support tickets — Adda247" },
+      { "num": "45%", "label": "Increase in onboarding completion — Adda247" },
+      { "num": "Fixed", "label": "Scope and price, agreed before we start" }
+    ],
+    "problemHeading": "When a UX audit is the right call",
+    "problems": [
+      { "icon": "&#9888;", "name": "Traffic is fine, conversion isn't", "body": "Acquisition spend is working and the funnel still leaks. You suspect the problem is on the page rather than in the campaign, but nobody can point at the specific step that loses people." },
+      { "icon": "&#9783;", "name": "Support keeps answering the same question", "body": "The same three tickets arrive every week. That is a design problem being absorbed by humans, and it is measurable — reducing it was worth a 60% ticket drop for Adda247." },
+      { "icon": "&#9635;", "name": "Everyone has an opinion, nobody has evidence", "body": "Design decisions are being decided by whoever argues hardest. An external audit replaces opinion with observed behaviour and gives the team a shared, ranked list to work from." },
+      { "icon": "&#8635;", "name": "You're about to spend on a rebuild", "body": "Before committing six figures to a redesign, it is worth knowing which problems are actually costing money. Often a targeted fix list gets most of the value at a fraction of the cost." }
+    ],
+    "deliverables": [
+      { "icon": "&#9906;", "name": "Heuristic and task-based review", "body": "We walk your core user journeys as your users do — signup, activation, the primary workflow, checkout or upgrade — and record every point of friction with a screenshot and an explanation." },
+      { "icon": "&#9638;", "name": "Analytics and session evidence", "body": "Where you have GA4, Hotjar, Clarity or similar, we tie observed friction to actual drop-off data, so each finding is backed by a number rather than an assertion." },
+      { "icon": "&#8594;", "name": "Prioritised issue register", "body": "Every finding scored on user impact, revenue impact and implementation effort — so the list sorts itself into quick wins and structural work instead of arriving as an undifferentiated pile." },
+      { "icon": "&#9707;", "name": "Annotated recommendations", "body": "Not just what is wrong, but what to do instead — with wireframes or visual direction for the highest-impact fixes so engineering is not left interpreting prose." },
+      { "icon": "&#9998;", "name": "Accessibility check", "body": "A WCAG 2.1 AA pass over the audited journeys, flagging issues that create both legal exposure and real usability problems for a meaningful share of your users." },
+      { "icon": "&#9711;", "name": "Walkthrough session", "body": "A live session with your product and engineering team to talk through the findings, argue with them, and agree what actually goes into the next sprint." }
+    ],
+    "process": [
+      { "name": "Scoping", "body": "Days 1–2. We agree which journeys are in scope and which metric matters most. You get a written scope with a fixed price before any work starts." },
+      { "name": "Review", "body": "Days 3–7. Heuristic evaluation, task walkthroughs, analytics review and accessibility pass across the agreed journeys." },
+      { "name": "Prioritisation", "body": "Days 8–10. Every issue scored and ranked. This is the part most audits skip, and the part that makes the output usable." },
+      { "name": "Handover", "body": "Days 11–14. Written report, annotated recommendations, and a live walkthrough with your team. The deliverable is a backlog, not a PDF that gets filed." }
+    ],
+    "proof": {
+      "title": "Adda247 — EdTech platform at consumer scale",
+      "body": "Across eight product modules we reworked onboarding, test-series and dashboard experiences. Onboarding completion rose 45% and support tickets fell 60% — the clearest example of design work paying for itself operationally.",
+      "related": "Similar diagnostic work underpins our <a href=\"/services/saas-product-design/\">SaaS product design</a> engagements, and most clients who start with an audit continue into design. See the <a href=\"/projects/\">full project list</a>."
+    },
+    "pricing": {
+      "title": "Fixed scope, fixed price",
+      "body": "An audit is quoted as a fixed fee against an agreed scope — no hourly drift. Because it is fixed-scope, it is the lowest-risk way to work with us for the first time, and the fee is credited against a subsequent design engagement if you continue. Bands are on the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "Two weeks from kickoff to walkthrough. Kickoff is normally within 48 hours of signature, and we can compress to one week where there is a genuine deadline."
+    },
+    "faqs": [
+      { "q": "What do I actually receive at the end?", "a": "A prioritised issue register — every finding scored on user impact, revenue impact and implementation effort — plus annotated recommendations with visual direction for the highest-impact fixes, and a live walkthrough with your team. The deliverable is designed to go straight into your backlog rather than sit in a drive." },
+      { "q": "How is this different from a free audit an agency offers?", "a": "A free audit is a sales document; its purpose is to find enough problems to justify a proposal. A paid, fixed-scope audit is a deliverable in its own right — we go deep enough to be genuinely useful, and the output is valuable whether or not you hire us for the fixes. We credit the fee against subsequent design work, so there is no penalty for continuing." },
+      { "q": "How long does a UX audit take?", "a": "Two weeks from kickoff to walkthrough is standard: two days scoping, five days reviewing, three days prioritising, and the remainder writing up and presenting. We can compress to one week when there is a real deadline, though the prioritisation stage is the one worth protecting." },
+      { "q": "Do you need access to our analytics?", "a": "It makes the audit substantially better but is not required. With GA4, Hotjar, Clarity or similar we can tie observed friction to actual drop-off numbers, which turns opinions into evidence. Without it we still run heuristic and task-based evaluation, we just cannot quantify the cost of each issue as precisely." },
+      { "q": "Will you also fix the problems you find?", "a": "If you want us to. Many clients run the audit as a standalone diagnostic and hand the list to their own team — that is a legitimate outcome and the report is written to support it. Others continue into a design engagement, in which case the audit fee is credited." },
+      { "q": "Can you audit a product that hasn't launched?", "a": "Yes, though it changes the method. Without live users or analytics we lean on heuristic evaluation, comparison against category conventions, and task walkthroughs with people matching your target profile. Pre-launch audits are usually cheaper to act on because nothing is locked in yet." },
+      { "q": "Do you audit accessibility as part of this?", "a": "Yes — a WCAG 2.1 AA pass over the audited journeys is included. Accessibility issues are flagged alongside usability ones because in practice they overlap heavily, and because for enterprise and public-sector buyers they are frequently a procurement requirement rather than a nice-to-have." }
+    ]
+  },
+
+  "ui-ux-design": {
+    "title": "UI/UX Design Agency — Research-Led Product Design | Designit",
+    "ogTitle": "UI/UX Design Agency | Designit",
+    "description": "A research-led UI/UX design agency for software teams. We design interfaces grounded in user research, not taste — for B2B SaaS, fintech, edtech and enterprise products. Senior designers throughout.",
+    "keywords": "ui ux design agency, ui ux design company, ux design agency, user interface design services, product interface design, hire ui ux design agency",
+    "schemaName": "UI/UX Design",
+    "schemaDescription": "End-to-end user interface and user experience design for digital products, grounded in user research and delivered with developer-ready specifications.",
+    "serviceType": ["UI Design", "UX Design", "Interface Design", "Interaction Design"],
+    "audience": "Software companies, funded startups and enterprise product teams",
+    "breadcrumb": "UI/UX Design",
+    "pills": ["Research-led", "Senior designers only", "Developer-ready"],
+    "h1": "UI/UX design decided by evidence, not by whoever argues hardest.",
+    "subtitle": "We design interfaces for software people actually have to use for eight hours a day. Every engagement starts with research, every decision traces back to observed behaviour, and every handover is built to survive contact with your engineering team.",
+    "cta": "Book a 30-minute design review",
+    "ctaHeading": "Let's look at what you've got.",
+    "ctaBody": "Bring your product or your Figma file. In 30 minutes we'll tell you what we'd change and why — no deck, no pitch.",
+    "proofHref": "/projects/betacrew/",
+    "proofLabel": "Betacrew",
+    "stats": [
+      { "num": "60%", "label": "Reduction in cognitive load — Betacrew" },
+      { "num": "4x", "label": "Faster documentation workflow — Betacrew" },
+      { "num": "48h", "label": "Design kickoff from contract sign" },
+      { "num": "5+", "label": "Years designing complex software" }
+    ],
+    "problemHeading": "What usually brings teams to us",
+    "problems": [
+      { "icon": "&#9888;", "name": "The interface grew rather than got designed", "body": "Every feature was added where there was room, not where it belongs. The result works if you already know it, and is impenetrable if you don't — which is a problem every time you onboard a customer or a new hire." },
+      { "icon": "&#9783;", "name": "Design is a bottleneck, not a multiplier", "body": "Engineering waits on screens. Screens wait on decisions. Decisions wait on a meeting. The design function has become the slowest part of shipping instead of the thing that makes shipping safe." },
+      { "icon": "&#9635;", "name": "It looks fine and performs badly", "body": "The product photographs well and users still can't complete the task. Visual polish and usability are different disciplines, and only one of them shows up in your activation numbers." },
+      { "icon": "&#8635;", "name": "You've outgrown a freelancer", "body": "One designer was enough at ten people. At forty, you need a system, documentation, and someone who can hold the whole product in their head — not more hands producing more screens." }
+    ],
+    "deliverables": [
+      { "icon": "&#9906;", "name": "Research and discovery", "body": "User interviews, competitive teardown and analytics review — enough to define the problem in writing before anyone opens Figma. This is the step that prevents expensive redesigns of the wrong thing." },
+      { "icon": "&#9638;", "name": "Information architecture and flows", "body": "How the product is organised and how users move through it. Most interface problems are structural, and no amount of visual work fixes a bad hierarchy." },
+      { "icon": "&#8594;", "name": "Interface design", "body": "High-fidelity screens across the agreed scope, including the states that get skipped — empty, loading, error, permission-denied, and the ugly edge cases that make software feel unfinished." },
+      { "icon": "&#9707;", "name": "Interaction and motion", "body": "Transitions and micro-interactions specified where they carry meaning — communicating state change and system response, not decorating." },
+      { "icon": "&#9998;", "name": "Developer handover", "body": "Annotated specs, tokens, component behaviour and a live walkthrough with engineering. We stay available through build so the shipped product matches the intent." },
+      { "icon": "&#9711;", "name": "Design QA", "body": "We review the built implementation against the design and file the differences. Without this step, roughly a third of design intent quietly disappears between Figma and production." }
+    ],
+    "process": [
+      { "name": "Discovery", "body": "Week 1. Interviews, product walkthrough and analytics review, ending in a written problem definition we both sign off before design starts." },
+      { "name": "Structure", "body": "Weeks 2–3. Information architecture, flows and low-fidelity direction — where the hard decisions get made and most of the value is created." },
+      { "name": "Design", "body": "Weeks 3–8. High-fidelity design reviewed weekly with your team, with components captured into a system as they emerge rather than retrofitted later." },
+      { "name": "Build support", "body": "Ongoing. Handover, engineering walkthrough and design QA against the implementation." }
+    ],
+    "proof": {
+      "title": "Betacrew — trading infrastructure platform",
+      "body": "We replaced three disconnected internal tools with one unified platform. Cognitive load dropped 60% and the documentation workflow ran 4x faster — a direct result of structural design work rather than visual refresh.",
+      "related": "For SaaS-specific work see <a href=\"/services/saas-product-design/\">SaaS product design</a>; if you want a diagnostic before committing, start with a <a href=\"/services/ux-audit/\">UX audit</a>."
+    },
+    "pricing": {
+      "title": "Engagement models",
+      "body": "A scoped project for a defined outcome, a monthly retainer when you need an embedded design team, or a fixed-scope audit if you want to test working with us first. International engagements are scoped and quoted in USD. Bands are published on the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "Focused work runs 3–5 weeks. A full product redesign with a design system is typically 10–12 weeks. You get written dates before we start."
+    },
+    "faqs": [
+      { "q": "What's the difference between UI and UX design, practically?", "a": "UX is the decision layer — what the product does, how it is structured, what happens in what order. UI is the expression layer — how that structure looks and responds. In practice they are done by the same people on the same project, because separating them produces either beautiful things nobody can use or usable things nobody wants to look at. We do both; we just start with the structural half." },
+      { "q": "Do you work with our existing brand and design language?", "a": "Yes, by default. Unless you have asked for a rebrand, we design within your existing visual language and extend it where it has gaps. If we think the brand is actively working against the product's usability, we will show you the specific evidence rather than simply presenting something new." },
+      { "q": "How much does UI/UX design cost?", "a": "It depends on scope more than on hours, which is why we publish bands rather than a single rate. A focused piece of work — one flow, one dashboard — is materially cheaper than a full product redesign with a design system. We give you a fixed written scope and price before starting; see the pricing page for current bands." },
+      { "q": "Can you work with our in-house designers rather than replacing them?", "a": "Frequently. A common arrangement is that we handle structural and system work while your in-house team owns day-to-day feature design — we set the foundations and the documentation, they build on it. We are equally happy being an extra pair of senior hands inside an existing team." },
+      { "q": "What happens after handover?", "a": "We stay available through implementation and run design QA against what actually ships. This matters more than it sounds: without a QA pass, a meaningful share of design intent gets lost in translation between Figma and production, and neither side notices until a user complains." },
+      { "q": "Who does the work — will we get juniors after the pitch?", "a": "Senior designers from kickoff to handover. There are no account managers relaying messages and no junior hand-off after the sale. You work directly with the people designing your product, which is the main reason clients move onto retainers with us." },
+      { "q": "Do you design for accessibility?", "a": "Yes. WCAG 2.1 AA is our default standard for colour contrast, keyboard navigation, focus states and screen-reader semantics. For enterprise and public-sector buyers this is usually a procurement requirement, and it is far cheaper to design in than to retrofit." }
+    ]
+  },
+
+  "product-design": {
+    "title": "Product Design Agency — Strategy, Research & Interface | Designit",
+    "ogTitle": "Product Design Agency | Designit",
+    "description": "A product design partner for teams building serious software. We work from problem definition through research, interface design and build support — across SaaS, fintech, edtech and automotive.",
+    "keywords": "product design agency, product design company, digital product design agency, product design studio, product design partner, product design consultancy",
+    "schemaName": "Product Design",
+    "schemaDescription": "End-to-end digital product design covering problem definition, user research, information architecture, interface design, prototyping and developer handover.",
+    "serviceType": ["Product Design", "Digital Product Design", "Product Strategy", "Prototyping"],
+    "audience": "Funded startups, scale-ups and enterprise product organisations",
+    "breadcrumb": "Product Design",
+    "pills": ["Problem-first", "Research to handover", "Senior-led"],
+    "h1": "Product design that starts with the problem, not the wireframe.",
+    "subtitle": "We work with teams building software that people depend on — trading platforms, learning systems, CRM tools, in-car interfaces. The work runs from defining what should be built through to supporting the team that builds it.",
+    "cta": "Book a 30-minute product review",
+    "ctaHeading": "Tell us what you're building.",
+    "ctaBody": "Thirty minutes, no deck. We'll tell you what we'd tackle first and whether we're the right partner for it — including when we think we're not.",
+    "proofHref": "/projects/tata-elxsi/",
+    "proofLabel": "Tata Elxsi",
+    "stats": [
+      { "num": "30%", "label": "Reduction in driver distraction — Tata Elxsi" },
+      { "num": "8", "label": "Product modules designed — Adda247" },
+      { "num": "3x", "label": "Increase in qualified leads — Rcentric" },
+      { "num": "5+", "label": "Years across regulated and safety-critical work" }
+    ],
+    "problemHeading": "The situations we're usually called into",
+    "problems": [
+      { "icon": "&#9888;", "name": "You know the outcome, not the product", "body": "The business goal is clear and what to actually build is not. This is a product definition problem, and starting it in Figma is how teams spend six months building the wrong thing beautifully." },
+      { "icon": "&#9783;", "name": "The roadmap is a feature list", "body": "Everything is a priority, which means nothing is. Without a structural view of the product, each new feature makes the next one harder to add and the whole thing harder to use." },
+      { "icon": "&#9635;", "name": "The product works but doesn't sell itself", "body": "Demos need a human to explain them. When a product cannot communicate its own value in the first session, that is a design problem showing up in your sales cycle." },
+      { "icon": "&#8635;", "name": "Complexity is non-negotiable", "body": "Some products are genuinely complex — regulated flows, safety-critical interfaces, dense operational tooling. Simplifying is not an option; making complexity legible is the actual job." }
+    ],
+    "deliverables": [
+      { "icon": "&#9906;", "name": "Problem definition", "body": "Stakeholder interviews, user research and a written statement of what we are solving and how we will know it worked — agreed before design begins." },
+      { "icon": "&#9638;", "name": "Product and information architecture", "body": "How the product is structured, what belongs together, and what the primary flows are. The decisions here constrain everything downstream, which is why they get the most attention." },
+      { "icon": "&#8594;", "name": "Interface design across states", "body": "High-fidelity design including the unglamorous states — empty, error, loading, permissions — that determine whether software feels finished." },
+      { "icon": "&#9707;", "name": "Interactive prototypes", "body": "Clickable prototypes for user testing before code, and often for closing enterprise deals before the feature exists. Cheapest possible way to be wrong." },
+      { "icon": "&#9998;", "name": "Design system foundations", "body": "Tokens and components captured as the product is designed, so the system emerges from real usage rather than being invented in the abstract." },
+      { "icon": "&#9711;", "name": "Build support and QA", "body": "Engineering walkthroughs, availability through implementation, and a QA pass against what actually shipped." }
+    ],
+    "process": [
+      { "name": "Define", "body": "Weeks 1–2. Research, stakeholder alignment and a written problem definition. If we disagree about the problem, this is where it surfaces — cheaply." },
+      { "name": "Structure", "body": "Weeks 2–4. Product architecture, flows and low-fidelity direction, validated with users before visual work starts." },
+      { "name": "Design", "body": "Weeks 4–10. High-fidelity design and prototypes, reviewed weekly, with system components captured as they emerge." },
+      { "name": "Ship", "body": "Ongoing. Handover, engineering support and design QA against the built product." }
+    ],
+    "proof": {
+      "title": "Tata Elxsi — automotive HMI",
+      "body": "Two in-car systems designed: an infotainment interface and a digital instrument cluster, where interface decisions carry safety consequences. Driver distraction fell 30% — the clearest possible case for treating design as an engineering discipline.",
+      "related": "Across sectors: <a href=\"/projects/adda247/\">Adda247</a> at consumer scale, <a href=\"/projects/kelp-global/\">Kelp Global</a> in B2B SaaS, and <a href=\"/projects/rcentric/\">Rcentric</a> in luxury PropTech. See <a href=\"/industries/\">all industries</a>."
+    },
+    "pricing": {
+      "title": "Engagement models",
+      "body": "Project, retainer or fixed-scope audit. Product design engagements are usually project-based with a retainer following, because the structural work is front-loaded and the ongoing work is steadier. International engagements are quoted in USD. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "A defined product initiative typically runs 8–12 weeks end to end. Discovery alone can be run as a standalone 2–3 week engagement if you want to de-risk before committing."
+    },
+    "faqs": [
+      { "q": "What does a product design agency actually do?", "a": "More than draw screens. The work covers defining what should be built, researching who it is for, structuring how it fits together, designing the interface, prototyping to test assumptions, and supporting the engineers who build it. Agencies that only do the screen-drawing part are graphic design studios working on software." },
+      { "q": "How is product design different from UI/UX design?", "a": "Mostly scope. UI/UX design tends to start once someone has decided what to build. Product design includes that decision — the research, the trade-offs, the definition of what the product needs to be. In practice the two overlap heavily, and the honest answer is that the label matters less than whether the team is allowed to question the brief." },
+      { "q": "Can you run discovery without committing to the full build?", "a": "Yes, and we often recommend it. A standalone 2–3 week discovery gives you a written problem definition, research findings and a recommended direction — enough to decide whether to proceed, with whom, and at what scope. It is the cheapest way to de-risk a large investment." },
+      { "q": "Do you work on regulated or safety-critical products?", "a": "Yes. We have designed automotive HMI where interface decisions affect driver attention, and fintech flows with KYC and regulatory constraints. These projects need more research, more edge-case work and more documentation, and we scope them accordingly rather than pretending they are ordinary." },
+      { "q": "How do you handle disagreement about direction?", "a": "By making the problem definition an explicit, written, signed-off artefact before design starts. Most design disagreements are actually unstated disagreements about the problem. Surfacing that in week one costs a conversation; surfacing it in week eight costs a redesign." },
+      { "q": "What if we already have a designer or a design team?", "a": "We work alongside in-house teams regularly. Typically we take the structural and systems work — architecture, foundations, documentation — while the in-house team owns feature-level design and day-to-day iteration. We are also happy to work purely as extra senior capacity." },
+      { "q": "How do you measure success?", "a": "We agree the metric before starting — activation, task completion, adoption, support-ticket volume, lead quality, whatever is genuinely load-bearing for your business. Our published numbers are client metrics, not internal ones: 45% onboarding completion at Adda247, 30% distraction reduction at Tata Elxsi, 3x qualified leads at Rcentric." }
+    ]
+  },
+
+  "design-systems": {
+    "title": "Design System Agency — Tokens, Components & Documentation | Designit",
+    "ogTitle": "Design System Agency | Designit",
+    "description": "We build design systems that engineering actually adopts — tokens, components, states and documentation, handed over so a new feature is an assembly job rather than a redesign.",
+    "keywords": "design system agency, design system development, design system consulting, component library design, design tokens, figma design system",
+    "schemaName": "Design System Development",
+    "schemaDescription": "Design system creation and consolidation: design tokens, component libraries, interaction states, accessibility standards and engineering documentation.",
+    "serviceType": ["Design Systems", "Component Library Design", "Design Tokens", "Design Documentation"],
+    "audience": "Scale-up and enterprise product teams shipping across multiple surfaces",
+    "breadcrumb": "Design Systems",
+    "pills": ["Tokens to docs", "Engineering-adoptable", "Multi-product"],
+    "h1": "A design system your engineers will actually use.",
+    "subtitle": "Most design systems fail not because they are badly designed but because they are impossible to adopt. We build tokens, components and documentation against your real stack and your real constraints — and we measure success by whether engineering stops working around it.",
+    "cta": "Book a 30-minute system review",
+    "ctaHeading": "Is your system helping or being worked around?",
+    "ctaBody": "Show us your component library and your codebase. In 30 minutes we'll tell you whether the problem is the system, the documentation, or the adoption path.",
+    "proofHref": "/projects/kelp-global/",
+    "proofLabel": "Kelp Global",
+    "stats": [
+      { "num": "3", "label": "Products on one shared system — Kelp Global" },
+      { "num": "40%", "label": "Reduction in onboarding time — Kelp Global" },
+      { "num": "8", "label": "Modules on one system — Adda247" },
+      { "num": "AA", "label": "WCAG 2.1 built into components" }
+    ],
+    "problemHeading": "Why design systems usually fail",
+    "problems": [
+      { "icon": "&#9888;", "name": "It exists, and nobody uses it", "body": "There is a Figma library and a Storybook, and engineers still write one-off components because the system does not cover their case or is too slow to search. An unused system is worse than none — it is maintenance cost with no return." },
+      { "icon": "&#9783;", "name": "Design and code have drifted", "body": "The Figma library and the coded components disagree, so nobody trusts either. Every ticket now includes an argument about which one is correct." },
+      { "icon": "&#9635;", "name": "It covers the happy path only", "body": "Buttons and cards are beautifully specified. Empty states, error states, loading, dense-data variants and permission states are not — which is exactly where consistency breaks in real products." },
+      { "icon": "&#8635;", "name": "Every new surface starts from scratch", "body": "A second product, a mobile app or an admin tool arrives and none of the existing work transfers, because the system was built for one surface rather than as a foundation." }
+    ],
+    "deliverables": [
+      { "icon": "&#9906;", "name": "Audit and inventory", "body": "Every component, colour, type style and spacing value currently in use across your products — usually the moment teams discover they have nineteen greys and five button styles." },
+      { "icon": "&#9638;", "name": "Token architecture", "body": "A layered token system — primitive, semantic and component-level — so theming, dark mode and white-labelling become configuration rather than a rebuild." },
+      { "icon": "&#8594;", "name": "Component library", "body": "Components with every state specified: default, hover, focus, active, disabled, loading, error and empty. Built in Figma with variants and properties that mirror how your engineers will consume them." },
+      { "icon": "&#9707;", "name": "Accessibility baked in", "body": "WCAG 2.1 AA contrast, focus treatment and keyboard behaviour specified at the component level, so accessibility is inherited by default rather than remembered per feature." },
+      { "icon": "&#9998;", "name": "Documentation and usage rules", "body": "When to use each component, when not to, and what to do when nothing fits. The last one is what stops the system fragmenting six months in." },
+      { "icon": "&#9711;", "name": "Adoption plan", "body": "A migration path with a realistic sequence, plus working sessions with your engineers. Systems succeed or fail at adoption, so we treat it as part of the deliverable rather than your problem." }
+    ],
+    "process": [
+      { "name": "Audit", "body": "Weeks 1–2. Full inventory across products and code, and interviews with the engineers who will consume the system about why the current one is being worked around." },
+      { "name": "Foundations", "body": "Weeks 2–4. Token architecture, type scale, spacing, colour and accessibility standards — the layer everything else inherits from." },
+      { "name": "Components", "body": "Weeks 4–9. The library, built in priority order by actual usage frequency, with all states specified." },
+      { "name": "Adoption", "body": "Weeks 9–12. Documentation, engineering handover sessions and a migration sequence. We stay available while the first features get built on it." }
+    ],
+    "proof": {
+      "title": "Kelp Global — one system, three products",
+      "body": "A Chrome extension, an analytics dashboard and a deals module built on a single shared system designed for speed and scale. Onboarding time fell 40% and feature adoption doubled — largely because consistency across surfaces removed the need to relearn the product.",
+      "related": "The same foundations underpin <a href=\"/projects/adda247/\">Adda247's eight modules</a>. Design systems are usually commissioned alongside <a href=\"/services/saas-product-design/\">SaaS product design</a> or after a <a href=\"/services/ux-audit/\">UX audit</a> exposes inconsistency costs."
+    },
+    "pricing": {
+      "title": "Engagement models",
+      "body": "Design systems are project-scoped, usually with a light retainer afterwards for governance as the system evolves. Consolidating an existing system is typically cheaper than building from zero — the audit tells us which you actually need. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "A full system runs 10–12 weeks. A focused consolidation of an existing library is usually 4–6 weeks. The audit stage alone can be run standalone if you want a diagnosis first."
+    },
+    "faqs": [
+      { "q": "How long does it take to build a design system?", "a": "A full system — audit, tokens, components, documentation and adoption support — typically runs 10 to 12 weeks. Consolidating and documenting an existing library is usually 4 to 6. The variable is not component count but how many products the system has to serve and how much disagreement exists about the foundations." },
+      { "q": "Do we need a design system at all?", "a": "Not always, and we will tell you if you do not. Below roughly one product and two designers, a system is usually overhead — a shared style file is enough. Systems earn their cost when multiple people ship in parallel across multiple surfaces, or when inconsistency has started showing up in enterprise sales conversations." },
+      { "q": "Will this work with our existing codebase and framework?", "a": "That is the constraint we design against. Tokens and component APIs are structured to match how your engineers actually consume them, whether that is React, Vue, native mobile or a mix. A system designed without reference to the implementation is the single most common reason adoption fails." },
+      { "q": "What if we already have a design system that isn't working?", "a": "Usually the fix is consolidation and documentation rather than replacement, and it is considerably cheaper. The audit stage tells us whether the foundations are salvageable. We only recommend rebuilding when the token architecture itself is blocking work, and we show you the specific evidence first." },
+      { "q": "How do you make sure engineers actually adopt it?", "a": "By involving them from the audit onward and treating adoption as a deliverable. We interview the engineers working around the current system about why, sequence the migration by real usage frequency rather than by what is easy to design, and run working sessions during handover. A system nobody adopts is a failed project regardless of how good the Figma file is." },
+      { "q": "Does the system include dark mode and theming?", "a": "If you need it, yes — and it is dramatically cheaper to build in from the start than to retrofit. A layered semantic token architecture makes dark mode, white-labelling and per-tenant theming configuration changes rather than parallel design work." },
+      { "q": "Who maintains it after handover?", "a": "Your team, with documentation written for that purpose — including what to do when no existing component fits, which is the decision that fragments most systems. Some clients keep us on a light governance retainer to review additions; others take it fully in-house, which is a perfectly good outcome." }
+    ]
+  },
+
+  "ux-research": {
+    "title": "UX Research Agency — Interviews, Testing & Synthesis | Designit",
+    "ogTitle": "UX Research Agency | Designit",
+    "description": "UX research that changes decisions: user interviews, usability testing and journey mapping, synthesised into findings your team can actually act on. Standalone or as part of a design engagement.",
+    "keywords": "ux research agency, user research services, usability testing agency, user interviews, journey mapping, ux research consultancy",
+    "schemaName": "UX Research",
+    "schemaDescription": "User research services including in-depth interviews, usability testing, journey mapping, competitive analysis and research synthesis for product teams.",
+    "serviceType": ["UX Research", "Usability Testing", "User Interviews", "Journey Mapping"],
+    "audience": "Product teams making significant build or roadmap decisions",
+    "breadcrumb": "UX Research",
+    "pills": ["Interviews", "Usability testing", "Actionable synthesis"],
+    "h1": "Research that settles arguments instead of generating slides.",
+    "subtitle": "Most research decks get read once. We run interviews, usability tests and journey mapping designed to answer a specific decision you are stuck on — and we deliver findings ranked by what they should change, not organised by what we did.",
+    "cta": "Book a 30-minute research scoping call",
+    "ctaHeading": "What decision are you stuck on?",
+    "ctaBody": "Tell us the decision. In 30 minutes we'll tell you what research would actually resolve it — and whether you need research at all, because sometimes you don't.",
+    "proofHref": "/projects/adda247/",
+    "proofLabel": "Adda247",
+    "stats": [
+      { "num": "45%", "label": "Increase in onboarding completion — Adda247" },
+      { "num": "60%", "label": "Reduction in support tickets — Adda247" },
+      { "num": "2–4 wks", "label": "Typical study, scoping to findings" },
+      { "num": "Every", "label": "Engagement starts here by default" }
+    ],
+    "problemHeading": "When research is worth the time",
+    "problems": [
+      { "icon": "&#9888;", "name": "A big build is about to start on an assumption", "body": "The roadmap commits a quarter of engineering to something nobody has validated. Two weeks of research is the cheapest insurance available against three months of building the wrong thing." },
+      { "icon": "&#9783;", "name": "Analytics show what, never why", "body": "You can see the drop-off precisely and have no idea what causes it. Quantitative data localises the problem; only qualitative research explains it well enough to fix." },
+      { "icon": "&#9635;", "name": "The team disagrees and nobody can win", "body": "Two credible internal positions, no evidence either way, and the decision keeps getting deferred. Research is often faster than continuing to argue." },
+      { "icon": "&#8635;", "name": "You're designing for users unlike yourselves", "body": "Enterprise operations staff, students, drivers, traders. When the team is not the user — which is most of the time in B2B — intuition is unreliable in ways that are invisible from inside." }
+    ],
+    "deliverables": [
+      { "icon": "&#9906;", "name": "In-depth user interviews", "body": "Structured conversations with your actual users or target segment, run to surface behaviour and context rather than opinions and feature requests." },
+      { "icon": "&#9638;", "name": "Usability testing", "body": "Task-based testing on your live product or a prototype, moderated or unmoderated, with recordings and timestamped findings your team can watch rather than take on trust." },
+      { "icon": "&#8594;", "name": "Journey mapping", "body": "The end-to-end path including the parts outside your product — the spreadsheet, the email, the phone call — where much of the real friction usually lives." },
+      { "icon": "&#9707;", "name": "Competitive and category analysis", "body": "What conventions your users already carry from other tools. Violating an established convention costs adoption unless there is a very good reason." },
+      { "icon": "&#9998;", "name": "Synthesis and prioritised findings", "body": "Findings ranked by decision impact, each stated as a specific recommendation with the evidence attached — not a themed summary that leaves interpretation to you." },
+      { "icon": "&#9711;", "name": "Working session with your team", "body": "We present, your team pushes back, and we agree together what actually changes. Research that is not argued with does not change behaviour." }
+    ],
+    "process": [
+      { "name": "Frame the decision", "body": "Days 1–3. We define what decision the research must inform. If we cannot name one, we will tell you the research is not worth running." },
+      { "name": "Recruit and prepare", "body": "Days 3–7. Participant recruitment against a defined screener, discussion guide and test protocol." },
+      { "name": "Run the study", "body": "Week 2. Interviews or usability sessions, recorded and timestamped, with interim findings shared as they emerge rather than held to the end." },
+      { "name": "Synthesise and present", "body": "Weeks 3–4. Analysis, prioritised findings and a working session where the team decides what changes." }
+    ],
+    "proof": {
+      "title": "Adda247 — research at consumer scale",
+      "body": "Research into onboarding and test-taking behaviour across eight modules drove a 45% rise in onboarding completion and a 60% fall in support tickets. Both numbers came from understanding where users stalled — not from redesigning what looked dated.",
+      "related": "Research is the default first phase of <a href=\"/services/product-design/\">product design</a> and <a href=\"/services/saas-product-design/\">SaaS product design</a> engagements. For a faster, lower-cost diagnostic, a <a href=\"/services/ux-audit/\">UX audit</a> may be the better starting point."
+    },
+    "pricing": {
+      "title": "Standalone or embedded",
+      "body": "Research runs either as a standalone study — useful when you need evidence for a decision and nothing else — or as the first phase of a design engagement, where it is included. Standalone studies are fixed-scope and fixed-price. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "Two to four weeks depending on recruitment difficulty. Enterprise and specialist audiences take longer to recruit; consumer studies are usually at the faster end."
+    },
+    "faqs": [
+      { "q": "How many users do you need to interview?", "a": "For usability testing, five to eight participants per distinct user type surfaces the large majority of usability problems — additional participants mostly repeat what you have already heard. For generative research aimed at understanding a market or behaviour, eight to twelve is more typical. We would rather run two well-defined smaller studies than one large unfocused one." },
+      { "q": "Can you recruit participants, or do we provide them?", "a": "Either. Recruiting from your own user base is faster, cheaper and usually more representative, so we prefer it where possible. Where you need people outside your existing users — non-customers, competitors' users, a new segment — we handle recruitment against an agreed screener, which adds time and cost to the study." },
+      { "q": "How is this different from the UX audit?", "a": "An audit is expert evaluation: we assess your product against usability principles and observed data, quickly and cheaply. Research is empirical: we observe actual users. The audit tells you what is likely wrong; research tells you what is actually happening and why. If budget only allows one, start with the audit — it is faster and often sufficient." },
+      { "q": "What do we get at the end?", "a": "Prioritised findings ranked by decision impact, each with the evidence attached and stated as a specific recommendation. Plus session recordings with timestamps so your team can watch the relevant moments rather than take our word for it, and a working session to argue it through and agree what changes." },
+      { "q": "Do you do quantitative research too?", "a": "We work with your quantitative data rather than generating it. Analytics review, funnel analysis and survey data all feed into how we scope and interpret a study. Our own contribution is the qualitative half — the part that explains why the numbers look the way they do." },
+      { "q": "Is research worth it if we already know our users well?", "a": "Sometimes not, and we will say so. If the team genuinely shares the users' context and the decision is reversible, intuition plus a fast experiment may be better value. Research earns its cost when the decision is expensive to reverse, when the team is not the user, or when a credible internal disagreement has stalled progress." },
+      { "q": "Can you run research on a product that hasn't launched?", "a": "Yes — that is often when it is most valuable, because nothing is locked in. We test prototypes or concepts with people matching your target profile. Findings at this stage cost a design revision to act on rather than an engineering rebuild." }
+    ]
+  }
+}

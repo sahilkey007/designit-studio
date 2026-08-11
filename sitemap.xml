@@ -9,37 +9,31 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/about</loc>
+    <loc>https://designit.co.in/about/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/about-designit</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://designit.co.in/projects</loc>
+    <loc>https://designit.co.in/projects/</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/contact</loc>
+    <loc>https://designit.co.in/contact/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/pricing</loc>
+    <loc>https://designit.co.in/pricing/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/careers</loc>
+    <loc>https://designit.co.in/careers/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -66,6 +60,48 @@
   </url>
 
   <!-- ── Industries hub + detail pages ─────────────────────────────────── -->
+  <url>
+    <loc>https://designit.co.in/services/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://designit.co.in/services/saas-product-design/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://designit.co.in/services/ux-audit/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://designit.co.in/services/product-design/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://designit.co.in/services/ui-ux-design/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://designit.co.in/services/design-systems/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://designit.co.in/services/ux-research/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://designit.co.in/industries/</loc>
     <lastmod>2026-05-25</lastmod>
@@ -111,31 +147,31 @@
 
   <!-- ── Case studies — hub pages ──────────────────────────────────────── -->
   <url>
-    <loc>https://designit.co.in/projects/adda247</loc>
+    <loc>https://designit.co.in/projects/adda247/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/rcentric</loc>
+    <loc>https://designit.co.in/projects/rcentric/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/kelp-global</loc>
+    <loc>https://designit.co.in/projects/kelp-global/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/betacrew</loc>
+    <loc>https://designit.co.in/projects/betacrew/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/tata-elxsi</loc>
+    <loc>https://designit.co.in/projects/tata-elxsi/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -143,55 +179,55 @@
 
   <!-- ── Case studies — Adda247 sub-modules ────────────────────────────── -->
   <url>
-    <loc>https://designit.co.in/projects/adda247/community</loc>
+    <loc>https://designit.co.in/projects/adda247/community/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/adda247/homepage-revamp</loc>
+    <loc>https://designit.co.in/projects/adda247/homepage-revamp/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/adda247/ios-app</loc>
+    <loc>https://designit.co.in/projects/adda247/ios-app/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/adda247/live-class</loc>
+    <loc>https://designit.co.in/projects/adda247/live-class/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/adda247/my-content</loc>
+    <loc>https://designit.co.in/projects/adda247/my-content/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/adda247/performance-dashboard</loc>
+    <loc>https://designit.co.in/projects/adda247/performance-dashboard/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/adda247/sankalp-bharat</loc>
+    <loc>https://designit.co.in/projects/adda247/sankalp-bharat/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/adda247/studio-app</loc>
+    <loc>https://designit.co.in/projects/adda247/studio-app/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/adda247/test-series</loc>
+    <loc>https://designit.co.in/projects/adda247/test-series/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
@@ -199,43 +235,43 @@
 
   <!-- ── Case studies — R-Centric / Omniyat (UAE) ──────────────────────── -->
   <url>
-    <loc>https://designit.co.in/projects/rcentric/anwa-aria</loc>
+    <loc>https://designit.co.in/projects/rcentric/anwa-aria/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/rcentric/ela</loc>
+    <loc>https://designit.co.in/projects/rcentric/ela/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/rcentric/liv-reside</loc>
+    <loc>https://designit.co.in/projects/rcentric/liv-reside/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/rcentric/liv</loc>
+    <loc>https://designit.co.in/projects/rcentric/liv/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/rcentric/opus</loc>
+    <loc>https://designit.co.in/projects/rcentric/opus/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/rcentric/orla-infinity</loc>
+    <loc>https://designit.co.in/projects/rcentric/orla-infinity/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/rcentric/vela-viento</loc>
+    <loc>https://designit.co.in/projects/rcentric/vela-viento/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
@@ -243,19 +279,19 @@
 
   <!-- ── Case studies — Kelp Global ───────────────────────────────────── -->
   <url>
-    <loc>https://designit.co.in/projects/kelp-global/deals-module</loc>
+    <loc>https://designit.co.in/projects/kelp-global/deals-module/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/kelp-global/kelp-plugin</loc>
+    <loc>https://designit.co.in/projects/kelp-global/kelp-plugin/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/kelp-global/truenorth</loc>
+    <loc>https://designit.co.in/projects/kelp-global/truenorth/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
@@ -263,7 +299,7 @@
 
   <!-- ── Case studies — Betacrew ──────────────────────────────────────── -->
   <url>
-    <loc>https://designit.co.in/projects/betacrew/portle</loc>
+    <loc>https://designit.co.in/projects/betacrew/portle/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
@@ -271,13 +307,13 @@
 
   <!-- ── Case studies — Tata Elxsi ────────────────────────────────────── -->
   <url>
-    <loc>https://designit.co.in/projects/tata-elxsi/infotainment</loc>
+    <loc>https://designit.co.in/projects/tata-elxsi/infotainment/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://designit.co.in/projects/tata-elxsi/instrument-cluster</loc>
+    <loc>https://designit.co.in/projects/tata-elxsi/instrument-cluster/</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.65</priority>

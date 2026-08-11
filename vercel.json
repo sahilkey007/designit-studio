@@ -45,6 +45,8 @@
   ],
   "redirects": [
     { "source": "/blog.html", "destination": "/blog/", "permanent": true },
-    { "source": "/blog-detail.html", "destination": "/blog/", "permanent": true }
+    { "source": "/blog-detail.html", "destination": "/blog/", "permanent": true },
+    { "source": "/about-designit", "destination": "/about/", "permanent": true },
+    { "source": "/about-designit.html", "destination": "/about/", "permanent": true }
   ]
 }

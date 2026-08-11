@@ -1,0 +1,68 @@
+{
+  "how-to-choose-a-product-design-agency": {
+    "title": "How to Choose a Product Design Agency (2026 Buyer's Guide) | Designit",
+    "ogTitle": "How to Choose a Product Design Agency | Designit",
+    "description": "A practical framework for evaluating product design agencies: the questions that actually predict outcomes, the proof to demand, what engagements cost, and the cases where hiring an agency is the wrong call.",
+    "keywords": "how to choose a product design agency, hire ux design agency, product design agency selection, questions to ask design agency, design agency evaluation",
+    "schemaName": "Product Design Agency Selection Guide",
+    "schemaDescription": "A buyer's framework for evaluating and selecting a product design agency, covering evaluation criteria, questions to ask, pricing models, engagement structures and alternatives to hiring an agency.",
+    "serviceType": ["Product Design Consulting"],
+    "audience": "Founders, product leaders and procurement teams evaluating design partners",
+    "breadcrumb": "Choosing a design agency",
+    "pills": ["Buyer's guide", "Includes when not to hire us", "No sales pitch"],
+    "h1": "How to choose a product design agency.",
+    "subtitle": "We are a design agency writing a guide to hiring design agencies, so read this with appropriate suspicion. We have tried to write the version we would want if we were buying — including the parts that argue against hiring anyone.",
+    "cta": "Book a 30-minute call",
+    "ctaHeading": "Still deciding?",
+    "ctaBody": "Thirty minutes, no deck. Tell us what you're building and we'll give you an honest read — including when we think you should hire in-house or go elsewhere.",
+    "proofHref": "/projects/",
+    "proofLabel": "our work",
+    "proofCta": "See our work",
+    "stats": [
+      { "num": "6", "label": "Questions that predict outcomes" },
+      { "num": "3", "label": "Cases where an agency is wrong" },
+      { "num": "4", "label": "Engagement models compared" },
+      { "num": "0", "label": "Competitors disparaged" }
+    ],
+    "problemHeading": "Why this decision goes wrong so often",
+    "problems": [
+      { "icon": "&#9888;", "name": "Portfolios are selection bias", "body": "Every agency shows its best five projects, art-directed after the fact. A portfolio tells you what an agency can produce at its peak with a cooperative client and a generous timeline — not what it produces on a median engagement under real constraints. It is the least predictive artefact in the process, and the one most decisions are made on." },
+      { "icon": "&#9783;", "name": "The pitch team is not the delivery team", "body": "The single most common failure mode in agency work: senior people win the account, junior people execute it. This is a structural choice about how a firm makes money, not an accident, and it is entirely knowable in advance if you ask the right question." },
+      { "icon": "&#9635;", "name": "Nobody agrees what the problem is", "body": "Most projects that fail did not fail at execution. They failed because client and agency held different unstated assumptions about what was being solved, and discovered it in week eight instead of week one." },
+      { "icon": "&#8635;", "name": "Price is compared without scope", "body": "Three quotes at wildly different numbers usually describe three different projects. Without a written scope, comparing them is meaningless — and the cheapest quote is frequently the one that has understood the problem least." }
+    ],
+    "deliverables": [
+      { "icon": "&#9312;", "name": "“Who will actually do the work?”", "body": "Ask for the names and seniority of the people on your project, and whether the person in the room today will be designing. A firm that cannot answer plainly is telling you something. There is nothing wrong with juniors doing some work — there is something wrong with not being told." },
+      { "icon": "&#9313;", "name": "“Show me a project that went badly.”", "body": "The most useful question you can ask. Everyone has one. What you learn is whether they can diagnose their own failures — which is the same skill they will apply to your product. An agency with no failures is either new or not being straight with you." },
+      { "icon": "&#9314;", "name": "“What metric will move, and how will we know?”", "body": "A good partner names a metric — activation, task completion, support volume, conversion — and commits to measuring it. Vaguer answers about engagement or delight usually mean nobody intends to be held to anything." },
+      { "icon": "&#9315;", "name": "“What happens after handover?”", "body": "A meaningful share of design intent is lost between Figma and production. Ask whether they run design QA against the built product, and whether they are available during implementation. Many are not, and it is worth knowing before rather than after." },
+      { "icon": "&#9316;", "name": "“What would you push back on?”", "body": "An agency that agrees with everything in a sales conversation will agree with everything during the project. You are buying judgement; if none is visible before the contract, assume there is none after." },
+      { "icon": "&#9317;", "name": "“Can we start small?”", "body": "A two-week fixed-scope audit or a discovery sprint tells you more about working together than any number of reference calls. Any agency confident in its work should be happy to be tested this way — reluctance is itself information." }
+    ],
+    "process": [
+      { "name": "Define the problem first", "body": "Before contacting anyone, write down what you are trying to change and how you would know it worked. Agencies cannot fix an undefined problem, and the exercise frequently reveals that you need research or engineering rather than design." },
+      { "name": "Shortlist on relevance, not aesthetics", "body": "Look for teams who have solved a structurally similar problem — comparable complexity, comparable constraints, comparable users. A beautiful consumer app portfolio predicts very little about enterprise dashboard work." },
+      { "name": "Test with something small", "body": "An audit, a discovery sprint, one contained surface. You learn how they think, communicate and handle disagreement for a fraction of the cost and risk of a full engagement." },
+      { "name": "Compare scopes, not prices", "body": "Insist on written scope from each candidate, then compare like for like. Where numbers differ sharply, the scope almost always differs too — and the gap is where the project overruns." }
+    ],
+    "proof": {
+      "title": "When you should not hire a design agency",
+      "body": "Three genuine cases. <strong>You have not defined the problem</strong> — an agency will happily bill discovery, but if you cannot name what needs to change, spend a fortnight internally first. <strong>You need one designer indefinitely</strong> — if the work is steady-state feature design forever, hiring is cheaper past roughly nine to twelve months. <strong>The real constraint is engineering</strong> — if designs already sit unbuilt in a backlog, more design output makes the queue longer, not the product better.",
+      "related": "If those do not apply, see how we structure engagements: <a href=\"/services/ux-audit/\">a two-week UX audit</a> is the usual low-risk starting point, or read our <a href=\"/services/\">full service list</a>."
+    },
+    "pricing": {
+      "title": "What engagements typically cost",
+      "body": "Four common models. <strong>Fixed-scope audit</strong> — lowest risk, defined deliverable, good first engagement. <strong>Project</strong> — a defined outcome with written scope and dates; the most common structure. <strong>Retainer</strong> — monthly capacity as an embedded team; best value once work is continuous. <strong>Staff augmentation</strong> — designers into your team under your direction; cheapest per hour and the least strategic input. Our own bands are published on the <a href=\"/pricing/\">pricing page</a>, which we do because vague pricing wastes both sides' time.",
+      "timeline": "As a rough calibration: an audit is 2 weeks, a focused surface 3–5 weeks, a full product redesign with a design system 10–12 weeks. Anyone promising a full redesign in a fortnight is describing a reskin."
+    },
+    "faqs": [
+      { "q": "How much does it cost to hire a product design agency?", "a": "Rates vary enormously by geography and seniority model, so a single number would mislead. What is more useful is knowing that price differences between quotes usually reflect scope differences rather than value differences — and that the cheapest quote is often the one that has understood the problem least. Ask every candidate for written scope, then compare like for like. We publish our own bands rather than quoting on request." },
+      { "q": "Should I hire an agency, a freelancer, or in-house?", "a": "It depends on duration and breadth. A freelancer is the best value for a well-defined, contained piece of work. An agency makes sense when you need multiple disciplines, senior strategic input, or capacity within weeks rather than months. In-house wins on cost and context once the work is genuinely continuous — roughly past nine to twelve months of steady demand. Many teams use all three at different stages, which is a sign of good judgement rather than indecision." },
+      { "q": "What's the single most useful question to ask an agency?", "a": "“Tell me about a project that went badly and what you learned.” Everyone has one. The answer reveals whether they can diagnose their own failures, which is precisely the skill they will apply to your product. Evasion, or a claim of no failures, tells you more than any case study will." },
+      { "q": "How do I know if a portfolio is genuinely relevant?", "a": "Look for structural similarity rather than visual appeal. Comparable complexity, comparable constraints, comparable user type. A stunning consumer app portfolio predicts very little about whether a team can handle a permissions-heavy enterprise dashboard with ten thousand rows. Ask what the constraints were and what they would do differently — the answers separate real experience from a nice-looking case study." },
+      { "q": "How long should a design engagement take?", "a": "As calibration: a UX audit around two weeks, a focused surface such as an onboarding flow three to five weeks, a full product redesign with a design system ten to twelve. Substantially faster usually means skipping research or structural work; substantially slower often means scope was never properly defined. Both are worth asking about." },
+      { "q": "What should be in the contract?", "a": "Written scope with named deliverables, the metric being targeted, who specifically is doing the work, what happens after handover, IP assignment on payment, and an exit clause. The last one matters most and is requested least — a partner confident in the relationship will not object to a clean way out of it." },
+      { "q": "Is it worth starting with a paid trial project?", "a": "Almost always. A fixed-scope audit or discovery sprint costs a fraction of a full engagement and tells you what no reference call can: how they think, how they communicate under pressure, and how they behave when they disagree with you. Any agency confident in its work should welcome being tested this way." }
+    ]
+  }
+}

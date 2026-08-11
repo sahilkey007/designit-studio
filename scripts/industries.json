@@ -1,0 +1,196 @@
+{
+  "b2b-saas": {
+    "title": "B2B SaaS Design Agency — Dashboards, Onboarding & Retention | Designit",
+    "ogTitle": "B2B SaaS Product Design | Designit",
+    "description": "Product design for B2B SaaS teams: complex dashboards, activation flows and design systems built for products people use all day. Real metrics from Kelp Global and Betacrew.",
+    "keywords": "b2b saas design agency, saas ux design, saas dashboard design, b2b software design, enterprise saas ux, saas design partner",
+    "schemaName": "B2B SaaS Product Design",
+    "schemaDescription": "Product design for B2B SaaS and enterprise software: dashboards, workflow tools, onboarding flows, admin interfaces and multi-product design systems.",
+    "serviceType": ["B2B SaaS Design", "Dashboard Design", "Enterprise UX", "Workflow Design"],
+    "audience": "B2B SaaS companies, CRM and workflow platforms, enterprise software teams",
+    "breadcrumb": "B2B SaaS",
+    "pills": ["Dashboards", "Activation", "Multi-product systems"],
+    "h1": "B2B SaaS design, where usability is a retention metric.",
+    "subtitle": "In B2B software the user did not choose your product and cannot leave it — which means every friction point becomes a support ticket, a renewal risk, or a reason the champion stops advocating internally. This is the category we work in most.",
+    "cta": "Book a 30-minute product review",
+    "ctaHeading": "Let's look at your product.",
+    "ctaBody": "Bring your dashboard or onboarding flow. Thirty minutes, no deck — we'll tell you where users are dropping and what we'd change first.",
+    "proofHref": "/projects/kelp-global/",
+    "proofLabel": "Kelp Global",
+    "stats": [
+      { "num": "40%", "label": "Faster onboarding — Kelp Global" },
+      { "num": "2x", "label": "Feature adoption — Kelp Global" },
+      { "num": "60%", "label": "Less cognitive load — Betacrew" },
+      { "num": "4x", "label": "Faster documentation workflow — Betacrew" }
+    ],
+    "problemHeading": "What makes B2B SaaS design its own discipline",
+    "problems": [
+      { "icon": "&#9888;", "name": "The buyer is not the user", "body": "A VP signs the contract; an operations team lives in the product for eight hours a day. Design that impresses in a demo and exhausts in daily use produces exactly the churn pattern that shows up at renewal, twelve months after anyone can trace the cause." },
+      { "icon": "&#9783;", "name": "Density is a requirement, not a failure", "body": "Consumer design principles say remove things. B2B users need everything on screen because their job requires it. The skill is making dense information legible through hierarchy, grouping and progressive disclosure — not hiding it behind clicks that slow expert users down." },
+      { "icon": "&#9635;", "name": "Edge cases are the product", "body": "Permission states, bulk actions, partial data, sync conflicts, 10,000-row tables, admin overrides. Consumer products treat these as edge cases. In B2B they are Tuesday, and a design that only works with tidy demo data fails on contact with a real account." },
+      { "icon": "&#8635;", "name": "Adoption is internal politics", "body": "Someone inside the customer's organisation staked their credibility on choosing you. If rollout goes badly, you lose an advocate, not just a metric. Onboarding design is reputation management for your champion." }
+    ],
+    "deliverables": [
+      { "icon": "&#9906;", "name": "Activation and onboarding design", "body": "Mapping the first action that predicts retention for your product, then designing the shortest credible path to it. At Adda247 this approach lifted onboarding completion 45%." },
+      { "icon": "&#9638;", "name": "Dashboard and data visualisation", "body": "Information hierarchy for dense operational screens — designed against production data volumes, including what the interface does when a customer has ten thousand records rather than ten." },
+      { "icon": "&#8594;", "name": "Workflow and admin tooling", "body": "The unglamorous surfaces that determine whether power users stay: bulk operations, permissions, settings, audit trails. Usually the least designed and most used part of a B2B product." },
+      { "icon": "&#9707;", "name": "Multi-product design systems", "body": "One system across a suite, so a customer moving between your products does not have to relearn conventions. Kelp Global runs three products on one system." },
+      { "icon": "&#9998;", "name": "Enterprise readiness", "body": "WCAG 2.1 AA accessibility, SSO and permission-model interfaces, and the design maturity signals that surface in enterprise procurement reviews." },
+      { "icon": "&#9711;", "name": "Sales-supporting prototypes", "body": "Interactive prototypes that let your team demo a capability before it is built — routinely used to close deals that fund the roadmap." }
+    ],
+    "process": [
+      { "name": "Understand the workflow", "body": "Week 1. We interview actual users doing actual work, because in B2B the internal mental model of the user is usually several years out of date." },
+      { "name": "Restructure", "body": "Weeks 2–3. Information architecture and flows. Most B2B usability problems are structural, and no amount of visual work fixes a bad hierarchy." },
+      { "name": "Design against real data", "body": "Weeks 3–8. High-fidelity design covering every state, tested against production-scale data rather than curated examples." },
+      { "name": "Ship and support", "body": "Ongoing. Engineering handover, availability during build, and design QA against what actually ships." }
+    ],
+    "proof": {
+      "title": "Kelp Global — three products, one system",
+      "body": "A Chrome extension surfacing contact intelligence in-workflow, the Truenorth analytics dashboard, and an end-to-end deals module — all on a shared design system. Onboarding time fell 40% and feature adoption doubled.",
+      "related": "Betacrew consolidated three internal tools into one platform: 60% less cognitive load, 4x faster documentation workflow. See <a href=\"/projects/betacrew/\">Betacrew</a> and <a href=\"/projects/kelp-global/\">Kelp Global</a>, or our <a href=\"/services/saas-product-design/\">SaaS product design service</a>."
+    },
+    "pricing": {
+      "title": "How B2B SaaS engagements usually run",
+      "body": "Most start with a <a href=\"/services/ux-audit/\">UX audit</a> or a focused project on the highest-value surface, then move to a retainer as the design system matures. International engagements are quoted in USD. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "A single surface — onboarding, one dashboard — runs 3–5 weeks. A full product redesign with a design system is typically 10–12 weeks."
+    },
+    "faqs": [
+      { "q": "What makes B2B SaaS design different from consumer product design?", "a": "Three things. The user did not choose the product and cannot leave, so frustration becomes support cost and renewal risk rather than immediate churn. Information density is a requirement rather than a failure, because the work genuinely demands it. And the edge cases — permissions, bulk actions, partial data, huge datasets — are the everyday experience rather than exceptions. Consumer design instincts actively mislead in all three." },
+      { "q": "How do you design dashboards without making them cluttered?", "a": "By treating hierarchy as the design problem rather than volume. Expert users want everything reachable; what they cannot tolerate is everything looking equally important. We establish a clear primary read, group by task rather than by data source, and use progressive disclosure for depth rather than for hiding. Removing information from a B2B dashboard usually makes it worse, not better." },
+      { "q": "Which B2B SaaS metrics does design actually move?", "a": "Most reliably activation rate, time-to-first-value, feature adoption and support-ticket volume. Our published client numbers are in those categories: 40% faster onboarding and 2x adoption at Kelp Global, 60% fewer support tickets at Adda247. Design influences retention and expansion too, but with a longer lag and more confounding factors, so we prefer to commit to the leading indicators." },
+      { "q": "Do you work with our existing design system?", "a": "Usually, yes. Extending and documenting what you have is almost always cheaper than replacing it, and we only recommend a rebuild when the token architecture itself is blocking delivery — with specific evidence, not as a default. See our <a href=\"/services/design-systems/\">design systems service</a>." },
+      { "q": "Can you handle products with heavy permission models?", "a": "Yes, and it is worth scoping explicitly. Role-based interfaces multiply the design surface — every screen has several variants depending on what the user may see and do. This is routinely underestimated, and designing only the admin view is one of the most common causes of a build running long." },
+      { "q": "How quickly can you start?", "a": "Design kickoff is normally within 48 hours of signature. We run a structured onboarding session to gather product context, access and analytics, and typically have an initial direction within the first five working days." }
+    ]
+  },
+
+  "fintech": {
+    "title": "Fintech UX Design Agency — Payments, KYC & Trading Interfaces | Designit",
+    "ogTitle": "Fintech & Web3 Product Design | Designit",
+    "description": "Fintech product design where trust and regulation are design constraints: onboarding and KYC flows, payment journeys, trading dashboards and wallet interfaces across India, UAE, UK and US markets.",
+    "keywords": "fintech ux design agency, fintech product design, kyc onboarding ux, payment ux design, trading platform design, web3 product design",
+    "schemaName": "Fintech & Web3 Product Design",
+    "schemaDescription": "Product design for financial services: regulated onboarding and KYC flows, payment and transfer journeys, trading and investment dashboards, and wallet interfaces.",
+    "serviceType": ["Fintech UX Design", "KYC Flow Design", "Payment UX", "Trading Platform Design"],
+    "audience": "Fintech startups, payment platforms, trading and investment products, Web3 companies",
+    "breadcrumb": "Fintech",
+    "pills": ["KYC &amp; onboarding", "Payments", "Trading interfaces"],
+    "h1": "Fintech design, where trust is a feature and regulation is a constraint.",
+    "subtitle": "Financial products are judged in the first ninety seconds and abandoned at the first moment of doubt. We design onboarding, payment and trading experiences that satisfy compliance without making users feel interrogated.",
+    "cta": "Book a 30-minute product review",
+    "ctaHeading": "Where are users abandoning?",
+    "ctaBody": "Most fintech drop-off concentrates in two or three specific steps. Thirty minutes and we'll tell you which ones and why.",
+    "proofHref": "/projects/betacrew/",
+    "proofLabel": "Betacrew",
+    "stats": [
+      { "num": "60%", "label": "Reduction in cognitive load — Betacrew" },
+      { "num": "4x", "label": "Faster documentation workflow — Betacrew" },
+      { "num": "4", "label": "Regulatory markets: IN, AE, UK, US" },
+      { "num": "AA", "label": "WCAG 2.1 as standard" }
+    ],
+    "problemHeading": "What makes fintech design harder than it looks",
+    "problems": [
+      { "icon": "&#9888;", "name": "KYC is where users leave", "body": "Identity verification is legally required and experientially hostile — document upload, selfie capture, address proof, source-of-funds. Most abandonment concentrates here, and most of it is recoverable through sequencing, expectation-setting and honest progress indication rather than through removing steps you cannot remove." },
+      { "icon": "&#9783;", "name": "Trust is established in seconds", "body": "Users decide whether to enter financial details almost immediately, on signals they could not articulate — visual precision, copy tone, how errors are handled. In fintech, design inconsistency does not read as untidy. It reads as unsafe." },
+      { "icon": "&#9635;", "name": "Compliance copy fights comprehension", "body": "Legal requires specific wording; users need to understand what they are agreeing to. Treating disclosure as a design problem rather than a legal paste-in is what separates products that convert from products that merely comply." },
+      { "icon": "&#8635;", "name": "Mistakes are irreversible", "body": "A wrong transfer, a mis-set order, a wrong wallet address. Confirmation design, undo windows and clear pre-commit summaries are not polish here — they are the difference between a support ticket and a lost customer." }
+    ],
+    "deliverables": [
+      { "icon": "&#9906;", "name": "Onboarding and KYC flow design", "body": "Sequencing verification so the user has invested enough to persist but not so much that they feel ambushed, with realistic progress indication and recoverable failure states for rejected documents." },
+      { "icon": "&#9638;", "name": "Payment and transfer journeys", "body": "Amount entry, recipient confirmation, fee transparency, pre-commit summaries and receipt states — designed so the irreversible step is always the most deliberate one on screen." },
+      { "icon": "&#8594;", "name": "Trading and investment dashboards", "body": "Real-time data, portfolio views and order entry designed for the range from cautious first-timer to active daily trader, without either group feeling the product was built for the other." },
+      { "icon": "&#9707;", "name": "Compliance-aware interface patterns", "body": "Disclosures, consent and risk warnings designed to be understood rather than dismissed — worked through with your compliance team rather than around them." },
+      { "icon": "&#9998;", "name": "Multi-market adaptation", "body": "Regulatory and cultural differences across India, UAE, UK and US markets — including Arabic RTL layouts, where mirroring is a structural design task rather than a CSS flag." },
+      { "icon": "&#9711;", "name": "Security-signalling design", "body": "Communicating that a product is safe without theatre — clear session handling, sensible authentication moments, and transparency about what is happening to the user's money." }
+    ],
+    "process": [
+      { "name": "Map the regulatory surface", "body": "Week 1. We work with your compliance team to understand what is genuinely required versus what is habit. A surprising amount of fintech friction is inherited rather than mandated." },
+      { "name": "Find the drop-off", "body": "Weeks 1–2. Analytics and session review to locate exactly which steps lose users, so redesign effort goes where the money is leaking." },
+      { "name": "Design and validate", "body": "Weeks 3–8. Flow and interface design, tested with users who match your actual risk profile rather than with colleagues who already trust the product." },
+      { "name": "Handover", "body": "Ongoing. Engineering specs covering every failure state — the states that matter most in financial products and get documented least." }
+    ],
+    "proof": {
+      "title": "Betacrew — trading infrastructure",
+      "body": "Three disconnected internal tools consolidated into one platform for a trading environment where speed and precision are the product. Cognitive load fell 60% and the documentation workflow ran 4x faster.",
+      "related": "Related work in adjacent regulated and data-dense contexts: <a href=\"/projects/kelp-global/\">Kelp Global</a> and our <a href=\"/services/saas-product-design/\">SaaS product design service</a>. For a diagnostic first, see the <a href=\"/services/ux-audit/\">UX audit</a>."
+    },
+    "pricing": {
+      "title": "How fintech engagements usually run",
+      "body": "Fintech projects carry more research, more edge-case work and more compliance iteration than equivalent-sized products elsewhere, and we scope for that rather than discovering it midway. Quoted in USD for international clients. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "An onboarding or KYC flow redesign typically runs 4–6 weeks. A full platform is usually 10–14 weeks, with compliance review cycles built into the schedule."
+    },
+    "faqs": [
+      { "q": "How do you reduce KYC drop-off without breaking compliance?", "a": "By changing sequence and framing rather than removing requirements. Ask for low-friction information first so the user has some investment before the hard steps. Tell them upfront exactly what will be needed so nothing feels like an ambush. Show honest progress. Make document rejection recoverable rather than terminal. None of that touches what you are legally obliged to collect — it changes when and how you ask." },
+      { "q": "Do you work with our compliance team?", "a": "Directly, from week one. In our experience a meaningful share of fintech friction is inherited habit rather than actual regulatory requirement, and the only way to tell the difference is to go through it line by line with the people who own the obligation. Designing first and seeking approval later is how fintech projects overrun." },
+      { "q": "Can you design for Arabic and RTL markets?", "a": "Yes. RTL is a structural design task, not a stylesheet toggle — layout mirrors, but numerals, charts, progress indicators and directional icons follow their own rules, and getting them wrong is immediately obvious to native users. We have done this work for UAE PropTech and apply the same approach to fintech." },
+      { "q": "What about Web3 and crypto products?", "a": "We work on wallets, trading interfaces and on-chain products. The design problems are related but sharper: transactions are genuinely irreversible, key management has no customer-support fallback, and the conventions users bring from traditional finance are often actively wrong. Confirmation and pre-commit design carry more weight than anywhere else." },
+      { "q": "How do you handle designing for both novice and expert users?", "a": "Usually with a progressive interface rather than two separate products. Defaults and guided paths serve first-timers; keyboard shortcuts, density controls and advanced views serve daily users. The failure mode is designing for the average of the two, which produces something that patronises experts and overwhelms beginners." },
+      { "q": "Is accessibility a requirement in fintech?", "a": "Increasingly a legal one, and always a commercial one. WCAG 2.1 AA is our default. Beyond compliance, financial products are used under stress and on bad connections by people of every age — the conditions accessibility work is designed for are closer to the fintech norm than to the exception." }
+    ]
+  },
+
+  "edtech": {
+    "title": "EdTech UX Design Agency — Learning Platforms & Test Engines | Designit",
+    "ogTitle": "EdTech Product Design | Designit",
+    "description": "EdTech product design at consumer scale: onboarding, test-series engines, live class interfaces and performance dashboards. 45% higher onboarding completion and 60% fewer support tickets at Adda247.",
+    "keywords": "edtech ux design agency, edtech product design, learning platform design, test series ux, online education app design, elearning ux",
+    "schemaName": "EdTech Product Design",
+    "schemaDescription": "Product design for education technology: learning platforms, assessment and test-series engines, live class interfaces, and learner performance analytics.",
+    "serviceType": ["EdTech UX Design", "Learning Platform Design", "Assessment UX", "Live Class Interface Design"],
+    "audience": "EdTech platforms, assessment providers, online learning and test-prep companies",
+    "breadcrumb": "EdTech",
+    "pills": ["Learning platforms", "Assessment engines", "Live class"],
+    "h1": "EdTech design measured by completion, not by enrolment.",
+    "subtitle": "Signing learners up is a marketing problem. Getting them to finish is a design problem — and it is the one that determines whether an education product actually works. We have designed eight modules across one of India's largest learning platforms.",
+    "cta": "Book a 30-minute product review",
+    "ctaHeading": "Where are learners dropping off?",
+    "ctaBody": "Bring your funnel. Thirty minutes and we'll tell you which step is losing them and what we'd change first.",
+    "proofHref": "/projects/adda247/",
+    "proofLabel": "Adda247",
+    "stats": [
+      { "num": "45%", "label": "Higher onboarding completion — Adda247" },
+      { "num": "60%", "label": "Fewer support tickets — Adda247" },
+      { "num": "8", "label": "Product modules designed — Adda247" },
+      { "num": "Scale", "label": "Consumer volumes, low-end devices" }
+    ],
+    "problemHeading": "What EdTech design has to solve",
+    "problems": [
+      { "icon": "&#9888;", "name": "Motivation is the actual design constraint", "body": "Learners are not blocked by the interface; they are blocked by effort. Every unnecessary decision, unclear next step or moment of ambiguity spends motivation the learner needed for the material itself." },
+      { "icon": "&#9783;", "name": "High stakes, low tolerance", "body": "A timed test that mis-saves an answer or drops on a weak connection is not an inconvenience — it can affect an exam outcome. Assessment interfaces need failure handling closer to financial software than to consumer apps." },
+      { "icon": "&#9635;", "name": "Two users, one product", "body": "Learners want progress and clarity; parents or institutions want evidence and oversight. The same data has to serve encouragement and accountability, which are different design jobs." },
+      { "icon": "&#8635;", "name": "The device is not a flagship phone", "body": "Much of the learning happens on mid-range Android devices on unreliable connections. Design decisions that assume fast hardware and stable networks quietly exclude a large share of the intended audience." }
+    ],
+    "deliverables": [
+      { "icon": "&#9906;", "name": "Onboarding and activation", "body": "Getting a new learner to their first genuine learning moment quickly. At Adda247 this work raised onboarding completion 45%." },
+      { "icon": "&#9638;", "name": "Assessment and test-series engines", "body": "Timed test interfaces with reliable state handling, clear navigation between questions, review flows and connection-loss recovery — the failure states that matter most and get designed least." },
+      { "icon": "&#8594;", "name": "Live class interfaces", "body": "Synchronous learning environments balancing video, materials, interaction and participation without overwhelming a learner already concentrating on the subject." },
+      { "icon": "&#9707;", "name": "Performance dashboards", "body": "Progress and analytics designed to motivate rather than discourage — showing improvement over time rather than only absolute standing, which is what sustains a struggling learner." },
+      { "icon": "&#9998;", "name": "Support-load reduction", "body": "Identifying the interface ambiguities generating repeat tickets and designing them out. At Adda247 this halved and then some: a 60% reduction." },
+      { "icon": "&#9711;", "name": "Low-bandwidth and device resilience", "body": "Designing for mid-range hardware and intermittent connectivity as the default case rather than as a degraded fallback." }
+    ],
+    "process": [
+      { "name": "Understand the learner", "body": "Week 1. Research with actual learners, including the ones who stopped — the most informative and least interviewed group in any education product." },
+      { "name": "Find the drop-off", "body": "Weeks 1–2. Funnel and session analysis to locate exactly where learners stall, so effort goes where completion is actually lost." },
+      { "name": "Design and test", "body": "Weeks 3–8. Interface design validated with learners on representative devices and connections, not on a designer's laptop." },
+      { "name": "Ship and measure", "body": "Ongoing. Handover, design QA, and measurement against the completion metric agreed at the start." }
+    ],
+    "proof": {
+      "title": "Adda247 — eight modules at consumer scale",
+      "body": "Community, homepage, iOS app, live class, my-content, performance dashboard, Sankalp Bharat, studio app and test series. Onboarding completion rose 45% and support tickets fell 60% across the platform.",
+      "related": "Explore the individual modules from the <a href=\"/projects/adda247/\">Adda247 case study</a>. Related approach in our <a href=\"/services/ux-research/\">UX research</a> and <a href=\"/services/product-design/\">product design</a> services."
+    },
+    "pricing": {
+      "title": "How EdTech engagements usually run",
+      "body": "Most begin with research or a <a href=\"/services/ux-audit/\">UX audit</a> focused on the completion funnel, then move into module-by-module design. Platforms with many surfaces usually move to a retainer. See the <a href=\"/pricing/\">pricing page</a>.",
+      "timeline": "A single module — onboarding, one assessment flow — runs 3–5 weeks. Multi-module platform work is typically an ongoing retainer rather than a fixed project."
+    },
+    "faqs": [
+      { "q": "What actually improves course completion rates?", "a": "In our experience, reducing the effort required to resume. Most learners do not quit dramatically — they stop, and then find returning slightly too hard. Clear next-step affordances, honest progress indication, resumable sessions and short first wins do more for completion than gamification layers. Content quality still dominates, but design decides how much of the content gets reached." },
+      { "q": "How do you design assessment interfaces that learners trust?", "a": "By treating state reliability as the primary design requirement. Answers must visibly save, timers must survive a refresh, connection loss must be recoverable, and the learner must be able to see what has been answered without leaving the question. In high-stakes testing, a single lost answer destroys trust in the whole platform, so we design the failure paths before the happy path." },
+      { "q": "Do you design for low-end devices and poor connectivity?", "a": "As the default case. A large share of learners in the markets we work in are on mid-range Android hardware and intermittent connections. That shapes real decisions — image weight, offline behaviour, how much state lives client-side, whether an animation is worth its frame cost. Designing for a flagship phone and degrading afterwards produces a product that fails the majority of its users." },
+      { "q": "How do you balance learner and parent or institution needs?", "a": "Usually with separate views over shared data rather than one compromise interface. Learners need encouragement and a clear next action; parents and institutions need evidence and comparison. Showing a struggling learner the same ranking view an administrator sees is a reliable way to lose them." },
+      { "q": "Can you work on live and synchronous learning?", "a": "Yes — we designed the live class interface among Adda247's eight modules. Synchronous learning has its own constraints: attention is already committed to the material, so the interface has to support interaction and materials without competing for the cognitive space the lesson needs." },
+      { "q": "How do you measure whether EdTech design worked?", "a": "Against completion and support metrics agreed before we start — onboarding completion, module completion, session resumption, ticket volume. Our published Adda247 numbers are exactly these: 45% higher onboarding completion, 60% fewer support tickets. Enrolment is a marketing metric, and we would rather not be judged on it." }
+    ]
+  }
+}
