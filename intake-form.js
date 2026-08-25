@@ -384,7 +384,7 @@
 
         /* Server-side Conversions API relay — same event_id for Meta-side
            dedup between the browser and server events. */
-        fetch('/api/capi-lead', {
+        fetch('/api/capi-lead/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

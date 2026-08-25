@@ -82,6 +82,7 @@ module.exports = async (req, res) => {
       return;
     }
 
+    console.log('Meta CAPI Lead sent:', body.eventId, metaJson.events_received, metaJson.fbtrace_id);
     res.status(200).json({ success: true, meta: metaJson });
   } catch (err) {
     console.error('CAPI handler error:', err);
