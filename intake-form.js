@@ -332,6 +332,77 @@
     var SUPABASE_URL  = 'https://xrrmeuftnhqhwhigztym.supabase.co';
     var SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhycm1ldWZ0bmhxaHdoaWd6dHltIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg1Njc4NjAsImV4cCI6MjA5NDE0Mzg2MH0.vLZ0prx7vG0zj5AZA8iIerhv2hyJ9eK0lL3NFqCfwQ4';
 
+    var META_PIXEL_ID = '1676816126768459';
+
+    function getCookie(name) {
+        var match = document.cookie.match('(?:^|;\\s*)' + name + '=([^;]*)');
+        return match ? decodeURIComponent(match[1]) : '';
+    }
+
+    function budgetToValue(budget) {
+        /* Rough midpoint (INR) per budget bracket, for Meta value optimization */
+        var map = {
+            '₹50K–₹1L': 75000,
+            '₹1L–₹2L': 150000,
+            '₹2L–₹5L': 350000,
+            '₹5L+': 500000
+        };
+        return map[budget] || 0;
+    }
+
+    function makeEventId() {
+        return 'lead_' + Date.now() + '_' + Math.random().toString(36).slice(2, 10);
+    }
+
+    /* Fires the real Meta Lead conversion once, at the moment of actual
+       submission — not on click/open — with Advanced Matching so em/ph
+       are hashed client-side by the pixel and tie the event to a real
+       person instead of just ip/ua/fbp. Also relays the same event_id to
+       our own Conversions API endpoint for server-side dedup. */
+    function trackMetaLead() {
+        if (typeof fbq !== 'function') return;
+
+        var eventId = makeEventId();
+        var phoneDigits = (formData.phone || '').replace(/\D/g, '');
+        var nameParts = (formData.fullName || '').trim().split(/\s+/);
+
+        /* Manual Advanced Matching — fbq hashes these client-side (SHA-256)
+           before they ever leave the browser. */
+        fbq('init', META_PIXEL_ID, {
+            em: formData.email || undefined,
+            ph: phoneDigits || undefined,
+            fn: nameParts[0] || undefined,
+            ln: nameParts.length > 1 ? nameParts.slice(1).join(' ') : undefined
+        });
+
+        fbq('track', 'Lead', {
+            content_name: formData.projectType || 'General Inquiry',
+            content_category: 'Intake Form',
+            value: budgetToValue(formData.budget),
+            currency: 'INR'
+        }, { eventID: eventId });
+
+        /* Server-side Conversions API relay — same event_id for Meta-side
+           dedup between the browser and server events. */
+        fetch('/api/capi-lead', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                eventId: eventId,
+                email: formData.email,
+                phone: phoneDigits,
+                firstName: nameParts[0] || '',
+                lastName: nameParts.length > 1 ? nameParts.slice(1).join(' ') : '',
+                projectType: formData.projectType,
+                value: budgetToValue(formData.budget),
+                pageUrl: location.href,
+                clientUserAgent: navigator.userAgent,
+                fbp: getCookie('_fbp'),
+                fbc: getCookie('_fbc')
+            })
+        }).catch(function () { /* silent fail — never break UX */ });
+    }
+
     function saveLeadToSupabase() {
         var lead = {
             full_name:       formData.fullName      || null,
@@ -374,6 +445,9 @@
                 source:       formData.source
             });
         }
+
+        /* 2b. Fire the real Meta Lead conversion (pixel + Conversions API) */
+        trackMetaLead();
 
         /* 3. Send email via Web3Forms */
         var payload = Object.assign({}, formData, {
@@ -533,6 +607,11 @@
         /* Track form open */
         if (typeof window.trackEvent === 'function') {
             window.trackEvent('form_opened', { page_url: location.pathname });
+        }
+        /* Non-conversion funnel signal only — the real Lead event fires on
+           actual submission in trackMetaLead(), not here. */
+        if (typeof fbq === 'function') {
+            fbq('trackCustom', 'IntakeFormOpened', { page_url: location.pathname });
         }
 
         /* Prevent body scroll */

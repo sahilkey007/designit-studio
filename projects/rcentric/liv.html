@@ -146,9 +146,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         if(h.indexOf('calendly.com')>-1){fbq('track','Schedule');}
         else if(h.indexOf('mailto:')===0){fbq('track','Contact');}
       });
-      // Contact form submit
-      var form=document.querySelector('form');
-      if(form){form.addEventListener('submit',function(){fbq('track','Lead');});}
+      // Lead tracking now fires from the real intake form submission handler
+      // in intake-form.js (with Advanced Matching + Conversions API), not here.
     });</script>
 </head>
 <body>
