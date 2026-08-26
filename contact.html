@@ -511,11 +511,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 externalId:getExternalId()})});
           }catch(e){}
         }
+        /* mailto click = direct contact intent. Same dedup pattern as
+           Schedule: fired once here (browser + server pair). */
+        function fireContact(){
+          var id='contact_'+Date.now()+'_'+Math.random().toString(36).slice(2,10);
+          fbq('track','Contact',{content_name:'Mailto Click',content_category:'Contact'},{eventID:id});
+          try{
+            fetch('/api/capi-lead/',{method:'POST',keepalive:true,
+              headers:{'Content-Type':'application/json'},
+              body:JSON.stringify({eventName:'Contact',eventId:id,pageUrl:location.href,
+                clientUserAgent:navigator.userAgent,fbp:getCookie('_fbp'),fbc:getCookie('_fbc'),
+                externalId:getExternalId()})});
+          }catch(e){}
+        }
         document.addEventListener('click',function(e){
           var el=e.target.closest('a[href]');if(!el)return;
           var h=el.getAttribute('href')||'';
           if(h.indexOf('calendly.com')>-1){fireSchedule();}
-          else if(h.indexOf('mailto:')===0){fbq('track','Contact');}
+          else if(h.indexOf('mailto:')===0){fireContact();}
         });
         /* Lead fires on real form submission in intake-form.js */
       }
