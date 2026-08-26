@@ -14,6 +14,10 @@ const crypto = require('crypto');
 const PIXEL_ID = '1676816126768459';
 const GRAPH_API_VERSION = 'v21.0';
 
+// Only events the site actually sends. Anything else is ignored rather than
+// forwarded, so a malformed or spoofed call cannot inject arbitrary events.
+const ALLOWED_EVENTS = new Set(['Lead', 'Schedule', 'Contact', 'ViewContent']);
+
 function sha256(value) {
   if (!value) return undefined;
   return crypto.createHash('sha256').update(String(value).trim().toLowerCase()).digest('hex');
@@ -51,20 +55,29 @@ module.exports = async (req, res) => {
       if (userData[key] === undefined || userData[key] === '') delete userData[key];
     });
 
-    const eventPayload = {
-      data: [{
-        event_name: 'Lead',
-        event_time: Math.floor(Date.now() / 1000),
-        event_id: body.eventId,
-        event_source_url: body.pageUrl,
-        action_source: 'website',
-        user_data: userData,
-        custom_data: {
+    const eventName = ALLOWED_EVENTS.has(body.eventName) ? body.eventName : 'Lead';
+
+    const customData = eventName === 'Lead'
+      ? {
           content_name: body.projectType || 'General Inquiry',
           content_category: 'Intake Form',
           currency: 'INR',
           value: body.value || 0
         }
+      : {
+          content_name: body.contentName || eventName,
+          content_category: body.contentCategory || eventName
+        };
+
+    const eventPayload = {
+      data: [{
+        event_name: eventName,
+        event_time: Math.floor(Date.now() / 1000),
+        event_id: body.eventId,
+        event_source_url: body.pageUrl,
+        action_source: 'website',
+        user_data: userData,
+        custom_data: customData
       }]
     };
 
@@ -82,7 +95,7 @@ module.exports = async (req, res) => {
       return;
     }
 
-    console.log('Meta CAPI Lead sent:', body.eventId, metaJson.events_received, metaJson.fbtrace_id);
+    console.log('Meta CAPI sent:', eventName, body.eventId, metaJson.events_received, metaJson.fbtrace_id);
     res.status(200).json({ success: true, meta: metaJson });
   } catch (err) {
     console.error('CAPI handler error:', err);

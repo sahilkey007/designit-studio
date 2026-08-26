@@ -443,24 +443,69 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script>__lt(function(){var s=document.createElement("script");s.id="vtag-ai-js";s.async=true;s.src="https://r2.leadsy.ai/tag.js";s.setAttribute("data-pid","n0EB50kmwDbwsqd");s.setAttribute("data-version","062024");document.head.appendChild(s)});</script>
 <script>__lt(function(){var s=document.createElement("script");s.async=true;s.src="https://t.contentsquare.net/uxa/e856346044b9a.js";document.head.appendChild(s)});</script>
 
-    <!-- Meta Pixel (lazy-loaded) -->
-    <script>__lt(function(){
-      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-      document,'script','https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init','1676816126768459');fbq('track','PageView');
-      // Conversion events
-      document.addEventListener('click',function(e){
-        var el=e.target.closest('a[href]');if(!el)return;
-        var h=el.getAttribute('href')||'';
-        if(h.indexOf('calendly.com')>-1){fbq('track','Schedule');}
-        else if(h.indexOf('mailto:')===0){fbq('track','Contact');}
-      });
-      // Lead tracking now fires from the real intake form submission handler
-      // in intake-form.js (with Advanced Matching + Conversions API), not here.
-    });</script>
+    <!-- Meta Pixel — ad click-ID captured immediately; pixel loads at once for ad traffic, lazily otherwise -->
+    <script>(function(){
+      function getCookie(n){var m=document.cookie.match('(?:^|;\\s*)'+n+'=([^;]*)');return m?decodeURIComponent(m[1]):'';}
+      window.__metaGetCookie=getCookie;
+
+      /* Capture fbclid into the _fbc cookie immediately on load. The pixel
+         normally writes this cookie, but it is lazy-loaded below, so a visitor
+         who bounces before the lazy trigger fires would lose ad attribution
+         entirely. Capturing it here makes the click ID survive regardless. */
+      var isAd=false;
+      try{
+        var fbclid=new URLSearchParams(location.search).get('fbclid');
+        if(fbclid){
+          isAd=true;
+          if(!getCookie('_fbc')){
+            var host=location.hostname.replace(/^www\./,'');
+            document.cookie='_fbc=fb.1.'+Date.now()+'.'+fbclid+';path=/;max-age=7776000;domain=.'+host+';SameSite=Lax';
+          }
+        } else if(getCookie('_fbc')){ isAd=true; }
+      }catch(e){}
+
+      function initMetaPixel(){
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init','1676816126768459');fbq('track','PageView');
+
+        /* Mid-funnel signal on high-intent pages. Completed Leads are too few
+           for Meta to optimise on alone, so give it a denser upper signal. */
+        if(/(pricing|contact|services)/i.test(location.pathname)){
+          fbq('track','ViewContent',{content_name:document.title,content_category:'High Intent Page'});
+        }
+
+        /* Calendly click = booking intent, the second-most valuable action
+           after a completed brief. Deduplicated browser+server pair; keepalive
+           so the server call survives the navigation away. */
+        function fireSchedule(){
+          var id='sched_'+Date.now()+'_'+Math.random().toString(36).slice(2,10);
+          fbq('track','Schedule',{content_name:'Calendly Booking Click',content_category:'Scheduling'},{eventID:id});
+          try{
+            fetch('/api/capi-lead/',{method:'POST',keepalive:true,
+              headers:{'Content-Type':'application/json'},
+              body:JSON.stringify({eventName:'Schedule',eventId:id,pageUrl:location.href,
+                clientUserAgent:navigator.userAgent,fbp:getCookie('_fbp'),fbc:getCookie('_fbc')})});
+          }catch(e){}
+        }
+        document.addEventListener('click',function(e){
+          var el=e.target.closest('a[href]');if(!el)return;
+          var h=el.getAttribute('href')||'';
+          if(h.indexOf('calendly.com')>-1){fireSchedule();}
+          else if(h.indexOf('mailto:')===0){fbq('track','Contact');}
+        });
+        /* Lead fires on real form submission in intake-form.js */
+      }
+
+      /* Ad traffic: init immediately so PageView and attribution are never
+         lost. Organic traffic: keep the lazy path for page speed. */
+      if(isAd){initMetaPixel();}
+      else if(window.__lt){__lt(initMetaPixel);}
+      else{setTimeout(initMetaPixel,3000);}
+    })();</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->

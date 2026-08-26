@@ -386,8 +386,10 @@
            dedup between the browser and server events. */
         fetch('/api/capi-lead/', {
             method: 'POST',
+            keepalive: true,
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
+                eventName: 'Lead',
                 eventId: eventId,
                 email: formData.email,
                 phone: phoneDigits,
