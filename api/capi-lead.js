@@ -49,7 +49,8 @@ module.exports = async (req, res) => {
       client_ip_address: clientIp,
       client_user_agent: body.clientUserAgent,
       fbp: body.fbp || undefined,
-      fbc: body.fbc || undefined
+      fbc: body.fbc || undefined,
+      external_id: sha256(body.externalId)
     };
     Object.keys(userData).forEach((key) => {
       if (userData[key] === undefined || userData[key] === '') delete userData[key];

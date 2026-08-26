@@ -359,6 +359,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       function getCookie(n){var m=document.cookie.match('(?:^|;\\s*)'+n+'=([^;]*)');return m?decodeURIComponent(m[1]):'';}
       window.__metaGetCookie=getCookie;
 
+      /* Persistent, cross-session visitor ID (external_id). em/ph/fbp/fbc only
+         identify a single event or a single browser cookie lifetime; this
+         survives cookie clears (localStorage) and lets Meta and our own
+         reporting stitch repeat visits from the same device into one person,
+         which is what actually lets us see full-session behavior instead of
+         disconnected one-off events. */
+      function getExternalId(){
+        try{
+          var id=localStorage.getItem('dsn_ext_id');
+          if(!id){
+            id=(window.crypto&&crypto.randomUUID)?crypto.randomUUID():
+              'xid_'+Date.now()+'_'+Math.random().toString(36).slice(2,12);
+            localStorage.setItem('dsn_ext_id', id);
+          }
+          return id;
+        }catch(e){ return ''; }
+      }
+      window.__metaGetExternalId=getExternalId;
+
       /* Capture fbclid into the _fbc cookie immediately on load. The pixel
          normally writes this cookie, but it is lazy-loaded below, so a visitor
          who bounces before the lazy trigger fires would lose ad attribution
@@ -381,7 +400,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
         t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
         document,'script','https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init','1676816126768459');fbq('track','PageView');
+        fbq('init','1676816126768459',{external_id:getExternalId()});fbq('track','PageView');
 
         /* Mid-funnel signal on high-intent pages. Completed Leads are too few
            for Meta to optimise on alone, so give it a denser upper signal. */
@@ -399,7 +418,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             fetch('/api/capi-lead/',{method:'POST',keepalive:true,
               headers:{'Content-Type':'application/json'},
               body:JSON.stringify({eventName:'Schedule',eventId:id,pageUrl:location.href,
-                clientUserAgent:navigator.userAgent,fbp:getCookie('_fbp'),fbc:getCookie('_fbc')})});
+                clientUserAgent:navigator.userAgent,fbp:getCookie('_fbp'),fbc:getCookie('_fbc'),
+                externalId:getExternalId()})});
           }catch(e){}
         }
         document.addEventListener('click',function(e){

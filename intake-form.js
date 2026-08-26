@@ -366,13 +366,18 @@
         var phoneDigits = (formData.phone || '').replace(/\D/g, '');
         var nameParts = (formData.fullName || '').trim().split(/\s+/);
 
+        var externalId = (typeof window.__metaGetExternalId === 'function') ? window.__metaGetExternalId() : '';
+
         /* Manual Advanced Matching — fbq hashes these client-side (SHA-256)
-           before they ever leave the browser. */
+           before they ever leave the browser. external_id ties this Lead back
+           to every other event (PageView, ViewContent, Schedule) this same
+           visitor generated across their whole session history. */
         fbq('init', META_PIXEL_ID, {
             em: formData.email || undefined,
             ph: phoneDigits || undefined,
             fn: nameParts[0] || undefined,
-            ln: nameParts.length > 1 ? nameParts.slice(1).join(' ') : undefined
+            ln: nameParts.length > 1 ? nameParts.slice(1).join(' ') : undefined,
+            external_id: externalId || undefined
         });
 
         fbq('track', 'Lead', {
@@ -400,7 +405,8 @@
                 pageUrl: location.href,
                 clientUserAgent: navigator.userAgent,
                 fbp: getCookie('_fbp'),
-                fbc: getCookie('_fbc')
+                fbc: getCookie('_fbc'),
+                externalId: externalId
             })
         }).catch(function () { /* silent fail — never break UX */ });
     }
