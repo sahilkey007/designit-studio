@@ -81,6 +81,12 @@ module.exports = async (req, res) => {
         custom_data: customData
       }]
     };
+    // QA passthrough: routes this event into Events Manager's Test Events
+    // console instead of (in addition to) normal reporting. Production
+    // callers never send this field, so it's inert in real traffic.
+    if (body.testEventCode) {
+      eventPayload.test_event_code = body.testEventCode;
+    }
 
     const url = `https://graph.facebook.com/${GRAPH_API_VERSION}/${PIXEL_ID}/events?access_token=${encodeURIComponent(accessToken)}`;
     const metaRes = await fetch(url, {
