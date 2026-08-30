@@ -575,6 +575,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       window.__dsnDenyConsent = function(){
         try{ localStorage.setItem('dsn_consent','denied'); }catch(e){}
       };
+      window.__DSN_DEBUG = {consent: getConsent(), isAd: isAd, hasLt: typeof window.__lt};
       if(getConsent()==='granted'){ runIfConsented(); }
     })();</script>
 </head>
