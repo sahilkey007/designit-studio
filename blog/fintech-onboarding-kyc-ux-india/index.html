@@ -349,14 +349,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
          in intake-form.js (they early-return when fbq is undefined) and
          fireSchedule/fireContact (defined only inside initMetaPixel). */
       function getConsent(){ try{ return localStorage.getItem('dsn_consent'); }catch(e){ return null; } }
+      function loadThirdPartyMetaIntegrations(){
+        /* leadsy.ai independently loads the real Meta Pixel + its own CAPI
+           automation under our pixel ID — this is the other half of the
+           consent gate, not just our own initMetaPixel(). */
+        if(typeof window.__dsnLoadLeadsy==='function') window.__dsnLoadLeadsy();
+      }
       function runIfConsented(){
         if(isAd){initMetaPixel();}
         else if(window.__lt){__lt(initMetaPixel);}
         else{setTimeout(initMetaPixel,3000);}
+        loadThirdPartyMetaIntegrations();
       }
       window.__dsnGrantConsent = function(){
         try{ localStorage.setItem('dsn_consent','granted'); }catch(e){}
         initMetaPixel();
+        loadThirdPartyMetaIntegrations();
         if(typeof window.__dsnOnConsentGranted==='function') window.__dsnOnConsentGranted();
       };
       window.__dsnDenyConsent = function(){

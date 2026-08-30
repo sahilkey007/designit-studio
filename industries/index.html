@@ -120,7 +120,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </noscript>
     <link rel="icon" type="image/svg+xml" href="/logo.svg">
 <script>(function(){if(window.__lt)return;var q=[],done=false;function run(){if(done)return;done=true;for(var i=0;i<q.length;i++){try{q[i]()}catch(e){}}}window.__lt=function(fn){q.push(fn);if(done){fn()}};['scroll','mousemove','touchstart','keydown','click'].forEach(function(ev){window.addEventListener(ev,run,{once:true,passive:true})});setTimeout(run,4000)})();</script>
-    <script>__lt(function(){var s=document.createElement("script");s.id="vtag-ai-js";s.async=true;s.src="https://r2.leadsy.ai/tag.js";s.setAttribute("data-pid","n0EB50kmwDbwsqd");s.setAttribute("data-version","062024");document.head.appendChild(s)});</script>
+    <script>/* leadsy.ai independently loads the real Meta Pixel + its own CAPI automation using our pixel ID, confirmed live 2026-08 (bypassed the consent gate entirely when left on the generic __lt queue). Now gated behind the same Meta tracking consent as everything else, not loaded on interaction/timeout regardless of consent. */
+window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="vtag-ai-js";s.async=true;s.src="https://r2.leadsy.ai/tag.js";s.setAttribute("data-pid","n0EB50kmwDbwsqd");s.setAttribute("data-version","062024");document.head.appendChild(s);};</script>
 <script>__lt(function(){var s=document.createElement("script");s.async=true;s.src="https://t.contentsquare.net/uxa/e856346044b9a.js";document.head.appendChild(s)});</script>
 
     <!-- Meta Pixel — ad click-ID captured immediately; pixel loads at once for ad traffic, lazily otherwise -->
@@ -220,14 +221,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
          in intake-form.js (they early-return when fbq is undefined) and
          fireSchedule/fireContact (defined only inside initMetaPixel). */
       function getConsent(){ try{ return localStorage.getItem('dsn_consent'); }catch(e){ return null; } }
+      function loadThirdPartyMetaIntegrations(){
+        /* leadsy.ai independently loads the real Meta Pixel + its own CAPI
+           automation under our pixel ID — this is the other half of the
+           consent gate, not just our own initMetaPixel(). */
+        if(typeof window.__dsnLoadLeadsy==='function') window.__dsnLoadLeadsy();
+      }
       function runIfConsented(){
         if(isAd){initMetaPixel();}
         else if(window.__lt){__lt(initMetaPixel);}
         else{setTimeout(initMetaPixel,3000);}
+        loadThirdPartyMetaIntegrations();
       }
       window.__dsnGrantConsent = function(){
         try{ localStorage.setItem('dsn_consent','granted'); }catch(e){}
         initMetaPixel();
+        loadThirdPartyMetaIntegrations();
         if(typeof window.__dsnOnConsentGranted==='function') window.__dsnOnConsentGranted();
       };
       window.__dsnDenyConsent = function(){
