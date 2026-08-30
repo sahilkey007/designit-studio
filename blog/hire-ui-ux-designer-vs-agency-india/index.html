@@ -323,11 +323,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         /* Lead fires on real form submission in intake-form.js */
       }
 
-      /* Ad traffic: init immediately so PageView and attribution are never
-         lost. Organic traffic: keep the lazy path for page speed. */
-      if(isAd){initMetaPixel();}
-      else if(window.__lt){__lt(initMetaPixel);}
-      else{setTimeout(initMetaPixel,3000);}
+      /* Consent gate. Nothing above this point has touched fbq or sent
+         anything anywhere — fbclid capture into _fbc is a plain cookie
+         write, not a network call. Until consent is granted, fbq stays
+         undefined, which also naturally blocks Lead/Schedule/Contact CAPI
+         in intake-form.js (they early-return when fbq is undefined) and
+         fireSchedule/fireContact (defined only inside initMetaPixel). */
+      function getConsent(){ try{ return localStorage.getItem('dsn_consent'); }catch(e){ return null; } }
+      function runIfConsented(){
+        if(isAd){initMetaPixel();}
+        else if(window.__lt){__lt(initMetaPixel);}
+        else{setTimeout(initMetaPixel,3000);}
+      }
+      window.__dsnGrantConsent = function(){
+        try{ localStorage.setItem('dsn_consent','granted'); }catch(e){}
+        initMetaPixel();
+        if(typeof window.__dsnOnConsentGranted==='function') window.__dsnOnConsentGranted();
+      };
+      window.__dsnDenyConsent = function(){
+        try{ localStorage.setItem('dsn_consent','denied'); }catch(e){}
+      };
+      if(getConsent()==='granted'){ runIfConsented(); }
     })();</script>
 </head>
 <body>
@@ -547,5 +563,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="/main.js"></script>
 
 <script defer src="/analytics.js"></script>
+<script defer src="/consent-banner.js"></script>
 </body>
 </html>
