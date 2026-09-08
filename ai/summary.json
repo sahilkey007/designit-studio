@@ -1,0 +1,43 @@
+{
+  "name": "Designit",
+  "legalName": "Designit",
+  "tagline": "Design Backed by Research. Growth Backed by Design.",
+  "description": "Designit is a global UI/UX product design studio trusted by startups and enterprises in the USA, UAE, UK, and India. We ship high-conversion digital products for EdTech, Fintech, B2B SaaS, and Real Estate.",
+  "url": "https://designit.co.in",
+  "founded": "India",
+  "location": {
+    "addressLocality": "Noida",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "201303",
+    "addressCountry": "IN"
+  },
+  "contact": {
+    "email": "contact@designit.co.in",
+    "phone": "+91 856 494 8954",
+    "contactPage": "https://designit.co.in/contact/"
+  },
+  "industries": [
+    "B2B SaaS & Enterprise",
+    "EdTech & Digital Learning",
+    "Fintech & Web3",
+    "Luxury Real Estate & PropTech",
+    "E-Commerce & Digital Retail",
+    "Automotive & Smart Mobility"
+  ],
+  "services": [
+    "UI/UX Product Design",
+    "Design System Development",
+    "SaaS Strategy & Consulting",
+    "UX Research & Discovery",
+    "UX Design Audit & Analysis",
+    "Digital Prototyping & Validation",
+    "Digital Branding & Identity"
+  ],
+  "notableClients": ["Adda247", "Betacrew", "Kelp Global", "Rcentric", "Tata Elxsi", "Omniyat"],
+  "sameAs": [
+    "https://www.linkedin.com/company/117085238/",
+    "https://www.instagram.com/designit_studios/",
+    "https://x.com/DesignitContact"
+  ],
+  "lastModified": "2026-09-08T09:29:46Z"
+}

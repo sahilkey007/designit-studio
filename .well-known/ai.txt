@@ -1,0 +1,42 @@
+# ai.txt — AI crawler & usage permissions for designit.co.in
+# Spec reference: https://site.spawning.ai/ai-txt
+
+Site: https://designit.co.in
+Contact: contact@designit.co.in
+Owner: Designit
+
+# Citation / answer-engine crawlers — explicitly welcome to read and cite this site
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Machine-readable site index and structured data for AI systems
+Llms-txt: https://designit.co.in/llms.txt
+Llms-full-txt: https://designit.co.in/llms-full.txt
+Summary: https://designit.co.in/ai/summary.json
+Faq: https://designit.co.in/ai/faq.json
+Service: https://designit.co.in/ai/service.json
+Sitemap: https://designit.co.in/sitemap.xml

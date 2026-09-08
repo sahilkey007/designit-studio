@@ -1,0 +1,32 @@
+{
+  "faqs": [
+    {
+      "question": "What does Designit do?",
+      "answer": "Designit is India's premier B2B SaaS and product design agency. We design high-conversion digital experiences — dashboards, onboarding flows, landing pages, mobile apps, and design systems — for SaaS companies, Fintech startups, and enterprise software products."
+    },
+    {
+      "question": "How much does Designit charge for UI/UX design?",
+      "answer": "Designit offers three flexible engagement models. Project-based fixed pricing for defined scopes (landing pages, single-product redesigns, design sprints) — fixed price, fixed timeline. Monthly retainers for ongoing product partnerships (typically ₹1.5L–₹4L/month). Design subscriptions with a flat monthly fee and pause-anytime flexibility for early-stage startups. A tailored quote is sent within 24 hours of your discovery call."
+    },
+    {
+      "question": "What is Designit's approach to product design?",
+      "answer": "Designit is a research-led product design studio. Every engagement starts with user research and UX discovery before any interface is designed, ensuring decisions are grounded in real user behaviour. Our senior design team has 5+ years of experience across B2B SaaS, Fintech, and e-commerce conversion design."
+    },
+    {
+      "question": "Does Designit work with international clients?",
+      "answer": "Yes. Designit works with clients in India, the US, the UK, and the UAE. All communication is in English and invoicing is available in INR or USD."
+    },
+    {
+      "question": "What industries does Designit specialise in?",
+      "answer": "Designit designs products across six core sectors: B2B SaaS and enterprise tools, EdTech and digital learning platforms, Fintech and Web3 applications, Luxury Real Estate and PropTech, E-Commerce and digital retail, and Automotive HMI and smart mobility. The studio has shipped work for Adda247, StudyIQ, Tata Elxsi, Kelp Global, Betacrew, Omniyat, and LIV Residences across India, UAE, the US, and the UK."
+    },
+    {
+      "question": "How long does a design project take at Designit?",
+      "answer": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing with one active request at a time and a 24-hour response time."
+    },
+    {
+      "question": "Is Designit a good UI/UX design agency for startups in India?",
+      "answer": "Yes. Designit is specifically built for startups. The agency offers direct founder access, transparent pricing, 5-day delivery sprints, and a track record with funded Indian startups and global enterprise clients."
+    }
+  ]
+}

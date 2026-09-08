@@ -26,7 +26,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelp Plugin — Kelp Global — Designit</title>
-    <meta name="description" content="Browser plugin for real-time customer intelligence within workflow.">
+    <meta name="description" content="Kelp Plugin case study: a Chrome extension surfacing real-time customer intelligence inside the sales rep's workflow — on LinkedIn, email and CRM.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
@@ -41,7 +41,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta property="og:locale" content="en_US"/>
     <meta property="og:url" content="https://designit.co.in/projects/kelp-global/kelp-plugin">
     <meta property="og:title" content="Kelp Plugin — Kelp Global — Designit">
-    <meta property="og:description" content="Browser plugin for real-time customer intelligence within workflow.">
+    <meta property="og:description" content="Kelp Plugin case study: a Chrome extension surfacing real-time customer intelligence inside the sales rep's workflow — on LinkedIn, email and CRM.">
     <meta property="og:image" content="https://designit.co.in/og-preview.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:image" content="https://designit.co.in/og-preview.jpg">
@@ -260,12 +260,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h2 class="sec-title" style="font-size: 40px;">Intelligence at Your Fingertips</h2>
                     <p style="font-size: 17px; color: var(--text-secondary); line-height: 1.7;">The Kelp Plugin is a Chrome browser extension that surfaces customer intelligence directly within the sales rep's workflow — on LinkedIn profiles, email threads, and web pages. Instead of switching between tabs to look up contact details, deal history, or company information, everything appears in a sleek overlay panel. We designed the plugin to be contextually aware, showing the most relevant information based on what the user is currently viewing.</p>
                 </div>
-                <div class="pd-meta-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
-                    <div class="pd-meta-card"><div class="label">Client</div><div class="value">Kelp Global</div></div>
-                    <div class="pd-meta-card"><div class="label">Category</div><div class="value">SaaS / Browser Extension</div></div>
-                    <div class="pd-meta-card"><div class="label">Services</div><div class="value">Extension UX, Overlay Design, Research</div></div>
-                    <div class="pd-meta-card"><div class="label">Tools</div><div class="value">Figma, Chrome Extension APIs</div></div>
-                </div>
+                <ul class="pd-meta-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+                    <li class="pd-meta-card"><div class="label">Client</div><div class="value">Kelp Global</div></li>
+                    <li class="pd-meta-card"><div class="label">Category</div><div class="value">SaaS / Browser Extension</div></li>
+                    <li class="pd-meta-card"><div class="label">Services</div><div class="value">Extension UX, Overlay Design, Research</div></li>
+                    <li class="pd-meta-card"><div class="label">Tools</div><div class="value">Figma, Chrome Extension APIs</div></li>
+                </ul>
             </div></div>
         </section>
 
@@ -281,12 +281,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="container">
                 <span class="sec-label">Design Process</span>
                 <h2 class="sec-title" style="font-size: 40px;">How We Approached It</h2>
-                <div class="pd-process-steps">
-                    <div class="pd-process-step"><div class="step-num">Phase 01</div><h4>Workflow Shadowing</h4><p>We shadowed 20 sales reps through their daily workflow, timing every context switch and documenting every tool they touched. We discovered that the average rep switches between 7 tabs over 50 times per hour, with each switch costing 20-30 seconds of reorientation. This quantitative baseline informed our design goals and helped us prioritize which information to surface first in the overlay.</p></div>
-                    <div class="pd-process-step"><div class="step-num">Phase 02</div><h4>Overlay Architecture</h4><p>We designed an overlay architecture that surfaces information without leaving the current page. The panel slides in from the right edge, maintaining the host page's context while adding an intelligence layer. We tested multiple overlay sizes, positions, and behaviors, ultimately finding that a 380px panel with collapsible sections gave the best balance between information density and screen real estate preservation.</p></div>
-                    <div class="pd-process-step"><div class="step-num">Phase 03</div><h4>Progressive Disclosure</h4><p>We created a progressive disclosure system — summary first, details on demand. The initial view shows a contact card with key metrics and recent activity. Clicking any section expands into detailed views: full contact history, deal pipeline status, company news, and engagement signals. This layered approach keeps the interface clean for quick glances while supporting deep research when needed.</p></div>
-                    <div class="pd-process-step"><div class="step-num">Phase 04</div><h4>Cross-browser Testing</h4><p>We tested with 50 users across Chrome and Edge browsers, identifying rendering inconsistencies and performance bottlenecks. The plugin needed to work reliably on LinkedIn, Gmail, Outlook Web, and Salesforce — each with different DOM structures and content security policies. We optimized rendering performance to ensure the overlay appears within 200ms and doesn't impact host page performance.</p></div>
-                </div>
+                <ol class="pd-process-steps">
+                    <li class="pd-process-step"><div class="step-num">Phase 01</div><h4>Workflow Shadowing</h4><p>We shadowed 20 sales reps through their daily workflow, timing every context switch and documenting every tool they touched. We discovered that the average rep switches between 7 tabs over 50 times per hour, with each switch costing 20-30 seconds of reorientation. This quantitative baseline informed our design goals and helped us prioritize which information to surface first in the overlay.</p></li>
+                    <li class="pd-process-step"><div class="step-num">Phase 02</div><h4>Overlay Architecture</h4><p>We designed an overlay architecture that surfaces information without leaving the current page. The panel slides in from the right edge, maintaining the host page's context while adding an intelligence layer. We tested multiple overlay sizes, positions, and behaviors, ultimately finding that a 380px panel with collapsible sections gave the best balance between information density and screen real estate preservation.</p></li>
+                    <li class="pd-process-step"><div class="step-num">Phase 03</div><h4>Progressive Disclosure</h4><p>We created a progressive disclosure system — summary first, details on demand. The initial view shows a contact card with key metrics and recent activity. Clicking any section expands into detailed views: full contact history, deal pipeline status, company news, and engagement signals. This layered approach keeps the interface clean for quick glances while supporting deep research when needed.</p></li>
+                    <li class="pd-process-step"><div class="step-num">Phase 04</div><h4>Cross-browser Testing</h4><p>We tested with 50 users across Chrome and Edge browsers, identifying rendering inconsistencies and performance bottlenecks. The plugin needed to work reliably on LinkedIn, Gmail, Outlook Web, and Salesforce — each with different DOM structures and content security policies. We optimized rendering performance to ensure the overlay appears within 200ms and doesn't impact host page performance.</p></li>
+                </ol>
             </div>
         </section>
 
@@ -302,14 +302,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="container">
                 <span class="sec-label">Key Features</span>
                 <h2 class="sec-title" style="font-size: 40px;">What Makes It Stand Out</h2>
-                <div class="pd-features">
-                    <div class="pd-feature-card"><h4>In-page Overlay</h4><p>Non-intrusive side panel that appears contextually without leaving the current page.</p></div>
-                    <div class="pd-feature-card"><h4>Contact Intelligence</h4><p>Instant access to contact details, company info, and engagement history.</p></div>
-                    <div class="pd-feature-card"><h4>Activity Timeline</h4><p>Chronological view of all interactions with a contact across channels.</p></div>
-                    <div class="pd-feature-card"><h4>Quick Actions</h4><p>One-click actions for logging calls, creating tasks, and updating deal stages.</p></div>
-                    <div class="pd-feature-card"><h4>Custom Fields</h4><p>Configurable data fields that match each team's specific workflow needs.</p></div>
-                    <div class="pd-feature-card"><h4>CRM Sync</h4><p>Real-time bi-directional sync with Salesforce, HubSpot, and Pipedrive.</p></div>
-                </div>
+                <ul class="pd-features">
+                    <li class="pd-feature-card"><h4>In-page Overlay</h4><p>Non-intrusive side panel that appears contextually without leaving the current page.</p></li>
+                    <li class="pd-feature-card"><h4>Contact Intelligence</h4><p>Instant access to contact details, company info, and engagement history.</p></li>
+                    <li class="pd-feature-card"><h4>Activity Timeline</h4><p>Chronological view of all interactions with a contact across channels.</p></li>
+                    <li class="pd-feature-card"><h4>Quick Actions</h4><p>One-click actions for logging calls, creating tasks, and updating deal stages.</p></li>
+                    <li class="pd-feature-card"><h4>Custom Fields</h4><p>Configurable data fields that match each team's specific workflow needs.</p></li>
+                    <li class="pd-feature-card"><h4>CRM Sync</h4><p>Real-time bi-directional sync with Salesforce, HubSpot, and Pipedrive.</p></li>
+                </ul>
             </div>
         </section>
 
@@ -326,17 +326,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <section class="pd-section">
             <div class="container center">
                 <span class="sec-label">Results</span><h2 class="sec-title" style="font-size: 40px;">Measurable Impact</h2>
-                <div class="pd-results-grid">
-                    <div class="result-card"><span class="num">40%</span><span class="label">Reduction in context-switching</span></div>
-                    <div class="result-card"><span class="num">25%</span><span class="label">Faster deal research</span></div>
-                    <div class="result-card"><span class="num">90%</span><span class="label">Daily active usage</span></div>
-                </div>
+                <ul class="pd-results-grid">
+                    <li class="result-card"><span class="num">40%</span><span class="label">Reduction in context-switching</span></li>
+                    <li class="result-card"><span class="num">25%</span><span class="label">Faster deal research</span></li>
+                    <li class="result-card"><span class="num">90%</span><span class="label">Daily active usage</span></li>
+                </ul>
             </div>
         </section>
 
         <section><div class="container"><div class="pd-nav"><a href="deals-module.html">&larr; Deals Module</a><a href="/projects/kelp-global/">All Kelp Global Projects</a><a href="truenorth.html">Truenorth Analytics &rarr;</a></div></div></section>
 
-        <section style="padding: 80px 0; background: var(--bg-dark); text-align: center;"><div class="container"><h2 style="font-size: 40px; font-weight: 700; color: #fff; margin-bottom: 16px;">Have a similar challenge?</h2><p style="font-size: 18px; color: rgba(255,255,255,0.7); margin-bottom: 32px;">Let's solve it together.</p><a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background: #fff; color: #0A0A0A; padding: 14px 32px; font-weight: 600;">Start Your Project &rarr;</a></div></section>
+        <section style="padding: 80px 0; background: var(--bg-dark); text-align: center;"><div class="container"><h2 style="font-size: 40px; font-weight: 700; color: #fff; margin-bottom: 16px;">Have a similar challenge?</h2><p style="font-size: 18px; color: rgba(255,255,255,0.7); margin-bottom: 32px;">Let's solve it together.</p><a href="/contact/" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background: #fff; color: #0A0A0A; padding: 14px 32px; font-weight: 600;">Start Your Project &rarr;</a></div></section>
     </main>
 
     <footer class="footer">

@@ -317,12 +317,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h2 class="sec-title" style="font-size:40px;">The Challenge &amp; Opportunity</h2>
                     <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;">Adda 247 relied on third-party streaming services for live classes, which created a fragmented learning experience. Students had to switch between apps, engagement was passive, and the platform had no control over the streaming quality or features. We designed a fully integrated in-house live class module that transforms passive video watching into active, interactive learning sessions — complete with real-time Q&amp;A, in-class polls, resource sharing, and attendance tracking.</p>
                 </div>
-                <div class="pd-meta-grid">
-                    <div class="pd-meta-card"><div class="label">Client</div><div class="value">Adda 247</div></div>
-                    <div class="pd-meta-card"><div class="label">Category</div><div class="value">EdTech</div></div>
-                    <div class="pd-meta-card"><div class="label">Services</div><div class="value">Product Design, Interaction Design, Real-time UX</div></div>
-                    <div class="pd-meta-card"><div class="label">Tools</div><div class="value">Figma, Prototyping</div></div>
-                </div>
+                <ul class="pd-meta-grid">
+                    <li class="pd-meta-card"><div class="label">Client</div><div class="value">Adda 247</div></li>
+                    <li class="pd-meta-card"><div class="label">Category</div><div class="value">EdTech</div></li>
+                    <li class="pd-meta-card"><div class="label">Services</div><div class="value">Product Design, Interaction Design, Real-time UX</div></li>
+                    <li class="pd-meta-card"><div class="label">Tools</div><div class="value">Figma, Prototyping</div></li>
+                </ul>
             </div>
         </div>
     </section>
@@ -343,28 +343,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <span class="sec-label">Design Process</span>
             <h2 class="sec-title" style="font-size:40px;">How We Approached It</h2>
-            <div class="pd-process-steps">
-                <div class="pd-process-step">
+            <ol class="pd-process-steps">
+                <li class="pd-process-step">
                     <div class="pd-process-num">Phase 01</div>
                     <h4>Discovery &amp; Research</h4>
                     <p>We studied leading streaming platforms — Zoom, Google Meet, Twitch, and proprietary EdTech solutions like Unacademy and BYJU's — to understand the landscape of live learning interfaces. We conducted interviews with 30 teachers and 100 students to map their ideal live class experience. Key finding: teachers wanted tools to check comprehension mid-class, while students wanted the ability to ask doubts without interrupting the flow. We also analyzed bandwidth constraints across tier-2 and tier-3 cities where most users lived.</p>
-                </div>
-                <div class="pd-process-step">
+                </li>
+                <li class="pd-process-step">
                     <div class="pd-process-num">Phase 02</div>
                     <h4>Information Architecture</h4>
                     <p>We designed an interaction model that supported five parallel activities: video streaming, live chat, Q&amp;A queue, resource sharing, and poll/quiz participation. The challenge was fitting all of this into a single screen without overwhelming the user. We created a priority-based layout system where the most relevant panel expands based on context — when the teacher launches a poll, the poll panel auto-expands; when a doubt is being answered, the Q&amp;A panel takes focus. Attendance tracking ran silently in the background.</p>
-                </div>
-                <div class="pd-process-step">
+                </li>
+                <li class="pd-process-step">
                     <div class="pd-process-num">Phase 03</div>
                     <h4>Wireframing &amp; Prototyping</h4>
                     <p>We built interactive prototypes testing three different layouts for the video + content + chat trifecta. Layout A was a traditional sidebar chat; Layout B used a bottom drawer for interactions; Layout C employed a floating panel system. We tested each with 15 students in simulated live class conditions. Layout C won — students appreciated the ability to resize and reposition panels based on their preference. We also prototyped the teacher-side interface, ensuring they could manage polls, resources, and Q&amp;A without interrupting their teaching flow.</p>
-                </div>
-                <div class="pd-process-step">
+                </li>
+                <li class="pd-process-step">
                     <div class="pd-process-num">Phase 04</div>
                     <h4>Visual Design &amp; Handoff</h4>
                     <p>We created adaptive layouts optimized for mobile-first experience, since 78% of students attended live classes from phones. The mobile design used a tabbed interface switching between video, chat, and resources — keeping each context clean and focused. Bandwidth optimization was a key design consideration: we designed graceful degradation states for low-bandwidth scenarios, including audio-only mode with slide sync. The handoff package included 45 screens, micro-interaction specifications, and edge-case documentation for network interruptions and reconnection flows.</p>
-                </div>
-            </div>
+                </li>
+            </ol>
         </div>
     </section>
 
@@ -383,32 +383,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <span class="sec-label">Key Features</span>
             <h2 class="sec-title" style="font-size:40px;">Design Highlights</h2>
-            <div class="pd-features">
-                <div class="pd-feature">
+            <ul class="pd-features">
+                <li class="pd-feature">
                     <h4>In-class Polls &amp; Quizzes</h4>
                     <p>Teachers can launch instant comprehension checks during the session. Results appear in real-time, letting teachers adjust pace based on understanding levels.</p>
-                </div>
-                <div class="pd-feature">
+                </li>
+                <li class="pd-feature">
                     <h4>Live Doubt Resolution</h4>
                     <p>A structured Q&amp;A queue where students submit doubts, upvote popular questions, and get answers without disrupting the class flow for everyone.</p>
-                </div>
-                <div class="pd-feature">
+                </li>
+                <li class="pd-feature">
                     <h4>Resource Sharing</h4>
                     <p>Teachers share PDFs, slides, and practice questions directly within the class interface. Students can bookmark, download, and annotate shared materials in real-time.</p>
-                </div>
-                <div class="pd-feature">
+                </li>
+                <li class="pd-feature">
                     <h4>Attendance Tracking</h4>
                     <p>Automated attendance based on active participation time, not just join/leave timestamps. Streak tracking motivates consistent class attendance.</p>
-                </div>
-                <div class="pd-feature">
+                </li>
+                <li class="pd-feature">
                     <h4>Recording &amp; Playback</h4>
                     <p>Full-fidelity recording capturing video, chat, polls, and resources in a synchronized playback experience — with speed controls and chapter markers.</p>
-                </div>
-                <div class="pd-feature">
+                </li>
+                <li class="pd-feature">
                     <h4>Multi-device Support</h4>
                     <p>Seamless experience across phone, tablet, and desktop with responsive layouts. Start on your phone during commute, continue on desktop at home.</p>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -430,20 +430,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container center">
             <span class="sec-label">Results</span>
             <h2 class="sec-title" style="font-size:40px;">Measurable Impact</h2>
-            <div class="pd-results-grid">
-                <div class="pd-result-card">
+            <ul class="pd-results-grid">
+                <li class="pd-result-card">
                     <div class="pd-result-num">72%</div>
                     <div class="pd-result-label">Increase in class attendance</div>
-                </div>
-                <div class="pd-result-card">
+                </li>
+                <li class="pd-result-card">
                     <div class="pd-result-num">40%</div>
                     <div class="pd-result-label">Longer average session duration</div>
-                </div>
-                <div class="pd-result-card">
+                </li>
+                <li class="pd-result-card">
                     <div class="pd-result-num">3x</div>
                     <div class="pd-result-label">Improvement in engagement metrics</div>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -463,7 +463,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <h2 style="font-size:40px;font-weight:700;color:#fff;margin-bottom:16px;">Have a similar challenge?</h2>
             <p style="font-size:18px;color:rgba(255,255,255,0.7);margin-bottom:32px;">Let's solve it together.</p>
-            <a href="#" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background: #131313;color:#0A0A0A;">Start Your Project &rarr;</a>
+            <a href="/contact/" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background: #131313;color:#0A0A0A;">Start Your Project &rarr;</a>
         </div>
     </section>
 

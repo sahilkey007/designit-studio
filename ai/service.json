@@ -1,0 +1,78 @@
+{
+  "name": "Designit",
+  "description": "Global UI/UX product design studio for startups and enterprises across the USA, UAE, UK and India.",
+  "url": "https://designit.co.in",
+  "serviceType": "UI/UX Product Design Studio",
+  "capabilities": [
+    "UI/UX Product Design",
+    "Design System Development",
+    "SaaS Strategy & Consulting",
+    "UX Research & Discovery",
+    "UX Design Audit & Analysis",
+    "Digital Prototyping & Validation",
+    "Digital Branding & Identity"
+  ],
+  "areaServed": [
+    "India",
+    "United States",
+    "United Arab Emirates",
+    "United Kingdom"
+  ],
+  "services": [
+    {
+      "name": "UI/UX Product Design",
+      "description": "End-to-end product design from research to high-fidelity UI for web and mobile platforms.",
+      "url": "https://designit.co.in/services/ui-ux-design/"
+    },
+    {
+      "name": "Design System Development",
+      "description": "Scalable, documented design systems with component libraries and design tokens.",
+      "url": "https://designit.co.in/services/design-systems/"
+    },
+    {
+      "name": "SaaS Strategy & Consulting",
+      "description": "Growth experiments to complete product overhauls, backed by data.",
+      "url": "https://designit.co.in/services/saas-product-design/"
+    },
+    {
+      "name": "UX Research & Discovery",
+      "description": "User interviews, journey mapping, usability testing, and data synthesis.",
+      "url": "https://designit.co.in/services/ux-research/"
+    },
+    {
+      "name": "UX Design Audit & Analysis",
+      "description": "Comprehensive audit with prioritised recommendations to improve conversions and retention.",
+      "url": "https://designit.co.in/services/ux-audit/"
+    },
+    {
+      "name": "Digital Prototyping & Validation",
+      "description": "Interactive prototypes and live demos to validate before development.",
+      "url": "https://designit.co.in/services/product-design/"
+    },
+    {
+      "name": "Digital Branding & Identity",
+      "description": "Visual identity systems, brand guidelines, and marketing asset production.",
+      "url": "https://designit.co.in/services/"
+    }
+  ],
+  "engagementModels": [
+    {
+      "name": "Design Sprint",
+      "description": "Fixed-scope deliverable (landing page, dashboard, brand identity). Delivered in 5 business days."
+    },
+    {
+      "name": "Monthly Retainer",
+      "description": "Ongoing design partnership. One active request at a time, 24-hour response time, direct senior-designer access, source Figma files included."
+    },
+    {
+      "name": "Full Product Design",
+      "description": "End-to-end product design from research through to design system and developer handoff."
+    }
+  ],
+  "contactPoint": {
+    "email": "contact@designit.co.in",
+    "phone": "+91 856 494 8954",
+    "url": "https://designit.co.in/contact/"
+  },
+  "lastModified": "2026-09-08T09:29:46Z"
+}
