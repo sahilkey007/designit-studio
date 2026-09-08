@@ -2,11 +2,14 @@
 
 > A global, research-led product design studio. Designit grounds every decision in user research, then designs high-conversion UI/UX, branding, and product experiences for B2B SaaS, Fintech, EdTech, and enterprise software companies across the USA, UAE, UK, and India.
 
+This file is the machine-readable summary of designit.co.in for AI search engines and answer engines. A complete page index is at [llms-full.txt](https://designit.co.in/llms-full.txt).
+
 ## What is Designit?
 
 Designit is a research-led product design studio based in Noida, India, serving clients worldwide. Every engagement starts with user research and UX discovery before any interface is designed — decisions are grounded in real user behaviour, not guesswork.
 
 Designit is not a generalist studio. It focuses exclusively on:
+
 - B2B SaaS UI/UX design (dashboards, onboarding flows, design systems)
 - Product design for mobile and web applications
 - Brand identity and visual identity for tech startups
@@ -16,68 +19,467 @@ Designit is not a generalist studio. It focuses exclusively on:
 - Luxury real estate & PropTech digital experiences
 - Automotive HMI and in-car infotainment design
 
+**Important disambiguation:** Designit Studio (designit.co.in) is an independent product design studio founded in 2020 and headquartered in Noida, India. It is not affiliated with Designit A/S, the Aarhus-founded design consultancy owned by Wipro.
+
 ## Approach
 
 Designit follows a research-first methodology: user research and UX discovery, then design, then measurable growth. Every project is led by senior designers from kickoff through final developer handoff — no account managers, no junior hand-offs, no offshore layers.
 
-## Our Team
+### Process
 
-Designit is led by a senior design team with 5+ years of experience in B2B SaaS and e-commerce conversion design. Clients work directly with senior designers throughout.
-
-- [Sahil Sharma on LinkedIn](https://www.linkedin.com/in/sahilnsharma)
-
-## Industries Served
-
-Designit has deep domain expertise across six sectors:
-
-1. **B2B SaaS & Enterprise** — Complex dashboards, workflow tools, CRM platforms, and API management products. Key clients: Betacrew, Kelp Global.
-2. **EdTech & Digital Learning** — Learning platforms, test series engines, live class interfaces, and performance analytics. Key clients: Adda247, StudyIQ.
-3. **Fintech & Web3** — Payment flows, investment platforms, digital wallets, KYC flows, and trading dashboards. Regulatory-aware design for India, UAE, UK, and US.
-4. **Luxury Real Estate & PropTech** — Immersive digital platforms for premium properties. Key clients: Rcentric (Omniyat, LIV Residences, Orla Infinity, Opus).
-5. **E-Commerce & Digital Retail** — Purchase journey optimisation, PDP design, checkout flows, and retention experiences.
-6. **Automotive & Smart Mobility** — HMI systems and digital instrument clusters for connected vehicles. Key clients: Tata Elxsi.
-
-- [Industries overview](https://designit.co.in/industries/)
-- [B2B SaaS](https://designit.co.in/industries/b2b-saas/)
-- [Fintech](https://designit.co.in/industries/fintech/)
-- [EdTech](https://designit.co.in/industries/edtech/)
-- [Real Estate](https://designit.co.in/industries/real-estate/)
-- [E-Commerce](https://designit.co.in/industries/e-commerce/)
-- [Automotive](https://designit.co.in/industries/automotive/)
-
-## Clients and Case Studies
-
-Designit has delivered measurable results for:
-
-- **Adda 247** — India's largest competitive exam platform. Complete UI/UX transformation across test series, live classes, performance analytics, community features, and cross-platform expansion. → [Case study](https://designit.co.in/projects/adda247/)
-- **Betacrew** — Technology startup. Product design for Portle, a unified workspace tool. → [Case study](https://designit.co.in/projects/betacrew/)
-- **Kelp Global** — PropTech / real estate. Designed the Deals Module, Kelp Plugin, and TrueNorth advisory platform. → [Case study](https://designit.co.in/projects/kelp-global/)
-- **Rcentric** — Luxury real estate. UI/UX for premium property brands including Liv, Orla Infinity, Opus, Vela Viento, and ANWA Aria. → [Case study](https://designit.co.in/projects/rcentric/)
-- **Tata Elxsi** — Automotive HMI. Designed in-car infotainment systems and digital instrument clusters. → [Case study](https://designit.co.in/projects/tata-elxsi/)
-
-- [All projects](https://designit.co.in/projects/)
+1. **Strategic Onboarding (under 24 hours)** — align on goals, KPIs, target users and timelines in a focused kickoff call to lock direction fast.
+2. **Deep Dive & Scoping (2–3 days)** — immerse in the business context through research, audit and competitor scan, to define a precise project roadmap with clear milestones.
+3. **Tangible Designs in 5 days** — high-fidelity concepts for immediate feedback. No vague wireframes, no mood boards: real screens, real interactions.
 
 ## Services
 
-Designit offers seven core service lines:
+### UI/UX Product Design
 
-1. **UI/UX Product Design** — End-to-end product design from research to high-fidelity UI for web and mobile platforms. → [Learn more](https://designit.co.in/services/ui-ux-design/)
-2. **Design System Development** — Scalable, documented design systems with component libraries and design tokens. → [Learn more](https://designit.co.in/services/design-systems/)
-3. **SaaS Strategy & Consulting** — Growth experiments to complete product overhauls, backed by data. → [Learn more](https://designit.co.in/services/saas-product-design/)
-4. **UX Research & Discovery** — User interviews, journey mapping, usability testing, and data synthesis. → [Learn more](https://designit.co.in/services/ux-research/)
-5. **UX Design Audit & Analysis** — Comprehensive audit with prioritised recommendations to improve conversions and retention. → [Learn more](https://designit.co.in/services/ux-audit/)
-6. **Digital Prototyping & Validation** — Interactive prototypes and live demos to validate before development. → [Learn more](https://designit.co.in/services/product-design/)
-7. **Digital Branding & Identity** — Visual identity systems, brand guidelines, and marketing asset production. → [Learn more](https://designit.co.in/services/)
+Page: [UI/UX Product Design](https://designit.co.in/services/ui-ux-design/)
 
-- [All services](https://designit.co.in/services/)
+**UI/UX design decided by evidence, not by whoever argues hardest.**
+
+*The interface grew rather than got designed*
+
+Every feature was added where there was room, not where it belongs. The result works if you already know it, and is impenetrable if you don't — which is a problem every time you onboard a customer or a new hire.
+
+*Design is a bottleneck, not a multiplier*
+
+Engineering waits on screens. Screens wait on decisions. Decisions wait on a meeting. The design function has become the slowest part of shipping instead of the thing that makes shipping safe.
+
+*It looks fine and performs badly*
+
+The product photographs well and users still can't complete the task. Visual polish and usability are different disciplines, and only one of them shows up in your activation numbers.
+
+*You've outgrown a freelancer*
+
+One designer was enough at ten people. At forty, you need a system, documentation, and someone who can hold the whole product in their head — not more hands producing more screens.
+
+*Research and discovery*
+
+User interviews, competitive teardown and analytics review — enough to define the problem in writing before anyone opens Figma. This is the step that prevents expensive redesigns of the wrong thing.
+
+*Information architecture and flows*
+
+How the product is organised and how users move through it. Most interface problems are structural, and no amount of visual work fixes a bad hierarchy.
+
+### Design System Development
+
+Page: [Design System Development](https://designit.co.in/services/design-systems/)
+
+**A design system your engineers will actually use.**
+
+*It exists, and nobody uses it*
+
+There is a Figma library and a Storybook, and engineers still write one-off components because the system does not cover their case or is too slow to search. An unused system is worse than none — it is maintenance cost with no return.
+
+*Design and code have drifted*
+
+The Figma library and the coded components disagree, so nobody trusts either. Every ticket now includes an argument about which one is correct.
+
+*It covers the happy path only*
+
+Buttons and cards are beautifully specified. Empty states, error states, loading, dense-data variants and permission states are not — which is exactly where consistency breaks in real products.
+
+*Every new surface starts from scratch*
+
+A second product, a mobile app or an admin tool arrives and none of the existing work transfers, because the system was built for one surface rather than as a foundation.
+
+*Audit and inventory*
+
+Every component, colour, type style and spacing value currently in use across your products — usually the moment teams discover they have nineteen greys and five button styles.
+
+*Token architecture*
+
+A layered token system — primitive, semantic and component-level — so theming, dark mode and white-labelling become configuration rather than a rebuild.
+
+### SaaS Product Design
+
+Page: [SaaS Product Design](https://designit.co.in/services/saas-product-design/)
+
+**SaaS product design that moves activation, not just pixels.**
+
+*Users sign up and never activate*
+
+Signups look healthy, but the drop between first login and first real action is brutal. Onboarding was built by engineers around the data model, not around what a new user is trying to accomplish on day one.
+
+*The dashboard shows everything and says nothing*
+
+Years of feature requests have produced a screen dense with data and empty of hierarchy. Nobody can tell at a glance what needs attention, so the product gets used as a report generator instead of a workflow tool.
+
+*Every screen looks like a different product*
+
+Three designers and four contractors later, there are five button styles and no shared spacing. Shipping anything new means re-deciding solved problems, and the inconsistency reads as unreliability to enterprise buyers.
+
+*Enterprise deals stall at the demo*
+
+The product does what it promises, but complexity surfaces too early and procurement teams can't see themselves using it. This is a design problem long before it is a sales problem.
+
+*UX research and discovery*
+
+User interviews with your actual customers, session review, and a synthesis of where users stall — so design decisions are grounded in observed behaviour rather than internal opinion.
+
+*Dashboard and workflow design*
+
+Information hierarchy, data visualisation, empty and error states, and the dense-but-legible layouts that complex B2B tools need. Designed against real data volumes, not tidy demo content.
+
+### UX Research & Discovery
+
+Page: [UX Research & Discovery](https://designit.co.in/services/ux-research/)
+
+**Research that settles arguments instead of generating slides.**
+
+*A big build is about to start on an assumption*
+
+The roadmap commits a quarter of engineering to something nobody has validated. Two weeks of research is the cheapest insurance available against three months of building the wrong thing.
+
+*Analytics show what, never why*
+
+You can see the drop-off precisely and have no idea what causes it. Quantitative data localises the problem; only qualitative research explains it well enough to fix.
+
+*The team disagrees and nobody can win*
+
+Two credible internal positions, no evidence either way, and the decision keeps getting deferred. Research is often faster than continuing to argue.
+
+*You're designing for users unlike yourselves*
+
+Enterprise operations staff, students, drivers, traders. When the team is not the user — which is most of the time in B2B — intuition is unreliable in ways that are invisible from inside.
+
+*In-depth user interviews*
+
+Structured conversations with your actual users or target segment, run to surface behaviour and context rather than opinions and feature requests.
+
+*Usability testing*
+
+Task-based testing on your live product or a prototype, moderated or unmoderated, with recordings and timestamped findings your team can watch rather than take on trust.
+
+### UX Design Audit & Analysis
+
+Page: [UX Design Audit & Analysis](https://designit.co.in/services/ux-audit/)
+
+**A UX audit that tells you what to fix first — and what it's worth.**
+
+*Traffic is fine, conversion isn't*
+
+Acquisition spend is working and the funnel still leaks. You suspect the problem is on the page rather than in the campaign, but nobody can point at the specific step that loses people.
+
+*Support keeps answering the same question*
+
+The same three tickets arrive every week. That is a design problem being absorbed by humans, and it is measurable — reducing it was worth a 60% ticket drop for Adda247.
+
+*Everyone has an opinion, nobody has evidence*
+
+Design decisions are being decided by whoever argues hardest. An external audit replaces opinion with observed behaviour and gives the team a shared, ranked list to work from.
+
+*You're about to spend on a rebuild*
+
+Before committing six figures to a redesign, it is worth knowing which problems are actually costing money. Often a targeted fix list gets most of the value at a fraction of the cost.
+
+*Heuristic and task-based review*
+
+We walk your core user journeys as your users do — signup, activation, the primary workflow, checkout or upgrade — and record every point of friction with a screenshot and an explanation.
+
+*Analytics and session evidence*
+
+Where you have GA4, Hotjar, Clarity or similar, we tie observed friction to actual drop-off data, so each finding is backed by a number rather than an assertion.
+
+### Product Design
+
+Page: [Product Design](https://designit.co.in/services/product-design/)
+
+**Product design that starts with the problem, not the wireframe.**
+
+*You know the outcome, not the product*
+
+The business goal is clear and what to actually build is not. This is a product definition problem, and starting it in Figma is how teams spend six months building the wrong thing beautifully.
+
+*The roadmap is a feature list*
+
+Everything is a priority, which means nothing is. Without a structural view of the product, each new feature makes the next one harder to add and the whole thing harder to use.
+
+*The product works but doesn't sell itself*
+
+Demos need a human to explain them. When a product cannot communicate its own value in the first session, that is a design problem showing up in your sales cycle.
+
+*Complexity is non-negotiable*
+
+Some products are genuinely complex — regulated flows, safety-critical interfaces, dense operational tooling. Simplifying is not an option; making complexity legible is the actual job.
+
+*Problem definition*
+
+Stakeholder interviews, user research and a written statement of what we are solving and how we will know it worked — agreed before design begins.
+
+*Product and information architecture*
+
+How the product is structured, what belongs together, and what the primary flows are. The decisions here constrain everything downstream, which is why they get the most attention.
+
+## Industries Served
+
+### B2B SaaS & Enterprise
+
+Page: [B2B SaaS & Enterprise](https://designit.co.in/industries/b2b-saas/)
+
+**B2B SaaS design, where usability is a retention metric.**
+
+*The buyer is not the user*
+
+A VP signs the contract; an operations team lives in the product for eight hours a day. Design that impresses in a demo and exhausts in daily use produces exactly the churn pattern that shows up at renewal, twelve months after anyone can trace the cause.
+
+*Density is a requirement, not a failure*
+
+Consumer design principles say remove things. B2B users need everything on screen because their job requires it. The skill is making dense information legible through hierarchy, grouping and progressive disclosure — not hiding it behind clicks that slow expert users down.
+
+*Edge cases are the product*
+
+Permission states, bulk actions, partial data, sync conflicts, 10,000-row tables, admin overrides. Consumer products treat these as edge cases. In B2B they are Tuesday, and a design that only works with tidy demo data fails on contact with a real account.
+
+*Adoption is internal politics*
+
+Someone inside the customer's organisation staked their credibility on choosing you. If rollout goes badly, you lose an advocate, not just a metric. Onboarding design is reputation management for your champion.
+
+*Activation and onboarding design*
+
+Mapping the first action that predicts retention for your product, then designing the shortest credible path to it. At Adda247 this approach lifted onboarding completion 45%.
+
+### EdTech & Digital Learning
+
+Page: [EdTech & Digital Learning](https://designit.co.in/industries/edtech/)
+
+**EdTech design measured by completion, not by enrolment.**
+
+*Motivation is the actual design constraint*
+
+Learners are not blocked by the interface; they are blocked by effort. Every unnecessary decision, unclear next step or moment of ambiguity spends motivation the learner needed for the material itself.
+
+*High stakes, low tolerance*
+
+A timed test that mis-saves an answer or drops on a weak connection is not an inconvenience — it can affect an exam outcome. Assessment interfaces need failure handling closer to financial software than to consumer apps.
+
+*Two users, one product*
+
+Learners want progress and clarity; parents or institutions want evidence and oversight. The same data has to serve encouragement and accountability, which are different design jobs.
+
+*The device is not a flagship phone*
+
+Much of the learning happens on mid-range Android devices on unreliable connections. Design decisions that assume fast hardware and stable networks quietly exclude a large share of the intended audience.
+
+*Onboarding and activation*
+
+Getting a new learner to their first genuine learning moment quickly. At Adda247 this work raised onboarding completion 45%.
+
+### Fintech & Web3
+
+Page: [Fintech & Web3](https://designit.co.in/industries/fintech/)
+
+**Fintech design, where trust is a feature and regulation is a constraint.**
+
+*KYC is where users leave*
+
+Identity verification is legally required and experientially hostile — document upload, selfie capture, address proof, source-of-funds. Most abandonment concentrates here, and most of it is recoverable through sequencing, expectation-setting and honest progress indication rather than through removing steps you cannot remove.
+
+*Trust is established in seconds*
+
+Users decide whether to enter financial details almost immediately, on signals they could not articulate — visual precision, copy tone, how errors are handled. In fintech, design inconsistency does not read as untidy. It reads as unsafe.
+
+*Compliance copy fights comprehension*
+
+Legal requires specific wording; users need to understand what they are agreeing to. Treating disclosure as a design problem rather than a legal paste-in is what separates products that convert from products that merely comply.
+
+*Mistakes are irreversible*
+
+A wrong transfer, a mis-set order, a wrong wallet address. Confirmation design, undo windows and clear pre-commit summaries are not polish here — they are the difference between a support ticket and a lost customer.
+
+*Onboarding and KYC flow design*
+
+Sequencing verification so the user has invested enough to persist but not so much that they feel ambushed, with realistic progress indication and recoverable failure states for rejected documents.
+
+### Luxury Real Estate & PropTech
+
+Page: [Luxury Real Estate & PropTech](https://designit.co.in/industries/real-estate/)
+
+**Property design where the website is the first viewing.**
+
+*Enquiry volume is the wrong metric*
+
+A form that anyone can complete in eight seconds produces a pipeline your sales team cannot work. In high-value property the job is qualification, not capture — fewer, better enquiries beat more of them, and the design decides which you get.
+
+*Luxury is communicated through restraint*
+
+Premium positioning is carried by pacing, typography, whitespace and image quality, not by more features. A site that behaves like an e-commerce listing tells a buyer this is a commodity, whatever the price says.
+
+*The assets are enormous*
+
+Renders, fly-throughs, floorplates and 4K photography are the product. Presenting them at the quality the property demands while remaining usable on a phone in a lift is a genuine engineering constraint, not a preference.
+
+*Gulf markets are not a translation job*
+
+Arabic RTL mirrors layout, but numerals, directional icons, floorplan orientation and reading gravity follow their own rules. A mirrored English site is immediately obvious to a native reader — and in a trust-driven purchase, obvious means disqualifying.
+
+*Project presentation experiences*
+
+Immersive single-property experiences that sequence a buyer through location, architecture, amenity and unit detail in the order that builds conviction rather than the order the brochure happened to use.
+
+### E-Commerce & Digital Retail
+
+Page: [E-Commerce & Digital Retail](https://designit.co.in/industries/e-commerce/)
+
+**E-commerce design judged on revenue per visitor, not aesthetics.**
+
+*The product page doesn't answer the objection*
+
+Shoppers leave a PDP because a specific question went unanswered — sizing, materials, delivery timing, returns. The page presents what the business wants to say rather than what the buyer needs resolved before committing.
+
+*Checkout asks too much, too early*
+
+Account creation before guest checkout, address before shipping cost, surprise fees at the final step. Each is a defensible internal decision and each measurably costs orders — abandonment concentrates on exactly these moments.
+
+*Mobile is the majority and the afterthought*
+
+Most sessions are mobile; most stores are designed and reviewed on a desktop. Thumb reach, form input, image zoom and payment-sheet integration are where mobile conversion is won or quietly lost.
+
+*Acquisition is subsidising a leaky funnel*
+
+Paid spend rises to compensate for a conversion rate nobody has interrogated. Fixing the funnel is almost always cheaper per incremental order than buying more traffic to pour into it.
+
+*Funnel diagnostic*
+
+Analytics and session review to locate exactly which step loses the most revenue, so design effort is spent where the money actually is rather than where the page looks worst.
+
+### Automotive & Smart Mobility
+
+Page: [Automotive & Smart Mobility](https://designit.co.in/industries/automotive/)
+
+**In-car design where a second of attention is the budget.**
+
+*Attention is borrowed, not given*
+
+Every glance at a screen is attention taken from the road. Guidance converges on roughly two seconds per glance — a budget that invalidates most patterns designed for people looking directly at a device.
+
+*The user is physically moving*
+
+Vibration, changing light, gloved or occupied hands, and peripheral vision only. Touch targets, contrast and motion tolerances that pass on a desk fail comprehensively at 80km/h.
+
+*Hardware is fixed years ahead*
+
+Screen size, resolution, processing budget and physical control layout are locked long before design starts and cannot be revised. Designing as though a spec change is available is how automotive projects fail late and expensively.
+
+*Safety-critical and comfort share a screen*
+
+Speed, warnings and ADAS status sit alongside media and climate. The hierarchy between what a driver must see and what they might want is a safety decision expressed as a layout.
+
+*Digital instrument cluster design*
+
+Speed, range, warnings and ADAS state designed for peripheral legibility and immediate comprehension — the information a driver must absorb without deliberate reading.
+
+## Clients and Case Studies
+
+### Adda 247 — EdTech at consumer scale
+
+Case study: [Adda 247 — EdTech at consumer scale](https://designit.co.in/projects/adda247/)
+
+*Transforming Exam Preparation at Scale*
+
+Adda 247 is India's leading competitive exam preparation platform, trusted by millions of aspirants preparing for SSC, Banking, Railways, and other government exams. We partnered with them to redesign and rebuild their entire digital experience across 8 product modules — from the core test series engine to live classes, performance dashboards, community features, and native iOS/iPad apps. The goal was to create a unified, intuitive experience that reduces cognitive load, increases engagement, and scales across platforms.
+
+*Homepage Revamp*
+
+Revamping the Adda247 home screen to enhance onboarding, boost engagement, and drive free-to-paid conversion for 3M+ competitive exam students.
+
+*Test Series Enhancement*
+
+Comprehensive upgrade of the online test-taking experience with real-time progress tracking, smart navigation, and detailed performance analytics.
+
+*Live Class Module*
+
+In-house live streaming module replacing third-party services with real-time interaction, content sharing, and engagement tools.
+
+*iOS & iPad App*
+
+Expanding Adda247's reach to Apple users with a native iOS and iPad experience following platform-specific design conventions.
+
+### Rcentric — luxury real estate
+
+Case study: [Rcentric — luxury real estate](https://designit.co.in/projects/rcentric/)
+
+*Luxury Real Estate, Digitally Elevated*
+
+Omniyat is one of Dubai's most prestigious luxury real estate developers, known for creating architectural masterpieces along the city's iconic waterfront. We designed premium digital experiences for seven of their flagship properties — each website reflecting the unique character, materials, and lifestyle of the residence while maintaining a cohesive brand language. Every interaction was crafted to evoke the same sense of exclusivity and refinement that defines the physical spaces.
+
+*LIV*
+
+Positioned LIV as exclusive partner for Omniyat's luxury properties through premium platform design.
+
+*Orla Infinity*
+
+Architectural masterpiece on Palm Jumeirah — digital presence for unparalleled luxury living.
+
+*OPUS*
+
+Landmark Zaha Hadid building — digital presence for luxury residences, offices, hotel.
+
+*Vela Viento*
+
+Foster + Partners luxury in Marasi Bay with Dorchester Collection services.
+
+### Kelp Global — PropTech / sales intelligence
+
+Case study: [Kelp Global — PropTech / sales intelligence](https://designit.co.in/projects/kelp-global/)
+
+*CRM Reimagined for Modern Teams*
+
+Kelp Global is a next-generation customer relationship platform designed to help sales teams manage leads, track deals, and gain actionable insights without context switching. We designed their complete product suite — from a Chrome browser plugin that surfaces contact intelligence in real-time, to Truenorth, an analytics dashboard for pipeline visibility, and a comprehensive Deals Module for end-to-end deal management. The design system was built for speed, clarity, and scale.
+
+*Kelp Plugin*
+
+Browser plugin for real-time customer intelligence within workflow.
+
+*Truenorth Analytics*
+
+Analytics and reporting interface for sales performance insights.
+
+*Deals Module*
+
+Deal pipeline management interface for tracking and closing deals.
+
+### Betacrew — workspace product
+
+Case study: [Betacrew — workspace product](https://designit.co.in/projects/betacrew/)
+
+*Developer Tools, Designed for Clarity*
+
+Betacrew needed a unified platform to replace three disparate tools their developer clients were using for API management, documentation, and testing. We designed Portle — a developer-first platform with a clean, minimalist interface that reduces cognitive load while supporting white-label branding for diverse clients. The information architecture was restructured to surface the most-used actions first, and a comprehensive component library was built to ensure consistency at scale.
+
+*Portle — API Management Platform*
+
+Developer-first API management with minimalist interface reducing cognitive load.
+
+### Tata Elxsi — automotive HMI
+
+Case study: [Tata Elxsi — automotive HMI](https://designit.co.in/projects/tata-elxsi/)
+
+*Next-Gen Automotive HMI*
+
+Tata Elxsi is a global design and technology services company that partners with leading automotive OEMs to create next-generation in-vehicle experiences. We designed two critical HMI systems — a full infotainment interface and a digital instrument cluster — for connected vehicles. The design prioritized safety, glanceability, and minimal driver distraction while delivering a visually striking modern cockpit experience. Both systems were designed with dark-mode-first principles and adaptive layouts for different screen sizes.
+
+*Infotainment System*
+
+Next-gen in-vehicle infotainment balancing safety with intuitive controls.
+
+*Digital Instrument Cluster*
+
+Digital cockpit instrument cluster with clear visual hierarchy and adaptive display.
 
 ## Engagement Models
 
-- **Design Sprint** — Fixed-scope deliverable (landing page, dashboard, brand identity). Delivered in 5 business days.
-- **Monthly Retainer** — Ongoing design partnership. One active request at a time, 24-hour response time, direct senior-designer access, NDA on request, source Figma files included, 14-day post-handoff support.
-- **Full Product Design** — End-to-end product design from research through to design system and handoff.
+- **Design Sprint** — fixed-scope deliverable (landing page, dashboard, brand identity), delivered in 5 business days.
+- **Monthly Retainer** — ongoing design partnership, typically ₹1.5L–₹4L per month. One active request at a time, 24-hour response time, direct senior-designer access, NDA on request, source Figma files included, 14-day post-handoff support.
+- **Full Product Design** — end-to-end product design from research through design system and developer handoff. Typically 4–12 weeks depending on scope.
 
-To get a tailored quote: [Contact Designit](https://designit.co.in/contact/)
+To get a tailored quote within 24 hours: [Contact Designit](https://designit.co.in/contact/)
+
+## Tools
+
+Primary design tool: Figma. Prototyping: Figma / Protopie. Developer handoff: Figma Dev Mode. Research: Maze, Hotjar. Project management: Notion / Linear.
 
 ## Contact
 
@@ -85,64 +487,97 @@ To get a tailored quote: [Contact Designit](https://designit.co.in/contact/)
 - Email: contact@designit.co.in
 - Phone: +91 856 494 8954
 - Location: Sector 45, Noida, Uttar Pradesh 201303, India
-- [Contact form](https://designit.co.in/contact/)
+- Contact form: [Get in touch](https://designit.co.in/contact/)
+- Invoicing available in INR or USD. All client communication in English.
 
 ## Key Pages
 
 - [Homepage](https://designit.co.in/)
 - [About](https://designit.co.in/about/)
+- [Services](https://designit.co.in/services/)
+- [Industries](https://designit.co.in/industries/)
 - [Projects / Case Studies](https://designit.co.in/projects/)
 - [Pricing](https://designit.co.in/pricing/)
-- [Careers](https://designit.co.in/careers/)
-- [Industries](https://designit.co.in/industries/)
 - [Blog](https://designit.co.in/blog/)
+- [Careers](https://designit.co.in/careers/)
 - [Contact](https://designit.co.in/contact/)
 - [UI/UX Design Agency — USA](https://designit.co.in/ui-ux-design-agency-usa/)
 - [UX Design Agency — Dubai](https://designit.co.in/ux-design-agency-dubai/)
 - [UI/UX Design Agency — UK](https://designit.co.in/ui-ux-design-agency-uk/)
 
-## Blog Topics
-
-The Designit blog covers practical design insights for startup founders, product managers, and CTOs:
-
-- [Design System Cost in India (2026)](https://designit.co.in/blog/design-system-cost-india-2026/)
-- [SaaS Dashboard Design Best Practices](https://designit.co.in/blog/saas-dashboard-design-best-practices/)
-- [SaaS Onboarding UX Best Practices, India](https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/)
-- [UI/UX Design Pricing India 2026](https://designit.co.in/blog/ui-ux-design-pricing-india-2026/)
-- [Fintech UX Design Agency India](https://designit.co.in/blog/fintech-ux-design-agency-india/)
-- [AI-Driven Website Design Services India](https://designit.co.in/blog/ai-driven-website-design-services-india/)
-- [Generative AI Website Personalization](https://designit.co.in/blog/generative-ai-website-personalization/)
-- [Best AI Tools for UI/UX Designers 2026](https://designit.co.in/blog/best-ai-tools-ui-ux-designers-2026/)
-- [How AI Is Changing UX Design in India](https://designit.co.in/blog/how-ai-is-changing-ux-design-india/)
-- [How to Improve Website Conversion Rate in India](https://designit.co.in/blog/how-to-improve-website-conversion-rate-india/)
-- [CRO Strategies for B2B SaaS India](https://designit.co.in/blog/cro-strategies-for-b2b-saas-india/)
-- [Branding Services for Startups India — Cost](https://designit.co.in/blog/branding-services-for-startups-india-cost/)
-- [Landing Page Conversion Audit Services India](https://designit.co.in/blog/landing-page-conversion-audit-services-india/)
-
-- [Full blog index](https://designit.co.in/blog/)
-
 ## Frequently Asked Questions
 
-**What is Designit's approach to product design?**
-Designit is a research-led product design studio. Every engagement starts with user research and UX discovery before any interface is designed, so decisions are grounded in real user behaviour. Projects are led by senior designers throughout.
+**What does Designit do?**
+
+Designit is India's premier B2B SaaS and product design agency. We design high-conversion digital experiences — dashboards, onboarding flows, landing pages, mobile apps, and design systems — for SaaS companies, Fintech startups, and enterprise software products.
 
 **How much does Designit charge for UI/UX design?**
-Designit offers three engagement models: project-based fixed pricing (5-day sprints), monthly retainers (typically ₹1.5L–₹4L/month), and full product design engagements (4–12 weeks). [Contact us](https://designit.co.in/contact/) for a tailored quote within 24 hours.
 
-**How long does a typical project take?**
-A Design Sprint is delivered in 5 business days. A full product design engagement typically runs 4–12 weeks depending on scope.
+Designit offers three flexible engagement models. Project-based fixed pricing for defined scopes (landing pages, single-product redesigns, design sprints) — fixed price, fixed timeline. Monthly retainers for ongoing product partnerships (typically ₹1.5L–₹4L/month). Design subscriptions with a flat monthly fee and pause-anytime flexibility for early-stage startups. A tailored quote is sent within 24 hours of your discovery call.
+
+**What is Designit's approach to product design?**
+
+Designit is a research-led product design studio. Every engagement starts with user research and UX discovery before any interface is designed, ensuring decisions are grounded in real user behaviour. Our senior design team has 5+ years of experience across B2B SaaS, Fintech, and e-commerce conversion design.
 
 **Does Designit work with international clients?**
-Yes. Designit works with clients in India, the US, the UK, and the UAE. All client communication is in English. Invoicing in INR or USD.
 
-**What tools does Designit use?**
-Primary design tool: Figma. Prototyping: Figma / Protopie. Handoff: Figma Dev Mode. Research: Maze, Hotjar. Project management: Notion / Linear.
+Yes. Designit works with clients in India, the US, the UK, and the UAE. All communication is in English and invoicing is available in INR or USD.
 
-**Which industries does Designit specialise in?**
-Designit has deep expertise in B2B SaaS, Fintech & Web3, EdTech, Luxury Real Estate, E-Commerce, and Automotive HMI design. See the [industries overview](https://designit.co.in/industries/) for sector-specific case studies and approach.
+**What industries does Designit specialise in?**
+
+Designit designs products across six core sectors: B2B SaaS and enterprise tools, EdTech and digital learning platforms, Fintech and Web3 applications, Luxury Real Estate and PropTech, E-Commerce and digital retail, and Automotive HMI and smart mobility. The studio has shipped work for Adda247, StudyIQ, Tata Elxsi, Kelp Global, Betacrew, Omniyat, and LIV Residences across India, UAE, the US, and the UK.
+
+**How long does a design project take at Designit?**
+
+A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing with one active request at a time and a 24-hour response time.
+
+**Is Designit a good UI/UX design agency for startups in India?**
+
+Yes. Designit is specifically built for startups. The agency offers direct founder access, transparent pricing, 5-day delivery sprints, and a track record with funded Indian startups and global enterprise clients.
+
+## Blog
+
+The Designit blog covers practical design insights for startup founders, product managers and CTOs. Full index: [Designit Blog](https://designit.co.in/blog/)
+
+- [How to choose a product design agency](https://designit.co.in/blog/how-to-choose-a-product-design-agency/) — A practical framework for evaluating product design agencies: the questions that actually predict outcomes, the proof to demand, what engagements cost, and the cases where hiring an agency is the wrong call.
+- [UX Design for EdTech Startups in India: What Drives Enrolment, Retention, and Revenue](https://designit.co.in/blog/edtech-ux-design-india/) — The founder's guide to EdTech UX design in India. 5 design patterns that drive course completion, cut drop-offs, and turn free users to paid — with real ₹ project outcomes.
+- [Fintech KYC Onboarding UX in India: Why 63% of Users Drop Off (And How to Fix It)](https://designit.co.in/blog/fintech-onboarding-kyc-ux-india/) — 63% of Indian fintech users abandon KYC onboarding. Here's the exact UX framework to fix drop-off, satisfy RBI compliance, and 2× your conversion rate.
+- [Arabic RTL UX Design for PropTech Apps: A Dubai Founder's Guide (2026)](https://designit.co.in/blog/arabic-rtl-ux-design-proptech-uae/) — Design bilingual Arabic-English PropTech apps for UAE the right way: RTL layout principles, design system checklist, AED pricing, and real proof from Omniyat.
+- [SaaS Dashboard Design: 7 Best Practices That Reduce Churn](https://designit.co.in/blog/saas-dashboard-design-best-practices/) — Poor dashboard UX kills retention. These 7 SaaS dashboard design best practices show founders exactly what to fix to reduce churn and increase daily usage.
+- [How Much Does a Design System Cost in India? (2026 Guide)](https://designit.co.in/blog/design-system-cost-india-2026/) — Wondering about design system cost in India? This 2026 guide breaks down real pricing, what's included, and when it pays off for SaaS founders.
+- [SaaS Onboarding UX Best Practices That Reduce Drop-Off (India 2026)](https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/) — Struggling with trial drop-off? These SaaS onboarding UX best practices for India 2026 show you how to improve activation without rebuilding your product.
+- [Freelancer vs Design Agency: Which Is Right for Your Startup?](https://designit.co.in/blog/freelancer-vs-design-agency-startups/) — Freelancer vs design agency vs sprint studio — an honest 2026 comparison for India &amp; UAE founders. Cost (₹/AED), speed, and quality, plus a 4-way decision table and real conversion proof.
+- [How Much Does UI/UX Design Cost in India? (2026 Honest Guide)](https://designit.co.in/blog/ui-ux-design-pricing-india-2026/) — Real INR pricing for UI/UX design in India. Landing pages, product design, design systems, retainers — transparent numbers, no fluff.
+- [AI-Driven Website Design Services: The Next Frontier for Indian Businesses](https://designit.co.in/blog/ai-driven-website-design-services-india/) — Discover how AI-driven website design services are changing the landscape for Indian businesses. Learn how AI can optimize conversions and personalize…
+- [Using Generative AI to Improve Website Personalization and Conversion Rates](https://designit.co.in/blog/generative-ai-website-personalization/) — Learn how to use Generative AI to improve website personalization and conversion rates. Drive massive ROI for your Indian startup with dynamic UX.
+- [Best AI Tools for UI/UX Designers in 2026](https://designit.co.in/blog/best-ai-tools-ui-ux-designers-2026/) — Discover the best AI tools for UI/UX designers in 2026. From generative wireframing to AI user research, see the tools transforming the design industry.
+- [How AI is Changing UX Design for Startups in India](https://designit.co.in/blog/how-ai-is-changing-ux-design-india/) — Artificial Intelligence is completely transforming user experience. Learn how AI is changing UX design for Indian startups and why you must adapt to survive.
+- [Top CRO Strategies for B2B SaaS Companies in India](https://designit.co.in/blog/cro-strategies-for-b2b-saas-india/) — Discover the most effective Conversion Rate Optimization (CRO) strategies tailored for B2B SaaS companies in India to increase demos and free trial signups.
+- [Landing Page Conversion Audit Services: What They Are and Why You Need One](https://designit.co.in/blog/landing-page-conversion-audit-services-india/) — Discover what landing page conversion audit services include, how they identify friction points, and why Indian startups need them to scale ad ROI.
+- [UI/UX Design for UAE PropTech: The 2026 Playbook](https://designit.co.in/blog/ui-ux-design-agency-dubai-proptech/) — How UAE PropTech platforms win on experience: trust-first UX, faster off-plan flows, and investor-grade design. A 2026 playbook from a senior-led Dubai design studio.
+- [How to Improve Your Website Conversion Rate in India (Step-by-Step)](https://designit.co.in/blog/how-to-improve-website-conversion-rate-india/) — Learn actionable CRO strategies and step-by-step methods on how to improve your website conversion rate in India. Turn your traffic into high-quality leads.
+- [Fintech UX Design in India: The 2026 Trust-First Playbook](https://designit.co.in/blog/fintech-ux-design-agency-india/) — How Indian fintech startups win with trust-first UX: KYC onboarding flows, compliance-friendly design, and senior-led 5-day sprints. A 2026 playbook from a senior-led design studio.
+- [EdTech UX Design in India: The 2026 Retention-First Playbook](https://designit.co.in/blog/edtech-ux-design-agency-india/) — What to look for when hiring an EdTech design partner in India: the questions to ask, the proof that matters, typical costs and timelines, and when an agency is the wrong choice.
+- [The Ultimate Guide to B2B SaaS UI/UX Design Services in India](https://designit.co.in/blog/b2b-saas-ui-ux-design-services-india/) — Learn why specialized B2B SaaS UI/UX design services in India are critical for reducing churn, improving onboarding, and scaling your enterprise software.
+- [Why Your Website is Not Converting Visitors (And How to Fix It in India)](https://designit.co.in/blog/why-website-not-converting-visitors-india/) — Struggling with low conversion rates? Discover the top reasons why your website is not converting visitors in India and learn actionable steps to fix them…
+- [What to Expect from a Professional UI/UX Audit for Your Website in India](https://designit.co.in/blog/ui-ux-audit-for-website-india/) — Discover how a comprehensive UI/UX audit for your website in India can identify conversion blockers, fix usability issues, and drive massive ROI.
+- [A Breakdown of Branding Services for Startups in India & Their Costs](https://designit.co.in/blog/branding-services-for-startups-india-cost/) — What do branding services for startups actually include? Get a transparent breakdown of startup branding packages, deliverables, and costs in India.
+- [Landing Page Design Secrets for Maximum Lead Generation in India](https://designit.co.in/blog/landing-page-design-lead-generation-india/) — Learn the core UI/UX secrets behind high-converting landing pages for lead generation in the Indian market. Maximize your ad ROI with these proven design…
+- [Hire UI/UX Designer vs. Agency for Startups in India: Which is Better?](https://designit.co.in/blog/hire-ui-ux-designer-vs-agency-india/) — Should your startup hire a freelance UI/UX designer or an agency in India? Compare costs, scalability, and quality to make the best decision for your…
+- [Signs Your Tech Startup Desperately Needs a Rebrand in 2026](https://designit.co.in/blog/signs-your-company-needs-a-rebrand-india/) — Is your brand holding you back? Learn the top signs that your Indian tech startup needs a rebranding strategy to scale and attract enterprise clients.
+- [How Much Does UI/UX Design Cost for a Mobile App in India (2026)?](https://designit.co.in/blog/cost-ui-ux-design-mobile-app-india/) — Planning to build an app? Get a realistic breakdown of the cost of UI/UX design for a mobile app in India, including freelancer vs. agency pricing.
+- [Custom Website vs. Template: What’s the ROI for Indian Small Businesses?](https://designit.co.in/blog/custom-website-vs-template-roi-india/) — Should your Indian small business buy a $50 template or invest in a custom website design? Compare the ROI, SEO benefits, and conversion advantages.
+- [B2B Website Redesign: When and Why Indian Startups Need It](https://designit.co.in/blog/b2b-website-redesign-services-india/) — Is your B2B website holding back your enterprise sales? Discover the critical signs that indicate your Indian startup desperately needs a B2B website…
+- [How to Choose the Best Branding Agency for Tech Startups in India](https://designit.co.in/blog/best-branding-agency-tech-startups-india/) — Looking to hire a branding agency in India? Learn the key criteria to evaluate portfolios, strategies, and costs to find the best branding agency for your…
+- [Why is My Ecommerce Bounce Rate So High? (Indian Market Solutions)](https://designit.co.in/blog/why-ecommerce-bounce-rate-so-high-india/) — Struggling with high bounce rates on your ecommerce store? Discover the top UX issues driving Indian shoppers away and learn how to fix them.
+- [Visual Identity vs. Branding: A Guide for Early-Stage Founders](https://designit.co.in/blog/visual-identity-vs-branding-startups/) — Understand the critical difference between visual identity vs. branding. Learn why Indian startups need both to build trust and scale their business in 2026.
 
 ## Optional
 
-- [Full extended index (llms-full.txt)](https://designit.co.in/llms-full.txt)
+- [Full page index (llms-full.txt)](https://designit.co.in/llms-full.txt)
+- [AI crawler permissions (ai.txt)](https://designit.co.in/.well-known/ai.txt)
+- [Machine-readable summary](https://designit.co.in/ai/summary.json)
+- [Structured FAQ](https://designit.co.in/ai/faq.json)
+- [Service catalogue](https://designit.co.in/ai/service.json)
+- [Blog RSS feed](https://designit.co.in/blog/feed.xml)
 - [XML sitemap](https://designit.co.in/sitemap.xml)
-- [Blog sitemap](https://designit.co.in/blog/sitemap.xml)

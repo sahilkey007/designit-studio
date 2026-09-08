@@ -320,37 +320,57 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
     </script>
 
-    <!-- Blog schema — surfaces recent posts as citable Article entities -->
+    <!-- Blog + recent posts — surfaces the journal teasers as citable Article entities -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Blog",
-      "@id": "https://designit.co.in/blog/#blog",
-      "url": "https://designit.co.in/blog/",
-      "name": "Designit Blog",
-      "publisher": {"@id": "https://designit.co.in/#organization"},
-      "blogPost": [
+      "@graph": [
+        {
+          "@type": "Blog",
+          "@id": "https://designit.co.in/blog/#blog",
+          "url": "https://designit.co.in/blog/",
+          "name": "Designit Blog",
+          "description": "Practical UI/UX and product design insights for startup founders, product managers and CTOs.",
+          "publisher": {"@id": "https://designit.co.in/#organization"},
+          "blogPost": [
+            {"@id": "https://designit.co.in/blog/how-to-choose-a-product-design-agency/#post"},
+            {"@id": "https://designit.co.in/blog/edtech-ux-design-india/#post"},
+            {"@id": "https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/#post"}
+          ]
+        },
         {
           "@type": "BlogPosting",
+          "@id": "https://designit.co.in/blog/how-to-choose-a-product-design-agency/#post",
           "headline": "How to choose a product design agency",
           "url": "https://designit.co.in/blog/how-to-choose-a-product-design-agency/",
-          "author": {"@type": "Organization", "name": "Designit"},
+          "mainEntityOfPage": "https://designit.co.in/blog/how-to-choose-a-product-design-agency/",
+          "author": {"@id": "https://designit.co.in/#organization"},
+          "publisher": {"@id": "https://designit.co.in/#organization"},
+          "isPartOf": {"@id": "https://designit.co.in/blog/#blog"},
           "datePublished": "2026-08-11",
           "dateModified": "2026-08-11"
         },
         {
           "@type": "BlogPosting",
+          "@id": "https://designit.co.in/blog/edtech-ux-design-india/#post",
           "headline": "UX Design for EdTech Startups in India: What Drives Enrolment, Retention, and Revenue",
           "url": "https://designit.co.in/blog/edtech-ux-design-india/",
+          "mainEntityOfPage": "https://designit.co.in/blog/edtech-ux-design-india/",
           "author": {"@type": "Person", "name": "Sahil Sharma"},
+          "publisher": {"@id": "https://designit.co.in/#organization"},
+          "isPartOf": {"@id": "https://designit.co.in/blog/#blog"},
           "datePublished": "2026-06-22",
           "dateModified": "2026-06-22"
         },
         {
           "@type": "BlogPosting",
+          "@id": "https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/#post",
           "headline": "SaaS Onboarding UX Best Practices That Reduce Drop-Off (India 2026)",
           "url": "https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/",
-          "author": {"@type": "Organization", "name": "Designit"},
+          "mainEntityOfPage": "https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/",
+          "author": {"@id": "https://designit.co.in/#organization"},
+          "publisher": {"@id": "https://designit.co.in/#organization"},
+          "isPartOf": {"@id": "https://designit.co.in/blog/#blog"},
           "datePublished": "2026-05-19",
           "dateModified": "2026-05-19"
         }
