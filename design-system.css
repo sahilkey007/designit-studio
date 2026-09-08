@@ -1254,3 +1254,21 @@ h5, .text-h5 {
   .btn { padding: 12px 24px; font-size: 15px; }
   .btn-lg { padding: 14px 28px; font-size: 16px; }
 }
+
+/* Semantic list containers — these were div grids converted to ul/ol for
+   accessibility and machine readability. Reset default list presentation so
+   rendering is identical to the previous div-based markup. */
+.why-grid, .pd-process-steps, .pd-features, .pd-results-grid, .pd-meta-grid,
+.faq-list, .geo-stats, .prefooter-items, .results-grid, .meta-grid {
+  list-style: none;
+}
+.why-grid > li, .pd-process-steps > li, .pd-features > li, .pd-results-grid > li,
+.pd-meta-grid > li, .faq-list > li, .geo-stats > li, .prefooter-items > li,
+.results-grid > li, .meta-grid > li {
+  list-style: none;
+}
+
+/* blog listing: post grid converted to semantic ul/li */
+.blog-grid { list-style: none; }
+.blog-grid > li { display: flex; list-style: none; }
+.blog-grid > li > .blog-card { width: 100%; }

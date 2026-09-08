@@ -21,6 +21,9 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Perplexity-User
+Allow: /
+
 # Anthropic / Claude
 User-agent: ClaudeBot
 Allow: /
@@ -28,7 +31,16 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
-# Google AI (Gemini, SGE, AI Overviews)
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Google (organic + AI: Gemini, SGE, AI Overviews)
+User-agent: Googlebot
+Allow: /
+
 User-agent: Google-Extended
 Allow: /
 
@@ -61,6 +73,9 @@ Allow: /
 # ── Discovery files ───────────────────────────────────────────────────────────
 # llms.txt — machine-readable site summary for LLMs (https://llmstxt.org)
 # Location: https://designit.co.in/llms.txt
+# Location: https://designit.co.in/llms-full.txt
+# ai.txt — AI crawler & usage permissions (https://site.spawning.ai/ai-txt)
+# Location: https://designit.co.in/.well-known/ai.txt
 
 # ── Sitemaps ──────────────────────────────────────────────────────────────────
 Sitemap: https://designit.co.in/sitemap.xml

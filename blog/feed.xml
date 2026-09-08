@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Designit Blog</title>
+    <link>https://designit.co.in/blog/</link>
+    <atom:link href="https://designit.co.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Practical UI/UX and product design insights from Designit — B2B SaaS, Fintech, EdTech, and Real Estate design case studies and guides.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Sep 2026 09:36:28 +0000</lastBuildDate>
+    <item>
+      <title>How to choose a product design agency</title>
+      <link>https://designit.co.in/blog/how-to-choose-a-product-design-agency/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/how-to-choose-a-product-design-agency/</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description>A practical framework for evaluating product design agencies: the questions that actually predict outcomes, the proof to demand, what engagements cost, and the cases where hiring an agency is the wrong call.</description>
+    </item>
+    <item>
+      <title>UX Design for EdTech Startups in India: What Drives Enrolment, Retention, and Revenue</title>
+      <link>https://designit.co.in/blog/edtech-ux-design-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/edtech-ux-design-india/</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <description>The founder's guide to EdTech UX design in India. 5 design patterns that drive course completion, cut drop-offs, and turn free users to paid — with real ₹ project outcomes.</description>
+    </item>
+    <item>
+      <title>Fintech KYC Onboarding UX in India: Why 63% of Users Drop Off (And How to Fix It)</title>
+      <link>https://designit.co.in/blog/fintech-onboarding-kyc-ux-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/fintech-onboarding-kyc-ux-india/</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <description>63% of Indian fintech users abandon KYC onboarding. Here's the exact UX framework to fix drop-off, satisfy RBI compliance, and 2× your conversion rate.</description>
+    </item>
+    <item>
+      <title>Arabic RTL UX Design for PropTech Apps: A Dubai Founder's Guide (2026)</title>
+      <link>https://designit.co.in/blog/arabic-rtl-ux-design-proptech-uae/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/arabic-rtl-ux-design-proptech-uae/</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Design bilingual Arabic-English PropTech apps for UAE the right way: RTL layout principles, design system checklist, AED pricing, and real proof from Omniyat.</description>
+    </item>
+    <item>
+      <title>SaaS Dashboard Design: 7 Best Practices That Reduce Churn</title>
+      <link>https://designit.co.in/blog/saas-dashboard-design-best-practices/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/saas-dashboard-design-best-practices/</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Poor dashboard UX kills retention. These 7 SaaS dashboard design best practices show founders exactly what to fix to reduce churn and increase daily usage.</description>
+    </item>
+    <item>
+      <title>How Much Does a Design System Cost in India? (2026 Guide)</title>
+      <link>https://designit.co.in/blog/design-system-cost-india-2026/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/design-system-cost-india-2026/</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <description>Wondering about design system cost in India? This 2026 guide breaks down real pricing, what's included, and when it pays off for SaaS founders.</description>
+    </item>
+    <item>
+      <title>SaaS Onboarding UX Best Practices That Reduce Drop-Off (India 2026)</title>
+      <link>https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <description>Struggling with trial drop-off? These SaaS onboarding UX best practices for India 2026 show you how to improve activation without rebuilding your product.</description>
+    </item>
+    <item>
+      <title>Freelancer vs Design Agency: Which Is Right for Your Startup?</title>
+      <link>https://designit.co.in/blog/freelancer-vs-design-agency-startups/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/freelancer-vs-design-agency-startups/</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <description>Freelancer vs design agency vs sprint studio — an honest 2026 comparison for India &amp;amp; UAE founders. Cost (₹/AED), speed, and quality, plus a 4-way decision table and real conversion proof.</description>
+    </item>
+    <item>
+      <title>How Much Does UI/UX Design Cost in India? (2026 Honest Guide)</title>
+      <link>https://designit.co.in/blog/ui-ux-design-pricing-india-2026/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/ui-ux-design-pricing-india-2026/</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>Real INR pricing for UI/UX design in India. Landing pages, product design, design systems, retainers — transparent numbers, no fluff.</description>
+    </item>
+    <item>
+      <title>AI-Driven Website Design Services: The Next Frontier for Indian Businesses</title>
+      <link>https://designit.co.in/blog/ai-driven-website-design-services-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/ai-driven-website-design-services-india/</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <description>Discover how AI-driven website design services are changing the landscape for Indian businesses. Learn how AI can optimize conversions and personalize…</description>
+    </item>
+    <item>
+      <title>Using Generative AI to Improve Website Personalization and Conversion Rates</title>
+      <link>https://designit.co.in/blog/generative-ai-website-personalization/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/generative-ai-website-personalization/</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <description>Learn how to use Generative AI to improve website personalization and conversion rates. Drive massive ROI for your Indian startup with dynamic UX.</description>
+    </item>
+    <item>
+      <title>Best AI Tools for UI/UX Designers in 2026</title>
+      <link>https://designit.co.in/blog/best-ai-tools-ui-ux-designers-2026/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/best-ai-tools-ui-ux-designers-2026/</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <description>Discover the best AI tools for UI/UX designers in 2026. From generative wireframing to AI user research, see the tools transforming the design industry.</description>
+    </item>
+    <item>
+      <title>How AI is Changing UX Design for Startups in India</title>
+      <link>https://designit.co.in/blog/how-ai-is-changing-ux-design-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/how-ai-is-changing-ux-design-india/</guid>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Artificial Intelligence is completely transforming user experience. Learn how AI is changing UX design for Indian startups and why you must adapt to survive.</description>
+    </item>
+    <item>
+      <title>Top CRO Strategies for B2B SaaS Companies in India</title>
+      <link>https://designit.co.in/blog/cro-strategies-for-b2b-saas-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/cro-strategies-for-b2b-saas-india/</guid>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <description>Discover the most effective Conversion Rate Optimization (CRO) strategies tailored for B2B SaaS companies in India to increase demos and free trial signups.</description>
+    </item>
+    <item>
+      <title>Landing Page Conversion Audit Services: What They Are and Why You Need One</title>
+      <link>https://designit.co.in/blog/landing-page-conversion-audit-services-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/landing-page-conversion-audit-services-india/</guid>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Discover what landing page conversion audit services include, how they identify friction points, and why Indian startups need them to scale ad ROI.</description>
+    </item>
+    <item>
+      <title>UI/UX Design for UAE PropTech: The 2026 Playbook</title>
+      <link>https://designit.co.in/blog/ui-ux-design-agency-dubai-proptech/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/ui-ux-design-agency-dubai-proptech/</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <description>How UAE PropTech platforms win on experience: trust-first UX, faster off-plan flows, and investor-grade design. A 2026 playbook from a senior-led Dubai design studio.</description>
+    </item>
+    <item>
+      <title>How to Improve Your Website Conversion Rate in India (Step-by-Step)</title>
+      <link>https://designit.co.in/blog/how-to-improve-website-conversion-rate-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/how-to-improve-website-conversion-rate-india/</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Learn actionable CRO strategies and step-by-step methods on how to improve your website conversion rate in India. Turn your traffic into high-quality leads.</description>
+    </item>
+    <item>
+      <title>Fintech UX Design in India: The 2026 Trust-First Playbook</title>
+      <link>https://designit.co.in/blog/fintech-ux-design-agency-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/fintech-ux-design-agency-india/</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <description>How Indian fintech startups win with trust-first UX: KYC onboarding flows, compliance-friendly design, and senior-led 5-day sprints. A 2026 playbook from a senior-led design studio.</description>
+    </item>
+    <item>
+      <title>EdTech UX Design in India: The 2026 Retention-First Playbook</title>
+      <link>https://designit.co.in/blog/edtech-ux-design-agency-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/edtech-ux-design-agency-india/</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <description>What to look for when hiring an EdTech design partner in India: the questions to ask, the proof that matters, typical costs and timelines, and when an agency is the wrong choice.</description>
+    </item>
+    <item>
+      <title>The Ultimate Guide to B2B SaaS UI/UX Design Services in India</title>
+      <link>https://designit.co.in/blog/b2b-saas-ui-ux-design-services-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/b2b-saas-ui-ux-design-services-india/</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Learn why specialized B2B SaaS UI/UX design services in India are critical for reducing churn, improving onboarding, and scaling your enterprise software.</description>
+    </item>
+    <item>
+      <title>Why Your Website is Not Converting Visitors (And How to Fix It in India)</title>
+      <link>https://designit.co.in/blog/why-website-not-converting-visitors-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/why-website-not-converting-visitors-india/</guid>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Struggling with low conversion rates? Discover the top reasons why your website is not converting visitors in India and learn actionable steps to fix them…</description>
+    </item>
+    <item>
+      <title>What to Expect from a Professional UI/UX Audit for Your Website in India</title>
+      <link>https://designit.co.in/blog/ui-ux-audit-for-website-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/ui-ux-audit-for-website-india/</guid>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <description>Discover how a comprehensive UI/UX audit for your website in India can identify conversion blockers, fix usability issues, and drive massive ROI.</description>
+    </item>
+    <item>
+      <title>A Breakdown of Branding Services for Startups in India &amp; Their Costs</title>
+      <link>https://designit.co.in/blog/branding-services-for-startups-india-cost/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/branding-services-for-startups-india-cost/</guid>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <description>What do branding services for startups actually include? Get a transparent breakdown of startup branding packages, deliverables, and costs in India.</description>
+    </item>
+    <item>
+      <title>Landing Page Design Secrets for Maximum Lead Generation in India</title>
+      <link>https://designit.co.in/blog/landing-page-design-lead-generation-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/landing-page-design-lead-generation-india/</guid>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <description>Learn the core UI/UX secrets behind high-converting landing pages for lead generation in the Indian market. Maximize your ad ROI with these proven design…</description>
+    </item>
+    <item>
+      <title>Hire UI/UX Designer vs. Agency for Startups in India: Which is Better?</title>
+      <link>https://designit.co.in/blog/hire-ui-ux-designer-vs-agency-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/hire-ui-ux-designer-vs-agency-india/</guid>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <description>Should your startup hire a freelance UI/UX designer or an agency in India? Compare costs, scalability, and quality to make the best decision for your…</description>
+    </item>
+    <item>
+      <title>Signs Your Tech Startup Desperately Needs a Rebrand in 2026</title>
+      <link>https://designit.co.in/blog/signs-your-company-needs-a-rebrand-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/signs-your-company-needs-a-rebrand-india/</guid>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <description>Is your brand holding you back? Learn the top signs that your Indian tech startup needs a rebranding strategy to scale and attract enterprise clients.</description>
+    </item>
+    <item>
+      <title>How Much Does UI/UX Design Cost for a Mobile App in India (2026)?</title>
+      <link>https://designit.co.in/blog/cost-ui-ux-design-mobile-app-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/cost-ui-ux-design-mobile-app-india/</guid>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <description>Planning to build an app? Get a realistic breakdown of the cost of UI/UX design for a mobile app in India, including freelancer vs. agency pricing.</description>
+    </item>
+    <item>
+      <title>Custom Website vs. Template: What’s the ROI for Indian Small Businesses?</title>
+      <link>https://designit.co.in/blog/custom-website-vs-template-roi-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/custom-website-vs-template-roi-india/</guid>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <description>Should your Indian small business buy a $50 template or invest in a custom website design? Compare the ROI, SEO benefits, and conversion advantages.</description>
+    </item>
+    <item>
+      <title>B2B Website Redesign: When and Why Indian Startups Need It</title>
+      <link>https://designit.co.in/blog/b2b-website-redesign-services-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/b2b-website-redesign-services-india/</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <description>Is your B2B website holding back your enterprise sales? Discover the critical signs that indicate your Indian startup desperately needs a B2B website…</description>
+    </item>
+    <item>
+      <title>How to Choose the Best Branding Agency for Tech Startups in India</title>
+      <link>https://designit.co.in/blog/best-branding-agency-tech-startups-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/best-branding-agency-tech-startups-india/</guid>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <description>Looking to hire a branding agency in India? Learn the key criteria to evaluate portfolios, strategies, and costs to find the best branding agency for your…</description>
+    </item>
+    <item>
+      <title>Why is My Ecommerce Bounce Rate So High? (Indian Market Solutions)</title>
+      <link>https://designit.co.in/blog/why-ecommerce-bounce-rate-so-high-india/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/why-ecommerce-bounce-rate-so-high-india/</guid>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <description>Struggling with high bounce rates on your ecommerce store? Discover the top UX issues driving Indian shoppers away and learn how to fix them.</description>
+    </item>
+    <item>
+      <title>Visual Identity vs. Branding: A Guide for Early-Stage Founders</title>
+      <link>https://designit.co.in/blog/visual-identity-vs-branding-startups/</link>
+      <guid isPermaLink="true">https://designit.co.in/blog/visual-identity-vs-branding-startups/</guid>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <description>Understand the critical difference between visual identity vs. branding. Learn why Indian startups need both to build trust and scale their business in 2026.</description>
+    </item>
+  </channel>
+</rss>

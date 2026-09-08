@@ -24,7 +24,7 @@ Designit follows a research-first methodology: user research and UX discovery, t
 
 Designit is led by a senior design team with 5+ years of experience in B2B SaaS and e-commerce conversion design. Clients work directly with senior designers throughout.
 
-LinkedIn: https://www.linkedin.com/in/sahilnsharma
+- [Sahil Sharma on LinkedIn](https://www.linkedin.com/in/sahilnsharma)
 
 ## Industries Served
 
@@ -37,30 +37,39 @@ Designit has deep domain expertise across six sectors:
 5. **E-Commerce & Digital Retail** — Purchase journey optimisation, PDP design, checkout flows, and retention experiences.
 6. **Automotive & Smart Mobility** — HMI systems and digital instrument clusters for connected vehicles. Key clients: Tata Elxsi.
 
-Industry detail pages: https://designit.co.in/industries/
+- [Industries overview](https://designit.co.in/industries/)
+- [B2B SaaS](https://designit.co.in/industries/b2b-saas/)
+- [Fintech](https://designit.co.in/industries/fintech/)
+- [EdTech](https://designit.co.in/industries/edtech/)
+- [Real Estate](https://designit.co.in/industries/real-estate/)
+- [E-Commerce](https://designit.co.in/industries/e-commerce/)
+- [Automotive](https://designit.co.in/industries/automotive/)
 
 ## Clients and Case Studies
 
 Designit has delivered measurable results for:
 
-- **Adda 247** — India's largest competitive exam platform. Complete UI/UX transformation across test series, live classes, performance analytics, community features, and cross-platform expansion.
-- **Betacrew** — Technology startup. Product design for Portle, a unified workspace tool.
-- **Kelp Global** — PropTech / real estate. Designed the Deals Module, Kelp Plugin, and TrueNorth advisory platform.
-- **Rcentric** — Luxury real estate. UI/UX for premium property brands including Liv, Orla Infinity, Opus, Vela Viento, and ANWA Aria.
-- **Tata Elxsi** — Automotive HMI. Designed in-car infotainment systems and digital instrument clusters.
-- **Omniyat** — Ultra-premium Dubai real estate developer.
+- **Adda 247** — India's largest competitive exam platform. Complete UI/UX transformation across test series, live classes, performance analytics, community features, and cross-platform expansion. → [Case study](https://designit.co.in/projects/adda247/)
+- **Betacrew** — Technology startup. Product design for Portle, a unified workspace tool. → [Case study](https://designit.co.in/projects/betacrew/)
+- **Kelp Global** — PropTech / real estate. Designed the Deals Module, Kelp Plugin, and TrueNorth advisory platform. → [Case study](https://designit.co.in/projects/kelp-global/)
+- **Rcentric** — Luxury real estate. UI/UX for premium property brands including Liv, Orla Infinity, Opus, Vela Viento, and ANWA Aria. → [Case study](https://designit.co.in/projects/rcentric/)
+- **Tata Elxsi** — Automotive HMI. Designed in-car infotainment systems and digital instrument clusters. → [Case study](https://designit.co.in/projects/tata-elxsi/)
+
+- [All projects](https://designit.co.in/projects/)
 
 ## Services
 
 Designit offers seven core service lines:
 
-1. **UI/UX Product Design** — End-to-end product design from research to high-fidelity UI for web and mobile platforms.
-2. **Design System Development** — Scalable, documented design systems with component libraries and design tokens.
-3. **SaaS Strategy & Consulting** — Growth experiments to complete product overhauls, backed by data.
-4. **UX Research & Discovery** — User interviews, journey mapping, usability testing, and data synthesis.
-5. **UX Design Audit & Analysis** — Comprehensive audit with prioritised recommendations to improve conversions and retention.
-6. **Digital Prototyping & Validation** — Interactive prototypes and live demos to validate before development.
-7. **Digital Branding & Identity** — Visual identity systems, brand guidelines, and marketing asset production.
+1. **UI/UX Product Design** — End-to-end product design from research to high-fidelity UI for web and mobile platforms. → [Learn more](https://designit.co.in/services/ui-ux-design/)
+2. **Design System Development** — Scalable, documented design systems with component libraries and design tokens. → [Learn more](https://designit.co.in/services/design-systems/)
+3. **SaaS Strategy & Consulting** — Growth experiments to complete product overhauls, backed by data. → [Learn more](https://designit.co.in/services/saas-product-design/)
+4. **UX Research & Discovery** — User interviews, journey mapping, usability testing, and data synthesis. → [Learn more](https://designit.co.in/services/ux-research/)
+5. **UX Design Audit & Analysis** — Comprehensive audit with prioritised recommendations to improve conversions and retention. → [Learn more](https://designit.co.in/services/ux-audit/)
+6. **Digital Prototyping & Validation** — Interactive prototypes and live demos to validate before development. → [Learn more](https://designit.co.in/services/product-design/)
+7. **Digital Branding & Identity** — Visual identity systems, brand guidelines, and marketing asset production. → [Learn more](https://designit.co.in/services/)
+
+- [All services](https://designit.co.in/services/)
 
 ## Engagement Models
 
@@ -68,44 +77,49 @@ Designit offers seven core service lines:
 - **Monthly Retainer** — Ongoing design partnership. One active request at a time, 24-hour response time, direct senior-designer access, NDA on request, source Figma files included, 14-day post-handoff support.
 - **Full Product Design** — End-to-end product design from research through to design system and handoff.
 
-To get a tailored quote: https://designit.co.in/contact
+To get a tailored quote: [Contact Designit](https://designit.co.in/contact/)
 
 ## Contact
 
-- Website: https://designit.co.in/
+- Website: [designit.co.in](https://designit.co.in/)
 - Email: contact@designit.co.in
 - Phone: +91 856 494 8954
 - Location: Sector 45, Noida, Uttar Pradesh 201303, India
-- Contact form: https://designit.co.in/contact
+- [Contact form](https://designit.co.in/contact/)
 
 ## Key Pages
 
-- Homepage: https://designit.co.in/
-- About: https://designit.co.in/about
-- Projects / Case Studies: https://designit.co.in/projects
-- Industries: https://designit.co.in/industries/
-  - B2B SaaS: https://designit.co.in/industries/b2b-saas/
-  - Fintech: https://designit.co.in/industries/fintech/
-  - EdTech: https://designit.co.in/industries/edtech/
-  - Real Estate: https://designit.co.in/industries/real-estate/
-  - E-Commerce: https://designit.co.in/industries/e-commerce/
-  - Automotive: https://designit.co.in/industries/automotive/
-- Blog: https://designit.co.in/blog/
-- Contact: https://designit.co.in/contact
+- [Homepage](https://designit.co.in/)
+- [About](https://designit.co.in/about/)
+- [Projects / Case Studies](https://designit.co.in/projects/)
+- [Pricing](https://designit.co.in/pricing/)
+- [Careers](https://designit.co.in/careers/)
+- [Industries](https://designit.co.in/industries/)
+- [Blog](https://designit.co.in/blog/)
+- [Contact](https://designit.co.in/contact/)
+- [UI/UX Design Agency — USA](https://designit.co.in/ui-ux-design-agency-usa/)
+- [UX Design Agency — Dubai](https://designit.co.in/ux-design-agency-dubai/)
+- [UI/UX Design Agency — UK](https://designit.co.in/ui-ux-design-agency-uk/)
 
 ## Blog Topics
 
 The Designit blog covers practical design insights for startup founders, product managers, and CTOs:
 
-- B2B SaaS UI/UX design best practices
-- Conversion rate optimisation strategies
-- Website redesign ROI guides
-- AI tools for UI/UX designers
-- Branding for tech startups
-- Hiring design agencies vs. freelancers in India
-- Landing page design and lead generation
+- [Design System Cost in India (2026)](https://designit.co.in/blog/design-system-cost-india-2026/)
+- [SaaS Dashboard Design Best Practices](https://designit.co.in/blog/saas-dashboard-design-best-practices/)
+- [SaaS Onboarding UX Best Practices, India](https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/)
+- [UI/UX Design Pricing India 2026](https://designit.co.in/blog/ui-ux-design-pricing-india-2026/)
+- [Fintech UX Design Agency India](https://designit.co.in/blog/fintech-ux-design-agency-india/)
+- [AI-Driven Website Design Services India](https://designit.co.in/blog/ai-driven-website-design-services-india/)
+- [Generative AI Website Personalization](https://designit.co.in/blog/generative-ai-website-personalization/)
+- [Best AI Tools for UI/UX Designers 2026](https://designit.co.in/blog/best-ai-tools-ui-ux-designers-2026/)
+- [How AI Is Changing UX Design in India](https://designit.co.in/blog/how-ai-is-changing-ux-design-india/)
+- [How to Improve Website Conversion Rate in India](https://designit.co.in/blog/how-to-improve-website-conversion-rate-india/)
+- [CRO Strategies for B2B SaaS India](https://designit.co.in/blog/cro-strategies-for-b2b-saas-india/)
+- [Branding Services for Startups India — Cost](https://designit.co.in/blog/branding-services-for-startups-india-cost/)
+- [Landing Page Conversion Audit Services India](https://designit.co.in/blog/landing-page-conversion-audit-services-india/)
 
-Full blog index: https://designit.co.in/blog/
+- [Full blog index](https://designit.co.in/blog/)
 
 ## Frequently Asked Questions
 
@@ -113,7 +127,7 @@ Full blog index: https://designit.co.in/blog/
 Designit is a research-led product design studio. Every engagement starts with user research and UX discovery before any interface is designed, so decisions are grounded in real user behaviour. Projects are led by senior designers throughout.
 
 **How much does Designit charge for UI/UX design?**
-Designit offers three engagement models: project-based fixed pricing (5-day sprints), monthly retainers (typically ₹1.5L–₹4L/month), and full product design engagements (4–12 weeks). Contact us at https://designit.co.in/contact for a tailored quote within 24 hours.
+Designit offers three engagement models: project-based fixed pricing (5-day sprints), monthly retainers (typically ₹1.5L–₹4L/month), and full product design engagements (4–12 weeks). [Contact us](https://designit.co.in/contact/) for a tailored quote within 24 hours.
 
 **How long does a typical project take?**
 A Design Sprint is delivered in 5 business days. A full product design engagement typically runs 4–12 weeks depending on scope.
@@ -125,4 +139,10 @@ Yes. Designit works with clients in India, the US, the UK, and the UAE. All clie
 Primary design tool: Figma. Prototyping: Figma / Protopie. Handoff: Figma Dev Mode. Research: Maze, Hotjar. Project management: Notion / Linear.
 
 **Which industries does Designit specialise in?**
-Designit has deep expertise in B2B SaaS, Fintech & Web3, EdTech, Luxury Real Estate, E-Commerce, and Automotive HMI design. See https://designit.co.in/industries/ for sector-specific case studies and approach.
+Designit has deep expertise in B2B SaaS, Fintech & Web3, EdTech, Luxury Real Estate, E-Commerce, and Automotive HMI design. See the [industries overview](https://designit.co.in/industries/) for sector-specific case studies and approach.
+
+## Optional
+
+- [Full extended index (llms-full.txt)](https://designit.co.in/llms-full.txt)
+- [XML sitemap](https://designit.co.in/sitemap.xml)
+- [Blog sitemap](https://designit.co.in/blog/sitemap.xml)

@@ -1,0 +1,145 @@
+# Designit — Full Site Index (llms-full.txt)
+
+> Extended companion to /llms.txt per the llms.txt spec (https://llmstxt.org). Complete list of indexable pages on designit.co.in.
+
+## Home
+
+- [Designit.Co.In](https://designit.co.in/)
+
+## About
+
+- [About](https://designit.co.in/about/)
+
+## Projects
+
+- [Projects](https://designit.co.in/projects/)
+- [Adda247](https://designit.co.in/projects/adda247/)
+- [Rcentric](https://designit.co.in/projects/rcentric/)
+- [Kelp Global](https://designit.co.in/projects/kelp-global/)
+- [Betacrew](https://designit.co.in/projects/betacrew/)
+- [Tata Elxsi](https://designit.co.in/projects/tata-elxsi/)
+- [Community](https://designit.co.in/projects/adda247/community/)
+- [Homepage Revamp](https://designit.co.in/projects/adda247/homepage-revamp/)
+- [Ios App](https://designit.co.in/projects/adda247/ios-app/)
+- [Live Class](https://designit.co.in/projects/adda247/live-class/)
+- [My Content](https://designit.co.in/projects/adda247/my-content/)
+- [Performance Dashboard](https://designit.co.in/projects/adda247/performance-dashboard/)
+- [Sankalp Bharat](https://designit.co.in/projects/adda247/sankalp-bharat/)
+- [Studio App](https://designit.co.in/projects/adda247/studio-app/)
+- [Test Series](https://designit.co.in/projects/adda247/test-series/)
+- [Anwa Aria](https://designit.co.in/projects/rcentric/anwa-aria/)
+- [Ela](https://designit.co.in/projects/rcentric/ela/)
+- [Liv Reside](https://designit.co.in/projects/rcentric/liv-reside/)
+- [Liv](https://designit.co.in/projects/rcentric/liv/)
+- [Opus](https://designit.co.in/projects/rcentric/opus/)
+- [Orla Infinity](https://designit.co.in/projects/rcentric/orla-infinity/)
+- [Vela Viento](https://designit.co.in/projects/rcentric/vela-viento/)
+- [Deals Module](https://designit.co.in/projects/kelp-global/deals-module/)
+- [Kelp Plugin](https://designit.co.in/projects/kelp-global/kelp-plugin/)
+- [Truenorth](https://designit.co.in/projects/kelp-global/truenorth/)
+- [Portle](https://designit.co.in/projects/betacrew/portle/)
+- [Infotainment](https://designit.co.in/projects/tata-elxsi/infotainment/)
+- [Instrument Cluster](https://designit.co.in/projects/tata-elxsi/instrument-cluster/)
+
+## Pricing
+
+- [Pricing](https://designit.co.in/pricing/)
+
+## Careers
+
+- [Careers](https://designit.co.in/careers/)
+
+## Services
+
+- [Services](https://designit.co.in/services/)
+- [Saas Product Design](https://designit.co.in/services/saas-product-design/)
+- [Ux Audit](https://designit.co.in/services/ux-audit/)
+- [Product Design](https://designit.co.in/services/product-design/)
+- [Ui Ux Design](https://designit.co.in/services/ui-ux-design/)
+- [Design Systems](https://designit.co.in/services/design-systems/)
+- [Ux Research](https://designit.co.in/services/ux-research/)
+
+## Industries
+
+- [Industries](https://designit.co.in/industries/)
+- [B2B Saas](https://designit.co.in/industries/b2b-saas/)
+- [Fintech](https://designit.co.in/industries/fintech/)
+- [Edtech](https://designit.co.in/industries/edtech/)
+- [Real Estate](https://designit.co.in/industries/real-estate/)
+- [E Commerce](https://designit.co.in/industries/e-commerce/)
+- [Automotive](https://designit.co.in/industries/automotive/)
+
+## Blog
+
+- [Blog](https://designit.co.in/blog/)
+- [Fintech Ux Design Agency India](https://designit.co.in/blog/fintech-ux-design-agency-india/)
+- [Design System Cost India 2026](https://designit.co.in/blog/design-system-cost-india-2026/)
+- [Saas Onboarding Ux Best Practices India](https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/)
+- [Ui Ux Design Pricing India 2026](https://designit.co.in/blog/ui-ux-design-pricing-india-2026/)
+- [Ai Driven Website Design Services India](https://designit.co.in/blog/ai-driven-website-design-services-india/)
+- [Generative Ai Website Personalization](https://designit.co.in/blog/generative-ai-website-personalization/)
+- [Best Ai Tools Ui Ux Designers 2026](https://designit.co.in/blog/best-ai-tools-ui-ux-designers-2026/)
+- [How Ai Is Changing Ux Design India](https://designit.co.in/blog/how-ai-is-changing-ux-design-india/)
+- [How To Improve Website Conversion Rate India](https://designit.co.in/blog/how-to-improve-website-conversion-rate-india/)
+- [Cro Strategies For B2B Saas India](https://designit.co.in/blog/cro-strategies-for-b2b-saas-india/)
+- [B2B Saas Ui Ux Design Services India](https://designit.co.in/blog/b2b-saas-ui-ux-design-services-india/)
+- [Landing Page Conversion Audit Services India](https://designit.co.in/blog/landing-page-conversion-audit-services-india/)
+- [Why Website Not Converting Visitors India](https://designit.co.in/blog/why-website-not-converting-visitors-india/)
+- [Ui Ux Audit For Website India](https://designit.co.in/blog/ui-ux-audit-for-website-india/)
+- [Branding Services For Startups India Cost](https://designit.co.in/blog/branding-services-for-startups-india-cost/)
+- [Landing Page Design Lead Generation India](https://designit.co.in/blog/landing-page-design-lead-generation-india/)
+- [Hire Ui Ux Designer Vs Agency India](https://designit.co.in/blog/hire-ui-ux-designer-vs-agency-india/)
+- [Signs Your Company Needs A Rebrand India](https://designit.co.in/blog/signs-your-company-needs-a-rebrand-india/)
+- [Cost Ui Ux Design Mobile App India](https://designit.co.in/blog/cost-ui-ux-design-mobile-app-india/)
+- [Custom Website Vs Template Roi India](https://designit.co.in/blog/custom-website-vs-template-roi-india/)
+- [B2B Website Redesign Services India](https://designit.co.in/blog/b2b-website-redesign-services-india/)
+- [Best Branding Agency Tech Startups India](https://designit.co.in/blog/best-branding-agency-tech-startups-india/)
+- [Why Ecommerce Bounce Rate So High India](https://designit.co.in/blog/why-ecommerce-bounce-rate-so-high-india/)
+- [Visual Identity Vs Branding Startups](https://designit.co.in/blog/visual-identity-vs-branding-startups/)
+- [Freelancer Vs Design Agency Startups](https://designit.co.in/blog/freelancer-vs-design-agency-startups/)
+- [Saas Dashboard Design Best Practices](https://designit.co.in/blog/saas-dashboard-design-best-practices/)
+- [Arabic Rtl Ux Design Proptech Uae](https://designit.co.in/blog/arabic-rtl-ux-design-proptech-uae/)
+- [Blog](https://designit.co.in/blog/)
+- [Ai Driven Website Design Services India](https://designit.co.in/blog/ai-driven-website-design-services-india/)
+- [B2B Saas Ui Ux Design Services India](https://designit.co.in/blog/b2b-saas-ui-ux-design-services-india/)
+- [B2B Website Redesign Services India](https://designit.co.in/blog/b2b-website-redesign-services-india/)
+- [Best Ai Tools Ui Ux Designers 2026](https://designit.co.in/blog/best-ai-tools-ui-ux-designers-2026/)
+- [Best Branding Agency Tech Startups India](https://designit.co.in/blog/best-branding-agency-tech-startups-india/)
+- [Branding Services For Startups India Cost](https://designit.co.in/blog/branding-services-for-startups-india-cost/)
+- [Cost Ui Ux Design Mobile App India](https://designit.co.in/blog/cost-ui-ux-design-mobile-app-india/)
+- [Cro Strategies For B2B Saas India](https://designit.co.in/blog/cro-strategies-for-b2b-saas-india/)
+- [Custom Website Vs Template Roi India](https://designit.co.in/blog/custom-website-vs-template-roi-india/)
+- [Generative Ai Website Personalization](https://designit.co.in/blog/generative-ai-website-personalization/)
+- [Hire Ui Ux Designer Vs Agency India](https://designit.co.in/blog/hire-ui-ux-designer-vs-agency-india/)
+- [How Ai Is Changing Ux Design India](https://designit.co.in/blog/how-ai-is-changing-ux-design-india/)
+- [How To Improve Website Conversion Rate India](https://designit.co.in/blog/how-to-improve-website-conversion-rate-india/)
+- [Landing Page Conversion Audit Services India](https://designit.co.in/blog/landing-page-conversion-audit-services-india/)
+- [Landing Page Design Lead Generation India](https://designit.co.in/blog/landing-page-design-lead-generation-india/)
+- [Signs Your Company Needs A Rebrand India](https://designit.co.in/blog/signs-your-company-needs-a-rebrand-india/)
+- [Ui Ux Audit For Website India](https://designit.co.in/blog/ui-ux-audit-for-website-india/)
+- [Visual Identity Vs Branding Startups](https://designit.co.in/blog/visual-identity-vs-branding-startups/)
+- [Why Ecommerce Bounce Rate So High India](https://designit.co.in/blog/why-ecommerce-bounce-rate-so-high-india/)
+- [Why Website Not Converting Visitors India](https://designit.co.in/blog/why-website-not-converting-visitors-india/)
+- [Arabic Rtl Ux Design Proptech Uae](https://designit.co.in/blog/arabic-rtl-ux-design-proptech-uae/)
+- [Fintech Onboarding Kyc Ux India](https://designit.co.in/blog/fintech-onboarding-kyc-ux-india/)
+- [Edtech Ux Design Agency India](https://designit.co.in/blog/edtech-ux-design-agency-india/)
+- [Ui Ux Design Agency Dubai Proptech](https://designit.co.in/blog/ui-ux-design-agency-dubai-proptech/)
+- [How To Choose A Product Design Agency](https://designit.co.in/blog/how-to-choose-a-product-design-agency/)
+- [Edtech Ux Design India](https://designit.co.in/blog/edtech-ux-design-india/)
+
+## Contact
+
+- [Contact](https://designit.co.in/contact/)
+
+## Ui Ux Design Agency Usa
+
+- [Ui Ux Design Agency Usa](https://designit.co.in/ui-ux-design-agency-usa/)
+
+## Ux Design Agency Dubai
+
+- [Ux Design Agency Dubai](https://designit.co.in/ux-design-agency-dubai/)
+
+## Ui Ux Design Agency Uk
+
+- [Ui Ux Design Agency Uk](https://designit.co.in/ui-ux-design-agency-uk/)
+
