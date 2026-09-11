@@ -108,63 +108,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- Blog + recent posts — surfaces the journal teasers as citable Article entities -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "Blog",
+      "@id": "https://designit.co.in/blog/#blog",
+      "url": "https://designit.co.in/blog/",
+      "name": "Designit Blog",
+      "description": "Practical UI/UX and product design insights for startup founders, product managers and CTOs.",
+      "publisher": {
+        "@id": "https://designit.co.in/#organization"
+      },
+      "blogPost": [
         {
-          "@type": "Blog",
-          "@id": "https://designit.co.in/blog/#blog",
-          "url": "https://designit.co.in/blog/",
-          "name": "Designit Blog",
-          "description": "Practical UI/UX and product design insights for startup founders, product managers and CTOs.",
-          "publisher": {"@id": "https://designit.co.in/#organization"},
-          "blogPost": [
-            {"@id": "https://designit.co.in/blog/how-to-choose-a-product-design-agency/#post"},
-            {"@id": "https://designit.co.in/blog/edtech-ux-design-india/#post"},
-            {"@id": "https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/#post"}
-          ]
+          "@id": "https://designit.co.in/blog/how-to-choose-a-product-design-agency/#post"
         },
         {
-          "@type": "BlogPosting",
-          "@id": "https://designit.co.in/blog/how-to-choose-a-product-design-agency/#post",
-          "headline": "How to choose a product design agency",
-          "url": "https://designit.co.in/blog/how-to-choose-a-product-design-agency/",
-          "mainEntityOfPage": "https://designit.co.in/blog/how-to-choose-a-product-design-agency/",
-          "author": {"@id": "https://designit.co.in/#organization"},
-          "publisher": {"@id": "https://designit.co.in/#organization"},
-          "isPartOf": {"@id": "https://designit.co.in/blog/#blog"},
-          "datePublished": "2026-08-11",
-          "dateModified": "2026-08-11"
+          "@id": "https://designit.co.in/blog/edtech-ux-design-india/#post"
         },
         {
-          "@type": "BlogPosting",
-          "@id": "https://designit.co.in/blog/edtech-ux-design-india/#post",
-          "headline": "UX Design for EdTech Startups in India: What Drives Enrolment, Retention, and Revenue",
-          "url": "https://designit.co.in/blog/edtech-ux-design-india/",
-          "mainEntityOfPage": "https://designit.co.in/blog/edtech-ux-design-india/",
-          "author": {"@type": "Person", "name": "Sahil Sharma"},
-          "publisher": {"@id": "https://designit.co.in/#organization"},
-          "isPartOf": {"@id": "https://designit.co.in/blog/#blog"},
-          "datePublished": "2026-06-22",
-          "dateModified": "2026-06-22"
-        },
-        {
-          "@type": "BlogPosting",
-          "@id": "https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/#post",
-          "headline": "SaaS Onboarding UX Best Practices That Reduce Drop-Off (India 2026)",
-          "url": "https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/",
-          "mainEntityOfPage": "https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/",
-          "author": {"@id": "https://designit.co.in/#organization"},
-          "publisher": {"@id": "https://designit.co.in/#organization"},
-          "isPartOf": {"@id": "https://designit.co.in/blog/#blog"},
-          "datePublished": "2026-05-19",
-          "dateModified": "2026-05-19"
+          "@id": "https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/#post"
         }
       ]
     }
-    </script>
-
-    <!-- Performance: DNS prefetch + preconnect -->
+  ]
+}
+</script>
+<!-- Performance: DNS prefetch + preconnect -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -668,7 +639,7 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
         "@id": "https://designit.co.in/#organization"
       },
       "inLanguage": "en",
-      "dateModified": "2026-09-11T09:00:32Z"
+      "dateModified": "2026-09-11T09:27:27Z"
     },
     {
       "@type": "Article",
@@ -690,7 +661,7 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
       },
       "inLanguage": "en",
       "datePublished": "2026-01-15",
-      "dateModified": "2026-09-11T09:00:32Z"
+      "dateModified": "2026-09-11T09:27:27Z"
     },
     {
       "@type": "FAQPage",
@@ -804,6 +775,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="geo-glance-list"><li>98% Client Satisfaction Rate</li><li>2x Average Conversion Lift</li><li>50+ Products Shipped</li><li>6 Industries Served</li></ul>
             </div>
         </section>
+
 
 
         <!-- Logo Ticker -->

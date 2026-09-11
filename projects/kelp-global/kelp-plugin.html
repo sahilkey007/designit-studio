@@ -49,30 +49,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:image" content="https://designit.co.in/og-preview.jpg">
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "BreadcrumbList",
+      "itemListElement": [
         {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://designit.co.in/"},
-            {"@type": "ListItem", "position": 2, "name": "Projects", "item": "https://designit.co.in/projects/"},
-            {"@type": "ListItem", "position": 3, "name": "Kelp Global", "item": "https://designit.co.in/projects/kelp-global/"},
-            {"@type": "ListItem", "position": 4, "name": "Kelp Plugin", "item": "https://designit.co.in/projects/kelp-global/kelp-plugin"}
-          ]
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://designit.co.in/"
         },
         {
-          "@type": "WebPage",
-          "url": "https://designit.co.in/projects/kelp-global/kelp-plugin",
-          "name": "Kelp Plugin — Kelp Global — Designit",
-          "description": "Browser plugin for real-time customer intelligence within workflow.",
-          "isPartOf": {"@type": "WebSite", "url": "https://designit.co.in/", "name": "Designit"},
-          "publisher": {"@type": "Organization", "name": "Designit", "url": "https://designit.co.in/"}
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://designit.co.in/projects/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kelp Global",
+          "item": "https://designit.co.in/projects/kelp-global/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Kelp Plugin",
+          "item": "https://designit.co.in/projects/kelp-global/kelp-plugin"
         }
       ]
     }
-    </script>
-    <!-- PostHog Analytics -->
+  ]
+}
+</script>
+<!-- PostHog Analytics -->
     <script>(function(){if(window.__lt)return;var q=[],done=false;function run(){if(done)return;done=true;for(var i=0;i<q.length;i++){try{q[i]()}catch(e){}}}window.__lt=function(fn){q.push(fn);if(done){fn()}};['scroll','mousemove','touchstart','keydown','click'].forEach(function(ev){window.addEventListener(ev,run,{once:true,passive:true})});setTimeout(run,4000)})();</script>
     <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+" (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -220,6 +232,8 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
       };
       if(getConsent()==='granted'){ runIfConsented(); }
     })();</script>
+<link rel="alternate" type="application/rss+xml" title="Designit Blog" href="https://designit.co.in/blog/feed.xml">
+<meta property="article:modified_time" content="2026-09-11T09:00:32Z">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -342,7 +356,7 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
         "@id": "https://designit.co.in/#organization"
       },
       "inLanguage": "en",
-      "dateModified": "2026-09-11T09:00:32Z"
+      "dateModified": "2026-09-11T09:27:27Z"
     },
     {
       "@type": "Article",
@@ -364,7 +378,7 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
       },
       "inLanguage": "en",
       "datePublished": "2026-01-15",
-      "dateModified": "2026-09-11T09:00:32Z"
+      "dateModified": "2026-09-11T09:27:27Z"
     },
     {
       "@type": "FAQPage",
@@ -415,8 +429,6 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
   ]
 }
 </script>
-<link rel="alternate" type="application/rss+xml" title="Designit Blog" href="https://designit.co.in/blog/feed.xml">
-<meta property="article:modified_time" content="2026-09-11T09:00:32Z">
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -456,6 +468,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="geo-glance-list"><li>40% Reduction in context-switching</li><li>25% Faster deal research</li><li>90% Daily active usage</li></ul>
             </div>
         </section>
+
 
 
         <section style="padding: 0 48px 80px; margin-top: -40px;"><div class="container"><div style="border-radius: 24px; overflow: hidden; box-shadow: 0 24px 60px rgba(0,0,0,0.12);"><img src="/assets/projects/kelp/plugin-hero.webp" alt="Kelp Plugin hero" style="width: 100%; display: block;" loading="lazy"></div></div></section>
@@ -544,7 +557,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <section><div class="container"><div class="pd-nav"><a href="deals-module.html">&larr; Deals Module</a><a href="/projects/kelp-global/">All Kelp Global Projects</a><a href="truenorth.html">Truenorth Analytics &rarr;</a></div></div></section>
 
         <section style="padding: 80px 0; background: var(--bg-dark); text-align: center;"><div class="container"><h2 style="font-size: 40px; font-weight: 700; color: #fff; margin-bottom: 16px;">Have a similar challenge?</h2><p style="font-size: 18px; color: rgba(255,255,255,0.7); margin-bottom: 32px;">Let's solve it together.</p><a href="/contact/" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background: #fff; color: #0A0A0A; padding: 14px 32px; font-weight: 600;">Start Your Project &rarr;</a></div></section>
-    
+
         <section class="section geo-faq">
             <div class="container">
                 <h2 class="section-title reveal">Common questions</h2>

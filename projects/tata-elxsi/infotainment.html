@@ -49,30 +49,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:image" content="https://designit.co.in/og-preview.jpg">
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "BreadcrumbList",
+      "itemListElement": [
         {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://designit.co.in/"},
-            {"@type": "ListItem", "position": 2, "name": "Projects", "item": "https://designit.co.in/projects/"},
-            {"@type": "ListItem", "position": 3, "name": "Tata Elxsi", "item": "https://designit.co.in/projects/tata-elxsi/"},
-            {"@type": "ListItem", "position": 4, "name": "Infotainment", "item": "https://designit.co.in/projects/tata-elxsi/infotainment"}
-          ]
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://designit.co.in/"
         },
         {
-          "@type": "WebPage",
-          "url": "https://designit.co.in/projects/tata-elxsi/infotainment",
-          "name": "Infotainment System — Tata Elxsi — Designit",
-          "description": "Next-gen in-vehicle infotainment balancing safety with intuitive controls.",
-          "isPartOf": {"@type": "WebSite", "url": "https://designit.co.in/", "name": "Designit"},
-          "publisher": {"@type": "Organization", "name": "Designit", "url": "https://designit.co.in/"}
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://designit.co.in/projects/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tata Elxsi",
+          "item": "https://designit.co.in/projects/tata-elxsi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Infotainment",
+          "item": "https://designit.co.in/projects/tata-elxsi/infotainment"
         }
       ]
     }
-    </script>
-    <!-- PostHog Analytics -->
+  ]
+}
+</script>
+<!-- PostHog Analytics -->
     <script>(function(){if(window.__lt)return;var q=[],done=false;function run(){if(done)return;done=true;for(var i=0;i<q.length;i++){try{q[i]()}catch(e){}}}window.__lt=function(fn){q.push(fn);if(done){fn()}};['scroll','mousemove','touchstart','keydown','click'].forEach(function(ev){window.addEventListener(ev,run,{once:true,passive:true})});setTimeout(run,4000)})();</script>
     <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+" (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -220,6 +232,8 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
       };
       if(getConsent()==='granted'){ runIfConsented(); }
     })();</script>
+<link rel="alternate" type="application/rss+xml" title="Designit Blog" href="https://designit.co.in/blog/feed.xml">
+<meta property="article:modified_time" content="2026-09-11T09:00:32Z">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -342,7 +356,7 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
         "@id": "https://designit.co.in/#organization"
       },
       "inLanguage": "en",
-      "dateModified": "2026-09-11T09:00:32Z"
+      "dateModified": "2026-09-11T09:27:27Z"
     },
     {
       "@type": "Article",
@@ -364,7 +378,7 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
       },
       "inLanguage": "en",
       "datePublished": "2026-01-15",
-      "dateModified": "2026-09-11T09:00:32Z"
+      "dateModified": "2026-09-11T09:27:27Z"
     },
     {
       "@type": "FAQPage",
@@ -412,18 +426,18 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
         },
         {
           "@type": "Question",
-          "name": "Which regions does Designit work with?",
+          "name": "Who actually works on the engagement?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Designit works with clients in India, the United States, the United Kingdom and the United Arab Emirates. All communication is in English and invoicing is available in INR or USD. Working hours overlap with both EST/PST and GMT for scheduled calls."
+            "text": "Senior practitioners, from kickoff through to developer handoff. There are no account managers in the middle, no junior hand-offs once a contract is signed, and no offshore layer. Clients talk directly to the people producing the work, which is what keeps the feedback loop short enough to ship in days rather than weeks."
           }
         },
         {
           "@type": "Question",
-          "name": "Who works on a Designit engagement?",
+          "name": "What tools does the studio work in?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Every engagement is led by senior designers from kickoff through developer handoff — no account managers, no junior hand-offs and no offshore layers. Clients work directly with the people doing the work."
+            "text": "Figma is the primary canvas, with prototyping in Figma or Protopie and engineering handoff through Figma Dev Mode. Research runs on Maze and Hotjar. Project tracking sits in Notion or Linear, and teams are welcome to work inside their own stack instead."
           }
         }
       ]
@@ -431,8 +445,6 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
   ]
 }
 </script>
-<link rel="alternate" type="application/rss+xml" title="Designit Blog" href="https://designit.co.in/blog/feed.xml">
-<meta property="article:modified_time" content="2026-09-11T09:00:32Z">
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -472,6 +484,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <ul class="geo-glance-list"><li>30% Reduction in driver distraction</li><li>2s Average task completion</li></ul>
             </div>
         </section>
+
 
 
         <section style="padding: 0 48px 80px; margin-top: -40px;"><div class="container"><div style="border-radius: 24px; overflow: hidden; box-shadow: 0 24px 60px rgba(0,0,0,0.12);"><img src="/assets/projects/tata-elxsi/infotainment-hero.webp" alt="Infotainment System hero" style="width: 100%; display: block;" loading="lazy"></div></div></section>
@@ -556,7 +569,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <section><div class="container"><div class="pd-nav"><a href="instrument-cluster.html">&larr; Instrument Cluster</a><a href="/projects/tata-elxsi/">All Tata Elxsi Projects</a><a href="instrument-cluster.html">Instrument Cluster &rarr;</a></div></div></section>
 
         <section style="padding: 80px 0; background: var(--bg-dark); text-align: center;"><div class="container"><h2 style="font-size: 40px; font-weight: 700; color: #fff; margin-bottom: 16px;">Have a similar challenge?</h2><p style="font-size: 18px; color: rgba(255,255,255,0.7); margin-bottom: 32px;">Let's solve it together.</p><a href="/contact/" onclick="openIntakeForm(); return false;" class="btn btn-primary" style="background: #fff; color: #0A0A0A; padding: 14px 32px; font-weight: 600;">Start Your Project &rarr;</a></div></section>
-    
+
         <section class="section geo-faq">
             <div class="container">
                 <h2 class="section-title reveal">Common questions</h2>
@@ -582,12 +595,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="faq-a"><p>A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time.</p></div>
             </li>
             <li class="faq-item reveal">
-                <h3 class="faq-h"><button class="faq-q">Which regions does Designit work with? <span class="faq-chevron">&#8964;</span></button></h3>
-                <div class="faq-a"><p>Designit works with clients in India, the United States, the United Kingdom and the United Arab Emirates. All communication is in English and invoicing is available in INR or USD. Working hours overlap with both EST/PST and GMT for scheduled calls.</p></div>
+                <h3 class="faq-h"><button class="faq-q">Who actually works on the engagement? <span class="faq-chevron">&#8964;</span></button></h3>
+                <div class="faq-a"><p>Senior practitioners, from kickoff through to developer handoff. There are no account managers in the middle, no junior hand-offs once a contract is signed, and no offshore layer. Clients talk directly to the people producing the work, which is what keeps the feedback loop short enough to ship in days rather than weeks.</p></div>
             </li>
             <li class="faq-item reveal">
-                <h3 class="faq-h"><button class="faq-q">Who works on a Designit engagement? <span class="faq-chevron">&#8964;</span></button></h3>
-                <div class="faq-a"><p>Every engagement is led by senior designers from kickoff through developer handoff — no account managers, no junior hand-offs and no offshore layers. Clients work directly with the people doing the work.</p></div>
+                <h3 class="faq-h"><button class="faq-q">What tools does the studio work in? <span class="faq-chevron">&#8964;</span></button></h3>
+                <div class="faq-a"><p>Figma is the primary canvas, with prototyping in Figma or Protopie and engineering handoff through Figma Dev Mode. Research runs on Maze and Hotjar. Project tracking sits in Notion or Linear, and teams are welcome to work inside their own stack instead.</p></div>
             </li>
                 </ul>
             </div>

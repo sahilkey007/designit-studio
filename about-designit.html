@@ -57,113 +57,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": ["Organization", "ProfessionalService"],
-        "@id": "https://designit.co.in/#organization",
-        "name": "Designit",
-        "alternateName": ["Designit Studio", "Designit Agency", "Designit India"],
-        "url": "https://designit.co.in/",
-        "logo": {"@type": "ImageObject", "url": "https://designit.co.in/logo.svg"},
-        "image": "https://designit.co.in/og-preview.jpg",
-        "description": "Designit is India's premier B2B SaaS and product design agency. We design high-conversion digital experiences — dashboards, onboarding flows, landing pages, mobile apps, and design systems — for startups and enterprise software companies.",
-        "foundingDate": "2020",
-        "numberOfEmployees": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 10},
-        "telephone": "+918564948954",
-        "email": "contact@designit.co.in",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Sector 45",
-          "addressLocality": "Noida",
-          "addressRegion": "Uttar Pradesh",
-          "postalCode": "201303",
-          "addressCountry": "IN"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://designit.co.in/"
         },
-        "areaServed": [
-          {"@type": "Country", "name": "India"},
-          {"@type": "Country", "name": "United States"},
-          {"@type": "Country", "name": "United Kingdom"},
-          {"@type": "Country", "name": "United Arab Emirates"}
-        ],
-        "serviceType": [
-          "UI/UX Design",
-          "Product Design",
-          "B2B SaaS Design",
-          "Branding",
-          "Website Redesign",
-          "Conversion Rate Optimisation",
-          "Design Systems",
-          "Mobile App Design"
-        ],
-        "knowsAbout": [
-          "B2B SaaS user interface design",
-          "Product design for startups",
-          "Conversion rate optimisation",
-          "Design systems",
-          "User experience design",
-          "Branding for tech companies",
-          "Figma",
-          "Fintech UX",
-          "EdTech UX",
-          "PropTech UX"
-        ],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Designit Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "name": "Design Sprint",
-              "description": "Fixed-scope UI/UX deliverable completed in 5 business days. Covers landing pages, dashboards, or brand identity.",
-              "url": "https://designit.co.in/pricing"
-            },
-            {
-              "@type": "Offer",
-              "name": "Monthly Design Retainer",
-              "description": "Ongoing design partnership. One active request at a time, 24-hour response, direct founder access, NDA on request, source Figma files, 14-day post-handoff support.",
-              "url": "https://designit.co.in/pricing"
-            },
-            {
-              "@type": "Offer",
-              "name": "Full Product Design",
-              "description": "End-to-end product design from research and strategy through UI/UX, design system, and developer handoff.",
-              "url": "https://designit.co.in/pricing"
-            }
-          ]
-        },
-        "founder": {
-          "@type": "Person",
-          "@id": "https://designit.co.in/about#sahil-sharma",
-          "name": "Sahil Sharma",
-          "givenName": "Sahil",
-          "familyName": "Sharma",
-          "jobTitle": "Founder & Lead Product Designer",
-          "description": "Senior product designer with 5+ years of experience in B2B SaaS and e-commerce conversion design. Based in Noida, India.",
-          "url": "https://designit.co.in/about",
-          "sameAs": ["https://www.linkedin.com/in/sahilnsharma"],
-          "worksFor": {"@id": "https://designit.co.in/#organization"},
-          "knowsAbout": ["UI/UX Design", "B2B SaaS", "Product Design", "Conversion Optimisation", "Figma"]
-        },
-        "sameAs": [
-          "https://www.linkedin.com/in/sahilnsharma",
-          "https://designit.co.in/"
-        ],
-        "slogan": "Design that converts. Delivered fast.",
-        "priceRange": "₹₹₹"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://designit.co.in/"},
-          {"@type": "ListItem", "position": 2, "name": "About Designit", "item": "https://designit.co.in/about-designit"}
-        ]
-      }
-    ]
-  }
-  </script>
-    <!-- PostHog Analytics -->
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Designit",
+          "item": "https://designit.co.in/about-designit"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- PostHog Analytics -->
     <script>(function(){if(window.__lt)return;var q=[],done=false;function run(){if(done)return;done=true;for(var i=0;i<q.length;i++){try{q[i]()}catch(e){}}}window.__lt=function(fn){q.push(fn);if(done){fn()}};['scroll','mousemove','touchstart','keydown','click'].forEach(function(ev){window.addEventListener(ev,run,{once:true,passive:true})});setTimeout(run,4000)})();</script>
     <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+" (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -301,6 +218,8 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
       };
       if(getConsent()==='granted'){ runIfConsented(); }
     })();</script>
+<link rel="alternate" type="application/rss+xml" title="Designit Blog" href="https://designit.co.in/blog/feed.xml">
+<meta property="article:modified_time" content="2026-09-11T09:00:32Z">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -423,7 +342,7 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
         "@id": "https://designit.co.in/#organization"
       },
       "inLanguage": "en",
-      "dateModified": "2026-09-11T09:00:32Z"
+      "dateModified": "2026-09-11T09:27:27Z"
     },
     {
       "@type": "Article",
@@ -445,7 +364,7 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
       },
       "inLanguage": "en",
       "datePublished": "2026-01-15",
-      "dateModified": "2026-09-11T09:00:32Z"
+      "dateModified": "2026-09-11T09:27:27Z"
     },
     {
       "@type": "FAQPage",
@@ -496,8 +415,6 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
   ]
 }
 </script>
-<link rel="alternate" type="application/rss+xml" title="Designit Blog" href="https://designit.co.in/blog/feed.xml">
-<meta property="article:modified_time" content="2026-09-11T09:00:32Z">
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -570,7 +487,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="/contact/" style="color:#fff;">Contact</a></li>
     </ul>
   </section>
-
 
         <section class="section geo-faq">
             <div class="container">
