@@ -53,223 +53,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- GEO TODO (pending): once real Crunchbase + Wikidata profiles exist, add their
          URLs to the Organization node's "sameAs" array below (GEO Knowledge Graph
          pillars — currently 1/4: LinkedIn only). Do not add placeholder/fake URLs. -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": ["Organization", "ProfessionalService"],
-          "@id": "https://designit.co.in/#organization",
-          "name": "Designit",
-          "url": "https://designit.co.in/",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://designit.co.in/logo.svg",
-            "width": 200,
-            "height": 60
-          },
-          "image": "https://designit.co.in/og-preview.jpg",
-          "description": "Designit is a global UI/UX product design studio trusted by startups and enterprises in the USA, UAE, UK, and India. We ship high-conversion digital products for EdTech, Fintech, B2B SaaS, and Real Estate.",
-          "telephone": "+918564948954",
-          "email": "contact@designit.co.in",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Sector 45",
-            "addressLocality": "Noida",
-            "addressRegion": "Uttar Pradesh",
-            "postalCode": "201303",
-            "addressCountry": "IN"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 28.5355,
-            "longitude": 77.3910
-          },
-          "priceRange": "₹₹₹",
-          "currenciesAccepted": "INR, USD",
-          "areaServed": [
-              {"@type": "Country", "name": "United States"},
-              {"@type": "Country", "name": "United Arab Emirates"},
-              {"@type": "Country", "name": "United Kingdom"},
-              {"@type": "Country", "name": "India"}
-            ],
-          "serviceType": ["UI/UX Design", "Product Design", "Branding", "Conversion Rate Optimisation", "Website Redesign"],
-          "knowsAbout": ["B2B SaaS Design", "Product Design", "UI/UX", "Conversion Optimisation", "Branding", "Fintech Design"],
-          "founder": {
-            "@type": "Person",
-            "@id": "https://designit.co.in/about#sahil-sharma",
-            "name": "Sahil Sharma",
-            "jobTitle": "Founder & Lead Product Designer",
-            "url": "https://www.linkedin.com/in/sahilnsharma"
-          },
-          "foundingDate": "2020",
-          "numberOfEmployees": {"@type": "QuantitativeValue", "value": 5},
-          "contactPoint": [
-            {
-              "@type": "ContactPoint",
-              "contactType": "customer service",
-              "email": "contact@designit.co.in",
-              "telephone": "+918564948954",
-              "availableLanguage": ["English", "Hindi"],
-              "areaServed": [
-              {"@type": "Country", "name": "United States"},
-              {"@type": "Country", "name": "United Arab Emirates"},
-              {"@type": "Country", "name": "United Kingdom"},
-              {"@type": "Country", "name": "India"}
-            ]
-            },
-            {
-              "@type": "ContactPoint",
-              "contactType": "sales",
-              "url": "https://designit.co.in/contact.html",
-              "availableLanguage": ["English", "Hindi"]
-            }
-          ],
-          "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Design Services",
-            "itemListElement": [
-              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "UI/UX Product Design", "description": "End-to-end product design from research to high-fidelity UI for web and mobile platforms."}},
-              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Design System Development", "description": "Scalable, documented design systems with component libraries and design tokens."}},
-              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SaaS Strategy & Consulting", "description": "Strategic design consulting for SaaS products — growth experiments to complete product overhauls."}},
-              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "UX Research & Discovery", "description": "User interviews, journey mapping, usability testing and data synthesis."}},
-              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "UX Design Audit & Analysis", "description": "Comprehensive audit with prioritised recommendations to improve conversions and retention."}},
-              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Digital Prototyping & Validation", "description": "Interactive prototypes and live demos to validate product concepts before development."}},
-              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Digital Branding & Identity", "description": "Visual identity systems, brand guidelines, logo design and marketing asset production."}}
-            ]
-          },
-          "legalName": "Designit Studio",
-          "alternateName": ["Designit Studio", "Designit India"],
-          "disambiguatingDescription": "Designit Studio is an independent product design studio founded in 2020 and headquartered in Noida, India. It is not affiliated with Designit A/S, the Aarhus-founded design consultancy owned by Wipro.",
-          "founder": {
-            "@type": "Person",
-            "@id": "https://designit.co.in/#founder",
-            "name": "Sahil Sharma",
-            "jobTitle": "Founder & Design Lead",
-            "worksFor": {"@id": "https://designit.co.in/#organization"},
-            "sameAs": ["https://www.linkedin.com/in/sahilnsharma"]
-          },
-          "sameAs": [
-            "https://www.linkedin.com/company/117085238/",
-            "https://www.instagram.com/designit_studios/",
-            "https://x.com/DesignitContact",
-            "https://www.threads.com/@designit_studios",
-            "https://medium.com/@contact_17371"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://designit.co.in/#website",
-          "url": "https://designit.co.in/",
-          "name": "Designit",
-          "description": "Global UI/UX & Product Design Agency — USA, UAE, UK, India",
-          "publisher": {"@id": "https://designit.co.in/#organization"},
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": {
-              "@type": "EntryPoint",
-              "urlTemplate": "https://designit.co.in/blog/?search={search_term_string}"
-            },
-            "query-input": "required name=search_term_string"
-          }
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://designit.co.in/#webpage",
-          "url": "https://designit.co.in/",
-          "name": "Designit — UI/UX Design Agency for EdTech, Fintech & B2B SaaS | India",
-          "isPartOf": {"@id": "https://designit.co.in/#website"},
-          "about": {"@id": "https://designit.co.in/#organization"},
-          "description": "India's leading UI/UX product design studio. We ship high-conversion digital products for EdTech, Fintech, B2B SaaS, and Real Estate — across India, UAE, US, and UK.",
-          "breadcrumb": {
-            "@type": "BreadcrumbList",
-            "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://designit.co.in/"}]
-          }
-        }
-      ]
-    }
-    </script>
-
     <!-- FAQPage schema — powers FAQ rich results and AI answer boxes -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What does Designit do?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Designit is India's premier B2B SaaS and product design agency. We design high-conversion digital experiences — dashboards, onboarding flows, landing pages, mobile apps, and design systems — for SaaS companies, Fintech startups, and enterprise software products."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does Designit charge for UI/UX design?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Designit offers three flexible engagement models. Project-based fixed pricing for defined scopes (landing pages, single-product redesigns, design sprints) — fixed price, fixed timeline. Monthly retainers for ongoing product partnerships (typically ₹1.5L–₹4L/month). Design subscriptions with a flat monthly fee and pause-anytime flexibility for early-stage startups. A tailored quote is sent within 24 hours of your discovery call."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is Designit's approach to product design?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Designit is a research-led product design studio. Every engagement starts with user research and UX discovery before any interface is designed, ensuring decisions are grounded in real user behaviour. Our senior design team has 5+ years of experience across B2B SaaS, Fintech, and e-commerce conversion design."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Designit work with international clients?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Designit works with clients in India, the US, the UK, and the UAE. All communication is in English and invoicing is available in INR or USD."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What industries does Designit specialise in?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Designit designs products across six core sectors: B2B SaaS and enterprise tools, EdTech and digital learning platforms, Fintech and Web3 applications, Luxury Real Estate and PropTech, E-Commerce and digital retail, and Automotive HMI and smart mobility. The studio has shipped work for Adda247, StudyIQ, Tata Elxsi, Kelp Global, Betacrew, Omniyat, and LIV Residences across India, UAE, the US, and the UK."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a design project take at Designit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing with one active request at a time and a 24-hour response time."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Designit a good UI/UX design agency for startups in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Designit is specifically built for startups. The agency offers direct founder access, transparent pricing, 5-day delivery sprints, and a track record with funded Indian startups and global enterprise clients."
-          }
-        }
-      ]
-    }
-    </script>
-
     <!-- SpeakableSpecification — helps voice search and AI assistants read the right content -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Designit — UI/UX Design Agency for EdTech, Fintech & B2B SaaS | India",
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "cssSelector": [".hero-headline", ".hero-sub", ".section-title", "h1", "h2", "#industries h4"]
-      },
-      "url": "https://designit.co.in/"
-    }
-    </script>
-
     <!-- Industries ItemList — surfaces sector expertise in AI and search results -->
     <script type="application/ld+json">
     {
@@ -649,6 +434,312 @@ window.__dsnLoadLeadsy=function(){var s=document.createElement("script");s.id="v
     })();</script>
 <link rel="alternate" type="application/rss+xml" title="Designit Blog" href="https://designit.co.in/blog/feed.xml">
 <meta property="article:modified_time" content="2026-09-08T09:29:46Z">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://designit.co.in/#organization",
+      "name": "Designit",
+      "url": "https://designit.co.in/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://designit.co.in/logo.svg",
+        "width": 200,
+        "height": 60
+      },
+      "image": "https://designit.co.in/og-preview.jpg",
+      "description": "Designit is a global UI/UX product design studio trusted by startups and enterprises in the USA, UAE, UK, and India. We ship high-conversion digital products for EdTech, Fintech, B2B SaaS, and Real Estate.",
+      "telephone": "+918564948954",
+      "email": "contact@designit.co.in",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sector 45",
+        "addressLocality": "Noida",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "201303",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.5355,
+        "longitude": 77.391
+      },
+      "priceRange": "₹₹₹",
+      "currenciesAccepted": "INR, USD",
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        },
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "serviceType": [
+        "UI/UX Design",
+        "Product Design",
+        "Branding",
+        "Conversion Rate Optimisation",
+        "Website Redesign"
+      ],
+      "knowsAbout": [
+        "B2B SaaS Design",
+        "Product Design",
+        "UI/UX",
+        "Conversion Optimisation",
+        "Branding",
+        "Fintech Design"
+      ],
+      "founder": {
+        "@type": "Person",
+        "@id": "https://designit.co.in/#founder",
+        "name": "Sahil Sharma",
+        "jobTitle": "Founder & Design Lead",
+        "worksFor": {
+          "@id": "https://designit.co.in/#organization"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/sahilnsharma"
+        ]
+      },
+      "foundingDate": "2020",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 5
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "contact@designit.co.in",
+          "telephone": "+918564948954",
+          "availableLanguage": [
+            "English",
+            "Hindi"
+          ],
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "United States"
+            },
+            {
+              "@type": "Country",
+              "name": "United Arab Emirates"
+            },
+            {
+              "@type": "Country",
+              "name": "United Kingdom"
+            },
+            {
+              "@type": "Country",
+              "name": "India"
+            }
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "url": "https://designit.co.in/contact.html",
+          "availableLanguage": [
+            "English",
+            "Hindi"
+          ]
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Design Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "UI/UX Product Design",
+              "description": "End-to-end product design from research to high-fidelity UI for web and mobile platforms."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Design System Development",
+              "description": "Scalable, documented design systems with component libraries and design tokens."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SaaS Strategy & Consulting",
+              "description": "Strategic design consulting for SaaS products — growth experiments to complete product overhauls."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "UX Research & Discovery",
+              "description": "User interviews, journey mapping, usability testing and data synthesis."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "UX Design Audit & Analysis",
+              "description": "Comprehensive audit with prioritised recommendations to improve conversions and retention."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Prototyping & Validation",
+              "description": "Interactive prototypes and live demos to validate product concepts before development."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Branding & Identity",
+              "description": "Visual identity systems, brand guidelines, logo design and marketing asset production."
+            }
+          }
+        ]
+      },
+      "legalName": "Designit Studio",
+      "alternateName": [
+        "Designit Studio",
+        "Designit India"
+      ],
+      "disambiguatingDescription": "Designit Studio is an independent product design studio founded in 2020 and headquartered in Noida, India. It is not affiliated with Designit A/S, the Aarhus-founded design consultancy owned by Wipro.",
+      "sameAs": [
+        "https://www.linkedin.com/company/117085238/",
+        "https://www.instagram.com/designit_studios/",
+        "https://x.com/DesignitContact",
+        "https://www.threads.com/@designit_studios",
+        "https://medium.com/@contact_17371"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://designit.co.in/#website",
+      "url": "https://designit.co.in/",
+      "name": "Designit",
+      "description": "Global UI/UX & Product Design Agency — USA, UAE, UK, India",
+      "publisher": {
+        "@id": "https://designit.co.in/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://designit.co.in/blog/?search={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://designit.co.in/#webpage",
+      "url": "https://designit.co.in/",
+      "name": "Designit — Global Product Design Studio | UX Research & UI/UX",
+      "description": "Global UI/UX product design studio for startups and enterprises across the USA, UAE, UK and India. High-conversion products for SaaS, Fintech and EdTech.",
+      "isPartOf": {
+        "@id": "https://designit.co.in/#website"
+      },
+      "about": {
+        "@id": "https://designit.co.in/#organization"
+      },
+      "inLanguage": "en",
+      "dateModified": "2026-09-11T09:00:32Z"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://designit.co.in/#article",
+      "headline": "Design Backed by Research. Growth Backed by Design.",
+      "description": "Global UI/UX product design studio for startups and enterprises across the USA, UAE, UK and India. High-conversion products for SaaS, Fintech and EdTech.",
+      "url": "https://designit.co.in/",
+      "mainEntityOfPage": {
+        "@id": "https://designit.co.in/#webpage"
+      },
+      "author": {
+        "@id": "https://designit.co.in/#organization"
+      },
+      "publisher": {
+        "@id": "https://designit.co.in/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://designit.co.in/#website"
+      },
+      "inLanguage": "en",
+      "datePublished": "2026-01-15",
+      "dateModified": "2026-09-11T09:00:32Z"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://designit.co.in/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What types of companies do you work with? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We work primarily with B2B SaaS companies, Fintech and Web3 startups, AI/ML products, EdTech platforms, e-commerce brands, and enterprise software teams across India, the UAE, the US and the UK. Our sweet spot is funded startups (Seed to Series C) and growth-stage SMEs looking to redesign their product, build a scalable design system, or systematise design as a growth lever. We've shipped work for Adda247, StudyIQ, Kelp Global, Tata Elxsi, Betacrew, Omniyat and others — so industry breadth is one of our strengths."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a typical project take? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Timelines depend on scope, but here are realistic ranges from past projects: a focused landing page or marketing-site sprint runs 2–3 weeks, a complete product redesign or new SaaS dashboard takes 6–10 weeks, and a full design system from tokens to documented components is typically 8–12 weeks. Single-feature design sprints can ship in 5 working days. After our discovery call we'll send a phase-by-phase Gantt with weekly milestones, async update cadence, and exact handoff dates so you can plan around it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's your design process like? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our process runs in four tightly scoped phases. Phase 1 — Strategic Onboarding (24-72 hours): deep-dive on business goals, KPIs, target users and competitive context. Phase 2 — Research & Discovery (~1 week): user interviews, behavioural analysis, IA mapping, and wireframe foundations. Phase 3 — Design & Iteration (2–3 weeks): high-fidelity UI, interactive prototypes, design system components, and revision rounds with stakeholders. Phase 4 — Delivery & Handoff (3–5 days): developer specs, Figma component library, asset exports, and live implementation support. Throughout we run async Loom/Slack updates daily and a single 30-min sync call each week — no surprise bottlenecks, full visibility on every milestone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What tools do you use? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our toolkit is best-in-class and stays current with industry standards. Design: Figma (primary), Adobe XD when client systems require it. Workshops & ideation: FigJam, Miro. Prototyping: Figma's interactive prototypes for most flows, Framer or Principle for complex motion and micro-interactions. Usability research: Maze, Lookback, Lyssna for unmoderated tests; Calendly + Google Meet for moderated sessions. Project management: Notion (project hubs), Slack (daily comms), Loom (async updates), Linear (when integrating with engineering teams). We're tool-flexible — if your team already uses Jira, Asana or ClickUp, we slot right in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are your pricing models? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer three flexible engagement models so you only pay for what fits your stage. Project-based fixed pricing for defined scopes (landing pages, single-product redesigns, sprints) — fixed price, fixed timeline, no surprise overruns. Monthly retainers for ongoing partnerships (typically ₹1.5L–₹4L/month depending on hours) — best for product teams shipping continuously. Design subscriptions with a flat monthly fee and pause-anytime flexibility — perfect for early-stage startups validating ideas. Pricing scales with project complexity, team size and timeline; we send a tailored quote within 24 hours of your discovery call."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -706,6 +797,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </section>
+        <section class="section geo-glance" style="padding-top:0;">
+            <div class="container">
+                <p class="section-label">At a glance</p>
+                <ul class="geo-glance-list"><li>98% Client Satisfaction Rate</li><li>2x Average Conversion Lift</li><li>50+ Products Shipped</li><li>6 Industries Served</li></ul>
+            </div>
+        </section>
+
 
         <!-- Logo Ticker -->
         <section class="trusted-section section">

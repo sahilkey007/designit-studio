@@ -1272,3 +1272,73 @@ h5, .text-h5 {
 .blog-grid { list-style: none; }
 .blog-grid > li { display: flex; list-style: none; }
 .blog-grid > li > .blog-card { width: 100%; }
+
+/* ── FAQ accordion component ──────────────────────────────────────────────
+   Promoted from per-page inline <style> blocks so every page that renders a
+   .faq-list gets the component without duplicating its CSS. Pages that still
+   carry the inline copy simply restate these values. Toggled by main.js. */
+.faq-list {
+  max-width: 800px;
+  margin: 56px auto 0;
+  list-style: none;
+  padding: 0;
+}
+.faq-list .faq-item {
+  border: none;
+  border-bottom: 1px solid var(--border-subtle);
+  border-radius: 0;
+  margin: 0;
+  list-style: none;
+}
+.faq-list .faq-q {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  padding: 24px 0;
+  cursor: pointer;
+}
+.faq-list .faq-chevron {
+  font-size: 16px;
+  color: var(--text-tertiary);
+  transition: transform .3s;
+  flex-shrink: 0;
+}
+.faq-list .faq-a {
+  max-height: 0;
+  overflow: hidden;
+  text-align: left;
+  transition: max-height .35s ease, padding .35s ease;
+}
+.faq-list .faq-a p {
+  margin: 0;
+  font-size: 16px;
+  color: var(--text-tertiary);
+  line-height: 1.7;
+}
+.faq-list .faq-item.open .faq-a { max-height: 600px; padding-bottom: 24px; }
+.faq-list .faq-item.open .faq-chevron { transform: rotate(180deg); }
+
+/* "At a glance" — a page's own headline metrics, surfaced near the top */
+.geo-glance-list {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 32px;
+}
+.geo-glance-list li {
+  font-size: 15px;
+  color: var(--text-secondary);
+  padding-left: 14px;
+  border-left: 2px solid var(--border-default);
+}
