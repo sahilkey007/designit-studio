@@ -379,9 +379,16 @@
   }
 
   // --- Legacy FAQ markup (.faq-q + .open) ---
+  // closest(), not parentElement: the GEO pass wraps some .faq-q buttons in an
+  // <h3> for heading hierarchy, which made .faq-item the button's grandparent
+  // and left every one of those accordions dead — clicking added the "open"
+  // class to the <h3> instead of the .faq-item the CSS actually keys off.
+  // closest() finds the ancestor .faq-item either way, so this stays correct
+  // for the original (button-is-direct-child) markup too.
   document.querySelectorAll('.faq-q').forEach(function (btn) {
     btn.addEventListener('click', function () {
-      var item = btn.parentElement;
+      var item = btn.closest('.faq-item');
+      if (!item) return;
       var isOpen = item.classList.contains('open');
       document.querySelectorAll('.faq-item').forEach(function (i) { i.classList.remove('open'); });
       if (!isOpen) item.classList.add('open');
