@@ -48,6 +48,15 @@
     { "source": "/blog-detail.html", "destination": "/blog/", "permanent": true },
     { "source": "/about-designit", "destination": "/about/", "permanent": true },
     { "source": "/about-designit/", "destination": "/about/", "permanent": true },
-    { "source": "/about-designit.html", "destination": "/about/", "permanent": true }
+    { "source": "/about-designit.html", "destination": "/about/", "permanent": true },
+
+    { "source": "/projects/rcentric/ela/orla-infinity.html", "destination": "/projects/rcentric/orla-infinity/", "permanent": true },
+    { "source": "/projects/rcentric/ela/orla-infinity", "destination": "/projects/rcentric/orla-infinity/", "permanent": true },
+    { "source": "/projects/adda247/studio-app/my-content.html", "destination": "/projects/adda247/my-content/", "permanent": true },
+    { "source": "/projects/adda247/studio-app/my-content", "destination": "/projects/adda247/my-content/", "permanent": true },
+    { "source": "/projects/adda247/my-content/studio-app.html", "destination": "/projects/adda247/studio-app/", "permanent": true },
+    { "source": "/projects/adda247/my-content/studio-app", "destination": "/projects/adda247/studio-app/", "permanent": true },
+    { "source": "/projects/rcentric/opus/ela.html", "destination": "/projects/rcentric/ela/", "permanent": true },
+    { "source": "/projects/rcentric/opus/ela", "destination": "/projects/rcentric/ela/", "permanent": true }
   ]
 }
