@@ -77,6 +77,7 @@ designit.co.in/
 ├── i18n.js                     # Internationalisation utilities
 ├── intake-form.js              # Intake/contact form modal logic
 ├── generate-blog.js            # Node.js script — generates blog HTML from JSON
+├── generate-sitemaps.js        # Regenerates sitemap.xml + blog/sitemap.xml from disk + git history
 │
 ├── logo.svg                    # Brand mark (SVG)
 │
@@ -149,9 +150,14 @@ Or drag-and-drop the folder at [app.netlify.com/drop](https://app.netlify.com/dr
    ```bash
    node generate-blog.js
    ```
-   This creates `blog/[slug]/index.html` with all styles and SEO tags pre-populated.
-3. Update `blog/sitemap.xml` with the new URL.
-4. Commit and push.
+   This creates `blog/[slug]/index.html` with all styles and SEO tags pre-populated,
+   then regenerates `sitemap.xml` and `blog/sitemap.xml` automatically as its last
+   step (`generate-sitemaps.js` — see below). No manual sitemap edit needed.
+3. Commit and push.
+
+> ⚠️ Run this only for a **new** post. `generate-blog.js` writes a post's HTML fresh
+> from its markdown source every time, so running it against an existing post
+> discards any hand-edit made directly to that post's generated HTML.
 
 ---
 
@@ -172,9 +178,8 @@ The site uses a bespoke CSS design system in `design-system.css`:
 |---|---|---|
 | `script.js` and `main.js` are parallel implementations | Medium | Merge into a single `main.js`; project pages still use `script.js` |
 | Project images load from external CDN (`sahil-portfolio-fawn.vercel.app`) | High | Should be self-hosted or migrated to a CDN you control |
-| Social media links are placeholder `#` | Low | Wire up real Twitter/LinkedIn/Dribbble/Behance URLs |
 | `_next/` and `blog/__next*.txt` artifacts on disk | Low | Safe to delete manually — already excluded from git |
-| No root `sitemap.xml` | Medium | Only `blog/sitemap.xml` exists; add root sitemap referencing all pages |
+| `generate-blog.js` overwrites hand-edited post HTML | Medium | Regenerating an existing post from markdown discards any direct HTML edit (FAQ/JSON-LD additions included) — see the warning at the top of that file |
 
 ---
 

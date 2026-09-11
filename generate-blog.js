@@ -3,10 +3,33 @@
  * Static blog generator for Designit Studio Landing Page
  * Reads markdown files from SEO_Blog_App/content/blogs/
  * Generates blog/index.html and blog/[slug]/index.html
+ *
+ * Regenerates sitemap.xml + blog/sitemap.xml as its last step (see the
+ * postbuild call at the bottom) — the static-site equivalent of next-sitemap's
+ * `"postbuild": "next-sitemap"` hook. Before this existed, adding a post here
+ * required a separate hand-edit of blog/sitemap.xml (still documented as a
+ * manual step in README.md and SEO_MANUAL_STEPS.md) — the step that produced
+ * 22 duplicated, contradictory sitemap entries once it was inevitably missed.
+ *
+ * ⚠ DESTRUCTIVE ON EXISTING POSTS. This script writes every post's HTML fresh
+ * from its markdown source — it does not read or preserve the current HTML
+ * file first. Any enhancement made by editing generated HTML directly (FAQ
+ * accordions, JSON-LD, an "at a glance" block — the additions the 2026-09
+ * GEO pass made to every existing post) is NOT reflected in the markdown or
+ * this template, so running this script on a post that already has them
+ * deletes them. Confirmed by running it on the full existing set: it silently
+ * regenerated 27 posts back to their pre-GEO-pass state.
+ *   Safe:   running this for a genuinely NEW post (nothing to lose yet).
+ *   Unsafe: running it "just to refresh" the whole blog, or after any manual
+ *           HTML edit to an existing post — it will erase that edit.
+ * The template itself needs to grow FAQ/JSON-LD generation before this
+ * warning can come out; until then, treat existing posts' HTML as the source
+ * of truth, not the markdown.
  */
 
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 const BLOG_CONTENT_DIR = path.resolve(
   __dirname,
@@ -941,3 +964,10 @@ posts.forEach((post, i) => {
 });
 
 console.log('\nDone! Blog pages generated successfully.');
+
+// ─── postbuild: keep both sitemaps in sync with what was just generated ──────
+console.log('\nRegenerating sitemaps...');
+execSync(`node ${JSON.stringify(path.join(__dirname, 'generate-sitemaps.js'))}`, {
+  cwd: __dirname,
+  stdio: 'inherit',
+});
