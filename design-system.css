@@ -1142,6 +1142,13 @@ h5, .text-h5 {
    RESPONSIVE
    ============================================ */
 
+/* 7 nav links + CTA overflow the bar between the mobile breakpoint and ~860px */
+@media (min-width: 769px) and (max-width: 1100px) {
+  .navbar { padding: 14px 24px; gap: 16px; }
+  .nav-links { gap: 18px; }
+  .nav-links a { font-size: 15px; }
+}
+
 @media (max-width: 1024px) {
   h1, .text-h1 { font-size: 56px; line-height: 60px; }
   h2, .text-h2, .section-title { font-size: 44px; line-height: 50px; letter-spacing: -1px; }
@@ -1177,10 +1184,12 @@ h5, .text-h5 {
   .section { padding: var(--space-3xl) 0; }
   .section-lg { padding: var(--space-4xl) 0; }
 
-  .navbar {
+  .navbar,
+  .navbar.scrolled {
     padding: 12px 20px;
     /* Remove backdrop-filter on mobile — it creates a CSS containing block
-       that traps position:fixed children inside the navbar instead of the viewport */
+       that traps position:fixed children inside the navbar instead of the viewport.
+       .scrolled must be listed too, or its higher specificity re-adds the filter. */
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
     background: rgba(10, 10, 10, 0.98);
@@ -1328,17 +1337,50 @@ h5, .text-h5 {
 .faq-list .faq-item.open .faq-chevron { transform: rotate(180deg); }
 
 /* "At a glance" — a page's own headline metrics, surfaced near the top */
+/* Flex (not grid) so every row fills completely at any item count — no empty divider cells */
 .geo-glance-list {
   list-style: none;
-  margin: 12px 0 0;
+  margin: 8px 0 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 12px 32px;
+  gap: 1px;
+  background: var(--border-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
 }
 .geo-glance-list li {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 32px 28px;
+  background: var(--bg-page);
+  transition: background 0.3s var(--ease);
+}
+.geo-glance-list li:hover {
+  background: var(--bg-elevated-1);
+}
+.geo-glance-list .glance-value {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1.4px;
+  background: linear-gradient(180deg, #fff 0%, #999 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 2px;
+}
+.geo-glance-list .glance-label {
   font-size: 15px;
-  color: var(--text-secondary);
-  padding-left: 14px;
-  border-left: 2px solid var(--border-default);
+  line-height: 1.45;
+  color: var(--text-tertiary);
+}
+@media (max-width: 768px) {
+  .geo-glance-list { border-radius: var(--radius-sm); }
+  .geo-glance-list li { flex-basis: 40%; padding: 22px 18px; gap: 8px; }
+  .geo-glance-list .glance-value { font-size: 32px; letter-spacing: -0.8px; }
+  .geo-glance-list .glance-label { font-size: 14px; }
 }

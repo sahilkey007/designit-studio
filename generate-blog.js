@@ -332,15 +332,16 @@ function formatDate(d) {
 
 function navbar(activePage) {
   const links = [
-    { href: '/index.html', label: 'Home' },
-    { href: '/about.html', label: 'About' },
-    { href: '/projects.html', label: 'Projects' },
-    { href: '/pricing.html', label: 'Pricing' },
-    { href: '/blog/index.html', label: 'Blog' },
-    { href: '/contact.html', label: 'Contact' },
+    { href: '/', label: 'Home' },
+    { href: '/about/', label: 'About' },
+    { href: '/services/', label: 'Services' },
+    { href: '/projects/', label: 'Projects' },
+    { href: '/industries/', label: 'Industries' },
+    { href: '/blog/', label: 'Blog' },
+    { href: '/contact/', label: 'Contact' },
   ];
   return `<header class="navbar" id="navbar">
-    <a href="/index.html" class="logo"><img src="/logo.svg" alt="Designit" height="28"></a>
+    <a href="/" class="logo"><img src="/logo.svg" alt="Designit" height="28"></a>
     <nav class="nav-links" id="navLinks">
       ${links.map(l => `<a href="${l.href}"${l.label === activePage ? ' class="active"' : ''}>${l.label}</a>`).join('\n      ')}
     </nav>
@@ -624,7 +625,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/design-system.css">
+  <link rel="stylesheet" href="/design-system.css?v=5">
   <link rel="stylesheet" href="/pages.css">
   <link rel="icon" type="image/svg+xml" href="/logo.svg">
   <link rel="apple-touch-icon" href="/logo.svg">
@@ -782,10 +783,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></noscript>
-  <link rel="preload" href="/design-system.css?v=4" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/design-system.css?v=5" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="/pages.css?v=6" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="/design-system.css?v=4">
+    <link rel="stylesheet" href="/design-system.css?v=5">
     <link rel="stylesheet" href="/pages.css?v=6">
   </noscript>
   <link rel="icon" type="image/svg+xml" href="/logo.svg">

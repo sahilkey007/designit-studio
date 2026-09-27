@@ -391,6 +391,22 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
   ]
 }
 </script>
+  <style id="dz-mobile-nav">
+.dz-menu-toggle,.dz-burger{display:none}
+@media(min-width:769px) and (max-width:1000px){.dz-header{padding:0 1.25rem!important;gap:1rem!important}.dz-nav a{padding:.4rem .55rem!important}}
+@media(max-width:768px){
+.dz-header{padding:0 1.25rem!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;background:rgba(10,10,10,.98)!important}
+.dz-cta{display:none!important}
+.dz-burger{display:flex;flex-direction:column;gap:5px;padding:6px;cursor:pointer}
+.dz-burger span{display:block;width:24px;height:2px;background:#fff;border-radius:2px;transition:transform .3s,opacity .3s}
+.dz-nav{display:none!important;position:fixed;top:68px;left:0;right:0;bottom:0;background:rgba(10,10,10,.97);flex-direction:column;align-items:center;justify-content:center;gap:1.25rem!important;z-index:999}
+.dz-nav a{font-size:1.5rem!important;color:#fff!important}
+.dz-menu-toggle:checked~.dz-nav{display:flex!important}
+.dz-menu-toggle:checked~.dz-burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.dz-menu-toggle:checked~.dz-burger span:nth-child(2){opacity:0}
+.dz-menu-toggle:checked~.dz-burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+}
+  </style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -398,16 +414,10 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header style="position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(10,10,10,.88);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.07);padding:0 2rem;height:68px;display:flex;align-items:center;justify-content:space-between;gap:2rem;">
-  <a href="/" style="display:flex;align-items:center;flex-shrink:0;"><svg width="100" height="34" viewBox="0 0 117 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M1.50391 20.3432C1.50391 18.3838 1.90045 16.6693 2.69354 15.1998C3.48662 13.7069 4.57127 12.5523 5.9475 11.7359C7.34706 10.9195 8.9099 10.5113 10.636 10.5113C12.1289 10.5113 13.5168 10.8612 14.7997 11.5609C16.0826 12.2374 17.0623 13.1354 17.7388 14.2551V4.10831H20.9578V30.0001H17.7388V26.3962C17.109 27.5392 16.1759 28.4839 14.9397 29.2303C13.7034 29.9534 12.2572 30.315 10.601 30.315C8.89824 30.315 7.34706 29.8951 5.9475 29.0554C4.57127 28.2157 3.48662 27.0377 2.69354 25.5215C1.90045 24.0053 1.50391 22.2792 1.50391 20.3432Z" fill="white"/>
-  <path d="M102.512 7.71216C101.905 7.71216 101.392 7.50223 100.972 7.08236C100.552 6.6625 100.342 6.14931 100.342 5.54285C100.342 4.93638 100.552 4.42321 100.972 4.00334C101.392 3.58347 101.905 3.37354 102.512 3.37354C103.095 3.37354 103.585 3.58347 103.981 4.00334C104.401 4.42321 104.611 4.93638 104.611 5.54285C104.611 6.14931 104.401 6.6625 103.981 7.08236C103.585 7.50223 103.095 7.71216 102.512 7.71216ZM104.051 10.8262V30.0001H100.867V10.8262H104.051ZM109.362 13.4503V24.7518C109.362 25.6848 109.56 26.3496 109.956 26.7461C110.353 27.1193 111.041 27.306 112.021 27.306H114.365V30.0001H111.496C109.723 30.0001 108.394 29.5919 107.507 28.7755C106.621 27.9591 106.178 26.6178 106.178 24.7518V13.4503H103.693V10.8262H106.178V5.99771H109.362V10.8262H114.365V13.4503H109.362Z" fill="url(#g1)"/>
-  <defs><linearGradient id="g1" x1="104" y1="31" x2="104" y2="-6" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FFC860"/><stop offset="0.3" stop-color="#FF6F92"/>
-    <stop offset="0.6" stop-color="#4185F4"/><stop offset="1" stop-color="#02907B"/>
-  </linearGradient></defs>
-</svg></a>
-  <nav style="display:flex;gap:.25rem;align-items:center;">
+<header class="dz-header" style="position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(10,10,10,.88);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.07);padding:0 2rem;height:68px;display:flex;align-items:center;justify-content:space-between;gap:2rem;">
+  <a href="/" style="display:flex;align-items:center;flex-shrink:0;"><img src="/logo.svg" alt="Designit" width="82" height="28"></a>
+  <input type="checkbox" id="dzMenu" class="dz-menu-toggle">
+  <nav class="dz-nav" style="display:flex;gap:.25rem;align-items:center;">
     <a href="/" style="padding:.4rem .85rem;border-radius:8px;font-size:.875rem;font-weight:500;color:rgba(255,255,255,.65);transition:color .2s,background .2s;"
       onmouseover="this.style.color='#fff';this.style.background='rgba(255,255,255,.08)'"
       onmouseout="this.style.color='rgba(255,255,255,.65)';this.style.background='transparent'">Home</a><a href="/about/" style="padding:.4rem .85rem;border-radius:8px;font-size:.875rem;font-weight:500;color:rgba(255,255,255,.65);transition:color .2s,background .2s;"
@@ -424,7 +434,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       onmouseover="this.style.color='#fff';this.style.background='rgba(255,255,255,.08)'"
       onmouseout="this.style.color='rgba(255,255,255,.65)';this.style.background='transparent'">Contact</a>
   </nav>
-  <a href="/contact/" style="padding:.5rem 1.25rem;border-radius:10px;background:linear-gradient(135deg,#FFC860,#FF6F92);color:#000;font-weight:700;font-size:.85rem;flex-shrink:0;letter-spacing:-.01em;">Let's Chat!</a>
+  <a href="/contact/" class="dz-cta" style="padding:.5rem 1.25rem;border-radius:10px;background:linear-gradient(135deg,#FFC860,#FF6F92);color:#000;font-weight:700;font-size:.85rem;flex-shrink:0;letter-spacing:-.01em;">Let's Chat!</a>
+  <label for="dzMenu" class="dz-burger" aria-label="Toggle menu"><span></span><span></span><span></span></label>
 </header>
 
 <main style="padding-top:68px;">
