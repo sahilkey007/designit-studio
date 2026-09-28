@@ -739,7 +739,7 @@ function generateBlogPost(post, relatedPosts) {
     </details>`).join('\n');
 
   const related = relatedPosts.map(p => `
-    <a href="/blog/${p.slug}/index.html" class="blog-related-card">
+    <a href="/blog/${p.slug}/" class="blog-related-card">
       <p class="cat">${p.category} · ${p.readTime}</p>
       <h4>${p.title}</h4>
     </a>`).join('\n');
@@ -954,16 +954,43 @@ const indexHtml = generateBlogIndex(posts);
 fs.writeFileSync(path.join(BLOG_DIR, 'index.html'), indexHtml, 'utf8');
 console.log('✓ blog/index.html');
 
+// Related posts: rank by shared topic (industry topics weigh double), then same
+// category; ties go to the least-recommended post so links spread across the blog.
+const TOPICS = {
+  saas: /saas|dashboard|onboarding/, fintech: /fintech|kyc/, edtech: /edtech/,
+  proptech: /proptech|rtl|dubai|uae/, cro: /conver|cro|bounce|landing|lead/,
+  branding: /brand|identity/, cost: /cost|pricing|roi|price/, ai: /\bai\b|ai-|generative/,
+  hiring: /agency|freelancer|hire|choose/, designsys: /design-system|design system/,
+  audit: /audit/, website: /website|redesign|template|ecommerce/,
+};
+const INDUSTRY = new Set(['saas', 'fintech', 'edtech', 'proptech']);
+const topicsOf = p => {
+  const t = `${p.slug} ${p.title}`.toLowerCase();
+  return new Set(Object.keys(TOPICS).filter(k => TOPICS[k].test(t)));
+};
+const recommendedCount = new Map();
+function relatedFor(post) {
+  const mine = topicsOf(post);
+  const ranked = posts
+    .filter(p => p.slug !== post.slug)
+    .map(p => {
+      let score = p.category === post.category ? 1 : 0;
+      for (const t of topicsOf(p)) if (mine.has(t)) score += INDUSTRY.has(t) ? 4 : 2;
+      return { p, score, used: recommendedCount.get(p.slug) || 0 };
+    })
+    .sort((a, b) => b.score - a.score || a.used - b.used || a.p.slug.localeCompare(b.p.slug))
+    .slice(0, 2)
+    .map(r => r.p);
+  ranked.forEach(p => recommendedCount.set(p.slug, (recommendedCount.get(p.slug) || 0) + 1));
+  return ranked;
+}
+
 // Write each blog post page
 posts.forEach((post, i) => {
   const postDir = path.join(BLOG_DIR, post.slug);
   if (!fs.existsSync(postDir)) fs.mkdirSync(postDir, { recursive: true });
 
-  // Related = 2 other posts (different category preferred, else just next)
-  const related = posts
-    .filter(p => p.slug !== post.slug)
-    .sort((a, b) => (a.category !== post.category ? -1 : 1))
-    .slice(0, 2);
+  const related = relatedFor(post);
 
   const postHtml = generateBlogPost(post, related);
   fs.writeFileSync(path.join(postDir, 'index.html'), postHtml, 'utf8');
