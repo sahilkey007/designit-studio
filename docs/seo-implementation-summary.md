@@ -1,6 +1,6 @@
 # SEO implementation summary
 
-Branch `seo/implementation`, based on `8315857`. 16 commits, 98 files changed (89 HTML), +2,610 / −973.
+Branch `seo/implementation`, based on `8315857`. 15 commits (plus the one that corrects this line), 102 files changed (89 HTML, 9 added), +2,887 / −973.
 Nothing was pushed to `main` or deployed. Validation results are in `seo-implementation-validation.md`;
 what only you can do is in `owner-actions.md`; briefs that were held back are in `seo-todo.md`.
 
