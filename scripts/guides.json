@@ -52,7 +52,7 @@
     },
     "pricing": {
       "title": "What engagements typically cost",
-      "body": "Four common models. <strong>Fixed-scope audit</strong> — lowest risk, defined deliverable, good first engagement. <strong>Project</strong> — a defined outcome with written scope and dates; the most common structure. <strong>Retainer</strong> — monthly capacity as an embedded team; best value once work is continuous. <strong>Staff augmentation</strong> — designers into your team under your direction; cheapest per hour and the least strategic input. Our own bands are published on the <a href=\"/pricing/\">pricing page</a>, which we do because vague pricing wastes both sides' time.",
+      "body": "Four common models. <strong>Fixed-scope audit</strong> — lowest risk, defined deliverable, good first engagement. <strong>Project</strong> — a defined outcome with written scope and dates; the most common structure. <strong>Retainer</strong> — monthly capacity as an embedded team; best value once work is continuous. <strong>Staff augmentation</strong> — designers into your team under your direction; cheapest per hour and the least strategic input. We quote against a written scope before work starts, because vague pricing wastes both sides' time.",
       "timeline": "As a rough calibration: an audit is 2 weeks, a focused surface 3–5 weeks, a full product redesign with a design system 10–12 weeks. Anyone promising a full redesign in a fortnight is describing a reskin."
     },
     "faqs": [

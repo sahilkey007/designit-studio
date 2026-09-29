@@ -38,7 +38,6 @@ designit.co.in/
 ├── about.html                  # About page
 ├── projects.html               # Projects gallery
 ├── project-detail.html         # Dynamic project detail template
-├── pricing.html                # Pricing page
 ├── contact.html                # Contact page
 ├── careers.html                # Careers page
 ├── 404.html                    # Custom 404

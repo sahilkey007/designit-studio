@@ -51,7 +51,7 @@
     },
     "pricing": {
       "title": "How B2B SaaS engagements usually run",
-      "body": "Most start with a <a href=\"/services/ux-audit/\">UX audit</a> or a focused project on the highest-value surface, then move to a retainer as the design system matures. International engagements are quoted in USD. See the <a href=\"/pricing/\">pricing page</a>.",
+      "body": "Most start with a <a href=\"/services/ux-audit/\">UX audit</a> or a focused project on the highest-value surface, then move to a retainer as the design system matures. International engagements are quoted in USD.",
       "timeline": "A single surface — onboarding, one dashboard — runs 3–5 weeks. A full product redesign with a design system is typically 10–12 weeks."
     },
     "faqs": [
@@ -116,7 +116,7 @@
     },
     "pricing": {
       "title": "How fintech engagements usually run",
-      "body": "Fintech projects carry more research, more edge-case work and more compliance iteration than equivalent-sized products elsewhere, and we scope for that rather than discovering it midway. Quoted in USD for international clients. See the <a href=\"/pricing/\">pricing page</a>.",
+      "body": "Fintech projects carry more research, more edge-case work and more compliance iteration than equivalent-sized products elsewhere, and we scope for that rather than discovering it midway. Quoted in USD for international clients.",
       "timeline": "An onboarding or KYC flow redesign typically runs 4–6 weeks. A full platform is usually 10–14 weeks, with compliance review cycles built into the schedule."
     },
     "faqs": [
@@ -181,7 +181,7 @@
     },
     "pricing": {
       "title": "How EdTech engagements usually run",
-      "body": "Most begin with research or a <a href=\"/services/ux-audit/\">UX audit</a> focused on the completion funnel, then move into module-by-module design. Platforms with many surfaces usually move to a retainer. See the <a href=\"/pricing/\">pricing page</a>.",
+      "body": "Most begin with research or a <a href=\"/services/ux-audit/\">UX audit</a> focused on the completion funnel, then move into module-by-module design. Platforms with many surfaces usually move to a retainer.",
       "timeline": "A single module — onboarding, one assessment flow — runs 3–5 weeks. Multi-module platform work is typically an ongoing retainer rather than a fixed project."
     },
     "faqs": [

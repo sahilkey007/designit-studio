@@ -124,7 +124,7 @@
     },
     "pricing": {
       "title": "How property engagements usually run",
-      "body": "Single-property experiences are project-scoped. Developers with a pipeline of launches typically move to a retainer with a shared design system, which is materially cheaper per property from the third one onward. See the <a href=\"/pricing/\">pricing page</a>.",
+      "body": "Single-property experiences are project-scoped. Developers with a pipeline of launches typically move to a retainer with a shared design system, which is materially cheaper per property from the third one onward.",
       "timeline": "A single property experience runs 6–8 weeks. Subsequent properties on an established system are usually 3–4."
     },
     "faqs": [
@@ -279,7 +279,7 @@
     },
     "pricing": {
       "title": "How automotive engagements run",
-      "body": "Automotive projects are project-scoped with longer timelines than equivalent software work, because hardware constraints, validation cycles and supplier review add stages that cannot be compressed. We scope for that rather than discovering it midway. See the <a href=\"/pricing/\">pricing page</a>.",
+      "body": "Automotive projects are project-scoped with longer timelines than equivalent software work, because hardware constraints, validation cycles and supplier review add stages that cannot be compressed. We scope for that rather than discovering it midway.",
       "timeline": "A single HMI surface typically runs 8–10 weeks. A full cluster plus infotainment programme is a multi-month engagement with validation gates built in."
     },
     "faqs": [
@@ -434,7 +434,7 @@
     },
     "pricing": {
       "title": "How retail engagements usually run",
-      "body": "Most start with a two-week fixed-scope conversion audit, because in e-commerce the return on a diagnostic is measurable quickly and it tells us whether a redesign is even warranted. Design work follows on the surfaces the audit identifies. See the <a href=\"/pricing/\">pricing page</a>.",
+      "body": "Most start with a two-week fixed-scope conversion audit, because in e-commerce the return on a diagnostic is measurable quickly and it tells us whether a redesign is even warranted. Design work follows on the surfaces the audit identifies.",
       "timeline": "Audit is two weeks. A checkout or PDP redesign typically runs 3–5 weeks. Full-store work is 8–10."
     },
     "faqs": [

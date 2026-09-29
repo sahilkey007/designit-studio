@@ -51,7 +51,7 @@
     },
     "pricing": {
       "title": "Fixed scope, fixed price",
-      "body": "An audit is quoted as a fixed fee against an agreed scope — no hourly drift. Because it is fixed-scope, it is the lowest-risk way to work with us for the first time, and the fee is credited against a subsequent design engagement if you continue. Bands are on the <a href=\"/pricing/\">pricing page</a>.",
+      "body": "An audit is quoted as a fixed fee against an agreed scope — no hourly drift. Because it is fixed-scope, it is the lowest-risk way to work with us for the first time, and the fee is credited against a subsequent design engagement if you continue.",
       "timeline": "Two weeks from kickoff to walkthrough. Kickoff is normally within 48 hours of signature, and we can compress to one week where there is a genuine deadline."
     },
     "faqs": [
@@ -117,13 +117,13 @@
     },
     "pricing": {
       "title": "Engagement models",
-      "body": "A scoped project for a defined outcome, a monthly retainer when you need an embedded design team, or a fixed-scope audit if you want to test working with us first. International engagements are scoped and quoted in USD. Bands are published on the <a href=\"/pricing/\">pricing page</a>.",
+      "body": "A scoped project for a defined outcome, a monthly retainer when you need an embedded design team, or a fixed-scope audit if you want to test working with us first. International engagements are scoped and quoted in USD.",
       "timeline": "Focused work runs 3–5 weeks. A full product redesign with a design system is typically 10–12 weeks. You get written dates before we start."
     },
     "faqs": [
       { "q": "What's the difference between UI and UX design, practically?", "a": "UX is the decision layer — what the product does, how it is structured, what happens in what order. UI is the expression layer — how that structure looks and responds. In practice they are done by the same people on the same project, because separating them produces either beautiful things nobody can use or usable things nobody wants to look at. We do both; we just start with the structural half." },
       { "q": "Do you work with our existing brand and design language?", "a": "Yes, by default. Unless you have asked for a rebrand, we design within your existing visual language and extend it where it has gaps. If we think the brand is actively working against the product's usability, we will show you the specific evidence rather than simply presenting something new." },
-      { "q": "How much does UI/UX design cost?", "a": "It depends on scope more than on hours, which is why we publish bands rather than a single rate. A focused piece of work — one flow, one dashboard — is materially cheaper than a full product redesign with a design system. We give you a fixed written scope and price before starting; see the pricing page for current bands." },
+      { "q": "How much does UI/UX design cost?", "a": "It depends on scope more than on hours, so we quote against a written scope rather than a single rate. A focused piece of work — one flow, one dashboard — is materially cheaper than a full product redesign with a design system. We give you a fixed written scope and price before starting." },
       { "q": "Can you work with our in-house designers rather than replacing them?", "a": "Frequently. A common arrangement is that we handle structural and system work while your in-house team owns day-to-day feature design — we set the foundations and the documentation, they build on it. We are equally happy being an extra pair of senior hands inside an existing team." },
       { "q": "What happens after handover?", "a": "We stay available through implementation and run design QA against what actually ships. This matters more than it sounds: without a QA pass, a meaningful share of design intent gets lost in translation between Figma and production, and neither side notices until a user complains." },
       { "q": "Who does the work — will we get juniors after the pitch?", "a": "Senior designers from kickoff to handover. There are no account managers relaying messages and no junior hand-off after the sale. You work directly with the people designing your product, which is the main reason clients move onto retainers with us." },
@@ -183,7 +183,7 @@
     },
     "pricing": {
       "title": "Engagement models",
-      "body": "Project, retainer or fixed-scope audit. Product design engagements are usually project-based with a retainer following, because the structural work is front-loaded and the ongoing work is steadier. International engagements are quoted in USD. See the <a href=\"/pricing/\">pricing page</a>.",
+      "body": "Project, retainer or fixed-scope audit. Product design engagements are usually project-based with a retainer following, because the structural work is front-loaded and the ongoing work is steadier. International engagements are quoted in USD.",
       "timeline": "A defined product initiative typically runs 8–12 weeks end to end. Discovery alone can be run as a standalone 2–3 week engagement if you want to de-risk before committing."
     },
     "faqs": [
@@ -249,7 +249,7 @@
     },
     "pricing": {
       "title": "Engagement models",
-      "body": "Design systems are project-scoped, usually with a light retainer afterwards for governance as the system evolves. Consolidating an existing system is typically cheaper than building from zero — the audit tells us which you actually need. See the <a href=\"/pricing/\">pricing page</a>.",
+      "body": "Design systems are project-scoped, usually with a light retainer afterwards for governance as the system evolves. Consolidating an existing system is typically cheaper than building from zero — the audit tells us which you actually need.",
       "timeline": "A full system runs 10–12 weeks. A focused consolidation of an existing library is usually 4–6 weeks. The audit stage alone can be run standalone if you want a diagnosis first."
     },
     "faqs": [
@@ -315,7 +315,7 @@
     },
     "pricing": {
       "title": "Standalone or embedded",
-      "body": "Research runs either as a standalone study — useful when you need evidence for a decision and nothing else — or as the first phase of a design engagement, where it is included. Standalone studies are fixed-scope and fixed-price. See the <a href=\"/pricing/\">pricing page</a>.",
+      "body": "Research runs either as a standalone study — useful when you need evidence for a decision and nothing else — or as the first phase of a design engagement, where it is included. Standalone studies are fixed-scope and fixed-price.",
       "timeline": "Two to four weeks depending on recruitment difficulty. Enterprise and specialist audiences take longer to recruit; consumer studies are usually at the faster end."
     },
     "faqs": [

@@ -50,10 +50,6 @@ Designit Studio (designit.co.in) is an independent product design studio headqua
 - [Infotainment](https://designit.co.in/projects/tata-elxsi/infotainment/)
 - [Instrument Cluster](https://designit.co.in/projects/tata-elxsi/instrument-cluster/)
 
-## Pricing
-
-- [Pricing](https://designit.co.in/pricing/)
-
 ## Careers
 
 - [Careers](https://designit.co.in/careers/)

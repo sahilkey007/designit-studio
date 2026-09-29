@@ -498,7 +498,6 @@ Primary design tool: Figma. Prototyping: Figma / Protopie. Developer handoff: Fi
 - [Services](https://designit.co.in/services/)
 - [Industries](https://designit.co.in/industries/)
 - [Projects / Case Studies](https://designit.co.in/projects/)
-- [Pricing](https://designit.co.in/pricing/)
 - [Blog](https://designit.co.in/blog/)
 - [Careers](https://designit.co.in/careers/)
 - [Contact](https://designit.co.in/contact/)
@@ -534,7 +533,7 @@ A Design Sprint is delivered in 5 business days. Full product design engagements
 
 **Is Designit a good UI/UX design agency for startups in India?**
 
-Yes. Designit is specifically built for startups. The agency offers direct founder access, transparent pricing, 5-day delivery sprints, and a track record with funded Indian startups and global enterprise clients.
+Yes. Designit is specifically built for startups. The agency offers direct founder access, 5-day delivery sprints, and a track record with funded Indian startups and global enterprise clients.
 
 ## Blog
 

@@ -375,7 +375,6 @@ function footer() {
           <div class="footer-links">
             <a href="/about.html">About</a>
             <a href="/projects.html">Projects</a>
-            <a href="/pricing.html">Pricing</a>
             <a href="/blog/index.html">Blog</a>
             <a href="/careers.html">Careers</a>
             <a href="/contact.html">Contact</a>
@@ -712,9 +711,9 @@ ${navbar('Blog')}
         <div style="position:absolute;top:0;inset-x:0;height:200px;background:linear-gradient(to bottom, rgba(255,200,96,0.06), transparent);pointer-events:none;"></div>
         <p class="section-label" style="position:relative;">Work With Us</p>
         <h2 class="section-title gradient-text" style="position:relative;">Need Design Help,<br>Not Just Advice?</h2>
-        <p style="color:var(--text-tertiary);font-size:1rem;max-width:500px;margin:0 auto 2rem;line-height:1.7;position:relative;">We design landing pages, products, and design systems for startups. Transparent pricing, direct designer access, 5-day delivery.</p>
+        <p style="color:var(--text-tertiary);font-size:1rem;max-width:500px;margin:0 auto 2rem;line-height:1.7;position:relative;">We design landing pages, products, and design systems for startups. Direct designer access, 5-day delivery.</p>
         <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;position:relative;">
-          <a href="/pricing.html" class="btn btn-primary btn-md">View Pricing</a>
+          <a href="/projects/" class="btn btn-primary btn-md">See Our Work</a>
           <a href="https://calendly.com/sahilnsharma77/new-meeting" target="_blank" rel="noopener" class="btn btn-outline btn-md">Book a Free Call</a>
         </div>
       </div>
