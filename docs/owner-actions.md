@@ -3,6 +3,32 @@
 Things the code cannot, or should not, decide. Nothing here has been done for you.
 Priority order within each section.
 
+## 0. Round 3 (2026-09-30): decisions applied
+
+- **Done:** Apollo, PostHog and Contentsquare removed from every page (plus `cs-tracking.js`); first-party
+  `analytics.js` now sends nothing until the visitor accepts the cookie banner (`dsn_consent`), `?v=2`; privacy policy
+  updated and its "Last updated" set to 30 Sep 2026.
+- **Done:** headline case-study metrics removed everywhere (hub pages, `/projects/` cards, industry/service/geo pages,
+  `llms.txt`, `data/projects.json`). Case studies themselves stay.
+- **Done:** About rewritten for a studio launched about five months ago with 10+ years of founder/designer experience;
+  timeline removed; Sahil Sharma added as founder (visible line, `founder` Person schema on About, `llms` files).
+- **Done:** both KYC "audit dataset" tables removed.
+- **Done:** 121 unreferenced PNGs (~145 MB) added to `.vercelignore`.
+
+**Still open, same category as what you just removed (need a yes/no from you):**
+- The About strip still says "98% Client Satisfaction", "100+ Projects Delivered", "10M+ Monthly Users"; the homepage
+  says "98% Client Satisfaction Rate", "2x Average Conversion Lift", "50+ Products Shipped", "Trusted by 20+ founders";
+  the About founder card says "Adda247 (50M+ users)". For a five-month-old studio these read as studio results. Either
+  reframe as "career" numbers (with wording that says so) or remove.
+- Sub-project pages still list their own "Measured outcomes" (about 25 pages, e.g. 72% class attendance, 58% content
+  consumption). Same evidence question as the hub metrics.
+- The KYC post has an unnamed "31% to 62% completion in 90 days" client story and other unsourced percentages.
+- Privacy policy "Effective date: 6 June 2025" predates the studio.
+- ₹/USD cost ranges in blog FAQs.
+- **GTM (manual, no access):** open the container, confirm there is no second GA4 tag next to the hard-coded
+  `gtag('config','G-HCN5Q8W144')`, and delete any leftover PostHog / Contentsquare / Apollo tags there so they cannot
+  return through the tag manager.
+
 ## 1. Decisions that affect what visitors and Google see (do these first)
 
 **Resolved (owner decision, 2026-09-29): `/pricing/` stays retired.** `pricing.html` was deleted and `/pricing`,
