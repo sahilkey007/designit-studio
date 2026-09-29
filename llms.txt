@@ -21,6 +21,8 @@ Designit is not a generalist studio. It focuses exclusively on:
 
 **Important disambiguation:** Designit Studio (designit.co.in) is an independent product design studio headquartered in Noida, India. It is not affiliated with Designit A/S, the Aarhus-founded design consultancy owned by Wipro.
 
+**Founder:** Sahil Sharma, a product designer with more than ten years of experience ([LinkedIn](https://www.linkedin.com/in/best-design-studio/)).
+
 ## Approach
 
 Designit follows a research-first methodology: user research and UX discovery, then design, then measurable growth. Every project is led by senior designers from kickoff through final developer handoff — no account managers, no junior hand-offs, no offshore layers.
@@ -517,7 +519,7 @@ Designit offers three flexible engagement models. Project-based fixed pricing fo
 
 **What is Designit's approach to product design?**
 
-Designit is a research-led product design studio. Every engagement starts with user research and UX discovery before any interface is designed, ensuring decisions are grounded in real user behaviour. Our senior design team has 5+ years of experience across B2B SaaS, Fintech, and e-commerce conversion design.
+Designit is a research-led product design studio. Every engagement starts with user research and UX discovery before any interface is designed, ensuring decisions are grounded in real user behaviour. Our senior design team has 10+ years of experience across B2B SaaS, Fintech, and e-commerce conversion design.
 
 **Does Designit work with international clients?**
 

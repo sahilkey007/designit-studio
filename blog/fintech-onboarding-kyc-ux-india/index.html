@@ -634,56 +634,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><strong>No save-and-continue option.</strong> 60% of Indian fintech sessions happen on mobile, often on slow connections in the field. Forcing single-sitting completion guarantees abandonment. Async save with a WhatsApp or SMS reminder recovers 12–18% of sessions that would otherwise be lost permanently.</li>
       </ol>
 
-      <h2 class="blog-h2">KYC UX Patterns: India Fintech Benchmark</h2>
-
-      <p class="blog-p">The table below compares the drop-off impact of common UX decisions across lending, investment, and payments fintech products audited in India between 2024 and 2025.</p>
-
-      <div class="blog-table-wrap">
-        <table class="blog-table">
-          <thead>
-            <tr>
-              <th>KYC UX Decision</th>
-              <th>Typical Drop-Off</th>
-              <th class="is-featured">Optimised Pattern</th>
-              <th class="is-featured">Optimised Drop-Off</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Single long form (8+ fields)</td>
-              <td>55–70% step exit</td>
-              <td class="is-featured">Progressive disclosure (≤3 fields/screen)</td>
-              <td class="is-featured">20–35% step exit</td>
-            </tr>
-            <tr>
-              <td>Vague document upload prompt</td>
-              <td>40–50% abandonment</td>
-              <td class="is-featured">Format-specific buttons + example images</td>
-              <td class="is-featured">15–25% abandonment</td>
-            </tr>
-            <tr>
-              <td>No progress indicator</td>
-              <td>+18–22% overall drop-off</td>
-              <td class="is-featured">Step counter + % progress bar</td>
-              <td class="is-featured">−18–22% overall drop-off</td>
-            </tr>
-            <tr>
-              <td>Post-submission error messages</td>
-              <td>62% re-abandonment rate</td>
-              <td class="is-featured">Inline real-time validation</td>
-              <td class="is-featured">28% re-abandonment rate</td>
-            </tr>
-            <tr>
-              <td>No save-and-continue option</td>
-              <td>100% session loss on exit</td>
-              <td class="is-featured">Save state + WhatsApp/SMS recovery</td>
-              <td class="is-featured">Recovers 12–18% of sessions</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="blog-table-note">Drop-off rates from Designit audit dataset (India, 2024–2025).</p>
-
       <h2 class="blog-h2">The RBI Compliance Design Trap — And How to Escape It</h2>
 
       <p class="blog-p">Here's the pattern that causes most Indian fintech teams to ship bad KYC UX: the product team receives a list of required fields from their legal team, hands that list to a UI designer as the design brief, and ships a form that collects all required fields. Compliance approves it. Everyone goes home.</p>
@@ -720,48 +670,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <p class="blog-p">For context on building conversion-optimised fintech products from the ground up, see our full <a href="/blog/fintech-ux-design-agency-india/" class="blog-link">Fintech UX Design guide for India</a>. Many of the same principles also apply to <a href="/blog/saas-onboarding-ux-best-practices-india/" class="blog-link">SaaS onboarding UX in India</a> — particularly inline validation and progressive disclosure patterns.</p>
 
-      <h2 class="blog-h2">KYC UX Completion Benchmarks by Fintech Stage</h2>
-
-      <div class="blog-table-wrap">
-        <table class="blog-table">
-          <thead>
-            <tr>
-              <th>Product Stage</th>
-              <th>Typical Completion Rate</th>
-              <th>Realistic 6-Month Target</th>
-              <th class="is-featured">Achievable in 5-Day Sprint?</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Pre-seed / MVP (minimal KYC)</td>
-              <td>55–70%</td>
-              <td>70–80%</td>
-              <td class="is-featured">Yes — quick-win fixes</td>
-            </tr>
-            <tr>
-              <td>Seed / Early traction (full KYC)</td>
-              <td>30–45%</td>
-              <td>50–65%</td>
-              <td class="is-featured">Yes — audit + top 3 fixes</td>
-            </tr>
-            <tr>
-              <td>Series A (full KYC + video-KYC)</td>
-              <td>25–40%</td>
-              <td>45–60%</td>
-              <td class="is-featured">Partial — sprint + follow-on</td>
-            </tr>
-            <tr>
-              <td>Series B+ (re-KYC / periodic)</td>
-              <td>35–55%</td>
-              <td>60–75%</td>
-              <td class="is-featured">Yes — contextual redesign</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="blog-table-note">Benchmarks from Designit audit dataset (India, 2024–2025). Video-KYC completion rates are 15–20% lower than document-based KYC at equivalent design quality.</p>
-
       <h2 class="blog-h2">The Single Most Impactful Change You Can Make Today</h2>
 
       <p class="blog-p">If you do nothing else after reading this, do one thing: pull your step-level drop-off data and find the single screen with the highest exit rate. That screen is where your revenue is leaking. Every other optimisation — acquisition, lifecycle, pricing — is secondary until that screen is fixed.</p>
@@ -779,7 +687,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <details class="faq-item" open>
         <summary>What is the average KYC onboarding drop-off rate in Indian fintech?<span class="faq-icon">+</span></summary>
-        <p class="faq-answer">Drop-off varies widely by product stage and KYC depth (see the table above), and video-KYC flows typically lose more users than document-only flows. Well-designed UX around the same regulatory requirements can narrow that gap without changing what data is collected.</p>
+        <p class="faq-answer">Drop-off varies widely by product stage and KYC depth, and video-KYC flows typically lose more users than document-only flows. Well-designed UX around the same regulatory requirements can narrow that gap without changing what data is collected.</p>
       </details>
 
       <details class="faq-item">

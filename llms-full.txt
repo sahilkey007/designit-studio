@@ -6,6 +6,7 @@
 
 Designit Studio (designit.co.in) is an independent product design studio headquartered in Noida, India. It is not affiliated with Designit A/S, the Aarhus-founded design consultancy owned by Wipro.
 
+- Founder: Sahil Sharma, a product designer with more than ten years of experience ([LinkedIn](https://www.linkedin.com/in/best-design-studio/))
 - Location: Sector 45, Noida, Uttar Pradesh 201303, India
 - Email: contact@designit.co.in
 - Contact form: [Get in touch](https://designit.co.in/contact/)
