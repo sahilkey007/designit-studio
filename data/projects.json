@@ -94,8 +94,6 @@
     "services": ["UI/UX Design", "Product Strategy", "Design System", "Mobile App Design", "User Research"],
     "tools": ["Figma", "Prototyping", "User Testing", "Analytics"],
     "results": [
-      {"metric": "45%", "label": "Increase in user onboarding completion"},
-      {"metric": "60%", "label": "Reduction in support tickets"},
       {"metric": "8", "label": "Product modules designed end-to-end"}
     ]
   },
@@ -159,9 +157,7 @@
     "services": ["Web Design", "Brand Identity", "UX Research", "Luxury UI Design"],
     "tools": ["Figma", "Webflow", "Animation", "Photography Direction"],
     "results": [
-      {"metric": "7", "label": "Luxury property websites designed"},
-      {"metric": "100%", "label": "Client retention across projects"},
-      {"metric": "3x", "label": "Increase in qualified leads for LIV"}
+      {"metric": "7", "label": "Luxury property websites designed"}
     ]
   },
   {
@@ -205,9 +201,7 @@
     "services": ["SaaS Design", "Dashboard Design", "Browser Extension UX", "Design System"],
     "tools": ["Figma", "Prototyping", "Data Visualization"],
     "results": [
-      {"metric": "3", "label": "Product modules designed"},
-      {"metric": "40%", "label": "Reduction in user onboarding time"},
-      {"metric": "2x", "label": "Improvement in feature adoption"}
+      {"metric": "3", "label": "Product modules designed"}
     ]
   },
   {
@@ -232,9 +226,7 @@
     "services": ["Product Design", "Developer UX", "Design System", "Information Architecture"],
     "tools": ["Figma", "Component Library", "API Documentation Design"],
     "results": [
-      {"metric": "60%", "label": "Reduction in cognitive load"},
-      {"metric": "1", "label": "Unified platform replacing 3 tools"},
-      {"metric": "4x", "label": "Faster API documentation workflow"}
+      {"metric": "1", "label": "Unified platform replacing 3 tools"}
     ]
   },
   {
@@ -261,7 +253,6 @@
     "tools": ["Figma", "After Effects", "Prototyping", "Behance"],
     "results": [
       {"metric": "2", "label": "HMI systems designed for production"},
-      {"metric": "30%", "label": "Reduction in driver distraction metrics"},
       {"metric": "1", "label": "Published on Behance (Digital Cockpit)"}
     ]
   }

@@ -165,7 +165,7 @@ Acquisition spend is working and the funnel still leaks. You suspect the problem
 
 *Support keeps answering the same question*
 
-The same three tickets arrive every week. That is a design problem being absorbed by humans, and it is measurable — reducing it was worth a 60% ticket drop for Adda247.
+The same three tickets arrive every week. That is a design problem being absorbed by humans, and it is measurable — we worked on exactly this at Adda247.
 
 *Everyone has an opinion, nobody has evidence*
 
@@ -239,7 +239,7 @@ Someone inside the customer's organisation staked their credibility on choosing 
 
 *Activation and onboarding design*
 
-Mapping the first action that predicts retention for your product, then designing the shortest credible path to it. At Adda247 this approach lifted onboarding completion 45%.
+Mapping the first action that predicts retention for your product, then designing the shortest credible path to it. We took this approach at Adda247.
 
 ### EdTech & Digital Learning
 
@@ -265,7 +265,7 @@ Much of the learning happens on mid-range Android devices on unreliable connecti
 
 *Onboarding and activation*
 
-Getting a new learner to their first genuine learning moment quickly. At Adda247 this work raised onboarding completion 45%.
+Getting a new learner to their first genuine learning moment quickly. We worked on this at Adda247.
 
 ### Fintech & Web3
 
