@@ -75,8 +75,8 @@ input, textarea, select { font-family: inherit; }
   --text-tertiary: #999999;
   --text-subtle: #9C9C9C;
   --text-disabled: #808080;
-  --text-faint: #6E6E6E;
-  --text-ghost: #666666;
+  --text-faint: #8A8A8A;
+  --text-ghost: #858585;
   --text-dark: #454545;
   --text-on-white: #000000;
 
@@ -927,7 +927,12 @@ h5, .text-h5 {
   margin-bottom: 20px;
 }
 
-.footer-links a {
+h3.footer-col-title {
+  line-height: 36px;
+}
+
+.footer-links a,
+.footer-links > span {
   display: block;
   font-size: 14px;
   color: var(--text-tertiary);
@@ -1154,6 +1159,7 @@ h5, .text-h5 {
   h2, .text-h2, .section-title { font-size: 44px; line-height: 50px; letter-spacing: -1px; }
   h3, .text-h3 { font-size: 32px; line-height: 36px; }
   h4, .text-h4 { font-size: 26px; line-height: 30px; }
+  h3.footer-col-title { line-height: 30px; }
 
   .footer-grid {
     grid-template-columns: 1fr 1fr;
@@ -1180,6 +1186,7 @@ h5, .text-h5 {
   h2, .text-h2, .section-title { font-size: 32px; line-height: 38px; letter-spacing: -0.5px; }
   h3, .text-h3 { font-size: 26px; line-height: 30px; }
   h4, .text-h4 { font-size: 22px; line-height: 28px; }
+  h3.footer-col-title { line-height: 28px; }
 
   .section { padding: var(--space-3xl) 0; }
   .section-lg { padding: var(--space-4xl) 0; }
