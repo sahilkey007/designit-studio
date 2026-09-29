@@ -16,13 +16,18 @@
         return sid;
     }
 
-    var SESSION_ID = getSessionId();
     var PAGE_START = Date.now();
+
+    /* ---- consent gate: nothing is stored or sent until the visitor accepts ---- */
+    function hasConsent() {
+        try { return localStorage.getItem('dsn_consent') === 'granted'; } catch (e) { return false; }
+    }
 
     /* ---- core send ---- */
     function send(eventName, props) {
+        if (!hasConsent()) return;
         var payload = {
-            session_id: SESSION_ID,
+            session_id: getSessionId(),
             event_name: eventName,
             page_url: location.pathname,
             properties: Object.assign({ referrer: document.referrer || '' }, props || {})
@@ -45,26 +50,29 @@
             .catch(function () { /* silent fail — never break UX */ });
     }
 
-    /* ---- forward to PostHog if loaded ---- */
-    function sendToPosthog(eventName, props) {
-        if (window.posthog && typeof window.posthog.capture === 'function') {
-            window.posthog.capture(eventName, props || {});
-        }
-    }
-
     /* ---- expose globally for intake-form.js ---- */
     window.trackEvent = function(eventName, props) {
         send(eventName, props);          // Supabase events table
-        sendToPosthog(eventName, props); // PostHog
     };
 
-    /* ---- 1. page_view ---- */
-    send('page_view', {
-        title: document.title,
-        utm_source: new URLSearchParams(location.search).get('utm_source') || '',
-        utm_medium: new URLSearchParams(location.search).get('utm_medium') || '',
-        utm_campaign: new URLSearchParams(location.search).get('utm_campaign') || ''
-    });
+    /* ---- 1. page_view (sent on load if already consented, else right after the visitor accepts) ---- */
+    var pageViewSent = false;
+    function sendPageView() {
+        if (pageViewSent || !hasConsent()) return;
+        pageViewSent = true;
+        send('page_view', {
+            title: document.title,
+            utm_source: new URLSearchParams(location.search).get('utm_source') || '',
+            utm_medium: new URLSearchParams(location.search).get('utm_medium') || '',
+            utm_campaign: new URLSearchParams(location.search).get('utm_campaign') || ''
+        });
+    }
+    sendPageView();
+    var prevOnConsent = window.__dsnOnConsentGranted;
+    window.__dsnOnConsentGranted = function () {
+        if (typeof prevOnConsent === 'function') prevOnConsent();
+        sendPageView();
+    };
 
     /* ---- 2. CTA clicks (event delegation) ---- */
     document.addEventListener('click', function (e) {
