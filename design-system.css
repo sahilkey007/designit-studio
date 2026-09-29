@@ -636,7 +636,7 @@ h5, .text-h5 {
   margin-bottom: 24px;
 }
 
-.service-card h4 {
+.service-card h4, .service-card .service-card-title {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 12px;
@@ -1391,3 +1391,11 @@ h3.footer-col-title {
   .geo-glance-list .glance-value { font-size: 32px; letter-spacing: -0.8px; }
   .geo-glance-list .glance-label { font-size: 14px; }
 }
+
+/* Skip link (keyboard / screen-reader bypass to main content) */
+.skip-link { position: absolute; left: 8px; top: -48px; z-index: 10000; padding: 10px 16px; background: #fff; color: #000; border-radius: 6px; font-weight: 600; text-decoration: none; transition: top .15s; }
+.skip-link:focus { top: 8px; }
+main:focus { outline: none; }
+
+.service-card .service-card-title { line-height: 36px; }
+@media (max-width: 768px) { .service-card .service-card-title { line-height: 28px; } }
