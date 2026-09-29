@@ -65,9 +65,13 @@ what only you can do is in `owner-actions.md`; briefs that were held back are in
   (see seo-todo).
 - **Sitemap regeneration:** `generate-sitemaps.js` was not run; this branch touched almost every file so it would
   stamp everything today. The new post was added to `blog/sitemap.xml` by hand.
-- **`/pricing/`:** left as found (meta-refresh to the homepage). This is the most important open decision.
+- **`/pricing/`:** resolved after review: 301 to home, removed from sitemap/llms, 19 pointers reworded (see owner-actions).
 
 ## Unverified claims still on the site
 Listed in full in `owner-actions.md` §1. In short: About and homepage headline stats, all case-study metrics
 (now also repeated on `/projects/` cards), several blog statistics including a "Deloitte 2025" citation, the
 "activation below 40%" threshold, and the ₹ cost ranges.
+
+## Follow-up round (owner decisions)
+- `/pricing/` retired properly (301, sitemap, llms, pointers); founding year removed everywhere; third-party
+  statistics removed from 7 blog posts. Details in `owner-actions.md`.

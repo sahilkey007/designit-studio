@@ -5,22 +5,18 @@ Priority order within each section.
 
 ## 1. Decisions that affect what visitors and Google see (do these first)
 
-**TODO(owner): `/pricing/` is a redirect stub, but 19 pages send people to it.**
-`pricing.html` contains `<meta http-equiv="refresh" content="0; url=/">`, added on 2026-05-25 in the commit
-"…pricing removal". Every visit lands on the homepage. Yet:
-- `sitemap.xml` still lists `/pricing/`.
-- 19 pages say pricing "bands are published on the pricing page" (UX audit, industry pages, several blog FAQs).
-- The technical audit reported "all 83 sitemap URLs return 200" because a meta refresh returns 200 while
-  redirecting in the browser, so this was never flagged.
-Choose one: (a) restore the page (remove the meta refresh) and confirm the bands are current, or (b) keep it
-removed, take `/pricing/` out of the sitemap, and rewrite the 19 sentences. The new checklist page deliberately
-does not link to it.
+**Resolved (owner decision, 2026-09-29): `/pricing/` stays retired.** `pricing.html` was deleted and `/pricing`,
+`/pricing/` and `/pricing.html` now 301 to `/` in `vercel.json`. It is out of `sitemap.xml`, `llms.txt` and
+`llms-full.txt`; the 404 card and the blog CTA were repointed; the sentences that sent readers to "the pricing page"
+were removed or reworded (visible text and FAQ schema together). Still true: ₹/USD cost ranges in blog FAQs and the
+homepage "What are your pricing models?" FAQ are unverified by me.
 
-**TODO(owner): confirm the founding year.** `about.html` says "founded in 2019". The homepage
-`foundingDate`, `disambiguatingDescription` and `llms.txt` say 2020. Nothing was changed. Once confirmed,
-update the losing side. The new `disambiguatingDescription` on the other 85 pages omits the year on purpose.
+**Resolved (owner decision): founding year removed everywhere** (About copy and FAQ, the 2019 timeline label now
+reads "Start", homepage `foundingDate`, `llms.txt`). **TODO(owner):** when you confirm the year, add it back in one
+pass. The other timeline years (2020, 2022, 2024) and "5+ Years of Excellence" are also unverified.
 
-**TODO(owner): approve or remove unverified claims currently on the site.** These are the site's own numbers
+**Partly resolved: third-party statistics removed** (Deloitte 2025 / Phenomenon Studio / Skins Factory KYC figures, the
+unsourced 25-40% ranges and the "activation below 40%" threshold). Still open, your own numbers, reused verbatim and unchecked: These are the site's own numbers
 and were only reused verbatim, never checked:
 - About page strip: "98% Client Satisfaction", "100+ Projects Delivered", "5+ Years of Excellence",
   "10M+ Monthly Users" (also on `/industries/`). Homepage: "98% Client Satisfaction Rate", "2x Average
