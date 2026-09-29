@@ -2,6 +2,15 @@
 
 > Extended companion to /llms.txt per the llms.txt spec (https://llmstxt.org). Complete list of indexable pages on designit.co.in.
 
+## About Designit Studio
+
+Designit Studio (designit.co.in) is an independent product design studio headquartered in Noida, India. It is not affiliated with Designit A/S, the Aarhus-founded design consultancy owned by Wipro.
+
+- Location: Sector 45, Noida, Uttar Pradesh 201303, India
+- Email: contact@designit.co.in
+- Contact form: [Get in touch](https://designit.co.in/contact/)
+- Summary and services: [llms.txt](https://designit.co.in/llms.txt)
+
 ## Home
 
 - [Designit.Co.In](https://designit.co.in/)
