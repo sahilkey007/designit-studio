@@ -15,19 +15,18 @@ Priority order within each section.
 - **Done:** both KYC "audit dataset" tables removed.
 - **Done:** 121 unreferenced PNGs (~145 MB) added to `.vercelignore`.
 
-**Still open, same category as what you just removed (need a yes/no from you):**
-- The About strip still says "98% Client Satisfaction", "100+ Projects Delivered", "10M+ Monthly Users"; the homepage
-  says "98% Client Satisfaction Rate", "2x Average Conversion Lift", "50+ Products Shipped", "Trusted by 20+ founders";
-  the About founder card says "Adda247 (50M+ users)". For a five-month-old studio these read as studio results. Either
-  reframe as "career" numbers (with wording that says so) or remove.
-- Sub-project pages still list their own "Measured outcomes" (about 25 pages, e.g. 72% class attendance, 58% content
-  consumption). Same evidence question as the hub metrics.
-- The KYC post has an unnamed "31% to 62% completion in 90 days" client story and other unsourced percentages.
-- Privacy policy "Effective date: 6 June 2025" predates the studio.
-- ₹/USD cost ranges in blog FAQs.
-- **GTM (manual, no access):** open the container, confirm there is no second GA4 tag next to the hard-coded
-  `gtag('config','G-HCN5Q8W144')`, and delete any leftover PostHog / Contentsquare / Apollo tags there so they cannot
-  return through the tag manager.
+**Decided 2026-09-30:**
+- Headline stats kept but relabelled as career numbers: "(Career)" labels on the About, homepage and industries stat
+  blocks, a footnote saying the figures reflect the founder's and designers' combined 10+ years and that the studio
+  launched in 2026, "Years of Practice" now 10+, and the homepage heading "Trusted by 20+ Founders" replaced with
+  "Kind Words From Founders We've Worked With". The numbers themselves are still unverified.
+- Sub-project "Measured outcomes" and the KYC post's unnamed "31% to 62%" story: kept by owner decision.
+- Privacy policy and Terms: effective and last-updated dates set to 30 September 2026.
+- **GTM (read-only check of the published container, GTM-TQPPB8B7):** it holds only two tags, a Google tag for
+  G-HCN5Q8W144 (all pages) and one GA4 event tag that forwards dataLayer events with Meta fbp/fbc parameters. There is
+  no PostHog, Contentsquare or Apollo tag, so nothing to delete there. The Google tag duplicates the hard-coded
+  `gtag('config', ...)`, but a live load sends a single page_view. Optional cleanup: remove one of the two; unpublished
+  draft workspaces cannot be seen from outside.
 
 ## 1. Decisions that affect what visitors and Google see (do these first)
 
