@@ -5,3 +5,4 @@ fd918c6   # technical SEO patch: skip link, landmarks, image dimensions, twitter
 5f02217   # inline critical CSS on blog posts
 a731521   # inline skip-link rule
 d2df107   # tracker removal, analytics consent gate, analytics.js ?v=2
+f656e2d   # font fallback + accessibility attributes on most pages
