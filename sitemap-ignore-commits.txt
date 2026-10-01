@@ -1,0 +1,7 @@
+# Commits that changed many pages without changing their content.
+# generate-sitemaps.js skips these when computing each page's lastmod.
+fd918c6   # technical SEO patch: skip link, landmarks, image dimensions, twitter meta
+21f03fe   # alternateName/disambiguation added to Organization schema
+5f02217   # inline critical CSS on blog posts
+a731521   # inline skip-link rule
+d2df107   # tracker removal, analytics consent gate, analytics.js ?v=2

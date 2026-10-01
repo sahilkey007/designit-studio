@@ -43,7 +43,7 @@ const RULES = [
   { test: (rel) => rel === 'blog/index.html', changefreq: 'weekly', priority: 0.9 },
   { test: (rel) => rel.startsWith('projects/'), changefreq: 'monthly', priority: 0.7 },
   { test: (rel) => rel.startsWith('services/') || rel.startsWith('industries/'), changefreq: 'monthly', priority: 0.8 },
-  { test: (rel) => rel === 'contact.html' || rel === 'pricing.html', changefreq: 'monthly', priority: 0.9 },
+  { test: (rel) => rel === 'contact.html', changefreq: 'monthly', priority: 0.9 },
 ];
 const DEFAULT = { changefreq: 'yearly', priority: 0.6 };
 
@@ -65,12 +65,28 @@ function toUrl(rel) {
   return SITE + '/' + rel.slice(0, -'.html'.length) + '/';
 }
 
+// Commits that touched many pages without changing what they say (tracker removal, critical CSS,
+// schema plumbing, skip link). Listed in sitemap-ignore-commits.txt (one hash or prefix per line, '#' comments)
+// so lastmod reflects content changes, which is what search engines expect it to mean.
+function loadIgnored() {
+  try {
+    return fs.readFileSync(path.join(ROOT, 'sitemap-ignore-commits.txt'), 'utf8')
+      .split('\n').map((l) => l.replace(/#.*/, '').trim()).filter(Boolean);
+  } catch (_) { return []; }
+}
+const IGNORED = loadIgnored();
+
 function gitLastmod(absPath) {
   try {
-    const out = execSync(`git log -1 --format=%cI -- ${JSON.stringify(absPath)}`, {
+    const out = execSync(`git log --format="%H %cI" -- ${JSON.stringify(absPath)}`, {
       cwd: ROOT, encoding: 'utf8',
     }).trim();
-    if (out) return out.slice(0, 10); // YYYY-MM-DD
+    for (const line of out.split('\n')) {
+      if (!line) continue;
+      const [hash, date] = line.split(' ');
+      if (IGNORED.some((p) => hash.startsWith(p))) continue;
+      return date.slice(0, 10); // YYYY-MM-DD
+    }
   } catch (_) { /* not a git repo, or file untracked */ }
   // Fallback: file mtime. Only hit for files not yet committed.
   const st = fs.statSync(absPath);
