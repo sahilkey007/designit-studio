@@ -3,6 +3,21 @@
 Things the code cannot, or should not, decide. Nothing here has been done for you.
 Priority order within each section.
 
+## 00. Audit round (2026-10-01)
+
+Automated fixes from the site audit, all verified before deploy:
+- **Layout shift from the web-font swap:** Inter now has a metric-matched fallback (`Inter Fallback`) in the inline
+  critical CSS and `design-system.css` (`?v=8`). With the font delayed 2 s: home 0.130 to 0.069, UX audit 0.091 to
+  0.008, EdTech post 0.038 to 0.002.
+- **Accessibility (axe, 166 page views):** four issue types fixed: unlabeled/duplicate `<nav>` landmarks (121),
+  scrollable tables now keyboard-focusable (4), contrast on "Phase 01" labels and the footer copyright line, and the
+  CTA band on Careers and Projects moved inside `<main>`. Re-run: 0 violations.
+- **Sitemap lastmod:** `generate-sitemaps.js` skips the bulk non-content commits listed in
+  `sitemap-ignore-commits.txt`; sitemaps regenerated.
+- **Canonical:** already correct everywhere (self-referencing, all variants 308 to it). No change.
+- **LCP on the new checklist post:** lab noise (3.2 s, 1.8 s, 1.2 s on three runs of the same page). No change.
+Still yours: directory profiles, reviews, backlinks, and confirming the career-number stats.
+
 ## 0. Round 3 (2026-09-30): decisions applied
 
 - **Done:** Apollo, PostHog and Contentsquare removed from every page (plus `cs-tracking.js`); first-party
