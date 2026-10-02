@@ -317,7 +317,7 @@ function loadPosts() {
         heading: 'Ready to transform your product?',
         text: "Let's design something that converts, retains, and grows with your business.",
         buttonText: 'Start Your Project',
-        buttonLink: '/contact.html'
+        buttonLink: '/contact/'
       }
     };
   }).sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -345,7 +345,7 @@ function navbar(activePage) {
     <nav class="nav-links" id="navLinks">
       ${links.map(l => `<a href="${l.href}"${l.label === activePage ? ' class="active"' : ''}>${l.label}</a>`).join('\n      ')}
     </nav>
-    <a href="/contact.html" class="btn btn-primary btn-sm nav-cta">Let's Chat!</a>
+    <a href="/contact/" class="btn btn-primary btn-sm nav-cta">Let's Chat!</a>
     <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
@@ -373,11 +373,11 @@ function footer() {
         <div>
           <p class="footer-col-title">Company</p>
           <div class="footer-links">
-            <a href="/about.html">About</a>
-            <a href="/projects.html">Projects</a>
-            <a href="/blog/index.html">Blog</a>
-            <a href="/careers.html">Careers</a>
-            <a href="/contact.html">Contact</a>
+            <a href="/about/">About</a>
+            <a href="/projects/">Projects</a>
+            <a href="/blog/">Blog</a>
+            <a href="/careers/">Careers</a>
+            <a href="/contact/">Contact</a>
           </div>
         </div>
         <div>
@@ -386,11 +386,11 @@ function footer() {
             <a href="mailto:contact@designit.co.in">contact@designit.co.in</a>
             <a href="tel:+918564948954">+91 85649 48954</a>
           </div>
-          <p style="color:var(--text-faint);font-size:0.875rem;margin-top:0.5rem;">Noida Sector 45, UP, India</p>
+          <p style="color:var(--text-faint);font-size:0.875rem;margin-top:0.5rem;">Noida, UP, India</p>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2025 Designit. All rights reserved.</span>
+        <span>© 2026 Designit. All rights reserved.</span>
         <div class="footer-social">
           <a href="https://www.linkedin.com/in/sahilnsharma" target="_blank" rel="noopener" aria-label="LinkedIn">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
@@ -624,8 +624,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/design-system.css?v=6">
-  <link rel="stylesheet" href="/pages.css?v=7">
+  <link rel="stylesheet" href="/design-system.css?v=8">
+  <link rel="stylesheet" href="/pages.css?v=8">
   <link rel="icon" type="image/svg+xml" href="/logo.svg">
   <link rel="apple-touch-icon" href="/logo.svg">
   <script type="application/ld+json">
@@ -782,11 +782,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></noscript>
-  <link rel="preload" href="/design-system.css?v=6" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="/pages.css?v=7" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/design-system.css?v=8" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/pages.css?v=8" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="/design-system.css?v=6">
-    <link rel="stylesheet" href="/pages.css?v=7">
+    <link rel="stylesheet" href="/design-system.css?v=8">
+    <link rel="stylesheet" href="/pages.css?v=8">
   </noscript>
   <link rel="icon" type="image/svg+xml" href="/logo.svg">
   <link rel="apple-touch-icon" href="/logo.svg">
@@ -921,7 +921,7 @@ ${navbar('Blog')}
       <p>${post.cta.text}</p>
       <div class="blog-cta-btns">
         <a href="${post.cta.buttonLink}" class="btn btn-primary btn-md">${post.cta.buttonText} →</a>
-        <a href="https://calendly.com/sahilnsharma77/new-meeting" target="_blank" rel="noopener" class="btn btn-outline btn-md">Book a Free Call</a>
+        <a href="/contact/" class="btn btn-outline btn-md">Get in Touch</a>
       </div>
     </div>
   </section>
