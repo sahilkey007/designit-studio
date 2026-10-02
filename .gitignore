@@ -46,3 +46,7 @@ About.png
 blog .png
 contact.png
 .vercel
+
+# Search Console exports and API keys (never commit)
+gsc-data/
+*-key.json
