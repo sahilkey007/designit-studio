@@ -45,6 +45,8 @@
   ],
   "redirects": [
     { "source": "/pricing", "destination": "/", "permanent": true },
+    { "source": "/project-detail", "destination": "/projects/adda247/", "permanent": true },
+    { "source": "/project-detail/", "destination": "/projects/adda247/", "permanent": true },
     { "source": "/pricing/", "destination": "/", "permanent": true },
     { "source": "/pricing.html", "destination": "/", "permanent": true },
     { "source": "/blog.html", "destination": "/blog/", "permanent": true },
