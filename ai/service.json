@@ -1,78 +1,128 @@
 {
   "name": "Designit",
-  "description": "Global UI/UX product design studio for startups and enterprises across the USA, UAE, UK and India.",
+  "description": "Designit is a senior-led, research-led product design studio in Noida, India. It helps SaaS, technology and enterprise teams understand their users, simplify complex products, redesign experiences and build scalable design systems, working with clients in India, the United States, the United Kingdom and the United Arab Emirates.",
   "url": "https://designit.co.in",
-  "serviceType": "UI/UX Product Design Studio",
-  "capabilities": [
-    "UI/UX Product Design",
-    "Design System Development",
-    "SaaS Strategy & Consulting",
-    "UX Research & Discovery",
-    "UX Design Audit & Analysis",
-    "Digital Prototyping & Validation",
-    "Digital Branding & Identity"
-  ],
+  "serviceType": "Product design studio",
   "areaServed": [
     "India",
     "United States",
-    "United Arab Emirates",
-    "United Kingdom"
+    "United Kingdom",
+    "United Arab Emirates"
   ],
   "services": [
     {
-      "name": "UI/UX Product Design",
-      "description": "End-to-end product design from research to high-fidelity UI for web and mobile platforms.",
+      "name": "UX Research",
+      "description": "UX research for digital products: user interviews, usability testing, contextual research, competitive research, journey mapping, concept testing and information architecture research, delivered as prioritised, evidence-backed findings.",
+      "url": "https://designit.co.in/services/ux-research/"
+    },
+    {
+      "name": "UX Audit",
+      "description": "A fixed-scope evaluation of a SaaS product, website or mobile app that identifies usability problems, interaction friction, accessibility issues and conversion blockers, and delivers a prioritised, implementation-ready fix list.",
+      "url": "https://designit.co.in/services/ux-audit/"
+    },
+    {
+      "name": "Product Design",
+      "description": "End-to-end digital product design: product discovery, user research, information architecture, user flows, UX and UI design, prototyping, validation, design systems and developer handoff.",
+      "url": "https://designit.co.in/services/product-design/"
+    },
+    {
+      "name": "SaaS Product Design",
+      "description": "SaaS product design covering product discovery, UX research, information architecture, UX and UI design, prototyping, validation, design systems and developer handoff for B2B software.",
+      "url": "https://designit.co.in/services/saas-product-design/"
+    },
+    {
+      "name": "Mobile App Design",
+      "description": "Mobile app UX and UI design for iOS, iPadOS and Android: research, flows, interface design that follows platform conventions, offline and low-bandwidth states, prototyping, usability testing and developer handoff.",
+      "url": "https://designit.co.in/services/mobile-app-design/"
+    },
+    {
+      "name": "AI Product Design",
+      "description": "Product and UX design for AI-powered software: AI product discovery, interaction patterns for probabilistic output, agent approval and permission flows, error recovery, trust and explainability, AI onboarding and agent monitoring interfaces.",
+      "url": "https://designit.co.in/services/ai-product-design/"
+    },
+    {
+      "name": "UI/UX Design",
+      "description": "UI/UX design services: research and discovery, information architecture and flows, interface design across all states, interaction and motion, developer handover and design QA.",
       "url": "https://designit.co.in/services/ui-ux-design/"
     },
     {
       "name": "Design System Development",
-      "description": "Scalable, documented design systems with component libraries and design tokens.",
+      "description": "Design system development: inventory and audit, layered design tokens, Figma component libraries with every state specified, accessibility, documentation, governance and an adoption plan for engineering.",
       "url": "https://designit.co.in/services/design-systems/"
     },
     {
-      "name": "SaaS Strategy & Consulting",
-      "description": "Growth experiments to complete product overhauls, backed by data.",
-      "url": "https://designit.co.in/services/saas-product-design/"
+      "name": "Conversion Optimization",
+      "description": "UX-led conversion rate optimization: funnel diagnosis with analytics and session evidence, redesign of landing pages, sign-up, onboarding and checkout, experiment hypotheses and test-ready designs.",
+      "url": "https://designit.co.in/services/conversion-optimization/"
     },
     {
-      "name": "UX Research & Discovery",
-      "description": "User interviews, journey mapping, usability testing, and data synthesis.",
-      "url": "https://designit.co.in/services/ux-research/"
+      "name": "Website Design",
+      "description": "Website design and redesign: website strategy, information architecture, UX and UI design, content structure, conversion design, prototyping, development handoff and design QA for B2B, SaaS and technology companies.",
+      "url": "https://designit.co.in/services/website-design/"
     },
     {
-      "name": "UX Design Audit & Analysis",
-      "description": "Comprehensive audit with prioritised recommendations to improve conversions and retention.",
-      "url": "https://designit.co.in/services/ux-audit/"
-    },
-    {
-      "name": "Digital Prototyping & Validation",
-      "description": "Interactive prototypes and live demos to validate before development.",
-      "url": "https://designit.co.in/services/product-design/"
-    },
-    {
-      "name": "Digital Branding & Identity",
-      "description": "Visual identity systems, brand guidelines, and marketing asset production.",
-      "url": "https://designit.co.in/services/"
+      "name": "Branding",
+      "description": "Branding for technology companies: brand research, strategy and positioning, visual identity, brand guidelines and digital brand systems that connect brand to product UI, for startups, B2B SaaS companies and rebrands.",
+      "url": "https://designit.co.in/services/branding/"
     }
   ],
-  "engagementModels": [
+  "solutions": [
     {
-      "name": "Design Sprint",
-      "description": "Fixed-scope deliverable (landing page, dashboard, brand identity). Delivered in 5 business days."
+      "name": "MVP Design",
+      "description": "MVP design for startups: product discovery, the core flow designed properly, prototypes tested with real users, and foundations you won't need to replace.",
+      "url": "https://designit.co.in/solutions/mvp-design/"
     },
     {
-      "name": "Monthly Retainer",
-      "description": "Ongoing design partnership. One active request at a time, 24-hour response time, direct senior-designer access, source Figma files included."
+      "name": "Product Redesign",
+      "description": "Product and SaaS redesign that starts from evidence: find where users struggle, fix structure before styling, and keep what already works for current customers.",
+      "url": "https://designit.co.in/solutions/product-redesign/"
     },
     {
-      "name": "Full Product Design",
-      "description": "End-to-end product design from research through to design system and developer handoff."
+      "name": "Legacy Product Modernization",
+      "description": "Modernise a legacy or enterprise product's UX without stopping the business: map real workflows, protect power users and sequence migration with engineering.",
+      "url": "https://designit.co.in/solutions/legacy-product-modernization/"
+    },
+    {
+      "name": "Design System Scaling",
+      "description": "Scale a design system across products, platforms and teams: shared tokens, multi-brand theming, governance and an adoption plan your engineers will follow.",
+      "url": "https://designit.co.in/solutions/design-system-scaling/"
+    },
+    {
+      "name": "Conversion Improvement",
+      "description": "Improve website and SaaS conversion by finding where motivated visitors lose intent: separate traffic, offer and experience problems, then fix by impact.",
+      "url": "https://designit.co.in/solutions/conversion-improvement/"
     }
   ],
-  "contactPoint": {
-    "email": "contact@designit.co.in",
-    "phone": "+91 856 494 8954",
-    "url": "https://designit.co.in/contact/"
-  },
-  "lastModified": "2026-09-08T09:29:46Z"
+  "industries": [
+    {
+      "name": "B2B SaaS",
+      "url": "https://designit.co.in/industries/b2b-saas/"
+    },
+    {
+      "name": "AI Products",
+      "url": "https://designit.co.in/industries/ai/"
+    },
+    {
+      "name": "Fintech",
+      "url": "https://designit.co.in/industries/fintech/"
+    },
+    {
+      "name": "EdTech",
+      "url": "https://designit.co.in/industries/edtech/"
+    },
+    {
+      "name": "PropTech & Real Estate",
+      "url": "https://designit.co.in/industries/real-estate/"
+    },
+    {
+      "name": "E-commerce",
+      "url": "https://designit.co.in/industries/e-commerce/"
+    },
+    {
+      "name": "Automotive HMI",
+      "url": "https://designit.co.in/industries/automotive/"
+    }
+  ],
+  "deliveryModel": "Design through handoff, design QA and launch support; development by the client's team or development partner.",
+  "lastModified": "2026-10-04T14:34:35Z"
 }

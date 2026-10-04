@@ -1,10 +1,14 @@
 {
   "name": "Designit",
   "legalName": "Designit",
-  "tagline": "Design Backed by Research. Growth Backed by Design.",
-  "description": "Designit is a global UI/UX product design studio trusted by startups and enterprises in the USA, UAE, UK, and India. We ship high-conversion digital products for EdTech, Fintech, B2B SaaS, and Real Estate.",
+  "description": "Designit is a senior-led, research-led product design studio in Noida, India. It helps SaaS, technology and enterprise teams understand their users, simplify complex products, redesign experiences and build scalable design systems, working with clients in India, the United States, the United Kingdom and the United Arab Emirates.",
   "url": "https://designit.co.in",
-  "founded": "India",
+  "disambiguation": "Independent studio in Noida, India. Not affiliated with Designit A/S (Wipro).",
+  "foundingLocation": "Noida, India",
+  "founder": {
+    "name": "Sahil Sharma",
+    "url": "https://www.linkedin.com/in/best-design-studio/"
+  },
   "location": {
     "addressLocality": "Noida",
     "addressRegion": "Uttar Pradesh",
@@ -14,30 +18,78 @@
   "contact": {
     "email": "contact@designit.co.in",
     "phone": "+91 856 494 8954",
-    "contactPage": "https://designit.co.in/contact/"
+    "contactPage": "https://designit.co.in/contact/",
+    "startAProject": "https://designit.co.in/start-a-project/"
   },
+  "areaServed": [
+    "India",
+    "United States",
+    "United Kingdom",
+    "United Arab Emirates"
+  ],
   "industries": [
-    "B2B SaaS & Enterprise",
-    "EdTech & Digital Learning",
-    "Fintech & Web3",
-    "Luxury Real Estate & PropTech",
-    "E-Commerce & Digital Retail",
-    "Automotive & Smart Mobility"
+    "B2B SaaS",
+    "AI Products",
+    "Fintech",
+    "EdTech",
+    "PropTech & Real Estate",
+    "E-commerce",
+    "Automotive HMI"
   ],
   "services": [
-    "UI/UX Product Design",
+    "UX Research",
+    "UX Audit",
+    "Product Design",
+    "SaaS Product Design",
+    "Mobile App Design",
+    "AI Product Design",
+    "UI/UX Design",
     "Design System Development",
-    "SaaS Strategy & Consulting",
-    "UX Research & Discovery",
-    "UX Design Audit & Analysis",
-    "Digital Prototyping & Validation",
-    "Digital Branding & Identity"
+    "Conversion Optimization",
+    "Website Design",
+    "Branding"
   ],
-  "notableClients": ["Adda247", "Betacrew", "Kelp Global", "Rcentric", "Tata Elxsi", "Omniyat"],
+  "solutions": [
+    "MVP Design",
+    "Product Redesign",
+    "Legacy Product Modernization",
+    "Design System Scaling",
+    "Conversion Improvement"
+  ],
+  "caseStudies": [
+    {
+      "client": "Adda247",
+      "industry": "EdTech",
+      "url": "https://designit.co.in/projects/adda247/"
+    },
+    {
+      "client": "Kelp Global",
+      "industry": "B2B SaaS",
+      "url": "https://designit.co.in/projects/kelp-global/"
+    },
+    {
+      "client": "Betacrew",
+      "industry": "Developer tools",
+      "url": "https://designit.co.in/projects/betacrew/"
+    },
+    {
+      "client": "R-Centric (Omniyat portfolio)",
+      "industry": "PropTech and real estate",
+      "url": "https://designit.co.in/projects/rcentric/"
+    },
+    {
+      "client": "Tata Elxsi",
+      "industry": "Automotive HMI",
+      "url": "https://designit.co.in/projects/tata-elxsi/"
+    }
+  ],
+  "deliveryModel": "Design through handoff, design QA and launch support; development by the client's team or development partner.",
   "sameAs": [
     "https://www.linkedin.com/company/117085238/",
     "https://www.instagram.com/designit_studios/",
-    "https://x.com/DesignitContact"
+    "https://x.com/DesignitContact",
+    "https://www.threads.com/@designit_studios",
+    "https://medium.com/@contact_17371"
   ],
-  "lastModified": "2026-09-08T09:29:46Z"
+  "lastModified": "2026-10-04T14:34:35Z"
 }
