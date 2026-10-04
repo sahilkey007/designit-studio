@@ -631,6 +631,20 @@
         });
     };
 
+    /* Shared lead submission for /start-a-project/ (the qualification flow). It reuses the exact same
+       pipeline as this modal: Supabase leads table, the analytics form_submitted event, the Meta Lead
+       event (pixel + Conversions API, only if the consent gate has loaded fbq) and the Web3Forms email.
+       Accepts the same field names as formData. */
+    window.designitSubmitLead = function (data) {
+        formData = Object.assign({
+            fullName: '', company: '', website: '', email: '', phone: '', projectType: '',
+            description: '', referenceLinks: '', budget: '', timeline: '', source: '', anythingElse: ''
+        }, data || {});
+        if (!formData.email) return false;
+        submitForm();
+        return true;
+    };
+
     window.closeIntakeForm = function () {
         if (!overlayEl) return;
         overlayEl.classList.remove('active');

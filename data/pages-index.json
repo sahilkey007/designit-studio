@@ -2430,6 +2430,40 @@
     ],
     "file": "solutions/product-redesign/index.html"
   },
+  "/start-a-project/": {
+    "url": "/start-a-project/",
+    "pageType": "tool",
+    "metaTitle": "Start a Project: Product Scope & Fit Assessment | Designit",
+    "metaDescription": "Tell us what you're building and what isn't working. Ten short questions, and we recommend where to start: a UX audit, discovery, an MVP, a redesign or more.",
+    "h1": "Tell us what isn't working",
+    "primaryKeyword": "start a design project",
+    "searchIntent": "transactional",
+    "businessIntent": "Qualified lead capture + CRM segmentation",
+    "funnelStage": "vendor-ready",
+    "topicCluster": "Conversion",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "conversionEvent": "form_submit",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "CREATE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What happens after I send this?",
+      "Do I need to know which service I need?",
+      "Is the budget question required?",
+      "Would you rather talk first?"
+    ],
+    "internalLinks": [
+      "/",
+      "/privacy-policy/",
+      "/services/"
+    ],
+    "file": "start-a-project/index.html"
+  },
   "/ui-ux-design-agency-uk/": {
     "url": "/ui-ux-design-agency-uk/",
     "pageType": "location",

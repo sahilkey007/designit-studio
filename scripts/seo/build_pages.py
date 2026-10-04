@@ -293,6 +293,9 @@ def build(spec_path):
                      .replace("{{NAV}}", nav_for(rel))
                      .replace("{{FOOTER}}", FOOTER)
                      .replace("{{MAIN}}", main.rstrip("\n")))
+    if p.get("scripts"):
+        tags = "".join(f'    <script defer src="{a(src)}"></script>\n' for src in p["scripts"])
+        html_out = html_out.replace("</body>", tags + "</body>", 1)
     os.makedirs(os.path.dirname(out_path(p)), exist_ok=True)
     open(out_path(p), "w", encoding="utf-8").write(html_out)
     model_keys = ["url", "pageType", "metaTitle", "metaDescription", "h1", "primaryKeyword", "secondaryKeywords",
