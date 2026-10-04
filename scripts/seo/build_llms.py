@@ -158,7 +158,7 @@ def build():
     L += ["## Industries", "", f"Hub: [{SITE}/industries/]({SITE}/industries/)", ""]
     for p in industries:
         L += page_block(p)
-    L += ["## Markets", "", "Clients in India, the United States, the United Kingdom and the UAE. "
+    L += ["## Markets", "", "Clients in India and the UAE; projects for teams in the United States and the United Kingdom. "
           f"Hub: [{SITE}/locations/]({SITE}/locations/)", ""]
     L += [f"- [{text(p['h1'])}]({SITE}{p['url']}) — {text(p['metaDescription'])}" for p in locations]
     L += ["", "## Clients and case studies", "",
@@ -235,7 +235,7 @@ def build():
         "founder": {"name": founder.get("name", "Sahil Sharma"), "url": "https://www.linkedin.com/in/best-design-studio/"},
         "location": {k: addr[k] for k in ("addressLocality", "addressRegion", "postalCode", "addressCountry") if k in addr},
         "contact": {"email": email, "phone": phone, "contactPage": f"{SITE}/contact/", "startAProject": f"{SITE}/start-a-project/"},
-        "areaServed": ["India", "United States", "United Kingdom", "United Arab Emirates"],
+        "areaServed": ["India", "United Arab Emirates", "United States", "United Kingdom"],
         "industries": [crumb(p) for p in industries],
         "services": [s["name"] for s in svc],
         "solutions": [crumb(p) for p in solutions],

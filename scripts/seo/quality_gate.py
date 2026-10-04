@@ -9,7 +9,11 @@ REDIRECTED = {"about-designit.html", "project-detail.html"}  # vercel.json redir
 BANNED = [r"Deloitte", r"Phenomenon Studio", r"Skins Factory", r"45%[^.]{0,60}onboarding", r"60%[^.]{0,50}support ticket",
           r"3x[^.]{0,50}qualified lead", r"100% (?:client )?retention", r"40%[^.]{0,50}onboarding time", r"2x[^.]{0,30}feature adoption",
           r"60%[^.]{0,40}cognitive", r"4x[^.]{0,50}documentation", r"30%[^.]{0,40}driver distraction", r"founded in 20(19|20)",
-          r"TODO\(owner\)", r">\s*undefined\s*<", r"Lorem ipsum", r"Trusted by 20\+"]
+          r"TODO\(owner\)", r">\s*undefined\s*<", r"Lorem ipsum", r"Trusted by 20\+",
+          # removed by owner decision 2026-10-05 (unverified numbers, client claims, market claims)
+          r"98%", r"Client [Ss]atisfaction", r"₹1\.5L\s*(?:–|to)\s*₹4L", r"31% to 62%", r"12% trial-to-paid",
+          r"activation by 23%", r"Omniyat's previous", r"50M\+", r"10M\+", r"Measured outcomes from this engagement",
+          r"\b(?:US|UK) clients\b", r"INR or USD", r"UAE, USA, UK and beyond", r"Clients like Betacrew"]
 def url_for(rel):
     if rel == "index.html": return "/"
     if rel.endswith("/index.html"): return "/" + rel[:-10]

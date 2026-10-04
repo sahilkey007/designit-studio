@@ -20,7 +20,7 @@
 | 8 | Lollypop | Done | Research & Strategy menu column; `/resources/`; `/locations/` (no city doorways). Reports planned, not faked |
 | 9 | NetBramha | Done | Method stages on the homepage and every service page |
 | 10 | Onething | Done | `/services/ai-product-design/` and `/industries/ai/` cover uncertainty, approval, autonomy, recovery and agentic patterns in Designit's own words. Agent questions in the prompt library and backlog |
-| 11 | DD.NYC | Done (owner to confirm) | Delivery boundary stated: design through handoff, design QA and launch support; no development (`EV-DELIVERY-BOUNDARY`). Trust stack limited to verified items |
+| 11 | DD.NYC | Done (owner confirmed design-only, 2026-10-05) | Delivery boundary stated: design through handoff, design QA and launch support; no development (`EV-DELIVERY-BOUNDARY`). Trust stack limited to verified items |
 | 12 | UX Studio | Done | Five solutions by buyer situation; "embedded product design" covered on `/services/product-design/` |
 | 13 | What not to take | Done | Do-not-copy list (`07` §2); `quality_gate.py` `BANNED` list |
 | 14 | New positioning | Done | `data/entities.json` description and homepage H1/subtitle use the section 14/17 wording |
@@ -74,12 +74,12 @@
 | 69 | Content feeds commercial pages | Done | 34 posts → commercial destination |
 | 70 | Competitor-derived opportunities | Done (mapping) / Planned (articles) | `03` §6 |
 | 71 | "Top UI/UX agency" keywords | Done (decision) / Planned (expansion) | No listicle; expand the how-to-choose guide |
-| 72 | Pricing content strategy | Done for pages / Planned for articles | Commercial pages: "what moves the price", no numbers (owner decision 2026-10-04). Homepage FAQ still shows the pre-existing ₹1.5L–₹4L retainer range: **owner decision** |
+| 72 | Pricing content strategy | Done for pages / Planned for articles | Commercial pages: "what moves the price", no numbers (owner decision 2026-10-04). Retainer range removed from the homepage and 18 posts (owner, 2026-10-05). Price ranges in the pricing blog posts: **open owner decision** |
 | 73 | Technical SEO architecture | Done | SEO-007; robots meta added to 60 hand-written pages |
 | 74 | Crawlability | Done | Content in HTML; navigation is `<a href>`; mega-menu links present in HTML; hubs link every child |
 | 75 | Page hierarchy | Done | Every commercial page within two clicks (nav → page, or nav → hub → page) |
 | 76 | URL rules | Done | Short, descriptive, no dates or IDs, one canonical form |
-| 77 | International SEO | Done (adapted) | USA/UK/UAE pages rewritten with real context (time zones, contracting, accessibility norms, regional work). India is covered on `/locations/`, with no separate India page. Currency statements conflict across pages: **owner decision** (`EV-OWNER-GBP-INVOICING`) |
+| 77 | International SEO | Done (adapted) | USA/UK/UAE pages rewritten with real context (time zones, contracting, accessibility norms, regional work). India is covered on `/locations/`, with no separate India page. Currencies per market and US/UK wording (no clients claimed) aligned site-wide (owner, 2026-10-05) |
 | 78 | Existing USA/UK/Dubai pages | Done | URLs kept; `/locations/` hub links them |
 | 79 | Content refresh system | Done (process) | Triggers incl. AI-visibility decline (`05` §9) |
 | 80 | Review intervals | Done | `refreshInterval` on every spec |

@@ -73,6 +73,6 @@
     {"q": "What happens after handover?", "a": "We stay available through implementation and run design QA against what ships. Without a QA pass, a meaningful share of design intent gets lost between Figma and production."},
     {"q": "Will we get juniors after the pitch?", "a": "No. Senior designers work on your product from kickoff to handover, with no account managers relaying messages."},
     {"q": "Do you design for accessibility?", "a": "Yes. WCAG 2.1 AA is our default for contrast, keyboard navigation, focus states and screen-reader semantics. It is far cheaper to design in than to retrofit."},
-    {"q": "Where are you based, and who do you work with?", "a": "We are based in Noida, India, and work with clients in India, the United States, the United Kingdom and the UAE. See <a href=\"/locations/\">locations</a> for how international engagements run."}
+    {"q": "Where are you based, and who do you work with?", "a": "We are based in Noida, India, and work with clients in India and the UAE, and take on projects for teams in the United States and the United Kingdom. See <a href=\"/locations/\">locations</a> for how international engagements run."}
   ]
 }

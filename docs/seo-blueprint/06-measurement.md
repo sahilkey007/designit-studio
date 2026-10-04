@@ -38,11 +38,9 @@ stubbed (no real lead sent). **CRM mapping:** add `landing_page`, `utm_source`, 
 `referrer` and `recommended_engagement` columns to `leads` in Supabase, then switch the code from the text field to
 the columns. Owner task; the table is outside this repository.
 
-**Third-party tags (unchanged by the rebuild).** Meta Pixel and leadsy.ai are consent-gated. **Google Analytics 4
-(`G-HCN5Q8W144`, with GTM `GTM-TQPPB8B7`) is not consent-gated.** It sets `_ga` cookies before the visitor chooses,
-which contradicts the banner's "No tracking cookies are set until you choose Accept" (true on the live site since
-GA4 was installed on 2026-07-08). Recommended fix, owner decision: Google Consent Mode v2 with
-`analytics_storage: denied` by default, granted in `__dsnGrantConsent`. Alternatively, change the banner text.
+**Third-party tags.** Meta Pixel and leadsy.ai are consent-gated. Google Analytics 4 (`G-HCN5Q8W144`, also via GTM
+`GTM-TQPPB8B7`) now runs under **Google Consent Mode v2**: storage denied until the visitor accepts (decided
+2026-10-05). GA still receives cookieless pings for modelling; expect lower observed GA counts than before.
 
 ## 2. Search Console (sections 56, 57, 86)
 

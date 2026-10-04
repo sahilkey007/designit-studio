@@ -1,10 +1,10 @@
 {
   "url": "/locations/", "pageType": "hub", "action": "CREATE", "priority": "P1", "evidenceIds": ["EV-MARKETS"],
   "metaTitle": "Where We Work: India, USA, UK and UAE | Designit",
-  "metaDescription": "Designit is based in Noida, India and designs products for clients in India, the United States, the United Kingdom and the UAE. How each engagement works.",
+  "metaDescription": "Designit is based in Noida, India, works with clients in India and the UAE and takes on projects for US and UK teams. How each engagement works.",
   "h1": "Where we work",
   "eyebrow": ["India", "USA", "UK", "UAE"],
-  "subtitle": "We are a studio in Noida, India, working with clients in four markets. Each page below explains how engagements actually run there: time zones, contracting, standards and relevant work.",
+  "subtitle": "We are a studio in Noida, India, with clients in India and the UAE, taking on projects for teams in the US and the UK. Each page below explains how engagements actually run there: time zones, contracting, standards and relevant work.",
   "ctas": [{"label": "Start a project", "href": "/start-a-project/", "event": "start_project"}, {"label": "About Designit", "href": "/about/"}],
   "breadcrumb": [["Home", "/"], ["Locations", "/locations/"]],
   "primaryKeyword": "ui ux design agency locations", "searchIntent": "navigational", "funnelStage": "vendor",

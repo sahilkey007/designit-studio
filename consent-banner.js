@@ -57,6 +57,10 @@
 
     document.getElementById('dsnConsentAccept').addEventListener('click', function () {
         if (typeof window.__dsnGrantConsent === 'function') window.__dsnGrantConsent();
+        // Google Consent Mode: analytics and ads storage default to denied in every page head
+        if (typeof window.gtag === 'function') window.gtag('consent', 'update', {
+            analytics_storage: 'granted', ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted'
+        });
         dismiss();
     });
     document.getElementById('dsnConsentDecline').addEventListener('click', function () {

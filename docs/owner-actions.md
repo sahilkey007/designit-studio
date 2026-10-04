@@ -9,31 +9,31 @@ Everything below lives on the `staging` branch only (Vercel preview, SSO-protect
 the live site until you say so.** Full detail: `docs/seo-blueprint/` (start with `README.md` and
 `10-implementation-status.md`).
 
-**Decisions only you can make (each one blocks something):**
-1. **Approve the merge** of `staging` → `main` after reviewing the preview (`11-migration-deploy-checklist.md`).
-2. **Delivery boundary:** the Website and Mobile App pages say Designit designs through handoff, design QA and
-   launch support, and that development is done by your team or partner. Confirm, or tell me what you build.
-3. **Currencies:** `/contact/` says "INR or USD"; the UK page says GBP; the Dubai page says "USD or AED"; the USA
-   page says USD. Say which is true and I will align every page.
-4. **Unverified numbers still live** (none added by the rebuild; register in `04-evidence-ledger.md`):
-   - homepage career stats (98% satisfaction, 2x conversion lift)
-   - Kelp Global "31% to 62% in 90 Days" (KYC post; this story **names Kelp Global**: my earlier description of it as
-     unnamed was wrong, so please re-decide)
-   - Kelp Global "12% trial-to-paid" (freelancer post)
-   - Adda247 "7 steps to 3, +23% day-1 activation" (SaaS onboarding post)
-   - "40% vs Omniyat's previous retrofit" (Arabic RTL post)
-   - sub-project "At a glance" outcome tiles on 19 pages
-   - the homepage ₹1.5L–₹4L retainer range
-   - Adda247 "8 product modules" (9 published)
-   Keep, correct or remove each.
-5. **Kelp Global description** is inconsistent: "B2B fintech platform" (KYC post), "B2B SaaS platform" (freelancer
-   post), CRM/sales-intelligence suite (case study).
-6. **US and UK clients:** the site says you work with clients in all four markets; published work evidences India
-   and the UAE only. Confirm US/UK clients exist, or the wording should change.
-7. **Google Analytics before consent:** GA4 (`G-HCN5Q8W144`) sets `_ga` cookies before the visitor accepts, while
-   the banner says no tracking cookies are set until Accept. True on the live site since 2026-07-08. Recommended:
-   Google Consent Mode v2 (denied by default, granted on Accept). Your call: it changes what GA records.
-8. **Reviewer byline:** posts say "Reviewed by Sahil Sharma, Founder". Keep it true by reviewing each refresh.
+**Decided 2026-10-05 and applied on staging:**
+- Delivery boundary: design only (no development). Pages unchanged; evidence recorded.
+- Currencies: per market (INR India, USD US, GBP UK, USD or AED UAE). `/contact/` and the regions FAQ on 24 pages aligned.
+- Unverified numbers: removed unless provable. Gone:
+  - homepage, About and Industries career stats, replaced with 10+ years (founder), 22 case studies, 5 named clients, 7 industries
+  - the ₹1.5L–₹4L retainer (homepage FAQ and the FAQ on 18 posts)
+  - Adda247 "+23%", Kelp "12%" and Omniyat "40%"
+  - the Omniyat "buyer portal" story (rewritten as approach)
+  - "At a glance" tiles, Results sections and results FAQs on 20 sub-pages
+  - 3 outcome sentences in sub-page copy
+  - "Adda247 (50M+ users)"
+- KYC story: anonymised, numbers removed. Kelp Global described everywhere as a B2B SaaS sales-intelligence / CRM suite.
+- US/UK: no clients claimed there. All copy now reads "clients in India and the UAE; projects for teams in the US and the UK".
+- Google Analytics: Consent Mode v2 on every page (denied until Accept). Verified: no `_ga` cookie before consent.
+- Reviewer byline kept.
+- Quality gate now blocks every removed claim from reappearing.
+
+**Still open (your call):**
+1. **Merge `staging` → `main`** after you review the preview.
+2. **Driveit**: listed as a client on About and in the Contact logo ticker, with no case study. Confirm, or remove.
+3. **Case-study research figures** used as problem context (e.g. "65% couldn't locate purchased content", "70% never
+   scrolled past the first fold", "reps spent 40% of their time on data lookup"). Did these come from the client's own
+   research or data?
+4. **₹ / AED price ranges in the pricing and cost blog posts** (UI/UX pricing, design-system cost, mobile app cost,
+   branding cost, the KYC post's sprint FAQ). Keep as market estimates, convert to cost drivers, or remove?
 
 **Your accounts and data (nothing was created, submitted or sent):**
 - Before the merge: export Search Console Pages + Links and a backlink list (Ahrefs or similar) for the migration

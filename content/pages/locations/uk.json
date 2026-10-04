@@ -14,7 +14,7 @@
   "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-BETACREW-SCOPE", "EV-OWNER-GBP-INVOICING", "EV-MARKETS"],
   "relatedServices": ["/services/saas-product-design/", "/services/ux-audit/"], "relatedCaseStudies": ["/projects/betacrew/", "/projects/kelp-global/"],
   "conversionEvent": "start_project", "refreshInterval": "6 months",
-  "cta": {"heading": "Same working day, senior design team", "body": "Most UK clients start with a two-week UX audit as a low-risk way to test the working relationship.", "buttons": [{"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"}, {"label": "UX audit", "href": "/services/ux-audit/"}]},
+  "cta": {"heading": "Same working day, senior design team", "body": "We usually suggest starting with a two-week UX audit, a low-risk way to test the working relationship.", "buttons": [{"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"}, {"label": "UX audit", "href": "/services/ux-audit/"}]},
   "sections": [
     {"type": "cards", "id": "what-uk-teams-need", "heading": "What UK software teams tend to need",
      "items": [
@@ -32,11 +32,11 @@
      ]},
     {"type": "work", "id": "relevant-work", "heading": "Relevant work", "items": ["betacrew", "kelp-global"]},
     {"type": "prose", "id": "honest-trade-off", "heading": "Remote, and upfront about it",
-     "paras": ["We are an India-based studio working with UK clients remotely, with no UK office, and we would rather say so. For UK public-sector procurement we would work as a subcontractor rather than a prime supplier."]}
+     "paras": ["We are an India-based studio that works with UK teams remotely, with no UK office, and we would rather say so. For UK public-sector procurement we would work as a subcontractor rather than a prime supplier."]}
   ],
   "faq": [
     {"q": "How does the time difference work with UK teams?", "a": "India is 4.5 hours ahead of GMT, so our afternoon is your morning and we share a genuine working day. Of the markets we serve remotely, the UK has the most workable overlap."},
-    {"q": "Do you have a UK office?", "a": "No. We are an India-based studio working with UK clients remotely. We provide GBP invoicing, UK-standard NDAs and IP assignment, a shared working day and senior designers rather than an account layer."},
+    {"q": "Do you have a UK office?", "a": "No. We are an India-based studio that works with UK teams remotely. We provide GBP invoicing, UK-standard NDAs and IP assignment, a shared working day and senior designers rather than an account layer."},
     {"q": "Do you design to WCAG 2.2 and UK accessibility requirements?", "a": "Yes. We design to WCAG 2.2 AA from the start and provide conformance documentation, because retrofitting accessibility is consistently more expensive."},
     {"q": "How do you handle UK GDPR in design?", "a": "As a design problem rather than a legal paste-in. Consent requests, sign-up data minimisation and subject-access journeys are interface decisions, worked through with your DPO or counsel."},
     {"q": "Can you work with UK public sector or regulated clients?", "a": "We design for regulated, precision-critical environments and to public-sector accessibility standards. For UK public-sector procurement we would be a subcontractor rather than a prime."}

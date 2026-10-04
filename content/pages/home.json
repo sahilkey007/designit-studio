@@ -37,7 +37,13 @@
   "author": "Designit",
   "updatedAt": "2026-10-04",
   "schemaType": "WebPage",
-  "evidenceIds": ["EV-CLIENT-LOGOS", "EV-TESTIMONIALS", "EV-CAREER-STATS", "EV-FOUNDER", "EV-SITE-CASE-COUNT", "EV-MARKETS"],
+  "evidenceIds": [
+    "EV-CLIENT-LOGOS",
+    "EV-TESTIMONIALS",
+    "EV-FOUNDER",
+    "EV-SITE-CASE-COUNT",
+    "EV-MARKETS"
+  ],
   "conversionEvent": "start_project",
   "refreshInterval": "quarterly",
   "about": [
@@ -310,8 +316,8 @@
           "body": "22 case studies across Adda247, Kelp Global, Betacrew, the Omniyat portfolio and Tata Elxsi."
         },
         {
-          "title": "Four markets",
-          "body": "Clients in India, the United States, the United Kingdom and the UAE. <a href=\"/locations/\">How we work across time zones</a>."
+          "title": "India-based, working globally",
+          "body": "Clients in India and the UAE, and projects for teams in the US and the UK. <a href=\"/locations/\">How we work across time zones</a>."
         },
         {
           "title": "Public recommendations",
@@ -336,16 +342,16 @@
       "heading": "Experience behind the studio",
       "items": [
         [
-          "Client satisfaction (career)",
-          "98%"
+          "Years of design experience (founder)",
+          "10+"
         ],
         [
-          "Avg. conversion lift (career)",
-          "2x"
+          "Published case studies",
+          "22"
         ],
         [
-          "Products shipped (career)",
-          "50+"
+          "Named client engagements",
+          "5"
         ],
         [
           "Industries",
@@ -356,7 +362,7 @@
     {
       "type": "html",
       "id": "career-note",
-      "html": "<p class=\"source-note\">Career figures reflect our founder&rsquo;s and designers&rsquo; combined work over 10+ years across previous roles and engagements. Designit Studio itself launched in 2026.</p>"
+      "html": "<p class=\"source-note\">Years of experience are the founder&rsquo;s, across previous roles. Designit Studio launched in 2026; every case study counted here is published on the <a href=\"/projects/\">Work</a> page.</p>"
     },
     {
       "type": "clusters",
@@ -484,7 +490,7 @@
   "faq": [
     {
       "q": "What types of companies do you work with?",
-      "a": "Mainly B2B SaaS companies, fintech and Web3 startups, AI products, EdTech platforms, e-commerce brands and enterprise software teams across India, the UAE, the US and the UK, typically funded startups and growth-stage companies redesigning a product, building a design system or making design a growth lever. Shipped work includes Adda247, StudyIQ, Kelp Global, Tata Elxsi, Betacrew and the Omniyat portfolio."
+      "a": "Mainly B2B SaaS companies, fintech and Web3 startups, AI products, EdTech platforms, e-commerce brands and enterprise software teams, typically funded startups and growth-stage companies redesigning a product, building a design system or making design a growth lever. Shipped work includes Adda247, StudyIQ, Kelp Global, Tata Elxsi, Betacrew and the Omniyat portfolio."
     },
     {
       "q": "How long does a typical project take?",
@@ -500,7 +506,7 @@
     },
     {
       "q": "What are your pricing models?",
-      "a": "Project-based fixed pricing for defined scopes, monthly retainers for ongoing partnerships (typically ₹1.5L to ₹4L a month depending on hours), and design subscriptions with a flat monthly fee. Pricing scales with complexity, team size and timeline, and you get a tailored quote after a discovery call."
+      "a": "Project-based fixed pricing for defined scopes, monthly retainers for ongoing partnerships, and design subscriptions with a flat monthly fee. Pricing scales with complexity, team size and timeline, and you get a tailored quote after a discovery call."
     }
   ]
 }

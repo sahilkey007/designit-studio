@@ -73,7 +73,8 @@
     ]
   ],
   "evidenceIds": [
-    "EV-CAREER-STATS"
+    "EV-SITE-CASE-COUNT",
+    "EV-FOUNDER"
   ],
   "conversionEvent": "start_project",
   "refreshInterval": "6 months",
@@ -169,15 +170,15 @@
           "7"
         ],
         [
-          "Products shipped (career)",
-          "50+"
+          "Published case studies",
+          "22"
         ],
         [
-          "Monthly users reached (career)",
-          "10M+"
+          "Named client engagements",
+          "5"
         ],
         [
-          "Years of practice",
+          "Years of design experience (founder)",
           "10+"
         ]
       ]
@@ -185,7 +186,7 @@
     {
       "type": "html",
       "id": "experience-note",
-      "html": "<p class=\"source-note\">Career figures reflect our founder&rsquo;s and designers&rsquo; combined work over 10+ years across previous roles and engagements. Designit Studio itself launched in 2026.</p>"
+      "html": "<p class=\"source-note\">Years of experience are the founder&rsquo;s, across previous roles. Designit Studio launched in 2026; every case study counted here is published on the <a href=\"/projects/\">Work</a> page.</p>"
     }
   ],
   "faq": [

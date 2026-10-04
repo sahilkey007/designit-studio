@@ -49,6 +49,6 @@
     {"q": "How do you reduce KYC drop-off without breaking compliance?", "a": "By changing sequence and framing rather than removing requirements: ask low-friction information first, say upfront what will be needed, show honest progress and make document rejection recoverable. None of that changes what you are legally obliged to collect."},
     {"q": "Do you work with our compliance team?", "a": "Directly, from week one. A meaningful share of fintech friction is inherited habit rather than regulation, and the only way to tell the difference is to go through it line by line with the people who own the obligation."},
     {"q": "Can you design for Arabic and RTL markets?", "a": "Yes. RTL is a structural design task, not a stylesheet toggle: layout mirrors, but numerals, charts and directional icons follow their own rules. We have done this work for UAE property clients."},
-    {"q": "Which markets' regulations do you design for?", "a": "We work with clients in India, the UAE, the UK and the US, and design with each client's compliance team to the requirements of their market."}
+    {"q": "Which markets' regulations do you design for?", "a": "We work with clients in India and the UAE and take on projects for teams in the UK and the US, and we design with each client's compliance team to the requirements of their market."}
   ]
 }

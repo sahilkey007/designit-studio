@@ -20,7 +20,7 @@
 
 | ID | Item | Status |
 |---|---|---|
-| DEV-A | **GA4 runs before consent.** `G-HCN5Q8W144` (via gtag + GTM `GTM-TQPPB8B7`) sets `_ga` cookies with no consent recorded, contradicting the cookie banner. Live since 2026-07-08 | **Owner decision.** Recommended: Google Consent Mode v2, `analytics_storage` and `ad_storage` default `denied`, updated to `granted` inside `window.__dsnGrantConsent`. Or change the banner wording |
+| DEV-A | **GA4 runs before consent.** `G-HCN5Q8W144` (via gtag + GTM `GTM-TQPPB8B7`) sets `_ga` cookies with no consent recorded, contradicting the cookie banner. Live since 2026-07-08 | **Done 2026-10-05 (owner chose Consent Mode).** Every page head sets `analytics_storage`, `ad_storage`, `ad_user_data` and `ad_personalization` to `denied` before the Google tag and GTM; returning visitors who accepted are restored from `localStorage`; the banner's Accept sends `gtag('consent','update', …granted)`. Verified: no `_ga` cookie before consent, cookies set after the update |
 | DEV-B | **Web font swap.** Inter loads from Google Fonts asynchronously; when it arrives late, some heroes re-wrap. Worst lab case `/blog/how-to-choose-a-product-design-agency/` at 390 px: CLS 0.09–0.11 with fonts delayed about 4.7 s (pre-existing; all other pages ≤ 0.05) | Open. Fix: self-host Inter (woff2, latin subset) with `<link rel=preload>` and `font-display: swap`, keeping the existing metric-matched `Inter Fallback` |
 | DEV-C | Leads table attribution columns | Owner (Supabase), see SEO-010 |
 | DEV-D | Country capture | Optional: a small API route reading Vercel geo headers, called on lead submit |

@@ -21,7 +21,6 @@
     "evidenceIds": [
       "EV-CLIENT-LOGOS",
       "EV-TESTIMONIALS",
-      "EV-CAREER-STATS",
       "EV-FOUNDER",
       "EV-SITE-CASE-COUNT",
       "EV-MARKETS"
@@ -127,7 +126,8 @@
     "updatedAt": "2026-10-04",
     "schemaType": "CollectionPage",
     "evidenceIds": [
-      "EV-CAREER-STATS"
+      "EV-SITE-CASE-COUNT",
+      "EV-FOUNDER"
     ],
     "cta": {
       "heading": "Don't see your industry?",
@@ -772,7 +772,7 @@
     "url": "/locations/",
     "pageType": "hub",
     "metaTitle": "Where We Work: India, USA, UK and UAE | Designit",
-    "metaDescription": "Designit is based in Noida, India and designs products for clients in India, the United States, the United Kingdom and the UAE. How each engagement works.",
+    "metaDescription": "Designit is based in Noida, India, works with clients in India and the UAE and takes on projects for US and UK teams. How each engagement works.",
     "h1": "Where we work",
     "primaryKeyword": "ui ux design agency locations",
     "searchIntent": "navigational",
@@ -3120,7 +3120,7 @@
     ],
     "cta": {
       "heading": "Same working day, senior design team",
-      "body": "Most UK clients start with a two-week UX audit as a low-risk way to test the working relationship.",
+      "body": "We usually suggest starting with a two-week UX audit, a low-risk way to test the working relationship.",
       "buttons": [
         {
           "label": "Discuss your product",
@@ -3201,7 +3201,7 @@
     ],
     "cta": {
       "heading": "Senior design capacity this quarter, not after a long hire",
-      "body": "Tell us about your product and timeline. Most US clients start with a two-week UX audit to test working together across the distance.",
+      "body": "Tell us about your product and timeline. We usually suggest starting with a two-week UX audit, to test working together across the distance.",
       "buttons": [
         {
           "label": "Discuss your product",

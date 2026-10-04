@@ -69,7 +69,7 @@
       "public": true,
       "recheck": "2027-04",
       "status": "in use",
-      "notes": "Blog posts describe Kelp Global inconsistently: 'B2B fintech platform' (fintech-onboarding-kyc-ux-india) and 'B2B SaaS platform' (freelancer-vs-design-agency-startups). The case study describes a CRM/sales-intelligence suite."
+      "notes": "Owner, 2026-10-05: Kelp Global is described everywhere as a B2B SaaS sales-intelligence / CRM suite."
     },
     {
       "id": "EV-BETACREW-SCOPE",
@@ -320,8 +320,8 @@
       "clientApproved": "n/a",
       "public": true,
       "recheck": "2027-01",
-      "status": "in use — UNVERIFIED",
-      "notes": "Highest-risk figures still on the site. 98% and 2x need a basis (survey, project list) or should be removed. '7 industries' matches the seven industry pages."
+      "status": "REMOVED",
+      "notes": "Owner decision 2026-10-05: remove unless provable. 98% / 2x / 50+ / 100+ / 10M+ removed from the homepage, About and Industries; replaced by 10+ years (founder), 22 case studies, 5 named clients, 7 industries."
     },
     {
       "id": "EV-FOUNDER",
@@ -423,21 +423,21 @@
     },
     {
       "id": "EV-OWNER-GBP-INVOICING",
-      "claim": "UK clients are invoiced in GBP with UK-standard NDAs and IP assignment.",
-      "source": "Pre-rebuild /ui-ux-design-agency-uk/ (main) states this.",
+      "claim": "Invoices are in the client's market currency: INR in India, USD in the US, GBP in the UK, USD or AED in the UAE.",
+      "source": "Owner answer in chat, 2026-10-05: \"Per market\". /contact/ and the standard regions FAQ were aligned the same day.",
       "sourceType": "internal (published)",
       "dateVerified": "2026-10-04",
-      "verifiedBy": "site source (Claude)",
+      "verifiedBy": "owner (2026-10-05)",
       "permissionRequired": false,
       "clientApproved": "n/a",
       "public": true,
       "recheck": "2027-04",
-      "status": "in use — CONFLICT",
-      "notes": "Currency statements across the site disagree: /contact/ (visible copy and FAQ schema) says 'invoicing is available in either INR or USD'; /ui-ux-design-agency-uk/ says GBP; /ux-design-agency-dubai/ says 'Quoted in USD or AED'; /ui-ux-design-agency-usa/ says USD; /locations/ says INR for India. All of this is pre-existing copy. Owner to state the real currencies, then align /contact/ and the location pages."
+      "status": "in use",
+      "notes": "Conflict resolved."
     },
     {
       "id": "EV-SITE-CASE-COUNT",
-      "claim": "22 published sub-project case studies across Adda247, Kelp Global, Betacrew, the Omniyat portfolio and Tata Elxsi.",
+      "claim": "22 published sub-project case studies and 5 named client engagements (Adda247, Kelp Global, Betacrew, R-Centric/Omniyat, Tata Elxsi).",
       "source": "Count of /projects/*/*.html sub-pages (Adda247 9, R-Centric 7, Kelp 3, Tata Elxsi 2, Betacrew 1).",
       "sourceType": "internal (site count)",
       "dateVerified": "2026-10-04",
@@ -451,31 +451,31 @@
     },
     {
       "id": "EV-MARKETS",
-      "claim": "Designit works with clients in India, the United States, the United Kingdom and the UAE.",
+      "claim": "Designit works with clients in India and the UAE and takes on projects for teams in the United States and the United Kingdom.",
       "source": "Pre-rebuild site copy (home, USA/UK/Dubai pages) and entity description.",
       "sourceType": "internal (published)",
       "dateVerified": "2026-10-04",
-      "verifiedBy": "site source (Claude)",
+      "verifiedBy": "owner (2026-10-05)",
       "permissionRequired": false,
       "clientApproved": "n/a",
       "public": true,
       "recheck": "2027-04",
-      "status": "in use — PARTIAL",
-      "notes": "India (Adda247, Tata Elxsi) and UAE (Omniyat via R-Centric) are evidenced by published work. No published US or UK client yet; owner to confirm, or the USA/UK pages should say 'we work with' rather than imply existing clients."
+      "status": "in use",
+      "notes": "Owner, 2026-10-05: no US or UK clients yet. All pages, the entity description and the FAQs were reworded so they no longer claim clients there."
     },
     {
       "id": "EV-DELIVERY-BOUNDARY",
       "claim": "Designit designs and specifies through handoff, design QA and launch support; development is done by the client's team or development partner.",
-      "source": "Inferred from the absence of development services in the owner's service list (2026-10-04) and the blueprint's section 11 instruction.",
-      "sourceType": "assumption",
+      "source": "Owner answer in chat, 2026-10-05: \"Design only\".",
+      "sourceType": "owner statement",
       "dateVerified": "2026-10-04",
-      "verifiedBy": "NOT VERIFIED — owner to confirm",
+      "verifiedBy": "owner (2026-10-05)",
       "permissionRequired": false,
       "clientApproved": "n/a",
       "public": true,
       "recheck": "before merge to main",
-      "status": "in use — NEEDS OWNER CONFIRMATION",
-      "notes": "Stated on website-design, mobile-app-design and the llms/ai files."
+      "status": "in use",
+      "notes": "Confirmed. Development is done by the client's team or development partner."
     }
   ],
   "unverifiedPublished": {
@@ -485,49 +485,91 @@
         "id": "UNV-BLOG-KELP-KYC",
         "page": "/blog/fintech-onboarding-kyc-ux-india/",
         "claim": "'The Kelp Global Onboarding Redesign: 31% to 62% in 90 Days'; describes Kelp Global as 'a B2B fintech platform serving India's financial services sector'.",
-        "decision": "Owner kept the KYC story earlier, but that decision was based on Claude describing it as an unnamed story. It names Kelp Global. Re-decide."
+        "decision": "REMOVED: story anonymised, figures removed (owner, 2026-10-05)."
       },
       {
         "id": "UNV-BLOG-KELP-12",
         "page": "/blog/freelancer-vs-design-agency-startups/",
         "claim": "Kelp Global 'stalling at a 12% trial-to-paid conversion rate' before a 5-day onboarding sprint.",
-        "decision": "Owner to verify or remove."
+        "decision": "REMOVED (owner, 2026-10-05)."
       },
       {
         "id": "UNV-BLOG-ADDA-ONBOARDING",
         "page": "/blog/saas-onboarding-ux-best-practices-india/",
         "claim": "Adda247 onboarding 'from 7 steps to 3 increased day-1 activation by 23%'.",
-        "decision": "Owner to verify or remove."
+        "decision": "REMOVED (owner, 2026-10-05)."
       },
       {
         "id": "UNV-BLOG-OMNIYAT-RTL",
         "page": "/blog/arabic-rtl-ux-design-proptech-uae/",
         "claim": "'Development implementation time for the Arabic layer dropped 40% compared to Omniyat's previous retrofit-based approach.'",
-        "decision": "Owner to verify or remove."
+        "decision": "REMOVED: the section claimed an Omniyat buyer portal that the case studies do not show; rewritten as Designit's approach, no client claim (owner, 2026-10-05)."
       },
       {
         "id": "UNV-SUBPROJECT-OUTCOMES",
         "page": "/projects/*/* (19 of 22 sub-pages)",
         "claim": "'At a glance' outcome tiles, e.g. Adda247 test series '45% increase in test completion', ELA '50% increase in qualified leads', Kelp plugin '90% daily active usage'.",
-        "decision": "Owner decision (earlier session): sub-project outcome lists kept. Still unverified; headline metrics on the five parent case studies were removed."
+        "decision": "REMOVED from 20 sub-pages: At a glance tiles, Results sections and results FAQs, plus 3 outcome sentences (owner, 2026-10-05). Portle scope tile kept (scope, EV-BETACREW-SCOPE)."
       },
       {
         "id": "UNV-HOME-RETAINER",
         "page": "/ (FAQ: What are your pricing models?)",
         "claim": "'monthly retainers ... typically ₹1.5L to ₹4L a month'.",
-        "decision": "Owner chose 'cost drivers only, no numbers' for new pricing sections; this pre-existing range was left in place pending the owner's call."
+        "decision": "REMOVED from the homepage FAQ and from the FAQ on 18 posts (owner, 2026-10-05)."
       },
       {
         "id": "UNV-ADDA-MODULE-COUNT",
         "page": "/projects/adda247/",
         "claim": "'8 product modules' while nine sub-pages are published.",
-        "decision": "Owner to give the right number."
+        "decision": "RESOLVED: the rebuilt case study no longer states a module count."
       },
       {
         "id": "UNV-404-COPY",
         "page": "/404/",
         "claim": "'A fixed-scope, two-week audit' and '20+ guides' in the 404 page's link cards.",
         "decision": "Low risk (noindex page). UX audit page describes the timeline as roughly two weeks; 34 posts exist. Fine as is."
+      },
+      {
+        "id": "UNV-BLOG-FINTECH-KELP",
+        "page": "/blog/fintech-ux-design-agency-india/",
+        "claim": "'The Kelp Global Example': Kelp described as a cross-border payments fintech; '2× improvement in onboarding conversion', '~30% reduction in engineering rework'.",
+        "decision": "REMOVED (owner, 2026-10-05): section rewritten as Designit's approach, no client claim."
+      },
+      {
+        "id": "UNV-BLOG-DASHBOARD-KELP",
+        "page": "/blog/saas-dashboard-design-best-practices/",
+        "claim": "'Daily active usage increased within the first two weeks'; user quote 'less complicated'.",
+        "decision": "REMOVED (owner, 2026-10-05); the design decision itself is kept."
+      },
+      {
+        "id": "UNV-BLOG-KYC-90DAYS",
+        "page": "/blog/fintech-onboarding-kyc-ux-india/",
+        "claim": "'Most clients see measurable conversion improvement within 90 days of implementation.'",
+        "decision": "REMOVED (owner, 2026-10-05)."
+      },
+      {
+        "id": "UNV-ABOUT-50M",
+        "page": "/about/",
+        "claim": "'Adda247 (50M+ users)' and 'used by millions across India, the UAE, the US and the UK'.",
+        "decision": "REMOVED (owner, 2026-10-05)."
+      },
+      {
+        "id": "UNV-DRIVEIT",
+        "page": "/about/, /contact/ (logo ticker)",
+        "claim": "Driveit listed as a client; no case study or other evidence in the repository.",
+        "decision": "OPEN: owner to confirm."
+      },
+      {
+        "id": "UNV-CASE-RESEARCH-DATA",
+        "page": "/projects/adda247/* and /projects/kelp-global/kelp-plugin/",
+        "claim": "Research findings used as problem context, e.g. '65% couldn't locate purchased content (survey of 500)', '70% never scrolled past the first fold', 'reps spent 40% of their time on data lookup', '30% of the audience on Apple devices'.",
+        "decision": "OPEN: owner to confirm these came from the client's research or data."
+      },
+      {
+        "id": "UNV-BLOG-PRICE-RANGES",
+        "page": "pricing and cost posts (e.g. ui-ux-design-pricing-india-2026, design-system-cost-india-2026, cost-ui-ux-design-mobile-app-india, branding cost, fintech KYC FAQ)",
+        "claim": "₹ / AED cost ranges presented as market or Designit prices.",
+        "decision": "OPEN: owner to decide (keep as market estimates, convert to cost drivers, or remove)."
       }
     ]
   }
