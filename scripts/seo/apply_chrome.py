@@ -61,3 +61,53 @@ if __name__ == "__main__":
             if s2 != s:
                 open(p, "w", encoding="utf-8").write(s2); report["updated"] += 1
     print("updated", report["updated"], "| legacy layouts (not touched):", report["legacy"])
+
+# ---- legacy layouts: same top-level IA, rendered with each page's own link styling ----
+LEGACY_TOP = [("/services/", "Services"), ("/industries/", "Industries"), ("/solutions/", "Solutions"),
+              ("/projects/", "Work"), ("/blog/", "Insights"), ("/about/", "About")]
+LEGACY_SERVICES = [("/services/product-design/", "Product Design"), ("/services/saas-product-design/", "SaaS Product Design"),
+                   ("/services/ux-audit/", "UX Audit"), ("/services/ux-research/", "UX Research"),
+                   ("/services/design-systems/", "Design Systems"), ("/services/ai-product-design/", "AI Product Design")]
+LEGACY_COMPANY = [("/about/", "About"), ("/projects/", "Work"), ("/blog/", "Insights"), ("/industries/", "Industries"),
+                  ("/careers/", "Careers"), ("/contact/", "Contact")]
+
+def _relink(block, links, first_tag_re=r'<a href="[^"]*"([^>]*)>'):
+    """Rebuild a run of <a> tags, reusing the attributes (inline styles, hover handlers) of the first one."""
+    m = re.search(first_tag_re, block)
+    attrs = m.group(1) if m else ""
+    attrs = re.sub(r'\s*class="active"', "", attrs)
+    return "".join(f'<a href="{h}"{attrs}>{t}</a>' for h, t in links)
+
+def apply_legacy(s, rel):
+    out = s
+    # old blog template (dz-header)
+    m = re.search(r'(<nav class="dz-nav"[^>]*>)(.*?)(</nav>)', out, re.S)
+    if m:
+        out = out[: m.start(2)] + _relink(m.group(2), LEGACY_TOP) + out[m.end(2):]
+        out = re.sub(r'<a href="[^"]*"( class="dz-cta"[^>]*)>[^<]*</a>', r'<a href="/start-a-project/"\1>Start a Project</a>', out, count=1)
+        # footer columns: Services + Company link runs following their <h4>
+        def col(name, links):
+            nonlocal out
+            fm = re.search(r'(<h4[^>]*>' + name + r'</h4>\s*)((?:<a [^>]*>[^<]*</a>\s*)+)', out)
+            if fm: out = out[: fm.start(2)] + _relink(fm.group(2), links) + "\n      " + out[fm.end(2):]
+        col("Services", LEGACY_SERVICES); col("Company", LEGACY_COMPANY)
+    # homepage-revamp style header (.header > .container > nav.nav-links)
+    m = re.search(r'(<header class="header" id="header">.*?<nav class="nav-links" id="navLinks"[^>]*>)(.*?)(</nav>\s*)<a href="[^"]*" class="btn btn-primary btn-sm">[^<]*</a>', out, re.S)
+    if m:
+        active = ' class="active"'
+        links = "".join("\n                " + f'<a href="{h}"{active if t == "Work" else ""}>{t}</a>' for h, t in LEGACY_TOP)
+        out = out[: m.start(2)] + links + "\n            " + m.group(3) + '<a href="/start-a-project/" class="btn btn-primary btn-sm">Start a Project</a>' + out[m.end():]
+    return out
+
+def run_legacy():
+    n = 0
+    for rel in ["projects/adda247/homepage-revamp.html"] + [
+        f"blog/{s}/index.html" for s in ("how-to-improve-website-conversion-rate-india", "ui-ux-design-agency-dubai-proptech",
+        "edtech-ux-design-agency-india", "fintech-ux-design-agency-india", "b2b-saas-ui-ux-design-services-india",
+        "saas-onboarding-ux-best-practices-india")]:
+        p = os.path.join(ROOT, rel); s = open(p, encoding="utf-8").read(); s2 = apply_legacy(s, rel)
+        if s2 != s: open(p, "w", encoding="utf-8").write(s2); n += 1
+    print("legacy pages updated", n)
+
+if __name__ == "__main__":
+    run_legacy()
