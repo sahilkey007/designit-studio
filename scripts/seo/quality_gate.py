@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Site quality gate (blueprint sections 73, 81, 95, 107). Run before asking to deploy.
 Checks every served HTML page. Exit code 1 on any failure.  Usage: python3 scripts/seo/quality_gate.py"""
-import collections, html, json, os, re, sys
+import collections, glob, html, json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SITE = "https://designit.co.in"
 SKIP = {"node_modules", ".git", "scripts", "docs", "_next", "data", "content"}
@@ -63,6 +63,12 @@ for t, us in titles.items():
     if len(us) > 1: fails["duplicate title"].append(f"{t[:50]} -> {us}")
 for d, us in descs.items():
     if len(us) > 1: fails["duplicate description"].append(f"{d[:50]} -> {us}")
+# Evidence ledger (sections 47/63): every evidence ID a page spec cites must exist in data/evidence.json.
+_ev = {r["id"] for r in json.load(open(os.path.join(ROOT, "data/evidence.json")))["records"]}
+for _f in glob.glob(os.path.join(ROOT, "content/pages/**/*.json"), recursive=True):
+    _spec = json.load(open(_f))
+    for _id in _spec.get("evidenceIds", []):
+        if _id not in _ev: fails["evidence ID not in data/evidence.json"].append(f"{_spec['url']}: {_id}")
 print(f"pages checked: {n}")
 for k, v in sorted(fails.items()):
     print(f"FAIL {k}: {len(v)}"); [print("   ", x) for x in sorted(set(v))[:12]]

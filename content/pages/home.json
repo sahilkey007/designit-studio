@@ -37,12 +37,7 @@
   "author": "Designit",
   "updatedAt": "2026-10-04",
   "schemaType": "WebPage",
-  "evidenceIds": [
-    "EV-CLIENT-LOGOS",
-    "EV-TESTIMONIALS",
-    "EV-CAREER-STATS",
-    "EV-FOUNDER"
-  ],
+  "evidenceIds": ["EV-CLIENT-LOGOS", "EV-TESTIMONIALS", "EV-CAREER-STATS", "EV-FOUNDER", "EV-SITE-CASE-COUNT", "EV-MARKETS"],
   "conversionEvent": "start_project",
   "refreshInterval": "quarterly",
   "about": [

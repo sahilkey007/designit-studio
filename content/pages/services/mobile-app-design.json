@@ -69,10 +69,7 @@
   "author": "Designit",
   "updatedAt": "2026-10-04",
   "schemaType": "Service",
-  "evidenceIds": [
-    "EV-ADDA-SCOPE",
-    "EV-ADDA-IOS"
-  ],
+  "evidenceIds": ["EV-ADDA-SCOPE", "EV-ADDA-IOS", "EV-DELIVERY-BOUNDARY"],
   "relatedServices": [
     "/services/product-design/",
     "/services/ux-audit/",

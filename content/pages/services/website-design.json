@@ -20,7 +20,7 @@
   "searchIntent": "commercial", "businessIntent": "Lead: website project", "funnelStage": "evaluation / buying",
   "audience": ["Founders", "Marketing leads", "Heads of growth"], "topicCluster": "Website Redesign", "pillarPage": "/services/website-design/", "parentTopic": "website redesign",
   "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "Service",
-  "evidenceIds": ["EV-RCENTRIC-SCOPE", "EV-OWNER-WEBSITE-SERVICE"],
+  "evidenceIds": ["EV-RCENTRIC-SCOPE", "EV-OWNER-WEBSITE-SERVICE", "EV-DELIVERY-BOUNDARY"],
   "relatedServices": ["/services/conversion-optimization/", "/services/ux-audit/", "/services/branding/"],
   "relatedIndustries": ["/industries/real-estate/", "/industries/b2b-saas/"],
   "relatedCaseStudies": ["/projects/rcentric/", "/projects/adda247/homepage-revamp/"],

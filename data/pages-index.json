@@ -22,7 +22,9 @@
       "EV-CLIENT-LOGOS",
       "EV-TESTIMONIALS",
       "EV-CAREER-STATS",
-      "EV-FOUNDER"
+      "EV-FOUNDER",
+      "EV-SITE-CASE-COUNT",
+      "EV-MARKETS"
     ],
     "cta": {
       "heading": "Start with the problem",
@@ -779,6 +781,9 @@
     "author": "Designit",
     "updatedAt": "2026-10-04",
     "schemaType": "CollectionPage",
+    "evidenceIds": [
+      "EV-MARKETS"
+    ],
     "cta": {
       "heading": "Wherever you are, the first step is the same",
       "body": "Tell us what you're building. We'll suggest the right starting point and how we'd work across your time zone.",
@@ -1831,7 +1836,8 @@
     "schemaType": "Service",
     "evidenceIds": [
       "EV-ADDA-SCOPE",
-      "EV-ADDA-IOS"
+      "EV-ADDA-IOS",
+      "EV-DELIVERY-BOUNDARY"
     ],
     "relatedServices": [
       "/services/product-design/",
@@ -2489,7 +2495,8 @@
     "schemaType": "Service",
     "evidenceIds": [
       "EV-RCENTRIC-SCOPE",
-      "EV-OWNER-WEBSITE-SERVICE"
+      "EV-OWNER-WEBSITE-SERVICE",
+      "EV-DELIVERY-BOUNDARY"
     ],
     "relatedServices": [
       "/services/conversion-optimization/",
@@ -3094,7 +3101,8 @@
     "schemaType": "WebPage",
     "evidenceIds": [
       "EV-BETACREW-SCOPE",
-      "EV-OWNER-GBP-INVOICING"
+      "EV-OWNER-GBP-INVOICING",
+      "EV-MARKETS"
     ],
     "relatedServices": [
       "/services/saas-product-design/",
@@ -3174,7 +3182,8 @@
     "schemaType": "WebPage",
     "evidenceIds": [
       "EV-KELP-SCOPE",
-      "EV-OWNER-USD-CONTRACTS"
+      "EV-OWNER-USD-CONTRACTS",
+      "EV-MARKETS"
     ],
     "relatedServices": [
       "/services/saas-product-design/",
@@ -3255,7 +3264,8 @@
     "updatedAt": "2026-10-04",
     "schemaType": "WebPage",
     "evidenceIds": [
-      "EV-RCENTRIC-SCOPE"
+      "EV-RCENTRIC-SCOPE",
+      "EV-MARKETS"
     ],
     "relatedServices": [
       "/services/website-design/",

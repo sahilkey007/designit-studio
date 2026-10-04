@@ -11,7 +11,7 @@
   "primaryKeyword": "ui ux design agency usa", "secondaryKeywords": ["ui ux design companies in usa", "product design agency usa", "saas design agency us"],
   "searchIntent": "commercial / vendor", "businessIntent": "Lead: US client", "funnelStage": "vendor",
   "audience": ["US SaaS founders", "US product leaders"], "topicCluster": "Locations", "pillarPage": "/locations/", "parentTopic": "ui ux design agency usa",
-  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-KELP-SCOPE", "EV-OWNER-USD-CONTRACTS"],
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-KELP-SCOPE", "EV-OWNER-USD-CONTRACTS", "EV-MARKETS"],
   "relatedServices": ["/services/saas-product-design/", "/services/ux-audit/"], "relatedCaseStudies": ["/projects/kelp-global/", "/projects/betacrew/"],
   "conversionEvent": "start_project", "refreshInterval": "6 months",
   "cta": {"heading": "Senior design capacity this quarter, not after a long hire", "body": "Tell us about your product and timeline. Most US clients start with a two-week UX audit to test working together across the distance.", "buttons": [{"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"}, {"label": "UX audit", "href": "/services/ux-audit/"}]},

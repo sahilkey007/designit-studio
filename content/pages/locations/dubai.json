@@ -11,7 +11,7 @@
   "primaryKeyword": "ux design agency dubai", "secondaryKeywords": ["ui ux design company dubai", "arabic rtl ux design", "proptech design dubai", "ux agency uae"],
   "searchIntent": "commercial / vendor", "businessIntent": "Lead: UAE client", "funnelStage": "vendor",
   "audience": ["UAE developers", "UAE fintech and PropTech founders"], "topicCluster": "Locations", "pillarPage": "/locations/", "parentTopic": "ux design agency dubai",
-  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-RCENTRIC-SCOPE"],
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-RCENTRIC-SCOPE", "EV-MARKETS"],
   "relatedServices": ["/services/website-design/", "/services/design-systems/"], "relatedIndustries": ["/industries/real-estate/", "/industries/fintech/"], "relatedCaseStudies": ["/projects/rcentric/"],
   "conversionEvent": "start_project", "refreshInterval": "6 months",
   "cta": {"heading": "Bilingual from the first wireframe", "body": "Tell us about your audience and markets. We'll show you how we would structure the product for English and Arabic from the start.", "buttons": [{"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"}, {"label": "Arabic RTL guide", "href": "/blog/arabic-rtl-ux-design-proptech-uae/"}]},
