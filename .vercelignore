@@ -8,6 +8,16 @@ DEPLOY_NOTES.md
 README.md
 .claude/
 
+# Internal working files: never serve publicly (docs, sales/ops notes, keyword queues, build data/config)
+docs/
+resources/*.md
+resources/*.json
+data/
+site.config.json
+netlify.toml
+generate-blog.js
+generate-sitemaps.js
+
 # Unreferenced design mockups living at the repo root (~66MB, 0 inbound refs).
 # Kept in git, just not shipped to the CDN.
 project detail page.png
