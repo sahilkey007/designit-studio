@@ -87,3 +87,5 @@ a.card:hover{border-color:var(--border-medium);transform:translateY(-2px)}
 .hero-ctas .btn{min-width:200px}
 @media (max-width:768px){.pg-section{padding:64px 0}.problem-row,.stage,.compare{grid-template-columns:1fr}.problem-row .route{justify-self:start;text-align:left}.answer-block{padding:22px}.answer-block .answer{font-size:18px}}
 .faq-list .faq-h{margin:0;font-size:inherit;font-weight:inherit;line-height:inherit;letter-spacing:inherit}
+.logo-strip{list-style:none;padding:0;margin:28px auto 0;max-width:1000px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:28px 44px}
+.logo-strip img{height:28px;width:auto;max-width:170px;object-fit:contain;opacity:.75;filter:grayscale(1)}

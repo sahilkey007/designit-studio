@@ -1,4 +1,116 @@
 {
+  "/": {
+    "url": "/",
+    "pageType": "home",
+    "metaTitle": "Product & UI/UX Design Agency in India for SaaS | Designit",
+    "metaDescription": "A senior-led, research-led product design studio in India helping SaaS, technology and enterprise teams research, redesign and scale complex products.",
+    "h1": "Product design for complex digital products",
+    "primaryKeyword": "product design agency india",
+    "secondaryKeywords": [
+      "ui ux design agency india",
+      "saas product design",
+      "ux design studio india"
+    ],
+    "searchIntent": "navigational / commercial",
+    "businessIntent": "Entity + positioning; route authority to core commercial pages",
+    "funnelStage": "all",
+    "topicCluster": "Home",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-CLIENT-LOGOS",
+      "EV-TESTIMONIALS",
+      "EV-CAREER-STATS",
+      "EV-FOUNDER"
+    ],
+    "cta": {
+      "heading": "Start with the problem",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Tell us what's not working",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Email contact@designit.co.in",
+          "href": "mailto:contact@designit.co.in"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "REWRITE",
+    "h2s": [
+      "What we help teams solve",
+      "How we work",
+      "Services",
+      "Industries",
+      "Selected work",
+      "Why Designit",
+      "What product leaders say",
+      "Experience behind the studio",
+      "Insights",
+      "FAQ"
+    ],
+    "faq": [
+      "What types of companies do you work with?",
+      "How long does a typical project take?",
+      "What's your design process like?",
+      "What tools do you use?",
+      "What are your pricing models?"
+    ],
+    "internalLinks": [
+      "/about/",
+      "/blog/arabic-rtl-ux-design-proptech-uae/",
+      "/blog/best-ai-tools-ui-ux-designers-2026/",
+      "/blog/branding-services-for-startups-india-cost/",
+      "/blog/cost-ui-ux-design-mobile-app-india/",
+      "/blog/cro-strategies-for-b2b-saas-india/",
+      "/blog/edtech-ux-design-india/",
+      "/blog/fintech-onboarding-kyc-ux-india/",
+      "/blog/generative-ai-website-personalization/",
+      "/blog/hire-ui-ux-designer-vs-agency-india/",
+      "/blog/how-ai-is-changing-ux-design-india/",
+      "/blog/how-to-choose-a-product-design-agency/",
+      "/blog/landing-page-conversion-audit-services-india/",
+      "/blog/saas-dashboard-design-best-practices/",
+      "/blog/saas-onboarding-ux-best-practices-india/",
+      "/blog/signs-your-company-needs-a-rebrand-india/",
+      "/blog/ui-ux-audit-for-website-india/",
+      "/blog/ux-audit-checklist/",
+      "/blog/visual-identity-vs-branding-startups/",
+      "/industries/",
+      "/industries/ai/",
+      "/industries/automotive/",
+      "/industries/b2b-saas/",
+      "/industries/edtech/",
+      "/industries/fintech/",
+      "/industries/real-estate/",
+      "/locations/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/kelp-global/",
+      "/projects/rcentric/",
+      "/projects/tata-elxsi/",
+      "/resources/",
+      "/services/",
+      "/services/ai-product-design/",
+      "/services/branding/",
+      "/services/conversion-optimization/",
+      "/services/design-systems/",
+      "/services/product-design/",
+      "/services/saas-product-design/",
+      "/services/ux-audit/",
+      "/services/ux-research/",
+      "/solutions/legacy-product-modernization/",
+      "/solutions/mvp-design/",
+      "/start-a-project/"
+    ],
+    "file": "index.html"
+  },
   "/industries/": {
     "url": "/industries/",
     "pageType": "hub",

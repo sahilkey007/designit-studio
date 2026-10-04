@@ -168,9 +168,13 @@ def r_links(s):
 
 def r_html(s): return sec(s, s["html"])
 
+def r_logos(s):
+    imgs = "".join(f'<li><img src="{a(l["src"])}" alt="{a(l["alt"])}" width="{l["w"]}" height="{l["h"]}" loading="lazy"></li>' for l in s["items"])
+    return sec(s, f'<ul class="logo-strip">{imgs}</ul>')
+
 RENDER = {"answer": r_answer, "prose": r_prose, "cards": r_cards, "problems": r_problems, "steps": r_steps,
           "stages": r_stages, "checklist": r_checklist, "table": r_table, "compare": r_compare, "work": r_work,
-          "quotes": r_quotes, "clusters": r_clusters, "facts": r_facts, "links": r_links, "html": r_html}
+          "quotes": r_quotes, "clusters": r_clusters, "facts": r_facts, "links": r_links, "html": r_html, "logos": r_logos}
 
 def faq_block(p):
     if not p.get("faq"): return ""
