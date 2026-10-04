@@ -3,6 +3,57 @@
 Things the code cannot, or should not, decide. Nothing here has been done for you.
 Priority order within each section.
 
+## Staging rebuild (2026-10-04/05): SEO + AEO + GEO blueprint, awaiting your approval
+
+Everything below lives on the `staging` branch only (Vercel preview, SSO-protected, `noindex`). **Nothing goes to
+the live site until you say so.** Full detail: `docs/seo-blueprint/` (start with `README.md` and
+`10-implementation-status.md`).
+
+**Decisions only you can make (each one blocks something):**
+1. **Approve the merge** of `staging` → `main` after reviewing the preview (`11-migration-deploy-checklist.md`).
+2. **Delivery boundary:** the Website and Mobile App pages say Designit designs through handoff, design QA and
+   launch support, and that development is done by your team or partner. Confirm, or tell me what you build.
+3. **Currencies:** `/contact/` says "INR or USD"; the UK page says GBP; the Dubai page says "USD or AED"; the USA
+   page says USD. Say which is true and I will align every page.
+4. **Unverified numbers still live** (none added by the rebuild; register in `04-evidence-ledger.md`):
+   - homepage career stats (98% satisfaction, 2x conversion lift)
+   - Kelp Global "31% to 62% in 90 Days" (KYC post; this story **names Kelp Global**: my earlier description of it as
+     unnamed was wrong, so please re-decide)
+   - Kelp Global "12% trial-to-paid" (freelancer post)
+   - Adda247 "7 steps to 3, +23% day-1 activation" (SaaS onboarding post)
+   - "40% vs Omniyat's previous retrofit" (Arabic RTL post)
+   - sub-project "At a glance" outcome tiles on 19 pages
+   - the homepage ₹1.5L–₹4L retainer range
+   - Adda247 "8 product modules" (9 published)
+   Keep, correct or remove each.
+5. **Kelp Global description** is inconsistent: "B2B fintech platform" (KYC post), "B2B SaaS platform" (freelancer
+   post), CRM/sales-intelligence suite (case study).
+6. **US and UK clients:** the site says you work with clients in all four markets; published work evidences India
+   and the UAE only. Confirm US/UK clients exist, or the wording should change.
+7. **Google Analytics before consent:** GA4 (`G-HCN5Q8W144`) sets `_ga` cookies before the visitor accepts, while
+   the banner says no tracking cookies are set until Accept. True on the live site since 2026-07-08. Recommended:
+   Google Consent Mode v2 (denied by default, granted on Accept). Your call: it changes what GA records.
+8. **Reviewer byline:** posts say "Reviewed by Sahil Sharma, Founder". Keep it true by reviewing each refresh.
+
+**Your accounts and data (nothing was created, submitted or sent):**
+- Before the merge: export Search Console Pages + Links and a backlink list (Ahrefs or similar) for the migration
+  baseline. The matrix shows 0 URLs removed, but your exports are the safety net.
+- After the merge: submit both sitemaps; request indexing for the 10 URLs in the checklist; watch 404s and
+  indexing daily for a week.
+- Supabase: add `landing_page`, `utm_source`, `utm_medium`, `utm_campaign`, `referrer`, `recommended_engagement`
+  columns to `leads` (attribution currently rides in `anything_else`).
+- Add the LinkedIn URL of each of the six recommendations to `data/testimonials.json`.
+- Confirm each `sameAs` profile (LinkedIn company, Instagram, X, Threads, Medium) is official; add Behance,
+  Dribbble, Clutch or Google Business Profile only once they exist.
+- Figma IA (blueprint step 4): the Figma connection needs your authorisation. The matrix is the source until then.
+- Monthly: run `docs/seo-blueprint/06-ai-prompt-library.csv` in ChatGPT, Perplexity, Gemini, Google AI Mode and
+  Copilot; weekly GSC dashboard (`06-measurement.md`).
+- Fresh SE Ranking / Ahrefs competitor exports for the content-gap analysis (`07-competitor-notes.md` §3).
+- Digital PR, client "Designed by Designit" credits, directory profiles: manual, by you.
+
+**Not started on purpose (blueprint section 114: core site first):** the 52 planned articles, 8 tools and 6 reports
+in `09-content-backlog.md`; refreshes of the posts ranking 5–20.
+
 ## 00. Audit round (2026-10-01)
 
 Automated fixes from the site audit, all verified before deploy:
@@ -74,8 +125,8 @@ and were only reused verbatim, never checked:
 **TODO(owner): approve the hero wording.** The homepage hero now reads "A research-led product design studio in
 Noida, India, helping businesses…". Revert if you prefer the location to live only in the title/meta.
 
-**TODO(owner): founder entity.** No founder name or LinkedIn URL was supplied, so no byline/bio or `founder`
-schema was added. Send the name, URL and whether you want it visible on About.
+~~**TODO(owner): founder entity.**~~ **Resolved 2026-09-30:** Sahil Sharma added as founder (About, `founder` Person
+schema, LinkedIn https://www.linkedin.com/in/best-design-studio/).
 
 ## 2. Accounts, profiles and outreach (manual by design)
 
@@ -95,17 +146,18 @@ Nothing was created, submitted or sent.
 
 - **Third-party JavaScript** is the main remaining performance cost. In GTM check whether a GA4 tag duplicates
   the hard-coded `gtag('config','G-HCN5Q8W144')`; decide whether PostHog and Contentsquare must run on every page.
-- **Apollo tracker** loads on 53 pages and returns HTTP 400 "Buy more credits to continue tracking" while still
-  setting a third-party cookie. Top up credits or remove it (lowers Best Practices score).
+- ~~**Apollo tracker** loads on 53 pages…~~ **Resolved 2026-09-30** (Apollo, PostHog and Contentsquare removed).
 - Self-hosting the Inter font and replacing 10 hotlinked Unsplash images needs your approval to download files.
-- 121 unreferenced PNGs (~140 MB) are publicly served; confirm they are unused, then add to `.vercelignore`.
+- ~~121 unreferenced PNGs (~140 MB) are publicly served.~~ **Resolved 2026-09-30** (added to `.vercelignore`).
 - CSP / Permissions-Policy: deploy as `Content-Security-Policy-Report-Only` first; the tracker stack is large.
-- `analytics.js` sends first-party events to Supabase without checking the cookie-consent choice (it stores a
-  session id in `sessionStorage`, not a cookie). Confirm this matches your privacy policy.
+- ~~`analytics.js` sends first-party events without checking consent.~~ **Resolved 2026-09-30** (sends nothing until
+  Accept). Still open: GA4 itself is not consent-gated; see decision 7 above.
 - Calendly: the booking link uses a personal handle. To change it, edit `site.config.json` and run
   `node scripts/set-booking-url.mjs`, then `--check` to confirm all 72 links agree.
-- `ai/service.json` still describes Designit as a "Global UI/UX product design studio". Not changed.
-- `llms-full.txt` Blog section lists some posts twice and omits others. Not changed beyond adding the new post.
+- ~~`ai/service.json` still describes Designit as a "Global UI/UX product design studio".~~ **Resolved on staging
+  2026-10-04:** `ai/*.json`, `llms.txt` and `llms-full.txt` are generated from the page specs (`scripts/seo/build_llms.py`).
+- ~~`llms-full.txt` Blog section lists some posts twice and omits others.~~ **Resolved on staging 2026-10-04**
+  (generated from the sitemaps, deduplicated).
 - The legal pages are `noindex`. Some directories look for indexable privacy/terms pages. Not changed.
 
 ## 4. Recommendations not implemented (logged only)

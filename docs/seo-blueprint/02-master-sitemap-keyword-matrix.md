@@ -209,7 +209,7 @@ Named in the blueprint but not built, by design: section 114 says not to start t
 | /locations/usa/ | 301 -> /ui-ux-design-agency-usa/ |
 | /locations/uk/ | 301 -> /ui-ux-design-agency-uk/ |
 | /locations/uae/ | 301 -> /ux-design-agency-dubai/ |
-| /locations/india/ | 301 -> /about/ |
+| /locations/india/ | 301 -> /locations/ |
 | /pricing/ | 301 -> / |
 | /project-detail/ | 301 -> /projects/adda247/ |
 | /pricing.html/ | 301 -> / |

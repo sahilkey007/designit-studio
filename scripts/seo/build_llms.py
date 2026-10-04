@@ -14,7 +14,6 @@ Usage: python3 scripts/seo/build_llms.py
 import html
 import json
 import re
-from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -224,7 +223,8 @@ def build():
     (ROOT / "llms-full.txt").write_text("\n".join(F))
 
     # ── ai/*.json ─────────────────────────────────────────────────────
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    # Last content change, not build time: the newest updatedAt across the specs these files are built from.
+    now = max(p.get("updatedAt", "") for p in [home] + services + solutions + industries + locations) + "T00:00:00Z"
     svc = [{"name": p.get("serviceName") or text(p["h1"]), "description": text(p.get("serviceDescription") or p["metaDescription"]),
             "url": SITE + p["url"]} for p in services]
     summary = {

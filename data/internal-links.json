@@ -57,9 +57,11 @@
    "/about/"
   ],
   "/about/": [
+   "/",
    "/contact/"
   ],
   "/blog/": [
+   "/",
    "/services/saas-product-design/",
    "/blog/saas-onboarding-ux-best-practices-india/",
    "/blog/saas-dashboard-design-best-practices/",
@@ -369,6 +371,8 @@
    "/blog/generative-ai-website-personalization/"
   ],
   "/blog/how-to-choose-a-product-design-agency/": [
+   "/",
+   "/blog/",
    "/about/",
    "/contact/",
    "/projects/",
@@ -545,9 +549,11 @@
    "/blog/how-to-improve-website-conversion-rate-india/"
   ],
   "/careers/": [
+   "/",
    "/contact/"
   ],
   "/contact/": [
+   "/",
    "/contact/"
   ],
   "/industries/": [
@@ -696,55 +702,73 @@
    "/blog/edtech-ux-design-india/"
   ],
   "/projects/adda247/community/": [
-   "/projects/adda247/my-content/",
+   "/",
+   "/projects/",
    "/projects/adda247/",
+   "/projects/adda247/my-content/",
    "/projects/adda247/performance-dashboard/",
    "/contact/"
   ],
   "/projects/adda247/homepage-revamp/": [
-   "/projects/adda247/test-series/",
+   "/",
+   "/projects/",
    "/projects/adda247/",
+   "/projects/adda247/test-series/",
    "/projects/adda247/live-class/"
   ],
   "/projects/adda247/ios-app/": [
-   "/projects/adda247/live-class/",
+   "/",
+   "/projects/",
    "/projects/adda247/",
+   "/projects/adda247/live-class/",
    "/projects/adda247/sankalp-bharat/",
    "/contact/"
   ],
   "/projects/adda247/live-class/": [
-   "/projects/adda247/homepage-revamp/",
+   "/",
+   "/projects/",
    "/projects/adda247/",
+   "/projects/adda247/homepage-revamp/",
    "/projects/adda247/ios-app/",
    "/contact/"
   ],
   "/projects/adda247/my-content/": [
-   "/projects/adda247/studio-app/",
+   "/",
+   "/projects/",
    "/projects/adda247/",
+   "/projects/adda247/studio-app/",
    "/projects/adda247/community/",
    "/contact/"
   ],
   "/projects/adda247/performance-dashboard/": [
-   "/projects/adda247/community/",
+   "/",
+   "/projects/",
    "/projects/adda247/",
+   "/projects/adda247/community/",
    "/projects/adda247/test-series/",
    "/contact/"
   ],
   "/projects/adda247/sankalp-bharat/": [
-   "/projects/adda247/ios-app/",
+   "/",
+   "/projects/",
    "/projects/adda247/",
+   "/projects/adda247/ios-app/",
    "/projects/adda247/studio-app/",
    "/contact/"
   ],
   "/projects/adda247/studio-app/": [
-   "/projects/adda247/sankalp-bharat/",
+   "/",
+   "/projects/",
    "/projects/adda247/",
+   "/projects/adda247/sankalp-bharat/",
    "/projects/adda247/my-content/",
    "/contact/"
   ],
   "/projects/adda247/test-series/": [
-   "/projects/adda247/performance-dashboard/",
+   "/",
+   "/projects/",
    "/projects/adda247/",
+   "/projects/adda247/performance-dashboard/",
    "/projects/adda247/homepage-revamp/",
    "/contact/"
   ],
@@ -757,6 +781,8 @@
    "/solutions/design-system-scaling/"
   ],
   "/projects/betacrew/portle/": [
+   "/",
+   "/projects/",
    "/projects/betacrew/",
    "/contact/"
   ],
@@ -772,20 +798,26 @@
    "/blog/saas-dashboard-design-best-practices/"
   ],
   "/projects/kelp-global/deals-module/": [
-   "/projects/kelp-global/truenorth/",
+   "/",
+   "/projects/",
    "/projects/kelp-global/",
+   "/projects/kelp-global/truenorth/",
    "/projects/kelp-global/kelp-plugin/",
    "/contact/"
   ],
   "/projects/kelp-global/kelp-plugin/": [
-   "/projects/kelp-global/deals-module/",
+   "/",
+   "/projects/",
    "/projects/kelp-global/",
+   "/projects/kelp-global/deals-module/",
    "/projects/kelp-global/truenorth/",
    "/contact/"
   ],
   "/projects/kelp-global/truenorth/": [
-   "/projects/kelp-global/kelp-plugin/",
+   "/",
+   "/projects/",
    "/projects/kelp-global/",
+   "/projects/kelp-global/kelp-plugin/",
    "/projects/kelp-global/deals-module/",
    "/contact/"
   ],
@@ -805,44 +837,58 @@
    "/blog/arabic-rtl-ux-design-proptech-uae/"
   ],
   "/projects/rcentric/anwa-aria/": [
-   "/projects/rcentric/vela-viento/",
+   "/",
+   "/projects/",
    "/projects/rcentric/",
+   "/projects/rcentric/vela-viento/",
    "/projects/rcentric/liv-reside/",
    "/contact/"
   ],
   "/projects/rcentric/ela/": [
-   "/projects/rcentric/orla-infinity/",
+   "/",
+   "/projects/",
    "/projects/rcentric/",
+   "/projects/rcentric/orla-infinity/",
    "/projects/rcentric/opus/",
    "/contact/"
   ],
   "/projects/rcentric/liv-reside/": [
-   "/projects/rcentric/anwa-aria/",
+   "/",
+   "/projects/",
    "/projects/rcentric/",
+   "/projects/rcentric/anwa-aria/",
    "/projects/rcentric/liv/",
    "/contact/"
   ],
   "/projects/rcentric/liv/": [
-   "/projects/rcentric/liv-reside/",
+   "/",
+   "/projects/",
    "/projects/rcentric/",
+   "/projects/rcentric/liv-reside/",
    "/projects/rcentric/orla-infinity/",
    "/contact/"
   ],
   "/projects/rcentric/opus/": [
-   "/projects/rcentric/ela/",
+   "/",
+   "/projects/",
    "/projects/rcentric/",
+   "/projects/rcentric/ela/",
    "/projects/rcentric/vela-viento/",
    "/contact/"
   ],
   "/projects/rcentric/orla-infinity/": [
-   "/projects/rcentric/liv/",
+   "/",
+   "/projects/",
    "/projects/rcentric/",
+   "/projects/rcentric/liv/",
    "/projects/rcentric/ela/",
    "/contact/"
   ],
   "/projects/rcentric/vela-viento/": [
-   "/projects/rcentric/opus/",
+   "/",
+   "/projects/",
    "/projects/rcentric/",
+   "/projects/rcentric/opus/",
    "/projects/rcentric/anwa-aria/",
    "/contact/"
   ],
@@ -856,13 +902,17 @@
    "/services/product-design/"
   ],
   "/projects/tata-elxsi/infotainment/": [
-   "/projects/tata-elxsi/instrument-cluster/",
+   "/",
+   "/projects/",
    "/projects/tata-elxsi/",
+   "/projects/tata-elxsi/instrument-cluster/",
    "/contact/"
   ],
   "/projects/tata-elxsi/instrument-cluster/": [
-   "/projects/tata-elxsi/infotainment/",
+   "/",
+   "/projects/",
    "/projects/tata-elxsi/",
+   "/projects/tata-elxsi/infotainment/",
    "/contact/"
   ],
   "/resources/": [
