@@ -4,6 +4,8 @@
 .bc a{color:var(--text-tertiary);text-decoration:underline;text-underline-offset:3px}
 .bc a:hover{color:#fff}
 .bc [aria-current]{color:#ddd}
+/* mirrors pages.css; inlined so the hero does not grow when the async stylesheet lands */
+.hero-pills{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:32px}
 .pg-section{padding:88px 0}
 .pg-section+.pg-section{padding-top:24px}
 .pg-h2{font-size:clamp(28px,4vw,44px);font-weight:700;letter-spacing:-1px;line-height:1.15;color:#fff;margin:0 auto 18px;max-width:860px;text-align:center}

@@ -29,7 +29,7 @@ from apply_chrome import nav_for  # noqa: E402  (same nav markup + active state 
 def read(p): return open(p, encoding="utf-8").read()
 SHELL = read(os.path.join(COMP, "shell.html"))
 FOOTER = read(os.path.join(COMP, "footer.html")).rstrip("\n")
-PAGE_CSS = re.sub(r"\s*\n\s*", "", read(os.path.join(COMP, "page.css")))
+PAGE_CSS = re.sub(r"\s*\n\s*", "", re.sub(r"/\*.*?\*/", "", read(os.path.join(COMP, "page.css")), flags=re.S))
 ENT = json.load(open(os.path.join(ROOT, "data", "entities.json"), encoding="utf-8"))
 WORK = json.load(open(os.path.join(ROOT, "data", "work.json"), encoding="utf-8"))
 QUOTES = json.load(open(os.path.join(ROOT, "data", "testimonials.json"), encoding="utf-8"))
