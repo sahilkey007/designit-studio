@@ -26,14 +26,14 @@ the live site until you say so.** Full detail: `docs/seo-blueprint/` (start with
 - Reviewer byline kept.
 - Quality gate now blocks every removed claim from reappearing.
 
-**Still open (your call):**
-1. **Merge `staging` → `main`** after you review the preview.
-2. **Driveit**: listed as a client on About and in the Contact logo ticker, with no case study. Confirm, or remove.
-3. **Case-study research figures** used as problem context (e.g. "65% couldn't locate purchased content", "70% never
-   scrolled past the first fold", "reps spent 40% of their time on data lookup"). Did these come from the client's own
-   research or data?
-4. **₹ / AED price ranges in the pricing and cost blog posts** (UI/UX pricing, design-system cost, mobile app cost,
-   branding cost, the KYC post's sprint FAQ). Keep as market estimates, convert to cost drivers, or remove?
+**Also decided 2026-10-05:**
+- Driveit removed from About and the Contact logo ticker.
+- Case-study research figures (surveys, analytics used as problem context): confirmed real and kept.
+- Blog price ranges: kept and labelled as market ranges by a pricing note in 22 posts. The two "Designit's rate" lines
+  were replaced with "quoted as a fixed fee against a written scope". Known inconsistency to revisit when those posts
+  are refreshed: two agency guides price a senior-led sprint at ₹3.5–10L / ₹4–12L, other posts at ₹40K–₹1.8L.
+
+**Still open:** the merge of `staging` → `main`, after you review the preview.
 
 **Your accounts and data (nothing was created, submitted or sent):**
 - Before the merge: export Search Console Pages + Links and a backlink list (Ahrefs or similar) for the migration

@@ -557,19 +557,19 @@
         "id": "UNV-DRIVEIT",
         "page": "/about/, /contact/ (logo ticker)",
         "claim": "Driveit listed as a client; no case study or other evidence in the repository.",
-        "decision": "OPEN: owner to confirm."
+        "decision": "REMOVED from About and the Contact logo ticker (owner, 2026-10-05)."
       },
       {
         "id": "UNV-CASE-RESEARCH-DATA",
         "page": "/projects/adda247/* and /projects/kelp-global/kelp-plugin/",
         "claim": "Research findings used as problem context, e.g. '65% couldn't locate purchased content (survey of 500)', '70% never scrolled past the first fold', 'reps spent 40% of their time on data lookup', '30% of the audience on Apple devices'.",
-        "decision": "OPEN: owner to confirm these came from the client's research or data."
+        "decision": "KEPT: owner confirmed 2026-10-05 that these figures come from the clients' own research and data."
       },
       {
         "id": "UNV-BLOG-PRICE-RANGES",
         "page": "pricing and cost posts (e.g. ui-ux-design-pricing-india-2026, design-system-cost-india-2026, cost-ui-ux-design-mobile-app-india, branding cost, fintech KYC FAQ)",
         "claim": "₹ / AED cost ranges presented as market or Designit prices.",
-        "decision": "OPEN: owner to decide (keep as market estimates, convert to cost drivers, or remove)."
+        "decision": "Owner, 2026-10-05: keep as labelled market ranges. A pricing note (\"typical market ranges in India and the UAE in 2026 … not Designit quotes\") opens all 22 posts with prices; the two explicit \"Designit's rate\" lines in ui-ux-design-pricing-india-2026 were replaced with \"quoted as a fixed fee against a written scope\". Known inconsistency: edtech-ux-design-agency-india (₹3.5–10L) and fintech-ux-design-agency-india (₹4–12L) price a senior-led sprint ~10x higher than other posts."
       }
     ]
   }
