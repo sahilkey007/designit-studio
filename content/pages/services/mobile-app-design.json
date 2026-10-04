@@ -1,0 +1,295 @@
+{
+  "url": "/services/mobile-app-design/",
+  "pageType": "service",
+  "action": "CREATE",
+  "priority": "P1",
+  "metaTitle": "Mobile App Design Agency: iOS & Android UX | Designit",
+  "metaDescription": "Mobile app design for iOS and Android: research, flows, interface design, platform conventions, offline and slow-network states, prototypes and handoff.",
+  "h1": "Mobile app design for products people open every day",
+  "eyebrow": [
+    "iOS & Android",
+    "Real devices, real networks",
+    "Developer-ready"
+  ],
+  "subtitle": "A mobile app gets seconds of attention, on a small screen, often on an unreliable connection. We design apps around the one or two jobs people open them for, and make those jobs fast, forgiving and native to each platform.",
+  "ctas": [
+    {
+      "label": "Discuss your app",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "See the Adda247 iOS app",
+      "href": "/projects/adda247/ios-app/"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Services",
+      "/services/"
+    ],
+    [
+      "Mobile App Design",
+      "/services/mobile-app-design/"
+    ]
+  ],
+  "serviceName": "Mobile App Design",
+  "serviceType": [
+    "Mobile App Design",
+    "iOS App Design",
+    "Android App Design",
+    "Mobile UX Design",
+    "Tablet App Design"
+  ],
+  "serviceDescription": "Mobile app UX and UI design for iOS, iPadOS and Android: research, flows, interface design that follows platform conventions, offline and low-bandwidth states, prototyping, usability testing and developer handoff.",
+  "audienceType": "Consumer and B2B product teams building or redesigning mobile apps",
+  "primaryKeyword": "mobile app design agency",
+  "secondaryKeywords": [
+    "mobile app ui ux design",
+    "ios app design",
+    "android app design",
+    "mobile app redesign",
+    "mobile apps dashboard design"
+  ],
+  "searchIntent": "commercial",
+  "businessIntent": "Lead: mobile app design engagement",
+  "funnelStage": "evaluation / buying",
+  "audience": [
+    "Founders",
+    "Mobile product managers",
+    "Engineering leads"
+  ],
+  "topicCluster": "Product Design",
+  "pillarPage": "/services/product-design/",
+  "parentTopic": "mobile app design",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "Service",
+  "evidenceIds": [
+    "EV-ADDA-SCOPE",
+    "EV-ADDA-IOS"
+  ],
+  "relatedServices": [
+    "/services/product-design/",
+    "/services/ux-audit/",
+    "/services/design-systems/"
+  ],
+  "relatedIndustries": [
+    "/industries/edtech/",
+    "/industries/fintech/"
+  ],
+  "relatedCaseStudies": [
+    "/projects/adda247/ios-app/",
+    "/projects/adda247/sankalp-bharat/",
+    "/projects/adda247/studio-app/"
+  ],
+  "aiAnswerTargets": [
+    "How do you design a mobile app for iOS and Android?",
+    "Should iOS and Android apps look the same?",
+    "How much does mobile app design cost?"
+  ],
+  "conversionEvent": "start_project",
+  "refreshInterval": "quarterly",
+  "cta": {
+    "heading": "Let's look at your app on a real phone",
+    "body": "Send us your app or prototype. In 30 minutes we'll walk the core flow on a mid-range device and tell you where people are likely to drop.",
+    "buttons": [
+      {
+        "label": "Discuss your app",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      },
+      {
+        "label": "Read: mobile app design cost in India",
+        "href": "/blog/cost-ui-ux-design-mobile-app-india/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "cards",
+      "id": "why-mobile-apps-lose-users",
+      "heading": "Why mobile apps lose users",
+      "items": [
+        {
+          "title": "Onboarding asks before it gives",
+          "body": "Account creation, permissions and preferences before the app has shown any value."
+        },
+        {
+          "title": "Permission prompts at the wrong moment",
+          "body": "Notifications and location requested on first launch, without context, and refused for good."
+        },
+        {
+          "title": "Navigation built for a desktop product",
+          "body": "Too many tabs, deep menus and actions out of thumb reach."
+        },
+        {
+          "title": "Forms that fight the keyboard",
+          "body": "Wrong input types, tiny targets and validation that only fires after submit."
+        },
+        {
+          "title": "Fragile on real networks",
+          "body": "Blank screens on a weak connection, lost input on a dropped request, and no offline state at all."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "what-we-design",
+      "heading": "What we design",
+      "items": [
+        {
+          "title": "Core flows",
+          "body": "The one or two jobs people open the app for, made as short and forgiving as possible."
+        },
+        {
+          "title": "Onboarding and activation",
+          "body": "A first session that delivers value before asking for commitment, with permissions requested in context."
+        },
+        {
+          "title": "Navigation and information architecture",
+          "body": "Structures that fit a thumb and a short attention span, tested with real users."
+        },
+        {
+          "title": "Interface design across states",
+          "body": "Loading, empty, error, offline and permission-denied states designed, not left to engineering."
+        },
+        {
+          "title": "Tablet and large screens",
+          "body": "Layouts that use iPad and tablet space properly rather than stretching the phone design."
+        },
+        {
+          "title": "Design systems for mobile",
+          "body": "Components and tokens shared across iOS and Android while respecting each platform."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "id": "ios-and-android",
+      "heading": "iOS and Android: same product, native behaviour",
+      "intro": "Your brand should be consistent across platforms; navigation and controls should feel native to each.",
+      "left": {
+        "title": "iOS and iPadOS",
+        "summary": "Designed to Apple's platform conventions.",
+        "points": [
+          "Navigation, gestures and sheets that match iOS expectations",
+          "Dynamic Type and accessibility settings respected",
+          "iPad layouts that use split views and larger canvases"
+        ]
+      },
+      "right": {
+        "title": "Android",
+        "summary": "Designed for the device range people really use.",
+        "points": [
+          "Material conventions for navigation and system back",
+          "Layouts tested on mid-range screens and densities",
+          "Behaviour on low memory and intermittent connectivity"
+        ]
+      }
+    },
+    {
+      "type": "prose",
+      "id": "designing-for-real-devices-and-networks",
+      "heading": "Designing for real devices and networks",
+      "paras": [
+        "Much of the audience in the markets we work in uses mid-range Android hardware on unreliable connections. That shapes real decisions: image weight, how much state lives on the device, what works offline, and whether an animation is worth its frame cost.",
+        "We review designs on representative devices and throttled networks, not only on a designer's laptop, because that is where most mobile usability problems hide."
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "mobile-app-design-process",
+      "heading": "Mobile app design process",
+      "items": [
+        {
+          "title": "Research",
+          "body": "Interviews, app-store reviews and analytics to find the jobs people actually open the app for."
+        },
+        {
+          "title": "Flows and architecture",
+          "body": "Navigation and core flows, validated before visual design."
+        },
+        {
+          "title": "Interface design",
+          "body": "Platform-appropriate UI for iOS and Android, with every state specified."
+        },
+        {
+          "title": "Prototype and test",
+          "body": "Clickable prototypes tested on real devices with people matching your users."
+        },
+        {
+          "title": "Handoff and QA",
+          "body": "Specs for both platforms, an engineering walkthrough and design QA on builds."
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "mobile-app-case-studies",
+      "heading": "Mobile app case studies",
+      "items": [
+        {
+          "kicker": "Adda247",
+          "title": "Native iOS and iPad app",
+          "body": "Bringing an Android-first learning platform to Apple users, following platform conventions.",
+          "href": "/projects/adda247/ios-app/",
+          "more": "Read the case study"
+        },
+        {
+          "kicker": "Adda247",
+          "title": "Sankalp Bharat app",
+          "body": "Turning a low-engagement home feed into a personalised learning hub.",
+          "href": "/projects/adda247/sankalp-bharat/",
+          "more": "Read the case study"
+        },
+        {
+          "kicker": "Adda247",
+          "title": "Studio app for smart boards",
+          "body": "An in-house teaching app for recording, annotation and content sharing.",
+          "href": "/projects/adda247/studio-app/",
+          "more": "Read the case study"
+        }
+      ]
+    },
+    {
+      "type": "answer",
+      "id": "how-much-does-mobile-app-design-cost",
+      "heading": "How much does mobile app design cost?",
+      "answer": "Mobile app design is quoted against a written scope. The main drivers are the number of core flows, whether you need both iOS and Android designs, and how much research and testing the product needs.",
+      "body": [
+        "Other factors: tablet layouts, offline behaviour, accessibility requirements, a mobile design system, and the depth of build support. For more context, read <a href=\"/blog/cost-ui-ux-design-mobile-app-india/\">the cost of UI/UX design for a mobile app in India</a>."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should our iOS and Android apps look the same?",
+      "a": "Your brand, content and core flows should be consistent; navigation patterns, controls and system behaviour should feel native to each platform. People notice when an app ignores the conventions of their phone."
+    },
+    {
+      "q": "Do you design for tablets and iPad?",
+      "a": "Yes. Larger screens deserve layouts that use the space, such as split views and side panels, rather than a stretched phone design."
+    },
+    {
+      "q": "Can you redesign an existing app without disrupting current users?",
+      "a": "Yes. We start from analytics and user research on the current app, keep what people rely on, and sequence changes so existing users are not forced to relearn everything at once."
+    },
+    {
+      "q": "Do you design for offline and low-bandwidth use?",
+      "a": "As a default case. We design loading, partial and offline states explicitly and test on throttled connections."
+    },
+    {
+      "q": "Do you build the app?",
+      "a": "We design and specify the app and support your engineers or development partner through build with design QA. Development itself sits with your team or partner."
+    },
+    {
+      "q": "How long does mobile app design take?",
+      "a": "It depends on the number of flows and platforms. A single core flow can be designed in a few weeks; a full app across iOS and Android with a design system takes longer, and you get written dates before we start."
+    }
+  ]
+}

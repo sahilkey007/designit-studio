@@ -1,0 +1,73 @@
+{
+  "url": "/services/conversion-optimization/",
+  "pageType": "service", "action": "CREATE", "priority": "P1",
+  "metaTitle": "Conversion Rate Optimization Through UX | Designit",
+  "metaDescription": "UX-led conversion optimization for SaaS, e-commerce and B2B websites: friction diagnosis, landing pages, onboarding, checkout and experiment-ready design.",
+  "h1": "Conversion optimization through better product experience",
+  "eyebrow": ["Diagnose", "Redesign", "Measure"],
+  "subtitle": "Most conversion problems are experience problems: people who wanted to act couldn't understand, trust or complete the next step. We find where intent is lost and redesign those moments, then measure the result against the metric we agreed at the start.",
+  "ctas": [
+    {"label": "Discuss your funnel", "href": "/start-a-project/", "event": "start_project"},
+    {"label": "Start with a conversion audit", "href": "/services/ux-audit/"}
+  ],
+  "breadcrumb": [["Home", "/"], ["Services", "/services/"], ["Conversion Optimization", "/services/conversion-optimization/"]],
+  "serviceName": "Conversion Optimization",
+  "serviceType": ["Conversion Rate Optimization", "UX Conversion Optimization", "Landing Page Optimization", "Checkout Optimization", "Activation Design"],
+  "serviceDescription": "UX-led conversion rate optimization: funnel diagnosis with analytics and session evidence, redesign of landing pages, sign-up, onboarding and checkout, experiment hypotheses and test-ready designs.",
+  "audienceType": "SaaS, e-commerce and B2B teams with traffic that does not convert",
+  "primaryKeyword": "conversion rate optimization ux",
+  "secondaryKeywords": ["cro agency", "ux conversion optimization", "landing page conversion", "saas conversion", "checkout optimization", "website conversion improvement"],
+  "searchIntent": "commercial", "businessIntent": "Lead: conversion engagement", "funnelStage": "problem-aware / evaluation",
+  "audience": ["Heads of growth", "Marketing leads", "Founders"], "topicCluster": "Website Redesign", "pillarPage": "/services/conversion-optimization/", "parentTopic": "conversion optimization",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "Service",
+  "evidenceIds": ["EV-RCENTRIC-QUALIFICATION", "EV-PROCESS-AUDIT"],
+  "relatedServices": ["/services/ux-audit/", "/services/website-design/", "/services/saas-product-design/"],
+  "relatedIndustries": ["/industries/e-commerce/", "/industries/b2b-saas/", "/industries/real-estate/"],
+  "relatedCaseStudies": ["/projects/rcentric/"],
+  "aiAnswerTargets": ["What causes conversion friction?", "How does UX affect conversion rate?", "How do you improve SaaS trial-to-paid conversion?", "What is UX-led CRO?"],
+  "conversionEvent": "start_project", "refreshInterval": "quarterly",
+  "cta": {"heading": "Where are you losing people who wanted to buy?", "body": "Share your funnel numbers and the page that worries you most. In 30 minutes we'll tell you where we would look first.",
+    "buttons": [{"label": "Discuss your funnel", "href": "/start-a-project/", "event": "start_project"}, {"label": "Read: CRO strategies for B2B SaaS", "href": "/blog/cro-strategies-for-b2b-saas-india/"}]},
+  "sections": [
+    {"type": "answer", "id": "what-causes-conversion-friction", "heading": "What causes conversion friction?",
+     "answer": "Conversion friction comes from moments where a motivated visitor cannot understand the offer, does not trust it enough, or finds the next step too hard: unclear value, missing proof, surprise costs, long forms and errors with no way to recover.",
+     "body": ["The cause is rarely where the page looks worst. It is where the funnel loses the most intent, which is why we diagnose with your analytics and session data before designing anything."]},
+    {"type": "prose", "id": "how-ux-affects-conversion", "heading": "How UX affects conversion",
+     "paras": ["Traffic can be bought; understanding cannot. When paid spend rises to compensate for a conversion rate nobody has interrogated, fixing the experience is almost always cheaper per additional customer than buying more visitors to pour into the same leak.",
+               "UX-led optimisation differs from tactical testing in where it starts: with why people hesitate, observed in sessions and interviews, rather than with button colours. Tests then validate changes that are already grounded in evidence."]},
+    {"type": "cards", "id": "where-we-work", "heading": "Where conversion is won or lost",
+     "items": [
+       {"title": "Landing-page conversion", "body": "Pages that answer the visitor's question in the first screen, with proof and a next step matched to intent.", "href": "/blog/landing-page-conversion-audit-services-india/", "more": "Landing page audits"},
+       {"title": "SaaS conversion", "body": "Sign-up, trial and upgrade flows, where pricing clarity and the first session decide trial-to-paid.", "href": "/services/saas-product-design/", "more": "SaaS product design"},
+       {"title": "Checkout friction", "body": "Guest checkout, early cost transparency, fewer fields and recoverable payment failures.", "href": "/industries/e-commerce/", "more": "E-commerce UX"},
+       {"title": "Activation", "body": "The step after sign-up, where users reach first value or quietly leave.", "href": "/blog/saas-onboarding-ux-best-practices-india/", "more": "Onboarding guide"},
+       {"title": "Onboarding", "body": "Progressive set-up that asks for effort only after showing value.", "href": "/solutions/conversion-improvement/", "more": "Conversion improvement"},
+       {"title": "Lead qualification", "body": "Enquiry journeys that filter for intent, so sales teams get fewer, better conversations.", "href": "/industries/real-estate/", "more": "PropTech example"}
+     ]},
+    {"type": "prose", "id": "experimentation", "heading": "Experimentation",
+     "paras": ["We turn findings into testable hypotheses and design the variants, with the success metric and guardrail metrics defined up front. Experiments run in your analytics and testing tools, with your team, so results live where your decisions are made.",
+               "Where traffic is too low for reliable A/B tests, which is common in B2B, we use moderated testing and before-and-after measurement instead of pretending a small test is significant."]},
+    {"type": "prose", "id": "analytics-informed-design", "heading": "Analytics-informed design",
+     "paras": ["Funnel data, session recordings and form analytics locate the leak; qualitative research explains it. Every recommendation carries the evidence behind it and the metric it should move, agreed before design starts."]},
+    {"type": "answer", "id": "ux-audit-and-cro", "heading": "UX audit + CRO",
+     "answer": "Most conversion engagements start with a two-week, fixed-scope UX audit focused on the funnel. It ranks every leak by business impact against effort, and tells you whether targeted fixes are enough or a redesign is warranted.",
+     "body": ["See the <a href=\"/services/ux-audit/\">UX audit service</a> for what the audit covers and what you receive."]},
+    {"type": "work", "id": "case-studies", "heading": "Case studies",
+     "intro": "Qualification journeys for luxury property launches, designed so sales teams receive fewer, better enquiries.",
+     "items": ["rcentric"]},
+    {"type": "links", "id": "related-cro-insights", "heading": "Related reading",
+     "items": [
+       {"title": "CRO strategies for B2B SaaS", "href": "/blog/cro-strategies-for-b2b-saas-india/", "body": "Conversion tactics grounded in real user behaviour."},
+       {"title": "How to improve website conversion rate", "href": "/blog/how-to-improve-website-conversion-rate-india/", "body": "A research-led method to turn traffic into qualified leads."},
+       {"title": "Why websites don't convert visitors", "href": "/blog/why-website-not-converting-visitors-india/", "body": "The most common causes, and how to find yours."},
+       {"title": "Why e-commerce bounce rates run high", "href": "/blog/why-ecommerce-bounce-rate-so-high-india/", "body": "What a high bounce rate is really telling you."}
+     ]}
+  ],
+  "faq": [
+    {"q": "How is UX-led conversion optimization different from CRO testing?", "a": "Tactical CRO often starts with tests on page elements. UX-led optimisation starts by finding why motivated people hesitate, using analytics, sessions and research, then designs changes grounded in that evidence and validates them."},
+    {"q": "How much can conversion improve?", "a": "We will not quote a number before looking. The size of the opportunity depends on where the funnel leaks and how much traffic you have. The diagnostic tells you which leaks are worth fixing and roughly how much each is costing."},
+    {"q": "Do you run the A/B tests?", "a": "We define hypotheses, metrics and variants, and the tests run in your analytics and testing tools with your team. For low-traffic B2B funnels we recommend moderated testing and before-and-after measurement instead."},
+    {"q": "What data do you need?", "a": "Analytics access (for example GA4), session recordings if you have them (for example Hotjar or Clarity), and form or checkout analytics. Without them we can still run expert review and user testing, with less precise sizing."},
+    {"q": "Should we fix conversion before spending more on ads?", "a": "Usually yes. Improving the experience compounds every channel at once, whereas more spend on a leaky funnel buys proportionally more of the same leak."}
+  ]
+}
