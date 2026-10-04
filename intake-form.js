@@ -440,7 +440,28 @@
         }).catch(function (err) { console.error('Supabase lead save failed:', err); });
     }
 
+    /* Organic lead attribution (blueprint SEO-010). The leads table has no attribution columns, and an
+       unknown column would make the insert fail, so landing page, form page, UTMs and referrer ride along
+       in anything_else (also reaches the Web3Forms email). First touch comes from analytics.js
+       (sessionStorage, written only after consent); without it the current page and URL are used. */
+    function attribution() {
+        var landing = location.pathname, utm = {}, q = new URLSearchParams(location.search);
+        try { landing = sessionStorage.getItem('dsn_landing') || landing; utm = JSON.parse(sessionStorage.getItem('dsn_utm') || '{}'); } catch (e) {}
+        var src = utm.source || q.get('utm_source') || '', med = utm.medium || q.get('utm_medium') || '', camp = utm.campaign || q.get('utm_campaign') || '';
+        var ref = utm.referrer || document.referrer || '';
+        var parts = ['Landing page: ' + landing, 'Form page: ' + location.pathname];
+        if (src || med || camp) parts.push('UTM: ' + [src, med, camp].join(' / '));
+        if (ref) parts.push('Referrer: ' + ref);
+        return parts.join(' | ');
+    }
+
     function submitForm() {
+        try {
+            if ((formData.anythingElse || '').indexOf('Landing page:') === -1) {
+                formData.anythingElse = (formData.anythingElse ? formData.anythingElse + ' | ' : '') + attribution();
+            }
+        } catch (e) {}
+
         /* 1. Save to Supabase leads table */
         saveLeadToSupabase();
 

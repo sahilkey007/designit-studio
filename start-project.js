@@ -99,8 +99,6 @@
   });
   form.addEventListener('submit', function (e) { e.preventDefault(); next.click(); });
 
-  function landingPage() { try { return sessionStorage.getItem('dsn_landing') || location.pathname; } catch (e) { return location.pathname; } }
-
   function submit() {
     var answers = {
       goal: val('goal'), working_on: val('what'), stage: val('stage'), not_working: vals('pain').join(', '),
@@ -112,7 +110,7 @@
     var ok = typeof window.designitSubmitLead === 'function' && window.designitSubmitLead({
       fullName: text('fullName'), company: text('company'), website: text('website'), email: text('email'), phone: text('phone'),
       projectType: rec, description: description, budget: answers.budget, timeline: answers.timeline,
-      source: 'start-a-project', anythingElse: 'Recommended engagement: ' + rec + (text('notes') ? ' | Notes: ' + text('notes') : '') + ' | Landing page: ' + landingPage()
+      source: 'start-a-project', anythingElse: 'Recommended engagement: ' + rec + (text('notes') ? ' | Notes: ' + text('notes') : '')
     });
     if (ok) {
       form.hidden = true;
