@@ -168,13 +168,28 @@ def r_links(s):
 
 def r_html(s): return sec(s, s["html"])
 
+def _img_dims(src):
+    try:
+        from PIL import Image
+        with Image.open(os.path.join(ROOT, src.lstrip("/"))) as im: return im.size
+    except Exception:
+        return (1200, 750)
+
+def r_modules(s):
+    out = []
+    for m in s["items"]:
+        w, h = _img_dims(m["img"])
+        out.append(f'<a class="work-card" href="{a(m["href"])}"><img src="{a(m["img"])}" width="{w}" height="{h}" alt="{a(m.get("alt", plain(m["title"])))}" loading="lazy">'
+                   f'<div class="wc-body"><h3>{m["title"]}</h3><p class="wc-product">{m["desc"]}</p><span class="wc-more">Read the case study &rarr;</span></div></a>')
+    return sec(s, '<div class="work-grid">' + "".join(out) + "</div>")
+
 def r_logos(s):
     imgs = "".join(f'<li><img src="{a(l["src"])}" alt="{a(l["alt"])}" width="{l["w"]}" height="{l["h"]}" loading="lazy"></li>' for l in s["items"])
     return sec(s, f'<ul class="logo-strip">{imgs}</ul>')
 
 RENDER = {"answer": r_answer, "prose": r_prose, "cards": r_cards, "problems": r_problems, "steps": r_steps,
           "stages": r_stages, "checklist": r_checklist, "table": r_table, "compare": r_compare, "work": r_work,
-          "quotes": r_quotes, "clusters": r_clusters, "facts": r_facts, "links": r_links, "html": r_html, "logos": r_logos}
+          "quotes": r_quotes, "clusters": r_clusters, "facts": r_facts, "links": r_links, "html": r_html, "logos": r_logos, "modules": r_modules}
 
 def faq_block(p):
     if not p.get("faq"): return ""
@@ -270,6 +285,13 @@ def jsonld(p, url):
         graph.append({"@type": "ItemList", "@id": url + "#list", "itemListElement": [
             {"@type": "ListItem", "position": i + 1, "url": SITE + h, "name": plain(n)} for i, (n, h) in enumerate(p["itemList"])]})
         webpage["mainEntity"] = {"@id": url + "#list"}
+    if p["pageType"] == "case-study":
+        art = {"@type": "Article", "@id": url + "#article", "headline": plain(p["h1"]), "description": plain(p["metaDescription"]),
+               "url": url, "mainEntityOfPage": {"@id": url + "#webpage"}, "author": {"@id": SITE + "/#organization"},
+               "publisher": {"@id": SITE + "/#organization"}, "dateModified": p["updatedAt"], "inLanguage": "en",
+               "about": [{"@type": "Organization", "name": p["client"]}] + [{"@type": "Thing", "name": x} for x in p.get("about", [])]}
+        if p.get("ogImage"): art["image"] = SITE + p["ogImage"]
+        graph.append(art)
     graph.append(webpage)
     if p.get("faq"):
         graph.append({"@type": "FAQPage", "@id": url + "#faq", "mainEntity": [

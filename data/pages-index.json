@@ -896,6 +896,372 @@
     ],
     "file": "projects.html"
   },
+  "/projects/adda247/": {
+    "url": "/projects/adda247/",
+    "pageType": "case-study",
+    "metaTitle": "Adda247 Case Study: EdTech Platform Redesign | Designit",
+    "metaDescription": "How Designit redesigned Adda247's exam-prep platform around how learners study: test series, live classes, dashboards, content, community and iOS apps.",
+    "h1": "Adda247: one coherent learning experience across a growing exam-prep platform",
+    "primaryKeyword": "adda247 ux case study",
+    "secondaryKeywords": [
+      "edtech ux case study",
+      "learning platform redesign",
+      "test series ui design"
+    ],
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Article",
+    "evidenceIds": [
+      "EV-ADDA-SCOPE",
+      "EV-QUOTE-AKANKSHA",
+      "EV-QUOTE-MURLIDHAR"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-research/",
+      "/services/mobile-app-design/"
+    ],
+    "relatedIndustries": [
+      "/industries/edtech/"
+    ],
+    "cta": {
+      "heading": "Have a learning product that needs this?",
+      "body": "Tell us where your learners stall. We'll tell you where we'd start.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Executive summary",
+      "Project facts",
+      "The business problem",
+      "The user problem",
+      "What we did",
+      "Key lessons",
+      "Every Adda247 module",
+      "What the Adda247 team says",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What did Designit design for Adda247?",
+      "Which platforms did the work cover?",
+      "Are outcome metrics published for this project?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/edtech-ux-design-india/",
+      "/industries/edtech/",
+      "/projects/",
+      "/projects/adda247/community/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/adda247/ios-app/",
+      "/projects/adda247/live-class/",
+      "/projects/adda247/my-content/",
+      "/projects/adda247/performance-dashboard/",
+      "/projects/adda247/sankalp-bharat/",
+      "/projects/adda247/studio-app/",
+      "/projects/adda247/test-series/",
+      "/services/mobile-app-design/",
+      "/services/ux-research/",
+      "/start-a-project/"
+    ],
+    "file": "projects/adda247.html"
+  },
+  "/projects/betacrew/": {
+    "url": "/projects/betacrew/",
+    "pageType": "case-study",
+    "metaTitle": "Betacrew Portle Case Study: Developer Platform UX | Designit",
+    "metaDescription": "How Designit designed Portle for Betacrew: one developer-first API platform replacing three tools, with adaptive density and a white-label theming system.",
+    "h1": "Betacrew Portle: one developer platform replacing three API tools",
+    "primaryKeyword": "developer platform ux case study",
+    "secondaryKeywords": [
+      "api management ui design",
+      "developer ux design",
+      "white-label design system"
+    ],
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Article",
+    "evidenceIds": [
+      "EV-BETACREW-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/design-systems/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/"
+    ],
+    "cta": {
+      "heading": "Consolidating tools into one product?",
+      "body": "Tell us which tools and which users. We'll tell you how we'd map the workflow first.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Executive summary",
+      "Project facts",
+      "The business and user problem",
+      "What we did",
+      "Key lessons",
+      "Read the full case study",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What is Portle?",
+      "How does the white-label system work?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/betacrew/portle/",
+      "/solutions/design-system-scaling/",
+      "/solutions/legacy-product-modernization/",
+      "/start-a-project/"
+    ],
+    "file": "projects/betacrew.html"
+  },
+  "/projects/kelp-global/": {
+    "url": "/projects/kelp-global/",
+    "pageType": "case-study",
+    "metaTitle": "Kelp Global Case Study: B2B SaaS Product Suite | Designit",
+    "metaDescription": "How Designit designed Kelp Global's sales product suite: a Chrome extension, the Truenorth analytics dashboard and a deals module, on one design system.",
+    "h1": "Kelp Global: three connected sales products on one design system",
+    "primaryKeyword": "b2b saas design case study",
+    "secondaryKeywords": [
+      "crm dashboard design",
+      "browser extension ux",
+      "saas design system case study"
+    ],
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Article",
+    "evidenceIds": [
+      "EV-KELP-SCOPE",
+      "EV-QUOTE-GIRISH"
+    ],
+    "relatedServices": [
+      "/services/saas-product-design/",
+      "/services/design-systems/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/"
+    ],
+    "cta": {
+      "heading": "Building a multi-product SaaS suite?",
+      "body": "Show us the products and where they disagree. We'll tell you what a shared system would fix first.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Executive summary",
+      "Project facts",
+      "The business problem",
+      "The user problem",
+      "What we did",
+      "Key lessons",
+      "Every Kelp Global module",
+      "What the Kelp Global team says",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What did Designit design for Kelp Global?",
+      "Are outcome metrics published for this project?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/saas-dashboard-design-best-practices/",
+      "/projects/",
+      "/projects/kelp-global/deals-module/",
+      "/projects/kelp-global/kelp-plugin/",
+      "/projects/kelp-global/truenorth/",
+      "/services/design-systems/",
+      "/services/saas-product-design/",
+      "/start-a-project/"
+    ],
+    "file": "projects/kelp-global.html"
+  },
+  "/projects/rcentric/": {
+    "url": "/projects/rcentric/",
+    "pageType": "case-study",
+    "metaTitle": "R-Centric Case Study: Luxury Dubai Property Sites | Designit",
+    "metaDescription": "How Designit designed seven luxury Dubai property experiences for R-Centric, including Omniyat developments, on a shared system that kept each launch distinct.",
+    "h1": "R-Centric: seven luxury Dubai property experiences on one shared system",
+    "primaryKeyword": "luxury property website case study",
+    "secondaryKeywords": [
+      "dubai real estate website design",
+      "proptech case study",
+      "omniyat website"
+    ],
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Article",
+    "evidenceIds": [
+      "EV-RCENTRIC-SCOPE",
+      "EV-RCENTRIC-QUALIFICATION"
+    ],
+    "relatedServices": [
+      "/services/website-design/",
+      "/services/design-systems/"
+    ],
+    "relatedIndustries": [
+      "/industries/real-estate/"
+    ],
+    "cta": {
+      "heading": "Launching a property or a portfolio?",
+      "body": "Tell us about the development and the buyer. We'll show you how we'd structure the journey to a qualified enquiry.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Executive summary",
+      "Project facts",
+      "The business and buyer problem",
+      "What we did",
+      "Key lessons",
+      "Every property",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "Which properties did Designit design for R-Centric?",
+      "Why a shared system across properties?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/arabic-rtl-ux-design-proptech-uae/",
+      "/industries/real-estate/",
+      "/projects/",
+      "/projects/rcentric/anwa-aria/",
+      "/projects/rcentric/ela/",
+      "/projects/rcentric/liv-reside/",
+      "/projects/rcentric/liv/",
+      "/projects/rcentric/opus/",
+      "/projects/rcentric/orla-infinity/",
+      "/projects/rcentric/vela-viento/",
+      "/start-a-project/",
+      "/ux-design-agency-dubai/"
+    ],
+    "file": "projects/rcentric.html"
+  },
+  "/projects/tata-elxsi/": {
+    "url": "/projects/tata-elxsi/",
+    "pageType": "case-study",
+    "metaTitle": "Tata Elxsi Case Study: Automotive HMI Design | Designit",
+    "metaDescription": "How Designit designed an infotainment system and digital instrument cluster for Tata Elxsi around glance duration, adaptive modes and simulator testing.",
+    "h1": "Tata Elxsi: an infotainment system and instrument cluster designed for the glance",
+    "primaryKeyword": "automotive hmi case study",
+    "secondaryKeywords": [
+      "infotainment ux case study",
+      "digital instrument cluster design",
+      "tata elxsi hmi"
+    ],
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Article",
+    "evidenceIds": [
+      "EV-TATA-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-research/"
+    ],
+    "relatedIndustries": [
+      "/industries/automotive/"
+    ],
+    "cta": {
+      "heading": "Designing for the road?",
+      "body": "Tell us about the hardware and the programme. We'll tell you how we'd model the glance budget.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Executive summary",
+      "Project facts",
+      "The business and driver problem",
+      "What we did",
+      "Key lessons",
+      "Both systems",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What did Designit design for Tata Elxsi?",
+      "How was the design validated?"
+    ],
+    "internalLinks": [
+      "/",
+      "/industries/automotive/",
+      "/projects/",
+      "/projects/tata-elxsi/infotainment/",
+      "/projects/tata-elxsi/instrument-cluster/",
+      "/services/product-design/",
+      "/start-a-project/"
+    ],
+    "file": "projects/tata-elxsi.html"
+  },
   "/resources/": {
     "url": "/resources/",
     "pageType": "hub",

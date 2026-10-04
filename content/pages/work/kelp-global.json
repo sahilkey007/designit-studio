@@ -1,0 +1,247 @@
+{
+  "pageType": "case-study",
+  "action": "KEEP + EXPAND",
+  "priority": "P1",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "Article",
+  "searchIntent": "evaluation",
+  "funnelStage": "evaluation / vendor",
+  "topicCluster": "Work",
+  "refreshInterval": "when new evidence is available",
+  "conversionEvent": "start_project",
+  "url": "/projects/kelp-global/",
+  "file": "projects/kelp-global.html",
+  "client": "Kelp Global",
+  "metaTitle": "Kelp Global Case Study: B2B SaaS Product Suite | Designit",
+  "metaDescription": "How Designit designed Kelp Global's sales product suite: a Chrome extension, the Truenorth analytics dashboard and a deals module, on one design system.",
+  "h1": "Kelp Global: three connected sales products on one design system",
+  "eyebrow": [
+    "B2B SaaS",
+    "CRM intelligence",
+    "Design system"
+  ],
+  "subtitle": "Kelp Global helps sales teams manage leads, track deals and act on insight without switching tools. We designed its product suite: a browser extension, an analytics dashboard and a deals module, built on one shared system.",
+  "ctas": [
+    {
+      "label": "Discuss a similar problem",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "SaaS product design",
+      "href": "/services/saas-product-design/"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Work",
+      "/projects/"
+    ],
+    [
+      "Kelp Global",
+      "/projects/kelp-global/"
+    ]
+  ],
+  "ogImage": "/assets/projects/kelp/deals-hero.webp",
+  "about": [
+    "B2B SaaS",
+    "CRM",
+    "Dashboard design",
+    "Design systems"
+  ],
+  "primaryKeyword": "b2b saas design case study",
+  "secondaryKeywords": [
+    "crm dashboard design",
+    "browser extension ux",
+    "saas design system case study"
+  ],
+  "evidenceIds": [
+    "EV-KELP-SCOPE",
+    "EV-QUOTE-GIRISH"
+  ],
+  "relatedServices": [
+    "/services/saas-product-design/",
+    "/services/design-systems/"
+  ],
+  "relatedIndustries": [
+    "/industries/b2b-saas/"
+  ],
+  "cta": {
+    "heading": "Building a multi-product SaaS suite?",
+    "body": "Show us the products and where they disagree. We'll tell you what a shared system would fix first.",
+    "buttons": [
+      {
+        "label": "Start a project",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "answer",
+      "id": "executive-summary",
+      "heading": "Executive summary",
+      "answer": "Kelp Global's sales reps and managers were piecing together customer intelligence, pipeline health and deal status from a CRM, email, LinkedIn and spreadsheets. Designit designed three connected products, a Chrome extension that brings contact intelligence into the workflow, the Truenorth analytics dashboard and an end-to-end deals module, on one shared design system.",
+      "body": [
+        "What changed is where information lives: inside the rep's workflow instead of in another tab, in one hierarchy from team to deal for managers, and in a pipeline whose health is visible at a glance."
+      ]
+    },
+    {
+      "type": "facts",
+      "id": "project-facts",
+      "heading": "Project facts",
+      "items": [
+        [
+          "Industry",
+          "B2B SaaS, sales and CRM intelligence"
+        ],
+        [
+          "Product",
+          "Kelp browser plugin, Truenorth analytics dashboard, deals module"
+        ],
+        [
+          "Users",
+          "Sales reps and sales managers"
+        ],
+        [
+          "Our role",
+          "SaaS design, dashboard design, browser extension UX, design system"
+        ],
+        [
+          "Scope",
+          "Three products on one shared system"
+        ],
+        [
+          "Tools",
+          "Figma, prototyping, data visualisation"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "the-business-problem",
+      "heading": "The business problem",
+      "paras": [
+        "Weekly sales reviews took hours of manual compilation from spreadsheets, CRM exports and email threads. Deal tracking lived in spreadsheets with unclear stages and dropped handoffs, so managers could not see which deals were at risk until too late."
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "the-user-problem",
+      "heading": "The user problem",
+      "paras": [
+        "Reps constantly switched between their CRM, email and LinkedIn to gather information about a customer, which cost selling time and led to missed signals. Managers had data but no single view of team performance."
+      ]
+    },
+    {
+      "type": "stages",
+      "id": "what-we-did",
+      "heading": "What we did",
+      "items": [
+        {
+          "key": "Kelp plugin",
+          "title": "Workflow shadowing, overlay architecture",
+          "body": "We observed reps at work, then designed an overlay that surfaces intelligence in place, using progressive disclosure for quick lookups and deeper research, tested across browsers."
+        },
+        {
+          "key": "Truenorth",
+          "title": "Manager interviews, dashboard hierarchy",
+          "body": "A drill-down from team to individual deal, with templates that support different sales methodologies."
+        },
+        {
+          "key": "Deals module",
+          "title": "Lifecycle mapping, pipeline design",
+          "body": "Customisable pipeline stages, health scoring and collaboration features that make deal status visible at a glance."
+        },
+        {
+          "key": "System",
+          "title": "One design system",
+          "body": "Shared foundations so a user moving between the three products doesn't relearn conventions."
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "key-lessons",
+      "heading": "Key lessons",
+      "items": [
+        "<strong>Bring information to the workflow.</strong> Don't make people go and find it.",
+        "<strong>Dashboards need a hierarchy.</strong> Team level first, then the deal behind the number.",
+        "<strong>Make pipeline health visible at a glance.</strong> Risk found late is risk you can't act on.",
+        "<strong>Design the suite, not three products.</strong> Shared conventions reduce relearning."
+      ]
+    },
+    {
+      "type": "modules",
+      "id": "every-module",
+      "heading": "Every Kelp Global module",
+      "items": [
+        {
+          "href": "/projects/kelp-global/kelp-plugin/",
+          "title": "Kelp Plugin",
+          "desc": "Browser plugin for real-time customer intelligence within workflow.",
+          "img": "/assets/projects/kelp/plugin-hero.webp"
+        },
+        {
+          "href": "/projects/kelp-global/truenorth/",
+          "title": "Truenorth Analytics",
+          "desc": "Analytics and reporting interface for sales performance insights.",
+          "img": "/assets/projects/kelp/truenorth-hero.webp"
+        },
+        {
+          "href": "/projects/kelp-global/deals-module/",
+          "title": "Deals Module",
+          "desc": "Deal pipeline management interface for tracking and closing deals.",
+          "img": "/assets/projects/kelp/deals-hero.webp"
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "what-the-team-says",
+      "heading": "What the Kelp Global team says",
+      "items": [
+        "girish"
+      ],
+      "note": "Public LinkedIn recommendation, reproduced verbatim."
+    },
+    {
+      "type": "links",
+      "id": "related",
+      "heading": "Related",
+      "items": [
+        {
+          "title": "SaaS product design",
+          "href": "/services/saas-product-design/",
+          "body": "Onboarding, dashboards and dense workflows."
+        },
+        {
+          "title": "Design systems",
+          "href": "/services/design-systems/",
+          "body": "One language across products."
+        },
+        {
+          "title": "SaaS dashboard design best practices",
+          "href": "/blog/saas-dashboard-design-best-practices/",
+          "body": "Hierarchy for operational screens."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What did Designit design for Kelp Global?",
+      "a": "Three connected products: a Chrome extension surfacing contact intelligence inside a rep's workflow, the Truenorth analytics dashboard for sales managers, and an end-to-end deals module, all on one shared design system."
+    },
+    {
+      "q": "Are outcome metrics published for this project?",
+      "a": "Not on this page. Ask us on a call and we can talk through results we're able to share."
+    }
+  ]
+}
