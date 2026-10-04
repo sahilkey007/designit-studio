@@ -1,0 +1,27 @@
+{
+  "url": "/locations/", "pageType": "hub", "action": "CREATE", "priority": "P1",
+  "metaTitle": "Where We Work: India, USA, UK and UAE | Designit",
+  "metaDescription": "Designit is based in Noida, India and designs products for clients in India, the United States, the United Kingdom and the UAE. How each engagement works.",
+  "h1": "Where we work",
+  "eyebrow": ["India", "USA", "UK", "UAE"],
+  "subtitle": "We are a studio in Noida, India, working with clients in four markets. Each page below explains how engagements actually run there: time zones, contracting, standards and relevant work.",
+  "ctas": [{"label": "Start a project", "href": "/start-a-project/", "event": "start_project"}, {"label": "About Designit", "href": "/about/"}],
+  "breadcrumb": [["Home", "/"], ["Locations", "/locations/"]],
+  "primaryKeyword": "ui ux design agency locations", "searchIntent": "navigational", "funnelStage": "vendor",
+  "topicCluster": "Locations", "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "CollectionPage",
+  "itemList": [["India (Noida headquarters)", "/about/"], ["United States", "/ui-ux-design-agency-usa/"], ["United Kingdom", "/ui-ux-design-agency-uk/"], ["United Arab Emirates", "/ux-design-agency-dubai/"]],
+  "conversionEvent": "start_project", "refreshInterval": "6 months",
+  "cta": {"heading": "Wherever you are, the first step is the same", "body": "Tell us what you're building. We'll suggest the right starting point and how we'd work across your time zone.", "buttons": [{"label": "Start a project", "href": "/start-a-project/", "event": "start_project"}]},
+  "sections": [
+    {"type": "links", "id": "markets", "heading": "Markets we serve",
+     "items": [
+       {"kicker": "India", "title": "Noida headquarters", "body": "Our studio is in Sector 45, Noida. Indian clients get same-time-zone collaboration and INR invoicing.", "href": "/about/", "more": "About the studio"},
+       {"kicker": "United States", "title": "Senior design for US software teams", "body": "EST/PST overlap, USD contracts and ADA / WCAG 2.1 AA as standard.", "href": "/ui-ux-design-agency-usa/"},
+       {"kicker": "United Kingdom", "title": "A shared working day", "body": "4.5-hour offset, GBP invoicing, WCAG 2.2 AA and GDPR-aware flows.", "href": "/ui-ux-design-agency-uk/"},
+       {"kicker": "UAE", "title": "Arabic RTL and Dubai PropTech", "body": "Seven Dubai property experiences delivered, bilingual design systems, near-identical working hours.", "href": "/ux-design-agency-dubai/"}
+     ]},
+    {"type": "prose", "id": "how-we-work-remotely", "heading": "How international engagements run",
+     "paras": ["All our international work is remote, and we say so on every location page rather than implying offices we don't have. Live collaboration happens in a defined overlap window; everything else runs async through written updates, Loom walkthroughs and Figma comments.",
+               "Communication is in English. Contracts, NDAs and IP assignment follow the norms of your market."]}
+  ]
+}
