@@ -80,6 +80,7 @@ for slug, cluster in POST.items():
     # next-steps block: after the article; guide template: before its closing CTA section
     if "</article>" in s: s = s.replace("</article>", "</article>\n" + box(cluster, slug), 1); report["box"] += 1
     elif '<section class="geo-cta-section">' in s: s = s.replace('<section class="geo-cta-section">', box(cluster, slug) + '\n    <section class="geo-cta-section">', 1); report["box"] += 1
+    s = re.sub(r'<main id="main" tabindex="-1"(?: data-cluster="[^"]*")?>', f'<main id="main" tabindex="-1" data-cluster="{cluster}">', s, count=1)
     s, n = jsonld_reviewer(s); report["schema"] += min(n, 1)
     if s != o: open(p, "w", encoding="utf-8").write(s)
 print(report)

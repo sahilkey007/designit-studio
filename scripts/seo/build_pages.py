@@ -319,6 +319,8 @@ def build(spec_path):
                      .replace("{{NAV}}", nav_for(rel))
                      .replace("{{FOOTER}}", FOOTER)
                      .replace("{{MAIN}}", main.rstrip("\n")))
+    if p.get("topicCluster"):
+        html_out = html_out.replace('<main id="main" tabindex="-1">', f'<main id="main" tabindex="-1" data-cluster="{a(p["topicCluster"])}">', 1)
     if p.get("scripts"):
         tags = "".join(f'    <script defer src="{a(src)}"></script>\n' for src in p["scripts"])
         html_out = html_out.replace("</body>", tags + "</body>", 1)
