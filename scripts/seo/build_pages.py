@@ -231,7 +231,7 @@ def fmt_date(d):
 def seo_head(p, url):
     title = p["metaTitle"]; desc = p["metaDescription"]
     og_t = p.get("ogTitle", title); img = SITE + p.get("ogImage", "/og-preview.jpg")
-    robots = "index,follow" if p.get("indexable", True) else "noindex,follow"
+    robots = "index,follow,max-image-preview:large" if p.get("indexable", True) else "noindex,follow"
     kw = f'\n    <meta name="keywords" content="{a(", ".join([p["primaryKeyword"]] + p.get("secondaryKeywords", [])))}">' if p.get("primaryKeyword") else ""
     return f'''    <title>{a(title)}</title>
     <meta name="description" content="{a(desc)}">{kw}
