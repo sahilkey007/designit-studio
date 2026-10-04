@@ -85,6 +85,23 @@ ACTION = {
     "/project-detail/": ("REVIEW*", "Orphan template not in sitemap; see notes"),
     "/about-designit/": ("REDIRECT (exists)*", "301 to /about/ in vercel.json"),
 }
+# New URLs created on staging from the blueprint IA (sections 15, 23-28, 78, 90, 8B).
+for _u, _why in [
+    ("/services/ai-product-design/", "Section 23: long-term AI authority category"),
+    ("/services/website-design/", "Section 24: website redesign pool (SE Ranking)"),
+    ("/services/mobile-app-design/", "Section 98: tenth core commercial page"),
+    ("/services/conversion-optimization/", "Section 25: commercial destination for CRO content"),
+    ("/services/branding/", "Section 26: GSC branding queries need a commercial destination"),
+    ("/solutions/", "Section 28: solutions hub"),
+    ("/solutions/mvp-design/", "Section 28"), ("/solutions/product-redesign/", "Section 28"),
+    ("/solutions/legacy-product-modernization/", "Section 28"), ("/solutions/design-system-scaling/", "Section 28"),
+    ("/solutions/conversion-improvement/", "Section 28"),
+    ("/industries/ai/", "Sections 27 and 32: strategic emerging category"),
+    ("/locations/", "Section 78: hub linking the existing USA/UK/Dubai pages"),
+    ("/resources/", "Section 8B: resources layer (checklists now, reports later)"),
+    ("/start-a-project/", "Section 90: qualification flow"),
+]:
+    ACTION[_u] = ("CREATE", _why)
 
 def text(s):
     s = re.sub(r"<script.*?</script>|<style.*?</style>", " ", s, flags=re.S)
