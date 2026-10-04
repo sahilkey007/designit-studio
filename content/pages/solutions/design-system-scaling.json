@@ -1,0 +1,171 @@
+{
+  "url": "/solutions/design-system-scaling/",
+  "pageType": "solution",
+  "action": "CREATE",
+  "priority": "P1",
+  "metaTitle": "Scaling a Design System Across Products & Teams | Designit",
+  "metaDescription": "Scale a design system across products, platforms and teams: shared tokens, multi-brand theming, governance and an adoption plan your engineers will follow.",
+  "h1": "Scale a design system across products and teams",
+  "eyebrow": [
+    "Enterprise design systems",
+    "Governance",
+    "Multi-product"
+  ],
+  "subtitle": "A design system that works for one product and one team often breaks when the second product, the mobile app or the next ten designers arrive. We restructure systems so they scale, and set up governance so they stay that way.",
+  "ctas": [
+    {
+      "label": "Discuss your system",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "Design systems service",
+      "href": "/services/design-systems/"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Solutions",
+      "/solutions/"
+    ],
+    [
+      "Design System Scaling",
+      "/solutions/design-system-scaling/"
+    ]
+  ],
+  "about": [
+    "Scaling design systems",
+    "Enterprise design systems",
+    "Design system governance"
+  ],
+  "primaryKeyword": "scaling design systems",
+  "secondaryKeywords": [
+    "enterprise design system",
+    "design system governance",
+    "multi-brand design system",
+    "design system for multiple products"
+  ],
+  "searchIntent": "problem-aware / commercial",
+  "businessIntent": "Lead: design system engagement",
+  "funnelStage": "solution-aware",
+  "audience": [
+    "Heads of design",
+    "Engineering leads"
+  ],
+  "topicCluster": "Design Systems",
+  "pillarPage": "/services/design-systems/",
+  "parentTopic": "design system scaling",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "WebPage",
+  "evidenceIds": [
+    "EV-KELP-SCOPE",
+    "EV-RCENTRIC-SCOPE",
+    "EV-BETACREW-SCOPE"
+  ],
+  "relatedServices": [
+    "/services/design-systems/",
+    "/services/saas-product-design/"
+  ],
+  "relatedCaseStudies": [
+    "/projects/kelp-global/",
+    "/projects/rcentric/",
+    "/projects/betacrew/"
+  ],
+  "aiAnswerTargets": [
+    "How do you scale a design system?",
+    "What is design system governance?",
+    "How do you theme a design system for multiple brands?"
+  ],
+  "conversionEvent": "start_project",
+  "refreshInterval": "6 months",
+  "cta": {
+    "heading": "Will your system survive the next product?",
+    "body": "Show us your library and your roadmap. We'll tell you what breaks first as you scale, and what to fix now.",
+    "buttons": [
+      {
+        "label": "Discuss your system",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "answer",
+      "id": "what-to-do",
+      "heading": "What should you do first?",
+      "answer": "Separate what is shared from what is product-specific. A system scales when its foundations (tokens, type, spacing, accessibility rules) are shared, its components are configurable, and product-specific patterns live in their own layer.",
+      "body": [
+        "Then decide how changes are governed: who can add to the shared layer, how additions are reviewed, and how releases reach every product. Most scaling failures are governance failures that look like design problems."
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "signs",
+      "heading": "You're in this situation if",
+      "items": [
+        "A second product, mobile app or admin tool is coming",
+        "Teams fork components instead of contributing back",
+        "Theming or white-labelling means duplicating work",
+        "Nobody owns decisions about what joins the system",
+        "Design and code versions of the system have drifted"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how-we-help",
+      "heading": "How we help",
+      "items": [
+        {
+          "title": "Audit across products",
+          "body": "Inventory components, tokens and drift across every product and platform."
+        },
+        {
+          "title": "Layer the architecture",
+          "body": "Primitive, semantic and component tokens, so theming and multi-brand become configuration."
+        },
+        {
+          "title": "Shared vs local",
+          "body": "Decide what belongs in the core and what stays product-specific."
+        },
+        {
+          "title": "Governance",
+          "body": "Contribution, review and release processes your teams will actually follow."
+        },
+        {
+          "title": "Adoption",
+          "body": "A migration sequence by real usage, with working sessions for each team."
+        }
+      ]
+    },
+    {
+      "type": "work",
+      "id": "work",
+      "heading": "Systems shared across products",
+      "items": [
+        "kelp-global",
+        "rcentric",
+        "betacrew"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is design system governance?",
+      "a": "The agreed process for how the system changes: who can propose additions, how they are reviewed, how versions are released and communicated, and what teams do when nothing in the system fits."
+    },
+    {
+      "q": "How do you support multiple brands or white-label products?",
+      "a": "With a layered token architecture: primitives, then semantic tokens, then component tokens. Brands change the semantic layer, so components stay shared. Betacrew's Portle uses this approach for white-label enterprise deployments."
+    },
+    {
+      "q": "Should every team use the same components?",
+      "a": "They should share foundations and core components. Product-specific patterns can live in a local layer, as long as they are built from the shared foundations."
+    }
+  ]
+}

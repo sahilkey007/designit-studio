@@ -1,0 +1,204 @@
+{
+  "url": "/solutions/conversion-improvement/",
+  "pageType": "solution",
+  "action": "CREATE",
+  "priority": "P1",
+  "metaTitle": "How to Improve Website & SaaS Conversion with UX | Designit",
+  "metaDescription": "Improve website and SaaS conversion by finding where motivated visitors lose intent: separate traffic, offer and experience problems, then fix by impact.",
+  "h1": "Improve conversion by fixing the experience, not the button colour",
+  "eyebrow": [
+    "Diagnose first",
+    "Fix in order",
+    "Measure"
+  ],
+  "subtitle": "When conversion is low, teams usually change what is easiest to change. We help you work out whether the problem is traffic, offer or experience, then fix the experience in order of impact.",
+  "ctas": [
+    {
+      "label": "Discuss your funnel",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "Conversion optimization service",
+      "href": "/services/conversion-optimization/"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Solutions",
+      "/solutions/"
+    ],
+    [
+      "Conversion Improvement",
+      "/solutions/conversion-improvement/"
+    ]
+  ],
+  "about": [
+    "Website conversion improvement",
+    "SaaS conversion",
+    "UX conversion optimization"
+  ],
+  "primaryKeyword": "website conversion improvement",
+  "secondaryKeywords": [
+    "improve saas conversion",
+    "ux conversion optimization",
+    "increase website conversion rate",
+    "trial to paid conversion"
+  ],
+  "searchIntent": "problem-aware",
+  "businessIntent": "Lead: conversion audit",
+  "funnelStage": "problem-aware",
+  "audience": [
+    "Founders",
+    "Heads of growth"
+  ],
+  "topicCluster": "Website Redesign",
+  "pillarPage": "/services/conversion-optimization/",
+  "parentTopic": "conversion improvement",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "WebPage",
+  "evidenceIds": [
+    "EV-RCENTRIC-QUALIFICATION"
+  ],
+  "relatedServices": [
+    "/services/conversion-optimization/",
+    "/services/ux-audit/",
+    "/services/website-design/"
+  ],
+  "relatedCaseStudies": [
+    "/projects/rcentric/"
+  ],
+  "aiAnswerTargets": [
+    "How do I improve my website conversion rate?",
+    "Why is my SaaS trial-to-paid conversion low?",
+    "Is low conversion a traffic or UX problem?"
+  ],
+  "conversionEvent": "start_project",
+  "refreshInterval": "6 months",
+  "cta": {
+    "heading": "Find the leak before you fix it",
+    "body": "Share your funnel and we'll tell you where we'd look first, and whether it's an experience problem at all.",
+    "buttons": [
+      {
+        "label": "Discuss your funnel",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      },
+      {
+        "label": "Start with a UX audit",
+        "href": "/services/ux-audit/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "answer",
+      "id": "what-to-do",
+      "heading": "What should you do first?",
+      "answer": "Find out whether low conversion is a traffic problem (the wrong people arrive), an offer problem (the right people don't want it at that price) or an experience problem (the right people want it and can't get through). Only the third is fixed by design.",
+      "body": [
+        "Segment your funnel by source and intent before redesigning anything. If high-intent visitors convert poorly too, the experience is the likely culprit, and the biggest leak is usually at one specific step."
+      ]
+    },
+    {
+      "type": "table",
+      "id": "diagnose",
+      "heading": "Traffic, offer or experience?",
+      "columns": [
+        "",
+        "What it looks like",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "Traffic",
+          "Low engagement from all sources; visitors are not your buyers",
+          "Fix targeting and messaging before the page"
+        ],
+        [
+          "Offer",
+          "Engaged visitors leave at pricing or after reading the details",
+          "Revisit packaging, pricing or proof"
+        ],
+        [
+          "Experience",
+          "Engaged, high-intent visitors drop at a specific step",
+          "Diagnose that step and redesign it"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how-we-help",
+      "heading": "How we help",
+      "items": [
+        {
+          "title": "Diagnose",
+          "body": "Analytics, session recordings and heuristic review to locate and size each leak."
+        },
+        {
+          "title": "Prioritise",
+          "body": "Rank leaks by business impact against effort."
+        },
+        {
+          "title": "Redesign the leaking steps",
+          "body": "Landing pages, sign-up, onboarding or checkout, based on why people hesitate."
+        },
+        {
+          "title": "Validate and measure",
+          "body": "Usability tests, then experiments or before-and-after measurement against the agreed metric."
+        }
+      ]
+    },
+    {
+      "type": "work",
+      "id": "work",
+      "heading": "Related work",
+      "intro": "Enquiry journeys that qualify intent, so sales teams get fewer, better leads.",
+      "items": [
+        "rcentric"
+      ]
+    },
+    {
+      "type": "links",
+      "id": "related",
+      "heading": "Related reading",
+      "items": [
+        {
+          "title": "How to improve website conversion rate",
+          "href": "/blog/how-to-improve-website-conversion-rate-india/",
+          "body": "A research-led, step-by-step method."
+        },
+        {
+          "title": "Why websites don't convert visitors",
+          "href": "/blog/why-website-not-converting-visitors-india/",
+          "body": "Common causes and how to find yours."
+        },
+        {
+          "title": "SaaS onboarding UX best practices",
+          "href": "/blog/saas-onboarding-ux-best-practices-india/",
+          "body": "Where trial-to-paid is really decided."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I know if low conversion is a UX problem?",
+      "a": "If high-intent visitors, such as people arriving from branded search or from a sales referral, also convert poorly, and drop-off concentrates at a specific step, the experience is the likely cause."
+    },
+    {
+      "q": "What is usually the biggest leak?",
+      "a": "It differs by product. In e-commerce it is often checkout; in SaaS it is often the first session after sign-up; on B2B websites it is often an unclear first screen or a demo form that asks too much too early."
+    },
+    {
+      "q": "Do we need a redesign to improve conversion?",
+      "a": "Usually not. Most gains come from fixing specific steps. A redesign is warranted when the structure itself is the problem."
+    }
+  ]
+}

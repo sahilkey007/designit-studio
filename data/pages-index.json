@@ -1,4 +1,85 @@
 {
+  "/services/": {
+    "url": "/services/",
+    "pageType": "hub",
+    "metaTitle": "Product Design Services: Research, UX, Systems | Designit",
+    "metaDescription": "Product design services from discovery and UX research to SaaS design, design systems, AI product design, website design and branding, led by senior designers.",
+    "h1": "Product design services, from research to scale",
+    "primaryKeyword": "product design services",
+    "secondaryKeywords": [
+      "ui ux design services",
+      "ux design services",
+      "design services for saas"
+    ],
+    "searchIntent": "commercial / navigational",
+    "businessIntent": "Route visitors to the right service",
+    "funnelStage": "evaluation",
+    "topicCluster": "Hub",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "CollectionPage",
+    "cta": {
+      "heading": "Start with a conversation, not a proposal",
+      "body": "Thirty minutes. Tell us what you are building and we will tell you what we would tackle first, including when we think we are not the right partner.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "How to choose a design agency",
+          "href": "/blog/how-to-choose-a-product-design-agency/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "What do you need help with?",
+      "How we work: discover, define, design, validate, scale",
+      "All services",
+      "Or start from the situation you're in",
+      "Selected work",
+      "FAQ"
+    ],
+    "faq": [
+      "How long does a Designit engagement take?",
+      "Who actually works on the engagement?",
+      "Which service should we start with?",
+      "Which regions does Designit work with?",
+      "How do I start a project with Designit?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/how-to-choose-a-product-design-agency/",
+      "/locations/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/kelp-global/",
+      "/projects/tata-elxsi/",
+      "/services/ai-product-design/",
+      "/services/branding/",
+      "/services/conversion-optimization/",
+      "/services/design-systems/",
+      "/services/mobile-app-design/",
+      "/services/product-design/",
+      "/services/saas-product-design/",
+      "/services/ui-ux-design/",
+      "/services/ux-audit/",
+      "/services/ux-research/",
+      "/services/website-design/",
+      "/solutions/conversion-improvement/",
+      "/solutions/design-system-scaling/",
+      "/solutions/legacy-product-modernization/",
+      "/solutions/mvp-design/",
+      "/solutions/product-redesign/",
+      "/start-a-project/"
+    ],
+    "file": "services/index.html"
+  },
   "/services/ai-product-design/": {
     "url": "/services/ai-product-design/",
     "pageType": "service",
@@ -1179,5 +1260,476 @@
       "/start-a-project/"
     ],
     "file": "services/website-design/index.html"
+  },
+  "/solutions/": {
+    "url": "/solutions/",
+    "pageType": "hub",
+    "metaTitle": "Product Design Solutions by Problem | Designit",
+    "metaDescription": "Start from the problem you have: launching an MVP, redesigning a product, modernising legacy UX, scaling a design system or improving conversion.",
+    "h1": "Start with the problem you have",
+    "primaryKeyword": "product design solutions",
+    "searchIntent": "problem-aware / navigational",
+    "funnelStage": "problem-aware",
+    "topicCluster": "Hub",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "CollectionPage",
+    "cta": {
+      "heading": "Not sure which one you're in?",
+      "body": "Answer a few questions and we'll recommend where to start: an audit, discovery, a redesign or something smaller.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "Launch",
+      "Improve",
+      "Modernize"
+    ],
+    "faq": [],
+    "internalLinks": [
+      "/",
+      "/services/",
+      "/solutions/conversion-improvement/",
+      "/solutions/design-system-scaling/",
+      "/solutions/legacy-product-modernization/",
+      "/solutions/mvp-design/",
+      "/solutions/product-redesign/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/index.html"
+  },
+  "/solutions/conversion-improvement/": {
+    "url": "/solutions/conversion-improvement/",
+    "pageType": "solution",
+    "metaTitle": "How to Improve Website & SaaS Conversion with UX | Designit",
+    "metaDescription": "Improve website and SaaS conversion by finding where motivated visitors lose intent: separate traffic, offer and experience problems, then fix by impact.",
+    "h1": "Improve conversion by fixing the experience, not the button colour",
+    "primaryKeyword": "website conversion improvement",
+    "secondaryKeywords": [
+      "improve saas conversion",
+      "ux conversion optimization",
+      "increase website conversion rate",
+      "trial to paid conversion"
+    ],
+    "searchIntent": "problem-aware",
+    "businessIntent": "Lead: conversion audit",
+    "funnelStage": "problem-aware",
+    "audience": [
+      "Founders",
+      "Heads of growth"
+    ],
+    "topicCluster": "Website Redesign",
+    "pillarPage": "/services/conversion-optimization/",
+    "parentTopic": "conversion improvement",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-RCENTRIC-QUALIFICATION"
+    ],
+    "relatedServices": [
+      "/services/conversion-optimization/",
+      "/services/ux-audit/",
+      "/services/website-design/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/rcentric/"
+    ],
+    "aiAnswerTargets": [
+      "How do I improve my website conversion rate?",
+      "Why is my SaaS trial-to-paid conversion low?",
+      "Is low conversion a traffic or UX problem?"
+    ],
+    "cta": {
+      "heading": "Find the leak before you fix it",
+      "body": "Share your funnel and we'll tell you where we'd look first, and whether it's an experience problem at all.",
+      "buttons": [
+        {
+          "label": "Discuss your funnel",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Start with a UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What should you do first?",
+      "Traffic, offer or experience?",
+      "How we help",
+      "Related work",
+      "Related reading",
+      "FAQ"
+    ],
+    "faq": [
+      "How do I know if low conversion is a UX problem?",
+      "What is usually the biggest leak?",
+      "Do we need a redesign to improve conversion?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/how-to-improve-website-conversion-rate-india/",
+      "/blog/saas-onboarding-ux-best-practices-india/",
+      "/blog/why-website-not-converting-visitors-india/",
+      "/projects/rcentric/",
+      "/services/conversion-optimization/",
+      "/services/ux-audit/",
+      "/solutions/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/conversion-improvement/index.html"
+  },
+  "/solutions/design-system-scaling/": {
+    "url": "/solutions/design-system-scaling/",
+    "pageType": "solution",
+    "metaTitle": "Scaling a Design System Across Products & Teams | Designit",
+    "metaDescription": "Scale a design system across products, platforms and teams: shared tokens, multi-brand theming, governance and an adoption plan your engineers will follow.",
+    "h1": "Scale a design system across products and teams",
+    "primaryKeyword": "scaling design systems",
+    "secondaryKeywords": [
+      "enterprise design system",
+      "design system governance",
+      "multi-brand design system",
+      "design system for multiple products"
+    ],
+    "searchIntent": "problem-aware / commercial",
+    "businessIntent": "Lead: design system engagement",
+    "funnelStage": "solution-aware",
+    "audience": [
+      "Heads of design",
+      "Engineering leads"
+    ],
+    "topicCluster": "Design Systems",
+    "pillarPage": "/services/design-systems/",
+    "parentTopic": "design system scaling",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-KELP-SCOPE",
+      "EV-RCENTRIC-SCOPE",
+      "EV-BETACREW-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/design-systems/",
+      "/services/saas-product-design/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/kelp-global/",
+      "/projects/rcentric/",
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "How do you scale a design system?",
+      "What is design system governance?",
+      "How do you theme a design system for multiple brands?"
+    ],
+    "cta": {
+      "heading": "Will your system survive the next product?",
+      "body": "Show us your library and your roadmap. We'll tell you what breaks first as you scale, and what to fix now.",
+      "buttons": [
+        {
+          "label": "Discuss your system",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What should you do first?",
+      "You're in this situation if",
+      "How we help",
+      "Systems shared across products",
+      "FAQ"
+    ],
+    "faq": [
+      "What is design system governance?",
+      "How do you support multiple brands or white-label products?",
+      "Should every team use the same components?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/projects/rcentric/",
+      "/services/design-systems/",
+      "/solutions/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/design-system-scaling/index.html"
+  },
+  "/solutions/legacy-product-modernization/": {
+    "url": "/solutions/legacy-product-modernization/",
+    "pageType": "solution",
+    "metaTitle": "Legacy Product UX Modernization for Enterprise | Designit",
+    "metaDescription": "Modernise a legacy or enterprise product's UX without stopping the business: map real workflows, protect power users and sequence migration with engineering.",
+    "h1": "Modernise a legacy product without stopping the business",
+    "primaryKeyword": "legacy ux modernization",
+    "secondaryKeywords": [
+      "enterprise ux modernization",
+      "outdated product redesign",
+      "legacy application redesign",
+      "modernize legacy software ux"
+    ],
+    "searchIntent": "problem-aware / commercial",
+    "businessIntent": "Lead: modernization programme",
+    "funnelStage": "solution-aware",
+    "audience": [
+      "Enterprise product leaders",
+      "CTOs"
+    ],
+    "topicCluster": "Startup Product Design",
+    "pillarPage": "/services/product-design/",
+    "parentTopic": "legacy modernization",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-BETACREW-SCOPE",
+      "EV-ADDA-LIVECLASS"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-research/",
+      "/services/design-systems/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/betacrew/",
+      "/projects/adda247/live-class/"
+    ],
+    "aiAnswerTargets": [
+      "How do you modernize a legacy product's UX?",
+      "How do you redesign enterprise software without disrupting users?"
+    ],
+    "cta": {
+      "heading": "Map it before you change it",
+      "body": "Tell us about the product and the people who rely on it. We'll suggest where modernisation should start and what to leave alone for now.",
+      "buttons": [
+        {
+          "label": "Discuss your modernization",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What should you do first?",
+      "You're in this situation if",
+      "How we help",
+      "Related work",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "Should we rebuild or modernise incrementally?",
+      "How do you avoid slowing down expert users?",
+      "Can you work within enterprise procurement and security requirements?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/adda247/live-class/",
+      "/projects/betacrew/",
+      "/services/product-design/",
+      "/solutions/",
+      "/solutions/design-system-scaling/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/legacy-product-modernization/index.html"
+  },
+  "/solutions/mvp-design/": {
+    "url": "/solutions/mvp-design/",
+    "pageType": "solution",
+    "metaTitle": "MVP Design for Startups: Discovery to Launch | Designit",
+    "metaDescription": "MVP design for startups: product discovery, the core flow designed properly, prototypes tested with real users, and foundations you won't need to replace.",
+    "h1": "MVP design: launch the smallest product that proves the point",
+    "primaryKeyword": "mvp design",
+    "secondaryKeywords": [
+      "startup product design",
+      "product discovery",
+      "mvp ux design",
+      "mvp ui design",
+      "mvp design agency"
+    ],
+    "searchIntent": "problem-aware / commercial",
+    "businessIntent": "Lead: discovery + MVP engagement",
+    "funnelStage": "solution-aware",
+    "audience": [
+      "Founders",
+      "First product managers"
+    ],
+    "topicCluster": "Startup Product Design",
+    "pillarPage": "/services/product-design/",
+    "parentTopic": "mvp design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-PROCESS-PRODUCT",
+      "EV-BETACREW-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-research/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "What should an MVP include?",
+      "How do you design an MVP?",
+      "How long does MVP design take?"
+    ],
+    "cta": {
+      "heading": "What does your first version need to prove?",
+      "body": "Tell us the idea and the users. We'll tell you what we would put in the first release, and what we would deliberately leave out.",
+      "buttons": [
+        {
+          "label": "Discuss your MVP",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What should you do first?",
+      "You're in this situation if",
+      "How we help",
+      "Your options, honestly compared",
+      "Related work",
+      "Related reading",
+      "FAQ"
+    ],
+    "faq": [
+      "What should an MVP include?",
+      "How long does MVP design take?",
+      "Do we need discovery if we already know our users?",
+      "Will the MVP design need to be thrown away later?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/freelancer-vs-design-agency-startups/",
+      "/blog/hire-ui-ux-designer-vs-agency-india/",
+      "/blog/how-to-choose-a-product-design-agency/",
+      "/projects/betacrew/",
+      "/services/product-design/",
+      "/solutions/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/mvp-design/index.html"
+  },
+  "/solutions/product-redesign/": {
+    "url": "/solutions/product-redesign/",
+    "pageType": "solution",
+    "metaTitle": "Product Redesign: Fix Adoption Without a Rebuild | Designit",
+    "metaDescription": "Product and SaaS redesign that starts from evidence: find where users struggle, fix structure before styling, and keep what already works for current customers.",
+    "h1": "Product redesign without breaking what already works",
+    "primaryKeyword": "product redesign",
+    "secondaryKeywords": [
+      "saas redesign",
+      "redesign saas product",
+      "legacy product ux",
+      "product modernization",
+      "app redesign"
+    ],
+    "searchIntent": "problem-aware / commercial",
+    "businessIntent": "Lead: audit then redesign",
+    "funnelStage": "solution-aware",
+    "audience": [
+      "Heads of product",
+      "SaaS founders"
+    ],
+    "topicCluster": "B2B SaaS Product Design",
+    "pillarPage": "/services/saas-product-design/",
+    "parentTopic": "product redesign",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-ADDA-SCOPE",
+      "EV-KELP-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/ux-audit/",
+      "/services/saas-product-design/",
+      "/services/design-systems/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/adda247/",
+      "/projects/kelp-global/"
+    ],
+    "aiAnswerTargets": [
+      "When does a product need a redesign?",
+      "How do you redesign a SaaS product?",
+      "How long does a product redesign take?"
+    ],
+    "cta": {
+      "heading": "Find out what actually needs redesigning",
+      "body": "A two-week audit tells you which problems cost users and money, and whether you need a redesign at all.",
+      "buttons": [
+        {
+          "label": "Discuss your redesign",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What should you do first?",
+      "You're in this situation if",
+      "Redesign, refactor or targeted fixes?",
+      "How we help",
+      "Related work",
+      "FAQ"
+    ],
+    "faq": [
+      "How do we know if we need a redesign?",
+      "How long does a product redesign take?",
+      "How do you avoid upsetting existing users?",
+      "Can our engineers keep shipping during the redesign?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/adda247/",
+      "/projects/kelp-global/",
+      "/services/ux-audit/",
+      "/solutions/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/product-redesign/index.html"
   }
 }
