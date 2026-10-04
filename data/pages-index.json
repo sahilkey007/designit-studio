@@ -697,6 +697,131 @@
     ],
     "file": "locations/index.html"
   },
+  "/projects/": {
+    "url": "/projects/",
+    "pageType": "hub",
+    "metaTitle": "Selected Product Design Work & Case Studies | Designit",
+    "metaDescription": "Product design case studies across EdTech, B2B SaaS, developer tools, PropTech and automotive HMI: the problem, what we designed and what changed.",
+    "h1": "Selected product design work",
+    "primaryKeyword": "product design case studies",
+    "secondaryKeywords": [
+      "ux case studies",
+      "ui ux portfolio",
+      "saas design case study"
+    ],
+    "searchIntent": "evaluation",
+    "businessIntent": "Proof for buyers",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "CollectionPage",
+    "evidenceIds": [
+      "EV-ADDA-SCOPE",
+      "EV-KELP-SCOPE",
+      "EV-BETACREW-SCOPE",
+      "EV-RCENTRIC-SCOPE",
+      "EV-TATA-SCOPE",
+      "EV-TESTIMONIALS"
+    ],
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what isn't working. We'll tell you which of these approaches would apply, and where we'd start.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "Client engagements",
+      "Every case study",
+      "What the people we worked with say",
+      "FAQ"
+    ],
+    "faq": [
+      "What case studies does Designit have?",
+      "What was designed for Adda247?",
+      "What was designed for Kelp Global?",
+      "Can we see work that isn't published here?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/adda247/",
+      "/projects/adda247/community/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/adda247/ios-app/",
+      "/projects/adda247/live-class/",
+      "/projects/adda247/my-content/",
+      "/projects/adda247/performance-dashboard/",
+      "/projects/adda247/sankalp-bharat/",
+      "/projects/adda247/studio-app/",
+      "/projects/adda247/test-series/",
+      "/projects/betacrew/",
+      "/projects/betacrew/portle/",
+      "/projects/kelp-global/",
+      "/projects/kelp-global/deals-module/",
+      "/projects/kelp-global/kelp-plugin/",
+      "/projects/kelp-global/truenorth/",
+      "/projects/rcentric/",
+      "/projects/rcentric/anwa-aria/",
+      "/projects/rcentric/ela/",
+      "/projects/rcentric/liv-reside/",
+      "/projects/rcentric/liv/",
+      "/projects/rcentric/opus/",
+      "/projects/rcentric/orla-infinity/",
+      "/projects/rcentric/vela-viento/",
+      "/projects/tata-elxsi/",
+      "/projects/tata-elxsi/infotainment/",
+      "/projects/tata-elxsi/instrument-cluster/",
+      "/start-a-project/"
+    ],
+    "file": "projects.html"
+  },
+  "/resources/": {
+    "url": "/resources/",
+    "pageType": "hub",
+    "metaTitle": "Product Design Resources: Checklists & Guides | Designit",
+    "metaDescription": "Free product design resources from Designit: the UX audit checklist, a project scope assessment, cost guides and buyer guides for choosing a design partner.",
+    "h1": "Resources for product teams",
+    "primaryKeyword": "ux design resources",
+    "searchIntent": "informational",
+    "funnelStage": "problem-aware",
+    "topicCluster": "Resources",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "CollectionPage",
+    "conversionEvent": "asset_open",
+    "refreshInterval": "quarterly",
+    "priority": "P2",
+    "action": "CREATE",
+    "h2s": [
+      "Tools and checklists",
+      "Cost guides",
+      "Buyer guides"
+    ],
+    "faq": [],
+    "internalLinks": [
+      "/",
+      "/blog/branding-services-for-startups-india-cost/",
+      "/blog/cost-ui-ux-design-mobile-app-india/",
+      "/blog/custom-website-vs-template-roi-india/",
+      "/blog/design-system-cost-india-2026/",
+      "/blog/freelancer-vs-design-agency-startups/",
+      "/blog/hire-ui-ux-designer-vs-agency-india/",
+      "/blog/how-to-choose-a-product-design-agency/",
+      "/blog/ui-ux-design-pricing-india-2026/",
+      "/blog/ux-audit-checklist/",
+      "/start-a-project/"
+    ],
+    "file": "resources/index.html"
+  },
   "/services/": {
     "url": "/services/",
     "pageType": "hub",
