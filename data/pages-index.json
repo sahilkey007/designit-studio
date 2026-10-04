@@ -1,4 +1,659 @@
 {
+  "/industries/": {
+    "url": "/industries/",
+    "pageType": "hub",
+    "metaTitle": "Industries We Design For: SaaS, Fintech, EdTech | Designit",
+    "metaDescription": "Product design for B2B SaaS, fintech, EdTech, PropTech, AI products, e-commerce and automotive HMI: each with its own users, constraints and proof.",
+    "h1": "Industries we design for",
+    "primaryKeyword": "industry ux design",
+    "searchIntent": "navigational",
+    "funnelStage": "evaluation",
+    "topicCluster": "Hub",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "CollectionPage",
+    "evidenceIds": [
+      "EV-CAREER-STATS"
+    ],
+    "cta": {
+      "heading": "Don't see your industry?",
+      "body": "The method transfers; the domain research is where we start. Tell us about your product and users.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "Technology",
+      "Financial",
+      "Growth and platforms",
+      "Product-heavy sectors",
+      "Experience behind the work",
+      "FAQ"
+    ],
+    "faq": [
+      "Which industries does Designit specialise in?",
+      "Do you only work with Indian companies?",
+      "Can Designit handle domain-specific requirements?"
+    ],
+    "internalLinks": [
+      "/",
+      "/industries/ai/",
+      "/industries/automotive/",
+      "/industries/b2b-saas/",
+      "/industries/e-commerce/",
+      "/industries/edtech/",
+      "/industries/fintech/",
+      "/industries/real-estate/",
+      "/projects/",
+      "/start-a-project/"
+    ],
+    "file": "industries/index.html"
+  },
+  "/industries/ai/": {
+    "url": "/industries/ai/",
+    "pageType": "industry",
+    "metaTitle": "Product Design for AI Startups & AI SaaS | Designit",
+    "metaDescription": "Product and UX design for AI startups, AI SaaS and agentic products: interfaces, workflows and strategy for software whose output isn't fully predictable.",
+    "h1": "Product design for AI startups and AI-native software",
+    "primaryKeyword": "ai startup product design",
+    "secondaryKeywords": [
+      "ai saas design",
+      "agentic product design",
+      "ai interface design",
+      "ai workflow design"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: AI product engagement",
+    "funnelStage": "evaluation",
+    "audience": [
+      "AI startup founders",
+      "AI product leaders"
+    ],
+    "topicCluster": "AI Product Design",
+    "pillarPage": "/services/ai-product-design/",
+    "parentTopic": "ai product design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-OWNER-AI-SERVICE",
+      "EV-QUOTE-PANKAJ"
+    ],
+    "relatedServices": [
+      "/services/ai-product-design/",
+      "/services/saas-product-design/",
+      "/services/ux-research/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "What do AI startups get wrong about product design?",
+      "How should AI SaaS products onboard users?"
+    ],
+    "cta": {
+      "heading": "Tell us what your AI does, and what happens when it's wrong",
+      "body": "Much of our AI work is under NDA, so we walk through relevant examples on a call.",
+      "buttons": [
+        {
+          "label": "Discuss your AI product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "monthly to quarterly",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "Who we work with",
+      "What we design",
+      "Our point of view",
+      "What product leaders say",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What do AI startups most often get wrong in product design?",
+      "How should an AI SaaS product onboard new users?",
+      "Can you show us AI work you've done?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/how-ai-is-changing-ux-design-india/",
+      "/industries/",
+      "/services/ai-product-design/",
+      "/start-a-project/"
+    ],
+    "file": "industries/ai/index.html"
+  },
+  "/industries/automotive/": {
+    "url": "/industries/automotive/",
+    "pageType": "industry",
+    "metaTitle": "Automotive HMI Design Agency: Infotainment UX | Designit",
+    "metaDescription": "Automotive HMI design for infotainment systems and digital instrument clusters, built around glance duration, cognitive load and fixed hardware constraints.",
+    "h1": "In-car design where a second of attention is the budget",
+    "primaryKeyword": "automotive hmi design agency",
+    "secondaryKeywords": [
+      "infotainment ux design",
+      "instrument cluster design",
+      "in-car ux",
+      "hmi design services"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: HMI programme",
+    "funnelStage": "evaluation",
+    "audience": [
+      "OEM and tier-one HMI teams"
+    ],
+    "topicCluster": "Automotive",
+    "pillarPage": "/industries/automotive/",
+    "parentTopic": "automotive hmi",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-TATA-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-research/",
+      "/services/design-systems/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/tata-elxsi/"
+    ],
+    "aiAnswerTargets": [
+      "How do you design for driver distraction?",
+      "What is glance duration in HMI design?"
+    ],
+    "cta": {
+      "heading": "Designing for the road, not the desk",
+      "body": "Tell us about your programme, hardware and timeline. We'll tell you how we would approach the glance and task model.",
+      "buttons": [
+        {
+          "label": "Discuss your HMI programme",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Why automotive HMI breaks normal design rules",
+      "What we design",
+      "How an HMI engagement runs",
+      "Selected automotive work",
+      "FAQ"
+    ],
+    "faq": [
+      "How do you design for driver distraction?",
+      "Do you work within existing hardware constraints?",
+      "How long do automotive engagements take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/industries/",
+      "/projects/tata-elxsi/",
+      "/projects/tata-elxsi/infotainment/",
+      "/projects/tata-elxsi/instrument-cluster/",
+      "/start-a-project/"
+    ],
+    "file": "industries/automotive/index.html"
+  },
+  "/industries/b2b-saas/": {
+    "url": "/industries/b2b-saas/",
+    "pageType": "industry",
+    "metaTitle": "B2B SaaS Design Agency: Dashboards & Workflows | Designit",
+    "metaDescription": "B2B SaaS product design for complex workflows: onboarding, dashboards, navigation, feature adoption, permissions and design systems, grounded in user research.",
+    "h1": "B2B SaaS product design for complex workflows",
+    "primaryKeyword": "b2b saas design agency",
+    "secondaryKeywords": [
+      "b2b saas ux design",
+      "b2b ui/ux design services",
+      "saas dashboard design",
+      "enterprise saas ux"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: SaaS engagement",
+    "funnelStage": "evaluation",
+    "audience": [
+      "B2B SaaS founders",
+      "Heads of product"
+    ],
+    "topicCluster": "B2B SaaS Product Design",
+    "pillarPage": "/services/saas-product-design/",
+    "parentTopic": "b2b saas design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-KELP-SCOPE",
+      "EV-BETACREW-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/saas-product-design/",
+      "/services/ux-audit/",
+      "/services/design-systems/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/kelp-global/",
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "Why do SaaS products become difficult to use?",
+      "What makes B2B SaaS design different?",
+      "Which SaaS metrics does design move?"
+    ],
+    "cta": {
+      "heading": "Bring the screen your users complain about",
+      "body": "In 30 minutes we'll walk through it and tell you what we'd change first, whether or not you hire us.",
+      "buttons": [
+        {
+          "label": "Discuss your SaaS product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "SaaS product design service",
+          "href": "/services/saas-product-design/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Why SaaS products become difficult to use",
+      "SaaS UX challenges we work on",
+      "Research, redesign and audit",
+      "Selected SaaS work",
+      "Related insights",
+      "FAQ"
+    ],
+    "faq": [
+      "What makes B2B SaaS design different from consumer product design?",
+      "How do you design dashboards without making them cluttered?",
+      "Which B2B SaaS metrics does design actually move?",
+      "Do you work with our existing design system?",
+      "How long does a SaaS engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/b2b-saas-ui-ux-design-services-india/",
+      "/blog/cro-strategies-for-b2b-saas-india/",
+      "/blog/saas-dashboard-design-best-practices/",
+      "/blog/saas-onboarding-ux-best-practices-india/",
+      "/industries/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/services/design-systems/",
+      "/services/saas-product-design/",
+      "/services/ux-audit/",
+      "/services/ux-research/",
+      "/solutions/product-redesign/",
+      "/start-a-project/"
+    ],
+    "file": "industries/b2b-saas/index.html"
+  },
+  "/industries/e-commerce/": {
+    "url": "/industries/e-commerce/",
+    "pageType": "industry",
+    "metaTitle": "E-commerce UX Design Agency: PDP & Checkout | Designit",
+    "metaDescription": "E-commerce UX design judged on revenue per visitor: discovery, search, product pages, checkout, mobile and retention, starting from a funnel audit.",
+    "h1": "E-commerce design judged on revenue per visitor, not aesthetics",
+    "primaryKeyword": "ecommerce ux design agency",
+    "secondaryKeywords": [
+      "checkout ux",
+      "product page design",
+      "ecommerce conversion",
+      "d2c ux design"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: conversion audit",
+    "funnelStage": "evaluation",
+    "audience": [
+      "D2C founders",
+      "E-commerce managers"
+    ],
+    "topicCluster": "Website Redesign",
+    "pillarPage": "/services/conversion-optimization/",
+    "parentTopic": "ecommerce ux",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-PROCESS-AUDIT"
+    ],
+    "relatedServices": [
+      "/services/conversion-optimization/",
+      "/services/ux-audit/",
+      "/services/website-design/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "What has the biggest impact on e-commerce conversion?",
+      "How do you reduce checkout abandonment?"
+    ],
+    "cta": {
+      "heading": "Which step is costing you most?",
+      "body": "A two-week, fixed-scope audit ranks every leak in your funnel by revenue impact against effort.",
+      "buttons": [
+        {
+          "label": "Discuss your store",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Where online retail actually loses money",
+      "What we design",
+      "How a retail engagement runs",
+      "Related insights",
+      "FAQ"
+    ],
+    "faq": [
+      "What has the biggest impact on e-commerce conversion?",
+      "How much can we expect conversion to improve?",
+      "Do you work on Shopify and other platforms?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/generative-ai-website-personalization/",
+      "/blog/how-to-improve-website-conversion-rate-india/",
+      "/blog/why-ecommerce-bounce-rate-so-high-india/",
+      "/industries/",
+      "/services/conversion-optimization/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "industries/e-commerce/index.html"
+  },
+  "/industries/edtech/": {
+    "url": "/industries/edtech/",
+    "pageType": "industry",
+    "metaTitle": "EdTech UX Design Agency: Learning Platforms | Designit",
+    "metaDescription": "EdTech UX design for learning platforms: onboarding, assessment and test-series engines, live classes, progress dashboards and low-bandwidth mobile learning.",
+    "h1": "EdTech design measured by completion, not by enrolment",
+    "primaryKeyword": "edtech ux design agency",
+    "secondaryKeywords": [
+      "edtech app design",
+      "learning platform ux",
+      "e-learning ux design",
+      "edtech ux design india"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: EdTech engagement",
+    "funnelStage": "evaluation",
+    "audience": [
+      "EdTech founders",
+      "Heads of product"
+    ],
+    "topicCluster": "EdTech",
+    "pillarPage": "/industries/edtech/",
+    "parentTopic": "edtech ux design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-ADDA-SCOPE",
+      "EV-QUOTE-AKANKSHA",
+      "EV-QUOTE-MURLIDHAR",
+      "EV-QUOTE-VISHVESH"
+    ],
+    "relatedServices": [
+      "/services/ux-research/",
+      "/services/product-design/",
+      "/services/mobile-app-design/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/adda247/"
+    ],
+    "aiAnswerTargets": [
+      "What improves course completion rates?",
+      "How do you design assessment interfaces learners trust?",
+      "How do you design for low-end devices?"
+    ],
+    "cta": {
+      "heading": "Where do your learners stop?",
+      "body": "Share your funnel from sign-up to first lesson. We'll tell you where we'd look first and what we'd test.",
+      "buttons": [
+        {
+          "label": "Discuss your learning product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "What EdTech design has to solve",
+      "What we design",
+      "How an EdTech engagement runs",
+      "Selected EdTech work",
+      "What EdTech product leaders say",
+      "Related insights",
+      "FAQ"
+    ],
+    "faq": [
+      "What actually improves course completion rates?",
+      "How do you design assessment interfaces that learners trust?",
+      "Do you design for low-end devices and poor connectivity?",
+      "How do you balance learner and parent or institution needs?",
+      "Can you work on live and synchronous learning?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/edtech-onboarding-ux-india/",
+      "/blog/edtech-ux-design-agency-india/",
+      "/blog/edtech-ux-design-india/",
+      "/industries/",
+      "/projects/adda247/",
+      "/projects/adda247/live-class/",
+      "/projects/adda247/performance-dashboard/",
+      "/projects/adda247/test-series/",
+      "/start-a-project/"
+    ],
+    "file": "industries/edtech/index.html"
+  },
+  "/industries/fintech/": {
+    "url": "/industries/fintech/",
+    "pageType": "industry",
+    "metaTitle": "Fintech UX Design Agency: KYC, Payments & Trust | Designit",
+    "metaDescription": "Fintech UX design for onboarding and KYC, payments, dashboards and compliance-sensitive flows: trust, transactional confidence and recoverable failure states.",
+    "h1": "Fintech design, where trust is a feature and regulation is a constraint",
+    "primaryKeyword": "fintech ux design agency",
+    "secondaryKeywords": [
+      "fintech app design",
+      "kyc onboarding ux",
+      "payment ux design",
+      "fintech dashboard design"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: fintech engagement",
+    "funnelStage": "evaluation",
+    "audience": [
+      "Fintech founders",
+      "Heads of product",
+      "Compliance-aware product teams"
+    ],
+    "topicCluster": "Fintech",
+    "pillarPage": "/industries/fintech/",
+    "parentTopic": "fintech ux design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-BETACREW-SCOPE",
+      "EV-QUOTE-FIRDOSH"
+    ],
+    "relatedServices": [
+      "/services/ux-audit/",
+      "/services/product-design/",
+      "/services/mobile-app-design/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "How do you reduce KYC drop-off?",
+      "How do you design trust into a fintech app?",
+      "Can you design Arabic RTL fintech flows?"
+    ],
+    "cta": {
+      "heading": "Where do your users stop trusting the flow?",
+      "body": "Show us your onboarding or payment journey. We'll point to the steps most likely losing people and what we'd change first.",
+      "buttons": [
+        {
+          "label": "Discuss your fintech product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Start with a UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "What makes fintech design harder than it looks",
+      "What we design for fintech",
+      "How a fintech engagement runs",
+      "Related work",
+      "Related insights",
+      "FAQ"
+    ],
+    "faq": [
+      "How do you reduce KYC drop-off without breaking compliance?",
+      "Do you work with our compliance team?",
+      "Can you design for Arabic and RTL markets?",
+      "Which markets' regulations do you design for?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/fintech-onboarding-kyc-ux-india/",
+      "/blog/fintech-ux-design-agency-india/",
+      "/industries/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "industries/fintech/index.html"
+  },
+  "/industries/real-estate/": {
+    "url": "/industries/real-estate/",
+    "pageType": "industry",
+    "metaTitle": "PropTech & Real Estate Design Agency | Designit",
+    "metaDescription": "PropTech and luxury real estate design: property experiences, enquiry qualification, unit explorers, asset-heavy performance and Arabic RTL for Gulf markets.",
+    "h1": "PropTech and real estate design, where the website is the first viewing",
+    "primaryKeyword": "proptech design agency",
+    "secondaryKeywords": [
+      "real estate website design",
+      "luxury property website design",
+      "proptech ux",
+      "real estate ux design dubai"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: property platform engagement",
+    "funnelStage": "evaluation",
+    "audience": [
+      "Developers",
+      "Brokerages",
+      "PropTech founders"
+    ],
+    "topicCluster": "PropTech",
+    "pillarPage": "/industries/real-estate/",
+    "parentTopic": "proptech design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-RCENTRIC-SCOPE",
+      "EV-RCENTRIC-QUALIFICATION"
+    ],
+    "relatedServices": [
+      "/services/website-design/",
+      "/services/design-systems/",
+      "/services/conversion-optimization/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/rcentric/"
+    ],
+    "aiAnswerTargets": [
+      "How do you increase qualified property enquiries?",
+      "How do you design Arabic RTL property websites?"
+    ],
+    "cta": {
+      "heading": "Make the first viewing count",
+      "body": "Show us your current property site and enquiry flow. We'll tell you where serious buyers are likely dropping off.",
+      "buttons": [
+        {
+          "label": "Discuss your property platform",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX design in Dubai",
+          "href": "/ux-design-agency-dubai/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + REPOSITION AS PROPTECH",
+    "h2s": [
+      "What property design actually has to solve",
+      "What we design",
+      "Selected PropTech work",
+      "Related insights",
+      "FAQ"
+    ],
+    "faq": [
+      "How do you increase qualified enquiries rather than total enquiries?",
+      "Can you handle Arabic and RTL for Gulf markets?",
+      "How long does a property experience take?",
+      "Do you work with PropTech platforms as well as developers?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/arabic-rtl-ux-design-proptech-uae/",
+      "/blog/ui-ux-design-agency-dubai-proptech/",
+      "/industries/",
+      "/projects/rcentric/",
+      "/start-a-project/",
+      "/ux-design-agency-dubai/"
+    ],
+    "file": "industries/real-estate/index.html"
+  },
   "/services/": {
     "url": "/services/",
     "pageType": "hub",

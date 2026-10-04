@@ -1,0 +1,216 @@
+{
+  "url": "/industries/e-commerce/",
+  "pageType": "industry",
+  "action": "KEEP + EXPAND",
+  "priority": "P1",
+  "metaTitle": "E-commerce UX Design Agency: PDP & Checkout | Designit",
+  "metaDescription": "E-commerce UX design judged on revenue per visitor: discovery, search, product pages, checkout, mobile and retention, starting from a funnel audit.",
+  "h1": "E-commerce design judged on revenue per visitor, not aesthetics",
+  "eyebrow": [
+    "PDP",
+    "Checkout",
+    "Retention"
+  ],
+  "subtitle": "Most online stores lose buyers at a few specific points, usually the product page, the cart and the first checkout step. We find which one is costing you most, then design the fix and measure it.",
+  "ctas": [
+    {
+      "label": "Discuss your store",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "Start with a conversion audit",
+      "href": "/services/ux-audit/"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Industries",
+      "/industries/"
+    ],
+    [
+      "E-commerce",
+      "/industries/e-commerce/"
+    ]
+  ],
+  "about": [
+    "E-commerce UX design",
+    "Checkout optimization",
+    "Product page design"
+  ],
+  "primaryKeyword": "ecommerce ux design agency",
+  "secondaryKeywords": [
+    "checkout ux",
+    "product page design",
+    "ecommerce conversion",
+    "d2c ux design"
+  ],
+  "searchIntent": "commercial",
+  "businessIntent": "Lead: conversion audit",
+  "funnelStage": "evaluation",
+  "audience": [
+    "D2C founders",
+    "E-commerce managers"
+  ],
+  "topicCluster": "Website Redesign",
+  "pillarPage": "/services/conversion-optimization/",
+  "parentTopic": "ecommerce ux",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "WebPage",
+  "evidenceIds": [
+    "EV-PROCESS-AUDIT"
+  ],
+  "relatedServices": [
+    "/services/conversion-optimization/",
+    "/services/ux-audit/",
+    "/services/website-design/"
+  ],
+  "relatedCaseStudies": [],
+  "aiAnswerTargets": [
+    "What has the biggest impact on e-commerce conversion?",
+    "How do you reduce checkout abandonment?"
+  ],
+  "conversionEvent": "start_project",
+  "refreshInterval": "6 months",
+  "cta": {
+    "heading": "Which step is costing you most?",
+    "body": "A two-week, fixed-scope audit ranks every leak in your funnel by revenue impact against effort.",
+    "buttons": [
+      {
+        "label": "Discuss your store",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      },
+      {
+        "label": "UX audit",
+        "href": "/services/ux-audit/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "cards",
+      "id": "where-online-retail-loses-money",
+      "heading": "Where online retail actually loses money",
+      "items": [
+        {
+          "title": "The product page doesn't answer the objection",
+          "body": "Sizing, materials, delivery timing, returns: shoppers leave when a specific question goes unanswered."
+        },
+        {
+          "title": "Checkout asks too much, too early",
+          "body": "Account creation before guest checkout, address before shipping cost, surprise fees at the last step."
+        },
+        {
+          "title": "Mobile is the majority and the afterthought",
+          "body": "Thumb reach, form input, image zoom and payment sheets decide mobile conversion."
+        },
+        {
+          "title": "Acquisition subsidises a leaky funnel",
+          "body": "Fixing the funnel is almost always cheaper per order than buying more traffic."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "what-we-design",
+      "heading": "What we design",
+      "items": [
+        {
+          "title": "Discovery and navigation",
+          "body": "Category structure and filtering so shoppers reach a relevant product quickly."
+        },
+        {
+          "title": "Search",
+          "body": "Search that tolerates typos and vague queries and returns useful results."
+        },
+        {
+          "title": "Product pages",
+          "body": "Structured around the objections that stop purchase."
+        },
+        {
+          "title": "Checkout",
+          "body": "Guest checkout, early cost transparency, fewer fields and recoverable payment failures."
+        },
+        {
+          "title": "Mobile",
+          "body": "Mobile as the primary design target, not a responsive afterthought."
+        },
+        {
+          "title": "Retention and post-purchase",
+          "body": "Tracking, returns and re-order experiences, consistently underinvested relative to acquisition."
+        },
+        {
+          "title": "Personalisation",
+          "body": "Recommendations and content that help rather than unsettle.",
+          "href": "/blog/generative-ai-website-personalization/",
+          "more": "Personalisation guide"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how-the-engagement-runs",
+      "heading": "How a retail engagement runs",
+      "items": [
+        {
+          "title": "Diagnose (weeks 1 to 2)",
+          "body": "Funnel analysis and heuristic review to find and size the biggest leaks."
+        },
+        {
+          "title": "Prioritise",
+          "body": "Issues scored on revenue impact against effort."
+        },
+        {
+          "title": "Design",
+          "body": "The highest-impact surfaces redesigned mobile-first, with every state specified."
+        },
+        {
+          "title": "Measure",
+          "body": "Against the conversion metric agreed at the start."
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "related-insights",
+      "heading": "Related insights",
+      "items": [
+        {
+          "title": "Why e-commerce bounce rates run high",
+          "href": "/blog/why-ecommerce-bounce-rate-so-high-india/",
+          "body": "What the number is really telling you."
+        },
+        {
+          "title": "How to improve website conversion rate",
+          "href": "/blog/how-to-improve-website-conversion-rate-india/",
+          "body": "A research-led method."
+        },
+        {
+          "title": "Conversion optimization",
+          "href": "/services/conversion-optimization/",
+          "body": "Our UX-led approach to CRO."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What has the biggest impact on e-commerce conversion?",
+      "a": "In most stores, checkout and the product page dominate, and checkout usually wins: forced account creation, late shipping costs and excessive form fields are the most common and most fixable causes of abandonment. Run the diagnostic first, though; the biggest leak differs by store."
+    },
+    {
+      "q": "How much can we expect conversion to improve?",
+      "a": "We will not quote a number before looking. The opportunity depends on where your funnel leaks and how much traffic you have; the audit sizes each leak."
+    },
+    {
+      "q": "Do you work on Shopify and other platforms?",
+      "a": "We design for the platform you use and its constraints, so the handoff can be built without workarounds."
+    }
+  ]
+}

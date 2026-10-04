@@ -1,0 +1,55 @@
+{
+  "url": "/industries/b2b-saas/", "pageType": "industry", "action": "KEEP + EXPAND", "priority": "P1",
+  "metaTitle": "B2B SaaS Design Agency: Dashboards & Workflows | Designit",
+  "metaDescription": "B2B SaaS product design for complex workflows: onboarding, dashboards, navigation, feature adoption, permissions and design systems, grounded in user research.",
+  "h1": "B2B SaaS product design for complex workflows",
+  "eyebrow": ["Dashboards", "Activation", "Multi-product systems"],
+  "subtitle": "In B2B software the user often didn't choose your product and can't easily leave it, so every friction point becomes a support ticket, a renewal risk or a reason your internal champion stops advocating. This is the category we work in most.",
+  "ctas": [{"label": "Discuss your SaaS product", "href": "/start-a-project/", "event": "start_project"}, {"label": "See the Kelp Global case study", "href": "/projects/kelp-global/"}],
+  "breadcrumb": [["Home", "/"], ["Industries", "/industries/"], ["B2B SaaS", "/industries/b2b-saas/"]],
+  "about": ["B2B SaaS", "SaaS UX design", "Dashboard design"],
+  "primaryKeyword": "b2b saas design agency", "secondaryKeywords": ["b2b saas ux design", "b2b ui/ux design services", "saas dashboard design", "enterprise saas ux"],
+  "searchIntent": "commercial", "businessIntent": "Lead: SaaS engagement", "funnelStage": "evaluation",
+  "audience": ["B2B SaaS founders", "Heads of product"], "topicCluster": "B2B SaaS Product Design", "pillarPage": "/services/saas-product-design/", "parentTopic": "b2b saas design",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-KELP-SCOPE", "EV-BETACREW-SCOPE"],
+  "relatedServices": ["/services/saas-product-design/", "/services/ux-audit/", "/services/design-systems/"], "relatedCaseStudies": ["/projects/kelp-global/", "/projects/betacrew/"],
+  "aiAnswerTargets": ["Why do SaaS products become difficult to use?", "What makes B2B SaaS design different?", "Which SaaS metrics does design move?"],
+  "conversionEvent": "start_project", "refreshInterval": "6 months",
+  "cta": {"heading": "Bring the screen your users complain about", "body": "In 30 minutes we'll walk through it and tell you what we'd change first, whether or not you hire us.", "buttons": [{"label": "Discuss your SaaS product", "href": "/start-a-project/", "event": "start_project"}, {"label": "SaaS product design service", "href": "/services/saas-product-design/"}]},
+  "sections": [
+    {"type": "answer", "id": "why-saas-products-become-difficult-to-use", "heading": "Why SaaS products become difficult to use",
+     "answer": "SaaS products become difficult to use because they grow by accretion: each feature is added where there is room, navigation built for version one has to absorb version ten, and edge cases such as permissions, bulk actions and very large accounts are handled one at a time instead of designed as a system.",
+     "body": ["The buyer is not the user. A VP signs the contract; an operations team lives in the product all day. Design that impresses in a demo and exhausts in daily use produces exactly the churn that shows up at renewal.",
+              "Density is a requirement, not a failure. B2B users often need everything on screen because the job requires it; the skill is making it legible through hierarchy, grouping and progressive disclosure."]},
+    {"type": "cards", "id": "saas-ux-challenges", "heading": "SaaS UX challenges we work on",
+     "items": [
+       {"title": "Onboarding", "body": "Mapping the first action that predicts retention and designing the shortest credible path to it.", "href": "/blog/saas-onboarding-ux-best-practices-india/", "more": "Onboarding guide"},
+       {"title": "Dashboards", "body": "Hierarchy for dense operational screens, designed against production data volumes.", "href": "/blog/saas-dashboard-design-best-practices/", "more": "Dashboard guide"},
+       {"title": "Navigation", "body": "Structures that can absorb new capability without burying it."},
+       {"title": "Feature adoption", "body": "Making valuable features discoverable at the moment they are useful."},
+       {"title": "Permissions", "body": "Admin, member, guest and SSO states designed as first-class experiences."},
+       {"title": "Design systems", "body": "One system across a suite, so customers don't relearn conventions between products.", "href": "/services/design-systems/", "more": "Design systems"}
+     ]},
+    {"type": "stages", "id": "how-we-help", "heading": "Research, redesign and audit",
+     "items": [
+       {"key": "Research", "title": "Understand the real workflow", "body": "We interview users doing real work, because in B2B the internal picture of the user is often years out of date. <a href=\"/services/ux-research/\">UX research</a>."},
+       {"key": "Product redesign", "title": "Restructure, then restyle", "body": "Most B2B usability problems are structural, so information architecture and flows come before visual design. <a href=\"/solutions/product-redesign/\">Product redesign</a>."},
+       {"key": "UX audit", "title": "Find what to fix first", "body": "A fixed-scope, two-week audit ranks every issue by impact and effort. <a href=\"/services/ux-audit/\">UX audit</a>."}
+     ]},
+    {"type": "work", "id": "selected-saas-work", "heading": "Selected SaaS work", "items": ["kelp-global", "betacrew"]},
+    {"type": "links", "id": "related-insights", "heading": "Related insights",
+     "items": [
+       {"title": "B2B SaaS UI/UX design guide", "href": "/blog/b2b-saas-ui-ux-design-services-india/", "body": "How research-driven UX moves activation and retention."},
+       {"title": "SaaS onboarding UX best practices", "href": "/blog/saas-onboarding-ux-best-practices-india/", "body": "Fix onboarding drop-off without removing necessary steps."},
+       {"title": "SaaS dashboard design best practices", "href": "/blog/saas-dashboard-design-best-practices/", "body": "Seven practices for dashboards people use."},
+       {"title": "CRO strategies for B2B SaaS", "href": "/blog/cro-strategies-for-b2b-saas-india/", "body": "Conversion grounded in observed behaviour."}
+     ]}
+  ],
+  "faq": [
+    {"q": "What makes B2B SaaS design different from consumer product design?", "a": "The user did not choose the product and cannot easily leave, so frustration becomes support cost and renewal risk. Information density is a requirement. And edge cases such as permissions, bulk actions and huge datasets are the everyday experience. Consumer design instincts mislead in all three."},
+    {"q": "How do you design dashboards without making them cluttered?", "a": "By treating hierarchy as the design problem rather than volume. We establish a clear primary read, group by task rather than data source, and use progressive disclosure for depth rather than for hiding."},
+    {"q": "Which B2B SaaS metrics does design actually move?", "a": "Most reliably activation rate, time-to-first-value, feature adoption and support-ticket volume. Design influences retention and expansion too, with a longer lag."},
+    {"q": "Do you work with our existing design system?", "a": "Usually, yes. Extending what you have is almost always cheaper than replacing it, and we only recommend a rebuild with specific evidence."},
+    {"q": "How long does a SaaS engagement take?", "a": "A single surface, such as onboarding or one dashboard, runs three to five weeks. A full product redesign with a design system is typically ten to twelve weeks."}
+  ]
+}
