@@ -6,3 +6,9 @@ fd918c6   # technical SEO patch: skip link, landmarks, image dimensions, twitter
 a731521   # inline skip-link rule
 d2df107   # tracker removal, analytics consent gate, analytics.js ?v=2
 f656e2d   # font fallback + accessibility attributes on most pages
+6647af5   # IA mega-menu header + IA footer on 83 pages (chrome only)
+a83cfb5   # legacy-layout header/footer links (chrome only)
+2187320   # Organization/WebSite JSON-LD sync + redirects
+7dfe66e   # analytics.js ?v=3 bump
+6515f16   # data-cluster analytics attribute
+194e10d   # meta robots, image width/height attributes, quality gate
