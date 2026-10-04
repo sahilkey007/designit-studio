@@ -12,3 +12,4 @@ a83cfb5   # legacy-layout header/footer links (chrome only)
 7dfe66e   # analytics.js ?v=3 bump
 6515f16   # data-cluster analytics attribute
 194e10d   # meta robots, image width/height attributes, quality gate
+50672e0   # CLS critical-CSS fixes (style only)
