@@ -151,3 +151,6 @@ assets/projects/tata-elxsi/instrument-cluster-hero.png
 assets/projects/tata-elxsi/instrument-cluster.png
 assets/projects/tata-elxsi/thumb-infotainment.png
 assets/projects/tata-elxsi/thumb-instrument-cluster.png
+
+# Page specs and generator data (source of truth for generated pages) — not served
+content/

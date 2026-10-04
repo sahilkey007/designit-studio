@@ -1,0 +1,454 @@
+{
+  "/services/product-design/": {
+    "url": "/services/product-design/",
+    "pageType": "service",
+    "metaTitle": "Product Design Agency for Complex Products | Designit",
+    "metaDescription": "Senior-led product design: discovery, research, architecture, UX, UI, prototyping, design systems and developer handoff for new products and redesigns.",
+    "h1": "Product design that turns complexity into usable experiences",
+    "primaryKeyword": "product design agency",
+    "secondaryKeywords": [
+      "digital product design",
+      "product design services",
+      "product redesign",
+      "product discovery",
+      "mvp design",
+      "enterprise product design",
+      "ux ui product design"
+    ],
+    "searchIntent": "commercial / transactional",
+    "businessIntent": "Lead: product design engagement",
+    "funnelStage": "vendor / buying",
+    "audience": [
+      "Founders",
+      "Heads of product",
+      "CTOs"
+    ],
+    "topicCluster": "Startup Product Design",
+    "pillarPage": "/services/product-design/",
+    "parentTopic": "product design agency",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-PROCESS-PRODUCT",
+      "EV-TATA-SCOPE",
+      "EV-ADDA-SCOPE",
+      "EV-BETACREW-SCOPE",
+      "EV-RCENTRIC-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/saas-product-design/",
+      "/services/ux-research/",
+      "/services/design-systems/",
+      "/services/ux-audit/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/",
+      "/industries/automotive/",
+      "/industries/edtech/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/tata-elxsi/",
+      "/projects/adda247/",
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "What does a product design agency do?",
+      "When should you hire a product design partner?",
+      "What is product discovery?",
+      "How much does product design cost?",
+      "Product design vs UI/UX design"
+    ],
+    "cta": {
+      "heading": "Start a product conversation",
+      "body": "Tell us what you're building and what isn't working. Thirty minutes, no deck: we'll tell you what we would tackle first, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "See selected work",
+          "href": "/projects/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "What product design solves",
+      "When should you bring in a product design partner?",
+      "Product discovery: deciding what to build",
+      "Product strategy: structure before screens",
+      "What we cover",
+      "Product design for different stages",
+      "Our process",
+      "How we collaborate with product and engineering teams",
+      "Selected product design work",
+      "How much does product design cost?",
+      "FAQ"
+    ],
+    "faq": [
+      "What does a product design agency actually do?",
+      "How is product design different from UI/UX design?",
+      "Can you run discovery without committing to the full build?",
+      "How long does a product design engagement take?",
+      "Do you work on regulated or safety-critical products?",
+      "How do you handle disagreement about direction?",
+      "What if we already have a designer or a design team?",
+      "How do you measure success?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/betacrew/",
+      "/projects/rcentric/",
+      "/projects/tata-elxsi/",
+      "/services/",
+      "/services/design-systems/",
+      "/services/saas-product-design/",
+      "/services/ui-ux-design/",
+      "/services/ux-research/",
+      "/solutions/legacy-product-modernization/",
+      "/solutions/mvp-design/",
+      "/solutions/product-redesign/",
+      "/start-a-project/"
+    ],
+    "file": "services/product-design/index.html"
+  },
+  "/services/saas-product-design/": {
+    "url": "/services/saas-product-design/",
+    "pageType": "service",
+    "metaTitle": "SaaS Product Design Agency for B2B Products | Designit",
+    "metaDescription": "B2B SaaS product design: onboarding, dashboards, navigation, permissions and design systems, grounded in research with your users and built with your engineers.",
+    "h1": "SaaS product design for complex B2B products",
+    "primaryKeyword": "saas product design agency",
+    "secondaryKeywords": [
+      "b2b saas ux design",
+      "saas ui/ux design services",
+      "ui ux design services for saas",
+      "saas redesign",
+      "saas dashboard design",
+      "saas onboarding ux"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: SaaS design engagement",
+    "funnelStage": "vendor / buying",
+    "audience": [
+      "B2B SaaS founders",
+      "Heads of product",
+      "Product managers"
+    ],
+    "topicCluster": "B2B SaaS Product Design",
+    "pillarPage": "/services/saas-product-design/",
+    "parentTopic": "saas product design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-PROCESS-SAAS",
+      "EV-KELP-SCOPE",
+      "EV-BETACREW-SCOPE",
+      "EV-ADDA-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/ux-audit/",
+      "/services/design-systems/",
+      "/services/product-design/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/kelp-global/",
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "What makes SaaS UX difficult?",
+      "When does a SaaS product need a redesign?",
+      "How long does a SaaS redesign take?",
+      "How much does SaaS product design cost?",
+      "Who provides B2B SaaS UX design?"
+    ],
+    "cta": {
+      "heading": "Let's look at your product together",
+      "body": "Bring your dashboard or onboarding flow. In 30 minutes we'll tell you where users are likely dropping and what we would change first, whether or not you hire us.",
+      "buttons": [
+        {
+          "label": "Discuss your SaaS product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Start with a UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "What makes SaaS UX difficult?",
+      "When does a SaaS product need redesign?",
+      "SaaS problems we help solve",
+      "SaaS product design process",
+      "SaaS case studies",
+      "What does SaaS product design cost?",
+      "How long does a SaaS redesign take?",
+      "Related SaaS insights",
+      "FAQ"
+    ],
+    "faq": [
+      "How is this different from hiring a general UI/UX agency?",
+      "How long does a SaaS product design engagement take?",
+      "Do you work with our existing design system, or replace it?",
+      "Can you work with our engineering team's stack and sprint cadence?",
+      "How do you measure whether the design worked?",
+      "Who actually does the work?",
+      "Do you sign NDAs and work with regulated data?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/b2b-saas-ui-ux-design-services-india/",
+      "/blog/cro-strategies-for-b2b-saas-india/",
+      "/blog/saas-dashboard-design-best-practices/",
+      "/blog/saas-onboarding-ux-best-practices-india/",
+      "/projects/adda247/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/services/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "services/saas-product-design/index.html"
+  },
+  "/services/ux-audit/": {
+    "url": "/services/ux-audit/",
+    "pageType": "service",
+    "metaTitle": "UX Audit Services for SaaS, Websites & Apps | Designit",
+    "metaDescription": "A fixed-scope UX audit for SaaS products, websites and apps: heuristic review, analytics evidence, an accessibility pass and a prioritised fix list.",
+    "h1": "Find the friction before it costs you users",
+    "primaryKeyword": "ux audit services",
+    "secondaryKeywords": [
+      "ux audit agency",
+      "ux audit company",
+      "user experience audit services",
+      "website ux audit",
+      "saas ux audit",
+      "design audit",
+      "heuristic evaluation"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: request an audit (lowest-risk first engagement)",
+    "funnelStage": "evaluation / buying",
+    "audience": [
+      "SaaS founders",
+      "Heads of product",
+      "Growth and marketing leads"
+    ],
+    "topicCluster": "UX Audit",
+    "pillarPage": "/services/ux-audit/",
+    "parentTopic": "ux audit",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-PROCESS-AUDIT",
+      "EV-ADDA-SCOPE",
+      "EV-KELP-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/ux-research/",
+      "/services/saas-product-design/",
+      "/services/conversion-optimization/",
+      "/services/website-design/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/",
+      "/industries/e-commerce/",
+      "/industries/fintech/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/adda247/",
+      "/projects/kelp-global/"
+    ],
+    "aiAnswerTargets": [
+      "What is a UX audit?",
+      "What does a UX audit include?",
+      "How long does a UX audit take?",
+      "How much does a UX audit cost?",
+      "UX audit vs UX research",
+      "UX audit vs usability testing"
+    ],
+    "cta": {
+      "heading": "Request a UX audit",
+      "body": "Tell us what isn't working. In a 30-minute call we agree which journeys are worth auditing, and you get a fixed written scope before any work starts.",
+      "buttons": [
+        {
+          "label": "Request a UX audit",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Use the free UX audit checklist",
+          "href": "/blog/ux-audit-checklist/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "What is a UX audit?",
+      "What problems can a UX audit reveal?",
+      "When should you conduct a UX audit?",
+      "What we evaluate",
+      "Our UX audit methodology",
+      "What you receive",
+      "How long does a UX audit take?",
+      "How much does a UX audit cost?",
+      "UX audit vs UX research vs usability testing",
+      "SaaS, website and mobile app UX audits",
+      "UX audit examples",
+      "Diagnostic work behind our design engagements",
+      "FAQ"
+    ],
+    "faq": [
+      "What is a UX audit?",
+      "Is a UX audit the same as a design audit?",
+      "How much does a UX audit cost?",
+      "What do I actually receive at the end?",
+      "How long does a UX audit take?",
+      "How is a paid audit different from a free one an agency offers?",
+      "Do you need access to our analytics?",
+      "Will you also fix the problems you find?",
+      "Can you audit a product that hasn't launched?",
+      "Should we start with a UX audit or UX research?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/landing-page-conversion-audit-services-india/",
+      "/blog/ui-ux-audit-for-website-india/",
+      "/blog/ui-ux-design-pricing-india-2026/",
+      "/blog/ux-audit-checklist/",
+      "/industries/e-commerce/",
+      "/industries/fintech/",
+      "/projects/adda247/",
+      "/projects/kelp-global/",
+      "/services/",
+      "/services/mobile-app-design/",
+      "/services/saas-product-design/",
+      "/services/ux-research/",
+      "/services/website-design/",
+      "/start-a-project/"
+    ],
+    "file": "services/ux-audit/index.html"
+  },
+  "/services/ux-research/": {
+    "url": "/services/ux-research/",
+    "pageType": "service",
+    "metaTitle": "UX Research Services: Interviews & Testing | Designit",
+    "metaDescription": "UX research consulting for product teams: user interviews, usability testing, journey mapping and concept tests, framed around the decision you need to make.",
+    "h1": "Research that turns product uncertainty into decisions",
+    "primaryKeyword": "ux research services",
+    "secondaryKeywords": [
+      "ux research consulting",
+      "user research agency",
+      "usability testing services",
+      "user interviews",
+      "ux research agency"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: research study",
+    "funnelStage": "evaluation / buying",
+    "audience": [
+      "Heads of product",
+      "Product managers",
+      "Founders"
+    ],
+    "topicCluster": "UX Research",
+    "pillarPage": "/services/ux-research/",
+    "parentTopic": "ux research",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-PROCESS-RESEARCH",
+      "EV-ADDA-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/ux-audit/",
+      "/services/product-design/",
+      "/services/saas-product-design/"
+    ],
+    "relatedIndustries": [
+      "/industries/edtech/",
+      "/industries/b2b-saas/",
+      "/industries/automotive/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/adda247/",
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "When should product teams invest in UX research?",
+      "What UX research methods are there?",
+      "How many users do you need to interview?",
+      "UX research vs UX audit",
+      "What does UX research cost?"
+    ],
+    "cta": {
+      "heading": "What decision are you stuck on?",
+      "body": "Tell us the decision. In 30 minutes we'll tell you what research would actually resolve it, and whether you need research at all, because sometimes you don't.",
+      "buttons": [
+        {
+          "label": "Scope a research study",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Start with a UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "When should product teams invest in research?",
+      "Research methods",
+      "Research across the product lifecycle",
+      "Research deliverables",
+      "How research changes product decisions",
+      "SaaS and enterprise UX research",
+      "How a study runs",
+      "What does UX research cost?",
+      "FAQ"
+    ],
+    "faq": [
+      "What is UX research consulting?",
+      "How many users do you need to interview?",
+      "Can you recruit participants, or do we provide them?",
+      "How is UX research different from a UX audit?",
+      "What do we get at the end?",
+      "Do you do quantitative research too?",
+      "Can you run research on a product that hasn't launched?"
+    ],
+    "internalLinks": [
+      "/",
+      "/services/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "services/ux-research/index.html"
+  }
+}
