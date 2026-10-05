@@ -3,7 +3,7 @@
   "action": "KEEP + EXPAND",
   "priority": "P1",
   "author": "Designit",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-06",
   "schemaType": "Article",
   "searchIntent": "evaluation",
   "funnelStage": "evaluation / vendor",
@@ -123,6 +123,37 @@
       ]
     },
     {
+      "type": "statement",
+      "id": "problem-statement",
+      "text": "How might we give seven very different luxury properties websites as distinctive as their architecture, while buyers, enquiries and the team all benefit from one shared system?"
+    },
+    {
+      "type": "empathy",
+      "id": "who-we-designed-for",
+      "heading": "Who we designed for",
+      "intro": "International high-net-worth buyers deciding from a screen, investors weighing location and value, and Omniyat's sales team waiting for qualified enquiries.",
+      "people": [
+        {
+          "who": "International buyers",
+          "context": "Judge a Dubai property online before deciding whether to visit."
+        },
+        {
+          "who": "Investors",
+          "context": "Want location, availability and value made clear."
+        },
+        {
+          "who": "Sales teams",
+          "context": "Want fewer, better-qualified enquiries with context."
+        }
+      ],
+      "painPoints": [
+        "Template sites undersold landmark architecture.",
+        "Each property had a different audience and story.",
+        "Rich media risked slow pages.",
+        "Standard contact forms felt transactional for a private purchase."
+      ]
+    },
+    {
       "type": "prose",
       "id": "the-problem",
       "heading": "The business and buyer problem",
@@ -174,53 +205,12 @@
       ]
     },
     {
-      "type": "modules",
+      "type": "casegrid",
       "id": "every-property",
-      "heading": "Every property",
-      "items": [
-        {
-          "href": "/projects/rcentric/liv/",
-          "title": "LIV",
-          "desc": "Positioned LIV as exclusive partner for Omniyat's luxury properties through premium platform design.",
-          "img": "/assets/projects/rcentric/liv-hero.webp"
-        },
-        {
-          "href": "/projects/rcentric/orla-infinity/",
-          "title": "Orla Infinity",
-          "desc": "Architectural masterpiece on Palm Jumeirah — digital presence for unparalleled luxury living.",
-          "img": "/assets/projects/rcentric/orla-infinity-hero.webp"
-        },
-        {
-          "href": "/projects/rcentric/opus/",
-          "title": "OPUS",
-          "desc": "Landmark Zaha Hadid building — digital presence for luxury residences, offices, hotel.",
-          "img": "/assets/projects/rcentric/opus-hero.webp"
-        },
-        {
-          "href": "/projects/rcentric/vela-viento/",
-          "title": "Vela Viento",
-          "desc": "Foster + Partners luxury in Marasi Bay with Dorchester Collection services.",
-          "img": "/assets/projects/rcentric/vela-viento-hero.webp"
-        },
-        {
-          "href": "/projects/rcentric/anwa-aria/",
-          "title": "Anwa Aria",
-          "desc": "Luxury residential tower in Dubai Maritime City emphasizing waterfront living.",
-          "img": "/assets/projects/rcentric/anwa-aria-hero.webp"
-        },
-        {
-          "href": "/projects/rcentric/liv-reside/",
-          "title": "LIV Reside",
-          "desc": "Upscale residential project with focus on community living.",
-          "img": "/assets/projects/rcentric/liv-reside-hero.webp"
-        },
-        {
-          "href": "/projects/rcentric/ela/",
-          "title": "Ela",
-          "desc": "Wellness-focused luxury residences balancing sustainability credentials with premium positioning.",
-          "img": "/assets/projects/rcentric/ela.webp"
-        }
-      ]
+      "eyebrow": "Case studies",
+      "heading": "Every R-Centric property",
+      "client": "/projects/rcentric/",
+      "gridId": "client-cases"
     },
     {
       "type": "links",
@@ -247,12 +237,70 @@
   ],
   "faq": [
     {
+      "q": "Which Omniyat properties did Designit design websites for?",
+      "a": "Seven, through R-Centric: LIV, LIV Reside, OPUS, Orla Infinity, Vela Viento, Anwa Aria and ELA Residences, each with its own case study."
+    },
+    {
+      "q": "How do you keep several luxury property sites distinctive but consistent?",
+      "a": "Share the system, not the look: common components, navigation and enquiry flows, with each property's imagery, typography and story leading its own experience."
+    },
+    {
       "q": "Which properties did Designit design for R-Centric?",
       "a": "LIV, LIV Reside, Orla Infinity, OPUS, Vela Viento, Anwa Aria and Ela, luxury developments in Dubai including Omniyat projects."
     },
     {
       "q": "Why a shared system across properties?",
       "a": "So each new launch could ship quickly while keeping its own identity, instead of designing every property from scratch."
+    },
+    {
+      "q": "What features should a luxury real estate website in Dubai have?",
+      "a": "Immersive photography and video, clear unit and floor-plan information, location context, multilingual content for international buyers, and an enquiry flow that feels like requesting a private consultation."
+    },
+    {
+      "q": "What is scrollytelling?",
+      "a": "Storytelling driven by scrolling, where each section reveals the next part of the story with choreographed imagery and motion. Vela Viento uses the bay as a visual thread through the whole page."
+    },
+    {
+      "q": "How do you turn property website visitors into qualified enquiries?",
+      "a": "Build desire first, then make the next step feel exclusive and useful: a short, multi-step enquiry that captures what the buyer wants, so the sales team receives context, not just a name."
+    },
+    {
+      "q": "Do the property websites support international buyers?",
+      "a": "Yes. The case studies describe multi-language and, where needed, multi-currency experiences and time-zone-aware scheduling for viewings and calls."
+    },
+    {
+      "q": "Where can I see each property in detail?",
+      "a": "Each of the seven properties has its own case study, linked above."
     }
-  ]
+  ],
+  "template": "client",
+  "clientUrl": "/projects/rcentric/",
+  "kicker": "Client · Real estate",
+  "hero": {
+    "src": "/assets/projects/rcentric/opus-hero.webp",
+    "alt": "OPUS website on a laptop"
+  },
+  "meta": [
+    [
+      "Client",
+      "R-Centric (Omniyat)"
+    ],
+    [
+      "Industry",
+      "Real estate · luxury residential, Dubai"
+    ],
+    [
+      "Deliverables",
+      "Web design, brand narrative, immersive UX, design system"
+    ],
+    [
+      "Platform",
+      "Websites, desktop and mobile"
+    ],
+    [
+      "Case studies",
+      "7 properties"
+    ]
+  ],
+  "summary": "For R-Centric we designed digital experiences for seven luxury developments in Dubai, including Omniyat projects. Each needed its own story and buyer journey; a shared system let every launch ship without starting from scratch."
 }

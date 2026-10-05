@@ -1452,7 +1452,19 @@ html body :is(.project-card,.team-card,.showcase-card,.blog-card,.rich-service-c
 
 /* Lists, forms, tables: hairlines only */
 .faq-list .faq-item,.check-grid li{border-color:rgba(255,255,255,.2)}
-.faq-list .faq-q{font-family:var(--font-heading);font-weight:500;letter-spacing:-.02em}
+/* FAQs are always open (owner decision): no buttons, no chevrons, answers visible, a quiet two-column rhythm */
+html body .faq-list:not(#_){max-width:1000px}
+html body .faq-list .faq-item:not(#_){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:12px 48px;padding:28px 0;border-bottom:1px solid rgba(255,255,255,.2)}
+html body .faq-list .faq-item:first-child:not(#_){border-top:1px solid rgba(255,255,255,.2)}
+html body .faq-h:not(#_){margin:0;font-family:var(--font-heading);font-size:19px;font-weight:500;line-height:1.35;letter-spacing:-.02em;color:#fff}
+html body .faq-a:not(#_){max-height:none;overflow:visible;padding:0;transition:none}
+html body .faq-a p:not(#_){margin:0;font-size:16px;line-height:1.7;color:rgba(255,255,255,.75);opacity:1;transform:none}
+html body .faq-a p+p:not(#_){margin-top:12px}
+html body .faq-chevron:not(#_){display:none}
+@media (max-width:760px){html body .faq-list .faq-item:not(#_){grid-template-columns:1fr;gap:10px;padding:24px 0}}
+html body .ground-light .faq-h:not(#_){color:#000}
+html body .ground-light .faq-a p:not(#_){color:rgba(0,0,0,.72)}
+html body .ground-light .faq-list .faq-item:not(#_){border-color:rgba(0,0,0,.1)}
 input,textarea,select{background:#000;border:1px solid rgba(255,255,255,.2);border-radius:var(--radius-sm)}
 input:focus,textarea:focus,select:focus{border-color:#fff;outline:none;box-shadow:0 0 0 4px rgb(238,239,244)}
 

@@ -3,7 +3,7 @@
   "action": "KEEP + EXPAND",
   "priority": "P1",
   "author": "Designit",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-06",
   "schemaType": "Article",
   "searchIntent": "evaluation",
   "funnelStage": "evaluation / vendor",
@@ -13,15 +13,15 @@
   "url": "/projects/kelp-global/",
   "file": "projects/kelp-global.html",
   "client": "Kelp Global",
-  "metaTitle": "Kelp Global Case Study: B2B SaaS Product Suite | Designit",
-  "metaDescription": "How Designit designed Kelp Global's sales product suite: a Chrome extension, the Truenorth analytics dashboard and a deals module, on one design system.",
-  "h1": "Kelp Global: three connected sales products on one design system",
+  "metaTitle": "Kelp Global Case Study: Private-Markets Products | Designit",
+  "metaDescription": "How Designit designed Kelp Global's products for private-markets teams: a deals module, an inbox plugin and the Truenorth investor portal, on one system.",
+  "h1": "Kelp Global: three connected products for investment teams on one design system",
   "eyebrow": [
-    "B2B SaaS",
-    "CRM intelligence",
+    "Fintech",
+    "Private markets",
     "Design system"
   ],
-  "subtitle": "Kelp Global helps sales teams manage leads, track deals and act on insight without switching tools. We designed its product suite: a browser extension, an analytics dashboard and a deals module, built on one shared system.",
+  "subtitle": "Kelp Global builds software for private-markets investment teams. We designed three connected products: a deals workspace, a plugin that files email to deals from the inbox, and the Truenorth investor portal, all on one shared design system.",
   "ctas": [
     {
       "label": "Discuss a similar problem",
@@ -87,9 +87,9 @@
       "type": "answer",
       "id": "executive-summary",
       "heading": "Executive summary",
-      "answer": "Kelp Global's sales reps and managers were piecing together customer intelligence, pipeline health and deal status from a CRM, email, LinkedIn and spreadsheets. Designit designed three connected products, a Chrome extension that brings contact intelligence into the workflow, the Truenorth analytics dashboard and an end-to-end deals module, on one shared design system.",
+      "answer": "Kelp Global's users work in private markets, where information about every deal arrives from many sources and decisions depend on comparing companies clearly. Designit designed three connected products on one shared design system: a deals module with a consistent one-pager for every company, a plugin that files emails and attachments to the right deals from the inbox, and the Truenorth investor portal for a fund's investors.",
       "body": [
-        "What changed is where information lives: inside the rep's workflow instead of in another tab, in one hierarchy from team to deal for managers, and in a pipeline whose health is visible at a glance."
+        "What changed is where information lives: on one record per company instead of in decks and inboxes, captured from email as it arrives, and shared with investors in one structured place."
       ]
     },
     {
@@ -99,19 +99,19 @@
       "items": [
         [
           "Industry",
-          "B2B SaaS, sales and CRM intelligence"
+          "Fintech, private-markets software"
         ],
         [
           "Product",
-          "Kelp browser plugin, Truenorth analytics dashboard, deals module"
+          "Deals module, Kelp plugin for the inbox, Truenorth investor portal"
         ],
         [
           "Users",
-          "Sales reps and sales managers"
+          "Deal teams, partners and fund investors"
         ],
         [
           "Our role",
-          "SaaS design, dashboard design, browser extension UX, design system"
+          "SaaS product design, data-dense UI, plugin UX, portal UX, design system"
         ],
         [
           "Scope",
@@ -124,11 +124,42 @@
       ]
     },
     {
+      "type": "statement",
+      "id": "problem-statement",
+      "text": "How might we give private-markets teams one trustworthy picture of every deal and relationship, and give their investors one calm place to find everything they are owed?"
+    },
+    {
+      "type": "empathy",
+      "id": "who-we-designed-for",
+      "heading": "Who we designed for",
+      "intro": "Deal teams, the partners they report to, and the investors in their funds, each with very different questions and very little time.",
+      "people": [
+        {
+          "who": "Deal teams",
+          "context": "Screen and diligence companies, and need one record per company with notes, numbers and documents."
+        },
+        {
+          "who": "Partners and committees",
+          "context": "Need consistent, comparable summaries to make decisions quickly."
+        },
+        {
+          "who": "Fund investors",
+          "context": "Need documents, portfolio information and meeting recordings without emailing investor relations."
+        }
+      ],
+      "painPoints": [
+        "Deal information was scattered across email, spreadsheets and decks.",
+        "Company summaries were rebuilt by hand in different formats.",
+        "Email context stayed in individual inboxes.",
+        "Investors had no single place for fund documents and updates."
+      ]
+    },
+    {
       "type": "prose",
       "id": "the-business-problem",
       "heading": "The business problem",
       "paras": [
-        "Weekly sales reviews took hours of manual compilation from spreadsheets, CRM exports and email threads. Deal tracking lived in spreadsheets with unclear stages and dropped handoffs, so managers could not see which deals were at risk until too late."
+        "Deal teams were rebuilding company summaries by hand, keeping notes and valuations in separate files, and comparing companies in ad-hoc spreadsheets. Investors in the funds received documents by email with no single place to find them later."
       ]
     },
     {
@@ -136,7 +167,7 @@
       "id": "the-user-problem",
       "heading": "The user problem",
       "paras": [
-        "Reps constantly switched between their CRM, email and LinkedIn to gather information about a customer, which cost selling time and led to missed signals. Managers had data but no single view of team performance."
+        "Analysts and partners needed the essentials of a deal in seconds and the detail one click away. Most deal context arrived by email and rarely reached the shared record. Investors visited occasionally, with a specific question, and needed to find the answer without asking."
       ]
     },
     {
@@ -145,19 +176,19 @@
       "heading": "What we did",
       "items": [
         {
+          "key": "Deals module",
+          "title": "One record per company",
+          "body": "A fixed one-pager structure, IC notes, valuation and documents on each deal, and a compare view that lines companies up on score, ownership and key financials."
+        },
+        {
           "key": "Kelp plugin",
-          "title": "Workflow shadowing, overlay architecture",
-          "body": "We observed reps at work, then designed an overlay that surfaces intelligence in place, using progressive disclosure for quick lookups and deeper research, tested across browsers."
+          "title": "Capture from the inbox",
+          "body": "A panel beside the email to tag contacts, link deals or companies and save the message and attachments to Kelp in one pass."
         },
         {
           "key": "Truenorth",
-          "title": "Manager interviews, dashboard hierarchy",
-          "body": "A drill-down from team to individual deal, with templates that support different sales methodologies."
-        },
-        {
-          "key": "Deals module",
-          "title": "Lifecycle mapping, pipeline design",
-          "body": "Customisable pipeline stages, health scoring and collaboration features that make deal status visible at a glance."
+          "title": "An investor portal",
+          "body": "Funds, transactions, shared documents by type, portfolio companies by fund, and an annual meeting hub with an agenda and speaker profiles."
         },
         {
           "key": "System",
@@ -172,35 +203,18 @@
       "heading": "Key lessons",
       "items": [
         "<strong>Bring information to the workflow.</strong> Don't make people go and find it.",
-        "<strong>Dashboards need a hierarchy.</strong> Team level first, then the deal behind the number.",
-        "<strong>Make pipeline health visible at a glance.</strong> Risk found late is risk you can't act on.",
+        "<strong>Standardise the summary.</strong> A committee can only compare what is described the same way.",
+        "<strong>Make comparison a view, not a spreadsheet.</strong> The decision happens across companies.",
         "<strong>Design the suite, not three products.</strong> Shared conventions reduce relearning."
       ]
     },
     {
-      "type": "modules",
+      "type": "casegrid",
       "id": "every-module",
-      "heading": "Every Kelp Global module",
-      "items": [
-        {
-          "href": "/projects/kelp-global/kelp-plugin/",
-          "title": "Kelp Plugin",
-          "desc": "Browser plugin for real-time customer intelligence within workflow.",
-          "img": "/assets/projects/kelp/plugin-hero.webp"
-        },
-        {
-          "href": "/projects/kelp-global/truenorth/",
-          "title": "Truenorth Analytics",
-          "desc": "Analytics and reporting interface for sales performance insights.",
-          "img": "/assets/projects/kelp/truenorth-hero.webp"
-        },
-        {
-          "href": "/projects/kelp-global/deals-module/",
-          "title": "Deals Module",
-          "desc": "Deal pipeline management interface for tracking and closing deals.",
-          "img": "/assets/projects/kelp/deals-hero.webp"
-        }
-      ]
+      "eyebrow": "Case studies",
+      "heading": "Every Kelp Global case study",
+      "client": "/projects/kelp-global/",
+      "gridId": "client-cases"
     },
     {
       "type": "quotes",
@@ -237,11 +251,69 @@
   "faq": [
     {
       "q": "What did Designit design for Kelp Global?",
-      "a": "Three connected products: a Chrome extension surfacing contact intelligence inside a rep's workflow, the Truenorth analytics dashboard for sales managers, and an end-to-end deals module, all on one shared design system."
+      "a": "Three connected products on one shared design system: a deals module with a consistent one-pager, IC notes, valuation and comparison for every company; a plugin that files emails, contacts and attachments to deals from the inbox; and the Truenorth investor portal for a fund's investors."
+    },
+    {
+      "q": "What makes software for private-markets teams hard to design?",
+      "a": "The density and the stakes: a lot of information per company, decisions that depend on comparing companies consistently, and users with very little time. Kelp's Head of CX described the work as simplifying and communicating complex data through tables, graphs and visualisations."
+    },
+    {
+      "q": "Why put three products on one design system?",
+      "a": "So people moving between the deals module, the plugin and the investor portal never relearn conventions, and so the team can extend the products faster."
     },
     {
       "q": "Are outcome metrics published for this project?",
       "a": "Not on this page. Ask us on a call and we can talk through results we're able to share."
+    },
+    {
+      "q": "What is a company one-pager in private equity?",
+      "a": "A short, standardised summary used to screen and discuss a deal: what the company does, why it is different, who founded and owns it, where it operates and the key numbers. Standardising it lets a committee read across deals."
+    },
+    {
+      "q": "What is an LP investor portal?",
+      "a": "A secure site where a fund's investors find their documents, reports, notices and portfolio information. Truenorth's portal also hosts the annual meeting with an agenda and speaker profiles."
+    },
+    {
+      "q": "Why capture deal emails from inside the inbox?",
+      "a": "Because that is where most deal information arrives. A plugin that saves the email, its contacts and attachments to the right deal in one pass keeps the shared record complete without extra admin."
+    },
+    {
+      "q": "Can Designit design data-dense dashboards and tables for fintech products?",
+      "a": "Yes. Dense, decision-critical screens are a large part of this work: fixed structures, clear hierarchy for the few numbers that matter, and comparison views instead of exports. See our SaaS product design service."
+    },
+    {
+      "q": "Where can I see each Kelp product in detail?",
+      "a": "The deals module, the Kelp plugin and the Truenorth investor portal each have their own case study, linked above."
     }
-  ]
+  ],
+  "template": "client",
+  "clientUrl": "/projects/kelp-global/",
+  "kicker": "Client · Fintech",
+  "hero": {
+    "src": "/assets/projects/kelp/deals-hero.webp",
+    "alt": "Kelp deals module on a laptop"
+  },
+  "meta": [
+    [
+      "Client",
+      "Kelp Global"
+    ],
+    [
+      "Industry",
+      "Fintech · private markets"
+    ],
+    [
+      "Deliverables",
+      "SaaS product design, data-dense UI, plugin UX, portal UX, design system"
+    ],
+    [
+      "Platform",
+      "Web app, inbox plugin, investor portal"
+    ],
+    [
+      "Case studies",
+      "3 products"
+    ]
+  ],
+  "summary": "Kelp Global builds software for private-markets investment teams. We designed three connected products: a deals workspace, a plugin that files email to deals from the inbox, and the Truenorth investor portal, all on one shared design system."
 }

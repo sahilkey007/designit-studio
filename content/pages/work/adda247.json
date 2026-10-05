@@ -3,7 +3,7 @@
   "action": "KEEP + EXPAND",
   "priority": "P1",
   "author": "Designit",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-06",
   "schemaType": "Article",
   "searchIntent": "evaluation",
   "funnelStage": "evaluation / vendor",
@@ -129,6 +129,37 @@
       ]
     },
     {
+      "type": "statement",
+      "id": "problem-statement",
+      "text": "How might we make a platform that grew module by module feel like one learning product, organised around how students actually prepare for exams?"
+    },
+    {
+      "type": "empathy",
+      "id": "who-we-designed-for",
+      "heading": "Who we designed for",
+      "intro": "Adda247 serves aspirants for SSC, banking, railway, defence and IIT-JEE exams, the teachers who teach them, and the teams who run the platform.",
+      "people": [
+        {
+          "who": "Aspirants",
+          "context": "Practise mock tests, attend live classes and study from purchased content, often on a phone and a patchy connection."
+        },
+        {
+          "who": "Teachers",
+          "context": "Teach live from studios and smart boards, and need tools that keep up with them."
+        },
+        {
+          "who": "Adda247 teams",
+          "context": "Own different modules and needed them to feel like one product, with engagement that turns into paid plans."
+        }
+      ],
+      "painPoints": [
+        "Each module solved its own problem in its own way.",
+        "Valuable features were buried behind navigation.",
+        "Purchased content was organised by product, not by learning need.",
+        "Performance data existed but was not turned into next steps."
+      ]
+    },
+    {
       "type": "prose",
       "id": "the-business-problem",
       "heading": "The business problem",
@@ -184,65 +215,12 @@
       ]
     },
     {
-      "type": "modules",
+      "type": "casegrid",
       "id": "every-module",
-      "heading": "Every Adda247 module",
-      "items": [
-        {
-          "href": "/projects/adda247/homepage-revamp/",
-          "title": "Homepage Revamp",
-          "desc": "Revamping the Adda247 home screen to enhance onboarding, boost engagement, and drive free-to-paid conversion for 3M+ competitive exam students.",
-          "img": "/assets/projects/adda247/homepage-revamp-hero.webp"
-        },
-        {
-          "href": "/projects/adda247/test-series/",
-          "title": "Test Series Enhancement",
-          "desc": "Comprehensive upgrade of the online test-taking experience with real-time progress tracking, smart navigation, and detailed performance analytics.",
-          "img": "/assets/projects/adda247/test-series-hero.webp"
-        },
-        {
-          "href": "/projects/adda247/live-class/",
-          "title": "Live Class Module",
-          "desc": "In-house live streaming module replacing third-party services with real-time interaction, content sharing, and engagement tools.",
-          "img": "/assets/projects/adda247/live-class-hero.webp"
-        },
-        {
-          "href": "/projects/adda247/ios-app/",
-          "title": "iOS & iPad App",
-          "desc": "Expanding Adda247's reach to Apple users with a native iOS and iPad experience following platform-specific design conventions.",
-          "img": "/assets/projects/adda247/ios-hero.webp"
-        },
-        {
-          "href": "/projects/adda247/studio-app/",
-          "title": "Studio App for Smart Boards",
-          "desc": "In-house application enhancing teaching with smart board tools for recording, annotation, and content sharing.",
-          "img": "/assets/projects/adda247/studio-hero.webp"
-        },
-        {
-          "href": "/projects/adda247/my-content/",
-          "title": "My Content",
-          "desc": "User-centric content consumption redesign shifting from package-centric to learner-centric with clear progress tracking.",
-          "img": "/assets/projects/adda247/my-content-hero.webp"
-        },
-        {
-          "href": "/projects/adda247/community/",
-          "title": "Community Module",
-          "desc": "Building a collaborative community for peer-to-peer learning, doubt resolution, and gamified knowledge sharing.",
-          "img": "/assets/projects/adda247/community-hero.webp"
-        },
-        {
-          "href": "/projects/adda247/performance-dashboard/",
-          "title": "Performance Dashboard",
-          "desc": "Analytics that turn test performance and study patterns into personalised improvement paths for students.",
-          "img": "/assets/projects/adda247/thumb-performance-dashboard.webp"
-        },
-        {
-          "href": "/projects/adda247/sankalp-bharat/",
-          "title": "Sankalp Bharat App",
-          "desc": "Turning a low-engagement home feed into a personalised learning hub for IIT/JEE aspirants.",
-          "img": "/assets/projects/adda247/thumb-sankalp-bharat.webp"
-        }
-      ]
+      "eyebrow": "Case studies",
+      "heading": "Every Adda247 case study",
+      "client": "/projects/adda247/",
+      "gridId": "client-cases"
     },
     {
       "type": "quotes",
@@ -284,6 +262,18 @@
   ],
   "faq": [
     {
+      "q": "Which Adda247 products did Designit design?",
+      "a": "Nine modules, each with its own case study: the homepage revamp, test series, live classes, My Content, the performance dashboard, the Sankalp Bharat app, the Studio app for smart boards, the community module and the native iOS and iPad apps."
+    },
+    {
+      "q": "How do you redesign a large EdTech platform without starting from scratch?",
+      "a": "Module by module, around a shared set of principles and components. Each module started from its own users and problem, while a shared design language kept the platform coherent."
+    },
+    {
+      "q": "What makes UX design for competitive-exam apps different?",
+      "a": "The stakes and the constraints: timed, high-pressure practice, very large audiences on mid-range phones and variable networks, and students who need to know exactly what to study next."
+    },
+    {
       "q": "What did Designit design for Adda247?",
       "a": "Modules across Adda247's exam-preparation platform: the homepage, test series, live class module, performance dashboard, My Content, community, a studio app for classroom smart boards, the Sankalp Bharat app, and native iOS and iPad apps."
     },
@@ -294,6 +284,52 @@
     {
       "q": "Are outcome metrics published for this project?",
       "a": "Not on this page. Ask us on a call and we can talk through results we're able to share."
+    },
+    {
+      "q": "Did Designit design for web and mobile together?",
+      "a": "Yes. The Adda247 work spans the web test player and content library, the Android apps, a native iOS and iPad app and a smart-board app for teachers, with shared principles so the experience stays consistent across them."
+    },
+    {
+      "q": "How do you design EdTech products for students on low-bandwidth connections?",
+      "a": "Plan for poor networks from the start: lightweight screens, visible save states in timed tests, and graceful fallbacks such as audio-only live classes with slide sync and clear reconnection flows."
+    },
+    {
+      "q": "How should an EdTech company measure whether a redesign worked?",
+      "a": "Agree the metric before designing: test completion, class attendance, content consumption, daily return or free-to-paid conversion, depending on the module. Then compare like for like after launch."
+    },
+    {
+      "q": "Where can I see each Adda247 module in detail?",
+      "a": "Every module has its own case study, linked above, with the problem statement, who we designed for, the approach, the screens and a FAQ."
     }
-  ]
+  ],
+  "template": "client",
+  "clientUrl": "/projects/adda247/",
+  "kicker": "Client · EdTech",
+  "hero": {
+    "src": "/assets/projects/adda247/homepage-revamp-hero.webp",
+    "alt": "Adda247 app screens on two phones"
+  },
+  "meta": [
+    [
+      "Client",
+      "Adda247"
+    ],
+    [
+      "Industry",
+      "EdTech · competitive exams"
+    ],
+    [
+      "Deliverables",
+      "UX research, product strategy, UI/UX design, design system, mobile apps"
+    ],
+    [
+      "Platform",
+      "Web, Android, iOS and iPad"
+    ],
+    [
+      "Case studies",
+      "9 modules"
+    ]
+  ],
+  "summary": "Adda247 helps millions of aspirants prepare for India's competitive government exams. We redesigned modules across the platform around how learners actually study, so it works as one product rather than a set of separate features."
 }

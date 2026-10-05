@@ -94,15 +94,7 @@ html body .ui-stage :is(.subtitle,p):not(.page-meta):not(#_) { color: rgba(255, 
 .stage.ui-active, .step.ui-active { border-color: rgba(255, 255, 255, .6); }
 .ground-light .stage.ui-active, .ground-light .step.ui-active { border-color: rgba(0, 0, 0, .35); }
 
-/* --- FAQ (SmoothUI-style motion accordion) --- */
-.faq-list .faq-item { transition: border-color .4s ease; }
-.faq-list .faq-item.open { border-bottom-color: rgba(255, 255, 255, .28); }
-.faq-list .faq-a { transition: max-height .35s var(--ui-ease), padding .35s var(--ui-ease); }
-.faq-list .faq-a p { opacity: .0; transform: translateY(-6px); transition: opacity .25s ease .05s, transform .3s var(--ui-ease) .05s; }
-.faq-list .faq-item.open .faq-a p { opacity: 1; transform: none; }
-.faq-list .faq-chevron { transition: transform .5s var(--ui-ease), color .3s; }
-.faq-list .faq-item.open .faq-chevron, .faq-list .faq-q:hover .faq-chevron { color: #fff; }
-.faq-q:focus-visible { outline: 2px solid #fff; outline-offset: 4px; border-radius: 6px; }
+/* --- FAQ: always open (see ds-below.css); nothing to animate --- */
 
 /* --- Logo marquee pause control (layout lives in page.css) --- */
 .logo-pause {
@@ -141,7 +133,6 @@ html body .ui-stage :is(.subtitle,p):not(.page-meta):not(#_) { color: rgba(255, 
   .ui-pre, .ui-pre.ui-in { opacity: 1; transform: none; transition: none; }
   .geo-cta-section.ui-stage::before { animation: none; --ui-beam: 50%; }
   .ui-shader { transition: none; }
-  .faq-list .faq-a, .faq-list .faq-a p { transition: none; }
 }
 
 /* --- Card interactions (paint-only). The system says hover darkens or brightens a hairline and nothing scales;

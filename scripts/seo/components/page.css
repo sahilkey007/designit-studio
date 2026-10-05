@@ -67,6 +67,8 @@ a.card:hover{border-color:var(--border-medium);transform:translateY(-2px)}
 .work-card .wc-body{padding:24px 26px 26px;display:flex;flex-direction:column;flex:1}
 .work-card h3{font-size:22px;font-weight:600;color:#fff;margin:0 0 4px}
 .work-card .wc-product{font-size:15px;color:#cfcfcf;margin:0 0 14px}
+.wc-tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0 0 18px;padding:0}
+.wc-tags li{font-size:13px;line-height:1;padding:8px 12px;border-radius:9999px;border:1px solid rgba(255,255,255,.22);color:rgba(255,255,255,.85)}
 .work-card dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0 0 16px;font-size:14px}
 .work-card dt{color:#8f8f8f}
 .work-card dd{margin:0;color:var(--text-secondary,#ccc)}

@@ -837,7 +837,7 @@
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
     "author": "Designit",
-    "updatedAt": "2026-10-04",
+    "updatedAt": "2026-10-06",
     "schemaType": "CollectionPage",
     "evidenceIds": [
       "EV-ADDA-SCOPE",
@@ -863,8 +863,8 @@
     "priority": "P1",
     "action": "KEEP + REWRITE",
     "h2s": [
-      "Client engagements",
       "Every case study",
+      "Client overviews",
       "What the people we worked with say",
       "FAQ"
     ],
@@ -872,7 +872,12 @@
       "What case studies does Designit have?",
       "What was designed for Adda247?",
       "What was designed for Kelp Global?",
-      "Can we see work that isn't published here?"
+      "Can we see work that isn't published here?",
+      "How is each Designit case study structured?",
+      "Which industries does Designit have case studies in?",
+      "Do the case studies include web, mobile and other platforms?",
+      "How do I choose the right case study to read?",
+      "Can I talk to Designit about a project similar to one of these?"
     ],
     "internalLinks": [
       "/",
@@ -923,7 +928,7 @@
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
     "author": "Designit",
-    "updatedAt": "2026-10-04",
+    "updatedAt": "2026-10-06",
     "schemaType": "Article",
     "evidenceIds": [
       "EV-ADDA-SCOPE",
@@ -956,19 +961,27 @@
     "h2s": [
       "Executive summary",
       "Project facts",
+      "Who we designed for",
       "The business problem",
       "The user problem",
       "What we did",
       "Key lessons",
-      "Every Adda247 module",
+      "Every Adda247 case study",
       "What the Adda247 team says",
       "Related",
       "FAQ"
     ],
     "faq": [
+      "Which Adda247 products did Designit design?",
+      "How do you redesign a large EdTech platform without starting from scratch?",
+      "What makes UX design for competitive-exam apps different?",
       "What did Designit design for Adda247?",
       "Which platforms did the work cover?",
-      "Are outcome metrics published for this project?"
+      "Are outcome metrics published for this project?",
+      "Did Designit design for web and mobile together?",
+      "How do you design EdTech products for students on low-bandwidth connections?",
+      "How should an EdTech company measure whether a redesign worked?",
+      "Where can I see each Adda247 module in detail?"
     ],
     "internalLinks": [
       "/",
@@ -990,6 +1003,526 @@
     ],
     "file": "projects/adda247.html"
   },
+  "/projects/adda247/community/": {
+    "url": "/projects/adda247/community/",
+    "pageType": "case-study",
+    "metaTitle": "Community Module — Adda 247 | Designit Case Study",
+    "metaDescription": "Building a collaborative community for peer-to-peer learning, doubt resolution, and gamified knowledge sharing on Adda 247.",
+    "h1": "Community Module",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Community Module?",
+      "What problem did Community Module solve?",
+      "How did Designit approach Community Module?",
+      "Why add a community to an EdTech app?",
+      "What features does a learning community need?",
+      "Does gamification work in learning communities?",
+      "How do you keep a student community useful rather than noisy?",
+      "How long does a Designit engagement take?",
+      "Which regions does Designit work with?",
+      "Who actually works on the engagement?",
+      "What tools does the studio work in?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/adda247/ios-app/",
+      "/projects/kelp-global/deals-module/",
+      "/start-a-project/"
+    ],
+    "file": "projects/adda247/community.html"
+  },
+  "/projects/adda247/homepage-revamp/": {
+    "url": "/projects/adda247/homepage-revamp/",
+    "pageType": "case-study",
+    "metaTitle": "Homepage Revamp — Adda247 | Designit Case Study",
+    "metaDescription": "Revamping the Adda247 home screen to improve onboarding, boost engagement and drive free-to-paid conversion for 3M+ competitive exam students.",
+    "h1": "Keeping ADDA Home Simple &amp; Approachable",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Keeping ADDA Home Simple & Approachable?",
+      "What problem did Keeping ADDA Home Simple & Approachable solve?",
+      "How did Designit approach Keeping ADDA Home Simple & Approachable?",
+      "What should an EdTech app's home screen show first?",
+      "How do you improve free-to-paid conversion without hurting engagement?",
+      "Why does heavy hamburger-menu use matter?",
+      "How do you decide what goes above the fold?",
+      "What are engagement boosters in a learning app?",
+      "How long does a Designit engagement take?",
+      "Which regions does Designit work with?",
+      "Who actually works on the engagement?",
+      "What tools does the studio work in?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/adda247/live-class/",
+      "/projects/adda247/test-series/",
+      "/projects/kelp-global/deals-module/",
+      "/start-a-project/"
+    ],
+    "file": "projects/adda247/homepage-revamp.html"
+  },
+  "/projects/adda247/ios-app/": {
+    "url": "/projects/adda247/ios-app/",
+    "pageType": "case-study",
+    "metaTitle": "iOS & iPad App — Adda 247 | Designit Case Study",
+    "metaDescription": "Expanding Adda247's reach to Apple users with a native iOS and iPad experience following platform-specific design conventions.",
+    "h1": "iOS &amp; iPad App",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is iOS & iPad App?",
+      "What problem did iOS & iPad App solve?",
+      "How did Designit approach iOS & iPad App?",
+      "Should you build a native iOS app or port the Android app?",
+      "How should an iPad app differ from the iPhone app?",
+      "What makes an education app feel native on iOS?",
+      "How do students continue across iPhone and iPad?",
+      "How long does a Designit engagement take?",
+      "Which regions does Designit work with?",
+      "Who actually works on the engagement?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/kelp-global/deals-module/",
+      "/start-a-project/"
+    ],
+    "file": "projects/adda247/ios-app.html"
+  },
+  "/projects/adda247/live-class/": {
+    "url": "/projects/adda247/live-class/",
+    "pageType": "case-study",
+    "metaTitle": "Live Class Module — Adda 247 | Designit Case Study",
+    "metaDescription": "In-house live streaming module replacing third-party services with real-time interaction, content sharing, and engagement tools for competitive exam…",
+    "h1": "Live Class Module",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Live Class Module?",
+      "What problem did Live Class Module solve?",
+      "How did Designit approach Live Class Module?",
+      "Should an EdTech platform build its own live class tool or use Zoom?",
+      "What features does a live class app need?",
+      "How do you increase engagement in online live classes?",
+      "How do you design live classes for low-bandwidth users?",
+      "How should class recordings work?",
+      "How long does a Designit engagement take?",
+      "Which regions does Designit work with?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/adda247/my-content/",
+      "/projects/kelp-global/deals-module/",
+      "/start-a-project/"
+    ],
+    "file": "projects/adda247/live-class.html"
+  },
+  "/projects/adda247/my-content/": {
+    "url": "/projects/adda247/my-content/",
+    "pageType": "case-study",
+    "metaTitle": "My Content — Adda 247 | Designit Case Study",
+    "metaDescription": "User-centric content consumption redesign shifting from package-centric to learner-centric with clear progress tracking and personalized recommendations.",
+    "h1": "My Content",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is My Content?",
+      "What problem did My Content solve?",
+      "How did Designit approach My Content?",
+      "How should an online course library be organised?",
+      "How do you show learning progress across many courses?",
+      "What is card sorting and why did it matter here?",
+      "How do you help students decide what to study next?",
+      "How long does a Designit engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/adda247/performance-dashboard/",
+      "/projects/kelp-global/deals-module/",
+      "/start-a-project/"
+    ],
+    "file": "projects/adda247/my-content.html"
+  },
+  "/projects/adda247/performance-dashboard/": {
+    "url": "/projects/adda247/performance-dashboard/",
+    "pageType": "case-study",
+    "metaTitle": "Performance Dashboard — Adda 247 | Designit Case Study",
+    "metaDescription": "Comprehensive analytics dashboard providing actionable insights into test performance, study patterns, and personalized improvement paths for Adda 247 students.",
+    "h1": "Performance Dashboard",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Performance Dashboard?",
+      "What problem did Performance Dashboard solve?",
+      "How did Designit approach Performance Dashboard?",
+      "What should a student performance dashboard show?",
+      "Which charts work best for learners?",
+      "How do you design analytics for very different users?",
+      "Why lead with a recommendation instead of the score?",
+      "How long does a Designit engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/adda247/sankalp-bharat/",
+      "/projects/kelp-global/deals-module/",
+      "/start-a-project/"
+    ],
+    "file": "projects/adda247/performance-dashboard.html"
+  },
+  "/projects/adda247/sankalp-bharat/": {
+    "url": "/projects/adda247/sankalp-bharat/",
+    "pageType": "case-study",
+    "metaTitle": "Sankalp Bharat App — Adda 247 | Designit Case Study",
+    "metaDescription": "Transforming the home screen for IIT/JEE aspirants from a low-engagement feed to a value-driven, personalized learning hub.",
+    "h1": "Sankalp Bharat App",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Sankalp Bharat App?",
+      "What problem did Sankalp Bharat App solve?",
+      "How did Designit approach Sankalp Bharat App?",
+      "How do you design a home screen that drives daily engagement?",
+      "How was the new home screen validated?",
+      "Should the home screen change as the exam gets closer?",
+      "What is a good way to introduce premium features to free users?",
+      "How long does a Designit engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/adda247/studio-app/",
+      "/projects/kelp-global/deals-module/",
+      "/start-a-project/"
+    ],
+    "file": "projects/adda247/sankalp-bharat.html"
+  },
+  "/projects/adda247/studio-app/": {
+    "url": "/projects/adda247/studio-app/",
+    "pageType": "case-study",
+    "metaTitle": "Studio App for Smart Boards — Adda 247 | Designit Case Study",
+    "metaDescription": "In-house application enhancing teaching with smart board tools for recording, annotation, and content sharing at Adda 247.",
+    "h1": "Studio App for Smart Boards",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Studio App for Smart Boards?",
+      "What problem did Studio App for Smart Boards solve?",
+      "How did Designit approach Studio App for Smart Boards?",
+      "How do you design for smart boards and large touch displays?",
+      "What tools do teachers need on a digital whiteboard?",
+      "Why a floating toolbar?",
+      "How do classroom recordings get published faster?",
+      "How long does a Designit engagement take?",
+      "Which regions does Designit work with?",
+      "Who actually works on the engagement?",
+      "What tools does the studio work in?",
+      "What are the engagement models and what do they cost?",
+      "What is included when the work is handed over?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/adda247/community/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/kelp-global/deals-module/",
+      "/start-a-project/"
+    ],
+    "file": "projects/adda247/studio-app.html"
+  },
+  "/projects/adda247/test-series/": {
+    "url": "/projects/adda247/test-series/",
+    "pageType": "case-study",
+    "metaTitle": "Test Series Enhancement — Adda 247 | Designit Case Study",
+    "metaDescription": "Comprehensive upgrade of the online test-taking experience for competitive exam students with real-time progress tracking and smart question navigation.",
+    "h1": "Test Series Enhancement",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Test Series Enhancement?",
+      "What problem did Test Series Enhancement solve?",
+      "How did Designit approach Test Series Enhancement?",
+      "What makes a good online mock test interface?",
+      "How should test results be presented to students?",
+      "How do you reduce test anxiety through design?",
+      "Why did the sidebar question navigator win?",
+      "Should mock tests allow students to retry only the questions they got wrong?",
+      "How long does a Designit engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/adda247/live-class/",
+      "/projects/kelp-global/deals-module/",
+      "/start-a-project/"
+    ],
+    "file": "projects/adda247/test-series.html"
+  },
   "/projects/betacrew/": {
     "url": "/projects/betacrew/",
     "pageType": "case-study",
@@ -1006,7 +1539,7 @@
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
     "author": "Designit",
-    "updatedAt": "2026-10-04",
+    "updatedAt": "2026-10-06",
     "schemaType": "Article",
     "evidenceIds": [
       "EV-BETACREW-SCOPE"
@@ -1036,16 +1569,24 @@
     "h2s": [
       "Executive summary",
       "Project facts",
+      "Who we designed for",
       "The business and user problem",
       "What we did",
       "Key lessons",
-      "Read the full case study",
+      "The Portle case study",
       "Related",
       "FAQ"
     ],
     "faq": [
+      "What did Designit design for Betacrew?",
+      "Why consolidate API tools into one platform?",
       "What is Portle?",
-      "How does the white-label system work?"
+      "How does the white-label system work?",
+      "What is white-label theming?",
+      "How do you design a developer tool?",
+      "How do you keep API documentation from going stale?",
+      "Can Designit work on B2B developer platforms and SaaS products?",
+      "Where can I see the Portle case study?"
     ],
     "internalLinks": [
       "/",
@@ -1057,12 +1598,72 @@
     ],
     "file": "projects/betacrew.html"
   },
+  "/projects/betacrew/portle/": {
+    "url": "/projects/betacrew/portle/",
+    "pageType": "case-study",
+    "metaTitle": "Portle Case Study — Betacrew Fintech UX | Designit",
+    "metaDescription": "Case study: Portle, a developer-first API management platform for Betacrew that unifies API design, testing, documentation and monitoring in one interface.",
+    "h1": "Portle",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Portle?",
+      "What problem did Portle solve?",
+      "How did Designit approach Portle?",
+      "What is an API management platform?",
+      "How do you keep API documentation up to date?",
+      "How do you design a developer tool for both juniors and seniors?",
+      "What does white-label mean for a developer portal?",
+      "What results did Portle deliver?",
+      "How long does a Designit engagement take?",
+      "Who actually works on the engagement?",
+      "What tools does the studio work in?",
+      "What are the engagement models and what do they cost?",
+      "Which sectors has the studio shipped work in?",
+      "What is included when the work is handed over?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/betacrew/",
+      "/start-a-project/"
+    ],
+    "file": "projects/betacrew/portle.html"
+  },
   "/projects/kelp-global/": {
     "url": "/projects/kelp-global/",
     "pageType": "case-study",
-    "metaTitle": "Kelp Global Case Study: B2B SaaS Product Suite | Designit",
-    "metaDescription": "How Designit designed Kelp Global's sales product suite: a Chrome extension, the Truenorth analytics dashboard and a deals module, on one design system.",
-    "h1": "Kelp Global: three connected sales products on one design system",
+    "metaTitle": "Kelp Global Case Study: Private-Markets Products | Designit",
+    "metaDescription": "How Designit designed Kelp Global's products for private-markets teams: a deals module, an inbox plugin and the Truenorth investor portal, on one system.",
+    "h1": "Kelp Global: three connected products for investment teams on one design system",
     "primaryKeyword": "b2b saas design case study",
     "secondaryKeywords": [
       "crm dashboard design",
@@ -1073,7 +1674,7 @@
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
     "author": "Designit",
-    "updatedAt": "2026-10-04",
+    "updatedAt": "2026-10-06",
     "schemaType": "Article",
     "evidenceIds": [
       "EV-KELP-SCOPE",
@@ -1104,18 +1705,26 @@
     "h2s": [
       "Executive summary",
       "Project facts",
+      "Who we designed for",
       "The business problem",
       "The user problem",
       "What we did",
       "Key lessons",
-      "Every Kelp Global module",
+      "Every Kelp Global case study",
       "What the Kelp Global team says",
       "Related",
       "FAQ"
     ],
     "faq": [
       "What did Designit design for Kelp Global?",
-      "Are outcome metrics published for this project?"
+      "What makes software for private-markets teams hard to design?",
+      "Why put three products on one design system?",
+      "Are outcome metrics published for this project?",
+      "What is a company one-pager in private equity?",
+      "What is an LP investor portal?",
+      "Why capture deal emails from inside the inbox?",
+      "Can Designit design data-dense dashboards and tables for fintech products?",
+      "Where can I see each Kelp product in detail?"
     ],
     "internalLinks": [
       "/",
@@ -1129,6 +1738,180 @@
       "/start-a-project/"
     ],
     "file": "projects/kelp-global.html"
+  },
+  "/projects/kelp-global/deals-module/": {
+    "url": "/projects/kelp-global/deals-module/",
+    "pageType": "case-study",
+    "metaTitle": "Deals Module Case Study — Kelp Global | Designit",
+    "metaDescription": "How Designit designed Kelp's deals module for investment teams: company one-pagers, IC notes, valuations and side-by-side comparison in one place.",
+    "h1": "Deals Module",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is the Kelp deals module?",
+      "What problem did the Kelp deals module solve?",
+      "How did Designit approach the Kelp deals module?",
+      "What should deal management software for private equity include?",
+      "What is a company one-pager in private equity?",
+      "How do you design data-dense screens for analysts?",
+      "How do you design a comparison table that people actually use?",
+      "What was the hardest part of designing for investment teams?",
+      "How long does a Designit engagement take?",
+      "Which regions does Designit work with?",
+      "Who actually works on the engagement?",
+      "What tools does the studio work in?",
+      "What are the engagement models and what do they cost?",
+      "Which sectors has the studio shipped work in?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/kelp-global/",
+      "/projects/kelp-global/kelp-plugin/",
+      "/projects/kelp-global/truenorth/",
+      "/start-a-project/"
+    ],
+    "file": "projects/kelp-global/deals-module.html"
+  },
+  "/projects/kelp-global/kelp-plugin/": {
+    "url": "/projects/kelp-global/kelp-plugin/",
+    "pageType": "case-study",
+    "metaTitle": "Kelp Plugin Case Study — Kelp Global | Designit",
+    "metaDescription": "How Designit designed the Kelp plugin: file an email, its contacts and attachments to the right deal or company in Kelp without leaving the inbox.",
+    "h1": "Kelp Plugin",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is the Kelp plugin?",
+      "What problem did the Kelp plugin solve?",
+      "How did Designit approach the Kelp plugin?",
+      "Why do investment teams need an email plugin for their CRM?",
+      "How do you design a plugin panel that people actually use?",
+      "How do you link one email to several deals or companies?",
+      "What is relationship intelligence in private markets?",
+      "How long does a Designit engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/kelp-global/",
+      "/projects/kelp-global/deals-module/",
+      "/projects/kelp-global/truenorth/",
+      "/start-a-project/"
+    ],
+    "file": "projects/kelp-global/kelp-plugin.html"
+  },
+  "/projects/kelp-global/truenorth/": {
+    "url": "/projects/kelp-global/truenorth/",
+    "pageType": "case-study",
+    "metaTitle": "Truenorth Investor Portal Case Study | Designit",
+    "metaDescription": "How Designit designed the Truenorth investor portal on Kelp: fund documents, portfolio companies and the annual meeting in one secure place for investors.",
+    "h1": "Truenorth Investor Portal",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is the Truenorth investor portal?",
+      "What problem did the Truenorth investor portal solve?",
+      "How did Designit approach the Truenorth investor portal?",
+      "What is an investor portal in private equity?",
+      "What features should an LP investor portal have?",
+      "How do you organise documents in an investor portal?",
+      "How do you make a long recorded event easy to navigate?",
+      "Was the Truenorth portal built on the same design system as Kelp?",
+      "How long does a Designit engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/kelp-global/",
+      "/projects/kelp-global/deals-module/",
+      "/start-a-project/"
+    ],
+    "file": "projects/kelp-global/truenorth.html"
   },
   "/projects/rcentric/": {
     "url": "/projects/rcentric/",
@@ -1146,7 +1929,7 @@
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
     "author": "Designit",
-    "updatedAt": "2026-10-04",
+    "updatedAt": "2026-10-06",
     "schemaType": "Article",
     "evidenceIds": [
       "EV-RCENTRIC-SCOPE",
@@ -1177,16 +1960,24 @@
     "h2s": [
       "Executive summary",
       "Project facts",
+      "Who we designed for",
       "The business and buyer problem",
       "What we did",
       "Key lessons",
-      "Every property",
+      "Every R-Centric property",
       "Related",
       "FAQ"
     ],
     "faq": [
+      "Which Omniyat properties did Designit design websites for?",
+      "How do you keep several luxury property sites distinctive but consistent?",
       "Which properties did Designit design for R-Centric?",
-      "Why a shared system across properties?"
+      "Why a shared system across properties?",
+      "What features should a luxury real estate website in Dubai have?",
+      "What is scrollytelling?",
+      "How do you turn property website visitors into qualified enquiries?",
+      "Do the property websites support international buyers?",
+      "Where can I see each property in detail?"
     ],
     "internalLinks": [
       "/",
@@ -1205,6 +1996,402 @@
     ],
     "file": "projects/rcentric.html"
   },
+  "/projects/rcentric/anwa-aria/": {
+    "url": "/projects/rcentric/anwa-aria/",
+    "pageType": "case-study",
+    "metaTitle": "Anwa Aria — R-Centric (Omniyat) — Designit",
+    "metaDescription": "Case study: website for Anwa Aria, a luxury tower in Dubai Maritime City, built to give a newer waterfront district credibility against Palm Jumeirah.",
+    "h1": "Anwa Aria",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Anwa Aria?",
+      "What problem did Anwa Aria solve?",
+      "How did Designit approach Anwa Aria?",
+      "What features should a luxury real estate website in Dubai have?",
+      "How do you design a property website for international buyers?",
+      "Were the Omniyat property websites built on one design system?",
+      "How do you market a property in an emerging location?",
+      "How long does a Designit engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/rcentric/",
+      "/projects/rcentric/ela/",
+      "/projects/rcentric/liv/",
+      "/start-a-project/"
+    ],
+    "file": "projects/rcentric/anwa-aria.html"
+  },
+  "/projects/rcentric/ela/": {
+    "url": "/projects/rcentric/ela/",
+    "pageType": "case-study",
+    "metaTitle": "ELA Residences — R-Centric (Omniyat) — Designit",
+    "metaDescription": "ELA Residences case study: digital experience design for the Foster + Partners wellness and luxury development on Palm Jumeirah, Dubai.",
+    "h1": "ELA Residences",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is ELA Residences?",
+      "What problem did ELA Residences solve?",
+      "How did Designit approach ELA Residences?",
+      "What features should a luxury real estate website in Dubai have?",
+      "How do you design a property website for international buyers?",
+      "Were the Omniyat property websites built on one design system?",
+      "How do you design a website for a sustainable luxury brand?",
+      "How long does a Designit engagement take?",
+      "Which regions does Designit work with?",
+      "Who actually works on the engagement?",
+      "What tools does the studio work in?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/rcentric/",
+      "/projects/rcentric/liv/",
+      "/start-a-project/"
+    ],
+    "file": "projects/rcentric/ela.html"
+  },
+  "/projects/rcentric/liv-reside/": {
+    "url": "/projects/rcentric/liv-reside/",
+    "pageType": "case-study",
+    "metaTitle": "LIV Reside — R-Centric (Omniyat) — Designit",
+    "metaDescription": "LIV Reside case study: extending the LIV brand into an upscale residential community concept where luxury living meets genuine neighbourhood connection.",
+    "h1": "LIV Reside",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is LIV Reside?",
+      "What problem did LIV Reside solve?",
+      "How did Designit approach LIV Reside?",
+      "What features should a luxury real estate website in Dubai have?",
+      "How do you design a property website for international buyers?",
+      "Were the Omniyat property websites built on one design system?",
+      "How do you show community on a property website?",
+      "How long does a Designit engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/rcentric/",
+      "/projects/rcentric/liv/",
+      "/projects/rcentric/opus/",
+      "/start-a-project/"
+    ],
+    "file": "projects/rcentric/liv-reside.html"
+  },
+  "/projects/rcentric/liv/": {
+    "url": "/projects/rcentric/liv/",
+    "pageType": "case-study",
+    "metaTitle": "LIV — R-Centric (Omniyat) — Designit",
+    "metaDescription": "Case study: a premium platform for LIV, Omniyat's exclusive real estate partner, replacing a generic site with a boutique, personalized property experience.",
+    "h1": "LIV",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is LIV?",
+      "What problem did LIV solve?",
+      "How did Designit approach LIV?",
+      "What features should a luxury real estate website in Dubai have?",
+      "How do you design a property website for international buyers?",
+      "Were the Omniyat property websites built on one design system?",
+      "How do you convey exclusivity on a real estate website?",
+      "Why group properties by lifestyle instead of location?",
+      "How long does a Designit engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/rcentric/",
+      "/projects/rcentric/liv-reside/",
+      "/projects/rcentric/opus/",
+      "/start-a-project/"
+    ],
+    "file": "projects/rcentric/liv.html"
+  },
+  "/projects/rcentric/opus/": {
+    "url": "/projects/rcentric/opus/",
+    "pageType": "case-study",
+    "metaTitle": "OPUS — R-Centric (Omniyat) — Designit",
+    "metaDescription": "Case study: website for OPUS, the Zaha Hadid-designed Dubai building of residences, offices and a hotel, serving homebuyers, tenants and hotel guests.",
+    "h1": "OPUS",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is OPUS?",
+      "What problem did OPUS solve?",
+      "How did Designit approach OPUS?",
+      "What features should a luxury real estate website in Dubai have?",
+      "How do you design a property website for international buyers?",
+      "Were the Omniyat property websites built on one design system?",
+      "How do you design one website for several audiences?",
+      "How long does a Designit engagement take?",
+      "Who actually works on the engagement?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/rcentric/",
+      "/projects/rcentric/liv/",
+      "/projects/rcentric/orla-infinity/",
+      "/start-a-project/"
+    ],
+    "file": "projects/rcentric/opus.html"
+  },
+  "/projects/rcentric/orla-infinity/": {
+    "url": "/projects/rcentric/orla-infinity/",
+    "pageType": "case-study",
+    "metaTitle": "Orla Infinity — R-Centric (Omniyat) — Designit",
+    "metaDescription": "Case study: website for Orla Infinity, Omniyat's Palm Jumeirah residence, designed to match the architecture and convey the lifestyle before a visit.",
+    "h1": "Orla Infinity",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Orla Infinity?",
+      "What problem did Orla Infinity solve?",
+      "How did Designit approach Orla Infinity?",
+      "What features should a luxury real estate website in Dubai have?",
+      "How do you design a property website for international buyers?",
+      "Were the Omniyat property websites built on one design system?",
+      "Do immersive scroll effects slow down a property website?",
+      "How long does a Designit engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/rcentric/",
+      "/projects/rcentric/liv/",
+      "/projects/rcentric/vela-viento/",
+      "/start-a-project/"
+    ],
+    "file": "projects/rcentric/orla-infinity.html"
+  },
+  "/projects/rcentric/vela-viento/": {
+    "url": "/projects/rcentric/vela-viento/",
+    "pageType": "case-study",
+    "metaTitle": "Vela Viento — R-Centric (Omniyat) — Designit",
+    "metaDescription": "Case study: digital storytelling for Vela Viento, a Foster + Partners residence in Marasi Bay with Dorchester Collection services, for international buyers.",
+    "h1": "Vela Viento",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Vela Viento?",
+      "What problem did Vela Viento solve?",
+      "How did Designit approach Vela Viento?",
+      "What features should a luxury real estate website in Dubai have?",
+      "How do you design a property website for international buyers?",
+      "Were the Omniyat property websites built on one design system?",
+      "What is scrollytelling on a website?",
+      "How long does a Designit engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/rcentric/",
+      "/projects/rcentric/anwa-aria/",
+      "/projects/rcentric/liv/",
+      "/start-a-project/"
+    ],
+    "file": "projects/rcentric/vela-viento.html"
+  },
   "/projects/tata-elxsi/": {
     "url": "/projects/tata-elxsi/",
     "pageType": "case-study",
@@ -1221,7 +2408,7 @@
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
     "author": "Designit",
-    "updatedAt": "2026-10-04",
+    "updatedAt": "2026-10-06",
     "schemaType": "Article",
     "evidenceIds": [
       "EV-TATA-SCOPE"
@@ -1251,16 +2438,24 @@
     "h2s": [
       "Executive summary",
       "Project facts",
+      "Who we designed for",
       "The business and driver problem",
       "What we did",
       "Key lessons",
-      "Both systems",
+      "Every Tata Elxsi case study",
       "Related",
       "FAQ"
     ],
     "faq": [
       "What did Designit design for Tata Elxsi?",
-      "How was the design validated?"
+      "How do infotainment and instrument cluster design differ?",
+      "How was the design validated?",
+      "What is automotive HMI design?",
+      "What are the glance-time guidelines for in-car screens?",
+      "Why use driving simulators in HMI design?",
+      "How should a digital instrument cluster adapt to driving?",
+      "What contrast is needed for critical information on automotive displays?",
+      "Where can I see each Tata Elxsi system in detail?"
     ],
     "internalLinks": [
       "/",
@@ -1272,6 +2467,119 @@
       "/start-a-project/"
     ],
     "file": "projects/tata-elxsi.html"
+  },
+  "/projects/tata-elxsi/infotainment/": {
+    "url": "/projects/tata-elxsi/infotainment/",
+    "pageType": "case-study",
+    "metaTitle": "Infotainment System — Tata Elxsi — Designit",
+    "metaDescription": "Case study: next-generation in-vehicle infotainment for Tata Elxsi, with navigation, media, climate and phone controls designed to work at a glance.",
+    "h1": "Infotainment System",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Infotainment System?",
+      "What problem did Infotainment System solve?",
+      "How did Designit approach Infotainment System?",
+      "What is automotive HMI design?",
+      "What are the glance-time guidelines for in-car screens?",
+      "How do you reduce driver distraction on a touchscreen?",
+      "Why test infotainment designs in a driving simulator?",
+      "How long does a Designit engagement take?",
+      "Who actually works on the engagement?",
+      "What tools does the studio work in?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/tata-elxsi/",
+      "/projects/tata-elxsi/instrument-cluster/",
+      "/start-a-project/"
+    ],
+    "file": "projects/tata-elxsi/infotainment.html"
+  },
+  "/projects/tata-elxsi/instrument-cluster/": {
+    "url": "/projects/tata-elxsi/instrument-cluster/",
+    "pageType": "case-study",
+    "metaTitle": "Digital Instrument Cluster — Tata Elxsi — Designit",
+    "metaDescription": "Case study: a programmable digital instrument cluster for Tata Elxsi with adaptive display modes for city, highway, sport and eco driving.",
+    "h1": "Digital Instrument Cluster",
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-06",
+    "schemaType": "Article",
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "event": "schedule_call"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P2",
+    "action": "KEEP + RESTRUCTURE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What is Digital Instrument Cluster?",
+      "What problem did Digital Instrument Cluster solve?",
+      "How did Designit approach Digital Instrument Cluster?",
+      "What is a digital instrument cluster?",
+      "How should a digital cluster adapt to driving modes?",
+      "What contrast and readability standards apply to cluster displays?",
+      "How do you animate mode changes without distracting the driver?",
+      "How long does a Designit engagement take?",
+      "Which regions does Designit work with?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/tata-elxsi/",
+      "/projects/tata-elxsi/infotainment/",
+      "/start-a-project/"
+    ],
+    "file": "projects/tata-elxsi/instrument-cluster.html"
   },
   "/resources/": {
     "url": "/resources/",

@@ -1,0 +1,254 @@
+{
+  "url": "/projects/rcentric/liv-reside/",
+  "file": "projects/rcentric/liv-reside.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "R-Centric",
+  "clientUrl": "/projects/rcentric/",
+  "metaTitle": "LIV Reside — R-Centric (Omniyat) — Designit",
+  "metaDescription": "LIV Reside case study: extending the LIV brand into an upscale residential community concept where luxury living meets genuine neighbourhood connection.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "R-Centric",
+    "Liv Reside"
+  ],
+  "kicker": "R-Centric (Omniyat) · Real estate",
+  "h1": "LIV Reside",
+  "summary": "Upscale residential project with focus on community living.",
+  "tags": [
+    "Web Design",
+    "Community UX",
+    "Lifestyle Branding"
+  ],
+  "liveUrl": "https://livreside.ae/",
+  "overview": {
+    "label": "Overview",
+    "heading": "Community Living, Elevated",
+    "paras": [
+      "LIV Reside extends the LIV brand into a new residential community concept, where luxury living meets genuine neighborhood connection. Unlike typical luxury developments that emphasize privacy and exclusivity, LIV Reside celebrates shared experiences — from rooftop gatherings to co-working spaces to community gardens. The website needed to make this community promise tangible and show what daily life actually looks like, not just sell square footage."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "R-Centric (Omniyat)"
+    ],
+    [
+      "Category",
+      "Community Luxury"
+    ],
+    [
+      "Services",
+      "Web Design, Lifestyle Branding, Community UX"
+    ],
+    [
+      "Tools",
+      "Figma, Webflow, Photography"
+    ]
+  ],
+  "challenges": {
+    "label": "Problem Statement",
+    "heading": "The Challenge",
+    "paras": [
+      "\"Community living\" is often vague in luxury marketing — it can mean anything from a shared pool to a full social ecosystem. The digital experience needed to make this tangible and show what daily life actually looks like. Buyers are skeptical of community claims, so the website needed authentic proof points — real stories, real amenities, real lifestyle moments — rather than generic marketing language about \"vibrant communities.\""
+    ]
+  },
+  "approach": {
+    "label": "Design Process",
+    "heading": "How We Approached It",
+    "intro": [],
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Resident Research",
+        "body": "We interviewed existing Omniyat residents about what community value means to them — what makes them stay, what brings them together, what they wish they had. These conversations revealed that community isn't about grand amenities but about daily micro-interactions: the coffee shop where everyone knows each other, the evening walks, the impromptu rooftop gatherings. This insight shaped our entire design approach."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Lifestyle Vignettes",
+        "body": "We designed lifestyle vignettes showing real community moments — not staged photography but authentic scenes of people connecting. Morning yoga on the terrace, children playing in curated gardens, neighbors sharing a meal at the communal kitchen. Each vignette was designed as a mini-narrative that potential buyers could see themselves in, making the community promise visceral rather than abstract."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Interactive Day-in-the-Life",
+        "body": "We created a \"day in the life\" interactive experience that takes visitors from morning to evening, showing how community touchpoints are woven into the daily routine. From the co-working space to the organic market to the evening social hour, each moment demonstrates how the building's design facilitates connection. The experience uses time-of-day visuals that create an emotional sense of belonging."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Community Features",
+        "body": "We built amenity booking and community event features into the design, giving visitors a preview of the digital community platform that comes with their home. This shows that community isn't just a marketing claim — it's a maintained, curated experience with dedicated programming. The preview included event calendars, club sign-ups, and resident portal functionality that makes the promise concrete."
+      }
+    ]
+  },
+  "solution": {
+    "label": "Solution",
+    "heading": "What We Delivered",
+    "paras": [
+      "An authenticity-first digital experience that makes community living tangible through lifestyle vignettes, interactive day-in-the-life journeys, and previews of the resident community platform. The website shifts the conversation from square footage to lifestyle, converting buyers who value connection as much as luxury."
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "heading": "What Makes It Stand Out",
+    "intro": [],
+    "items": [
+      {
+        "title": "Community Showcase",
+        "body": "Authentic lifestyle vignettes showing real community moments and daily interactions."
+      },
+      {
+        "title": "Amenity Booking",
+        "body": "Preview of the resident platform with bookable spaces and shared amenities."
+      },
+      {
+        "title": "Event Calendar",
+        "body": "Interactive calendar showing community events, clubs, and social programming."
+      },
+      {
+        "title": "Resident Portal Preview",
+        "body": "Demo of the digital community platform that comes included with every home."
+      },
+      {
+        "title": "Unit Tour",
+        "body": "Virtual tours emphasizing how unit design facilitates indoor-outdoor community living."
+      },
+      {
+        "title": "Move-in Timeline",
+        "body": "Interactive timeline showing the journey from purchase to community integration."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Visual Gallery",
+    "heading": "Design Highlights",
+    "images": [
+      {
+        "src": "/assets/projects/rcentric/liv-reside-hero.webp",
+        "alt": "LIV Reside design"
+      }
+    ]
+  },
+  "faqExisting": [
+    {
+      "q": "What is LIV Reside?",
+      "a": "LIV Reside extends the LIV brand into a new residential community concept, where luxury living meets genuine neighborhood connection. Unlike typical luxury developments that emphasize privacy and exclusivity, LIV Reside celebrates shared experiences — from rooftop gatherings to co-working spaces to community gardens. The website needed to make this community promise tangible and show what daily life actually looks like, not just sell square footage."
+    },
+    {
+      "q": "What problem did LIV Reside solve?",
+      "a": "\"Community living\" is often vague in luxury marketing — it can mean anything from a shared pool to a full social ecosystem. The digital experience needed to make this tangible and show what daily life actually looks like. Buyers are skeptical of community claims, so the website needed authentic proof points — real stories, real amenities, real lifestyle moments — rather than generic marketing language about \"vibrant communities.\""
+    },
+    {
+      "q": "How did Designit approach LIV Reside?",
+      "a": "We interviewed existing Omniyat residents about what community value means to them — what makes them stay, what brings them together, what they wish they had. These conversations revealed that community isn't about grand amenities but about daily micro-interactions: the coffee shop where everyone knows each other, the evening walks, the impromptu rooftop gatherings. This insight shaped our entire design approach."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ],
+  "hero": {
+    "src": "/assets/projects/rcentric/liv-reside-hero.webp",
+    "alt": "The LIV Reside website on a laptop with a sunset terrace scene"
+  },
+  "thumb": "/assets/projects/rcentric/thumb-liv-reside.webp",
+  "filterIndustry": "proptech",
+  "filterServices": [
+    "website-design",
+    "design-systems"
+  ],
+  "platform": "Website, desktop and mobile",
+  "order": 2,
+  "cardTitle": "LIV Reside",
+  "cardLine": "A residential community website that shows daily life, not just square footage.",
+  "cardTags": [
+    "Real estate",
+    "Website",
+    "Community"
+  ],
+  "industry": "Real estate · luxury residential, Dubai",
+  "deliverables": "Web design, lifestyle branding, community UX",
+  "overviewFacts": [
+    [
+      "Tools",
+      "Figma, Webflow, Photography"
+    ]
+  ],
+  "problemStatement": "How might we make 'community living' tangible online, showing what daily life at LIV Reside actually looks like, so buyers believe it rather than skim past it?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "LIV Reside sells connection as much as space. Buyers have heard 'vibrant community' many times and are sceptical.",
+    "people": [
+      {
+        "who": "International buyers",
+        "context": "High-net-worth buyers, often abroad, judging a Dubai property from a screen before they ever visit."
+      },
+      {
+        "who": "Families and professionals",
+        "context": "Want to picture their routine: mornings, work, evenings, and the people around them."
+      },
+      {
+        "who": "The sales team",
+        "context": "Wants fewer, better-qualified enquiries that arrive with context about what the buyer wants."
+      }
+    ],
+    "painPoints": [
+      "'Community living' is vague in luxury marketing.",
+      "Buyers distrust generic community claims.",
+      "Amenities alone do not show what daily life feels like.",
+      "The digital community platform that comes with the home was invisible before purchase."
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/rcentric/liv-reside.webp",
+      "alt": "LIV Reside website hero: a woman on a terrace looking out to sea at sunset",
+      "title": "Daily life, first",
+      "body": "The site opens on a moment rather than a floor plan: a terrace at sunset. Lifestyle comes first, then the spaces and amenities that make those moments possible."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is LIV Reside?",
+      "a": "Upscale residential project with focus on community living."
+    },
+    {
+      "q": "What problem did LIV Reside solve?",
+      "a": "\"Community living\" is often vague in luxury marketing — it can mean anything from a shared pool to a full social ecosystem. The digital experience needed to make this tangible and show what daily life actually looks like. Buyers are skeptical of community claims, so the website needed authentic proof points — real stories, real amenities, real lifestyle moments — rather than generic marketing language about \"vibrant communities.\" The question we set out to answer: How might we make 'community living' tangible online, showing what daily life at LIV Reside actually looks like, so buyers believe it rather than skim past it?"
+    },
+    {
+      "q": "How did Designit approach LIV Reside?",
+      "a": "We worked in 4 phases: Resident Research; lifestyle vignettes; interactive day-in-the-life; community features. We interviewed existing Omniyat residents about what community value means to them — what makes them stay, what brings them together, what they wish they had."
+    },
+    {
+      "q": "What features should a luxury real estate website in Dubai have?",
+      "a": "Immersive photography and video, clear unit and floor-plan information, location context, multilingual content for international buyers, and an enquiry flow that feels like requesting a private consultation rather than filling in a form. The R-Centric properties share one design system so each site can be distinct while staying consistent."
+    },
+    {
+      "q": "How do you design a property website for international buyers?",
+      "a": "Assume they will decide largely from the screen: show the views, the spaces and the neighbourhood honestly, make availability and next steps clear, and support the languages and time zones they buy from."
+    },
+    {
+      "q": "Were the Omniyat property websites built on one design system?",
+      "a": "Yes. The seven R-Centric (Omniyat) property experiences share one design system, so each property can have its own character, imagery and story while navigation, enquiry flows and components stay consistent and fast to build."
+    },
+    {
+      "q": "How do you show community on a property website?",
+      "a": "With authentic proof: real lifestyle vignettes, a day-in-the-life journey from morning to evening, and a preview of the resident platform with events and bookable spaces."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ]
+}

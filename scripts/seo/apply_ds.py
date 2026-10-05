@@ -9,7 +9,7 @@ import os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 C = os.path.join(ROOT, "scripts", "seo", "components")
 SKIP_DIRS = {"node_modules", ".git", "docs", "_next", "data", "content"}
-DS_V = 9
+DS_V = 10
 
 def mini(css):
     css = re.sub(r"/\*.*?\*/", "", css, flags=re.S)

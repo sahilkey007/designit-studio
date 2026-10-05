@@ -1,0 +1,254 @@
+{
+  "url": "/projects/rcentric/orla-infinity/",
+  "file": "projects/rcentric/orla-infinity.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "R-Centric",
+  "clientUrl": "/projects/rcentric/",
+  "metaTitle": "Orla Infinity — R-Centric (Omniyat) — Designit",
+  "metaDescription": "Case study: website for Orla Infinity, Omniyat's Palm Jumeirah residence, designed to match the architecture and convey the lifestyle before a visit.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "R-Centric",
+    "Orla Infinity"
+  ],
+  "kicker": "R-Centric (Omniyat) · Real estate",
+  "h1": "Orla Infinity",
+  "summary": "Architectural masterpiece on Palm Jumeirah — digital presence for unparalleled luxury living.",
+  "tags": [
+    "Web Design",
+    "Immersive Experience",
+    "Luxury UI"
+  ],
+  "liveUrl": "https://orlainfinity.ae/",
+  "overview": {
+    "label": "Overview",
+    "heading": "Architectural Grandeur, Digitally Expressed",
+    "paras": [
+      "Orla Infinity is Omniyat's crown jewel on Palm Jumeirah — a residential development that redefines luxury living in Dubai. The website needed to match the property's architectural ambition, creating a digital experience that conveys the same sense of awe as standing in the lobby. We designed an immersive scrolling experience with parallax effects, cinematic imagery, and fluid transitions that guide potential buyers through the lifestyle promise."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "R-Centric (Omniyat)"
+    ],
+    [
+      "Category",
+      "Luxury Real Estate"
+    ],
+    [
+      "Services",
+      "Web Design, Immersive UX, Animation"
+    ],
+    [
+      "Tools",
+      "Figma, Webflow, GSAP"
+    ]
+  ],
+  "challenges": {
+    "label": "Problem Statement",
+    "heading": "The Challenge",
+    "paras": [
+      "The project needed a website that matched the architectural grandeur of the building itself. Generic real estate templates failed to convey the uniqueness of the development. International buyers needed to feel the lifestyle before visiting in person — the digital experience had to create emotional desire and urgency, not just inform. The site also needed to handle high-resolution media without sacrificing performance."
+    ]
+  },
+  "approach": {
+    "label": "Design Process",
+    "heading": "How We Approached It",
+    "intro": [],
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Architectural Study",
+        "body": "We studied the architectural plans and unique selling points of Orla Infinity in detail, coordinating directly with the architecture team to understand material choices, spatial flow, and the design philosophy behind the building. This deep understanding informed every digital design decision, from color palette to animation timing."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Immersive Design",
+        "body": "We designed an immersive scrolling experience with parallax and reveal animations that mirror the experience of walking through the property. Each section unfolds like a chapter in a story — from the sweeping views to the intimate interiors — creating a narrative journey that builds emotional connection with every scroll."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Responsive Excellence",
+        "body": "We created responsive layouts that maintain visual impact across all devices, from 27-inch desktop displays to mobile phones. The challenge was preserving the cinematic quality of the experience on smaller screens while keeping interactions intuitive. We developed device-specific animation curves and image crops to ensure consistency."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Booking Integration",
+        "body": "We integrated a booking system and inquiry flow designed specifically for serious buyers. The process was streamlined to feel exclusive — not like filling out a contact form, but like requesting a private consultation. Multi-step qualification ensures that the sales team receives high-quality leads with context about buyer preferences."
+      }
+    ]
+  },
+  "solution": {
+    "label": "Solution",
+    "heading": "What We Delivered",
+    "paras": [
+      "A cinematic digital experience that mirrors the architectural grandeur of Orla Infinity. The website serves as a virtual showroom, using parallax scrolling, full-bleed imagery, and carefully choreographed animations to create desire and drive qualified inquiries from international luxury buyers."
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "heading": "What Makes It Stand Out",
+    "intro": [],
+    "items": [
+      {
+        "title": "Immersive Scroll Experience",
+        "body": "Parallax-driven storytelling that unfolds the property's narrative as visitors scroll through the page."
+      },
+      {
+        "title": "Floor Plan Explorer",
+        "body": "Interactive floor plans with unit details, views, and pricing overlaid on architectural drawings."
+      },
+      {
+        "title": "Amenity Showcase",
+        "body": "Visual tour of world-class amenities with immersive photography and lifestyle context."
+      },
+      {
+        "title": "Lifestyle Gallery",
+        "body": "Curated imagery showing the Palm Jumeirah lifestyle — from sunsets to beach access."
+      },
+      {
+        "title": "Inquiry System",
+        "body": "Multi-step qualification flow designed to feel exclusive and generate high-quality leads."
+      },
+      {
+        "title": "Location Intelligence",
+        "body": "Interactive maps showing proximity to key landmarks, restaurants, and cultural venues."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Visual Gallery",
+    "heading": "Design Highlights",
+    "images": [
+      {
+        "src": "/assets/projects/rcentric/orla-infinity-hero.webp",
+        "alt": "Orla Infinity design"
+      }
+    ]
+  },
+  "faqExisting": [
+    {
+      "q": "What is Orla Infinity?",
+      "a": "Orla Infinity is Omniyat's crown jewel on Palm Jumeirah — a residential development that redefines luxury living in Dubai. The website needed to match the property's architectural ambition, creating a digital experience that conveys the same sense of awe as standing in the lobby. We designed an immersive scrolling experience with parallax effects, cinematic imagery, and fluid transitions that guide potential buyers through the lifestyle promise."
+    },
+    {
+      "q": "What problem did Orla Infinity solve?",
+      "a": "The project needed a website that matched the architectural grandeur of the building itself. Generic real estate templates failed to convey the uniqueness of the development. International buyers needed to feel the lifestyle before visiting in person — the digital experience had to create emotional desire and urgency, not just inform. The site also needed to handle high-resolution media without sacrificing performance."
+    },
+    {
+      "q": "How did Designit approach Orla Infinity?",
+      "a": "We studied the architectural plans and unique selling points of Orla Infinity in detail, coordinating directly with the architecture team to understand material choices, spatial flow, and the design philosophy behind the building. This deep understanding informed every digital design decision, from color palette to animation timing."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ],
+  "hero": {
+    "src": "/assets/projects/rcentric/orla-infinity-hero.webp",
+    "alt": "The Orla Infinity website on a laptop: 'The sea and the sky' over a sculptural facade"
+  },
+  "thumb": "/assets/projects/rcentric/thumb-orla-infinity.webp",
+  "filterIndustry": "proptech",
+  "filterServices": [
+    "website-design",
+    "design-systems"
+  ],
+  "platform": "Website, desktop and mobile",
+  "order": 4,
+  "cardTitle": "Orla Infinity",
+  "cardLine": "A cinematic website for a Palm Jumeirah residence, built to create desire before a visit.",
+  "cardTags": [
+    "Real estate",
+    "Website",
+    "Immersive"
+  ],
+  "industry": "Real estate · luxury residential, Dubai",
+  "deliverables": "Web design, immersive UX, animation",
+  "overviewFacts": [
+    [
+      "Tools",
+      "Figma, Webflow, GSAP"
+    ]
+  ],
+  "problemStatement": "How might we let an international buyer feel Orla Infinity's architecture and lifestyle from a screen, and turn that feeling into a qualified enquiry?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "Many buyers decide whether to fly in based on what they see online.",
+    "people": [
+      {
+        "who": "International buyers",
+        "context": "High-net-worth buyers, often abroad, judging a Dubai property from a screen before they ever visit."
+      },
+      {
+        "who": "Investors",
+        "context": "Want location, availability and value made clear quickly, alongside the lifestyle story."
+      },
+      {
+        "who": "The sales team",
+        "context": "Wants fewer, better-qualified enquiries that arrive with context about what the buyer wants."
+      }
+    ],
+    "painPoints": [
+      "Generic templates could not convey the building's uniqueness.",
+      "Buyers needed to feel the lifestyle before visiting.",
+      "High-resolution media risked slow pages.",
+      "Standard contact forms felt transactional for a private purchase."
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/rcentric/orla-infinity.webp",
+      "alt": "Orla Infinity website lifestyle image of a woman smiling in the sun",
+      "title": "Lifestyle before specifications",
+      "body": "Lifestyle imagery leads, from Palm Jumeirah light to the moments residents will live, before floor plans and amenities. The enquiry at the end asks for a private consultation, not a form submission."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Orla Infinity?",
+      "a": "Architectural masterpiece on Palm Jumeirah — digital presence for unparalleled luxury living."
+    },
+    {
+      "q": "What problem did Orla Infinity solve?",
+      "a": "The project needed a website that matched the architectural grandeur of the building itself. Generic real estate templates failed to convey the uniqueness of the development. International buyers needed to feel the lifestyle before visiting in person — the digital experience had to create emotional desire and urgency, not just inform. The site also needed to handle high-resolution media without sacrificing performance. The question we set out to answer: How might we let an international buyer feel Orla Infinity's architecture and lifestyle from a screen, and turn that feeling into a qualified enquiry?"
+    },
+    {
+      "q": "How did Designit approach Orla Infinity?",
+      "a": "We worked in 4 phases: Architectural Study; immersive design; responsive excellence; booking integration. We studied the architectural plans and unique selling points of Orla Infinity in detail, coordinating directly with the architecture team to understand material choices, spatial flow, and the design philosophy behind the building."
+    },
+    {
+      "q": "What features should a luxury real estate website in Dubai have?",
+      "a": "Immersive photography and video, clear unit and floor-plan information, location context, multilingual content for international buyers, and an enquiry flow that feels like requesting a private consultation rather than filling in a form. The R-Centric properties share one design system so each site can be distinct while staying consistent."
+    },
+    {
+      "q": "How do you design a property website for international buyers?",
+      "a": "Assume they will decide largely from the screen: show the views, the spaces and the neighbourhood honestly, make availability and next steps clear, and support the languages and time zones they buy from."
+    },
+    {
+      "q": "Were the Omniyat property websites built on one design system?",
+      "a": "Yes. The seven R-Centric (Omniyat) property experiences share one design system, so each property can have its own character, imagery and story while navigation, enquiry flows and components stay consistent and fast to build."
+    },
+    {
+      "q": "Do immersive scroll effects slow down a property website?",
+      "a": "They can. We balanced parallax and reveal animations with optimised media and device-specific crops and animation curves, so the experience stays smooth on phones as well as large screens."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ]
+}

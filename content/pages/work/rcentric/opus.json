@@ -1,0 +1,262 @@
+{
+  "url": "/projects/rcentric/opus/",
+  "file": "projects/rcentric/opus.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "R-Centric",
+  "clientUrl": "/projects/rcentric/",
+  "metaTitle": "OPUS — R-Centric (Omniyat) — Designit",
+  "metaDescription": "Case study: website for OPUS, the Zaha Hadid-designed Dubai building of residences, offices and a hotel, serving homebuyers, tenants and hotel guests.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "R-Centric",
+    "Opus"
+  ],
+  "kicker": "R-Centric (Omniyat) · Real estate",
+  "h1": "OPUS",
+  "summary": "Landmark Zaha Hadid building — digital presence for luxury residences, offices, hotel.",
+  "tags": [
+    "Web Design",
+    "Mixed-use UX",
+    "Architectural Digital"
+  ],
+  "liveUrl": "https://opus.omniyat.com/",
+  "overview": {
+    "label": "Overview",
+    "heading": "A Zaha Hadid Masterpiece, Online",
+    "paras": [
+      "OPUS is arguably the most iconic building in Omniyat's portfolio — designed by the late Zaha Hadid, it houses luxury residences, premium office spaces, and the ME Dubai hotel. The digital experience needed to be as bold and unconventional as the architecture itself, while serving three distinct audiences. We created a fluid, sculptural web experience that channels Hadid's parametric design philosophy into every interaction, from navigation patterns to loading animations."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "R-Centric (Omniyat)"
+    ],
+    [
+      "Category",
+      "Mixed-use Luxury"
+    ],
+    [
+      "Services",
+      "Web Design, IA, Animation, Multi-audience UX"
+    ],
+    [
+      "Tools",
+      "Figma, GSAP, Three.js, Webflow"
+    ]
+  ],
+  "challenges": {
+    "label": "Problem Statement",
+    "heading": "The Challenge",
+    "paras": [
+      "Zaha Hadid's architecture defies convention — the website needed to be equally innovative while remaining usable. The mixed-use nature (residential + commercial + hotel) complicated the information architecture significantly. Three distinct buyer personas — luxury homebuyers, corporate tenants, and hotel guests — each had different needs, browsing patterns, and conversion goals. Unifying them under one brand experience without creating confusion was the core challenge."
+    ]
+  },
+  "approach": {
+    "label": "Design Process",
+    "heading": "How We Approached It",
+    "intro": [],
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Architectural Immersion",
+        "body": "We studied Zaha Hadid's design language exhaustively — from her parametric curves to her approach to space and light. We analyzed how other iconic buildings (Bilbao Guggenheim, Sydney Opera House) present themselves digitally, identifying what works and what falls flat. This research gave us the vocabulary to translate physical architectural drama into digital interaction patterns."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Multi-audience IA",
+        "body": "We created separate but connected journeys for residential buyers, office tenants, and hotel guests. The homepage serves as a gateway that elegantly branches into three distinct experiences, each tailored to its audience's decision-making process. Shared brand elements maintain cohesion while the content, tone, and CTAs are persona-specific, ensuring relevance without redundancy."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Organic Animation Design",
+        "body": "We designed fluid, organic animations reflecting the building's curved architecture. Every transition, hover state, and loading sequence was inspired by the parametric forms of the building. The cursor itself transforms as it moves across sections, and page transitions use morphing shapes that echo Hadid's signature visual language. Performance was carefully balanced against visual richness."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Mobile Architecture",
+        "body": "We built a responsive experience maintaining the architectural drama on mobile. This required rethinking the 3D explorations and parallax effects for touch interactions. We created gesture-based navigation that feels natural on mobile while preserving the sense of discovery and spatial exploration that defines the desktop experience. Load optimization ensured smooth performance on all devices."
+      }
+    ]
+  },
+  "solution": {
+    "label": "Solution",
+    "heading": "What We Delivered",
+    "paras": [
+      "An award-worthy digital experience that channels Zaha Hadid's parametric design philosophy into a multi-audience web platform. The site serves residential, commercial, and hospitality audiences through distinct but connected journeys, unified by fluid animations and a sculptural visual language that does justice to one of the world's most iconic buildings."
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "heading": "What Makes It Stand Out",
+    "intro": [],
+    "items": [
+      {
+        "title": "3D Building Explorer",
+        "body": "Interactive 3D model allowing visitors to explore the building's iconic void and structural elements."
+      },
+      {
+        "title": "Mixed-use Navigation",
+        "body": "Intelligent routing system that directs visitors to residential, office, or hotel content based on intent."
+      },
+      {
+        "title": "Zaha Hadid Gallery",
+        "body": "Dedicated section celebrating the architectural vision with sketches, renders, and construction photography."
+      },
+      {
+        "title": "Virtual Walkthrough",
+        "body": "Immersive virtual tours of residences, lobby, and amenity spaces with ambient audio."
+      },
+      {
+        "title": "Booking Integration",
+        "body": "Unified booking system for hotel stays and property viewing appointments."
+      },
+      {
+        "title": "Brand Partnership Showcase",
+        "body": "Highlighting ME Dubai and other prestigious brand partnerships within the building."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Visual Gallery",
+    "heading": "Design Highlights",
+    "images": [
+      {
+        "src": "/assets/projects/rcentric/opus-hero.webp",
+        "alt": "OPUS design"
+      }
+    ]
+  },
+  "faqExisting": [
+    {
+      "q": "What is OPUS?",
+      "a": "OPUS is arguably the most iconic building in Omniyat's portfolio — designed by the late Zaha Hadid, it houses luxury residences, premium office spaces, and the ME Dubai hotel. The digital experience needed to be as bold and unconventional as the architecture itself, while serving three distinct audiences. We created a fluid, sculptural web experience that channels Hadid's parametric design philosophy into every interaction, from navigation patterns to loading animations."
+    },
+    {
+      "q": "What problem did OPUS solve?",
+      "a": "Zaha Hadid's architecture defies convention — the website needed to be equally innovative while remaining usable. The mixed-use nature (residential + commercial + hotel) complicated the information architecture significantly. Three distinct buyer personas — luxury homebuyers, corporate tenants, and hotel guests — each had different needs, browsing patterns, and conversion goals. Unifying them under one brand experience without creating confusion was the core challenge."
+    },
+    {
+      "q": "How did Designit approach OPUS?",
+      "a": "We studied Zaha Hadid's design language exhaustively — from her parametric curves to her approach to space and light. We analyzed how other iconic buildings (Bilbao Guggenheim, Sydney Opera House) present themselves digitally, identifying what works and what falls flat. This research gave us the vocabulary to translate physical architectural drama into digital interaction patterns."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    },
+    {
+      "q": "Who actually works on the engagement?",
+      "a": "Senior practitioners, from kickoff through to developer handoff. There are no account managers in the middle, no junior hand-offs once a contract is signed, and no offshore layer. Clients talk directly to the people producing the work, which is what keeps the feedback loop short enough to ship in days rather than weeks."
+    }
+  ],
+  "hero": {
+    "src": "/assets/projects/rcentric/opus-hero.webp",
+    "alt": "The OPUS website on a laptop showing the building's sculpted glass facade"
+  },
+  "thumb": "/assets/projects/rcentric/thumb-opus.webp",
+  "filterIndustry": "proptech",
+  "filterServices": [
+    "website-design",
+    "design-systems"
+  ],
+  "platform": "Website, desktop and mobile",
+  "order": 3,
+  "cardTitle": "OPUS",
+  "cardLine": "A digital home for Zaha Hadid's OPUS: residences, offices and a hotel in one experience.",
+  "cardTags": [
+    "Real estate",
+    "Website",
+    "Mixed-use"
+  ],
+  "industry": "Real estate · mixed-use, Dubai",
+  "deliverables": "Web design, information architecture, animation, multi-audience UX",
+  "overviewFacts": [
+    [
+      "Tools",
+      "Figma, GSAP, Three.js, Webflow"
+    ]
+  ],
+  "problemStatement": "How might we give one iconic building a website as bold as its architecture, while three very different audiences, homebuyers, office tenants and hotel guests, each find their way?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "OPUS houses residences, offices and the ME Dubai hotel. Each visitor arrives with a different goal.",
+    "people": [
+      {
+        "who": "Luxury homebuyers",
+        "context": "Want the residences, the views and the architecture's story."
+      },
+      {
+        "who": "Corporate tenants",
+        "context": "Want office space details and a prestigious address."
+      },
+      {
+        "who": "Hotel guests",
+        "context": "Want to book a stay at ME Dubai without wading through property content."
+      }
+    ],
+    "painPoints": [
+      "Three audiences with different needs shared one website.",
+      "The architecture defies convention, and a template site would undersell it.",
+      "Mixed-use content complicated the information architecture.",
+      "Rich visuals had to stay fast on mobile."
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/rcentric/opus.webp",
+      "alt": "OPUS website hero: the building's sculpted void reflecting the Dubai skyline",
+      "title": "The building as the interface",
+      "body": "The opening view is the architecture itself: the sculpted void framed edge to edge. From there, visitors branch into residential, office or hotel journeys without losing the shared brand."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is OPUS?",
+      "a": "Landmark Zaha Hadid building — digital presence for luxury residences, offices, hotel."
+    },
+    {
+      "q": "What problem did OPUS solve?",
+      "a": "Zaha Hadid's architecture defies convention — the website needed to be equally innovative while remaining usable. The mixed-use nature (residential + commercial + hotel) complicated the information architecture significantly. Three distinct buyer personas — luxury homebuyers, corporate tenants, and hotel guests — each had different needs, browsing patterns, and conversion goals. Unifying them under one brand experience without creating confusion was the core challenge. The question we set out to answer: How might we give one iconic building a website as bold as its architecture, while three very different audiences, homebuyers, office tenants and hotel guests, each find their way?"
+    },
+    {
+      "q": "How did Designit approach OPUS?",
+      "a": "We worked in 4 phases: Architectural Immersion; multi-audience ia; organic animation design; mobile architecture. We studied Zaha Hadid's design language exhaustively — from her parametric curves to her approach to space and light."
+    },
+    {
+      "q": "What features should a luxury real estate website in Dubai have?",
+      "a": "Immersive photography and video, clear unit and floor-plan information, location context, multilingual content for international buyers, and an enquiry flow that feels like requesting a private consultation rather than filling in a form. The R-Centric properties share one design system so each site can be distinct while staying consistent."
+    },
+    {
+      "q": "How do you design a property website for international buyers?",
+      "a": "Assume they will decide largely from the screen: show the views, the spaces and the neighbourhood honestly, make availability and next steps clear, and support the languages and time zones they buy from."
+    },
+    {
+      "q": "Were the Omniyat property websites built on one design system?",
+      "a": "Yes. The seven R-Centric (Omniyat) property experiences share one design system, so each property can have its own character, imagery and story while navigation, enquiry flows and components stay consistent and fast to build."
+    },
+    {
+      "q": "How do you design one website for several audiences?",
+      "a": "Give each audience its own journey from a shared gateway. OPUS branches from the homepage into residential, office and hotel experiences with persona-specific content and calls to action, unified by one visual language."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    },
+    {
+      "q": "Who actually works on the engagement?",
+      "a": "Senior practitioners, from kickoff through to developer handoff. There are no account managers in the middle, no junior hand-offs once a contract is signed, and no offshore layer. Clients talk directly to the people producing the work, which is what keeps the feedback loop short enough to ship in days rather than weeks."
+    }
+  ]
+}

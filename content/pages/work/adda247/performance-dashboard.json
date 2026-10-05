@@ -1,0 +1,281 @@
+{
+  "url": "/projects/adda247/performance-dashboard/",
+  "file": "projects/adda247/performance-dashboard.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "Adda247",
+  "clientUrl": "/projects/adda247/",
+  "metaTitle": "Performance Dashboard — Adda 247 | Designit Case Study",
+  "metaDescription": "Comprehensive analytics dashboard providing actionable insights into test performance, study patterns, and personalized improvement paths for Adda 247 students.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "Adda247",
+    "Performance Dashboard"
+  ],
+  "kicker": "Adda247 · EdTech",
+  "h1": "Performance Dashboard",
+  "summary": "Comprehensive analytics dashboard providing actionable insights into test performance, content consumption, and personalized improvement paths.",
+  "tags": [
+    "Data Visualization",
+    "Dashboard Design",
+    "Analytics UX",
+    "Personalization"
+  ],
+  "hero": {
+    "src": "/assets/projects/adda247/thumb-performance-dashboard.webp",
+    "alt": "Adda247 performance dashboard with attempt, accuracy and time-per-question charts"
+  },
+  "overview": {
+    "label": "Overview",
+    "heading": "The Challenge &amp; Opportunity",
+    "paras": [
+      "Adda 247 generates enormous amounts of data about student performance — test scores, time spent per question, topic-wise accuracy, comparison with peers, and content consumption patterns. But this data was either invisible to students or presented in basic tables that required significant effort to interpret. We designed a comprehensive performance dashboard that transforms raw data into actionable insights, helping students understand not just how they performed, but what to do next to improve. The goal was to make data the foundation of every study decision."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "Adda 247"
+    ],
+    [
+      "Category",
+      "EdTech"
+    ],
+    [
+      "Services",
+      "Data Visualization, Dashboard Design, Analytics UX"
+    ],
+    [
+      "Tools",
+      "Figma, Prototyping"
+    ]
+  ],
+  "challenges": {
+    "label": "The Problem",
+    "heading": "What Needed to Change",
+    "paras": [
+      "Students had no visibility into their overall performance trends. After completing a test, they saw a score and a rank — nothing more. There was no way to understand which subjects were improving, which were declining, or how their performance compared to peers over time. Without trend data, students couldn't tell if their preparation strategy was working or if they needed to change approach. They were essentially studying blind, relying on gut feeling rather than data.",
+      "Identifying weak subjects was particularly painful. Students had to manually recall their scores across multiple tests, mentally calculate topic-wise averages, and try to spot patterns — an exercise that was both tedious and unreliable. Even motivated students rarely did this analysis, which meant they kept making the same mistakes in the same topics without realizing the pattern. The irony was that the platform had all this data but wasn't surfacing it in a useful way.",
+      "Study time was being spent inefficiently as a result. Without data-driven guidance, students defaulted to comfortable patterns — studying subjects they enjoyed rather than subjects they needed to improve. Targeted practice on weak areas is where improvement comes from, but students had no tool to identify those weak areas. The platform was sitting on a goldmine of performance data that could dramatically improve student outcomes — it just needed to be designed into an accessible, actionable interface."
+    ],
+    "titles": [
+      "No view of the trend",
+      "Weak areas found by hand",
+      "Study time spent on comfortable topics"
+    ]
+  },
+  "approach": {
+    "label": "Design Process",
+    "heading": "How We Approached It",
+    "intro": [],
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Discovery &amp; Research",
+        "body": "We analyzed what data points matter most to competitive exam students by interviewing 40 students across different performance levels — toppers, average performers, and struggling students. Top performers wanted detailed topic-level breakdowns and time analysis. Average performers wanted to know where they stood relative to peers and what to focus on. Struggling students wanted simple, clear guidance on what to do next without being overwhelmed by data. We also interviewed 10 coaching institute teachers to understand which metrics they tracked for their students — accuracy by difficulty level, speed vs. accuracy trade-offs, and consistency across test attempts."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Information Architecture",
+        "body": "We designed a data hierarchy with four levels of progressive detail: (1) Overview — a single-screen summary with overall score trend, strengths, weaknesses, and a \"focus area\" recommendation, (2) Subject Level — per-subject performance with accuracy, speed, and improvement trends, (3) Topic Level — granular topic-by-topic breakdown with question-type analysis, and (4) Question Level — individual question review with time spent, correct answer, and explanation. Each level could be reached from the previous one through intuitive drill-down — tap a subject card to see topics, tap a topic to see questions. This progressive disclosure ensured the dashboard served both quick-glancers and deep-analysis users."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Wireframing &amp; Prototyping",
+        "body": "We created interactive chart prototypes and tested data visualization approaches with 50 students. We tested line charts vs. bar charts vs. radar charts for subject comparison — radar charts won because they showed the \"shape\" of performance across all subjects at once, making imbalances immediately visible. For trend analysis, simple line charts with clear up/down indicators performed best — students didn't need complex statistical visualizations, they needed to know \"am I improving or not?\" We tested three overview layouts: score-centric, improvement-centric, and action-centric. The action-centric approach — which led with \"what to focus on next\" rather than just showing data — had the highest engagement and follow-through rate."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Visual Design &amp; Handoff",
+        "body": "We built a responsive dashboard with progressive disclosure — simple overview first, detailed analysis on demand. The visual language used a consistent color system: green for strengths, red for weaknesses, blue for neutral data, and purple for recommendations. Chart designs were deliberately simplified — no unnecessary grid lines, minimal axis labels, and prominent data points that convey the story at a glance. Animation was used purposefully: score trend lines animate on load to draw attention to the direction of change, and drill-down transitions use expand animations that maintain spatial context. We delivered 32 screens covering all data states, empty states (for new users with insufficient data), and responsive layouts for mobile, tablet, and desktop."
+      }
+    ]
+  },
+  "solution": {
+    "label": "The Solution",
+    "heading": "What We Built",
+    "paras": [
+      "A comprehensive analytics dashboard that transforms raw test data into personalized, actionable study guidance. The overview screen presents a \"Performance Score\" — a composite metric that combines accuracy, speed, consistency, and improvement trend into a single number that students can track over time. Below this, a radar chart shows subject-level performance balance, and a \"Focus Area\" card highlights the single most impactful topic to study next based on algorithmic analysis of the student's performance patterns.",
+      "Drilling deeper, the subject-level view shows accuracy and speed trends over the last 10 tests, topic-wise breakdown with performance indicators, and peer comparison for that subject. The topic-level view reveals question-type analysis (e.g., in Mathematics: are you struggling with word problems specifically?), time analysis (which topics eat disproportionate time?), and a curated practice set of questions targeting identified weak patterns. The dashboard becomes a study strategist — not just reporting what happened, but recommending what to do about it."
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "heading": "Design Highlights",
+    "intro": [],
+    "items": [
+      {
+        "title": "Overall Performance Score",
+        "body": "A composite metric combining accuracy, speed, consistency, and improvement trend — providing a single trackable number that captures overall preparation quality."
+      },
+      {
+        "title": "Subject-wise Breakdown",
+        "body": "Radar chart visualization showing performance balance across all subjects, with drill-down into topic-level accuracy, speed, and improvement trends."
+      },
+      {
+        "title": "Trend Analysis",
+        "body": "Performance trend lines across the last 10-20 tests with clear up/down indicators — answering the crucial question: \"Am I actually improving?\""
+      },
+      {
+        "title": "Peer Comparison",
+        "body": "Anonymous percentile ranking showing where the student stands relative to others preparing for the same exam — providing context for raw scores."
+      },
+      {
+        "title": "Weak Area Identification",
+        "body": "Algorithmic analysis identifying the single most impactful topic to focus on next — based on frequency of errors, exam weightage, and improvement potential."
+      },
+      {
+        "title": "Study Time Analytics",
+        "body": "Breakdown of how study time is distributed across subjects and content types, with recommendations for optimal time allocation based on weak areas."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Gallery",
+    "heading": "More from the dashboard",
+    "images": [
+      {
+        "src": "/assets/projects/adda247/performance-03.webp",
+        "alt": "Attempt, accuracy and time-per-question charts with a test attempt percentage bar chart below",
+        "wide": true
+      }
+    ]
+  },
+  "navLinks": [
+    [
+      "← Previous Project",
+      "/projects/adda247/community/"
+    ],
+    [
+      "All Adda 247 Projects",
+      "/projects/adda247/"
+    ],
+    [
+      "Next Project →",
+      "/projects/adda247/test-series/"
+    ]
+  ],
+  "faqExisting": [
+    {
+      "q": "What is Performance Dashboard?",
+      "a": "Comprehensive analytics dashboard providing actionable insights into test performance, content consumption, and personalized improvement paths."
+    },
+    {
+      "q": "What problem did Performance Dashboard solve?",
+      "a": "Adda 247 generates enormous amounts of data about student performance — test scores, time spent per question, topic-wise accuracy, comparison with peers, and content consumption patterns. But this data was either invisible to students or presented in basic tables that required significant effort to interpret. We designed a comprehensive performance dashboard that transforms raw data into actionable insights, helping students understand not just how they performed, but what to do next to improve. The goal was to make data the foundation of every study decision."
+    },
+    {
+      "q": "How did Designit approach Performance Dashboard?",
+      "a": "Students had no visibility into their overall performance trends. After completing a test, they saw a score and a rank — nothing more. There was no way to understand which subjects were improving, which were declining, or how their performance compared to peers over time. Without trend data, students couldn't tell if their preparation strategy was working or if they needed to change approach. They were essentially studying blind, relying on gut feeling rather than data."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ],
+  "thumb": "/assets/projects/adda247/thumb-performance-dashboard.webp",
+  "filterIndustry": "edtech",
+  "order": 5,
+  "cardTitle": "Performance Dashboard",
+  "cardLine": "Test data turned into trends, topic breakdowns and one clear focus area.",
+  "cardTags": [
+    "EdTech",
+    "Dashboard",
+    "Data visualisation"
+  ],
+  "filterServices": [
+    "product-design",
+    "saas-product-design"
+  ],
+  "industry": "EdTech · competitive exams",
+  "deliverables": "Data visualisation, dashboard design, analytics UX",
+  "platform": "Web dashboard, responsive",
+  "overviewFacts": [
+    [
+      "Tools",
+      "Figma, Prototyping"
+    ]
+  ],
+  "problemStatement": "How might we turn the test data Adda247 already had into guidance a student can act on today: am I improving, and what should I work on next?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "Different students wanted different depths of data, and some wanted no charts at all, just a clear instruction.",
+    "people": [
+      {
+        "who": "Top performers",
+        "context": "Want topic-level breakdowns and time analysis to squeeze out the last few marks."
+      },
+      {
+        "who": "Average performers",
+        "context": "Want to know where they stand against peers and what to focus on."
+      },
+      {
+        "who": "Struggling students",
+        "context": "Want simple guidance on what to do next, without being overwhelmed by data."
+      }
+    ],
+    "painPoints": [
+      "After a test, students saw a score and a rank, nothing more.",
+      "Spotting weak topics meant recalling scores across tests and averaging them mentally.",
+      "Without trends, students could not tell whether their strategy was working.",
+      "Time went to comfortable subjects instead of the ones that needed work."
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/adda247/performance-01.webp",
+      "alt": "Test-wise progress line chart above attempt percentage, accuracy and average time per question",
+      "feature": "Trend Analysis"
+    },
+    {
+      "src": "/assets/projects/adda247/performance-02.webp",
+      "alt": "Sectional report with accuracy donuts and a subject strength table",
+      "feature": "Subject-wise Breakdown"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Performance Dashboard?",
+      "a": "Comprehensive analytics dashboard providing actionable insights into test performance, content consumption, and personalized improvement paths."
+    },
+    {
+      "q": "What problem did Performance Dashboard solve?",
+      "a": "Students had no visibility into their overall performance trends. After completing a test, they saw a score and a rank — nothing more. There was no way to understand which subjects were improving, which were declining, or how their performance compared to peers over time. Without trend data, students couldn't tell if their preparation strategy was working or if they needed to change approach. They were essentially studying blind, relying on gut feeling rather than data. The question we set out to answer: How might we turn the test data Adda247 already had into guidance a student can act on today: am I improving, and what should I work on next?"
+    },
+    {
+      "q": "How did Designit approach Performance Dashboard?",
+      "a": "We worked in 4 phases: Discovery & Research; information architecture; wireframing & prototyping; visual design & handoff. We analyzed what data points matter most to competitive exam students by interviewing 40 students across different performance levels — toppers, average performers, and struggling students."
+    },
+    {
+      "q": "What should a student performance dashboard show?",
+      "a": "Answer 'am I improving?' first, then 'where?', then 'what next?'. Adda247's dashboard leads with an overall score trend, then subject balance, topic accuracy and time, and a single focus area to study next."
+    },
+    {
+      "q": "Which charts work best for learners?",
+      "a": "Simple ones. In testing, plain line charts with clear up and down indicators worked best for trends, and a radar chart made subject imbalance obvious at a glance. Students did not need statistical visualisations."
+    },
+    {
+      "q": "How do you design analytics for very different users?",
+      "a": "Progressive disclosure: a one-screen overview for quick glancers, with drill-down from subject to topic to individual question for those who want depth."
+    },
+    {
+      "q": "Why lead with a recommendation instead of the score?",
+      "a": "Because the score alone does not change behaviour. The action-led layout, which opened with what to focus on next, had the strongest engagement and follow-through of the layouts we tested."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ]
+}

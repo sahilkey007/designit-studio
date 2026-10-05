@@ -1,0 +1,255 @@
+{
+  "url": "/projects/kelp-global/truenorth/",
+  "file": "projects/kelp-global/truenorth.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "Kelp Global",
+  "clientUrl": "/projects/kelp-global/",
+  "metaTitle": "Truenorth Investor Portal Case Study | Designit",
+  "metaDescription": "How Designit designed the Truenorth investor portal on Kelp: fund documents, portfolio companies and the annual meeting in one secure place for investors.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "Kelp Global",
+    "Truenorth"
+  ],
+  "kicker": "Kelp Global · Private markets",
+  "h1": "Truenorth Investor Portal",
+  "hero": {
+    "src": "/assets/projects/kelp/truenorth-hero.webp",
+    "alt": "Truenorth investor portal on a laptop showing the annual meeting video and agenda"
+  },
+  "thumb": "/assets/projects/kelp/thumb-truenorth.webp",
+  "order": 3,
+  "filterIndustry": "b2b-saas",
+  "filterServices": [
+    "saas-product-design",
+    "website-design"
+  ],
+  "cardTitle": "Truenorth Investor Portal",
+  "cardLine": "An investor portal for a private-equity fund: documents, portfolio companies and the annual meeting in one place.",
+  "cardTags": [
+    "Fintech",
+    "Web portal",
+    "Investor experience"
+  ],
+  "summary": "An investor portal for a private-equity fund manager, built on Kelp: fund documents, portfolio companies and the annual meeting recordings in one place for its investors.",
+  "industry": "Fintech · private markets",
+  "deliverables": "Portal UX, information architecture, UI design",
+  "platform": "Web portal",
+  "tags": [
+    "Investor experience",
+    "Information architecture",
+    "Portal UX"
+  ],
+  "overviewFacts": [
+    [
+      "Users",
+      "Fund investors (limited partners)"
+    ],
+    [
+      "Tools",
+      "Figma, Prototyping"
+    ]
+  ],
+  "thumbAlt": "Truenorth investor portal annual meeting page",
+  "overview": {
+    "label": "Overview",
+    "heading": "Everything an investor needs, in one place",
+    "paras": [
+      "Investors in a private-equity fund expect regular, well-organised information: reports and notices, tax and compliance documents, valuation reports, the companies each fund has invested in, and the annual meeting. The Truenorth investor portal brings all of it together behind a single sign-in.",
+      "We designed the portal around the investor's questions: what do I hold, what has been shared with me, and what did the annual meeting cover. Funds, transactions, shared documents and the annual meeting each have a clear place in one navigation."
+    ]
+  },
+  "problemStatement": "How might we give a fund's investors a calm, trustworthy place to find every document, see every portfolio company and catch up on the annual meeting, without emailing the investor-relations team?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "Fund investors, often senior people at institutions and family offices, visit the portal occasionally and with a specific question. They need to find the answer quickly and trust what they see.",
+    "people": [
+      {
+        "who": "Limited partners",
+        "context": "Want reports, notices and statements for the funds they have committed to, and a view of the portfolio."
+      },
+      {
+        "who": "Investors who missed the meeting",
+        "context": "Want to watch the annual meeting, jump to the session that matters to them and know who is speaking."
+      },
+      {
+        "who": "The fund's investor-relations team",
+        "context": "Wants investors to self-serve instead of answering the same requests by email."
+      }
+    ],
+    "painPoints": [
+      "Fund documents arrived as scattered emails and attachments that were hard to find later.",
+      "Investors across several funds had no single view of their commitments.",
+      "Annual meeting content was long and hard to navigate after the event.",
+      "Every 'can you resend…' request cost the investor-relations team time."
+    ]
+  },
+  "challenges": {
+    "label": "The challenge",
+    "heading": "Trust, clarity and occasional visits",
+    "items": [
+      {
+        "title": "Infrequent, high-stakes visits",
+        "body": "Investors do not use the portal daily, so it has to be obvious where everything is, every time."
+      },
+      {
+        "title": "Many document types",
+        "body": "Reports, notices, tax, financial statements, valuation reports and compliance documents each need a clear home."
+      },
+      {
+        "title": "Long-form media",
+        "body": "An annual meeting runs for hours. Investors need to find the session and speaker they care about."
+      }
+    ]
+  },
+  "approach": {
+    "label": "Our approach",
+    "heading": "How we approached it",
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Start from the investor's questions",
+        "body": "We organised the portal around what investors come to find: an executive summary, their funds, transactions, shared documents and the annual meeting. Each became a top-level item in a single sidebar."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Give documents a structure",
+        "body": "Shared documents were grouped by type, reports, notices, tax, financial statements, valuation reports, compliance and others, so investors browse by what they need rather than by date."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Make the meeting navigable",
+        "body": "The annual meeting page pairs the video with an agenda of sessions, each with its speaker, and a speaker profile that opens alongside. Investors jump straight to the part they care about."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Show the portfolio",
+        "body": "Portfolio companies are listed by fund with their logos and reports, so an investor can see what each fund holds at a glance."
+      }
+    ]
+  },
+  "solution": {
+    "label": "The experience we created",
+    "heading": "A portal investors can find their way around",
+    "paras": [
+      "A calm, consistent portal on the Kelp design system: one sidebar for funds, transactions, documents and the annual meeting, a portfolio view by fund, and an annual meeting experience built for catching up after the event."
+    ]
+  },
+  "features": {
+    "label": "Key features",
+    "heading": "What it includes",
+    "items": [
+      {
+        "title": "Annual meeting hub",
+        "body": "The meeting video with an agenda of sessions and speakers, so investors can jump to any part."
+      },
+      {
+        "title": "Speaker profiles",
+        "body": "A profile panel opens beside the video with each speaker's role and background."
+      },
+      {
+        "title": "Portfolio by fund",
+        "body": "Portfolio companies listed under each fund, with access to their reports."
+      },
+      {
+        "title": "Shared documents",
+        "body": "Reports, notices, tax, financial statements, valuation reports and compliance documents, each in its own place."
+      },
+      {
+        "title": "Funds and transactions",
+        "body": "A view of each fund the investor holds and the transactions against it."
+      },
+      {
+        "title": "Profile and onboarding",
+        "body": "Investor profile, onboarding and policies are part of the same navigation."
+      }
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/kelp/truenorth-landing.webp",
+      "alt": "Annual meeting page with the opening remarks video and an agenda of sessions on the right",
+      "feature": "Annual meeting hub"
+    },
+    {
+      "src": "/assets/projects/kelp/truenorth-agm-note.webp",
+      "alt": "Speaker profile panel open beside the annual meeting video",
+      "feature": "Speaker profiles"
+    },
+    {
+      "src": "/assets/projects/kelp/truenorth-agm-list.webp",
+      "alt": "Portfolio companies listed under Fund VI and Fund V with their logos and reports",
+      "feature": "Portfolio by fund"
+    }
+  ],
+  "gallery": {
+    "label": "Gallery",
+    "heading": "Screens from the portal",
+    "images": [
+      {
+        "src": "/assets/projects/kelp/truenorth-g1.webp",
+        "alt": "Annual meeting video with the session list"
+      },
+      {
+        "src": "/assets/projects/kelp/truenorth-g2.webp",
+        "alt": "Annual meeting with a speaker profile open"
+      },
+      {
+        "src": "/assets/projects/kelp/truenorth-g3.webp",
+        "alt": "Portfolio companies grouped by fund",
+        "wide": true
+      }
+    ]
+  },
+  "quote": "girish",
+  "faq": [
+    {
+      "q": "What is the Truenorth investor portal?",
+      "a": "An investor portal for a private-equity fund manager, built on Kelp: fund documents, portfolio companies and the annual meeting recordings in one place for its investors."
+    },
+    {
+      "q": "What problem did the Truenorth investor portal solve?",
+      "a": "Investors do not use the portal daily, so it has to be obvious where everything is, every time. The question we set out to answer: How might we give a fund's investors a calm, trustworthy place to find every document, see every portfolio company and catch up on the annual meeting, without emailing the investor-relations team?"
+    },
+    {
+      "q": "How did Designit approach the Truenorth investor portal?",
+      "a": "We worked in 4 phases: Start from the investor's questions; give documents a structure; make the meeting navigable; show the portfolio. We organised the portal around what investors come to find: an executive summary, their funds, transactions, shared documents and the annual meeting."
+    },
+    {
+      "q": "What is an investor portal in private equity?",
+      "a": "A secure website where a fund's investors (limited partners) find their fund documents, reports, notices, statements and portfolio information, instead of receiving everything by email. Truenorth's portal also hosts the annual meeting."
+    },
+    {
+      "q": "What features should an LP investor portal have?",
+      "a": "Clear navigation by fund, a structured document library (reports, notices, tax, financial statements, valuation and compliance), a portfolio view, and a way to revisit events such as the annual meeting. Above all, investors should find what they need without contacting investor relations."
+    },
+    {
+      "q": "How do you organise documents in an investor portal?",
+      "a": "By type first, the way investors look for them: reports, notices, tax, financial statements, valuation reports, compliance and others. Date and fund become filters inside each type."
+    },
+    {
+      "q": "How do you make a long recorded event easy to navigate?",
+      "a": "Pair the video with an agenda: each session listed with its speaker, clickable to jump straight to it, and a speaker profile that opens alongside without leaving the page."
+    },
+    {
+      "q": "Was the Truenorth portal built on the same design system as Kelp?",
+      "a": "Yes. It uses the same components as Kelp's deals module and plugin, which keeps the experience consistent and the product faster to extend."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ]
+}

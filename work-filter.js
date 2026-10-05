@@ -4,7 +4,7 @@
   'use strict';
   var bar = document.getElementById('workFilters');
   if (!bar) return;
-  var cards = Array.prototype.slice.call(document.querySelectorAll('#all-work .work-card'));
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#all-work .work-card, #all-work .cs-card'));
   var status = document.getElementById('workFilterStatus');
   var state = { industry: 'all', service: 'all' };
   function apply() {

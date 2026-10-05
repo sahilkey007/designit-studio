@@ -1,0 +1,254 @@
+{
+  "url": "/projects/rcentric/vela-viento/",
+  "file": "projects/rcentric/vela-viento.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "R-Centric",
+  "clientUrl": "/projects/rcentric/",
+  "metaTitle": "Vela Viento — R-Centric (Omniyat) — Designit",
+  "metaDescription": "Case study: digital storytelling for Vela Viento, a Foster + Partners residence in Marasi Bay with Dorchester Collection services, for international buyers.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "R-Centric",
+    "Vela Viento"
+  ],
+  "kicker": "R-Centric (Omniyat) · Real estate",
+  "h1": "Vela Viento",
+  "summary": "Foster + Partners luxury in Marasi Bay with Dorchester Collection services.",
+  "tags": [
+    "Web Design",
+    "Scrollytelling",
+    "Luxury UX"
+  ],
+  "liveUrl": "https://velaviento.omniyat.com/",
+  "overview": {
+    "label": "Overview",
+    "heading": "Waterfront Luxury, Scroll by Scroll",
+    "paras": [
+      "Vela Viento is a Foster + Partners masterpiece in Marasi Bay, offering ultra-luxury residences with Dorchester Collection hotel services. The digital experience needed to capture the essence of waterfront living — the movement of water, the play of light on glass, the seamless indoor-outdoor lifestyle. We designed a scrollytelling experience that uses the bay itself as a visual thread, weaving through property showcases, amenity highlights, and lifestyle vignettes."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "R-Centric (Omniyat)"
+    ],
+    [
+      "Category",
+      "Luxury Waterfront"
+    ],
+    [
+      "Services",
+      "Web Design, Scrollytelling, Animation"
+    ],
+    [
+      "Tools",
+      "Figma, GSAP, Webflow"
+    ]
+  ],
+  "challenges": {
+    "label": "Problem Statement",
+    "heading": "The Challenge",
+    "paras": [
+      "Premium waterfront properties needed digital storytelling that conveyed the lifestyle, views, and exclusivity that photos alone couldn't capture. The international buyer base required multi-language and multi-currency support, and the Dorchester Collection partnership needed to be woven into the narrative without overshadowing the property itself. Creating emotional desire for a waterfront lifestyle through a screen was the core design challenge."
+    ]
+  },
+  "approach": {
+    "label": "Design Process",
+    "heading": "How We Approached It",
+    "intro": [],
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Buyer Journey Mapping",
+        "body": "We created detailed user journey maps for ultra-high-net-worth buyers, identifying touchpoints across their decision journey from initial awareness through to property visit booking. We mapped the emotional arc — from curiosity to desire to commitment — and designed the website flow to mirror this progression, ensuring each section builds on the emotional momentum of the previous one."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Scrollytelling Design",
+        "body": "We designed a scrollytelling experience with the bay as a visual thread running through the entire narrative. As users scroll, the water view evolves from dawn to dusk, property interiors transition from wide shots to intimate details, and the Dorchester services are revealed as natural extensions of the living experience. Every scroll position was choreographed for maximum emotional impact."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Animated Prototyping",
+        "body": "We prototyped animated transitions between property views and amenity showcases, testing different animation speeds and easing curves to find the balance between dramatic and functional. The prototype phase was extensive — we tested over 30 animation variations with target users, optimizing for the feeling of fluid luxury without motion sickness or performance issues on mobile devices."
+      },
+      {
+        "k": "Phase 04",
+        "title": "International Optimization",
+        "body": "We optimized the experience for international buyers with multi-currency display, language switching that preserves scroll position, and region-specific content highlighting relevant investment benefits. The inquiry flow was localized for different markets, with appropriate timezone-aware scheduling for virtual tours and phone consultations, ensuring global buyers feel equally valued and served."
+      }
+    ]
+  },
+  "solution": {
+    "label": "Solution",
+    "heading": "What We Delivered",
+    "paras": [
+      "A scrollytelling masterpiece that captures waterfront luxury through movement, light, and narrative flow. The website serves as a virtual preview of the Vela Viento lifestyle, with the Dorchester Collection partnership integrated naturally into the experience, driving qualified international inquiries through an emotionally resonant journey."
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "heading": "What Makes It Stand Out",
+    "intro": [],
+    "items": [
+      {
+        "title": "Scrollytelling Experience",
+        "body": "Narrative-driven scroll journey with the bay as a visual thread connecting all sections."
+      },
+      {
+        "title": "Waterfront View Simulator",
+        "body": "Interactive tool showing the view from different floors and unit positions across times of day."
+      },
+      {
+        "title": "Penthouse Showcase",
+        "body": "Dedicated immersive section for flagship penthouse units with 360-degree virtual tours."
+      },
+      {
+        "title": "Dorchester Service Preview",
+        "body": "Visual guide to the hotel-level services available to residents through the Dorchester Collection."
+      },
+      {
+        "title": "Investment Calculator",
+        "body": "Multi-currency ROI calculator with market data for international property investors."
+      },
+      {
+        "title": "International Buyer Portal",
+        "body": "Localized experience with multi-language, multi-currency, and timezone-aware scheduling."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Visual Gallery",
+    "heading": "Design Highlights",
+    "images": [
+      {
+        "src": "/assets/projects/rcentric/vela-viento-hero.webp",
+        "alt": "Vela Viento design"
+      }
+    ]
+  },
+  "faqExisting": [
+    {
+      "q": "What is Vela Viento?",
+      "a": "Vela Viento is a Foster + Partners masterpiece in Marasi Bay, offering ultra-luxury residences with Dorchester Collection hotel services. The digital experience needed to capture the essence of waterfront living — the movement of water, the play of light on glass, the seamless indoor-outdoor lifestyle. We designed a scrollytelling experience that uses the bay itself as a visual thread, weaving through property showcases, amenity highlights, and lifestyle vignettes."
+    },
+    {
+      "q": "What problem did Vela Viento solve?",
+      "a": "Premium waterfront properties needed digital storytelling that conveyed the lifestyle, views, and exclusivity that photos alone couldn't capture. The international buyer base required multi-language and multi-currency support, and the Dorchester Collection partnership needed to be woven into the narrative without overshadowing the property itself. Creating emotional desire for a waterfront lifestyle through a screen was the core design challenge."
+    },
+    {
+      "q": "How did Designit approach Vela Viento?",
+      "a": "We created detailed user journey maps for ultra-high-net-worth buyers, identifying touchpoints across their decision journey from initial awareness through to property visit booking. We mapped the emotional arc — from curiosity to desire to commitment — and designed the website flow to mirror this progression, ensuring each section builds on the emotional momentum of the previous one."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ],
+  "hero": {
+    "src": "/assets/projects/rcentric/vela-viento-hero.webp",
+    "alt": "The Vela Viento website on a laptop with the tower rising over Marasi Bay"
+  },
+  "thumb": "/assets/projects/rcentric/thumb-vela-viento.webp",
+  "filterIndustry": "proptech",
+  "filterServices": [
+    "website-design",
+    "design-systems"
+  ],
+  "platform": "Website, desktop and mobile",
+  "order": 5,
+  "cardTitle": "Vela Viento",
+  "cardLine": "Scrollytelling for a Foster + Partners waterfront residence with Dorchester Collection services.",
+  "cardTags": [
+    "Real estate",
+    "Website",
+    "Scrollytelling"
+  ],
+  "industry": "Real estate · luxury residential, Dubai",
+  "deliverables": "Web design, scrollytelling, animation",
+  "overviewFacts": [
+    [
+      "Tools",
+      "Figma, GSAP, Webflow"
+    ]
+  ],
+  "problemStatement": "How might we capture waterfront living, the water, the light and the hotel-level service, in a scroll, for buyers deciding from anywhere in the world?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "Vela Viento's buyers are international and expect the service of a Dorchester Collection hotel at home.",
+    "people": [
+      {
+        "who": "International buyers",
+        "context": "High-net-worth buyers, often abroad, judging a Dubai property from a screen before they ever visit."
+      },
+      {
+        "who": "Investors",
+        "context": "Want location, availability and value made clear quickly, alongside the lifestyle story."
+      },
+      {
+        "who": "The sales team",
+        "context": "Wants fewer, better-qualified enquiries that arrive with context about what the buyer wants."
+      }
+    ],
+    "painPoints": [
+      "Photos alone could not convey the views and the indoor-outdoor life.",
+      "International buyers needed several languages and currencies.",
+      "The Dorchester partnership had to support the property, not overshadow it.",
+      "Emotional desire had to build through a screen."
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/rcentric/vela-viento.webp",
+      "alt": "Vela Viento website hero: the tower against a blue sky with the line 'A realm above the ordinary'",
+      "title": "A realm above the ordinary",
+      "body": "The scroll starts with the tower against open sky and a single line, then follows the bay as a visual thread through residences, amenities and services."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Vela Viento?",
+      "a": "Foster + Partners luxury in Marasi Bay with Dorchester Collection services."
+    },
+    {
+      "q": "What problem did Vela Viento solve?",
+      "a": "Premium waterfront properties needed digital storytelling that conveyed the lifestyle, views, and exclusivity that photos alone couldn't capture. The international buyer base required multi-language and multi-currency support, and the Dorchester Collection partnership needed to be woven into the narrative without overshadowing the property itself. Creating emotional desire for a waterfront lifestyle through a screen was the core design challenge. The question we set out to answer: How might we capture waterfront living, the water, the light and the hotel-level service, in a scroll, for buyers deciding from anywhere in the world?"
+    },
+    {
+      "q": "How did Designit approach Vela Viento?",
+      "a": "We worked in 4 phases: Buyer Journey Mapping; scrollytelling design; animated prototyping; international optimization. We created detailed user journey maps for ultra-high-net-worth buyers, identifying touchpoints across their decision journey from initial awareness through to property visit booking."
+    },
+    {
+      "q": "What features should a luxury real estate website in Dubai have?",
+      "a": "Immersive photography and video, clear unit and floor-plan information, location context, multilingual content for international buyers, and an enquiry flow that feels like requesting a private consultation rather than filling in a form. The R-Centric properties share one design system so each site can be distinct while staying consistent."
+    },
+    {
+      "q": "How do you design a property website for international buyers?",
+      "a": "Assume they will decide largely from the screen: show the views, the spaces and the neighbourhood honestly, make availability and next steps clear, and support the languages and time zones they buy from."
+    },
+    {
+      "q": "Were the Omniyat property websites built on one design system?",
+      "a": "Yes. The seven R-Centric (Omniyat) property experiences share one design system, so each property can have its own character, imagery and story while navigation, enquiry flows and components stay consistent and fast to build."
+    },
+    {
+      "q": "What is scrollytelling on a website?",
+      "a": "Storytelling driven by scrolling: each section reveals the next part of the story with choreographed imagery and motion. For Vela Viento, the bay runs through the whole page as a visual thread."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ]
+}

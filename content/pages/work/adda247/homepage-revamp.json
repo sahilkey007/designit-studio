@@ -1,0 +1,358 @@
+{
+  "url": "/projects/adda247/homepage-revamp/",
+  "file": "projects/adda247/homepage-revamp.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "Adda247",
+  "clientUrl": "/projects/adda247/",
+  "metaTitle": "Homepage Revamp — Adda247 | Designit Case Study",
+  "metaDescription": "Revamping the Adda247 home screen to improve onboarding, boost engagement and drive free-to-paid conversion for 3M+ competitive exam students.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "Adda247",
+    "Keeping ADDA Home Simple & Approachable"
+  ],
+  "kicker": "Adda247 · EdTech",
+  "h1": "Keeping ADDA Home Simple &amp; Approachable",
+  "summary": "Revamping the Adda247 home screen to enhance onboarding, boost engagement, and drive free-to-paid conversion for 3M+ competitive exam students.",
+  "tags": [
+    "UX Research & Discovery",
+    "Product Design",
+    "Interaction Design",
+    "Information Architecture",
+    "Prototyping"
+  ],
+  "hero": {
+    "src": "/assets/projects/adda247/homepage-revamp-hero.webp",
+    "alt": "Two phones showing the redesigned Adda247 home screen with study material, quizzes and educator content"
+  },
+  "overview": {
+    "label": "Project Overview",
+    "heading": "A smarter home for India's biggest EdTech",
+    "paras": [
+      "The Adda247 app serves millions of students preparing for competitive exams. However, its home screen felt outdated and failed to guide users effectively — leading to low retention and drop-off at a critical stage.",
+      "This project focused on revamping the home section to deliver a structured, frictionless onboarding flow for new users and a personalised, high-engagement experience for existing ones — while nudging free users toward paid conversion."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "Adda247"
+    ],
+    [
+      "Platform",
+      "iOS &amp; Android App"
+    ],
+    [
+      "Domain",
+      "EdTech / Competitive Exams"
+    ],
+    [
+      "My Role",
+      "Lead Product Designer"
+    ],
+    [
+      "Scope",
+      "UX Research · Information Architecture · UI Design · Prototyping · Handoff"
+    ]
+  ],
+  "insights": {
+    "label": "Research & Insights",
+    "heading": "What the data revealed",
+    "intro": [
+      "Deep behavioural analysis of 3M+ users surfaced critical gaps between what users needed and what the home screen offered."
+    ],
+    "items": [
+      [
+        "3.12M",
+        "clicks on study materials — the #1 action, but access required extra navigation steps"
+      ],
+      [
+        "1.47M",
+        "Daily Quiz clicks — a top feature that was visually deprioritised in the UI"
+      ],
+      [
+        "8.8%",
+        "of users engaged with video content — poor discovery buried high-value content"
+      ],
+      [
+        "37.5K",
+        "users clicked the hamburger menu — a signal of navigation failure, not preference"
+      ],
+      [
+        "3–5×",
+        "scroll required before users found relevant content, despite infinite scroll design"
+      ],
+      [
+        "<2%",
+        "social engagement — community features lacked incentive and visual prominence"
+      ]
+    ]
+  },
+  "challenges": {
+    "label": "Business Challenges",
+    "heading": "Four problems to solve",
+    "intro": [
+      "The platform had high engagement potential but was actively undermining its own retention and conversion goals."
+    ],
+    "items": [
+      {
+        "title": "Outdated UI",
+        "body": "The home section lacked modern design aesthetics, making it less appealing and trustworthy — especially to first-time users evaluating whether to invest time in the platform."
+      },
+      {
+        "title": "High Drop-off Rates",
+        "body": "Many new users abandoned the app immediately due to a poor onboarding experience. There were no guided entry points to communicate value before redirecting users to the store."
+      },
+      {
+        "title": "Lack of Product Discovery",
+        "body": "Users struggled to navigate and understand the app's value proposition. High-click features like Quizzes and Job Alerts were buried — causing users to miss the most engaging content."
+      },
+      {
+        "title": "Retention Issues",
+        "body": "Engaged users did not find enough reasons to return consistently. The home feed was cluttered with competing content types, banner ads, and cognitive overload that discouraged daily use."
+      }
+    ]
+  },
+  "problemStatement": "How might we create a seamless and engaging home experience that fosters trust, enhances product discovery, and motivates students to study — while reducing clutter, improving navigation, and leveraging top educators to drive retention and conversions?",
+  "approach": {
+    "label": "Our Process",
+    "heading": "How we approached it",
+    "intro": [
+      "A structured four-phase design process grounded in user behaviour data and iterative validation."
+    ],
+    "steps": [
+      {
+        "k": "01 — Discover",
+        "title": "Research &amp; Opportunity Areas",
+        "body": "Behavioural analysis of 3M+ user interactions, heatmaps, session recordings, and stakeholder interviews to identify the biggest friction points and missed engagement opportunities."
+      },
+      {
+        "k": "02 — Define",
+        "title": "What &amp; How",
+        "body": "Synthesised research into a clear problem statement, user persona (Yash — a first-time free user preparing for defence exams), and a structured information architecture for the new home experience."
+      },
+      {
+        "k": "03 — Ideate",
+        "title": "Feedback, UX Patterns &amp; Consistency",
+        "body": "Explored multiple layout concepts around three content buckets — Watch, Practice, Read. Validated patterns against competitive benchmarks and Adda247's own highest-performing content types."
+      },
+      {
+        "k": "04 — Design",
+        "title": "Mockups, High-fidelity &amp; Prototype Delivery",
+        "body": "Iterated through multiple design rounds, built interactive prototypes for user validation, and delivered production-ready Figma files with full component documentation and developer handoff specs."
+      }
+    ]
+  },
+  "decisions": {
+    "label": "Design Decisions",
+    "heading": "What we redesigned",
+    "intro": [
+      "Five structural changes that transformed the home screen from a cluttered feed into a high-conversion learning hub."
+    ],
+    "items": [
+      {
+        "title": "Unified Home Experience",
+        "body": "Replaced the scattered Feed &amp; Study Material dual-tab structure with a single, cohesive home screen organised around user intent: Watch, Practice, Read."
+      },
+      {
+        "title": "Improved Navigation",
+        "body": "Reduced reliance on the hamburger menu by surfacing key sections directly in the bottom nav and home screen. Teacher-based navigation was elevated per user preference data."
+      },
+      {
+        "title": "Data-Driven Feature Placement",
+        "body": "High-traffic content — Quizzes (1.47M clicks), Job Alerts, Study Materials, Current Affairs — was promoted to above-the-fold positions with visual hierarchy matching actual usage."
+      },
+      {
+        "title": "Engagement Boosters",
+        "body": "Added daily streaks, badges, personalised educator recommendations, and community nudges to create sustainable return loops and build emotional connection with the platform."
+      },
+      {
+        "title": "Optimised Premium Visibility",
+        "body": "Premium content and trial offers were repositioned with clear value framing — ensuring new users experienced product value before being redirected to purchase, reducing early drop-off."
+      },
+      {
+        "title": "Structured Onboarding Flow",
+        "body": "New users now receive a guided, frictionless entry experience that showcases the app's core value proposition through self-trial flows before any premium upsell prompt."
+      }
+    ]
+  },
+  "results": {
+    "label": "Outcome",
+    "heading": "Impact of the redesign",
+    "intro": [
+      "The new design streamlined navigation, improved content discoverability, and prioritised high-engagement features — delivering a more intuitive, personalised learning journey."
+    ],
+    "items": [
+      [
+        "3M+",
+        "Active users impacted by the redesigned home experience"
+      ],
+      [
+        "↓ Clutter",
+        "Unified feed replaced dual-tab confusion and banner ad disruption"
+      ],
+      [
+        "↑ Discovery",
+        "High-click features surfaced above the fold for immediate engagement"
+      ]
+    ]
+  },
+  "navLinks": [
+    [
+      "← Test Series",
+      "/projects/adda247/test-series/"
+    ],
+    [
+      "All Adda247 Projects",
+      "/projects/adda247/"
+    ],
+    [
+      "Live Class Module →",
+      "/projects/adda247/live-class/"
+    ]
+  ],
+  "faqExisting": [
+    {
+      "q": "What is Keeping ADDA Home Simple & Approachable?",
+      "a": "Revamping the Adda247 home screen to enhance onboarding, boost engagement, and drive free-to-paid conversion for 3M+ competitive exam students."
+    },
+    {
+      "q": "What problem did Keeping ADDA Home Simple & Approachable solve?",
+      "a": "The Adda247 app serves millions of students preparing for competitive exams. However, its home screen felt outdated and failed to guide users effectively — leading to low retention and drop-off at a critical stage."
+    },
+    {
+      "q": "How did Designit approach Keeping ADDA Home Simple & Approachable?",
+      "a": "This project focused on revamping the home section to deliver a structured, frictionless onboarding flow for new users and a personalised, high-engagement experience for existing ones — while nudging free users toward paid conversion."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    },
+    {
+      "q": "Which regions does Designit work with?",
+      "a": "Designit is based in Noida, India, and works with clients in India and the UAE; we also take on projects for teams in the United States and the United Kingdom. All communication is in English, and invoices are in the client's market currency: INR in India, USD in the US, GBP in the UK, and USD or AED in the UAE. Working hours overlap with EST and PST for US teams and with GMT for UK teams, so scheduled calls land inside a normal working day on both sides."
+    },
+    {
+      "q": "Who actually works on the engagement?",
+      "a": "Senior practitioners, from kickoff through to developer handoff. There are no account managers in the middle, no junior hand-offs once a contract is signed, and no offshore layer. Clients talk directly to the people producing the work, which is what keeps the feedback loop short enough to ship in days rather than weeks."
+    },
+    {
+      "q": "What tools does the studio work in?",
+      "a": "Figma is the primary canvas, with prototyping in Figma or Protopie and engineering handoff through Figma Dev Mode. Research runs on Maze and Hotjar. Project tracking sits in Notion or Linear, and teams are welcome to work inside their own stack instead."
+    }
+  ],
+  "filterIndustry": "edtech",
+  "order": 1,
+  "cardTitle": "Homepage Revamp",
+  "cardLine": "A cluttered feed turned into a home organised around Watch, Practice and Read.",
+  "cardTags": [
+    "EdTech",
+    "Mobile app",
+    "Product design"
+  ],
+  "filterServices": [
+    "product-design",
+    "mobile-app-design",
+    "ux-research"
+  ],
+  "industry": "EdTech · competitive exams",
+  "deliverables": "UX research, information architecture, UI design, prototyping, handoff",
+  "platform": "iOS and Android app",
+  "overviewFacts": [
+    [
+      "Role",
+      "Lead Product Designer"
+    ],
+    [
+      "Scope",
+      "UX Research · Information Architecture · UI Design · Prototyping · Handoff"
+    ]
+  ],
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "Most people who open the Adda247 app are deciding, quickly, whether it is worth their limited study time. The home screen has a few seconds to answer that.",
+    "people": [
+      {
+        "who": "First-time free users",
+        "context": "Often preparing for a government or defence exam, exploring before paying. They need to see value before they see a price."
+      },
+      {
+        "who": "Returning learners",
+        "context": "Already studying, looking for today's quiz, current affairs or the class they bought. They need the next useful thing within reach."
+      },
+      {
+        "who": "The business",
+        "context": "Needs engagement to turn into trust, and trust into paid plans, without banner ads crowding out the learning."
+      }
+    ],
+    "painPoints": [
+      "The most-used content, study material, sat behind extra navigation steps.",
+      "Daily Quiz, a top feature, was visually deprioritised on the screen.",
+      "Video and community features were buried, so few people found them.",
+      "Heavy hamburger-menu use signalled that the home screen was not answering the question 'where do I go next?'."
+    ]
+  },
+  "showcase": [],
+  "faq": [
+    {
+      "q": "What is Keeping ADDA Home Simple & Approachable?",
+      "a": "Revamping the Adda247 home screen to enhance onboarding, boost engagement, and drive free-to-paid conversion for 3M+ competitive exam students."
+    },
+    {
+      "q": "What problem did Keeping ADDA Home Simple & Approachable solve?",
+      "a": "The home section lacked modern design aesthetics, making it less appealing and trustworthy — especially to first-time users evaluating whether to invest time in the platform. The question we set out to answer: How might we create a seamless and engaging home experience that fosters trust, enhances product discovery, and motivates students to study — while reducing clutter, improving navigation, and leveraging top educators to drive retention and conversions?"
+    },
+    {
+      "q": "How did Designit approach Keeping ADDA Home Simple & Approachable?",
+      "a": "We worked in 4 phases: Research & Opportunity Areas; what & how; feedback, ux patterns & consistency; mockups, high-fidelity & prototype delivery. Behavioural analysis of 3M+ user interactions, heatmaps, session recordings, and stakeholder interviews to identify the biggest friction points and missed engagement opportunities.."
+    },
+    {
+      "q": "What should an EdTech app's home screen show first?",
+      "a": "What the learner came for, in the order they use it. For Adda247 that meant organising the home around three intents, Watch, Practice and Read, and promoting the most-used content (study material, Daily Quiz, Job Alerts, Current Affairs) above the fold, ahead of promotions."
+    },
+    {
+      "q": "How do you improve free-to-paid conversion without hurting engagement?",
+      "a": "Let people experience value before the upsell. The redesigned home gives new users a guided self-trial of the core features and frames premium content by what it adds, instead of redirecting them to the store on first open."
+    },
+    {
+      "q": "Why does heavy hamburger-menu use matter?",
+      "a": "It usually means the screen in front of people is not giving them a clear next step. On Adda247, menu taps were one of the signals that key sections needed to move into the bottom navigation and the home screen itself."
+    },
+    {
+      "q": "How do you decide what goes above the fold?",
+      "a": "Usage data first, opinion second. We ranked features by how often learners actually used them and gave the visual hierarchy to match, so the most valuable actions are visible without scrolling."
+    },
+    {
+      "q": "What are engagement boosters in a learning app?",
+      "a": "Small, honest reasons to come back: daily streaks, badges, educator recommendations and community nudges. They work when they reward real study, not just opening the app."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    },
+    {
+      "q": "Which regions does Designit work with?",
+      "a": "Designit is based in Noida, India, and works with clients in India and the UAE; we also take on projects for teams in the United States and the United Kingdom. All communication is in English, and invoices are in the client's market currency: INR in India, USD in the US, GBP in the UK, and USD or AED in the UAE. Working hours overlap with EST and PST for US teams and with GMT for UK teams, so scheduled calls land inside a normal working day on both sides."
+    },
+    {
+      "q": "Who actually works on the engagement?",
+      "a": "Senior practitioners, from kickoff through to developer handoff. There are no account managers in the middle, no junior hand-offs once a contract is signed, and no offshore layer. Clients talk directly to the people producing the work, which is what keeps the feedback loop short enough to ship in days rather than weeks."
+    },
+    {
+      "q": "What tools does the studio work in?",
+      "a": "Figma is the primary canvas, with prototyping in Figma or Protopie and engineering handoff through Figma Dev Mode. Research runs on Maze and Hotjar. Project tracking sits in Notion or Linear, and teams are welcome to work inside their own stack instead."
+    }
+  ]
+}

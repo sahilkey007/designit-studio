@@ -1,0 +1,342 @@
+{
+  "url": "/projects/betacrew/portle/",
+  "file": "projects/betacrew/portle.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "Betacrew",
+  "clientUrl": "/projects/betacrew/",
+  "metaTitle": "Portle Case Study — Betacrew Fintech UX | Designit",
+  "metaDescription": "Case study: Portle, a developer-first API management platform for Betacrew that unifies API design, testing, documentation and monitoring in one interface.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "Betacrew",
+    "Portle"
+  ],
+  "kicker": "Betacrew · Developer tools",
+  "h1": "Portle",
+  "summary": "Developer-first API management platform with minimalist interface reducing cognitive load.",
+  "tags": [
+    "Product Design",
+    "Developer UX",
+    "Design System",
+    "White-label"
+  ],
+  "glance": [
+    [
+      "1",
+      "Platform replacing 3 tools"
+    ]
+  ],
+  "overview": {
+    "label": "Overview",
+    "heading": "One Platform, Zero Fragmentation",
+    "paras": [
+      "Portle is a developer-first API management platform that unifies API design, testing, documentation, and monitoring into a single clean interface. Built for Betacrew, the platform replaces three disconnected tools that developer teams were juggling — reducing cognitive load while supporting white-label deployment for different enterprise clients. The design prioritizes clarity and speed, with a minimalist aesthetic that lets developers focus on their work rather than fighting the interface."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "Betacrew"
+    ],
+    [
+      "Category",
+      "Developer Tools"
+    ],
+    [
+      "Services",
+      "Product Design, Developer UX, Design System"
+    ],
+    [
+      "Tools",
+      "Figma, Component Library, Theming System"
+    ]
+  ],
+  "challenges": {
+    "label": "Problem Statement",
+    "heading": "The Challenge",
+    "paras": [
+      "Developers managed APIs across multiple disconnected tools — one for design, another for testing, a third for documentation. Documentation was always outdated because it lived separately from the API itself. Onboarding new team members to API workflows took weeks because they had to learn three different tools and their integration points. The platform needed to unify these workflows while remaining flexible enough for white-label enterprise deployment."
+    ]
+  },
+  "approach": {
+    "label": "Design Process",
+    "heading": "How We Approached It",
+    "intro": [],
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Developer Experience Research",
+        "body": "We conducted developer experience research with 30 engineers across 5 companies, mapping their daily tool usage and pain points. We timed their workflows, documenting every context switch and manual step. The research revealed that developers spent an average of 2 hours per day on API documentation alone — most of which was duplicating information that already existed in their codebase. This became our primary target for automation."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Unified Information Architecture",
+        "body": "We designed a unified information architecture connecting API design, testing, documentation, and monitoring into a single coherent workspace. The IA follows the natural developer workflow: define endpoints, test them, document them, monitor them. Each view shares context with the others — editing an API definition automatically updates documentation and test templates, eliminating the synchronization problem that plagued multi-tool setups."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Interactive Prototyping",
+        "body": "We built interactive prototypes with real API data, testing with developers of varying experience levels from junior to senior architects. The prototype phase revealed critical insights about cognitive load — senior developers wanted density and keyboard shortcuts, while junior developers needed progressive disclosure and contextual help. We designed an adaptive interface that serves both through a customizable density setting and intelligent defaults."
+      },
+      {
+        "k": "Phase 04",
+        "title": "White-label Theming System",
+        "body": "We created a comprehensive theming system supporting white-label deployment for different companies. The system goes beyond color swaps — it supports custom typography, logo placement, terminology overrides, and feature toggling. Each theme maintains accessibility standards and visual harmony regardless of the brand colors applied. We built a theme editor that non-technical admins can use to configure their instance without design support."
+      }
+    ]
+  },
+  "solution": {
+    "label": "Solution",
+    "heading": "What We Delivered",
+    "paras": [
+      "A unified API management platform that replaces three disconnected tools with one clean interface. The design system supports white-label deployment while the auto-generated documentation eliminates the synchronization problem that plagued multi-tool workflows. Developers can design, test, document, and monitor APIs without leaving the platform."
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "heading": "What Makes It Stand Out",
+    "intro": [],
+    "items": [
+      {
+        "title": "Unified API Workspace",
+        "body": "Single interface for API design, testing, documentation, and monitoring."
+      },
+      {
+        "title": "Auto-generated Documentation",
+        "body": "Documentation that stays in sync with API definitions automatically."
+      },
+      {
+        "title": "Interactive API Testing",
+        "body": "Built-in sandbox for testing endpoints with real data and response validation."
+      },
+      {
+        "title": "Team Collaboration",
+        "body": "Shared workspaces with role-based access, comments, and change history."
+      },
+      {
+        "title": "White-label Theming",
+        "body": "Comprehensive theming system for enterprise white-label deployment."
+      },
+      {
+        "title": "Version Control",
+        "body": "Built-in API versioning with diff views and rollback capabilities."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Gallery",
+    "heading": "Screens from Portle",
+    "images": [
+      {
+        "src": "/assets/projects/betacrew/portle-g1.webp",
+        "alt": "Portle endpoint testing view"
+      },
+      {
+        "src": "/assets/projects/betacrew/portle-g2.webp",
+        "alt": "Portle application data view with a block menu"
+      },
+      {
+        "src": "/assets/projects/betacrew/portle-02.webp",
+        "alt": "Portle application data editor"
+      },
+      {
+        "src": "/assets/projects/betacrew/portle-g3.webp",
+        "alt": "Portle endpoint view with a version selector"
+      }
+    ]
+  },
+  "results": {
+    "label": "Results",
+    "heading": "Engagement Scope",
+    "intro": [],
+    "items": [
+      [
+        "1",
+        "Platform replacing 3 tools"
+      ]
+    ]
+  },
+  "faqExisting": [
+    {
+      "q": "What is Portle?",
+      "a": "Portle is a developer-first API management platform that unifies API design, testing, documentation, and monitoring into a single clean interface. Built for Betacrew, the platform replaces three disconnected tools that developer teams were juggling — reducing cognitive load while supporting white-label deployment for different enterprise clients. The design prioritizes clarity and speed, with a minimalist aesthetic that lets developers focus on their work rather than fighting the interface."
+    },
+    {
+      "q": "What problem did Portle solve?",
+      "a": "Developers managed APIs across multiple disconnected tools — one for design, another for testing, a third for documentation. Documentation was always outdated because it lived separately from the API itself. Onboarding new team members to API workflows took weeks because they had to learn three different tools and their integration points. The platform needed to unify these workflows while remaining flexible enough for white-label enterprise deployment."
+    },
+    {
+      "q": "What results did Portle deliver?",
+      "a": "Scope of this engagement: 1 platform replacing 3 tools."
+    },
+    {
+      "q": "How did Designit approach Portle?",
+      "a": "We conducted developer experience research with 30 engineers across 5 companies, mapping their daily tool usage and pain points. We timed their workflows, documenting every context switch and manual step. The research revealed that developers spent an average of 2 hours per day on API documentation alone — most of which was duplicating information that already existed in their codebase. This became our primary target for automation."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    },
+    {
+      "q": "Who actually works on the engagement?",
+      "a": "Senior practitioners, from kickoff through to developer handoff. There are no account managers in the middle, no junior hand-offs once a contract is signed, and no offshore layer. Clients talk directly to the people producing the work, which is what keeps the feedback loop short enough to ship in days rather than weeks."
+    },
+    {
+      "q": "What tools does the studio work in?",
+      "a": "Figma is the primary canvas, with prototyping in Figma or Protopie and engineering handoff through Figma Dev Mode. Research runs on Maze and Hotjar. Project tracking sits in Notion or Linear, and teams are welcome to work inside their own stack instead."
+    },
+    {
+      "q": "What are the engagement models and what do they cost?",
+      "a": "Three models. A Sprint is a fixed scope delivered in five business days. A monthly retainer covers one active request at a time with a 24-hour response window, priced by the time it needs. A full end-to-end engagement runs four to twelve weeks depending on scope. A tailored quote follows within 24 hours of a discovery call."
+    },
+    {
+      "q": "What is included when the work is handed over?",
+      "a": "Source Figma files transfer to the client, along with documented components and states. Retainers include a 24-hour response commitment and 14 days of post-handoff support for questions that surface once engineering starts building. An NDA is available on request before any material is shared."
+    },
+    {
+      "q": "Which sectors has the studio shipped work in?",
+      "a": "Six: B2B SaaS and enterprise tooling, EdTech and digital learning, Fintech and Web3, luxury real estate and PropTech, e-commerce and retail, and automotive HMI. Shipped work includes Adda247, StudyIQ, Tata Elxsi, Kelp Global, Betacrew, Omniyat and LIV Residences."
+    }
+  ],
+  "hero": {
+    "src": "/assets/projects/betacrew/portle-hero.webp",
+    "alt": "Portle API workspace on a laptop: an endpoint with parameters, request body and response"
+  },
+  "thumb": "/assets/projects/betacrew/thumb-portle.webp",
+  "order": 1,
+  "filterIndustry": "developer-tools",
+  "filterServices": [
+    "product-design",
+    "design-systems",
+    "saas-product-design"
+  ],
+  "cardTitle": "Portle",
+  "cardLine": "One API workspace for designing, testing and documenting APIs, replacing three tools.",
+  "cardTags": [
+    "Developer tools",
+    "Web app",
+    "Design system"
+  ],
+  "industry": "Developer tools · API management",
+  "deliverables": "Product design, developer UX, design system, white-label theming",
+  "platform": "Web app (white-label)",
+  "overviewFacts": [
+    [
+      "Tools",
+      "Figma, Component Library, Theming System"
+    ]
+  ],
+  "problemStatement": "How might we give developers one place to design, test, document and monitor their APIs, so documentation stays true and new teammates get productive in days, not weeks?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "Portle's users are developers, from juniors learning a team's APIs to senior architects who want speed and density, plus the enterprise admins who brand it as their own.",
+    "people": [
+      {
+        "who": "Senior developers",
+        "context": "Want density, keyboard shortcuts and no ceremony between them and the endpoint."
+      },
+      {
+        "who": "Junior developers",
+        "context": "Need progressive disclosure and context to learn a team's APIs safely."
+      },
+      {
+        "who": "Enterprise admins",
+        "context": "Need to brand and configure their own instance without a designer."
+      }
+    ],
+    "painPoints": [
+      "API work was split across separate tools for design, testing and documentation.",
+      "Documentation lived apart from the API, so it was always out of date.",
+      "Onboarding meant learning three tools and how they connected.",
+      "Every enterprise deployment needed its own look without breaking accessibility."
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/betacrew/portle-01.webp",
+      "alt": "Portle endpoint view with the API list, query parameters, request body and response panels",
+      "feature": "Unified API Workspace"
+    },
+    {
+      "src": "/assets/projects/betacrew/portle-03.webp",
+      "alt": "Portle endpoint view with a version switcher open in the sidebar",
+      "feature": "Version Control"
+    },
+    {
+      "src": "/assets/projects/betacrew/portle-04.webp",
+      "alt": "Portle user home with a product carousel, updates, frequently asked questions and blog articles",
+      "title": "A home for every tenant",
+      "body": "Each white-labelled instance opens on its own home: products, updates, FAQs and articles for the developers using it, in the tenant's brand."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Portle?",
+      "a": "Developer-first API management platform with minimalist interface reducing cognitive load."
+    },
+    {
+      "q": "What problem did Portle solve?",
+      "a": "Developers managed APIs across multiple disconnected tools — one for design, another for testing, a third for documentation. Documentation was always outdated because it lived separately from the API itself. Onboarding new team members to API workflows took weeks because they had to learn three different tools and their integration points. The platform needed to unify these workflows while remaining flexible enough for white-label enterprise deployment. The question we set out to answer: How might we give developers one place to design, test, document and monitor their APIs, so documentation stays true and new teammates get productive in days, not weeks?"
+    },
+    {
+      "q": "How did Designit approach Portle?",
+      "a": "We worked in 4 phases: Developer Experience Research; unified information architecture; interactive prototyping; white-label theming system. We conducted developer experience research with 30 engineers across 5 companies, mapping their daily tool usage and pain points."
+    },
+    {
+      "q": "What is an API management platform?",
+      "a": "A workspace where teams design, test, document and monitor their APIs. Portle brings those steps into one interface so the API definition, its tests and its documentation stay connected."
+    },
+    {
+      "q": "How do you keep API documentation up to date?",
+      "a": "Generate it from the API definition. In Portle, editing an endpoint updates its documentation and test templates, which removes the drift that comes from documenting in a separate tool."
+    },
+    {
+      "q": "How do you design a developer tool for both juniors and seniors?",
+      "a": "Offer density and shortcuts for experts and progressive disclosure for newcomers. Portle uses a density setting and sensible defaults so the same interface serves both."
+    },
+    {
+      "q": "What does white-label mean for a developer portal?",
+      "a": "Each customer gets an instance that looks and reads like their own product: their colours, typography, logo and terminology, with features switched on or off. Portle's theming keeps every theme accessible."
+    },
+    {
+      "q": "What results did Portle deliver?",
+      "a": "Scope of this engagement: 1 platform replacing 3 tools."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    },
+    {
+      "q": "Who actually works on the engagement?",
+      "a": "Senior practitioners, from kickoff through to developer handoff. There are no account managers in the middle, no junior hand-offs once a contract is signed, and no offshore layer. Clients talk directly to the people producing the work, which is what keeps the feedback loop short enough to ship in days rather than weeks."
+    },
+    {
+      "q": "What tools does the studio work in?",
+      "a": "Figma is the primary canvas, with prototyping in Figma or Protopie and engineering handoff through Figma Dev Mode. Research runs on Maze and Hotjar. Project tracking sits in Notion or Linear, and teams are welcome to work inside their own stack instead."
+    },
+    {
+      "q": "What are the engagement models and what do they cost?",
+      "a": "Three models. A Sprint is a fixed scope delivered in five business days. A monthly retainer covers one active request at a time with a 24-hour response window, priced by the time it needs. A full end-to-end engagement runs four to twelve weeks depending on scope. A tailored quote follows within 24 hours of a discovery call."
+    },
+    {
+      "q": "Which sectors has the studio shipped work in?",
+      "a": "Six: B2B SaaS and enterprise tooling, EdTech and digital learning, Fintech and Web3, luxury real estate and PropTech, e-commerce and retail, and automotive HMI. Shipped work includes Adda247, StudyIQ, Tata Elxsi, Kelp Global, Betacrew, Omniyat and LIV Residences."
+    },
+    {
+      "q": "What is included when the work is handed over?",
+      "a": "Source Figma files transfer to the client, along with documented components and states. Retainers include a 24-hour response commitment and 14 days of post-handoff support for questions that surface once engineering starts building. An NDA is available on request before any material is shared."
+    }
+  ]
+}

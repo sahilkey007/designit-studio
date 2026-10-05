@@ -34,6 +34,24 @@ PAGE_CSS = re.sub(r"\s*\n\s*", "", re.sub(r"/\*.*?\*/", "", read(os.path.join(CO
 ENT = json.load(open(os.path.join(ROOT, "data", "entities.json"), encoding="utf-8"))
 WORK = json.load(open(os.path.join(ROOT, "data", "work.json"), encoding="utf-8"))
 QUOTES = json.load(open(os.path.join(ROOT, "data", "testimonials.json"), encoding="utf-8"))
+CASE_CSS = re.sub(r"\s*\n\s*", "", re.sub(r"/\*.*?\*/", "", read(os.path.join(COMP, "case.css")), flags=re.S))
+
+def _load_cases():
+    """Every sub-project case study spec (content/pages/work/<client>/<slug>.json), in a stable order."""
+    out = []
+    base = os.path.join(ROOT, "content", "pages", "work")
+    for d in sorted(os.listdir(base)):
+        full = os.path.join(base, d)
+        if os.path.isdir(full):
+            for f in sorted(os.listdir(full)):
+                if f.endswith(".json"):
+                    sp = json.load(open(os.path.join(full, f), encoding="utf-8"))
+                    sp["_key"] = f"{d}/{f[:-5]}"
+                    out.append(sp)
+    order = {k: i for i, k in enumerate(["adda247", "kelp-global", "betacrew", "rcentric", "tata-elxsi"])}
+    out.sort(key=lambda x: (order.get(x["_key"].split("/")[0], 9), x.get("order", 50), x["_key"]))
+    return out
+CASES = _load_cases()
 
 def a(s): return html.escape(str(s), quote=True)
 def plain(s): return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", str(s)))).strip()
@@ -142,9 +160,8 @@ def work_card(key):
     return (f'<a class="work-card" href="{a(w["href"])}" data-industry="{a(w["filterIndustry"])}" data-service="{a(" ".join(w["filterServices"]))}">'
             f'<img src="{a(w["img"])}" width="1200" height="750" alt="{a(w["alt"])}" loading="lazy">'
             f'<div class="wc-body"><h3>{w["client"]}</h3><p class="wc-product">{w["product"]}</p>'
-            f'<dl><dt>Industry</dt><dd>{w["industry"]}</dd><dt>Service</dt><dd>{w["service"]}</dd>'
-            f'<dt>Problem</dt><dd>{w["problem"]}</dd><dt>Outcome</dt><dd>{w["outcome"]}</dd></dl>'
-            f'<span class="wc-more">Read the case study <span class="arw" aria-hidden="true">&rarr;</span></span></div></a>')
+            f'<ul class="wc-tags"><li>{w["industry"]}</li>' + "".join(f"<li>{t.strip()[:1].upper() + t.strip()[1:]}</li>" for t in w["service"].split(",")[:2]) + "</ul>"
+            f'<span class="wc-more">View the engagement <span class="arw" aria-hidden="true">&rarr;</span></span></div></a>')
 
 def r_work(s): return sec(s, '<div class="work-grid">' + "".join(work_card(k) for k in s["items"]) + "</div>")
 
@@ -255,14 +272,217 @@ def r_tool(s):
              '<button type="button" class="btn btn-sm" data-act="reset">Start again</button></div></div></form>')
     return sec(s, inner)
 
+# ---------------------------------------------------------------- case-study template
+def _img(src, alt, eager=False, sizes="(max-width: 1240px) 100vw, 1200px"):
+    w, h = _img_dims(src)
+    load = 'loading="eager" fetchpriority="high"' if eager else 'loading="lazy" decoding="async"'
+    return f'<img src="{a(src)}" alt="{a(alt)}" width="{w}" height="{h}" {load} sizes="{sizes}">'
+
+def _eyebrow(t): return f'<p class="cs-eyebrow">{t}</p>' if t else ""
+
+def case_title(sp): return sp.get("cardTitle") or plain(sp["h1"])
+
+def case_card(sp, heading="h3"):
+    tags = "".join(f"<li>{t}</li>" for t in sp.get("cardTags", [])[:3])
+    img = sp["hero"]["src"]  # the branded hero mockups read better as cards than the plain thumbnails
+    return (f'<a class="cs-card" href="{a(sp["url"])}" data-industry="{a(sp.get("filterIndustry", ""))}" '
+            f'data-service="{a(" ".join(sp.get("filterServices", [])))}" data-client="{a(sp["clientUrl"].strip("/").split("/")[-1])}">'
+            f'<div class="cs-card-img">{_img(img, sp.get("thumbAlt") or sp["hero"]["alt"], sizes="(max-width: 760px) 100vw, 600px")}</div>'
+            f'<div class="cs-card-body"><p class="cs-card-k">{sp["client"]}</p><{heading}>{case_title(sp)}</{heading}>'
+            f'<p class="cs-card-p">{sp.get("cardLine", sp.get("summary", ""))}</p>'
+            + (f'<ul class="cs-tags">{tags}</ul>' if tags else "")
+            + '<span class="cs-card-more">View case study <span class="arw" aria-hidden="true">&rarr;</span></span></div></a>')
+
+def r_casegrid(s):
+    """Case-study cards: every case study (Work hub), one client's case studies (client pages) or a picked list."""
+    items = CASES
+    if s.get("client"): items = [c for c in CASES if c["clientUrl"] == s["client"]]
+    if s.get("items"): items = [c for k in s["items"] for c in CASES if c["_key"] == k]
+    cls = "cs-grid" + (" cs-grid-3" if s.get("columns") == 3 else "")
+    return sec(s, f'<div class="{cls}" id="{a(s.get("gridId", "cs-grid"))}">' + "".join(case_card(c) for c in items) + "</div>")
+
+def r_statement(s):
+    return f'''    <section class="cs-statement" id="{a(s.get("id", "problem-statement"))}">
+        <div class="container">{_eyebrow(s.get("label", "Problem statement"))}<p class="cs-statement-q">{s["text"]}</p>{f'<p class="cs-statement-n">{s["note"]}</p>' if s.get("note") else ""}</div>
+    </section>
+'''
+
+def r_empathy(s):
+    people = "".join(f'<li class="cs-person"><h3>{x["who"]}</h3><p>{x["context"]}</p></li>' for x in s.get("people", []))
+    pains = "".join(f'<li><span class="cs-n" aria-hidden="true">{i:02d}</span><p>{x}</p></li>' for i, x in enumerate(s.get("painPoints", []), 1))
+    inner = (f'<div class="cs-head">{_eyebrow(s.get("label", "Empathize"))}<h2 class="cs-h2">{s.get("heading", "Who we designed for")}</h2>'
+             + (f'<p class="cs-lead">{s["intro"]}</p>' if s.get("intro") else "") + "</div>"
+             + (f'<ul class="cs-people">{people}</ul>' if people else "")
+             + (f'<h3 class="cs-h3">{s.get("painHeading", "Pain points")}</h3><ol class="cs-pains">{pains}</ol>' if pains else ""))
+    return f'    <section class="pg-section cs-sec ground-light" id="{a(s.get("id", "who-we-designed-for"))}"><div class="container">{inner}</div></section>\n'
+
+def cs_section(sid, inner, light=False, extra=""):
+    return f'    <section class="pg-section cs-sec{" ground-light" if light else ""}{extra}" id="{a(sid)}"><div class="container">{inner}</div></section>\n'
+
+def cs_head(label, heading, intro=None):
+    intro = intro or []
+    if isinstance(intro, str): intro = [intro]
+    return (f'<div class="cs-head">{_eyebrow(label)}<h2 class="cs-h2">{heading}</h2>'
+            + "".join(f'<p class="cs-lead">{x}</p>' for x in intro) + "</div>")
+
+def cs_hero(p):
+    crumbs = breadcrumbs_html(p["breadcrumb"]) if p.get("breadcrumb") else ""
+    meta = "".join(f'<div class="cs-meta-i"><dt>{k}</dt><dd>{v}</dd></div>' for k, v in p.get("meta", []))
+    acts = ""
+    if p.get("liveUrl"):
+        host = re.sub(r"^https?://(www\.)?", "", p["liveUrl"]).strip("/")
+        acts += f'<a class="btn btn-outline" href="{a(p["liveUrl"])}" target="_blank" rel="noopener">Visit {host} <span aria-hidden="true">&#8599;</span></a>'
+    for i, c in enumerate(p.get("ctas", [])): acts += cta_button(c, i == 0)
+    return f'''    <section class="cs-hero">
+        <div class="container">
+            {crumbs}
+            {_eyebrow(p.get("kicker"))}
+            {f'<ul class="cs-tags cs-hero-tags">{"".join(f"<li>{t}</li>" for t in p["eyebrow"])}</ul>' if p.get("eyebrow") else ''}
+            <h1 class="cs-h1">{p["h1"]}</h1>
+            <p class="cs-summary">{p.get("summary") or p.get("subtitle", "")}</p>
+            {f'<dl class="cs-meta">{meta}</dl>' if meta else ''}
+            {f'<div class="cs-acts">{acts}</div>' if acts else ''}
+        </div>
+    </section>
+    <section class="cs-cover"><div class="container">{_img(p["hero"]["src"], p["hero"]["alt"], eager=True)}</div></section>
+'''
+
+def cs_overview(p):
+    o = p["overview"]
+    tags = "".join(f"<li>{t}</li>" for t in p.get("tags", []))
+    rows = list(p.get("overviewFacts", []))
+    seen = {plain(k).lower() for k, _ in rows} | {"client", "my role", "role", "live"}
+    rows += [[k, v] for k, v in p.get("metaCards", []) if plain(k).lower() not in seen and plain(v) not in {plain(x) for _, x in rows}]
+    facts = "".join(f'<dl class="cs-ov-fact"><dt>{k}</dt><dd>{v}</dd></dl>' for k, v in rows)
+    side = '<div class="cs-ov-side">' + (f'<ul class="cs-tags cs-tags-lg">{tags}</ul>' if tags else "") + facts + "</div>"
+    body = "".join(f"<p>{x}</p>" for x in o["paras"])
+    label = _eyebrow(o.get("label") or "Overview")
+    return cs_section("overview", f'<div class="cs-ov">{label}<div class="cs-ov-grid"><div class="cs-ov-main"><h2 class="cs-h2">{o["heading"]}</h2>{body}</div>{side}</div></div>')
+
+def cs_challenges(c, light=False):
+    if c.get("items"):
+        items = c["items"]
+    else:
+        titles = c.get("titles", [])
+        items = [{"title": titles[i] if i < len(titles) else "", "body": x} for i, x in enumerate(c.get("paras", []))]
+    if len(items) == 1 and not items[0]["title"]:
+        grid = f'<p class="cs-big">{items[0]["body"]}</p>'
+    else:
+        grid = '<ol class="cs-cards">' + "".join(
+            f'<li class="cs-ch"><span class="cs-n" aria-hidden="true">{i:02d}</span>' + (f'<h3>{x["title"]}</h3>' if x["title"] else "") + f'<p>{x["body"]}</p></li>'
+            for i, x in enumerate(items, 1)) + "</ol>"
+    return cs_section("challenges", cs_head(c.get("label") or "The challenge", c.get("heading", "The challenge"), c.get("intro")) + grid, light)
+
+def cs_insights(i, light=True):
+    tiles = "".join(f'<li><span class="cs-stat">{n}</span><p>{l}</p></li>' for n, l in i["items"])
+    return cs_section("research", cs_head(i.get("label"), i["heading"], i.get("intro")) + f'<ul class="cs-stats">{tiles}</ul>', light)
+
+def cs_approach(ap, light=False):
+    def split(b):
+        m = re.match(r"(.+?[.!?])\s+(.*)$", b, re.S)
+        return (m.group(1), m.group(2)) if m else (b, "")
+    steps = ""
+    for x in ap["steps"]:
+        lead, rest = split(x["body"])
+        steps += (f'<li class="cs-step"><span class="cs-step-k">{x["k"]}</span><h3>{x["title"]}</h3><p class="cs-step-lead">{lead}</p>'
+                  + (f'<p>{rest}</p>' if rest else "") + "</li>")
+    return cs_section("approach", cs_head(ap.get("label") or "Our approach", ap["heading"], ap.get("intro")) + f'<ol class="cs-steps">{steps}</ol>', light)
+
+def cs_experience(p):
+    out = []
+    sol = p.get("solution")
+    feats = (p.get("features") or {}).get("items", [])
+    show = p.get("showcase", [])
+    used = {x.get("feature") for x in show}
+    rows = []
+    for i, x in enumerate(show):
+        f = next((f for f in feats if plain(f["title"]) == x.get("feature")), None) if x.get("feature") else None
+        title = f["title"] if f else x.get("title", "")
+        body = f["body"] if f else x.get("body", "")
+        rows.append(f'<div class="cs-row{" cs-row-r" if i % 2 else ""}{" cs-row-narrow" if x.get("narrow") else ""}"><figure class="cs-row-img">{_img(x["src"], x["alt"])}</figure>'
+                    f'<div class="cs-row-txt"><span class="cs-n" aria-hidden="true">{i + 1:02d}</span><h3>{title}</h3><p>{body}</p></div></div>')
+    rest = [f for f in feats if plain(f["title"]) not in used]
+    head = cs_head((sol or {}).get("label") or "The experience we created", (sol or {}).get("heading") or (p.get("features") or {}).get("heading", "The experience we created"),
+                   (sol or {}).get("paras"))
+    grid = ""
+    if rest:
+        fh = (p.get("features") or {})
+        grid = (f'<h3 class="cs-h3">{fh.get("heading", "Key features")}</h3>' if rows or sol else "") + '<ul class="cs-feats">' + "".join(
+            f'<li><h4>{f["title"]}</h4><p>{f["body"]}</p></li>' for f in rest) + "</ul>"
+    out.append(cs_section("experience", head + (f'<div class="cs-rows">{"".join(rows)}</div>' if rows else "") + grid))
+    return "".join(out)
+
+def cs_decisions(d, light=True):
+    items = "".join(f'<li><span class="cs-n" aria-hidden="true">{i:02d}</span><h3>{x["title"]}</h3><p>{x["body"]}</p></li>' for i, x in enumerate(d["items"], 1))
+    return cs_section("design-decisions", cs_head(d.get("label"), d["heading"], d.get("intro")) + f'<ol class="cs-cards cs-cards-3">{items}</ol>', light)
+
+def cs_gallery(g, shown=()):
+    imgs_ = [x for x in g.get("images", []) if x["src"] not in shown]
+    if not imgs_: return ""
+    figs = "".join(f'<figure class="cs-g{" cs-g-wide" if x.get("wide") else ""}">{_img(x["src"], x["alt"])}'
+                   + (f'<figcaption>{x["caption"]}</figcaption>' if x.get("caption") else "") + "</figure>" for x in imgs_)
+    cols = " cs-gallery-3" if g.get("columns") == 3 else ""
+    return cs_section("gallery", cs_head(g.get("label") or "Gallery", g.get("heading", "Screens from the project"), g.get("intro")) + f'<div class="cs-gallery{cols}">{figs}</div>')
+
+def cs_results(r, light=True):
+    tiles = "".join(f'<li><span class="cs-stat">{n}</span><p>{l}</p></li>' for n, l in r.get("items", []))
+    notes = "".join(f"<li>{x}</li>" for x in r.get("notes", []))
+    return cs_section("results", cs_head(r.get("label") or "Results", r["heading"], r.get("intro"))
+                      + (f'<ul class="cs-stats">{tiles}</ul>' if tiles else "") + (f'<ul class="cs-notes">{notes}</ul>' if notes else ""), light)
+
+def cs_quote(key):
+    q = QUOTES[key]
+    return (f'    <section class="pg-section cs-sec cs-quote-sec"><div class="container"><figure class="cs-quote"><blockquote>&ldquo;{q["quote"]}&rdquo;</blockquote>'
+            f'<figcaption><strong>{q["name"]}</strong> {q["role"]}</figcaption></figure></div></section>\n')
+
+def cs_more(p):
+    me = p.get("_key")
+    same = [c for c in CASES if c["clientUrl"] == p.get("clientUrl") and c["_key"] != me]
+    others = [c for c in CASES if c["clientUrl"] != p.get("clientUrl")]
+    if me:
+        idx = next(i for i, c in enumerate(CASES) if c["_key"] == me)
+        nxt = CASES[(idx + 1) % len(CASES)]
+        pick = ([c for c in same if c is nxt] or same[:1]) + [c for c in same if c is not nxt][:1]
+        pick = (pick + [o for o in others if o["clientUrl"] not in {x["clientUrl"] for x in pick}][:1])[:3]
+    else:
+        pick = [o for o in others][:0]
+    if not pick: return ""
+    allc = f'<p class="cs-more-all"><a href="{a(p.get("clientUrl", "/projects/"))}">All {p.get("client", "")} case studies</a> &middot; <a href="/projects/">All work</a></p>'
+    return cs_section("more-projects", cs_head("More projects", "Keep exploring") + '<div class="cs-grid cs-grid-3">' + "".join(case_card(c) for c in pick) + "</div>" + allc)
+
+def case_main(p):
+    """Case-study detail page: hero + meta row, cover, overview, problem statement, empathy, challenges, research,
+    approach, the experience (image-led), design decisions, gallery, results, quote, FAQ, more projects, CTA."""
+    parts = [cs_hero(p)]
+    if p.get("overview"): parts.append(cs_overview(p))
+    if p.get("problemStatement"): parts.append(r_statement({"text": p["problemStatement"], "label": p.get("problemLabel", "Problem statement")}))
+    if p.get("empathy"): parts.append(r_empathy(p["empathy"]))
+    if p.get("challenges"): parts.append(cs_challenges(p["challenges"]))
+    if p.get("insights"): parts.append(cs_insights(p["insights"]))
+    if p.get("approach"): parts.append(cs_approach(p["approach"], light=not p.get("insights")))
+    if p.get("solution") or p.get("features") or p.get("showcase"): parts.append(cs_experience(p))
+    if p.get("decisions"): parts.append(cs_decisions(p["decisions"]))
+    if p.get("gallery"):
+        shown = {p["hero"]["src"]} | {x["src"] for x in p.get("showcase", [])}
+        parts.append(cs_gallery(p["gallery"], shown))
+    if p.get("results"): parts.append(cs_results(p["results"]))
+    if p.get("sections"): parts.append(render_sections(p["sections"]))
+    if p.get("quote"): parts.append(cs_quote(p["quote"]))
+    parts.append(faq_block(p))
+    parts.append(cs_more(p))
+    parts.append(cta_section(p))
+    parts.append(page_meta(p))
+    return "".join(parts)
+
 RENDER = {"answer": r_answer, "prose": r_prose, "cards": r_cards, "problems": r_problems, "steps": r_steps,
           "stages": r_stages, "checklist": r_checklist, "table": r_table, "compare": r_compare, "work": r_work,
-          "quotes": r_quotes, "clusters": r_clusters, "facts": r_facts, "links": r_links, "html": r_html, "logos": r_logos, "modules": r_modules, "tool": r_tool, "matrix": r_matrix, "ctaband": r_ctaband}
+          "quotes": r_quotes, "clusters": r_clusters, "facts": r_facts, "links": r_links, "html": r_html, "logos": r_logos, "modules": r_modules, "tool": r_tool, "matrix": r_matrix, "ctaband": r_ctaband,
+          "casegrid": r_casegrid, "statement": r_statement, "empathy": r_empathy}
 
 def faq_block(p):
     if not p.get("faq"): return ""
     items = "".join(
-        f'<div class="faq-item"><h3 class="faq-h"><button class="faq-q" type="button">{f["q"]} <span class="faq-chevron" aria-hidden="true">&#8964;</span></button></h3>'
+        f'<div class="faq-item"><h3 class="faq-h">{f["q"]}</h3>'
         f'<div class="faq-a"><p>{f["a"]}</p></div></div>' for f in p["faq"])
     heading = p.get("faqHeading", "Frequently asked questions")
     return f'''    <section class="pg-section" id="faq">
@@ -394,15 +614,43 @@ def render_sections(sections):
         prev_light = light
     return "".join(out)
 
+CTA_CASE = {"heading": "Have a similar problem?", "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+            "buttons": [{"label": "Start a project", "href": "/start-a-project/", "event": "start_project"},
+                        {"label": "Book a call", "href": "https://calendly.com/sahilnsharma77/new-meeting", "event": "schedule_call"}]}
+
+def case_defaults(p):
+    """Fill the derived fields of a case-study spec: breadcrumb, meta row, og image, CTA, FAQ (authored + existing)."""
+    p = dict(p)
+    me = next((c for c in CASES if c["url"] == p["url"]), None)
+    if me: p["_key"] = me["_key"]
+    if not p.get("breadcrumb") and p.get("breadcrumbTrail"):
+        t = p["breadcrumbTrail"]
+        p["breadcrumb"] = [["Home", "/"], ["Work", "/projects/"], [p["client"], p["clientUrl"]], [case_title(p), p["url"]]] if len(t) >= 4 else None
+    if not p.get("meta"):
+        m = [["Client", p["client"]]]
+        for k in ("industry", "deliverables", "platform", "duration"):
+            if p.get(k): m.append([k.capitalize(), p[k]])
+        p["meta"] = m
+    p.setdefault("ogImage", p.get("hero", {}).get("src"))
+    p.setdefault("cta", CTA_CASE)
+    p.setdefault("faqHeading", "Frequently asked questions")
+    if not p.get("faq") and p.get("faqExisting"): p["faq"] = p["faqExisting"]
+    return p
+
 def build(spec_path):
     p = json.load(open(spec_path, encoding="utf-8"))
     url = SITE + p["url"]
-    main = hero(p) + render_sections(p.get("sections", [])) + faq_block(p) + cta_section(p) + page_meta(p)
+    if p.get("template") in ("casestudy", "client"):
+        p = case_defaults(p)
+        main = case_main(p)
+    else:
+        main = hero(p) + render_sections(p.get("sections", [])) + faq_block(p) + cta_section(p) + page_meta(p)
     rel = os.path.relpath(out_path(p), ROOT)
     html_out = (SHELL.replace("{{SEO_HEAD}}", seo_head(p, url))
                      .replace("{{JSONLD}}", jsonld(p, url))
                      .replace("{{MODIFIED_META}}", f'<meta property="article:modified_time" content="{p["updatedAt"]}T00:00:00Z">')
-                     .replace("{{PAGE_CSS}}", PAGE_CSS + p.get("css", "") + (TOOL_CSS if any(x["type"] == "tool" for x in p.get("sections", [])) else ""))
+                     .replace("{{PAGE_CSS}}", PAGE_CSS + p.get("css", "") + (TOOL_CSS if any(x["type"] == "tool" for x in p.get("sections", [])) else "")
+                               + (CASE_CSS if p.get("template") in ("casestudy", "client") or any(x["type"] == "casegrid" for x in p.get("sections", [])) else ""))
                      .replace("{{NAV}}", nav_for(rel))
                      .replace("{{FOOTER}}", FOOTER)
                      .replace("{{MAIN}}", main.rstrip("\n")))

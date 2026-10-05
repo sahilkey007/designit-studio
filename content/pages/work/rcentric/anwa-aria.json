@@ -1,0 +1,253 @@
+{
+  "url": "/projects/rcentric/anwa-aria/",
+  "file": "projects/rcentric/anwa-aria.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "R-Centric",
+  "clientUrl": "/projects/rcentric/",
+  "metaTitle": "Anwa Aria — R-Centric (Omniyat) — Designit",
+  "metaDescription": "Case study: website for Anwa Aria, a luxury tower in Dubai Maritime City, built to give a newer waterfront district credibility against Palm Jumeirah.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "R-Centric",
+    "Anwa Aria"
+  ],
+  "kicker": "R-Centric (Omniyat) · Real estate",
+  "h1": "Anwa Aria",
+  "summary": "Luxury residential tower in Dubai Maritime City emphasizing waterfront living.",
+  "tags": [
+    "Web Design",
+    "Location Branding",
+    "Digital Sales"
+  ],
+  "overview": {
+    "label": "Overview",
+    "heading": "Establishing a New Maritime Address",
+    "paras": [
+      "Anwa Aria is a luxury residential tower in Dubai Maritime City — an emerging waterfront district that needed digital credibility to compete with established luxury locations. The website had to do double duty: sell the property and sell the location. We created a digital experience that positions Dubai Maritime City as the next great waterfront address while showcasing Anwa Aria as the flagship development that defines the area's luxury potential."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "R-Centric (Omniyat)"
+    ],
+    [
+      "Category",
+      "Luxury Real Estate"
+    ],
+    [
+      "Services",
+      "Web Design, Location Branding, Sales UX"
+    ],
+    [
+      "Tools",
+      "Figma, Webflow, Map Integration"
+    ]
+  ],
+  "challenges": {
+    "label": "Problem Statement",
+    "heading": "The Challenge",
+    "paras": [
+      "A new development in a less established area needed digital credibility and strong brand positioning to compete with established locations like Palm Jumeirah and Downtown. Buyers needed convincing that Maritime City was a worthy investment, not just a property purchase. The website had to overcome location skepticism while maintaining the luxury standards expected from an Omniyat property."
+    ]
+  },
+  "approach": {
+    "label": "Design Process",
+    "heading": "How We Approached It",
+    "intro": [],
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Location Positioning",
+        "body": "We positioned the project within Dubai's evolving maritime district narrative, researching the government's master plan for the area, upcoming infrastructure, and neighboring developments. We created a compelling location story that frames Maritime City not as an alternative to established areas, but as the next chapter in Dubai's waterfront evolution — a pioneer's opportunity rather than a second choice."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Location Storytelling",
+        "body": "We designed location storytelling that emphasizes connectivity and future development, using animated maps showing proximity to landmarks, commute times, and planned infrastructure. The visual narrative progressively reveals the area's potential, starting with what exists today and building toward the complete vision, creating a sense of getting in early on something significant."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Comparison Tools",
+        "body": "We created comparison tools helping buyers understand value versus established areas. Interactive price-per-square-foot comparisons, amenity matrices, and investment projection charts gave analytical buyers the data they needed to justify the decision. These tools were designed to feel informative rather than salesy, building trust through transparency."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Sales Acceleration",
+        "body": "We built urgency through availability tracking and price transparency, showing real-time unit availability with floor-by-floor visualization. Early-bird pricing and phase-based release schedules were presented clearly, creating natural urgency without high-pressure tactics. The inquiry flow was optimized for speed, connecting interested buyers to sales teams within minutes."
+      }
+    ]
+  },
+  "solution": {
+    "label": "Solution",
+    "heading": "What We Delivered",
+    "paras": [
+      "A location-first digital experience that sells both the area and the property, using data-driven comparison tools, interactive maps, and real-time availability tracking to convert skeptical browsers into qualified buyers. The website positions Dubai Maritime City as an emerging luxury destination while showcasing Anwa Aria as its crown jewel."
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "heading": "What Makes It Stand Out",
+    "intro": [],
+    "items": [
+      {
+        "title": "Location Story",
+        "body": "Interactive narrative about Dubai Maritime City's evolution and future potential."
+      },
+      {
+        "title": "Maritime District Map",
+        "body": "Animated map showing the full district plan, phasing, and connectivity."
+      },
+      {
+        "title": "Unit Availability Tracker",
+        "body": "Real-time floor-by-floor availability with visual unit selection."
+      },
+      {
+        "title": "Price Discovery",
+        "body": "Transparent pricing with area comparison tools for informed decisions."
+      },
+      {
+        "title": "Lifestyle Comparison",
+        "body": "Side-by-side comparison with established luxury areas on key lifestyle factors."
+      },
+      {
+        "title": "Neighborhood Guide",
+        "body": "Curated guide to dining, retail, and entertainment within the maritime district."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Visual Gallery",
+    "heading": "Design Highlights",
+    "images": [
+      {
+        "src": "/assets/projects/rcentric/anwa-aria-hero.webp",
+        "alt": "Anwa Aria design"
+      }
+    ]
+  },
+  "faqExisting": [
+    {
+      "q": "What is Anwa Aria?",
+      "a": "Anwa Aria is a luxury residential tower in Dubai Maritime City — an emerging waterfront district that needed digital credibility to compete with established luxury locations. The website had to do double duty: sell the property and sell the location. We created a digital experience that positions Dubai Maritime City as the next great waterfront address while showcasing Anwa Aria as the flagship development that defines the area's luxury potential."
+    },
+    {
+      "q": "What problem did Anwa Aria solve?",
+      "a": "A new development in a less established area needed digital credibility and strong brand positioning to compete with established locations like Palm Jumeirah and Downtown. Buyers needed convincing that Maritime City was a worthy investment, not just a property purchase. The website had to overcome location skepticism while maintaining the luxury standards expected from an Omniyat property."
+    },
+    {
+      "q": "How did Designit approach Anwa Aria?",
+      "a": "We positioned the project within Dubai's evolving maritime district narrative, researching the government's master plan for the area, upcoming infrastructure, and neighboring developments. We created a compelling location story that frames Maritime City not as an alternative to established areas, but as the next chapter in Dubai's waterfront evolution — a pioneer's opportunity rather than a second choice."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ],
+  "hero": {
+    "src": "/assets/projects/rcentric/anwa-aria-hero.webp",
+    "alt": "The Anwa Aria website on a laptop: twin towers on the Dubai Maritime City waterfront"
+  },
+  "thumb": "/assets/projects/rcentric/thumb-anwa-aria.webp",
+  "filterIndustry": "proptech",
+  "filterServices": [
+    "website-design",
+    "design-systems"
+  ],
+  "platform": "Website, desktop and mobile",
+  "order": 6,
+  "cardTitle": "Anwa Aria",
+  "cardLine": "Selling a new waterfront address as well as the tower that defines it.",
+  "cardTags": [
+    "Real estate",
+    "Website",
+    "Location story"
+  ],
+  "industry": "Real estate · luxury residential, Dubai",
+  "deliverables": "Web design, location branding, sales UX",
+  "overviewFacts": [
+    [
+      "Tools",
+      "Figma, Webflow, Map Integration"
+    ]
+  ],
+  "problemStatement": "How might we convince buyers that Dubai Maritime City is the next great waterfront address, while showing Anwa Aria as the tower that defines it?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "Anwa Aria sits in an emerging district, so buyers are weighing the location as much as the home.",
+    "people": [
+      {
+        "who": "International buyers",
+        "context": "High-net-worth buyers, often abroad, judging a Dubai property from a screen before they ever visit."
+      },
+      {
+        "who": "Investors",
+        "context": "Want location, availability and value made clear quickly, alongside the lifestyle story."
+      },
+      {
+        "who": "The sales team",
+        "context": "Wants fewer, better-qualified enquiries that arrive with context about what the buyer wants."
+      }
+    ],
+    "painPoints": [
+      "The location was less established than Palm Jumeirah or Downtown.",
+      "Buyers needed to see it as an investment, not just a purchase.",
+      "Analytical buyers wanted comparisons, not slogans.",
+      "The site still had to meet Omniyat's luxury standards."
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/rcentric/anwa-aria.webp",
+      "alt": "Anwa Aria website hero: the towers on the waterfront at sunrise with 'Luxury living redefined'",
+      "title": "The location, made visible",
+      "body": "The opening view puts the towers on the waterfront with the city behind them, so the district's promise is visible before a word of copy. The story then moves through connectivity, comparisons and availability."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Anwa Aria?",
+      "a": "Luxury residential tower in Dubai Maritime City emphasizing waterfront living."
+    },
+    {
+      "q": "What problem did Anwa Aria solve?",
+      "a": "A new development in a less established area needed digital credibility and strong brand positioning to compete with established locations like Palm Jumeirah and Downtown. Buyers needed convincing that Maritime City was a worthy investment, not just a property purchase. The website had to overcome location skepticism while maintaining the luxury standards expected from an Omniyat property. The question we set out to answer: How might we convince buyers that Dubai Maritime City is the next great waterfront address, while showing Anwa Aria as the tower that defines it?"
+    },
+    {
+      "q": "How did Designit approach Anwa Aria?",
+      "a": "We worked in 4 phases: Location Positioning; location storytelling; comparison tools; sales acceleration. We positioned the project within Dubai's evolving maritime district narrative, researching the government's master plan for the area, upcoming infrastructure, and neighboring developments."
+    },
+    {
+      "q": "What features should a luxury real estate website in Dubai have?",
+      "a": "Immersive photography and video, clear unit and floor-plan information, location context, multilingual content for international buyers, and an enquiry flow that feels like requesting a private consultation rather than filling in a form. The R-Centric properties share one design system so each site can be distinct while staying consistent."
+    },
+    {
+      "q": "How do you design a property website for international buyers?",
+      "a": "Assume they will decide largely from the screen: show the views, the spaces and the neighbourhood honestly, make availability and next steps clear, and support the languages and time zones they buy from."
+    },
+    {
+      "q": "Were the Omniyat property websites built on one design system?",
+      "a": "Yes. The seven R-Centric (Omniyat) property experiences share one design system, so each property can have its own character, imagery and story while navigation, enquiry flows and components stay consistent and fast to build."
+    },
+    {
+      "q": "How do you market a property in an emerging location?",
+      "a": "Sell the area as well as the building: a clear location story, maps showing connectivity and planned development, and honest comparisons with established areas so analytical buyers can justify the decision."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ]
+}

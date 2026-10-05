@@ -1,0 +1,263 @@
+{
+  "url": "/projects/rcentric/liv/",
+  "file": "projects/rcentric/liv.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "R-Centric",
+  "clientUrl": "/projects/rcentric/",
+  "metaTitle": "LIV — R-Centric (Omniyat) — Designit",
+  "metaDescription": "Case study: a premium platform for LIV, Omniyat's exclusive real estate partner, replacing a generic site with a boutique, personalized property experience.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "R-Centric",
+    "Liv"
+  ],
+  "kicker": "R-Centric (Omniyat) · Real estate",
+  "h1": "LIV",
+  "summary": "Positioned LIV as exclusive partner for Omniyat's luxury properties through premium platform design.",
+  "tags": [
+    "Web Design",
+    "Luxury Branding",
+    "UX Research",
+    "Visual Design"
+  ],
+  "liveUrl": "https://www.liv.ae/",
+  "overview": {
+    "label": "Overview",
+    "heading": "Exclusive Luxury, Digitally Crafted",
+    "paras": [
+      "LIV is Omniyat's exclusive real estate partner, representing some of Dubai's most coveted luxury properties. The digital platform needed to match the caliber of these properties — conveying exclusivity, sophistication, and personalized service at every touchpoint. We designed a premium web experience that positions LIV as the definitive destination for ultra-luxury property seekers, with deep user research driving every design decision from typography to interaction patterns."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "R-Centric (Omniyat)"
+    ],
+    [
+      "Category",
+      "Luxury Real Estate"
+    ],
+    [
+      "Live",
+      "<a href=\"https://www.liv.ae/\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--text-primary);\">www.liv.ae</a>"
+    ],
+    [
+      "Tools",
+      "Figma, Webflow, Animation"
+    ]
+  ],
+  "challenges": {
+    "label": "Problem Statement",
+    "heading": "The Challenge",
+    "paras": [
+      "Luxury buyers expected a boutique, personalized digital experience. The existing site felt generic and didn't convey exclusivity. Property details were hard to find and compare, leading to high bounce rates among high-net-worth individuals. The platform needed to feel like walking into a private showroom — curated, intimate, and effortlessly elegant — rather than browsing a typical real estate listing site."
+    ]
+  },
+  "approach": {
+    "label": "Design Process",
+    "heading": "How We Approached It",
+    "intro": [],
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Research &amp; Discovery",
+        "body": "We interviewed high-net-worth property buyers and agents to understand their decision-making journey. We studied luxury brand websites across fashion, hospitality, and automotive to identify patterns that convey exclusivity. Competitive analysis revealed that most Dubai real estate sites relied on stock photography and generic layouts, presenting a clear opportunity for differentiation."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Information Architecture",
+        "body": "We designed a property showcase with full-screen imagery, virtual tours, and curated collections that grouped properties by lifestyle rather than just location. The navigation was restructured to prioritize browsing by experience — waterfront living, penthouse views, architectural landmarks — making the discovery process feel aspirational rather than transactional."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Prototyping &amp; Testing",
+        "body": "We built interactive prototypes with smooth animations and transitions that convey luxury — from parallax scrolling on property pages to subtle hover states that reveal additional details. Each interaction was tested with target users to ensure the experience felt premium without being slow or over-designed. Load times were optimized to maintain the seamless feel."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Visual Design &amp; Brand Language",
+        "body": "We created a bespoke design language with custom typography, photography direction, and a refined color palette that evokes understated luxury. Every visual element — from the weight of borders to the spacing between elements — was calibrated to feel premium. The photography guidelines ensured consistency across all property listings, with art direction that emphasizes natural light and architectural detail."
+      }
+    ]
+  },
+  "solution": {
+    "label": "Solution",
+    "heading": "What We Delivered",
+    "paras": [
+      "A premium platform with sophisticated design, deep user research, and personalized customer service. The website serves as both a discovery tool and a concierge experience, guiding high-net-worth buyers through curated property collections with the same level of attention they'd expect from a private showing."
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "heading": "What Makes It Stand Out",
+    "intro": [],
+    "items": [
+      {
+        "title": "Full-screen Property Showcase",
+        "body": "Immersive, edge-to-edge imagery that lets the properties speak for themselves with cinematic presentation."
+      },
+      {
+        "title": "Virtual Tours",
+        "body": "360-degree walkthroughs integrated seamlessly into the browsing experience for remote buyers."
+      },
+      {
+        "title": "Curated Collections",
+        "body": "Properties grouped by lifestyle themes — waterfront, penthouse, architectural — for aspirational discovery."
+      },
+      {
+        "title": "Personalized Recommendations",
+        "body": "Intelligent suggestions based on browsing behavior and stated preferences."
+      },
+      {
+        "title": "Concierge Integration",
+        "body": "One-tap access to a personal advisor for private viewings and bespoke property matching."
+      },
+      {
+        "title": "Multi-language Support",
+        "body": "Full Arabic and English experiences tailored for Dubai's international buyer demographic."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Visual Gallery",
+    "heading": "Design Highlights",
+    "images": [
+      {
+        "src": "/assets/projects/rcentric/liv-hero.webp",
+        "alt": "LIV design screen"
+      }
+    ]
+  },
+  "faqExisting": [
+    {
+      "q": "What is LIV?",
+      "a": "LIV is Omniyat's exclusive real estate partner, representing some of Dubai's most coveted luxury properties. The digital platform needed to match the caliber of these properties — conveying exclusivity, sophistication, and personalized service at every touchpoint. We designed a premium web experience that positions LIV as the definitive destination for ultra-luxury property seekers, with deep user research driving every design decision from typography to interaction patterns."
+    },
+    {
+      "q": "What problem did LIV solve?",
+      "a": "Luxury buyers expected a boutique, personalized digital experience. The existing site felt generic and didn't convey exclusivity. Property details were hard to find and compare, leading to high bounce rates among high-net-worth individuals. The platform needed to feel like walking into a private showroom — curated, intimate, and effortlessly elegant — rather than browsing a typical real estate listing site."
+    },
+    {
+      "q": "How did Designit approach LIV?",
+      "a": "We interviewed high-net-worth property buyers and agents to understand their decision-making journey. We studied luxury brand websites across fashion, hospitality, and automotive to identify patterns that convey exclusivity. Competitive analysis revealed that most Dubai real estate sites relied on stock photography and generic layouts, presenting a clear opportunity for differentiation."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ],
+  "hero": {
+    "src": "/assets/projects/rcentric/liv-hero.webp",
+    "alt": "The LIV website on a laptop: 'Residences that stand apart' with a property search below"
+  },
+  "thumb": "/assets/projects/rcentric/thumb-liv.webp",
+  "filterIndustry": "proptech",
+  "filterServices": [
+    "website-design",
+    "design-systems"
+  ],
+  "platform": "Website, desktop and mobile",
+  "order": 1,
+  "cardTitle": "LIV",
+  "cardLine": "A private-showroom website for LIV, Omniyat's exclusive real estate partner.",
+  "cardTags": [
+    "Real estate",
+    "Website",
+    "Dubai"
+  ],
+  "industry": "Real estate · luxury residential, Dubai",
+  "deliverables": "Web design, luxury branding, UX research, visual design",
+  "overviewFacts": [
+    [
+      "Live site",
+      "<a href=\"https://www.liv.ae/\" target=\"_blank\" rel=\"noopener\">www.liv.ae</a>"
+    ],
+    [
+      "Tools",
+      "Figma, Webflow, Animation"
+    ]
+  ],
+  "problemStatement": "How might we make browsing LIV's properties online feel like walking into a private showroom: curated, intimate and effortless for high-net-worth buyers?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "LIV represents some of Dubai's most coveted residences. Its visitors expect the website to be as considered as the homes.",
+    "people": [
+      {
+        "who": "International buyers",
+        "context": "High-net-worth buyers, often abroad, judging a Dubai property from a screen before they ever visit."
+      },
+      {
+        "who": "Investors",
+        "context": "Want location, availability and value made clear quickly, alongside the lifestyle story."
+      },
+      {
+        "who": "The sales team",
+        "context": "Wants fewer, better-qualified enquiries that arrive with context about what the buyer wants."
+      }
+    ],
+    "painPoints": [
+      "The previous site felt generic and did not convey exclusivity.",
+      "Property details were hard to find and compare.",
+      "High-net-worth visitors left quickly.",
+      "Stock-style layouts made LIV look like every other listing site."
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/rcentric/liv.webp",
+      "alt": "LIV website hero: 'Residences that stand apart' over dark water, with a search by project, location and property type",
+      "title": "A showroom that opens on a search",
+      "body": "The site opens on a quiet, full-bleed scene and a single line, then offers a search by project, location and property type, so browsing starts from what the buyer wants rather than a list of listings."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is LIV?",
+      "a": "Positioned LIV as exclusive partner for Omniyat's luxury properties through premium platform design."
+    },
+    {
+      "q": "What problem did LIV solve?",
+      "a": "Luxury buyers expected a boutique, personalized digital experience. The existing site felt generic and didn't convey exclusivity. Property details were hard to find and compare, leading to high bounce rates among high-net-worth individuals. The platform needed to feel like walking into a private showroom — curated, intimate, and effortlessly elegant — rather than browsing a typical real estate listing site. The question we set out to answer: How might we make browsing LIV's properties online feel like walking into a private showroom: curated, intimate and effortless for high-net-worth buyers?"
+    },
+    {
+      "q": "How did Designit approach LIV?",
+      "a": "We worked in 4 phases: Research & Discovery; information architecture; prototyping & testing; visual design & brand language. We interviewed high-net-worth property buyers and agents to understand their decision-making journey."
+    },
+    {
+      "q": "What features should a luxury real estate website in Dubai have?",
+      "a": "Immersive photography and video, clear unit and floor-plan information, location context, multilingual content for international buyers, and an enquiry flow that feels like requesting a private consultation rather than filling in a form. The R-Centric properties share one design system so each site can be distinct while staying consistent."
+    },
+    {
+      "q": "How do you design a property website for international buyers?",
+      "a": "Assume they will decide largely from the screen: show the views, the spaces and the neighbourhood honestly, make availability and next steps clear, and support the languages and time zones they buy from."
+    },
+    {
+      "q": "Were the Omniyat property websites built on one design system?",
+      "a": "Yes. The seven R-Centric (Omniyat) property experiences share one design system, so each property can have its own character, imagery and story while navigation, enquiry flows and components stay consistent and fast to build."
+    },
+    {
+      "q": "How do you convey exclusivity on a real estate website?",
+      "a": "Through restraint: fewer, larger images, generous space, custom typography and art-directed photography, with properties grouped by lifestyle such as waterfront or penthouse rather than in a dense grid."
+    },
+    {
+      "q": "Why group properties by lifestyle instead of location?",
+      "a": "Because luxury buyers often start from how they want to live. Curated collections like waterfront, penthouse and architectural landmarks make discovery feel aspirational rather than transactional."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "url": "/projects/tata-elxsi/infotainment/",
+  "file": "projects/tata-elxsi/infotainment.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "Tata Elxsi",
+  "clientUrl": "/projects/tata-elxsi/",
+  "metaTitle": "Infotainment System — Tata Elxsi — Designit",
+  "metaDescription": "Case study: next-generation in-vehicle infotainment for Tata Elxsi, with navigation, media, climate and phone controls designed to work at a glance.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "Tata Elxsi",
+    "Infotainment"
+  ],
+  "kicker": "Tata Elxsi · Automotive HMI",
+  "h1": "Infotainment System",
+  "summary": "Next-gen in-vehicle infotainment balancing safety with intuitive controls.",
+  "tags": [
+    "HMI Design",
+    "Automotive UX",
+    "Safety-first Design"
+  ],
+  "overview": {
+    "label": "Overview",
+    "heading": "Safety Meets Intuition",
+    "paras": [
+      "The infotainment system represents the primary touchpoint between driver and vehicle. We designed a next-generation interface that balances feature richness with safety-first principles. Navigation, media, climate control, phone integration, and vehicle settings are all accessible through a layered interaction model that ensures essential controls are always within one tap, while secondary features are neatly organized behind a single level of navigation. The dark-mode-first design reduces eye strain and glare during night driving."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "Tata Elxsi"
+    ],
+    [
+      "Category",
+      "Automotive HMI"
+    ],
+    [
+      "Services",
+      "HMI Design, Interaction Design, Prototyping"
+    ],
+    [
+      "Tools",
+      "Figma, After Effects, Driving Simulator"
+    ]
+  ],
+  "challenges": {
+    "label": "Problem Statement",
+    "heading": "The Challenge",
+    "paras": [
+      "Automotive HMI design must work at a glance — drivers can't afford the cognitive load of complex interfaces. Existing systems were either too simple, missing features users expected from their smartphones, or too complex, creating dangerous distractions. The interface needed to serve both tech-savvy drivers who want full control and those who just want music and navigation without complexity. NHTSA guidelines mandate strict limits on glance time and interaction depth."
+    ]
+  },
+  "approach": {
+    "label": "Design Process",
+    "heading": "How We Approached It",
+    "intro": [],
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Safety Standards Research",
+        "body": "We studied automotive safety standards including NHTSA visual-manual guidelines, which specify maximum glance times of 2 seconds and total task times of 12 seconds. We analyzed competitor infotainment systems from BMW iDrive, Tesla's touchscreen, and Mercedes MBUX to identify what works and what creates dangerous distractions. This research established our interaction budget for every feature in the system."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Layered Interaction Model",
+        "body": "We designed a layered interaction model where essential controls — volume, navigation, climate — are always visible on the home screen. Secondary features are behind exactly one tap, never more. The layout uses large touch targets (minimum 44px) with generous spacing to prevent mistouch. Contextual controls appear based on driving state: media controls expand when audio is playing, navigation simplifies during active routing."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Simulator Testing",
+        "body": "We built prototypes and tested them in driving simulators, measuring glance time, task completion time, and lane deviation for every interaction. The simulator sessions revealed that icon-only interfaces caused more cognitive load than icon+label combinations, and that bottom-of-screen placement reduced glance distance from the road. We iterated through 4 major design revisions based on simulator data."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Adaptive UI System",
+        "body": "We created an adaptive UI that simplifies based on driving speed and conditions. At highway speeds, the interface automatically reduces to essential controls with larger touch targets and higher contrast. In parking or stationary mode, the full feature set is available. This speed-responsive design ensures safety without permanently limiting the system's capabilities, giving drivers full access when it's safe to use."
+      }
+    ]
+  },
+  "solution": {
+    "label": "Solution",
+    "heading": "What We Delivered",
+    "paras": [
+      "A production-ready infotainment interface that meets NHTSA safety guidelines while delivering a feature-rich experience. The layered interaction model keeps essential controls always accessible, the adaptive UI simplifies at speed, and the dark-mode-first design reduces nighttime glare. Every interaction was validated through driving simulator testing."
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "heading": "What Makes It Stand Out",
+    "intro": [],
+    "items": [
+      {
+        "title": "Glance-optimized UI",
+        "body": "Large touch targets and high-contrast elements designed for 2-second glance times."
+      },
+      {
+        "title": "Adaptive Complexity",
+        "body": "Interface simplifies at highway speeds and expands features when stationary."
+      },
+      {
+        "title": "Voice Control Integration",
+        "body": "Natural language voice commands for hands-free control of all major functions."
+      },
+      {
+        "title": "Navigation Integration",
+        "body": "Seamless turn-by-turn navigation with predictive routing and live traffic overlay."
+      },
+      {
+        "title": "Media Controls",
+        "body": "Contextual media interface supporting streaming, radio, and Bluetooth sources."
+      },
+      {
+        "title": "Vehicle Settings Hub",
+        "body": "Centralized vehicle configuration for lighting, seats, mirrors, and driving modes."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Visual Gallery",
+    "heading": "Design Highlights",
+    "images": [
+      {
+        "src": "/assets/projects/tata-elxsi/infotainment-hero.webp",
+        "alt": "Infotainment design"
+      }
+    ]
+  },
+  "faqExisting": [
+    {
+      "q": "What is Infotainment System?",
+      "a": "The infotainment system represents the primary touchpoint between driver and vehicle. We designed a next-generation interface that balances feature richness with safety-first principles. Navigation, media, climate control, phone integration, and vehicle settings are all accessible through a layered interaction model that ensures essential controls are always within one tap, while secondary features are neatly organized behind a single level of navigation. The dark-mode-first design reduces eye strain and glare during night driving."
+    },
+    {
+      "q": "What problem did Infotainment System solve?",
+      "a": "Automotive HMI design must work at a glance — drivers can't afford the cognitive load of complex interfaces. Existing systems were either too simple, missing features users expected from their smartphones, or too complex, creating dangerous distractions. The interface needed to serve both tech-savvy drivers who want full control and those who just want music and navigation without complexity. NHTSA guidelines mandate strict limits on glance time and interaction depth."
+    },
+    {
+      "q": "How did Designit approach Infotainment System?",
+      "a": "We studied automotive safety standards including NHTSA visual-manual guidelines, which specify maximum glance times of 2 seconds and total task times of 12 seconds. We analyzed competitor infotainment systems from BMW iDrive, Tesla's touchscreen, and Mercedes MBUX to identify what works and what creates dangerous distractions. This research established our interaction budget for every feature in the system."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    },
+    {
+      "q": "Who actually works on the engagement?",
+      "a": "Senior practitioners, from kickoff through to developer handoff. There are no account managers in the middle, no junior hand-offs once a contract is signed, and no offshore layer. Clients talk directly to the people producing the work, which is what keeps the feedback loop short enough to ship in days rather than weeks."
+    },
+    {
+      "q": "What tools does the studio work in?",
+      "a": "Figma is the primary canvas, with prototyping in Figma or Protopie and engineering handoff through Figma Dev Mode. Research runs on Maze and Hotjar. Project tracking sits in Notion or Linear, and teams are welcome to work inside their own stack instead."
+    }
+  ],
+  "hero": {
+    "src": "/assets/projects/tata-elxsi/infotainment-hero.webp",
+    "alt": "The infotainment system on a large portrait centre display in a car interior at night"
+  },
+  "thumb": "/assets/projects/tata-elxsi/thumb-infotainment.webp",
+  "order": 1,
+  "filterIndustry": "automotive",
+  "filterServices": [
+    "product-design"
+  ],
+  "cardTitle": "Infotainment System",
+  "cardLine": "An in-car infotainment system that keeps essential controls one tap away and eyes on the road.",
+  "cardTags": [
+    "Automotive",
+    "HMI",
+    "Touch display"
+  ],
+  "industry": "Automotive HMI",
+  "deliverables": "HMI design, interaction design, prototyping",
+  "platform": "In-vehicle centre display",
+  "overviewFacts": [
+    [
+      "Tools",
+      "Figma, After Effects, Driving Simulator"
+    ]
+  ],
+  "problemStatement": "How might we give drivers the features they expect from their phones while every interaction stays within a glance and a tap, safely?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "In a car, the user's real task is driving. Every interaction with the screen competes with the road.",
+    "people": [
+      {
+        "who": "Tech-savvy drivers",
+        "context": "Expect smartphone-level features and full control."
+      },
+      {
+        "who": "Everyday drivers",
+        "context": "Want music, navigation and climate without complexity."
+      },
+      {
+        "who": "The OEM",
+        "context": "Needs an interface that meets safety guidelines for glance time and interaction depth."
+      }
+    ],
+    "painPoints": [
+      "Existing systems were either too limited or too complex and distracting.",
+      "Deep menus pulled drivers' eyes off the road for too long.",
+      "Small, icon-only targets caused mistouches.",
+      "The same interface was used on the highway and while parked."
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/tata-elxsi/infotainment.webp",
+      "alt": "Close view of the infotainment display in the dashboard with large tiles for core functions",
+      "feature": "Glance-optimized UI"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Infotainment System?",
+      "a": "Next-gen in-vehicle infotainment balancing safety with intuitive controls."
+    },
+    {
+      "q": "What problem did Infotainment System solve?",
+      "a": "Automotive HMI design must work at a glance — drivers can't afford the cognitive load of complex interfaces. Existing systems were either too simple, missing features users expected from their smartphones, or too complex, creating dangerous distractions. The interface needed to serve both tech-savvy drivers who want full control and those who just want music and navigation without complexity. NHTSA guidelines mandate strict limits on glance time and interaction depth. The question we set out to answer: How might we give drivers the features they expect from their phones while every interaction stays within a glance and a tap, safely?"
+    },
+    {
+      "q": "How did Designit approach Infotainment System?",
+      "a": "We worked in 4 phases: Safety Standards Research; layered interaction model; simulator testing; adaptive ui system. We studied automotive safety standards including NHTSA visual-manual guidelines, which specify maximum glance times of 2 seconds and total task times of 12 seconds."
+    },
+    {
+      "q": "What is automotive HMI design?",
+      "a": "Designing the human-machine interface in a vehicle: the displays, controls and voice interactions drivers and passengers use. The core constraint is safety, so every interaction has to work within a glance."
+    },
+    {
+      "q": "What are the glance-time guidelines for in-car screens?",
+      "a": "NHTSA's visual-manual guidelines limit individual glances to about two seconds and total task time to twelve seconds. We used them as an interaction budget for every feature."
+    },
+    {
+      "q": "How do you reduce driver distraction on a touchscreen?",
+      "a": "Keep essential controls always visible, put secondary features no more than one tap away, use large targets with labels, and simplify the interface as speed increases. Simulator testing then measures glance time and lane deviation for each task."
+    },
+    {
+      "q": "Why test infotainment designs in a driving simulator?",
+      "a": "Because what looks clear on a desk can be distracting at speed. Simulator sessions showed, for example, that icon-plus-label controls caused less load than icon-only ones."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    },
+    {
+      "q": "Who actually works on the engagement?",
+      "a": "Senior practitioners, from kickoff through to developer handoff. There are no account managers in the middle, no junior hand-offs once a contract is signed, and no offshore layer. Clients talk directly to the people producing the work, which is what keeps the feedback loop short enough to ship in days rather than weeks."
+    },
+    {
+      "q": "What tools does the studio work in?",
+      "a": "Figma is the primary canvas, with prototyping in Figma or Protopie and engineering handoff through Figma Dev Mode. Research runs on Maze and Hotjar. Project tracking sits in Notion or Linear, and teams are welcome to work inside their own stack instead."
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "url": "/projects/tata-elxsi/instrument-cluster/",
+  "file": "projects/tata-elxsi/instrument-cluster.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "Tata Elxsi",
+  "clientUrl": "/projects/tata-elxsi/",
+  "metaTitle": "Digital Instrument Cluster — Tata Elxsi — Designit",
+  "metaDescription": "Case study: a programmable digital instrument cluster for Tata Elxsi with adaptive display modes for city, highway, sport and eco driving.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "Tata Elxsi",
+    "Instrument Cluster"
+  ],
+  "kicker": "Tata Elxsi · Automotive HMI",
+  "h1": "Digital Instrument Cluster",
+  "summary": "Digital cockpit instrument cluster with clear visual hierarchy and adaptive display.",
+  "tags": [
+    "HMI Design",
+    "Digital Cockpit",
+    "Automotive UI"
+  ],
+  "overview": {
+    "label": "Overview",
+    "heading": "Beyond Analog Gauges",
+    "paras": [
+      "The digital instrument cluster replaces traditional analog gauges with a fully programmable display that adapts to driving conditions, modes, and driver preferences. We designed adaptive display modes for city driving, highway cruising, sport, and eco — each prioritizing different information based on what matters most in that context. The design system was built with strict automotive contrast ratios and readability standards, ensuring critical information is always instantly scannable."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "Tata Elxsi"
+    ],
+    [
+      "Category",
+      "Automotive HMI"
+    ],
+    [
+      "Services",
+      "Cluster Design, Motion Design, Design System"
+    ],
+    [
+      "Tools",
+      "Figma, After Effects, Prototyping"
+    ]
+  ],
+  "challenges": {
+    "label": "Problem Statement",
+    "heading": "The Challenge",
+    "paras": [
+      "Traditional analog clusters were being replaced by digital screens, but early digital clusters simply mimicked analog gauges without leveraging the medium's capabilities. This was a wasted opportunity — digital displays can show contextual information, adapt to conditions, and present data in ways that physical gauges never could. The challenge was designing a system that leverages digital capabilities while maintaining the instant readability that analog gauges provided through decades of driver familiarity."
+    ]
+  },
+  "approach": {
+    "label": "Design Process",
+    "heading": "How We Approached It",
+    "intro": [],
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Information Needs Research",
+        "body": "We researched driver information needs at different speeds and conditions, studying ergonomic guidelines from SAE International and automotive HMI research papers. We cataloged every piece of information a driver might need — from critical (speed, warnings) to useful (range, temperature) to informational (media, calls). This hierarchy became the foundation for our adaptive display logic, ensuring the most important data is always visible regardless of mode."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Adaptive Mode Design",
+        "body": "We designed four adaptive display modes: city driving prioritizes speed and navigation with simplified gauges; highway mode emphasizes cruise control, fuel range, and ADAS status; sport mode features a tachometer-centric layout with lap timing and performance data; eco mode shows efficiency metrics, regenerative braking indicators, and range optimization. Each mode was designed as a complete, self-contained visual system with smooth transitions between them."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Transition Animation",
+        "body": "We prototyped animation transitions between modes, ensuring zero distraction during mode changes. The transitions use morphing animations that maintain spatial consistency — the speedometer always stays in the same relative position, but surrounding elements reorganize around it. We measured glance disruption during transitions in simulator tests, iterating until mode changes were imperceptible to drivers focused on the road."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Automotive Design System",
+        "body": "We created a comprehensive design system for automotive UI with strict contrast ratios (minimum 7:1 for critical info), readability standards calibrated for peripheral vision, and a color language where red always means critical, amber means caution, and green means normal. The system includes guidelines for every lighting condition from bright sunlight to complete darkness, with automatic brightness and color temperature adjustment."
+      }
+    ]
+  },
+  "solution": {
+    "label": "Solution",
+    "heading": "What We Delivered",
+    "paras": [
+      "A production-ready digital instrument cluster with four adaptive display modes that prioritize information based on driving context. The design system ensures automotive-grade readability under all conditions, while seamless mode transitions maintain driver focus. The work was published on Behance and recognized within the automotive HMI design community."
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "heading": "What Makes It Stand Out",
+    "intro": [],
+    "items": [
+      {
+        "title": "Adaptive Display Modes",
+        "body": "Four context-aware modes: City, Highway, Sport, and Eco — each optimized for different driving needs."
+      },
+      {
+        "title": "Speed-based Layout",
+        "body": "Automatic layout adaptation based on vehicle speed for safety-first information display."
+      },
+      {
+        "title": "ADAS Integration",
+        "body": "Visual representation of advanced driver assistance systems including lane keep and adaptive cruise."
+      },
+      {
+        "title": "Night Mode",
+        "body": "Automatic brightness and color temperature adjustment for comfortable night driving."
+      },
+      {
+        "title": "Navigation Overlay",
+        "body": "Turn-by-turn navigation integrated directly into the cluster with upcoming maneuver previews."
+      },
+      {
+        "title": "Vehicle Health Monitoring",
+        "body": "Real-time vehicle diagnostics with clear warning hierarchy and maintenance reminders."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Visual Gallery",
+    "heading": "Design Highlights",
+    "images": [
+      {
+        "src": "/assets/projects/tata-elxsi/instrument-cluster-hero.webp",
+        "alt": "Instrument Cluster design"
+      }
+    ]
+  },
+  "faqExisting": [
+    {
+      "q": "What is Digital Instrument Cluster?",
+      "a": "The digital instrument cluster replaces traditional analog gauges with a fully programmable display that adapts to driving conditions, modes, and driver preferences. We designed adaptive display modes for city driving, highway cruising, sport, and eco — each prioritizing different information based on what matters most in that context. The design system was built with strict automotive contrast ratios and readability standards, ensuring critical information is always instantly scannable."
+    },
+    {
+      "q": "What problem did Digital Instrument Cluster solve?",
+      "a": "Traditional analog clusters were being replaced by digital screens, but early digital clusters simply mimicked analog gauges without leveraging the medium's capabilities. This was a wasted opportunity — digital displays can show contextual information, adapt to conditions, and present data in ways that physical gauges never could. The challenge was designing a system that leverages digital capabilities while maintaining the instant readability that analog gauges provided through decades of driver familiarity."
+    },
+    {
+      "q": "How did Designit approach Digital Instrument Cluster?",
+      "a": "We researched driver information needs at different speeds and conditions, studying ergonomic guidelines from SAE International and automotive HMI research papers. We cataloged every piece of information a driver might need — from critical (speed, warnings) to useful (range, temperature) to informational (media, calls). This hierarchy became the foundation for our adaptive display logic, ensuring the most important data is always visible regardless of mode."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    },
+    {
+      "q": "Which regions does Designit work with?",
+      "a": "Designit is based in Noida, India, and works with clients in India and the UAE; we also take on projects for teams in the United States and the United Kingdom. All communication is in English, and invoices are in the client's market currency: INR in India, USD in the US, GBP in the UK, and USD or AED in the UAE. Working hours overlap with EST and PST for US teams and with GMT for UK teams, so scheduled calls land inside a normal working day on both sides."
+    }
+  ],
+  "hero": {
+    "src": "/assets/projects/tata-elxsi/instrument-cluster-hero.webp",
+    "alt": "The digital instrument cluster showing speed, the speed limit and a navigation view"
+  },
+  "thumb": "/assets/projects/tata-elxsi/thumb-instrument-cluster.webp",
+  "order": 2,
+  "filterIndustry": "automotive",
+  "filterServices": [
+    "product-design",
+    "design-systems"
+  ],
+  "cardTitle": "Digital Instrument Cluster",
+  "cardLine": "A digital cluster with adaptive modes that show the right information for how you are driving.",
+  "cardTags": [
+    "Automotive",
+    "HMI",
+    "Motion design"
+  ],
+  "industry": "Automotive HMI",
+  "deliverables": "Cluster design, motion design, design system",
+  "platform": "Digital instrument cluster",
+  "overviewFacts": [
+    [
+      "Tools",
+      "Figma, After Effects, Prototyping"
+    ]
+  ],
+  "problemStatement": "How might we use a digital cluster to show drivers more of what matters in each moment, without losing the instant readability of analog gauges?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "Drivers read the cluster in fractions of a second, in every light condition, at every speed.",
+    "people": [
+      {
+        "who": "City drivers",
+        "context": "Need speed, navigation and alerts at a glance in busy traffic."
+      },
+      {
+        "who": "Highway drivers",
+        "context": "Need cruise and driver-assistance status, range and the road ahead."
+      },
+      {
+        "who": "The OEM",
+        "context": "Needs automotive-grade readability and contrast in a reusable system."
+      }
+    ],
+    "painPoints": [
+      "Early digital clusters just imitated analog gauges.",
+      "Different driving situations need different information.",
+      "Mode changes can distract if they are abrupt.",
+      "Readability had to hold in direct sunlight and at night."
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/tata-elxsi/instrument-cluster.webp",
+      "alt": "Instrument cluster with speed, speed limit, lane view and a navigation map",
+      "feature": "Navigation Overlay"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Digital Instrument Cluster?",
+      "a": "Digital cockpit instrument cluster with clear visual hierarchy and adaptive display."
+    },
+    {
+      "q": "What problem did Digital Instrument Cluster solve?",
+      "a": "Traditional analog clusters were being replaced by digital screens, but early digital clusters simply mimicked analog gauges without leveraging the medium's capabilities. This was a wasted opportunity — digital displays can show contextual information, adapt to conditions, and present data in ways that physical gauges never could. The challenge was designing a system that leverages digital capabilities while maintaining the instant readability that analog gauges provided through decades of driver familiarity. The question we set out to answer: How might we use a digital cluster to show drivers more of what matters in each moment, without losing the instant readability of analog gauges?"
+    },
+    {
+      "q": "How did Designit approach Digital Instrument Cluster?",
+      "a": "We worked in 4 phases: Information Needs Research; adaptive mode design; transition animation; automotive design system. We researched driver information needs at different speeds and conditions, studying ergonomic guidelines from SAE International and automotive HMI research papers."
+    },
+    {
+      "q": "What is a digital instrument cluster?",
+      "a": "The programmable display behind the steering wheel that replaces analog gauges. Because it is a screen, it can adapt what it shows to the driving situation."
+    },
+    {
+      "q": "How should a digital cluster adapt to driving modes?",
+      "a": "By prioritising different information: city mode favours speed and navigation, highway mode cruise, range and driver assistance, sport and eco modes their own data, with smooth transitions that keep elements in familiar positions."
+    },
+    {
+      "q": "What contrast and readability standards apply to cluster displays?",
+      "a": "Critical information needs very high contrast; this system uses a minimum of 7:1 for critical data, with type sizes calibrated for viewing distance and testing in bright and dark conditions."
+    },
+    {
+      "q": "How do you animate mode changes without distracting the driver?",
+      "a": "Use short, spatially consistent transitions so elements morph rather than jump, keeping the driver oriented while the layout changes."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    },
+    {
+      "q": "Which regions does Designit work with?",
+      "a": "Designit is based in Noida, India, and works with clients in India and the UAE; we also take on projects for teams in the United States and the United Kingdom. All communication is in English, and invoices are in the client's market currency: INR in India, USD in the US, GBP in the UK, and USD or AED in the UAE. Working hours overlap with EST and PST for US teams and with GMT for UK teams, so scheduled calls land inside a normal working day on both sides."
+    }
+  ]
+}

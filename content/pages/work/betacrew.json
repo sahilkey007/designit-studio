@@ -3,7 +3,7 @@
   "action": "KEEP + EXPAND",
   "priority": "P1",
   "author": "Designit",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-06",
   "schemaType": "Article",
   "searchIntent": "evaluation",
   "funnelStage": "evaluation / vendor",
@@ -122,6 +122,37 @@
       ]
     },
     {
+      "type": "statement",
+      "id": "problem-statement",
+      "text": "How might we replace three disconnected API tools with one workspace developers prefer, that every enterprise customer can make their own?"
+    },
+    {
+      "type": "empathy",
+      "id": "who-we-designed-for",
+      "heading": "Who we designed for",
+      "intro": "Developers of every level, and the enterprise admins who deploy Portle under their own brand.",
+      "people": [
+        {
+          "who": "Developers",
+          "context": "Design, test and document APIs every day and want one place to do it."
+        },
+        {
+          "who": "New team members",
+          "context": "Need to learn a team's APIs quickly without learning three tools."
+        },
+        {
+          "who": "Enterprise admins",
+          "context": "Brand and configure their own instance without design support."
+        }
+      ],
+      "painPoints": [
+        "API work was split across three tools.",
+        "Documentation drifted out of date.",
+        "Onboarding took weeks.",
+        "Each deployment needed its own brand without breaking accessibility."
+      ]
+    },
+    {
       "type": "prose",
       "id": "the-problem",
       "heading": "The business and user problem",
@@ -167,17 +198,12 @@
       ]
     },
     {
-      "type": "modules",
+      "type": "casegrid",
       "id": "case-study",
-      "heading": "Read the full case study",
-      "items": [
-        {
-          "href": "/projects/betacrew/portle/",
-          "title": "Portle — API Management Platform",
-          "desc": "Developer-first API management with minimalist interface reducing cognitive load.",
-          "img": "/assets/projects/betacrew/portle-hero.webp"
-        }
-      ]
+      "eyebrow": "Case studies",
+      "heading": "The Portle case study",
+      "client": "/projects/betacrew/",
+      "gridId": "client-cases"
     },
     {
       "type": "links",
@@ -199,12 +225,70 @@
   ],
   "faq": [
     {
+      "q": "What did Designit design for Betacrew?",
+      "a": "Portle, a developer-first API management platform that unifies API design, testing, documentation and monitoring in one interface, with a theming system for white-label deployment."
+    },
+    {
+      "q": "Why consolidate API tools into one platform?",
+      "a": "Because the information is the same. When design, tests and documentation share one definition, documentation stays true and onboarding gets faster."
+    },
+    {
       "q": "What is Portle?",
       "a": "Portle is a developer-first API management platform that unifies API design, testing, documentation and monitoring in one interface, designed by Designit for Betacrew."
     },
     {
       "q": "How does the white-label system work?",
       "a": "Through a theming system that goes beyond colour, covering typography, logo placement, terminology overrides and feature toggles, with accessibility maintained under every theme."
+    },
+    {
+      "q": "What is white-label theming?",
+      "a": "Letting each customer run the product under their own brand: colours, typography, logo, terminology and enabled features, configured by an admin. Portle's themes keep accessibility intact whatever brand colours are applied."
+    },
+    {
+      "q": "How do you design a developer tool?",
+      "a": "Respect the workflow and the expert: define, test, document and monitor in one flow, keyboard shortcuts and density for seniors, progressive disclosure for newcomers, and no ceremony between the developer and the endpoint."
+    },
+    {
+      "q": "How do you keep API documentation from going stale?",
+      "a": "Generate it from the API definition, so editing an endpoint updates its documentation and test templates automatically."
+    },
+    {
+      "q": "Can Designit work on B2B developer platforms and SaaS products?",
+      "a": "Yes. Portle is one example; see our SaaS product design and design systems services for how we approach complex B2B products."
+    },
+    {
+      "q": "Where can I see the Portle case study?",
+      "a": "The full Portle case study, with the problem statement, approach, screens and FAQ, is linked above."
     }
-  ]
+  ],
+  "template": "client",
+  "clientUrl": "/projects/betacrew/",
+  "kicker": "Client · Developer tools",
+  "hero": {
+    "src": "/assets/projects/betacrew/portle-hero.webp",
+    "alt": "Portle API workspace on a laptop"
+  },
+  "meta": [
+    [
+      "Client",
+      "Betacrew"
+    ],
+    [
+      "Industry",
+      "Developer tools · API management"
+    ],
+    [
+      "Deliverables",
+      "Product design, developer UX, design system, white-label theming"
+    ],
+    [
+      "Platform",
+      "Web app (white-label)"
+    ],
+    [
+      "Case studies",
+      "1 product"
+    ]
+  ],
+  "summary": "Developers were designing, testing and documenting APIs in three disconnected tools, so documentation drifted and onboarding took weeks. We designed Portle, a developer-first platform that brings that work into one workspace."
 }

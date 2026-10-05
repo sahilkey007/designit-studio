@@ -1,0 +1,290 @@
+{
+  "url": "/projects/adda247/my-content/",
+  "file": "projects/adda247/my-content.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "Adda247",
+  "clientUrl": "/projects/adda247/",
+  "metaTitle": "My Content — Adda 247 | Designit Case Study",
+  "metaDescription": "User-centric content consumption redesign shifting from package-centric to learner-centric with clear progress tracking and personalized recommendations.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "Adda247",
+    "My Content"
+  ],
+  "kicker": "Adda247 · EdTech",
+  "h1": "My Content",
+  "summary": "Redesigning the content consumption experience from package-centric to learner-centric — with clear progress tracking and intelligent recommendations.",
+  "tags": [
+    "UI/UX Design",
+    "Information Architecture",
+    "Content Strategy",
+    "Personalization"
+  ],
+  "hero": {
+    "src": "/assets/projects/adda247/my-content-hero.webp",
+    "alt": "The redesigned My Content page on a laptop: chapters on the left, videos and topics on the right"
+  },
+  "overview": {
+    "label": "Overview",
+    "heading": "The Challenge &amp; Opportunity",
+    "paras": [
+      "Adda 247 offered hundreds of content packages — test series, video courses, e-books, and live class bundles. But once students purchased content, finding and consuming it was a frustrating experience. The \"My Content\" section was organized by product SKU rather than by learning need, making it nearly impossible for students to build a coherent study plan from their purchases. We redesigned the entire content consumption experience to put the learner at the center, organizing content by subject, topic, and learning stage rather than purchase history."
+    ]
+  },
+  "metaCards": [
+    [
+      "Client",
+      "Adda 247"
+    ],
+    [
+      "Category",
+      "EdTech"
+    ],
+    [
+      "Services",
+      "UI/UX Design, Information Architecture, Content Strategy"
+    ],
+    [
+      "Tools",
+      "Figma, Prototyping"
+    ]
+  ],
+  "challenges": {
+    "label": "The Problem",
+    "heading": "What Needed to Change",
+    "paras": [
+      "Students purchased content packages but couldn't easily find or track what they had bought. A survey of 500 users revealed that 65% couldn't locate specific purchased content within the app. Content was organized by product — \"SSC CGL Tier-1 Test Series,\" \"Banking Maha Pack,\" \"Railway Group D Video Course\" — rather than by what students actually needed: \"Quantitative Aptitude practice\" or \"Reasoning video lessons.\" This product-centric model made perfect sense from a sales perspective but was completely wrong for the learning experience.",
+      "Progress was completely invisible. Students had no way to see how much of their purchased content they had consumed, which subjects they had covered, or where gaps existed. Without this visibility, they couldn't make informed decisions about what to study next. They would repeatedly revisit topics they felt comfortable with while unconsciously avoiding areas where they were weak — the exact opposite of effective exam preparation strategy.",
+      "The lack of content discoverability also impacted business metrics. Students who couldn't find value in their purchases were less likely to renew subscriptions or buy additional packages. The content team was producing excellent material, but it was being buried under a poor organizational structure. Engagement data showed that students were consuming only 30% of their purchased content — a massive waste of both the student's investment and the company's content production effort."
+    ],
+    "titles": [
+      "Organised by product, not by need",
+      "Invisible progress",
+      "Value buried in the library"
+    ]
+  },
+  "approach": {
+    "label": "Design Process",
+    "heading": "How We Approached It",
+    "intro": [],
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Discovery &amp; Research",
+        "body": "We surveyed 500 users about their content discovery frustrations, finding that 65% couldn't locate purchased content and 78% wished they could see their overall progress across all purchases. We conducted card sorting exercises with 30 students to understand how they mentally organized study content — the universal model was subject &gt; topic &gt; content type (video/test/notes), not product package. We also analyzed content consumption data across 50,000 users to identify patterns: most students consumed content from multiple packages for the same subject, confirming that the package-based organization was fundamentally wrong."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Information Architecture",
+        "body": "We redesigned the content model around subjects, topics, and learning stages instead of products. A student studying for SSC CGL would see their content organized as: Mathematics (with sub-topics like Algebra, Geometry, Number System), English (Reading Comprehension, Grammar, Vocabulary), Reasoning (Analogies, Series, Coding-Decoding), and General Knowledge. Within each topic, all relevant content — regardless of which package it came from — was unified. We also introduced three learning stages: Learn (videos, notes), Practice (topic-wise tests), and Test (full mock tests) — mapping to the natural study progression."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Wireframing &amp; Prototyping",
+        "body": "We built and tested a personal dashboard prototype showing progress, bookmarks, and recommendations. The dashboard featured a visual progress map — a grid showing subjects, topics, and completion percentage with color coding for strong, moderate, and weak areas. We tested three visualization approaches: percentage bars, heat maps, and radial charts. The heat map approach resonated most with students — they could instantly see their weak areas as \"cold spots\" that needed attention. We also prototyped the \"resume where you left off\" feature, which automatically surfaces the most relevant next piece of content."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Visual Design &amp; Handoff",
+        "body": "We created a design system for content cards with clear status indicators and progress bars. Each content card showed: type (video/test/notes), completion status, time estimate, and difficulty level. The color system used green for completed, blue for in-progress, and gray for not-started — providing instant visual scanning of progress. The strength/weakness map used warm-to-cool gradients for intuitive understanding. We delivered 35 screens covering all content states, empty states, filter combinations, and recommendation logic, along with a content card component library that the development team could use across the entire platform."
+      }
+    ]
+  },
+  "solution": {
+    "label": "The Solution",
+    "heading": "What We Built",
+    "paras": [
+      "A learner-centric content hub that replaces the product-based content list with a unified, subject-organized learning dashboard. The \"My Content\" section now opens to a progress overview showing subjects, completion rates, and a personalized \"What to study next\" recommendation. Students can drill into any subject to see all available content — videos, tests, and notes — organized by topic with clear progress indicators at every level.",
+      "The strength/weakness map is the centerpiece of the experience — a visual heat map showing topic-level performance based on test scores, content consumption, and practice data. Red zones highlight areas needing immediate attention, while green zones confirm strengths. Smart recommendations use this data to suggest the most impactful next study action. A study streak tracker and daily goals system maintain motivation and build consistent study habits. Bookmark and resume features ensure students never lose their place across devices."
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "heading": "Design Highlights",
+    "intro": [],
+    "items": [
+      {
+        "title": "Progress Tracking",
+        "body": "Multi-level progress visualization from overall completion down to individual topic mastery — giving students a clear picture of their preparation status at every level."
+      },
+      {
+        "title": "Strength/Weakness Map",
+        "body": "Visual heat map showing topic-level performance, making weak areas immediately visible and actionable. Color-coded from red (needs work) to green (strong)."
+      },
+      {
+        "title": "Smart Recommendations",
+        "body": "AI-powered suggestions for what to study next based on weak areas, exam proximity, and learning pace — turning data into a personalized study strategy."
+      },
+      {
+        "title": "Bookmark &amp; Resume",
+        "body": "Bookmark any content for later and seamlessly resume where you left off across devices. The app remembers your position in videos, tests, and reading materials."
+      },
+      {
+        "title": "Subject-wise Organization",
+        "body": "Content from multiple purchased packages unified under subjects and topics — eliminating the confusion of navigating by product SKU."
+      },
+      {
+        "title": "Study Streak Tracker",
+        "body": "Daily study streak with customizable goals, milestone celebrations, and gentle reminders — building the consistent study habits that drive exam success."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Gallery",
+    "heading": "Screens from My Content",
+    "images": [
+      {
+        "src": "/assets/projects/adda247/my-content-g1.webp",
+        "alt": "My Content: English chapters, topic videos and topics"
+      },
+      {
+        "src": "/assets/projects/adda247/my-content-g2.webp",
+        "alt": "A batch page with today's live classes and subjects"
+      },
+      {
+        "src": "/assets/projects/adda247/my-content-g3.webp",
+        "alt": "Batch page with live class, test series, video courses and e-books in the sidebar",
+        "wide": true
+      }
+    ]
+  },
+  "navLinks": [
+    [
+      "← Previous Project",
+      "/projects/adda247/studio-app/"
+    ],
+    [
+      "All Adda 247 Projects",
+      "/projects/adda247/"
+    ],
+    [
+      "Next Project →",
+      "/projects/adda247/community/"
+    ]
+  ],
+  "faqExisting": [
+    {
+      "q": "What is My Content?",
+      "a": "Redesigning the content consumption experience from package-centric to learner-centric — with clear progress tracking and intelligent recommendations."
+    },
+    {
+      "q": "What problem did My Content solve?",
+      "a": "Adda 247 offered hundreds of content packages — test series, video courses, e-books, and live class bundles. But once students purchased content, finding and consuming it was a frustrating experience. The \"My Content\" section was organized by product SKU rather than by learning need, making it nearly impossible for students to build a coherent study plan from their purchases. We redesigned the entire content consumption experience to put the learner at the center, organizing content by subject, topic, and learning stage rather than purchase history."
+    },
+    {
+      "q": "How did Designit approach My Content?",
+      "a": "Students purchased content packages but couldn't easily find or track what they had bought. A survey of 500 users revealed that 65% couldn't locate specific purchased content within the app. Content was organized by product — \"SSC CGL Tier-1 Test Series,\" \"Banking Maha Pack,\" \"Railway Group D Video Course\" — rather than by what students actually needed: \"Quantitative Aptitude practice\" or \"Reasoning video lessons.\" This product-centric model made perfect sense from a sales perspective but was completely wrong for the learning experience."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ],
+  "thumb": "/assets/projects/adda247/thumb-my-content.webp",
+  "filterIndustry": "edtech",
+  "order": 4,
+  "cardTitle": "My Content",
+  "cardLine": "Purchased courses reorganised by subject and topic, with progress learners can see.",
+  "cardTags": [
+    "EdTech",
+    "Web app",
+    "Information architecture"
+  ],
+  "filterServices": [
+    "product-design",
+    "ux-research"
+  ],
+  "industry": "EdTech · competitive exams",
+  "deliverables": "UI/UX design, information architecture, content strategy",
+  "platform": "Web app",
+  "overviewFacts": [
+    [
+      "Tools",
+      "Figma, Prototyping"
+    ]
+  ],
+  "problemStatement": "How might we let students study from everything they have bought, organised the way they learn, by subject and topic, with progress they can see?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "Students buy several packages for the same exam: a test series, a video course, an e-book. They think in subjects and topics, not in the names of what they bought.",
+    "people": [
+      {
+        "who": "Students with several purchases",
+        "context": "Need one place to see everything for, say, Quantitative Aptitude, wherever it came from."
+      },
+      {
+        "who": "Students planning revision",
+        "context": "Need to see which topics they have covered and where the gaps are, so they stop re-practising what they already know."
+      },
+      {
+        "who": "Adda247's content team",
+        "context": "Produces excellent material that was getting buried under a structure built for selling, not studying."
+      }
+    ],
+    "painPoints": [
+      "Many students could not locate content they had already paid for.",
+      "Content was listed by package name instead of by subject or topic.",
+      "There was no view of overall progress across purchases.",
+      "Students consumed only a fraction of what they bought, which hurt renewals."
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/adda247/my-content-02.webp",
+      "alt": "English Live Class page with chapters and topic counts on the left and topic videos on the right",
+      "feature": "Subject-wise Organization"
+    },
+    {
+      "src": "/assets/projects/adda247/my-content-03.webp",
+      "alt": "A topic page listing class recordings, upcoming classes and a menu with handwritten notes, polls and concept videos",
+      "title": "Every class carries its material",
+      "body": "Each topic gathers its live-class recordings and upcoming sessions, and every class opens to its handwritten notes, polls and concept videos. Students stop hunting across packages for the material that goes with a lesson."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is My Content?",
+      "a": "Redesigning the content consumption experience from package-centric to learner-centric — with clear progress tracking and intelligent recommendations."
+    },
+    {
+      "q": "What problem did My Content solve?",
+      "a": "Students purchased content packages but couldn't easily find or track what they had bought. A survey of 500 users revealed that 65% couldn't locate specific purchased content within the app. Content was organized by product — \"SSC CGL Tier-1 Test Series,\" \"Banking Maha Pack,\" \"Railway Group D Video Course\" — rather than by what students actually needed: \"Quantitative Aptitude practice\" or \"Reasoning video lessons.\" This product-centric model made perfect sense from a sales perspective but was completely wrong for the learning experience. The question we set out to answer: How might we let students study from everything they have bought, organised the way they learn, by subject and topic, with progress they can see?"
+    },
+    {
+      "q": "How did Designit approach My Content?",
+      "a": "We worked in 4 phases: Discovery & Research; information architecture; wireframing & prototyping; visual design & handoff. We surveyed 500 users about their content discovery frustrations, finding that 65% couldn't locate purchased content and 78% wished they could see their overall progress across all purchases."
+    },
+    {
+      "q": "How should an online course library be organised?",
+      "a": "By how people learn, not by what they bought. We moved Adda247's library from product packages to subject, topic and learning stage (learn, practise, test), and unified content from every purchased package under each topic."
+    },
+    {
+      "q": "How do you show learning progress across many courses?",
+      "a": "Show it at every level: overall, by subject and by topic. The redesign pairs progress indicators on content cards with a strength-and-weakness view so students can see gaps at a glance."
+    },
+    {
+      "q": "What is card sorting and why did it matter here?",
+      "a": "Card sorting asks people to group content the way they think about it. Students consistently grouped by subject, then topic, then content type, which confirmed that a package-based library was the wrong model."
+    },
+    {
+      "q": "How do you help students decide what to study next?",
+      "a": "Use what you already know about them: weak topics, exam proximity and pace. The new My Content opens with a progress overview and a 'what to study next' recommendation, plus resume-where-you-left-off across devices."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ]
+}

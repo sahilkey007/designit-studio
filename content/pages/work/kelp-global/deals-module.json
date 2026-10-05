@@ -1,0 +1,276 @@
+{
+  "url": "/projects/kelp-global/deals-module/",
+  "file": "projects/kelp-global/deals-module.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "Kelp Global",
+  "clientUrl": "/projects/kelp-global/",
+  "metaTitle": "Deals Module Case Study — Kelp Global | Designit",
+  "metaDescription": "How Designit designed Kelp's deals module for investment teams: company one-pagers, IC notes, valuations and side-by-side comparison in one place.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "Kelp Global",
+    "Deals Module"
+  ],
+  "kicker": "Kelp Global · Private markets",
+  "h1": "Deals Module",
+  "hero": {
+    "src": "/assets/projects/kelp/deals-hero.webp",
+    "alt": "Kelp deals module on a laptop: a company one-pager with deal size, score and company information"
+  },
+  "thumb": "/assets/projects/kelp/thumb-deals-module.webp",
+  "order": 1,
+  "filterIndustry": "b2b-saas",
+  "filterServices": [
+    "saas-product-design",
+    "design-systems"
+  ],
+  "cardTitle": "Deals Module",
+  "cardLine": "Every deal's one-pager, IC notes, valuation and documents in one place, with companies compared side by side.",
+  "cardTags": [
+    "Fintech",
+    "SaaS",
+    "Data-dense UI"
+  ],
+  "summary": "A deals workspace for private-markets investment teams: every company's one-pager, IC notes, valuation and documents in one place, and companies compared side by side.",
+  "industry": "Fintech · private markets",
+  "deliverables": "SaaS product design, information architecture, data-dense UI, design system",
+  "platform": "Web app",
+  "tags": [
+    "SaaS UX",
+    "Data-dense interfaces",
+    "Information architecture",
+    "Design system"
+  ],
+  "overviewFacts": [
+    [
+      "Users",
+      "Analysts, associates and partners on deal teams"
+    ],
+    [
+      "Tools",
+      "Figma, Prototyping"
+    ]
+  ],
+  "thumbAlt": "Kelp deals module company one-pager",
+  "overview": {
+    "label": "Overview",
+    "heading": "One record for every deal",
+    "paras": [
+      "The Deals module is where a Kelp user works a deal from first look to investment committee. Each company gets a single record: a one-pager with what the company does and why it matters, the deal size and a score, the IC notes, the valuation, and every report and document the team has gathered.",
+      "We designed the module around how deal teams actually move: scan the pipeline, open a company, read the one-pager, compare it with similar companies, and prepare for the committee, without leaving the workspace or rebuilding the same summary in a slide deck."
+    ]
+  },
+  "problemStatement": "How might we give a deal team one trustworthy record per company, so the one-pager, the IC notes, the numbers and the documents never live in five different places again?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "Private-markets teams evaluate many companies at once, under deadlines, with information arriving from bankers, founders, data providers and their own diligence.",
+    "people": [
+      {
+        "who": "Analysts and associates",
+        "context": "Build and maintain the company one-pager, add notes from calls, and pull financials together for the committee."
+      },
+      {
+        "who": "Partners",
+        "context": "Need the essentials of a deal in a minute: what the company does, the size, the score, and what the team thinks."
+      },
+      {
+        "who": "The investment committee",
+        "context": "Needs comparable information across companies, in the same structure every time."
+      }
+    ],
+    "painPoints": [
+      "Deal information was scattered across email, spreadsheets, shared drives and slide decks.",
+      "Every company summary was rebuilt by hand, in a slightly different format each time.",
+      "Comparing two or three companies meant copying numbers into a new spreadsheet.",
+      "IC notes, valuations and diligence reports were hard to find once a deal moved on."
+    ]
+  },
+  "challenges": {
+    "label": "The challenge",
+    "heading": "Dense information, read in seconds",
+    "items": [
+      {
+        "title": "A lot of data on one screen",
+        "body": "A single deal carries a description, differentiators, founders and shareholders, geographic focus, financials, scores, notes, tasks and documents. All of it matters, and none of it can hide."
+      },
+      {
+        "title": "Consistency across companies",
+        "body": "A one-pager is only useful to a committee if every company is described in the same structure, so the team can read across deals rather than decode each summary."
+      },
+      {
+        "title": "Comparison without spreadsheets",
+        "body": "Teams regularly weigh similar companies against each other. The product had to make that comparison a view, not a side project in Excel."
+      }
+    ]
+  },
+  "approach": {
+    "label": "Our approach",
+    "heading": "How we approached it",
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Map the deal lifecycle",
+        "body": "We mapped how a company moves from sourcing to the investment committee and what the team needs at each step. That gave us the record structure: a one-pager first, then valuation, IC notes, post-deal notes, activity, tasks and documents."
+      },
+      {
+        "k": "Phase 02",
+        "title": "Design the one-pager",
+        "body": "We designed a fixed one-pager structure, product or service, key differentiator, customer value proposition, founders, top shareholders, geographic focus and key markets, so every company reads the same way."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Make comparison a view",
+        "body": "We built a compare view that lines up selected companies on score, sector, founding year, shareholders and key financials such as revenue, EBITDA, ROCE and ROE, so the team can read across deals in one table."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Share one design system",
+        "body": "Tables, tags, scores and navigation were designed as shared components, so the deals module, the plugin and the investor portal feel like one product."
+      }
+    ]
+  },
+  "solution": {
+    "label": "The experience we created",
+    "heading": "From pipeline to investment committee",
+    "paras": [
+      "A deals workspace where the pipeline, each company's record and the comparison between companies sit side by side, with the documents and notes that support every decision one click away."
+    ]
+  },
+  "features": {
+    "label": "Key features",
+    "heading": "What it includes",
+    "items": [
+      {
+        "title": "Company one-pager",
+        "body": "A consistent summary of every company: product, differentiators, value proposition, founders, shareholders, focus and markets."
+      },
+      {
+        "title": "Side-by-side comparison",
+        "body": "Selected companies lined up on score, sector, shareholders and key financials in a single table."
+      },
+      {
+        "title": "Deal list with context",
+        "body": "Each deal shows sector, size, score and its key documents, such as the one-pager, IC note and valuation, without opening it."
+      },
+      {
+        "title": "IC notes and valuation",
+        "body": "Committee notes and valuation work live on the deal record, next to the information they refer to."
+      },
+      {
+        "title": "Activity, notes and tasks",
+        "body": "Interactions, notes, tasks and documents are attached to the company, so context survives handovers."
+      },
+      {
+        "title": "Sourcing detail",
+        "body": "Summary, financials, leadership, culture and digital presence, organised under a sourcing section of the record."
+      }
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/kelp/deals-02.webp",
+      "alt": "Deals list showing companies with sector, deal size, score and their one-pager, IC notes, valuation and reports",
+      "feature": "Deal list with context"
+    },
+    {
+      "src": "/assets/projects/kelp/deals-one-pager.webp",
+      "alt": "A company one-pager with product, differentiators, value proposition, founders, shareholders and markets",
+      "feature": "Company one-pager"
+    },
+    {
+      "src": "/assets/projects/kelp/deals-03.webp",
+      "alt": "Compare view lining up three companies on score, sector, founding year, shareholders and financials",
+      "feature": "Side-by-side comparison"
+    }
+  ],
+  "gallery": {
+    "label": "Gallery",
+    "heading": "Screens from the deals module",
+    "images": [
+      {
+        "src": "/assets/projects/kelp/deals-g1.webp",
+        "alt": "Company record with the one-pager open and the deal sidebar"
+      },
+      {
+        "src": "/assets/projects/kelp/deals-g2.webp",
+        "alt": "Deals list with company cards and documents"
+      },
+      {
+        "src": "/assets/projects/kelp/deals-g3.webp",
+        "alt": "Comparison table across three companies",
+        "wide": true
+      }
+    ]
+  },
+  "quote": "girish",
+  "faq": [
+    {
+      "q": "What is the Kelp deals module?",
+      "a": "A deals workspace for private-markets investment teams: every company's one-pager, IC notes, valuation and documents in one place, and companies compared side by side."
+    },
+    {
+      "q": "What problem did the Kelp deals module solve?",
+      "a": "A single deal carries a description, differentiators, founders and shareholders, geographic focus, financials, scores, notes, tasks and documents. All of it matters, and none of it can hide. The question we set out to answer: How might we give a deal team one trustworthy record per company, so the one-pager, the IC notes, the numbers and the documents never live in five different places again?"
+    },
+    {
+      "q": "How did Designit approach the Kelp deals module?",
+      "a": "We worked in 4 phases: Map the deal lifecycle; design the one-pager; make comparison a view; share one design system. We mapped how a company moves from sourcing to the investment committee and what the team needs at each step."
+    },
+    {
+      "q": "What should deal management software for private equity include?",
+      "a": "A single record per company that the whole team trusts: a consistent one-pager, the investment committee notes, valuation, documents, activity and tasks, plus a way to compare companies without exporting to a spreadsheet. That is the structure we designed for Kelp."
+    },
+    {
+      "q": "What is a company one-pager in private equity?",
+      "a": "A short, standardised summary of a company used to screen and discuss deals: what it does, why it is different, who founded and owns it, where it operates and the key numbers. Standardising it is what lets a committee read across deals."
+    },
+    {
+      "q": "How do you design data-dense screens for analysts?",
+      "a": "Keep the structure fixed and the hierarchy clear: the same sections in the same order on every record, the few numbers that matter given the most visual weight, and everything else one click away rather than hidden."
+    },
+    {
+      "q": "How do you design a comparison table that people actually use?",
+      "a": "Compare only what drives the decision, in rows people already think in: score, sector, ownership and the key financials. Kelp's compare view lines up selected companies in one table instead of a separate spreadsheet."
+    },
+    {
+      "q": "What was the hardest part of designing for investment teams?",
+      "a": "Communicating complex data clearly. Kelp's Head of CX described the work as simplifying and communicating complex data through tables, graphs and visualisations."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    },
+    {
+      "q": "Which regions does Designit work with?",
+      "a": "Designit is based in Noida, India, and works with clients in India and the UAE; we also take on projects for teams in the United States and the United Kingdom. All communication is in English, and invoices are in the client's market currency: INR in India, USD in the US, GBP in the UK, and USD or AED in the UAE. Working hours overlap with EST and PST for US teams and with GMT for UK teams, so scheduled calls land inside a normal working day on both sides."
+    },
+    {
+      "q": "Who actually works on the engagement?",
+      "a": "Senior practitioners, from kickoff through to developer handoff. There are no account managers in the middle, no junior hand-offs once a contract is signed, and no offshore layer. Clients talk directly to the people producing the work, which is what keeps the feedback loop short enough to ship in days rather than weeks."
+    },
+    {
+      "q": "What tools does the studio work in?",
+      "a": "Figma is the primary canvas, with prototyping in Figma or Protopie and engineering handoff through Figma Dev Mode. Research runs on Maze and Hotjar. Project tracking sits in Notion or Linear, and teams are welcome to work inside their own stack instead."
+    },
+    {
+      "q": "What are the engagement models and what do they cost?",
+      "a": "Three models. A Sprint is a fixed scope delivered in five business days. A monthly retainer covers one active request at a time with a 24-hour response window, priced by the time it needs. A full end-to-end engagement runs four to twelve weeks depending on scope. A tailored quote follows within 24 hours of a discovery call."
+    },
+    {
+      "q": "Which sectors has the studio shipped work in?",
+      "a": "Six: B2B SaaS and enterprise tooling, EdTech and digital learning, Fintech and Web3, luxury real estate and PropTech, e-commerce and retail, and automotive HMI. Shipped work includes Adda247, StudyIQ, Tata Elxsi, Kelp Global, Betacrew, Omniyat and LIV Residences."
+    }
+  ]
+}

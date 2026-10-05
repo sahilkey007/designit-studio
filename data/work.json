@@ -1,104 +1,104 @@
 {
-  "adda247": {
-    "client": "Adda247",
-    "product": "Competitive-exam preparation platform: web, Android, iOS and iPad",
-    "industry": "EdTech",
-    "service": "UX research, product design, design system, mobile app design",
-    "problem": "A platform that grew module by module needed one coherent learning experience across tests, live classes, dashboards and community.",
-    "outcome": "Redesigned modules including the test-series engine, live classes, performance dashboards, community and native iOS/iPad apps.",
-    "href": "/projects/adda247/",
-    "img": "/assets/projects/adda247/homepage-revamp-hero.webp",
-    "alt": "Adda247 learning platform homepage redesign",
-    "filterIndustry": "edtech",
-    "filterServices": [
-      "product-design",
-      "ux-research",
-      "mobile-app-design",
-      "design-systems"
-    ],
-    "stage": "growth",
-    "evidence": [
-      "EV-ADDA-SCOPE"
-    ]
-  },
-  "kelp-global": {
-    "client": "Kelp Global",
-    "product": "CRM intelligence suite: Chrome extension, Truenorth analytics dashboard, deals module",
-    "industry": "B2B SaaS",
-    "service": "SaaS product design, dashboard design, design system",
-    "problem": "Sales teams were switching between tools to find contact intelligence, read pipeline health and manage deals.",
-    "outcome": "Three connected products designed on one shared design system.",
-    "href": "/projects/kelp-global/",
-    "img": "/assets/projects/kelp/deals-hero.webp",
-    "alt": "Kelp Global deals module interface",
-    "filterIndustry": "b2b-saas",
-    "filterServices": [
-      "saas-product-design",
-      "design-systems"
-    ],
-    "stage": "growth",
-    "evidence": [
-      "EV-KELP-SCOPE"
-    ]
-  },
-  "betacrew": {
-    "client": "Betacrew",
-    "product": "Portle, a developer-first API management platform",
-    "industry": "Developer tools",
-    "service": "Product design, developer UX, white-label design system",
-    "problem": "Developers managed APIs across three disconnected tools for design, testing and documentation, so documentation drifted out of date.",
-    "outcome": "One platform replacing three tools, with a white-label theming system for enterprise deployments.",
-    "href": "/projects/betacrew/",
-    "img": "/assets/projects/betacrew/portle-hero.webp",
-    "alt": "Betacrew Portle API management workspace",
-    "filterIndustry": "developer-tools",
-    "filterServices": [
-      "product-design",
-      "design-systems",
-      "saas-product-design"
-    ],
-    "stage": "new-product",
-    "evidence": [
-      "EV-BETACREW-SCOPE"
-    ]
-  },
-  "rcentric": {
-    "client": "R-Centric (Omniyat portfolio)",
-    "product": "Luxury property websites for seven Dubai developments",
-    "industry": "PropTech and real estate",
-    "service": "Website design, design system",
-    "problem": "Each property launch needed a premium digital experience without starting from scratch every time.",
-    "outcome": "Seven property experiences delivered on a shared system that kept each launch distinct.",
-    "href": "/projects/rcentric/",
-    "img": "/assets/projects/rcentric/anwa-aria-hero.webp",
-    "alt": "Anwa Aria luxury property website by Designit",
-    "filterIndustry": "proptech",
-    "filterServices": [
-      "website-design",
-      "design-systems"
-    ],
-    "stage": "growth",
-    "evidence": [
-      "EV-RCENTRIC-SCOPE"
-    ]
-  },
-  "tata-elxsi": {
-    "client": "Tata Elxsi",
-    "product": "In-car infotainment system and digital instrument cluster",
-    "industry": "Automotive HMI",
-    "service": "Product design, HMI design",
-    "problem": "In-car interfaces where every glance is attention taken from the road, inside a tier-one supplier's hardware constraints.",
-    "outcome": "Two HMI systems designed: an infotainment interface and a digital instrument cluster.",
-    "href": "/projects/tata-elxsi/",
-    "img": "/assets/projects/tata-elxsi/infotainment-hero.webp",
-    "alt": "Tata Elxsi infotainment interface design",
-    "filterIndustry": "automotive",
-    "filterServices": [
-      "product-design"
-    ],
-    "stage": "enterprise",
-    "evidence": [
-      "EV-TATA-SCOPE"
-    ]
-  }
+ "adda247": {
+  "client": "Adda247",
+  "product": "Competitive-exam preparation platform: web, Android, iOS and iPad",
+  "industry": "EdTech",
+  "service": "UX research, product design, design system, mobile app design",
+  "problem": "A platform that grew module by module needed one coherent learning experience across tests, live classes, dashboards and community.",
+  "outcome": "Redesigned modules including the test-series engine, live classes, performance dashboards, community and native iOS/iPad apps.",
+  "href": "/projects/adda247/",
+  "img": "/assets/projects/adda247/homepage-revamp-hero.webp",
+  "alt": "Adda247 learning platform homepage redesign",
+  "filterIndustry": "edtech",
+  "filterServices": [
+   "product-design",
+   "ux-research",
+   "mobile-app-design",
+   "design-systems"
+  ],
+  "stage": "growth",
+  "evidence": [
+   "EV-ADDA-SCOPE"
+  ]
+ },
+ "kelp-global": {
+  "client": "Kelp Global",
+  "product": "Private-markets software: deals module, inbox plugin, Truenorth investor portal",
+  "industry": "Fintech",
+  "service": "SaaS product design, data-dense UI, design system",
+  "problem": "Deal teams kept company summaries, notes and documents in decks and inboxes, and investors had no single place for fund documents.",
+  "outcome": "Three connected products designed on one shared design system.",
+  "href": "/projects/kelp-global/",
+  "img": "/assets/projects/kelp/deals-hero.webp",
+  "alt": "Kelp Global deals module interface",
+  "filterIndustry": "b2b-saas",
+  "filterServices": [
+   "saas-product-design",
+   "design-systems"
+  ],
+  "stage": "growth",
+  "evidence": [
+   "EV-KELP-SCOPE"
+  ]
+ },
+ "betacrew": {
+  "client": "Betacrew",
+  "product": "Portle, a developer-first API management platform",
+  "industry": "Developer tools",
+  "service": "Product design, developer UX, white-label design system",
+  "problem": "Developers managed APIs across three disconnected tools for design, testing and documentation, so documentation drifted out of date.",
+  "outcome": "One platform replacing three tools, with a white-label theming system for enterprise deployments.",
+  "href": "/projects/betacrew/",
+  "img": "/assets/projects/betacrew/portle-hero.webp",
+  "alt": "Betacrew Portle API management workspace",
+  "filterIndustry": "developer-tools",
+  "filterServices": [
+   "product-design",
+   "design-systems",
+   "saas-product-design"
+  ],
+  "stage": "new-product",
+  "evidence": [
+   "EV-BETACREW-SCOPE"
+  ]
+ },
+ "rcentric": {
+  "client": "R-Centric (Omniyat portfolio)",
+  "product": "Luxury property websites for seven Dubai developments",
+  "industry": "PropTech and real estate",
+  "service": "Website design, design system",
+  "problem": "Each property launch needed a premium digital experience without starting from scratch every time.",
+  "outcome": "Seven property experiences delivered on a shared system that kept each launch distinct.",
+  "href": "/projects/rcentric/",
+  "img": "/assets/projects/rcentric/anwa-aria-hero.webp",
+  "alt": "Anwa Aria luxury property website by Designit",
+  "filterIndustry": "proptech",
+  "filterServices": [
+   "website-design",
+   "design-systems"
+  ],
+  "stage": "growth",
+  "evidence": [
+   "EV-RCENTRIC-SCOPE"
+  ]
+ },
+ "tata-elxsi": {
+  "client": "Tata Elxsi",
+  "product": "In-car infotainment system and digital instrument cluster",
+  "industry": "Automotive HMI",
+  "service": "Product design, HMI design",
+  "problem": "In-car interfaces where every glance is attention taken from the road, inside a tier-one supplier's hardware constraints.",
+  "outcome": "Two HMI systems designed: an infotainment interface and a digital instrument cluster.",
+  "href": "/projects/tata-elxsi/",
+  "img": "/assets/projects/tata-elxsi/infotainment-hero.webp",
+  "alt": "Tata Elxsi infotainment interface design",
+  "filterIndustry": "automotive",
+  "filterServices": [
+   "product-design"
+  ],
+  "stage": "enterprise",
+  "evidence": [
+   "EV-TATA-SCOPE"
+  ]
+ }
 }

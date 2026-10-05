@@ -3,7 +3,7 @@
   "action": "KEEP + EXPAND",
   "priority": "P1",
   "author": "Designit",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-06",
   "schemaType": "Article",
   "searchIntent": "evaluation",
   "funnelStage": "evaluation / vendor",
@@ -122,6 +122,37 @@
       ]
     },
     {
+      "type": "statement",
+      "id": "problem-statement",
+      "text": "How might we give drivers rich, modern in-car interfaces while every interaction stays within a safe glance?"
+    },
+    {
+      "type": "empathy",
+      "id": "who-we-designed-for",
+      "heading": "Who we designed for",
+      "intro": "Drivers whose real task is driving, and an OEM that needs interfaces meeting safety guidelines.",
+      "people": [
+        {
+          "who": "Drivers",
+          "context": "Want navigation, media and vehicle information without taking their eyes off the road for long."
+        },
+        {
+          "who": "Passengers",
+          "context": "Use the centre display for media and comfort while the car is moving."
+        },
+        {
+          "who": "The OEM",
+          "context": "Needs glance-time limits, readability and a reusable design system."
+        }
+      ],
+      "painPoints": [
+        "Interfaces were either too limited or too distracting.",
+        "Digital clusters imitated analog gauges.",
+        "Information needs change with speed and driving mode.",
+        "Readability had to hold in every light condition."
+      ]
+    },
+    {
       "type": "prose",
       "id": "the-problem",
       "heading": "The business and driver problem",
@@ -173,23 +204,12 @@
       ]
     },
     {
-      "type": "modules",
+      "type": "casegrid",
       "id": "every-system",
-      "heading": "Both systems",
-      "items": [
-        {
-          "href": "/projects/tata-elxsi/infotainment/",
-          "title": "Infotainment System",
-          "desc": "Next-gen in-vehicle infotainment balancing safety with intuitive controls.",
-          "img": "/assets/projects/tata-elxsi/infotainment-hero.webp"
-        },
-        {
-          "href": "/projects/tata-elxsi/instrument-cluster/",
-          "title": "Digital Instrument Cluster",
-          "desc": "Digital cockpit instrument cluster with clear visual hierarchy and adaptive display.",
-          "img": "/assets/projects/tata-elxsi/instrument-cluster-hero.webp"
-        }
-      ]
+      "eyebrow": "Case studies",
+      "heading": "Every Tata Elxsi case study",
+      "client": "/projects/tata-elxsi/",
+      "gridId": "client-cases"
     },
     {
       "type": "links",
@@ -215,8 +235,66 @@
       "a": "Two in-car HMI systems: an infotainment interface and a digital instrument cluster for connected vehicles, designed within a tier-one supplier's engineering constraints. The work was also published on Behance."
     },
     {
+      "q": "How do infotainment and instrument cluster design differ?",
+      "a": "The cluster is read, the infotainment is used. The cluster prioritises instant readability and adaptive information; the infotainment adds interaction, so it is governed by glance-time and interaction-depth limits."
+    },
+    {
       "q": "How was the design validated?",
       "a": "Interactions were tested in driving-simulator conditions, because evaluating automotive interfaces at a desk underestimates how much attention they cost."
+    },
+    {
+      "q": "What is automotive HMI design?",
+      "a": "Designing the human-machine interface in a vehicle: displays, controls and voice interactions. Safety is the core constraint, so every interaction has to work within a glance."
+    },
+    {
+      "q": "What are the glance-time guidelines for in-car screens?",
+      "a": "NHTSA's visual-manual guidelines limit individual glances to about two seconds and total task time to twelve seconds. We used them as an interaction budget for every feature."
+    },
+    {
+      "q": "Why use driving simulators in HMI design?",
+      "a": "Because what looks clear on a desk can be distracting at speed. Simulator sessions measure glance time, task time and lane deviation for each interaction."
+    },
+    {
+      "q": "How should a digital instrument cluster adapt to driving?",
+      "a": "By prioritising different information in city, highway, sport and eco modes, with short, spatially consistent transitions so the driver stays oriented."
+    },
+    {
+      "q": "What contrast is needed for critical information on automotive displays?",
+      "a": "Very high. The cluster system uses a minimum contrast of 7:1 for critical information, with type sizes calibrated for viewing distance and tested in bright and dark conditions."
+    },
+    {
+      "q": "Where can I see each Tata Elxsi system in detail?",
+      "a": "The infotainment system and the digital instrument cluster each have their own case study, linked above."
     }
-  ]
+  ],
+  "template": "client",
+  "clientUrl": "/projects/tata-elxsi/",
+  "kicker": "Client · Automotive",
+  "hero": {
+    "src": "/assets/projects/tata-elxsi/infotainment-hero.webp",
+    "alt": "Infotainment display in a car interior"
+  },
+  "meta": [
+    [
+      "Client",
+      "Tata Elxsi"
+    ],
+    [
+      "Industry",
+      "Automotive HMI"
+    ],
+    [
+      "Deliverables",
+      "HMI design, interaction design, motion design, design system"
+    ],
+    [
+      "Platform",
+      "In-vehicle centre display and instrument cluster"
+    ],
+    [
+      "Case studies",
+      "2 systems"
+    ]
+  ],
+  "summary": "We designed two in-car HMI systems for Tata Elxsi, an infotainment interface and a digital instrument cluster for connected vehicles, working within a tier-one supplier's engineering constraints."
 }

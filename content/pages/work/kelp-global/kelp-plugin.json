@@ -1,0 +1,250 @@
+{
+  "url": "/projects/kelp-global/kelp-plugin/",
+  "file": "projects/kelp-global/kelp-plugin.html",
+  "template": "casestudy",
+  "pageType": "case-study",
+  "schemaType": "Article",
+  "client": "Kelp Global",
+  "clientUrl": "/projects/kelp-global/",
+  "metaTitle": "Kelp Plugin Case Study — Kelp Global | Designit",
+  "metaDescription": "How Designit designed the Kelp plugin: file an email, its contacts and attachments to the right deal or company in Kelp without leaving the inbox.",
+  "author": "Designit",
+  "topicCluster": "Work",
+  "funnelStage": "evaluation / vendor",
+  "searchIntent": "evaluation",
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "action": "KEEP + RESTRUCTURE",
+  "priority": "P2",
+  "updatedAt": "2026-10-06",
+  "breadcrumbTrail": [
+    "Home",
+    "Work",
+    "Kelp Global",
+    "Kelp Plugin"
+  ],
+  "kicker": "Kelp Global · Private markets",
+  "h1": "Kelp Plugin",
+  "hero": {
+    "src": "/assets/projects/kelp/plugin-hero.webp",
+    "alt": "Kelp plugin open as a side panel inside Outlook on a laptop"
+  },
+  "thumb": "/assets/projects/kelp/thumb-kelp-plugin.webp",
+  "order": 2,
+  "filterIndustry": "b2b-saas",
+  "filterServices": [
+    "saas-product-design"
+  ],
+  "cardTitle": "Kelp Plugin",
+  "cardLine": "File an email, its contacts and attachments to the right deal in Kelp, without leaving the inbox.",
+  "cardTags": [
+    "Fintech",
+    "Browser plugin",
+    "Workflow UX"
+  ],
+  "summary": "A plugin that works inside the inbox: tag an email's contacts, link it to the right deals, portfolio companies or companies, and save it with its attachments to Kelp in a few clicks.",
+  "industry": "Fintech · private markets",
+  "deliverables": "Plugin UX, overlay design, interaction design",
+  "platform": "Browser plugin for Outlook on the web",
+  "tags": [
+    "Plugin UX",
+    "Workflow design",
+    "Interaction design"
+  ],
+  "overviewFacts": [
+    [
+      "Users",
+      "Deal teams who live in email"
+    ],
+    [
+      "Tools",
+      "Figma, Prototyping"
+    ]
+  ],
+  "thumbAlt": "Kelp plugin panel inside Outlook",
+  "overview": {
+    "label": "Overview",
+    "heading": "Capture deal context where it arrives",
+    "paras": [
+      "For investment teams, most deal information arrives by email: a banker's teaser, a founder's update, a model in an attachment. The Kelp plugin opens as a panel beside the email and lets the user save it to Kelp in one pass: pick the people involved, link the deals or companies it belongs to, choose what to save, and add it.",
+      "We designed the panel to fit the inbox rather than compete with it: narrow, scannable and fast enough that saving to Kelp becomes a habit instead of a chore at the end of the week."
+    ]
+  },
+  "problemStatement": "How might we make saving an email to the right deal so quick, from inside the inbox, that the deal record stays complete without anyone chasing it?",
+  "empathy": {
+    "heading": "Who we designed for",
+    "intro": "Deal teams spend much of the day in email. Anything that asks them to leave it, open another tool and re-enter information tends not to happen.",
+    "people": [
+      {
+        "who": "Associates and analysts",
+        "context": "Receive most of the deal flow and diligence material, and are expected to keep records up to date."
+      },
+      {
+        "who": "Partners",
+        "context": "Hold relationships and conversations that the rest of the team needs to see, without being asked for them."
+      },
+      {
+        "who": "The firm",
+        "context": "Wants relationship and deal history captured centrally, not trapped in individual inboxes."
+      }
+    ],
+    "painPoints": [
+      "Important context lived in individual inboxes and never reached the shared record.",
+      "Saving an email to the right deal meant switching tools and copying details by hand.",
+      "One email often concerned several people and several deals or companies at once.",
+      "Attachments such as models and reports had to be downloaded and uploaded again."
+    ]
+  },
+  "challenges": {
+    "label": "The challenge",
+    "heading": "A second product inside someone else's",
+    "items": [
+      {
+        "title": "Limited space",
+        "body": "The panel shares the screen with the inbox, so every control has to earn its place in a narrow column."
+      },
+      {
+        "title": "Many-to-many links",
+        "body": "One email can involve several contacts and belong to a deal, a portfolio company and a company at the same time."
+      },
+      {
+        "title": "Speed over completeness",
+        "body": "If saving takes more than a few seconds, people stop doing it. The flow had to be fast with good defaults."
+      }
+    ]
+  },
+  "approach": {
+    "label": "Our approach",
+    "heading": "How we approached it",
+    "steps": [
+      {
+        "k": "Phase 01",
+        "title": "Follow the email",
+        "body": "We traced what happens to a deal email today: who receives it, what they do with it and where the information should end up. That defined the three decisions the panel needs: who, which deal or company, and what to save."
+      },
+      {
+        "k": "Phase 02",
+        "title": "One panel, three steps",
+        "body": "We structured the panel top to bottom: choose profiles from the people on the email, choose projects (deals, portfolio companies or companies), then choose actions such as saving the email as an interaction and keeping its attachments."
+      },
+      {
+        "k": "Phase 03",
+        "title": "Fast multi-select",
+        "body": "Project search shows each result's type, deal, portfolio or company, and selected items become removable chips, so linking an email to several records is quick and reversible."
+      },
+      {
+        "k": "Phase 04",
+        "title": "Fit the host and the system",
+        "body": "We kept the panel visually quiet next to the inbox and built it from the same components as the rest of Kelp, so it feels like part of the product, not an add-on."
+      }
+    ]
+  },
+  "solution": {
+    "label": "The experience we created",
+    "heading": "Save to Kelp in one pass",
+    "paras": [
+      "A side panel that turns 'I should log this' into a few clicks: the people on the email are suggested, deals and companies are a search away, attachments come along, and Add to Kelp files it all to the right records."
+    ]
+  },
+  "features": {
+    "label": "Key features",
+    "heading": "What it includes",
+    "items": [
+      {
+        "title": "In-inbox panel",
+        "body": "Opens beside the email, so users never leave their inbox to update Kelp."
+      },
+      {
+        "title": "Choose profiles",
+        "body": "People on the email are listed for quick selection, so the right contacts are linked."
+      },
+      {
+        "title": "Choose projects",
+        "body": "Search across deals, portfolio companies and companies, each labelled by type, and select several at once."
+      },
+      {
+        "title": "Save as an interaction",
+        "body": "Log the email as an interaction on the selected records, so relationship history builds itself."
+      },
+      {
+        "title": "Keep attachments",
+        "body": "Save the email's attachments to Kelp along with the message."
+      },
+      {
+        "title": "One clear action",
+        "body": "A single Add to Kelp button at the end of the panel commits the whole selection."
+      }
+    ]
+  },
+  "showcase": [
+    {
+      "src": "/assets/projects/kelp/plugin-02.webp",
+      "alt": "Kelp plugin panel with contacts selected and a project search showing deals, portfolio companies and companies",
+      "feature": "Choose projects"
+    },
+    {
+      "src": "/assets/projects/kelp/plugin-03.webp",
+      "alt": "Kelp plugin panel with selected projects listed as deals and the Add to Kelp button",
+      "feature": "Save as an interaction"
+    },
+    {
+      "src": "/assets/projects/kelp/plugin-01.webp",
+      "alt": "Kelp plugin panel beside an open email with profiles, projects, actions and a save-attachments option",
+      "feature": "Keep attachments"
+    }
+  ],
+  "gallery": {
+    "label": "Gallery",
+    "heading": "The plugin in the inbox",
+    "images": [
+      {
+        "src": "/assets/projects/kelp/plugin-g1.webp",
+        "alt": "Kelp plugin panel in a browser window"
+      },
+      {
+        "src": "/assets/projects/kelp/plugin-g2.webp",
+        "alt": "Kelp plugin with the project search open"
+      },
+      {
+        "src": "/assets/projects/kelp/plugin-g3.webp",
+        "alt": "Kelp plugin with projects selected",
+        "wide": true
+      }
+    ]
+  },
+  "quote": "girish",
+  "faq": [
+    {
+      "q": "What is the Kelp plugin?",
+      "a": "A plugin that works inside the inbox: tag an email's contacts, link it to the right deals, portfolio companies or companies, and save it with its attachments to Kelp in a few clicks."
+    },
+    {
+      "q": "What problem did the Kelp plugin solve?",
+      "a": "The panel shares the screen with the inbox, so every control has to earn its place in a narrow column. The question we set out to answer: How might we make saving an email to the right deal so quick, from inside the inbox, that the deal record stays complete without anyone chasing it?"
+    },
+    {
+      "q": "How did Designit approach the Kelp plugin?",
+      "a": "We worked in 4 phases: Follow the email; one panel, three steps; fast multi-select; fit the host and the system. We traced what happens to a deal email today: who receives it, what they do with it and where the information should end up."
+    },
+    {
+      "q": "Why do investment teams need an email plugin for their CRM?",
+      "a": "Because most deal information arrives by email. If logging it means leaving the inbox, it gets skipped and the shared record goes stale. A plugin that saves the email, its contacts and attachments to the right deal from the inbox keeps the record complete."
+    },
+    {
+      "q": "How do you design a plugin panel that people actually use?",
+      "a": "Make it narrow, fast and predictable: the same three steps every time, good defaults from the email itself, and one clear final action. Anything that slows down a busy inbox will be ignored."
+    },
+    {
+      "q": "How do you link one email to several deals or companies?",
+      "a": "With searchable multi-select. In the Kelp plugin each search result shows whether it is a deal, a portfolio company or a company, and every selection becomes a chip that can be removed before saving."
+    },
+    {
+      "q": "What is relationship intelligence in private markets?",
+      "a": "Capturing who the firm knows and how it has interacted with them, from emails and meetings, so the whole team can see relationships and history. Saving emails as interactions on the right records is how the plugin feeds that picture."
+    },
+    {
+      "q": "How long does a Designit engagement take?",
+      "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
+    }
+  ]
+}
