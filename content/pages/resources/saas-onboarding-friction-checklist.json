@@ -1,0 +1,222 @@
+{
+  "url": "/resources/saas-onboarding-friction-checklist/",
+  "pageType": "tool",
+  "action": "CREATE",
+  "priority": "P2",
+  "metaTitle": "SaaS Onboarding Friction Checklist: 25 Checks | Designit",
+  "metaDescription": "Find where new users stall in your SaaS onboarding: 25 checks across signup, first value, setup, guidance, teams, measurement and re-engagement.",
+  "h1": "Find where new users stall in your onboarding",
+  "eyebrow": [
+    "25 checks",
+    "8 groups",
+    "About 10 minutes"
+  ],
+  "subtitle": "Activation problems usually sit in a few specific places: signup, the path to first value, setup and the moments after. Answer each check and see where to start.",
+  "ctas": [],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Resources",
+      "/resources/"
+    ],
+    [
+      "SaaS onboarding friction checklist",
+      "/resources/saas-onboarding-friction-checklist/"
+    ]
+  ],
+  "primaryKeyword": "saas onboarding checklist",
+  "secondaryKeywords": [
+    "saas onboarding friction",
+    "user onboarding checklist",
+    "saas activation checklist",
+    "onboarding ux audit"
+  ],
+  "searchIntent": "informational / tool",
+  "businessIntent": "Linkable asset (blueprint section 52) + problem-aware lead path",
+  "funnelStage": "problem-aware",
+  "audience": [
+    "founders",
+    "product managers",
+    "designers"
+  ],
+  "topicCluster": "B2B SaaS Product Design",
+  "pillarPage": "/services/saas-product-design/",
+  "parentTopic": "B2B SaaS Product Design",
+  "author": "Designit",
+  "updatedAt": "2026-10-05",
+  "schemaType": "WebPage",
+  "evidenceIds": [
+    "EV-PROCESS-SAAS"
+  ],
+  "relatedServices": [
+    "/services/saas-product-design/",
+    "/services/ux-audit/"
+  ],
+  "relatedIndustries": [
+    "/industries/b2b-saas/"
+  ],
+  "relatedCaseStudies": [],
+  "aiAnswerTargets": [
+    "What causes SaaS onboarding drop-off?"
+  ],
+  "conversionEvent": "calculator_complete",
+  "refreshInterval": "6 months",
+  "scripts": [
+    "/checklist-tool.js?v=2"
+  ],
+  "cta": {
+    "heading": "Where do your new users stop?",
+    "body": "Bring your step-level drop-off and we'll show you where we would start.",
+    "buttons": [
+      {
+        "label": "Discuss your SaaS product",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      },
+      {
+        "label": "UX audit",
+        "href": "/services/ux-audit/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "answer",
+      "id": "how-to-use",
+      "heading": "What causes SaaS onboarding drop-off?",
+      "answer": "SaaS onboarding drop-off usually comes from asking for effort before showing value: long signups, setup that has to be finished before anything useful happens, empty screens with no next step, and no follow-up for users who stall.",
+      "body": "Work through the checks with your own signup flow open, ideally as a new account. Our <a href=\"/blog/saas-onboarding-ux-best-practices-india/\">SaaS onboarding guide</a> explains the patterns behind each group."
+    },
+    {
+      "type": "tool",
+      "id": "checklist",
+      "tool": "saas-onboarding-friction-checklist",
+      "name": "SaaS onboarding friction checklist",
+      "heading": "The checklist: 25 checks",
+      "intro": "Answer each check for your product as it is today. Your score and a short start-here list update as you go.",
+      "groups": [
+        {
+          "title": "Signup",
+          "items": [
+            "Can people start without a sales call or a credit card, if your model allows it?",
+            "Does signup ask only for what you need before the user sees value?",
+            "Is single sign-on or social sign-in available where your buyers expect it?",
+            "Does email verification avoid blocking the first session?"
+          ]
+        },
+        {
+          "title": "First session and first value",
+          "items": [
+            "Have you defined the one action that best predicts a user staying (your activation event)?",
+            "Can a new user reach that action in their first session?",
+            "Is the path to it obvious on the first screen after signup?",
+            "Are setup steps that do not lead to first value deferred until after it?"
+          ]
+        },
+        {
+          "title": "Setup and data",
+          "items": [
+            "Can users start with sample data or a template instead of an empty product?",
+            "Is importing existing data guided, with clear errors when a file fails?",
+            "Are integrations offered at the moment they become useful rather than all at once?"
+          ]
+        },
+        {
+          "title": "Guidance and empty states",
+          "items": [
+            "Do empty states explain what will appear there and offer the next action?",
+            "Is in-product guidance tied to what the user is doing, rather than a tour shown once?",
+            "Can users get help (docs, chat or a person) without leaving the task?"
+          ]
+        },
+        {
+          "title": "Team and roles",
+          "items": [
+            "Can the first user invite teammates at a natural moment, with roles explained?",
+            "Does an invited user land somewhere useful rather than on a generic dashboard?",
+            "Can the person who chose the product show progress to their manager or team?"
+          ]
+        },
+        {
+          "title": "Measurement",
+          "items": [
+            "Do you track drop-off at each onboarding step?",
+            "Do you know your activation rate by signup source and plan?",
+            "Do you review session recordings or interview users who did not activate?"
+          ]
+        },
+        {
+          "title": "Re-engagement",
+          "items": [
+            "Do users who stall get a relevant nudge based on where they stopped?",
+            "Can users resume an unfinished setup exactly where they left it?",
+            "Are trial-end and upgrade moments explained in advance rather than appearing as a surprise wall?"
+          ]
+        },
+        {
+          "title": "Real-world conditions",
+          "items": [
+            "Does onboarding work on a mid-range phone and an unreliable connection?",
+            "If any step is desktop-only, is that said clearly, with a way to continue later?"
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "min": 80,
+          "title": "In good shape",
+          "body": "Onboarding is in good shape. Use the No items to fine-tune, and keep measuring activation by step."
+        },
+        {
+          "min": 50,
+          "title": "Clear friction to fix",
+          "body": "Some steps are likely costing you activations. Start with the items below, especially anything before first value."
+        },
+        {
+          "min": 0,
+          "title": "Significant friction",
+          "body": "New users are probably meeting effort before value. Start with the first-session group, and consider an onboarding audit tied to your step-level drop-off data."
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "related",
+      "heading": "Related",
+      "items": [
+        {
+          "title": "SaaS onboarding UX best practices",
+          "href": "/blog/saas-onboarding-ux-best-practices-india/",
+          "body": "The patterns behind these checks."
+        },
+        {
+          "title": "SaaS product design",
+          "href": "/services/saas-product-design/",
+          "body": "How we design B2B SaaS products."
+        },
+        {
+          "title": "B2B SaaS",
+          "href": "/industries/b2b-saas/",
+          "body": "Design for complex workflows."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is an activation event?",
+      "a": "The one action that best predicts that a new user will keep using your product, for example creating a first project or inviting a teammate. Onboarding should be designed around reaching it."
+    },
+    {
+      "q": "How is the score calculated?",
+      "a": "Yes counts as 2 points, Partly as 1 and No as 0. N/A answers are left out. The score is the share of available points you scored, so it stays fair if some checks do not apply to your product."
+    },
+    {
+      "q": "Is my data stored?",
+      "a": "Your individual answers are saved only in your own browser, so you can come back to them. If you have accepted analytics cookies, Designit records that the checklist was started and completed and the overall score, never your answers."
+    }
+  ]
+}

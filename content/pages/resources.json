@@ -5,7 +5,7 @@
   "action": "CREATE",
   "priority": "P2",
   "metaTitle": "Product Design Resources: Checklists & Guides | Designit",
-  "metaDescription": "Free product design resources from Designit: the UX audit checklist, a project scope assessment, cost guides and buyer guides for choosing a design partner.",
+  "metaDescription": "Free product design resources from Designit: interactive UX audit, website, onboarding and AI checklists, a scope assessment, cost guides and buyer guides.",
   "h1": "Resources for product teams",
   "eyebrow": [
     "Checklists",
@@ -35,7 +35,7 @@
   "funnelStage": "problem-aware",
   "topicCluster": "Resources",
   "author": "Designit",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "schemaType": "CollectionPage",
   "itemList": [
     [
@@ -56,11 +56,39 @@
       "heading": "Tools and checklists",
       "items": [
         {
-          "kicker": "Checklist",
+          "kicker": "Interactive",
           "title": "UX audit checklist",
-          "body": "48 checks in 10 groups, in the order we run them, with example findings scored on impact and effort.",
+          "body": "48 checks in 10 groups. Score your product as you go and get the first things to fix.",
+          "href": "/resources/ux-audit-checklist/",
+          "more": "Score your product"
+        },
+        {
+          "kicker": "Interactive",
+          "title": "Website UX scorecard",
+          "body": "30 checks on clarity, proof, conversion, mobile and speed, before you spend on a redesign.",
+          "href": "/resources/website-ux-scorecard/",
+          "more": "Score your website"
+        },
+        {
+          "kicker": "Interactive",
+          "title": "SaaS onboarding friction checklist",
+          "body": "25 checks on where new users stall between signup and first value.",
+          "href": "/resources/saas-onboarding-friction-checklist/",
+          "more": "Check your onboarding"
+        },
+        {
+          "kicker": "Interactive",
+          "title": "AI product UX checklist",
+          "body": "25 checks on expectations, uncertainty, agent approval and recovery.",
+          "href": "/resources/ai-product-ux-checklist/",
+          "more": "Check your AI product"
+        },
+        {
+          "kicker": "Guide",
+          "title": "UX audit checklist: the full guide",
+          "body": "Why each check matters, in the order we run them, and how to rank what you find.",
           "href": "/blog/ux-audit-checklist/",
-          "more": "Use the checklist"
+          "more": "Read the guide"
         },
         {
           "kicker": "Assessment",

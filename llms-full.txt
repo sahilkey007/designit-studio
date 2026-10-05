@@ -97,6 +97,10 @@ Designit Studio (designit.co.in) is independent and not affiliated with Designit
 ## Insights
 
 - [Product Design Resources: Checklists & Guides](https://designit.co.in/resources/)
+- [AI Product UX Checklist: Trust, Control, Recovery](https://designit.co.in/resources/ai-product-ux-checklist/)
+- [SaaS Onboarding Friction Checklist: 25 Checks](https://designit.co.in/resources/saas-onboarding-friction-checklist/)
+- [Interactive UX Audit Checklist (48 Checks)](https://designit.co.in/resources/ux-audit-checklist/)
+- [Website UX Scorecard: Check What Converts](https://designit.co.in/resources/website-ux-scorecard/)
 - [Blog | Designit — UI/UX Insights for Startup Founders](https://designit.co.in/blog/)
 - [AI-Driven Website Design Services in India](https://designit.co.in/blog/ai-driven-website-design-services-india/)
 - [Arabic RTL UX Design for PropTech Apps: UAE Guide (2026)](https://designit.co.in/blog/arabic-rtl-ux-design-proptech-uae/)

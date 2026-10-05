@@ -54,7 +54,7 @@
 | 49 | Trust architecture | Done (site side) | Consistent name, logo, description, URL, location, contact and profiles from one entity file. External references = owner |
 | 50 | sameAs strategy | Done (owner to verify) | Existing profiles only; nothing invented. Add Behance, Dribbble, Clutch or GBP only if real |
 | 51 | Third-party validation | Owner | No outreach was sent (standing rule). Ideas: "Designed by Designit" credits, publications, podcasts, teardown content |
-| 52 | Linkable assets | Planned | `/resources/` hub live; 8 tools and 6 reports in the matrix and backlog |
+| 52 | Linkable assets | Partial (4 of 8 tools live on staging) | Interactive checklists live: UX audit (48 checks), website UX scorecard (30), SaaS onboarding friction (25), AI product UX (25); scoring, start-here list, copy/print, browser-only saving, `calculator_start`/`calculator_complete` events. Remaining: SaaS UX maturity model, design-system maturity model, and the cost and ROI calculators (need owner-approved pricing inputs); 6 research reports need real studies |
 | 53 | AI platform discovery | Done | OAI-SearchBot, Googlebot and Bingbot allowed; live CDN returns 200 to them; ARIA on nav and forms |
 | 54 | Robots.txt | Done | Allow-all plus explicit AI crawlers; sitemaps listed; staging `noindex` via header |
 | 55 | Don't spend the rebuild on llms.txt | Done | `llms.txt` / `ai/*.json` generated from specs in one script (low cost, mirrors visible content only) |
@@ -89,11 +89,11 @@
 | 84 | "Problem authority" | Done (structural) | Solutions, answer blocks, prompt-library questions |
 | 85 | AI prompt library | Done (library) / Owner (runs) | `06-ai-prompt-library.csv`, 103 prompts with target URLs |
 | 86 | Google AI monitoring | Owner | `06` §2 |
-| 87 | Four asset types | Partial | Commercial ✓, Proof ✓, Authority (existing upgraded; new planned), Tools (planned) |
+| 87 | Four asset types | Partial | Commercial ✓, Proof ✓, Tools (4 checklists ✓), Authority (existing upgraded; new planned) |
 | 88 | Content-to-revenue architecture | Done | Next-steps chain on every post |
 | 89 | CTA by intent | Done | `05` §8; enterprise variant not separate |
 | 90 | Start a Project flow | Done | 10 steps exactly as listed; budget optional; recommends UX Audit / Discovery / MVP / Redesign / SaaS / AI / Design System / Website / Branding; lead → Supabase + email; tested with network stubbed |
-| 91 | Analytics event architecture | Done (except calculators, country) | `06` §1; consent-gated; lead attribution in every lead |
+| 91 | Analytics event architecture | Done (except country) | `06` §1; consent-gated; lead attribution in every lead |
 | 92 | Component system | Done (except SourceNote) | `05` §4 |
 | 93 | Content folders | Done (adapted) | `content/pages`, `data/*.json`, `scripts/seo/components`; redirects stay in `vercel.json` |
 | 94 | Migration safety protocol | Done (site side) / Owner (backlinks, GSC exports) | `01b` baseline, `11b` matrix, `migration_matrix.py` (0 removals, 0 page→redirect, 0 canonical/sitemap/index changes) |
@@ -145,9 +145,9 @@
 | 6 Upgrade the strongest case studies | Done (structure); evidence depth needs project files |
 | 7 Six priority industry hubs | Done (7) |
 | 8 Technical SEO, structured data, crawler access, analytics, internal links | Done |
-| 9 Refresh pages ranking 5–20 | Partial: bylines, reviewer and next-steps added; content refresh queued (`09`) |
+| 9 Refresh pages ranking 5–20 | Partial: top 5 by GSC position got in-body pillar, sibling, service and tool links (section 67); outlier sprint prices replaced in two agency guides. Content expansion (e.g. the 425-word AI post) still queued |
 | 10 Launch SaaS, UX audit, website, AI and branding clusters | Pillars live; articles queued |
-| 11 First proprietary tool or benchmark | Not started (P2) |
+| 11 First proprietary tool or benchmark | Done on staging: 4 interactive checklists (`/resources/`) |
 | 12 Authority and digital PR | Owner |
 | 13 Weekly GSC + AI visibility monitoring | Owner (`06`) |
 | 14 Monthly refresh and competitor gap reviews | Owner (process in `05`, `07`) |

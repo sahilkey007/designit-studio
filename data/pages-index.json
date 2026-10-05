@@ -1271,14 +1271,14 @@
     "url": "/resources/",
     "pageType": "hub",
     "metaTitle": "Product Design Resources: Checklists & Guides | Designit",
-    "metaDescription": "Free product design resources from Designit: the UX audit checklist, a project scope assessment, cost guides and buyer guides for choosing a design partner.",
+    "metaDescription": "Free product design resources from Designit: interactive UX audit, website, onboarding and AI checklists, a scope assessment, cost guides and buyer guides.",
     "h1": "Resources for product teams",
     "primaryKeyword": "ux design resources",
     "searchIntent": "informational",
     "funnelStage": "problem-aware",
     "topicCluster": "Resources",
     "author": "Designit",
-    "updatedAt": "2026-10-04",
+    "updatedAt": "2026-10-05",
     "schemaType": "CollectionPage",
     "conversionEvent": "asset_open",
     "refreshInterval": "quarterly",
@@ -1301,9 +1301,335 @@
       "/blog/how-to-choose-a-product-design-agency/",
       "/blog/ui-ux-design-pricing-india-2026/",
       "/blog/ux-audit-checklist/",
+      "/resources/ai-product-ux-checklist/",
+      "/resources/saas-onboarding-friction-checklist/",
+      "/resources/ux-audit-checklist/",
+      "/resources/website-ux-scorecard/",
       "/start-a-project/"
     ],
     "file": "resources/index.html"
+  },
+  "/resources/ai-product-ux-checklist/": {
+    "url": "/resources/ai-product-ux-checklist/",
+    "pageType": "tool",
+    "metaTitle": "AI Product UX Checklist: Trust, Control, Recovery | Designit",
+    "metaDescription": "A free AI product UX checklist: 25 checks on expectations, input, uncertainty, agent approval, error recovery, privacy, feedback and measurement.",
+    "h1": "Check whether people can understand and trust your AI product",
+    "primaryKeyword": "ai product ux checklist",
+    "secondaryKeywords": [
+      "ai ux checklist",
+      "ai agent ux",
+      "ai interface design checklist",
+      "human-ai interaction checklist"
+    ],
+    "searchIntent": "informational / tool",
+    "businessIntent": "Linkable asset (blueprint section 52) + problem-aware lead path",
+    "funnelStage": "problem-aware",
+    "audience": [
+      "founders",
+      "product managers",
+      "designers"
+    ],
+    "topicCluster": "AI Product Design",
+    "pillarPage": "/services/ai-product-design/",
+    "parentTopic": "AI Product Design",
+    "author": "Designit",
+    "updatedAt": "2026-10-05",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-OWNER-AI-SERVICE"
+    ],
+    "relatedServices": [
+      "/services/ai-product-design/",
+      "/services/ux-research/"
+    ],
+    "relatedIndustries": [
+      "/industries/ai/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "What makes an AI product easy to trust?"
+    ],
+    "cta": {
+      "heading": "Tell us what your AI should do, and what happens when it's wrong",
+      "body": "We'll show you how we would design for trust, control and recovery in your product.",
+      "buttons": [
+        {
+          "label": "Discuss your AI product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "AI product design",
+          "href": "/services/ai-product-design/"
+        }
+      ]
+    },
+    "conversionEvent": "calculator_complete",
+    "refreshInterval": "6 months",
+    "priority": "P2",
+    "action": "CREATE",
+    "h2s": [
+      "What makes an AI product easy to trust?",
+      "The checklist: 25 checks",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "How should an AI agent ask for approval?",
+      "How is the score calculated?",
+      "Is my data stored?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/how-ai-is-changing-ux-design-india/",
+      "/industries/ai/",
+      "/resources/",
+      "/services/ai-product-design/",
+      "/start-a-project/"
+    ],
+    "file": "resources/ai-product-ux-checklist/index.html"
+  },
+  "/resources/saas-onboarding-friction-checklist/": {
+    "url": "/resources/saas-onboarding-friction-checklist/",
+    "pageType": "tool",
+    "metaTitle": "SaaS Onboarding Friction Checklist: 25 Checks | Designit",
+    "metaDescription": "Find where new users stall in your SaaS onboarding: 25 checks across signup, first value, setup, guidance, teams, measurement and re-engagement.",
+    "h1": "Find where new users stall in your onboarding",
+    "primaryKeyword": "saas onboarding checklist",
+    "secondaryKeywords": [
+      "saas onboarding friction",
+      "user onboarding checklist",
+      "saas activation checklist",
+      "onboarding ux audit"
+    ],
+    "searchIntent": "informational / tool",
+    "businessIntent": "Linkable asset (blueprint section 52) + problem-aware lead path",
+    "funnelStage": "problem-aware",
+    "audience": [
+      "founders",
+      "product managers",
+      "designers"
+    ],
+    "topicCluster": "B2B SaaS Product Design",
+    "pillarPage": "/services/saas-product-design/",
+    "parentTopic": "B2B SaaS Product Design",
+    "author": "Designit",
+    "updatedAt": "2026-10-05",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-PROCESS-SAAS"
+    ],
+    "relatedServices": [
+      "/services/saas-product-design/",
+      "/services/ux-audit/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "What causes SaaS onboarding drop-off?"
+    ],
+    "cta": {
+      "heading": "Where do your new users stop?",
+      "body": "Bring your step-level drop-off and we'll show you where we would start.",
+      "buttons": [
+        {
+          "label": "Discuss your SaaS product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "calculator_complete",
+    "refreshInterval": "6 months",
+    "priority": "P2",
+    "action": "CREATE",
+    "h2s": [
+      "What causes SaaS onboarding drop-off?",
+      "The checklist: 25 checks",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What is an activation event?",
+      "How is the score calculated?",
+      "Is my data stored?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/saas-onboarding-ux-best-practices-india/",
+      "/industries/b2b-saas/",
+      "/resources/",
+      "/services/saas-product-design/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "resources/saas-onboarding-friction-checklist/index.html"
+  },
+  "/resources/ux-audit-checklist/": {
+    "url": "/resources/ux-audit-checklist/",
+    "pageType": "tool",
+    "metaTitle": "Interactive UX Audit Checklist (48 Checks) | Designit",
+    "metaDescription": "Score your product against 48 UX audit checks in 10 groups: journeys, navigation, forms, content, states, accessibility, mobile, speed and evidence.",
+    "h1": "Score your product with the UX audit checklist",
+    "primaryKeyword": "interactive ux audit checklist",
+    "secondaryKeywords": [
+      "ux audit checklist tool",
+      "ux audit template",
+      "ux audit self assessment",
+      "website ux audit checklist"
+    ],
+    "searchIntent": "informational / tool",
+    "businessIntent": "Linkable asset (blueprint section 52) + problem-aware lead path",
+    "funnelStage": "problem-aware",
+    "audience": [
+      "founders",
+      "product managers",
+      "designers"
+    ],
+    "topicCluster": "UX Audit",
+    "pillarPage": "/services/ux-audit/",
+    "parentTopic": "UX Audit",
+    "author": "Designit",
+    "updatedAt": "2026-10-05",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-PROCESS-AUDIT"
+    ],
+    "relatedServices": [
+      "/services/ux-audit/",
+      "/services/ux-research/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "How do you use a UX audit checklist?"
+    ],
+    "cta": {
+      "heading": "Want the ranked version?",
+      "body": "A Designit UX audit runs these checks on your real journeys with your analytics and session recordings, then ranks every fix by impact and effort.",
+      "buttons": [
+        {
+          "label": "Request a UX audit",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX audit services",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "calculator_complete",
+    "refreshInterval": "6 months",
+    "priority": "P2",
+    "action": "CREATE",
+    "h2s": [
+      "How do you use a UX audit checklist?",
+      "The checklist: 48 checks",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "Is this the same checklist Designit uses?",
+      "How is the score calculated?",
+      "Is my data stored?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/ux-audit-checklist/",
+      "/resources/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "resources/ux-audit-checklist/index.html"
+  },
+  "/resources/website-ux-scorecard/": {
+    "url": "/resources/website-ux-scorecard/",
+    "pageType": "tool",
+    "metaTitle": "Website UX Scorecard: Check What Converts | Designit",
+    "metaDescription": "A free website UX scorecard: 30 checks across clarity, navigation, proof, conversion, content, mobile, speed and accessibility, with a score and next steps.",
+    "h1": "Score your website before you redesign it",
+    "primaryKeyword": "website ux scorecard",
+    "secondaryKeywords": [
+      "website ux checklist",
+      "website redesign checklist",
+      "website conversion checklist",
+      "b2b website audit"
+    ],
+    "searchIntent": "informational / tool",
+    "businessIntent": "Linkable asset (blueprint section 52) + problem-aware lead path",
+    "funnelStage": "problem-aware",
+    "audience": [
+      "founders",
+      "product managers",
+      "designers"
+    ],
+    "topicCluster": "Website Redesign",
+    "pillarPage": "/services/website-design/",
+    "parentTopic": "Website Redesign",
+    "author": "Designit",
+    "updatedAt": "2026-10-05",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-OWNER-WEBSITE-SERVICE"
+    ],
+    "relatedServices": [
+      "/services/website-design/",
+      "/services/conversion-optimization/"
+    ],
+    "relatedIndustries": [],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "How do you know if your website needs a redesign?"
+    ],
+    "cta": {
+      "heading": "Is your website explaining you, or hiding you?",
+      "body": "Tell us what the site needs to do. We'll tell you whether it needs a redesign or a set of targeted fixes.",
+      "buttons": [
+        {
+          "label": "Discuss your website",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Website design",
+          "href": "/services/website-design/"
+        }
+      ]
+    },
+    "conversionEvent": "calculator_complete",
+    "refreshInterval": "6 months",
+    "priority": "P2",
+    "action": "CREATE",
+    "h2s": [
+      "How do you know if your website needs a redesign?",
+      "The checklist: 30 checks",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What does this scorecard cover?",
+      "How is the score calculated?",
+      "Is my data stored?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/why-website-not-converting-visitors-india/",
+      "/resources/",
+      "/services/conversion-optimization/",
+      "/services/website-design/",
+      "/start-a-project/"
+    ],
+    "file": "resources/website-ux-scorecard/index.html"
   },
   "/services/": {
     "url": "/services/",

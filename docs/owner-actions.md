@@ -33,7 +33,14 @@ the live site until you say so.** Full detail: `docs/seo-blueprint/` (start with
   were replaced with "quoted as a fixed fee against a written scope". Known inconsistency to revisit when those posts
   are refreshed: two agency guides price a senior-led sprint at ₹3.5–10L / ₹4–12L, other posts at ₹40K–₹1.8L.
 
-**Still open:** the merge of `staging` → `main`, after you review the preview.
+**Built 2026-10-05 (on staging, part of the next merge):**
+- Inter self-hosted (no Google Fonts; faster first paint, no font-swap layout shift).
+- Four interactive checklists under `/resources/`: UX audit (48 checks), website UX scorecard (30), SaaS onboarding friction (25) and AI product UX (25).
+- Top 5 ranking posts refreshed with in-body pillar, sibling, service and tool links; outlier sprint prices in two agency guides replaced with a pointer to the pricing guide.
+
+**Still open:**
+1. Export Search Console (Pages + Links) and a backlink list as the pre-merge baseline, then say "merge".
+2. Case-study depth: send a few bullets and screenshots per project (before/after, how it was validated, what you'd do differently). I'll write them into the template and log each claim in the evidence ledger.
 
 **Your accounts and data (nothing was created, submitted or sent):**
 - Before the merge: export Search Console Pages + Links and a backlink list (Ahrefs or similar) for the migration

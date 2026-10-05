@@ -269,6 +269,7 @@
    "/blog/design-system-cost-india-2026/",
    "/blog/b2b-saas-ui-ux-design-services-india/",
    "/blog/ui-ux-audit-for-website-india/",
+   "/blog/ui-ux-design-pricing-india-2026/",
    "/contact/",
    "/blog/fintech-ux-design-agency-india/",
    "/blog/saas-onboarding-ux-best-practices-india/",
@@ -283,10 +284,11 @@
    "/blog/edtech-ux-design-agency-india/",
    "/industries/edtech/",
    "/blog/freelancer-vs-design-agency-startups/",
+   "/blog/edtech-onboarding-ux-india/",
+   "/services/ux-research/",
    "/blog/fintech-onboarding-kyc-ux-india/",
    "/contact/",
    "/projects/adda247/",
-   "/services/ux-research/",
    "/start-a-project/",
    "/blog/arabic-rtl-ux-design-proptech-uae/"
   ],
@@ -295,10 +297,11 @@
    "/blog/",
    "/about/",
    "/blog/fintech-ux-design-agency-india/",
+   "/industries/fintech/",
+   "/resources/saas-onboarding-friction-checklist/",
+   "/services/ux-audit/",
    "/blog/saas-onboarding-ux-best-practices-india/",
    "/contact/",
-   "/industries/fintech/",
-   "/services/ux-audit/",
    "/projects/betacrew/",
    "/start-a-project/",
    "/blog/b2b-saas-ui-ux-design-services-india/"
@@ -307,19 +310,20 @@
    "/",
    "/blog/",
    "/about/",
+   "/industries/fintech/",
+   "/blog/fintech-onboarding-kyc-ux-india/",
+   "/services/ux-audit/",
    "/blog/design-system-cost-india-2026/",
    "/blog/how-to-improve-website-conversion-rate-india/",
    "/blog/b2b-saas-ui-ux-design-services-india/",
    "/blog/ui-ux-audit-for-website-india/",
+   "/blog/ui-ux-design-pricing-india-2026/",
    "/contact/",
    "/blog/edtech-ux-design-agency-india/",
    "/blog/ui-ux-design-agency-dubai-proptech/",
    "/blog/saas-onboarding-ux-best-practices-india/",
-   "/industries/fintech/",
-   "/services/ux-audit/",
    "/projects/betacrew/",
    "/start-a-project/",
-   "/blog/fintech-onboarding-kyc-ux-india/",
    "/blog/hire-ui-ux-designer-vs-agency-india/"
   ],
   "/blog/freelancer-vs-design-agency-startups/": [
@@ -364,12 +368,13 @@
    "/blog/",
    "/about/",
    "/services/ai-product-design/",
+   "/resources/ai-product-ux-checklist/",
+   "/blog/generative-ai-website-personalization/",
    "/industries/ai/",
    "/services/product-design/",
    "/start-a-project/",
    "/contact/",
-   "/blog/best-ai-tools-ui-ux-designers-2026/",
-   "/blog/generative-ai-website-personalization/"
+   "/blog/best-ai-tools-ui-ux-designers-2026/"
   ],
   "/blog/how-to-choose-a-product-design-agency/": [
    "/",
@@ -426,12 +431,13 @@
    "/",
    "/blog/",
    "/about/",
+   "/services/saas-product-design/",
+   "/blog/saas-onboarding-ux-best-practices-india/",
+   "/resources/ux-audit-checklist/",
    "/contact/",
    "/industries/b2b-saas/",
    "/projects/kelp-global/",
-   "/services/saas-product-design/",
    "/services/ux-audit/",
-   "/blog/saas-onboarding-ux-best-practices-india/",
    "/blog/b2b-saas-ui-ux-design-services-india/"
   ],
   "/blog/saas-onboarding-ux-best-practices-india/": [
@@ -505,6 +511,7 @@
    "/blog/",
    "/about/",
    "/services/ux-audit/",
+   "/resources/ux-audit-checklist/",
    "/blog/ui-ux-audit-for-website-india/",
    "/services/ux-research/",
    "/services/saas-product-design/",
@@ -919,6 +926,10 @@
   "/resources/": [
    "/",
    "/blog/ux-audit-checklist/",
+   "/resources/ux-audit-checklist/",
+   "/resources/website-ux-scorecard/",
+   "/resources/saas-onboarding-friction-checklist/",
+   "/resources/ai-product-ux-checklist/",
    "/start-a-project/",
    "/blog/ui-ux-design-pricing-india-2026/",
    "/blog/design-system-cost-india-2026/",
@@ -928,6 +939,38 @@
    "/blog/hire-ui-ux-designer-vs-agency-india/",
    "/blog/freelancer-vs-design-agency-startups/",
    "/blog/custom-website-vs-template-roi-india/"
+  ],
+  "/resources/ai-product-ux-checklist/": [
+   "/",
+   "/resources/",
+   "/services/ai-product-design/",
+   "/industries/ai/",
+   "/blog/how-ai-is-changing-ux-design-india/",
+   "/start-a-project/"
+  ],
+  "/resources/saas-onboarding-friction-checklist/": [
+   "/",
+   "/resources/",
+   "/blog/saas-onboarding-ux-best-practices-india/",
+   "/services/saas-product-design/",
+   "/industries/b2b-saas/",
+   "/start-a-project/",
+   "/services/ux-audit/"
+  ],
+  "/resources/ux-audit-checklist/": [
+   "/",
+   "/resources/",
+   "/blog/ux-audit-checklist/",
+   "/services/ux-audit/",
+   "/start-a-project/"
+  ],
+  "/resources/website-ux-scorecard/": [
+   "/",
+   "/resources/",
+   "/services/website-design/",
+   "/services/conversion-optimization/",
+   "/blog/why-website-not-converting-visitors-india/",
+   "/start-a-project/"
   ],
   "/services/": [
    "/",

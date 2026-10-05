@@ -20,7 +20,7 @@ consent was given, because the visitor is submitting a form.
 | form_start | `form_start` | First answer in Start a Project | Intake modal also exists |
 | form_submit | `form_submit` (Start a Project) · `form_submitted` (intake modal) | Lead sent | Two names for historical reasons; count both |
 | — | `form_step_complete`, `recommendation_shown` | Each step / recommendation panel | Funnel drop-off by step |
-| calculator_start / calculator_complete | **not built** | — | No calculator exists yet (section 52 asset 4) |
+| calculator_start / calculator_complete | `calculator_start`, `calculator_complete` | First answer / every question answered on a `/resources/` checklist | Props: `tool`, `score`, `answered` (never individual answers) |
 | asset_download | `asset_download` | Click on a `.pdf` or download link | |
 | schedule_call | `schedule_call` | Calendly link click | |
 | — | `page_view`, `scroll_depth`, `outbound_click`, `session_end`, `work_filter` | | Existing and added events |

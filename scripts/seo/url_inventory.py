@@ -100,6 +100,10 @@ for _u, _why in [
     ("/locations/", "Section 78: hub linking the existing USA/UK/Dubai pages"),
     ("/resources/", "Section 8B: resources layer (checklists now, reports later)"),
     ("/start-a-project/", "Section 90: qualification flow"),
+    ("/resources/ux-audit-checklist/", "Section 52: interactive checklist (linkable asset)"),
+    ("/resources/website-ux-scorecard/", "Section 52: interactive checklist (linkable asset)"),
+    ("/resources/saas-onboarding-friction-checklist/", "Section 52: interactive checklist (linkable asset)"),
+    ("/resources/ai-product-ux-checklist/", "Section 52: interactive checklist (linkable asset)"),
 ]:
     ACTION[_u] = ("CREATE", _why)
 

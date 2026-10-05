@@ -29,6 +29,7 @@ from apply_chrome import nav_for  # noqa: E402  (same nav markup + active state 
 def read(p): return open(p, encoding="utf-8").read()
 SHELL = read(os.path.join(COMP, "shell.html"))
 FOOTER = read(os.path.join(COMP, "footer.html")).rstrip("\n")
+TOOL_CSS = re.sub(r"\s*\n\s*", "", re.sub(r"/\*.*?\*/", "", read(os.path.join(COMP, "tool.css")), flags=re.S))
 PAGE_CSS = re.sub(r"\s*\n\s*", "", re.sub(r"/\*.*?\*/", "", read(os.path.join(COMP, "page.css")), flags=re.S))
 ENT = json.load(open(os.path.join(ROOT, "data", "entities.json"), encoding="utf-8"))
 WORK = json.load(open(os.path.join(ROOT, "data", "work.json"), encoding="utf-8"))
@@ -187,9 +188,34 @@ def r_logos(s):
     imgs = "".join(f'<li><img src="{a(l["src"])}" alt="{a(l["alt"])}" width="{l["w"]}" height="{l["h"]}" loading="lazy"></li>' for l in s["items"])
     return sec(s, f'<ul class="logo-strip">{imgs}</ul>')
 
+def r_tool(s):
+    """Interactive self-assessment (blueprint section 52). Every question is plain HTML, so the checklist is readable
+    and crawlable without JavaScript; checklist-tool.js adds scoring, a start-here list, copy, print and saving."""
+    k = 0
+    groups = []
+    for gi, g in enumerate(s["groups"], 1):
+        items = []
+        for q in g["items"]:
+            k += 1
+            opts = "".join(f'<label class="ct-opt"><input type="radio" name="q{k}" value="{v}"><span>{l}</span></label>'
+                           for v, l in (("2", "Yes"), ("1", "Partly"), ("0", "No"), ("na", "N/A")))
+            items.append(f'<div class="ct-item" data-q="{k}"><p class="ct-q" id="{a(s["tool"])}-q{k}">{q}</p>'
+                         f'<div class="ct-opts" role="radiogroup" aria-labelledby="{a(s["tool"])}-q{k}">{opts}</div></div>')
+        groups.append(f'<fieldset class="ct-group"><legend class="ct-gh">{gi}. {g["title"]}</legend>{"".join(items)}</fieldset>')
+    bands = a(json.dumps(s["bands"], ensure_ascii=False))
+    inner = (f'<form class="ct" data-tool="{a(s["tool"])}" data-name="{a(s["name"])}" data-bands="{bands}" novalidate>'
+             + "".join(groups)
+             + '<div class="ct-bar" aria-hidden="true"><span class="ct-bar-p">0 answered</span><span class="ct-bar-s"></span></div>'
+             '<div class="ct-summary" aria-live="polite"><p class="ct-progress">Answer the questions above to see your score.</p>'
+             '<div class="ct-result" hidden></div>'
+             '<div class="ct-actions" hidden><button type="button" class="btn btn-sm" data-act="copy">Copy results</button>'
+             '<button type="button" class="btn btn-sm" data-act="print">Print</button>'
+             '<button type="button" class="btn btn-sm" data-act="reset">Start again</button></div></div></form>')
+    return sec(s, inner)
+
 RENDER = {"answer": r_answer, "prose": r_prose, "cards": r_cards, "problems": r_problems, "steps": r_steps,
           "stages": r_stages, "checklist": r_checklist, "table": r_table, "compare": r_compare, "work": r_work,
-          "quotes": r_quotes, "clusters": r_clusters, "facts": r_facts, "links": r_links, "html": r_html, "logos": r_logos, "modules": r_modules}
+          "quotes": r_quotes, "clusters": r_clusters, "facts": r_facts, "links": r_links, "html": r_html, "logos": r_logos, "modules": r_modules, "tool": r_tool}
 
 def faq_block(p):
     if not p.get("faq"): return ""
@@ -315,7 +341,7 @@ def build(spec_path):
     html_out = (SHELL.replace("{{SEO_HEAD}}", seo_head(p, url))
                      .replace("{{JSONLD}}", jsonld(p, url))
                      .replace("{{MODIFIED_META}}", f'<meta property="article:modified_time" content="{p["updatedAt"]}T00:00:00Z">')
-                     .replace("{{PAGE_CSS}}", PAGE_CSS + p.get("css", ""))
+                     .replace("{{PAGE_CSS}}", PAGE_CSS + p.get("css", "") + (TOOL_CSS if any(x["type"] == "tool" for x in p.get("sections", [])) else ""))
                      .replace("{{NAV}}", nav_for(rel))
                      .replace("{{FOOTER}}", FOOTER)
                      .replace("{{MAIN}}", main.rstrip("\n")))

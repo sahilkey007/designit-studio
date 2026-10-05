@@ -25,5 +25,5 @@
 | DEV-C | Leads table attribution columns | Owner (Supabase), see SEO-010 |
 | DEV-D | Country capture | Optional: a small API route reading Vercel geo headers, called on lead submit |
 | DEV-E | `SourceNote` component for external citations (section 92) | Build when the first article citing third-party research is written |
-| DEV-F | Interactive tools (UX audit checklist, cost calculator, ROI calculator, scorecards) | P2. `calculator_start` / `calculator_complete` events to add with them |
+| DEV-F | Interactive tools | **4 checklists done 2026-10-05** (`r_tool` in `build_pages.py`, `components/tool.css`, `/checklist-tool.js`, events wired). Cost and ROI calculators wait for owner-approved pricing inputs |
 | DEV-G | `/about-designit.html` still exists as a file although `/about-designit/` 301s to `/about/` | Harmless (the redirect wins on Vercel). Delete the file in a cleanup commit |

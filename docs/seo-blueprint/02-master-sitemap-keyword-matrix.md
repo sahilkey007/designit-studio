@@ -123,6 +123,10 @@ Actions use the blueprint vocabulary: KEEP / REWRITE / EXPAND / MERGE / REDIRECT
 | /careers/ | KEEP | P2 | Existing visibility (/careers.html already 308s here via cleanUrls) |
 | /contact/ | KEEP | P1 | Existing indexed page (/contact.html already 308s here) |
 | /privacy-policy/ | KEEP noindex* | P2 | Legal page, intentionally noindex |
+| /resources/ai-product-ux-checklist/ | CREATE | P2 | Section 52: interactive checklist (linkable asset) |
+| /resources/saas-onboarding-friction-checklist/ | CREATE | P2 | Section 52: interactive checklist (linkable asset) |
+| /resources/ux-audit-checklist/ | CREATE | P2 | Section 52: interactive checklist (linkable asset) |
+| /resources/website-ux-scorecard/ | CREATE | P2 | Section 52: interactive checklist (linkable asset) |
 | /start-a-project/ | CREATE | P0 | Section 90: qualification flow |
 | /terms/ | KEEP noindex* | P2 | Legal page, intentionally noindex |
 
@@ -185,13 +189,9 @@ Named in the blueprint but not built, by design: section 114 says not to start t
 | /blog/brand-positioning-for-b2b-saas/ | CREATE | P2 | Branding | /services/branding/ | blueprint section 42 |  |
 | /blog/brand-research/ | CREATE | P2 | Branding | /services/branding/ | blueprint section 3, 42, 70 | Targets 'brand research' (SE Ranking: 170 / KD 23, revalidate) |
 | /industries/healthtech/ | DEFERRED | — | industry | /industries/ | blueprint section 15, 27, 32 | DEFERRED: create only after an evidence audit shows first-party HealthTech work |
-| /resources/ux-audit-checklist/ | CREATE | P2 | UX Audit | /services/ux-audit/ | blueprint section 52#1, 99#2 | Article exists at /blog/ux-audit-checklist/; interactive version is the asset |
 | /resources/saas-ux-maturity-model/ | CREATE | P2 | B2B SaaS Product Design | /services/saas-product-design/ | blueprint section 52#2 |  |
 | /resources/design-system-maturity-model/ | CREATE | P2 | Design Systems | /services/design-systems/ | blueprint section 8B, 52#3 |  |
 | /resources/product-design-cost-calculator/ | CREATE | P2 | Startup Product Design | /services/product-design/ | blueprint section 52#4 | Needs owner-approved pricing inputs before it can show numbers |
-| /resources/website-ux-scorecard/ | CREATE | P2 | Website Redesign | /services/website-design/ | blueprint section 52#5 |  |
-| /resources/saas-onboarding-friction-checklist/ | CREATE | P2 | B2B SaaS Product Design | /services/saas-product-design/ | blueprint section 52#6 |  |
-| /resources/ai-product-ux-checklist/ | CREATE | P2 | AI Product Design | /services/ai-product-design/ | blueprint section 52#7 |  |
 | /resources/design-system-roi-calculator/ | CREATE | P2 | Design Systems | /services/design-systems/ | blueprint section 52#8 |  |
 | /resources/saas-ux-benchmark/ | CREATE | P2 | B2B SaaS Product Design | /services/saas-product-design/ | blueprint section 8B | Original research: needs a real study and method |
 | /resources/ai-product-design-report/ | CREATE | P2 | AI Product Design | /services/ai-product-design/ | blueprint section 8B | Original research |

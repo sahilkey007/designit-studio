@@ -775,20 +775,6 @@ One card per planned URL. Fields the owner or writer must fill before work start
 - **Visual assets:** *(brief, section 97)* · **Author:** Designit · **Reviewer:** Sahil Sharma, only if he reviews it (section 48) · **Review date:** set at publish
 - **Notes:** DEFERRED: create only after an evidence audit shows first-party HealthTech work
 
-### UX Audit Checklist Tool
-
-- **Problem / question:** *(brief)*
-- **Keyword:** ux audit checklist tool · **Parent topic:** UX Audit · **Search intent:** informational · **Buyer stage:** solution-aware
-- **Why this topic matters:** named in blueprint section 52#1, 99#2
-- **Target URL:** `/resources/ux-audit-checklist/` · **Existing page?** NO
-- **Action:** CREATE
-- **Secondary topics / AEO questions / GEO entities / SERP competitors / information gaps:** *(brief, section 65)*
-- **Original Designit contribution · first-party evidence:** *(brief; evidence IDs from data/evidence.json)*
-- **Internal links:** pillar `/services/ux-audit/` + 2 siblings in the cluster + 1 service + 1 case study where genuinely useful (section 67)
-- **External sources:** *(brief)* · **CTA:** by intent (section 89) · **Schema:** WebPage + BreadcrumbList
-- **Visual assets:** *(brief, section 97)* · **Author:** Designit · **Reviewer:** Sahil Sharma, only if he reviews it (section 48) · **Review date:** set at publish
-- **Notes:** Article exists at /blog/ux-audit-checklist/; interactive version is the asset
-
 ### SaaS UX Maturity Model
 
 - **Problem / question:** *(brief)*
@@ -830,48 +816,6 @@ One card per planned URL. Fields the owner or writer must fill before work start
 - **External sources:** *(brief)* · **CTA:** by intent (section 89) · **Schema:** WebPage + BreadcrumbList
 - **Visual assets:** *(brief, section 97)* · **Author:** Designit · **Reviewer:** Sahil Sharma, only if he reviews it (section 48) · **Review date:** set at publish
 - **Notes:** Needs owner-approved pricing inputs before it can show numbers
-
-### Website UX Scorecard
-
-- **Problem / question:** *(brief)*
-- **Keyword:** website ux scorecard · **Parent topic:** Website Redesign · **Search intent:** informational · **Buyer stage:** solution-aware
-- **Why this topic matters:** named in blueprint section 52#5
-- **Target URL:** `/resources/website-ux-scorecard/` · **Existing page?** NO
-- **Action:** CREATE
-- **Secondary topics / AEO questions / GEO entities / SERP competitors / information gaps:** *(brief, section 65)*
-- **Original Designit contribution · first-party evidence:** *(brief; evidence IDs from data/evidence.json)*
-- **Internal links:** pillar `/services/website-design/` + 2 siblings in the cluster + 1 service + 1 case study where genuinely useful (section 67)
-- **External sources:** *(brief)* · **CTA:** by intent (section 89) · **Schema:** WebPage + BreadcrumbList
-- **Visual assets:** *(brief, section 97)* · **Author:** Designit · **Reviewer:** Sahil Sharma, only if he reviews it (section 48) · **Review date:** set at publish
-- **Notes:** —
-
-### SaaS Onboarding Friction Checklist
-
-- **Problem / question:** *(brief)*
-- **Keyword:** saas onboarding friction checklist · **Parent topic:** B2B SaaS Product Design · **Search intent:** informational · **Buyer stage:** solution-aware
-- **Why this topic matters:** named in blueprint section 52#6
-- **Target URL:** `/resources/saas-onboarding-friction-checklist/` · **Existing page?** NO
-- **Action:** CREATE
-- **Secondary topics / AEO questions / GEO entities / SERP competitors / information gaps:** *(brief, section 65)*
-- **Original Designit contribution · first-party evidence:** *(brief; evidence IDs from data/evidence.json)*
-- **Internal links:** pillar `/services/saas-product-design/` + 2 siblings in the cluster + 1 service + 1 case study where genuinely useful (section 67)
-- **External sources:** *(brief)* · **CTA:** by intent (section 89) · **Schema:** WebPage + BreadcrumbList
-- **Visual assets:** *(brief, section 97)* · **Author:** Designit · **Reviewer:** Sahil Sharma, only if he reviews it (section 48) · **Review date:** set at publish
-- **Notes:** —
-
-### AI Product UX Checklist
-
-- **Problem / question:** *(brief)*
-- **Keyword:** ai product ux checklist · **Parent topic:** AI Product Design · **Search intent:** informational · **Buyer stage:** solution-aware
-- **Why this topic matters:** named in blueprint section 52#7
-- **Target URL:** `/resources/ai-product-ux-checklist/` · **Existing page?** NO
-- **Action:** CREATE
-- **Secondary topics / AEO questions / GEO entities / SERP competitors / information gaps:** *(brief, section 65)*
-- **Original Designit contribution · first-party evidence:** *(brief; evidence IDs from data/evidence.json)*
-- **Internal links:** pillar `/services/ai-product-design/` + 2 siblings in the cluster + 1 service + 1 case study where genuinely useful (section 67)
-- **External sources:** *(brief)* · **CTA:** by intent (section 89) · **Schema:** WebPage + BreadcrumbList
-- **Visual assets:** *(brief, section 97)* · **Author:** Designit · **Reviewer:** Sahil Sharma, only if he reviews it (section 48) · **Review date:** set at publish
-- **Notes:** —
 
 ### Design System ROI Calculator
 

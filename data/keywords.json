@@ -86,7 +86,7 @@
    "status": "new on staging"
   },
   "ai agent ux": {
-   "url": "/services/ai-product-design/",
+   "url": "/resources/ai-product-ux-checklist/",
    "role": "secondary",
    "commercial": true,
    "cluster": "AI Product Design",
@@ -108,6 +108,13 @@
   },
   "ai interface design": {
    "url": "/industries/ai/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "AI Product Design",
+   "status": "new on staging"
+  },
+  "ai interface design checklist": {
+   "url": "/resources/ai-product-ux-checklist/",
    "role": "secondary",
    "commercial": true,
    "cluster": "AI Product Design",
@@ -158,9 +165,9 @@
   "ai product ux checklist": {
    "url": "/resources/ai-product-ux-checklist/",
    "role": "primary",
-   "commercial": false,
+   "commercial": true,
    "cluster": "AI Product Design",
-   "status": "planned (not built)"
+   "status": "new on staging"
   },
   "ai product ux patterns": {
    "url": "/blog/ai-ux-design-patterns/",
@@ -179,6 +186,13 @@
   "ai startup product design": {
    "url": "/industries/ai/",
    "role": "primary",
+   "commercial": true,
+   "cluster": "AI Product Design",
+   "status": "new on staging"
+  },
+  "ai ux checklist": {
+   "url": "/resources/ai-product-ux-checklist/",
+   "role": "secondary",
    "commercial": true,
    "cluster": "AI Product Design",
    "status": "new on staging"
@@ -294,6 +308,13 @@
    "commercial": true,
    "cluster": "B2B SaaS Product Design",
    "status": "live, rebuilt on staging"
+  },
+  "b2b website audit": {
+   "url": "/resources/website-ux-scorecard/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "Website Redesign",
+   "status": "new on staging"
   },
   "b2b website design": {
    "url": "/services/website-design/",
@@ -841,6 +862,13 @@
    "cluster": "AI Product Design",
    "status": "new on staging"
   },
+  "human-ai interaction checklist": {
+   "url": "/resources/ai-product-ux-checklist/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "AI Product Design",
+   "status": "new on staging"
+  },
   "human-ai interaction design": {
    "url": "/blog/human-ai-interaction-design/",
    "role": "primary",
@@ -896,6 +924,13 @@
    "commercial": true,
    "cluster": "Automotive",
    "status": "live, rebuilt on staging"
+  },
+  "interactive ux audit checklist": {
+   "url": "/resources/ux-audit-checklist/",
+   "role": "primary",
+   "commercial": true,
+   "cluster": "UX Audit",
+   "status": "new on staging"
   },
   "ios app design": {
    "url": "/services/mobile-app-design/",
@@ -1099,6 +1134,13 @@
    "commercial": true,
    "cluster": "Work",
    "status": "live, rebuilt on staging"
+  },
+  "onboarding ux audit": {
+   "url": "/resources/saas-onboarding-friction-checklist/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "B2B SaaS Product Design",
+   "status": "new on staging"
   },
   "outdated product redesign": {
    "url": "/solutions/legacy-product-modernization/",
@@ -1324,6 +1366,13 @@
    "cluster": "Website Redesign",
    "status": "new on staging"
   },
+  "saas activation checklist": {
+   "url": "/resources/saas-onboarding-friction-checklist/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "B2B SaaS Product Design",
+   "status": "new on staging"
+  },
   "saas conversion": {
    "url": "/services/conversion-optimization/",
    "role": "secondary",
@@ -1380,12 +1429,19 @@
    "cluster": "Work",
    "status": "live, rebuilt on staging"
   },
-  "saas onboarding friction checklist": {
+  "saas onboarding checklist": {
    "url": "/resources/saas-onboarding-friction-checklist/",
    "role": "primary",
-   "commercial": false,
+   "commercial": true,
    "cluster": "B2B SaaS Product Design",
-   "status": "planned (not built)"
+   "status": "new on staging"
+  },
+  "saas onboarding friction": {
+   "url": "/resources/saas-onboarding-friction-checklist/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "B2B SaaS Product Design",
+   "status": "new on staging"
   },
   "saas onboarding ux": {
    "url": "/services/saas-product-design/",
@@ -1765,6 +1821,13 @@
    "cluster": "UX Research",
    "status": "planned (not built)"
   },
+  "user onboarding checklist": {
+   "url": "/resources/saas-onboarding-friction-checklist/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "B2B SaaS Product Design",
+   "status": "new on staging"
+  },
   "user research agency": {
    "url": "/services/ux-research/",
    "role": "secondary",
@@ -1802,10 +1865,10 @@
   },
   "ux audit checklist tool": {
    "url": "/resources/ux-audit-checklist/",
-   "role": "primary",
-   "commercial": false,
+   "role": "secondary",
+   "commercial": true,
    "cluster": "UX Audit",
-   "status": "planned (not built)"
+   "status": "new on staging"
   },
   "ux audit company": {
    "url": "/services/ux-audit/",
@@ -1835,12 +1898,26 @@
    "cluster": "UX Audit",
    "status": "planned (not built)"
   },
+  "ux audit self assessment": {
+   "url": "/resources/ux-audit-checklist/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "UX Audit",
+   "status": "new on staging"
+  },
   "ux audit services": {
    "url": "/services/ux-audit/",
    "role": "primary",
    "commercial": true,
    "cluster": "UX Audit",
    "status": "live, rebuilt on staging"
+  },
+  "ux audit template": {
+   "url": "/resources/ux-audit-checklist/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "UX Audit",
+   "status": "new on staging"
   },
   "ux case studies": {
    "url": "/projects/",
@@ -1961,6 +2038,13 @@
    "cluster": "Website Redesign",
    "status": "new on staging"
   },
+  "website conversion checklist": {
+   "url": "/resources/website-ux-scorecard/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "Website Redesign",
+   "status": "new on staging"
+  },
   "website conversion friction report": {
    "url": "/resources/website-conversion-friction-report/",
    "role": "primary",
@@ -2024,12 +2108,26 @@
    "cluster": "UX Audit",
    "status": "live, rebuilt on staging"
   },
+  "website ux audit checklist": {
+   "url": "/resources/ux-audit-checklist/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "UX Audit",
+   "status": "new on staging"
+  },
   "website ux audit company": {
    "url": "/services/ux-audit/",
    "role": "secondary",
    "commercial": true,
    "cluster": "UX Audit",
    "status": "live, rebuilt on staging"
+  },
+  "website ux checklist": {
+   "url": "/resources/website-ux-scorecard/",
+   "role": "secondary",
+   "commercial": true,
+   "cluster": "Website Redesign",
+   "status": "new on staging"
   },
   "website ux principles": {
    "url": "/blog/website-ux-principles/",
@@ -2048,9 +2146,9 @@
   "website ux scorecard": {
    "url": "/resources/website-ux-scorecard/",
    "role": "primary",
-   "commercial": false,
+   "commercial": true,
    "cluster": "Website Redesign",
-   "status": "planned (not built)"
+   "status": "new on staging"
   },
   "when should a startup hire a product designer": {
    "url": "/blog/when-should-a-startup-hire-a-product-designer/",

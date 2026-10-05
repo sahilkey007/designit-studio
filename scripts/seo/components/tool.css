@@ -1,0 +1,33 @@
+/* Interactive checklist tools (r_tool in build_pages.py + /checklist-tool.js). Inlined only on pages with a tool. */
+.ct{max-width:860px;margin:36px auto 0}
+.ct-group{border:1px solid var(--border-default);border-radius:20px;padding:22px 24px 8px;margin:0 0 20px;background:var(--bg-elevated-1,#0e0e0e)}
+.ct-gh{font-size:18px;font-weight:700;color:#fff;padding:0 8px;letter-spacing:-.2px}
+.ct-item{padding:16px 0;border-bottom:1px solid var(--border-subtle)}
+.ct-item:last-child{border-bottom:0}
+.ct-q{font-size:16px;line-height:1.55;color:#e5e5e5;margin:0 0 12px}
+.ct-opts{display:flex;flex-wrap:wrap;gap:8px}
+.ct-opt{position:relative;display:inline-flex}
+.ct-opt input{position:absolute;opacity:0;width:1px;height:1px}
+.ct-opt span{display:inline-block;min-width:68px;text-align:center;padding:8px 14px;border:1px solid var(--border-medium);border-radius:999px;font-size:14px;font-weight:500;color:#cfcfcf;cursor:pointer;user-select:none}
+.ct-opt input:focus-visible+span{outline:2px solid #fff;outline-offset:2px}
+.ct-opt input:checked+span{background:#fff;color:#000;border-color:#fff}
+.ct-opt input[value="0"]:checked+span{background:#f2b8b5;border-color:#f2b8b5}
+.ct-opt input[value="1"]:checked+span{background:#f5d48a;border-color:#f5d48a}
+.ct-opt input[value="na"]:checked+span{background:#3a3a3a;color:#eee;border-color:#3a3a3a}
+.ct-bar{position:sticky;bottom:12px;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:12px;margin:8px 0 0;padding:10px 18px;border:1px solid var(--border-medium);border-radius:999px;background:#141414;box-shadow:0 12px 30px rgba(0,0,0,.5);font-size:14px;color:#cfcfcf}
+.ct-bar-s{font-weight:700;color:#fff}
+.ct-summary{margin:20px 0 0;padding:20px 24px;border:1px solid var(--border-medium);border-radius:20px;background:#141414;box-shadow:0 18px 40px rgba(0,0,0,.5)}
+.ct-progress{margin:0;font-size:15px;color:#cfcfcf}
+.ct-result{margin-top:14px}
+.ct-score{font-size:40px;font-weight:800;letter-spacing:-1px;color:#fff;line-height:1}
+.ct-band{font-size:18px;font-weight:700;color:#fff;margin:8px 0 6px}
+.ct-band-body{font-size:15px;line-height:1.6;color:#cfcfcf;margin:0 0 12px}
+.ct-start{margin:0;padding-left:20px;font-size:15px;line-height:1.6;color:#e5e5e5}
+.ct-start li{margin:0 0 6px}
+.ct-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.ct-actions .btn{background:transparent;border:1px solid var(--border-medium);color:#fff}
+@media (max-width:600px){.ct-group{padding:18px 16px 6px}.ct-opt span{min-width:0;padding:8px 12px}.ct-summary{padding:16px}}
+@media print{.navbar,.footer,footer,.pg-cta,.cta-section,[aria-label="Cookie consent"],.ct-actions,.ct-bar,.bc,.next-steps{display:none!important}
+body{background:#fff!important;color:#000!important}.ct-group,.ct-summary{background:#fff!important;border-color:#999!important;box-shadow:none!important;position:static!important}
+.ct-q,.ct-gh,.ct-score,.ct-band,.ct-band-body,.ct-start,.ct-progress,.pg-h2,.pg-intro,h1{color:#000!important;-webkit-text-fill-color:#000!important}
+.ct-opt span{border-color:#999!important;color:#000!important}.ct-opt input:checked+span{background:#000!important;color:#fff!important}}
