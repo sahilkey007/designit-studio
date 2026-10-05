@@ -113,9 +113,11 @@
       });
     }, { threshold: 0.5 });
 
-    counterElements.forEach(function (el) {
-      counterObserver.observe(el);
-    });
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      counterElements.forEach(function (el) {
+        counterObserver.observe(el);
+      });
+    }
   }
 
   function animateCounter(el) {
@@ -185,10 +187,17 @@
   // --- Smooth scroll for anchor links ---
   document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
-      var target = document.querySelector(this.getAttribute('href'));
+      var href = this.getAttribute('href');
+      var target = href.length > 1 && document.getElementById(decodeURIComponent(href.slice(1)));
       if (target) {
         e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // ui.js may have started Lenis smooth scroll; native smooth scroll would fight it.
+        if (window.lenis) window.lenis.scrollTo(target, { offset: -88 });
+        else target.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+        // Move focus too (skip link, in-page TOC), without a second jump.
+        if (!target.hasAttribute('tabindex') && !/^(A|BUTTON|INPUT|SELECT|TEXTAREA)$/.test(target.tagName)) target.setAttribute('tabindex', '-1');
+        target.focus({ preventScroll: true });
+        if (history.replaceState) history.replaceState(null, '', href);
       }
     });
   });
@@ -418,13 +427,18 @@
   // class to the <h3> instead of the .faq-item the CSS actually keys off.
   // closest() finds the ancestor .faq-item either way, so this stays correct
   // for the original (button-is-direct-child) markup too.
-  document.querySelectorAll('.faq-q').forEach(function (btn) {
+  // aria-expanded mirrors the open state so screen readers announce it.
+  var faqBtns = document.querySelectorAll('.faq-q');
+  faqBtns.forEach(function (btn) {
+    var own = btn.closest('.faq-item');
+    btn.setAttribute('aria-expanded', own && own.classList.contains('open') ? 'true' : 'false');
     btn.addEventListener('click', function () {
       var item = btn.closest('.faq-item');
       if (!item) return;
       var isOpen = item.classList.contains('open');
       document.querySelectorAll('.faq-item').forEach(function (i) { i.classList.remove('open'); });
-      if (!isOpen) item.classList.add('open');
+      faqBtns.forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
+      if (!isOpen) { item.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
     });
   });
 

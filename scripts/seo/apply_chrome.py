@@ -8,7 +8,7 @@ C = os.path.join(ROOT, "scripts", "seo", "components")
 NAV = open(os.path.join(C, "nav.html"), encoding="utf-8").read().rstrip("\n")
 FOOT = open(os.path.join(C, "footer.html"), encoding="utf-8").read().rstrip("\n")
 CSS = "/*chrome:start*/" + open(os.path.join(C, "nav.min.css"), encoding="utf-8").read() + "/*chrome:end*/"
-MAINJS = "main.js?v=5"
+MAINJS = "main.js?v=6"
 SKIP_DIRS = {"node_modules", ".git", "scripts", "docs", "_next", "data", "content"}
 
 def section(rel):

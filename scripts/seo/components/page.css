@@ -89,5 +89,16 @@ a.card:hover{border-color:var(--border-medium);transform:translateY(-2px)}
 .hero-ctas .btn{min-width:200px}
 @media (max-width:768px){.pg-section{padding:64px 0}.problem-row,.stage,.compare{grid-template-columns:1fr}.problem-row .route{justify-self:start;text-align:left}.answer-block{padding:22px}.answer-block .answer{font-size:18px}}
 .faq-list .faq-h{margin:0;font-size:inherit;font-weight:inherit;line-height:inherit;letter-spacing:inherit}
-.logo-strip{list-style:none;padding:0;margin:28px auto 0;max-width:1000px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:28px 44px}
-.logo-strip img{height:28px;width:auto;max-width:170px;object-fit:contain;opacity:.75;filter:grayscale(1)}
+.logo-rail{position:relative;max-width:1100px;margin:28px auto 0}
+.logo-marquee{display:flex;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.logo-strip{list-style:none;padding:0 64px 0 0;margin:0;flex:none;display:flex;align-items:center;gap:64px;animation:logo-marquee 40s linear infinite}
+.logo-strip li{flex:none}
+.logo-strip img{height:28px;width:auto;max-width:170px;object-fit:contain;opacity:.75;filter:grayscale(1);transition:opacity .3s}
+.logo-strip img:hover{opacity:1}
+.logo-marquee:hover .logo-strip,.logo-marquee.paused .logo-strip{animation-play-state:paused}
+@keyframes logo-marquee{to{transform:translateX(-100%)}}
+.logo-pause{position:absolute;right:0;top:100%;margin-top:14px;width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;cursor:pointer}
+.logo-pause .i-play,.logo-pause[aria-pressed="true"] .i-pause{display:none}
+.logo-pause[aria-pressed="true"] .i-play{display:inline}
+.logo-pause[hidden]{display:none}
+@media (prefers-reduced-motion:reduce){.logo-marquee{-webkit-mask-image:none;mask-image:none;justify-content:center}.logo-strip{animation:none;flex:1 1 auto;flex-wrap:wrap;justify-content:center;gap:28px 44px;padding:0}.logo-strip[aria-hidden]{display:none}.logo-pause{display:none}}

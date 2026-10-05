@@ -185,8 +185,16 @@ def r_modules(s):
     return sec(s, '<div class="work-grid">' + "".join(out) + "</div>")
 
 def r_logos(s):
-    imgs = "".join(f'<li><img src="{a(l["src"])}" alt="{a(l["alt"])}" width="{l["w"]}" height="{l["h"]}" loading="lazy"></li>' for l in s["items"])
-    return sec(s, f'<ul class="logo-strip">{imgs}</ul>')
+    """Logo marquee (Magic UI "Marquee" pattern, plain CSS). The second list is a visual duplicate for the seamless
+    loop, hidden from assistive tech. The pause button satisfies WCAG 2.2.2; ui.js reveals and wires it."""
+    def lis(dup):
+        return "".join(f'<li><img src="{a(l["src"])}" alt="{"" if dup else a(l["alt"])}" width="{l["w"]}" height="{l["h"]}" loading="lazy"></li>'
+                       for l in s["items"])
+    pause = ('<button class="logo-pause" type="button" aria-pressed="false" hidden><span class="sr-only">Pause logo animation</span>'
+             '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path class="i-pause" d="M3 2h2v8H3zM7 2h2v8H7z" fill="currentColor"/>'
+             '<path class="i-play" d="M3 2l7 4-7 4z" fill="currentColor"/></svg></button>')
+    return sec(s, f'<div class="logo-rail"><div class="logo-marquee"><ul class="logo-strip">{lis(False)}</ul>'
+                  f'<ul class="logo-strip" aria-hidden="true">{lis(True)}</ul></div>{pause}</div>')
 
 def r_tool(s):
     """Interactive self-assessment (blueprint section 52). Every question is plain HTML, so the checklist is readable
