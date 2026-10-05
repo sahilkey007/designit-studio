@@ -1,0 +1,53 @@
+/* Designit Design System (Claude Design handoff, 2026-10): the part that must be in the first paint.
+   Inlined as <style id="ds-critical"> by scripts/seo/apply_ds.py, after each page's own styles, so it wins over the
+   per-page critical CSS. design-system.css carries the same tokens plus the below-the-fold overrides.
+   Rules taken from the system: two grounds only (#000 / #fff); Poppins Regular statements, muted; Inter body at
+   -0.022em; 1px hairlines; no shadows, no blur, no glow; the colour spectrum lives in the logo dot and in grainy
+   washes, never on UI chrome; hover darkens, nothing scales; 120/200ms near-linear motion. */
+:root{
+  --brand-black:#000;--brand-ink:#1b1b1b;--brand-white:#fff;
+  --bg-page:#000;--bg-elevated-1:#000;--bg-elevated-2:#000;--bg-card:#000;
+  --bg-card-alt:rgba(255,255,255,.04);--bg-surface:rgba(255,255,255,.06);--bg-surface-mid:rgba(255,255,255,.08);--bg-surface-high:rgba(255,255,255,.1);
+  --bg-overlay-subtle:rgba(255,255,255,.06);--bg-overlay-tint:rgba(255,255,255,.1);
+  --border-subtle:rgba(255,255,255,.1);--border-default:rgba(255,255,255,.2);--border-medium:rgba(255,255,255,.3);--border-strong:rgba(255,255,255,.45);
+  --border-solid-dark:#2a2a2a;--border-solid-mid:#333;--border-solid-light:#4a4a4a;
+  --text-primary:#fff;--text-light:#fff;--text-body:rgba(255,255,255,.85);--text-secondary:rgba(255,255,255,.8);--text-muted:rgba(255,255,255,.7);
+  --text-tertiary:rgba(255,255,255,.7);--text-subtle:rgba(255,255,255,.65);--text-faint:rgba(255,255,255,.6);--text-ghost:rgba(255,255,255,.6);--text-disabled:rgba(255,255,255,.55);
+  --statement-dark:rgba(255,255,255,.6);--eyebrow-dark:rgba(255,255,255,.7);
+  --radius-xs:6px;--radius-sm:12px;--radius-md:13px;--radius-lg:16px;--radius-xl:16px;--radius-full:9999px;
+  --shadow-subtle:none;--shadow-card:none;--shadow-card-inset:none;--shadow-heavy:none;--shadow-layered:none;--shadow-inset-highlight:none;--shadow-lg:none;
+  --ring:0 0 0 4px rgb(238,239,244);
+  --ease:cubic-bezier(.2,0,.2,1);--transition-fast:.12s cubic-bezier(.2,0,.2,1);--transition-base:.2s cubic-bezier(.2,0,.2,1);--transition-slow:.2s cubic-bezier(.2,0,.2,1);--transition-spring:.2s cubic-bezier(.2,0,.2,1);
+  --font-heading:Poppins,'Poppins Fallback',Inter,'Inter Fallback',sans-serif;
+  --font-body:Inter,'Inter Fallback',sans-serif;
+  --spectrum:linear-gradient(0deg,#ffc860 -4%,#ff9772 13%,#ff6f92 26%,#d75eb2 40%,#865fc2 59%,#4185f4 77%,#49b6e4 96%,#8de37f 110%,#10b48f 122%,#02907b 135%);
+}
+html,body{background:#000}
+body{color:rgba(255,255,255,.85);letter-spacing:-.022em}
+button,input,textarea,select{letter-spacing:inherit}
+::selection{background:#fff;color:#000}
+
+/* Statements: Poppins Regular, tight, muted. The H1 is the hero statement. */
+html body h1:not(#_){font-family:var(--font-heading);font-weight:400;line-height:1.03;letter-spacing:-.05em;color:rgba(255,255,255,.6)}
+html body .gradient-text:not(#_){background:none;-webkit-background-clip:border-box;background-clip:border-box;-webkit-text-fill-color:currentColor;color:rgba(255,255,255,.6)}
+html body h1.gradient-text:not(#_){color:rgba(255,255,255,.6)}
+
+/* Top bar: solid ground, hairline, no blur */
+.navbar{background:#000;-webkit-backdrop-filter:none;backdrop-filter:none;border-bottom:1px solid rgba(255,255,255,.2)}
+.nav-links a,.navbar .nav-links .nav-top{color:rgba(255,255,255,.7)}
+.navbar .nav-links .nav-top:hover,.navbar .nav-links .nav-top.active{color:#fff}
+.navbar .mega{background:#000;box-shadow:none;border-bottom:1px solid rgba(255,255,255,.2)}
+@media (max-width:768px){.nav-links{background:#000;-webkit-backdrop-filter:none;backdrop-filter:none}}
+
+/* Buttons: flat pills. Primary is white on black (hover darkens); ghost is a hairline. No rainbow, no glow. */
+html body .btn-primary:not(#_),html body .nav-cta:not(#_){background:#fff!important;border:1px solid #fff!important;color:#000!important;animation:none;box-shadow:none;font-weight:600;transition:background-color .2s cubic-bezier(.2,0,.2,1),border-color .2s cubic-bezier(.2,0,.2,1)}
+html body .btn-primary:not(#_)::before,html body .nav-cta:not(#_)::before{display:none}
+html body .btn-primary:not(#_):hover,html body .nav-cta:not(#_):hover{background:#e3e3e3!important;border-color:#e3e3e3!important}
+.btn-outline{background:#000;color:#fff;border:1px solid rgba(255,255,255,.2);transition:background-color .2s cubic-bezier(.2,0,.2,1),border-color .2s cubic-bezier(.2,0,.2,1)}
+.btn-outline:hover{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.45)}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.btn:focus-visible{outline:none;box-shadow:0 0 0 4px rgb(238,239,244)}
+
+/* Pills / eyebrows */
+.tag{background:#000;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.85);font-weight:500}
+.geo-hero .subtitle,.page-hero p,.blog-post-hero .subtitle{color:rgba(255,255,255,.7)}

@@ -2,7 +2,8 @@
    UI.JS: interaction layer (see ui.css for the pattern sources and licences)
    Progressive enhancement only: every page is complete without this file. Nothing here changes copy or
    layout; it adds smooth scroll, the hero shader, spotlight cards, reveal-on-scroll and small controls.
-   Reduced motion: no smooth scroll, no reveal, no tilt, and a single still frame of the shader.
+   Reduced motion: no smooth scroll, no reveal, and a single still frame of the shader.
+   Tuned to the Designit Design System: grainy spectrum washes, hairline highlights, no tilt, no glow, no blur.
    ============================================ */
 (function () {
   'use strict';
@@ -55,19 +56,18 @@
     ' float s=t*.045;',
     ' vec2 q=vec2(fbm(p*1.3+vec2(s,0.)),fbm(p*1.3+vec2(3.1,-s)));',
     ' float f=fbm(p*1.1+q*1.8+vec2(s*.7,-s*.5));',
-    ' vec3 pink=vec3(.925,.282,.6),indigo=vec3(.388,.4,.945),violet=vec3(.66,.33,.97),blue=vec3(.231,.51,.965);',
-    ' vec3 c=mix(indigo,pink,smoothstep(.3,.8,q.x));',
-    ' c=mix(c,blue,smoothstep(.45,.85,q.y));',
-    ' c=mix(c,violet,smoothstep(.5,.75,f));',
-    // k = 0: hero, glow sits high (behind the eyebrow and headline) and fades before the body copy
-    // k = 1: closing CTA, a horizon rising from the bottom edge, so the copy above stays on near-black
-    ' vec2 o=mix(vec2(.5,1.08),vec2(.5,-.06),k);',
-    ' vec2 d=(uv-o)*vec2(r.x/r.y*mix(.42,.3,k),1.);',
-    ' float m=1.-smoothstep(.0,mix(.78,.7,k),length(d));',
-    // portrait screens put the headline closer to the glow, so the hero glow is weaker there
-    ' float a=(.4+.6*smoothstep(.2,.8,f))*m*mix(.85*mix(.6,1.,smoothstep(.7,1.5,r.x/r.y)),.75,k);',
-    ' vec3 col=vec3(.039)+c*a;',
-    ' col+=(h(gl_FragCoord.xy+fract(t))-.5)*.03;',
+    // the logo spectrum's blue / violet / magenta, as in the deck's cover washes
+    ' vec3 mag=vec3(.843,.369,.698),vio=vec3(.525,.373,.761),blu=vec3(.255,.522,.957);',
+    ' vec3 c=mix(blu,vio,smoothstep(.25,.75,q.x));',
+    ' c=mix(c,mag,smoothstep(.45,.9,q.y));',
+    // a wash rising from the bottom edge, so the headline and copy above it stay on the black ground
+    ' vec2 o=vec2(.5,mix(-.1,-.06,k));',
+    ' vec2 d=(uv-o)*vec2(r.x/r.y*mix(.3,.3,k),1.);',
+    ' float m=1.-smoothstep(.0,mix(.74,.7,k),length(d));',
+    ' float a=(.4+.6*smoothstep(.2,.8,f))*m*mix(.8*mix(.6,1.,smoothstep(.7,1.5,r.x/r.y)),.75,k);',
+    ' vec3 col=c*a;',
+    // film grain, as in the deck's noisy-gradient bitmaps
+    ' col+=(h(gl_FragCoord.xy*1.37+fract(t*.07))-.5)*.09*(.35+a);',
     ' gl_FragColor=vec4(col,1.);',
     '}'
   ].join('\n');
@@ -139,7 +139,7 @@
     $$('.geo-cta-section').forEach(function (el) { shader(el, 1); });
   });
 
-  /* ---------- Spotlight cards + tilt ---------- */
+  /* ---------- Hairline spotlight on cards ---------- */
   var CARDS = '.card, .work-card, .problem-row, .stage, .step, .quote, .cluster, .blog-card, .blog-related-card, .about-stat-card, .prefooter-item';
   if (finePointer) {
     $$(CARDS).forEach(function (el) {
@@ -149,7 +149,6 @@
       spot.className = 'ui-spot';
       spot.setAttribute('aria-hidden', 'true');
       el.appendChild(spot);
-      var tilt = !reduced && el.classList.contains('work-card');
       var frame = 0, ev = null;
       function apply() {
         frame = 0;
@@ -157,20 +156,8 @@
         var x = ev.clientX - b.left, y = ev.clientY - b.top;
         el.style.setProperty('--mx', x + 'px');
         el.style.setProperty('--my', y + 'px');
-        if (tilt) {
-          var rx = ((y / b.height) - 0.5) * -4, ry = ((x / b.width) - 0.5) * 5;
-          el.style.transform = 'perspective(1100px) rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg) translateY(-3px)';
-        }
       }
       el.addEventListener('pointermove', function (e) { ev = e; if (!frame) frame = requestAnimationFrame(apply); });
-      if (tilt) {
-        el.addEventListener('pointerenter', function () { el.classList.add('ui-tilt'); });
-        el.addEventListener('pointerleave', function () {
-          if (frame) { cancelAnimationFrame(frame); frame = 0; }
-          el.classList.remove('ui-tilt');
-          el.style.transform = '';
-        });
-      }
     });
   }
 

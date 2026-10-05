@@ -341,10 +341,29 @@ def out_path(p):
     flat = os.path.join(ROOT, u + ".html")
     return flat if os.path.exists(flat) else os.path.join(ROOT, u, "index.html")
 
+LIGHT_TYPES = {"cards", "problems", "quotes", "steps"}
+
+def render_sections(sections):
+    """Designit Design System: two grounds, black and white. Argument-style sections (cards, problems, quotes, steps)
+    alternate onto the white ground, never two light sections in a row; a spec can force either with
+    "ground": "light" | "dark". Dark stays the default for work, tools, tables and long reading."""
+    out, prev_light = [], False
+    for sec_ in sections:
+        g = sec_.get("ground")
+        light = (g == "light") if g else (sec_["type"] in LIGHT_TYPES and not prev_light)
+        if prev_light and light and not g:
+            light = False
+        html_ = RENDER[sec_["type"]](sec_)
+        if light:
+            html_ = html_.replace('<section class="pg-section"', '<section class="pg-section ground-light"', 1)
+        out.append(html_)
+        prev_light = light
+    return "".join(out)
+
 def build(spec_path):
     p = json.load(open(spec_path, encoding="utf-8"))
     url = SITE + p["url"]
-    main = hero(p) + "".join(RENDER[s["type"]](s) for s in p.get("sections", [])) + faq_block(p) + cta_section(p) + page_meta(p)
+    main = hero(p) + render_sections(p.get("sections", [])) + faq_block(p) + cta_section(p) + page_meta(p)
     rel = os.path.relpath(out_path(p), ROOT)
     html_out = (SHELL.replace("{{SEO_HEAD}}", seo_head(p, url))
                      .replace("{{JSONLD}}", jsonld(p, url))

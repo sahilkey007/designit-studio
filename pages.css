@@ -2810,7 +2810,8 @@
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 2px;
-  background: linear-gradient(90deg, hsl(var(--color-1)), hsl(var(--color-5)), hsl(var(--color-3)));
+  background: rgba(255, 255, 255, .2);
+  height: 1px;
 }
 .about-inline-cta-text { flex: 1; }
 .about-inline-cta-eyebrow {

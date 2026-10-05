@@ -1399,3 +1399,85 @@ main:focus { outline: none; }
 
 .service-card .service-card-title { line-height: 36px; }
 @media (max-width: 768px) { .service-card .service-card-title { line-height: 28px; } }
+
+/* ds:start */
+:root{
+  --brand-black:#000;--brand-ink:#1b1b1b;--brand-white:#fff;
+  --bg-page:#000;--bg-elevated-1:#000;--bg-elevated-2:#000;--bg-card:#000;
+  --bg-card-alt:rgba(255,255,255,.04);--bg-surface:rgba(255,255,255,.06);--bg-surface-mid:rgba(255,255,255,.08);--bg-surface-high:rgba(255,255,255,.1);
+  --bg-overlay-subtle:rgba(255,255,255,.06);--bg-overlay-tint:rgba(255,255,255,.1);
+  --border-subtle:rgba(255,255,255,.1);--border-default:rgba(255,255,255,.2);--border-medium:rgba(255,255,255,.3);--border-strong:rgba(255,255,255,.45);
+  --border-solid-dark:#2a2a2a;--border-solid-mid:#333;--border-solid-light:#4a4a4a;
+  --text-primary:#fff;--text-light:#fff;--text-body:rgba(255,255,255,.85);--text-secondary:rgba(255,255,255,.8);--text-muted:rgba(255,255,255,.7);
+  --text-tertiary:rgba(255,255,255,.7);--text-subtle:rgba(255,255,255,.65);--text-faint:rgba(255,255,255,.6);--text-ghost:rgba(255,255,255,.6);--text-disabled:rgba(255,255,255,.55);
+  --statement-dark:rgba(255,255,255,.6);--eyebrow-dark:rgba(255,255,255,.7);
+  --radius-xs:6px;--radius-sm:12px;--radius-md:13px;--radius-lg:16px;--radius-xl:16px;--radius-full:9999px;
+  --shadow-subtle:none;--shadow-card:none;--shadow-card-inset:none;--shadow-heavy:none;--shadow-layered:none;--shadow-inset-highlight:none;--shadow-lg:none;
+  --ring:0 0 0 4px rgb(238,239,244);
+  --ease:cubic-bezier(.2,0,.2,1);--transition-fast:.12s cubic-bezier(.2,0,.2,1);--transition-base:.2s cubic-bezier(.2,0,.2,1);--transition-slow:.2s cubic-bezier(.2,0,.2,1);--transition-spring:.2s cubic-bezier(.2,0,.2,1);
+  --font-heading:Poppins,'Poppins Fallback',Inter,'Inter Fallback',sans-serif;
+  --font-body:Inter,'Inter Fallback',sans-serif;
+  --spectrum:linear-gradient(0deg,#ffc860 -4%,#ff9772 13%,#ff6f92 26%,#d75eb2 40%,#865fc2 59%,#4185f4 77%,#49b6e4 96%,#8de37f 110%,#10b48f 122%,#02907b 135%);
+}
+/* Designit Design System: below-the-fold components. Appended to design-system.css by scripts/seo/apply_ds.py,
+   after the tokens block taken from ds-critical.css. Sentence case eyebrows, Poppins titles, hairline cards on black,
+   no coloured accents, no shadows, hover = border or fill change only (nothing scales or lifts). */
+h2,h3,h4,h5{font-family:var(--font-heading)}
+html body h2:not(#_){font-weight:400;letter-spacing:-.04em;line-height:1.1;color:#fff}
+html body h3:not(#_),html body h4:not(#_){font-weight:500;letter-spacing:-.02em;color:#fff}
+html body h2.gradient-text:not(#_){color:rgba(255,255,255,.6)}
+
+/* Eyebrows and micro-labels: sentence case per the system (only the contact micro-labels are all caps) */
+.section-label,.section-tag,.card-kicker,.stage .stage-k,.facts dt,.navbar .mega-h,.footer-col-title,.work-card dt{text-transform:none;letter-spacing:-.011em;font-size:14px;font-weight:500;color:rgba(255,255,255,.7)}
+.step::before{letter-spacing:0;color:rgba(255,255,255,.7)}
+
+/* Cards: black ground, 1px hairline, 13px tile radius. No fill, no shadow, no lift. */
+.card,.step,.stage,.problem-row,.work-card,.quote,.blog-card,.blog-related-card,.about-stat-card,.prefooter-item,.table-wrap,.facts{background:#000;border-color:rgba(255,255,255,.2);box-shadow:none}
+.work-card{border-radius:var(--radius-md)}
+html body :is(a.card,.work-card,.blog-card,.blog-related-card):not(#_){transition:border-color .2s cubic-bezier(.2,0,.2,1)}
+html body :is(a.card,.work-card,.blog-card,.blog-related-card):hover:not(#_){transform:none;border-color:rgba(255,255,255,.5);box-shadow:none}
+html body .answer-block:not(#_){border:1px solid rgba(255,255,255,.2);border-radius:var(--radius-md);background:#000}
+.answer-block .answer{font-family:var(--font-heading);font-weight:400;letter-spacing:-.03em}
+.facts{background:#000;gap:0}
+.facts div{background:#000;box-shadow:inset -1px -1px 0 rgba(255,255,255,.2)}
+.data-table thead th{background:rgba(255,255,255,.06)}
+.card .card-more,.work-card .wc-more,.problem-row .route{font-weight:500}
+
+/* The system has no lift or zoom on hover (hover = border or fill change). Neutralise every card variant. */
+html body :is(.btn-primary,.project-card,.industry-card,.industry-listing-card,.showcase-card,.blog-card,.rich-service-card,.price-card,.service-rich-card,.recommender-card):hover:not(#_){transform:none}
+html body :is(.project-card,.team-card,.showcase-card,.blog-card,.rich-service-card):hover :is(.project-card-img,.team-card-img,.showcase-card-img,.blog-card-img,.rich-service-card-img) img:not(#_){transform:none}
+
+/* Card copy aligns with its title (the legacy .card-body adds 24px of padding) */
+.card > .card-body{padding:0}
+
+/* Lists, forms, tables: hairlines only */
+.faq-list .faq-item,.check-grid li{border-color:rgba(255,255,255,.2)}
+.faq-list .faq-q{font-family:var(--font-heading);font-weight:500;letter-spacing:-.02em}
+input,textarea,select{background:#000;border:1px solid rgba(255,255,255,.2);border-radius:var(--radius-sm)}
+input:focus,textarea:focus,select:focus{border-color:#fff;outline:none;box-shadow:0 0 0 4px rgb(238,239,244)}
+
+/* Footer: same black ground, hairline rule */
+.footer{background:#000;border-top:1px solid rgba(255,255,255,.2)}
+
+/* Light ground (the system's second ground): pure white, black type, 13px #FAFAFA tiles with no border.
+   The muted statement is 30% black in the deck, which fails WCAG AA on white; 58% black (4.9:1) keeps the look.
+   Selectors carry the :not(#_) weight so they beat the dark-ground heading and link rules above. */
+.ground-light{background:#fff;color:#000;--text-primary:#000;--text-body:rgba(0,0,0,.8);--text-secondary:rgba(0,0,0,.75);--text-muted:rgba(0,0,0,.7);--text-tertiary:rgba(0,0,0,.7);--text-subtle:rgba(0,0,0,.7);--border-subtle:rgba(0,0,0,.1);--border-default:rgba(0,0,0,.1);--border-medium:rgba(0,0,0,.2)}
+.pg-section.ground-light{padding:88px 0}
+.ground-light + .pg-section:not(.ground-light){padding-top:88px}
+html body .ground-light :is(h1,h2,h3,h4,.pg-h2,.answer,.card h3,.faq-q):not(#_){color:#000}
+html body .ground-light h2.gradient-text:not(#_){color:rgba(0,0,0,.58)}
+html body .ground-light :is(.pg-intro,p,.card-body p,.faq-a p,li,dd,figcaption,blockquote):not(#_){color:rgba(0,0,0,.72)}
+html body .ground-light :is(.quote figcaption strong,.pg-intro a,.prose a,.card-body a,.problem-row .route,.problem-row .route span,dt,strong):not(#_){color:#000}
+html body .ground-light a:not(.btn):not(#_){color:#000;text-decoration:underline;text-decoration-color:rgba(0,0,0,.4);text-underline-offset:3px}
+html body .ground-light :is(a.card,.work-card):not(#_){text-decoration:none}
+html body .ground-light :is(.card,.step,.stage,.problem-row,.quote,.work-card):not(#_){background:#fafafa;border:1px solid transparent;color:#000}
+html body .ground-light :is(a.card,.work-card):hover:not(#_){border-color:rgba(0,0,0,.2)}
+html body .ground-light :is(.card .card-more,.card .card-kicker,.step::before,.stage .stage-k,.problem-row .route span):not(#_){color:rgba(0,0,0,.65)}
+html body .ground-light :is(.faq-list .faq-item,.check-grid li):not(#_){border-color:rgba(0,0,0,.1)}
+html body .ground-light .btn-primary:not(#_){background:#000!important;border-color:#000!important;color:#fff!important}
+html body .ground-light .btn-primary:not(#_):hover{background:#2b2b2b!important;border-color:#2b2b2b!important}
+html body .ground-light .btn-outline:not(#_){background:transparent;color:#000;border-color:rgba(0,0,0,.2)}
+html body .ground-light .btn-outline:not(#_):hover{background:rgba(0,0,0,.05);border-color:rgba(0,0,0,.45)}
+html body .ground-light :is(a,button):focus-visible:not(#_){outline-color:#000}
+/* ds:end */

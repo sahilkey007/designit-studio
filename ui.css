@@ -5,6 +5,7 @@
    Patterns adapted (re-implemented in plain CSS/JS, no React) from free, MIT-licensed sources:
    Lenis (darkroom.engineering), Magic UI (Magic Card, Border Beam, Blur Fade, Scroll Progress, Grid Pattern),
    SmoothUI (motion accordion), ShaderGradient (look of the hero gradient; own shader).
+   Tuned to the Designit Design System: no glow, no blur, no scale; hairline highlights, grainy spectrum washes.
    Every motion respects prefers-reduced-motion.
    ============================================ */
 
@@ -13,9 +14,7 @@
 
 :root {
   --ui-ease: cubic-bezier(.16, 1, .3, 1);
-  --ui-grad: linear-gradient(90deg, hsl(var(--color-1)), hsl(var(--color-5)), hsl(var(--color-3)), hsl(var(--color-4)), hsl(var(--color-2)));
-  /* light tints of the same hues, for gradient text that keeps 4.5:1 on dark cards */
-  --ui-grad-text: linear-gradient(90deg, #f9a8d4, #c4b5fd 50%, #93c5fd);
+  --ui-grad: #fff;
 }
 
 /* --- Lenis smooth scroll (from lenis/dist/lenis.css) --- */
@@ -25,13 +24,11 @@ html.lenis { scroll-behavior: auto; }
 .lenis [data-lenis-prevent] { overscroll-behavior: contain; }
 .lenis.lenis-smooth iframe { pointer-events: none; }
 
-::selection { background: hsl(var(--color-5) / .45); color: #fff; }
-
 /* --- Scroll progress (Magic UI "Scroll Progress") --- */
 .ui-progress {
   position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 1001;
   transform-origin: 0 50%; transform: scaleX(0);
-  background: var(--ui-grad); pointer-events: none;
+  background: #fff; pointer-events: none;
 }
 
 /* --- Hero + closing CTA: shader gradient canvas and grid pattern --- */
@@ -39,28 +36,21 @@ html.lenis { scroll-behavior: auto; }
 .ui-stage > .ui-shader {
   position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; display: block;
   opacity: 0; transition: opacity 1.8s ease; pointer-events: none;
-  -webkit-mask-image: linear-gradient(to bottom, #000 40%, transparent 98%);
-  mask-image: linear-gradient(to bottom, #000 40%, transparent 98%);
+  -webkit-mask-image: linear-gradient(to top, transparent 0, #000 14%);
+  mask-image: linear-gradient(to top, transparent 0, #000 14%);
 }
 .ui-stage > .ui-shader.on { opacity: 1; }
-.geo-cta-section.ui-stage > .ui-shader {
-  -webkit-mask-image: radial-gradient(ellipse 70% 100% at 50% 100%, #000 30%, transparent 80%);
-  mask-image: radial-gradient(ellipse 70% 100% at 50% 100%, #000 30%, transparent 80%);
-}
-/* No WebGL: a static gradient in the same colours */
+
+/* No WebGL: a still, grainy wash in the spectrum's blue / violet / magenta */
 .ui-stage.ui-noshader::after {
   content: ""; position: absolute; inset: 0; z-index: -2; pointer-events: none;
   background:
-    radial-gradient(40% 50% at 35% 20%, hsl(var(--color-5) / .22), transparent 70%),
-    radial-gradient(35% 45% at 65% 25%, hsl(var(--color-1) / .16), transparent 70%),
-    radial-gradient(45% 40% at 50% 0%, hsl(var(--color-2) / .18), transparent 70%);
+    radial-gradient(60% 55% at 28% 100%, rgba(65,133,244,.34), transparent 70%),
+    radial-gradient(55% 50% at 55% 100%, rgba(134,95,194,.32), transparent 70%),
+    radial-gradient(50% 45% at 80% 100%, rgba(215,94,178,.28), transparent 70%);
 }
-/* Glass pills over the gradient: keeps the pill text above 4.5:1 at the gradient's brightest frame */
-.ui-stage .tag { background-color: rgba(10, 10, 10, .55); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
-/* Small text inside a gradient hero is lifted so it stays above 4.5:1 at the glow's brightest frame */
-.ui-stage .bc, .ui-stage .bc a, .ui-stage .bc-nav ol, .ui-stage .bc-nav a, .ui-stage .section-label, .ui-stage .section-tag { color: #f0f0f0; }
-.ui-stage .bc [aria-current], .ui-stage .bc-nav [aria-current] { color: #fff; }
-.ui-stage .bc li + li::before, .ui-stage .bc-nav li + li::before { color: #bdbdbd; }
+/* Hero and CTA body copy: a touch brighter so it clears 4.5:1 at the wash's brightest frame */
+html body .ui-stage :is(.subtitle,p):not(.page-meta):not(#_) { color: rgba(255, 255, 255, .85); }
 /* Magic UI "Grid Pattern", faded out with a radial mask */
 .geo-hero.ui-stage::before {
   content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
@@ -81,48 +71,34 @@ html.lenis { scroll-behavior: auto; }
 }
 @keyframes ui-beam { from { --ui-beam: 0%; } to { --ui-beam: 100%; } }
 
-/* --- Spotlight cards (Magic UI "Magic Card", Unlumen "Hover Feature Cards") ---
-   ui.js injects one empty <span class="ui-spot"> per card and sets --mx/--my from the pointer. */
-.ui-spot-host { position: relative; isolation: isolate; transition-property: border-color, transform, --ui-so; transition-duration: .35s; }
-.ui-spot-host {
-  background-image: radial-gradient(520px circle at var(--mx, 50%) var(--my, 0%), rgba(255, 255, 255, calc(.055 * var(--ui-so))), transparent 42%);
-}
+/* --- Hairline spotlight (Magic UI "Magic Card" reduced to the system's hairline language) ---
+   ui.js injects one empty <span class="ui-spot"> per card and sets --mx/--my from the pointer.
+   The card's 1px border brightens around the cursor; there is no fill, no colour, no glow. */
+.ui-spot-host { position: relative; }
 .ui-spot {
   position: absolute; inset: -1px; z-index: 2; border-radius: inherit; padding: 1px; pointer-events: none;
-  background: radial-gradient(320px circle at var(--mx, 50%) var(--my, 0%), hsl(var(--color-3) / .9), hsl(var(--color-2) / .55) 30%, transparent 62%);
+  background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 0%), rgba(255, 255, 255, .85), transparent 65%);
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
   mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
-  opacity: 0; transition: opacity .35s ease;
+  opacity: 0; transition: opacity .2s cubic-bezier(.2, 0, .2, 1);
 }
-@media (hover: hover) and (pointer: fine) {
-  .ui-spot-host:hover { --ui-so: 1; }
-  .ui-spot-host:hover > .ui-spot { opacity: 1; }
-}
-.ui-spot-host:focus-visible > .ui-spot { opacity: 1; }
+@media (hover: hover) and (pointer: fine) { .ui-spot-host:hover > .ui-spot { opacity: 1; } }
+.ground-light .ui-spot { background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 0%), rgba(0, 0, 0, .55), transparent 65%); }
 
-/* Case-study cards: image eases in on hover; ui.js adds a slight tilt (Unlumen "Tilt Card") */
-.work-card img { transition: transform 1s var(--ui-ease), filter 1s var(--ui-ease); }
-@media (hover: hover) and (pointer: fine) {
-  .work-card:hover img { transform: scale(1.04); }
-  .work-card.ui-tilt { transition: transform .15s linear, border-color .25s; will-change: transform; }
-}
-.work-card .wc-more, .card .card-more, .problem-row .route { transition: color .25s, letter-spacing .4s var(--ui-ease); }
-.work-card:hover .wc-more, a.card:hover .card-more { letter-spacing: .3px; }
+/* Case-study cards: the system has no scale or lift on hover; only the arrow label tracks the cursor state */
+.work-card .wc-more, .card .card-more, .problem-row .route { transition: color .2s cubic-bezier(.2, 0, .2, 1); }
 
-/* --- Scroll-linked active stage / step (process timelines) --- */
-.stage, .step { transition: border-color .5s ease, background-color .5s ease; }
-.stage.ui-active, .step.ui-active { border-color: rgba(255, 255, 255, .26); background-color: #1f1f22; }
-.stage .stage-k { transition: color .5s ease; }
-.stage.ui-active .stage-k {
-  background: var(--ui-grad-text); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
-}
+/* --- Scroll-linked active stage / step (process timelines): brighter hairline, no colour --- */
+.stage, .step { transition: border-color .2s cubic-bezier(.2, 0, .2, 1); }
+.stage.ui-active, .step.ui-active { border-color: rgba(255, 255, 255, .6); }
+.ground-light .stage.ui-active, .ground-light .step.ui-active { border-color: rgba(0, 0, 0, .35); }
 
 /* --- FAQ (SmoothUI-style motion accordion) --- */
 .faq-list .faq-item { transition: border-color .4s ease; }
 .faq-list .faq-item.open { border-bottom-color: rgba(255, 255, 255, .28); }
-.faq-list .faq-a { transition: max-height .5s var(--ui-ease), padding .5s var(--ui-ease); }
-.faq-list .faq-a p { opacity: .0; transform: translateY(-6px); transition: opacity .45s ease .05s, transform .5s var(--ui-ease) .05s; }
+.faq-list .faq-a { transition: max-height .35s var(--ui-ease), padding .35s var(--ui-ease); }
+.faq-list .faq-a p { opacity: .0; transform: translateY(-6px); transition: opacity .25s ease .05s, transform .3s var(--ui-ease) .05s; }
 .faq-list .faq-item.open .faq-a p { opacity: 1; transform: none; }
 .faq-list .faq-chevron { transition: transform .5s var(--ui-ease), color .3s; }
 .faq-list .faq-item.open .faq-chevron, .faq-list .faq-q:hover .faq-chevron { color: #fff; }
@@ -136,12 +112,12 @@ html.lenis { scroll-behavior: auto; }
 .logo-pause:hover, .logo-pause:focus-visible { color: #fff; border-color: var(--border-strong); }
 .logo-pause:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 
-/* --- Blur Fade reveal (Magic UI). Only applied by ui.js to elements below the fold at load. --- */
-.ui-pre { opacity: 0; transform: translate3d(0, 22px, 0); filter: blur(6px); }
+/* --- Fade-rise reveal (Magic UI "Blur Fade" without the blur). Only applied by ui.js to elements below the fold. --- */
+.ui-pre { opacity: 0; transform: translate3d(0, 14px, 0); }
 .ui-pre.ui-in {
-  opacity: 1; transform: none; filter: none;
-  transition: opacity .9s var(--ui-ease), transform 1s var(--ui-ease), filter .9s var(--ui-ease);
-  transition-delay: calc(var(--ui-i, 0) * 70ms);
+  opacity: 1; transform: none;
+  transition: opacity .5s var(--ui-ease), transform .6s var(--ui-ease);
+  transition-delay: calc(var(--ui-i, 0) * 50ms);
 }
 
 /* --- Number ticker (Magic UI "Number Ticker"; main.js animates [data-count], real figures only) --- */
@@ -156,23 +132,14 @@ html.lenis { scroll-behavior: auto; }
   .navbar .nav-links .nav-top:hover, .navbar .nav-links .nav-top.active { background-size: 100% 1px; }
 }
 
-/* --- Primary buttons: let the existing rainbow glow breathe on hover --- */
-@media (hover: hover) {
-  .btn-primary::before { transition: opacity .4s ease; }
-  .btn-primary:hover::before { opacity: 1; }
-  .btn-outline { transition: border-color .3s, background-color .3s; }
-  .btn-outline:hover { border-color: rgba(255, 255, 255, .4); background-color: rgba(255, 255, 255, .05); }
-}
-
 @media print {
-  .ui-pre { opacity: 1 !important; transform: none !important; filter: none !important; }
+  .ui-pre { opacity: 1 !important; transform: none !important; }
   .ui-progress, .ui-shader, .ui-spot, .logo-pause { display: none !important; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .ui-pre, .ui-pre.ui-in { opacity: 1; transform: none; filter: none; transition: none; }
+  .ui-pre, .ui-pre.ui-in { opacity: 1; transform: none; transition: none; }
   .geo-cta-section.ui-stage::before { animation: none; --ui-beam: 50%; }
   .ui-shader { transition: none; }
-  .work-card img, .work-card:hover img { transition: none; transform: none; }
   .faq-list .faq-a, .faq-list .faq-a p { transition: none; }
 }

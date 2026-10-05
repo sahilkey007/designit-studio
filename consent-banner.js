@@ -21,15 +21,14 @@
     bar.style.cssText = [
         'position:fixed', 'left:16px', 'right:16px', 'bottom:16px', 'z-index:99999',
         'max-width:640px', 'margin:0 auto',
-        'background:#121212', 'color:#EEEEEE',
-        'border:1px solid rgba(255,255,255,0.12)', 'border-radius:16px',
-        'box-shadow:0px 20px 40px rgba(0,0,0,0.4)',
+        'background:#000', 'color:#EEEEEE',
+        'border:1px solid rgba(255,255,255,0.3)', 'border-radius:13px',
         // System fonts only: the banner is fixed to the bottom, so if Inter swaps
         // in after it renders, the text reflows, the bar grows upward and that
         // counts as a layout shift (~0.1 CLS on mobile).
         'padding:18px 20px', 'font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif',
         'display:flex', 'flex-direction:column', 'gap:12px',
-        'opacity:0', 'transform:translateY(12px)', 'transition:opacity .3s ease,transform .3s ease'
+        'opacity:0', 'transform:translateY(12px)', 'transition:opacity .2s cubic-bezier(.2,0,.2,1),transform .2s cubic-bezier(.2,0,.2,1)'
     ].join(';');
 
     bar.innerHTML =
