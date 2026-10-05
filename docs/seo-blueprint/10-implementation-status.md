@@ -98,7 +98,7 @@
 | 93 | Content folders | Done (adapted) | `content/pages`, `data/*.json`, `scripts/seo/components`; redirects stay in `vercel.json` |
 | 94 | Migration safety protocol | Done (site side) / Owner (backlinks, GSC exports) | `01b` baseline, `11b` matrix, `migration_matrix.py` (0 removals, 0 page→redirect, 0 canonical/sitemap/index changes) |
 | 95 | Deployment sequence | Stages 1–3 done; 4–7 await approval | `11-migration-deploy-checklist.md` |
-| 96 | Core Web Vitals | Done (lab) / Owner (field) | Font-delayed CLS sweep: all ≤ 0.05 except one pre-existing 0.09–0.11 lab case (DEV-B). LCP/INP need field data |
+| 96 | Core Web Vitals | Done (lab) / Owner (field) | Font-delayed CLS sweep: all ≤ 0.03 after self-hosting Inter (DEV-B done). LCP/INP need field data |
 | 97 | Image strategy | Partial | No decorative placeholders (About placeholder replaced with real work); diagrams and before/after need project files |
 | 98 | Publishing priorities | Done | 10 commercial pages, then the industry pages (6 + automotive), then case studies; content clusters after approval |
 | 99 | First 20 content assets | Planned | `09` table; 4 already exist and are marked for update |
