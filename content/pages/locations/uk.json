@@ -1,0 +1,44 @@
+{
+  "url": "/ui-ux-design-agency-uk/", "file": "ui-ux-design-agency-uk/index.html", "pageType": "location", "action": "KEEP + REWRITE", "priority": "P1",
+  "metaTitle": "UI/UX Design Agency for UK Software Teams | Designit",
+  "metaDescription": "Senior UI/UX and product design for UK software teams: a shared working day, WCAG 2.2 AA and GDPR-aware flows, GBP invoicing and full IP assignment.",
+  "h1": "A senior design partner for UK software teams, in your working day",
+  "eyebrow": ["Shared working day", "WCAG 2.2 AA", "GBP invoicing"],
+  "subtitle": "India to the UK is a 4.5-hour offset: a genuinely shared working day rather than a handoff. We design for UK teams with GDPR-aware flows, WCAG 2.2 accessibility and the documentation that public-sector-adjacent buyers expect.",
+  "ctas": [{"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"}, {"label": "See the Betacrew case study", "href": "/projects/betacrew/"}],
+  "breadcrumb": [["Home", "/"], ["Locations", "/locations/"], ["UK", "/ui-ux-design-agency-uk/"]],
+  "about": ["UI/UX design agency UK", "Product design for UK companies"],
+  "primaryKeyword": "ui ux design agency uk", "secondaryKeywords": ["product design agency uk", "ux design agency london", "saas design agency uk"],
+  "searchIntent": "commercial / vendor", "businessIntent": "Lead: UK client", "funnelStage": "vendor",
+  "audience": ["UK SaaS founders", "UK product leaders"], "topicCluster": "Locations", "pillarPage": "/locations/", "parentTopic": "ui ux design agency uk",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-BETACREW-SCOPE", "EV-OWNER-GBP-INVOICING", "EV-MARKETS"],
+  "relatedServices": ["/services/saas-product-design/", "/services/ux-audit/"], "relatedCaseStudies": ["/projects/betacrew/", "/projects/kelp-global/"],
+  "conversionEvent": "start_project", "refreshInterval": "6 months",
+  "cta": {"heading": "Same working day, senior design team", "body": "We usually suggest starting with a two-week UX audit, a low-risk way to test the working relationship.", "buttons": [{"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"}, {"label": "UX audit", "href": "/services/ux-audit/"}]},
+  "sections": [
+    {"type": "cards", "id": "what-uk-teams-need", "heading": "What UK software teams tend to need",
+     "items": [
+       {"title": "UK GDPR shapes the interface", "body": "Consent, data minimisation and subject-access rights all surface as design decisions, not just backend concerns."},
+       {"title": "A higher accessibility bar", "body": "The Public Sector Bodies Accessibility Regulations set WCAG 2.2 AA, and the expectation increasingly reaches suppliers and enterprise buyers."},
+       {"title": "Senior capacity is scarce", "body": "Senior product design salaries and long hiring cycles mean many teams can't get senior help in the quarter it matters."},
+       {"title": "Offshore has meant handoffs", "body": "Layers and overnight lag are the usual failure. With a 4.5-hour offset and senior designers working directly with you, neither is structural."}
+     ]},
+    {"type": "cards", "id": "how-we-work-with-uk-teams", "heading": "How we work with UK teams",
+     "items": [
+       {"title": "Time zones", "body": "India is 4.5 hours ahead of GMT, so our afternoon is your morning. Calls at civilised hours for both sides, answers the same day."},
+       {"title": "Contracting", "body": "GBP invoicing, UK-standard NDAs and full IP assignment on payment."},
+       {"title": "GDPR-aware flows", "body": "Consent and data-collection journeys designed with your DPO or counsel so compliance and conversion aren't opposed."},
+       {"title": "WCAG 2.2 AA", "body": "Designed in from the start, with conformance documentation for procurement."}
+     ]},
+    {"type": "work", "id": "relevant-work", "heading": "Relevant work", "items": ["betacrew", "kelp-global"]},
+    {"type": "prose", "id": "honest-trade-off", "heading": "Remote, and upfront about it",
+     "paras": ["We are an India-based studio that works with UK teams remotely, with no UK office, and we would rather say so. For UK public-sector procurement we would work as a subcontractor rather than a prime supplier."]}
+  ],
+  "faq": [
+    {"q": "How does the time difference work with UK teams?", "a": "India is 4.5 hours ahead of GMT, so our afternoon is your morning and we share a genuine working day. Of the markets we serve remotely, the UK has the most workable overlap."},
+    {"q": "Do you have a UK office?", "a": "No. We are an India-based studio that works with UK teams remotely. We provide GBP invoicing, UK-standard NDAs and IP assignment, a shared working day and senior designers rather than an account layer."},
+    {"q": "Do you design to WCAG 2.2 and UK accessibility requirements?", "a": "Yes. We design to WCAG 2.2 AA from the start and provide conformance documentation, because retrofitting accessibility is consistently more expensive."},
+    {"q": "How do you handle UK GDPR in design?", "a": "As a design problem rather than a legal paste-in. Consent requests, sign-up data minimisation and subject-access journeys are interface decisions, worked through with your DPO or counsel."},
+    {"q": "Can you work with UK public sector or regulated clients?", "a": "We design for regulated, precision-critical environments and to public-sector accessibility standards. For UK public-sector procurement we would be a subcontractor rather than a prime."}
+  ]
+}

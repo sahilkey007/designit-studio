@@ -23,6 +23,35 @@
         try { return localStorage.getItem('dsn_consent') === 'granted'; } catch (e) { return false; }
     }
 
+    /* ---- attribution + page context (blueprint section 91) ----
+       First touch (landing page, UTMs, referrer) is kept in sessionStorage, only after consent, so a lead
+       submitted later in the session can be attributed to where the visit started. */
+    function qp(k) { try { return new URLSearchParams(location.search).get(k) || ''; } catch (e) { return ''; } }
+    function rememberFirstTouch() {
+        try {
+            if (!sessionStorage.getItem('dsn_landing')) {
+                sessionStorage.setItem('dsn_landing', location.pathname);
+                sessionStorage.setItem('dsn_utm', JSON.stringify({ source: qp('utm_source'), medium: qp('utm_medium'), campaign: qp('utm_campaign'), referrer: document.referrer || '' }));
+            }
+        } catch (e) {}
+    }
+    function pageContext() {
+        var m = location.pathname.match(/^\/(services|industries|solutions|projects|blog)\/([^\/]+)/);
+        var main = document.querySelector('main[data-cluster]');
+        return {
+            page_type: m ? m[1] : (location.pathname === '/' ? 'home' : 'other'),
+            service: m && m[1] === 'services' ? m[2] : '',
+            industry: m && m[1] === 'industries' ? m[2] : '',
+            content_cluster: main ? main.getAttribute('data-cluster') : ''
+        };
+    }
+    function context() {
+        var c = pageContext(), utm = {};
+        try { c.landing_page = sessionStorage.getItem('dsn_landing') || ''; utm = JSON.parse(sessionStorage.getItem('dsn_utm') || '{}'); } catch (e) {}
+        c.utm_source = utm.source || ''; c.utm_medium = utm.medium || ''; c.utm_campaign = utm.campaign || '';
+        return c;
+    }
+
     /* ---- core send ---- */
     function send(eventName, props) {
         if (!hasConsent()) return;
@@ -30,7 +59,7 @@
             session_id: getSessionId(),
             event_name: eventName,
             page_url: location.pathname,
-            properties: Object.assign({ referrer: document.referrer || '' }, props || {})
+            properties: Object.assign({ referrer: document.referrer || '' }, context(), props || {})
         };
         // Use sendBeacon for unload events, fetch for all others
         var body = JSON.stringify(payload);
@@ -60,6 +89,10 @@
     function sendPageView() {
         if (pageViewSent || !hasConsent()) return;
         pageViewSent = true;
+        rememberFirstTouch();
+        var type = pageContext().page_type;
+        var typed = { services: 'view_service', projects: 'view_case_study', blog: 'view_article', industries: 'view_industry', solutions: 'view_solution' }[type];
+        if (typed && !/^\/(services|projects|blog|industries|solutions)\/?$/.test(location.pathname)) send(typed, { title: document.title });
         send('page_view', {
             title: document.title,
             utm_source: new URLSearchParams(location.search).get('utm_source') || '',
@@ -79,10 +112,20 @@
         var el = e.target.closest('.btn, .nav-cta, [data-track]');
         if (!el) return;
         send('cta_click', {
+            track: el.getAttribute('data-track') || '',
             label: el.textContent.trim().slice(0, 80),
             href: el.getAttribute('href') || '',
             classes: el.className
         });
+    });
+
+    /* ---- 2b. booking and asset clicks ---- */
+    document.addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[href]');
+        if (!a) return;
+        var href = a.getAttribute('href') || '';
+        if (/calendly\.com/.test(href)) send('schedule_call', { href: href, label: (a.textContent || '').trim().slice(0, 80) });
+        if (/\.pdf($|\?)/i.test(href) || a.hasAttribute('download')) send('asset_download', { href: href });
     });
 
     /* ---- 3. scroll depth ---- */

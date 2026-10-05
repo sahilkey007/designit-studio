@@ -1,0 +1,49 @@
+{
+  "url": "/ux-design-agency-dubai/", "file": "ux-design-agency-dubai/index.html", "pageType": "location", "action": "KEEP + REWRITE", "priority": "P1",
+  "metaTitle": "UX Design Agency for Dubai & the UAE: Arabic RTL | Designit",
+  "metaDescription": "UX and product design for Dubai and UAE companies: Arabic RTL done properly, luxury property experiences, regulated fintech flows and a shared working day.",
+  "h1": "A UX design partner for the UAE, with the work to prove it",
+  "eyebrow": ["Arabic RTL", "Dubai PropTech", "Same working day"],
+  "subtitle": "We have delivered seven luxury property experiences in Dubai, including for Omniyat. That means Arabic RTL done properly, an understanding of how Gulf buyers evaluate, and a working time zone rather than a long lag.",
+  "ctas": [{"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"}, {"label": "See the Rcentric case study", "href": "/projects/rcentric/"}],
+  "breadcrumb": [["Home", "/"], ["Locations", "/locations/"], ["UAE", "/ux-design-agency-dubai/"]],
+  "about": ["UX design agency Dubai", "Arabic RTL UX", "UAE PropTech design"],
+  "primaryKeyword": "ux design agency dubai", "secondaryKeywords": ["ui ux design company dubai", "arabic rtl ux design", "proptech design dubai", "ux agency uae"],
+  "searchIntent": "commercial / vendor", "businessIntent": "Lead: UAE client", "funnelStage": "vendor",
+  "audience": ["UAE developers", "UAE fintech and PropTech founders"], "topicCluster": "Locations", "pillarPage": "/locations/", "parentTopic": "ux design agency dubai",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-RCENTRIC-SCOPE", "EV-MARKETS"],
+  "relatedServices": ["/services/website-design/", "/services/design-systems/"], "relatedIndustries": ["/industries/real-estate/", "/industries/fintech/"], "relatedCaseStudies": ["/projects/rcentric/"],
+  "conversionEvent": "start_project", "refreshInterval": "6 months",
+  "cta": {"heading": "Bilingual from the first wireframe", "body": "Tell us about your audience and markets. We'll show you how we would structure the product for English and Arabic from the start.", "buttons": [{"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"}, {"label": "Arabic RTL guide", "href": "/blog/arabic-rtl-ux-design-proptech-uae/"}]},
+  "sections": [
+    {"type": "cards", "id": "what-the-uae-requires", "heading": "What working in the UAE actually requires",
+     "items": [
+       {"title": "Arabic is not a translation task", "body": "RTL mirrors layout, but numerals stay left-to-right, directional icons each need a decision and the visual centre of gravity shifts."},
+       {"title": "The audience is multilingual", "body": "One product may serve Emirati, South Asian, European and Chinese users. Designing for a single assumed reader excludes much of the market."},
+       {"title": "Regulated finance has its own perimeter", "body": "DIFC and ADGM run distinct regimes; flows built for another jurisdiction need real rework."},
+       {"title": "Premium is the baseline", "body": "In Dubai's property and luxury segments, adequate design reads as a downgrade."}
+     ]},
+    {"type": "cards", "id": "how-we-work-with-uae-teams", "heading": "How we work with UAE teams",
+     "items": [
+       {"title": "Time zones", "body": "India is 1.5 hours ahead of Gulf Standard Time, so we share essentially the whole working day."},
+       {"title": "Bilingual design systems", "body": "One system with direction-aware tokens and components instead of two parallel design efforts."},
+       {"title": "Commercials", "body": "Quoted in USD or AED. Bilingual projects carry real additional scope, which we include upfront."},
+       {"title": "Local collaboration model", "body": "Remote, with live sessions in your working hours and RTL rules documented for your engineers."}
+     ]},
+    {"type": "work", "id": "relevant-work", "heading": "Work in Dubai", "intro": "Omniyat, LIV Residences, Orla Infinity, Opus, Anwa Aria, Ela and Vela Viento.", "items": ["rcentric"]},
+    {"type": "links", "id": "related", "heading": "Related",
+     "items": [
+       {"title": "PropTech and real estate design", "href": "/industries/real-estate/", "body": "Qualification journeys and asset-heavy experiences."},
+       {"title": "Arabic RTL UX for PropTech", "href": "/blog/arabic-rtl-ux-design-proptech-uae/", "body": "Designing bilingual property apps properly."},
+       {"title": "Dubai PropTech UI/UX", "href": "/blog/ui-ux-design-agency-dubai-proptech/", "body": "What Gulf buyers expect."}
+     ]}
+  ],
+  "faq": [
+    {"q": "Do you have actual UAE experience, or just a Dubai landing page?", "a": "Actual experience: we designed seven luxury property experiences in Dubai through Rcentric, including work for Omniyat. We are an India-based studio serving UAE clients, not a Dubai-registered agency, and we would rather say that plainly."},
+    {"q": "How do you handle Arabic RTL properly?", "a": "By designing bidirectionally from the start. Layout flips, but numerals remain left-to-right, directional icons each need a decision, Arabic typography needs different vertical rhythm, and the entry point of every screen moves. We document these rules for engineering."},
+    {"q": "Can you work with DIFC or ADGM-regulated entities?", "a": "Yes. Both have their own onboarding, disclosure and record-keeping expectations, so we work directly with your compliance team from week one."},
+    {"q": "What are your working hours relative to the UAE?", "a": "India is 1.5 hours ahead of Gulf Standard Time, so we share essentially the entire working day."},
+    {"q": "Do you work in Abu Dhabi and the wider Gulf?", "a": "Yes. Our delivered work is concentrated in Dubai, but bilingual audiences, RTL, premium expectations and Gulf regulatory context carry across Abu Dhabi, Saudi Arabia and the wider GCC."},
+    {"q": "Can you handle English and Arabic in one design system?", "a": "That is what we recommend. A single bidirectional system costs less to build and maintain than two parallel efforts and prevents the language versions drifting apart."}
+  ]
+}

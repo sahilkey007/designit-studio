@@ -1,0 +1,78 @@
+{
+  "url": "/services/ui-ux-design/",
+  "pageType": "service", "action": "KEEP + RETARGET", "priority": "P1",
+  "metaTitle": "UI/UX Design Company & Studio in India | Designit",
+  "metaDescription": "A senior UI/UX design studio in Noida, India: research, information architecture, interface and interaction design, and design QA for software people use daily.",
+  "h1": "A UI/UX design studio for software people use every day",
+  "eyebrow": ["Research-led", "Senior designers only", "Developer-ready"],
+  "subtitle": "We design interfaces for software people have to use for hours at a time. Every engagement starts with research, every decision traces back to observed behaviour, and every handover is built to survive contact with your engineering team.",
+  "ctas": [
+    {"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"},
+    {"label": "See the Betacrew case study", "href": "/projects/betacrew/"}
+  ],
+  "breadcrumb": [["Home", "/"], ["Services", "/services/"], ["UI/UX Design", "/services/ui-ux-design/"]],
+  "serviceName": "UI/UX Design",
+  "serviceType": ["UI/UX Design", "UI Design", "UX Design", "Interaction Design", "UI/UX Design Consulting"],
+  "serviceDescription": "UI/UX design services: research and discovery, information architecture and flows, interface design across all states, interaction and motion, developer handover and design QA.",
+  "audienceType": "Startups, SaaS companies and enterprise teams in India, the US, the UK and the UAE",
+  "primaryKeyword": "ui ux design company",
+  "secondaryKeywords": ["ui ux design studio", "ui ux studio", "ui ux design services in india", "ui ux design consulting", "ui/ux design company", "ui/ux studio", "ui ux designing company"],
+  "searchIntent": "commercial", "businessIntent": "Lead: design engagement", "funnelStage": "vendor",
+  "audience": ["Founders", "Product managers", "Engineering leads"], "topicCluster": "Product Design", "pillarPage": "/services/product-design/", "parentTopic": "ui ux design company",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "Service",
+  "evidenceIds": ["EV-PROCESS-UIUX", "EV-BETACREW-SCOPE"],
+  "relatedServices": ["/services/product-design/", "/services/ux-audit/", "/services/design-systems/"],
+  "relatedIndustries": ["/industries/automotive/", "/industries/e-commerce/", "/industries/fintech/", "/industries/edtech/"],
+  "relatedCaseStudies": ["/projects/betacrew/"],
+  "aiAnswerTargets": ["What does a UI/UX design company do?", "What is the difference between UI and UX design?", "How do I choose a UI/UX design agency?"],
+  "conversionEvent": "start_project", "refreshInterval": "quarterly",
+  "cta": {"heading": "Tell us what isn't working", "body": "Thirty minutes, no deck. Bring the screens your users struggle with and we'll tell you what we would change first.",
+    "buttons": [{"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"}, {"label": "How to choose a design agency", "href": "/blog/how-to-choose-a-product-design-agency/"}]},
+  "sections": [
+    {"type": "answer", "id": "what-a-ui-ux-design-company-does", "heading": "What does a UI/UX design company do?",
+     "answer": "A UI/UX design company researches how people use a product, structures it so they can find their way, and designs the interface and interactions they work with, then supports engineers so the shipped product matches the design.",
+     "body": ["UX is the decision layer: what the product does, how it is structured and what happens in what order. UI is the expression layer: how that structure looks and responds. We do both, starting with the structural half, because no amount of visual polish fixes a bad hierarchy.",
+              "If you are deciding what to build, not just how it should look, our <a href=\"/services/product-design/\">product design service</a> covers that earlier stage too."]},
+    {"type": "cards", "id": "what-usually-brings-teams-to-us", "heading": "What usually brings teams to us",
+     "items": [
+       {"title": "The interface grew rather than got designed", "body": "Every feature was added where there was room, not where it belongs. It works if you already know it and is impenetrable if you don't."},
+       {"title": "Design is a bottleneck, not a multiplier", "body": "Engineering waits on screens, screens wait on decisions, decisions wait on a meeting."},
+       {"title": "It looks fine and performs badly", "body": "The product photographs well and users still can't complete the task. Visual polish and usability are different disciplines."},
+       {"title": "You've outgrown a freelancer", "body": "One designer was enough at ten people. At forty you need a system, documentation and someone who can hold the whole product in their head."}
+     ]},
+    {"type": "cards", "id": "what-you-get", "heading": "What you get",
+     "items": [
+       {"title": "Research and discovery", "body": "Interviews, competitive teardown and analytics review, ending in a written problem definition before anyone opens Figma."},
+       {"title": "Information architecture and flows", "body": "How the product is organised and how people move through it. Most interface problems are structural."},
+       {"title": "Interface design", "body": "High-fidelity screens including empty, loading, error and permission-denied states."},
+       {"title": "Interaction and motion", "body": "Transitions and micro-interactions where they communicate state, not as decoration."},
+       {"title": "Developer handover", "body": "Annotated specs, tokens, component behaviour and a live walkthrough with engineering."},
+       {"title": "Design QA", "body": "We review the built implementation against the design and file the differences, so design intent survives into production."}
+     ]},
+    {"type": "prose", "id": "ui-ux-design-consulting", "heading": "UI/UX design consulting",
+     "paras": ["Not every team needs a full engagement. Consulting work covers design reviews of a release before it ships, a second opinion on a redesign direction, setting up design process for a growing team, or senior design leadership while you hire.",
+               "If you want a structured diagnosis rather than advice, a fixed-scope <a href=\"/services/ux-audit/\">UX audit</a> is usually the better starting point."]},
+    {"type": "steps", "id": "how-the-engagement-runs", "heading": "How the engagement runs",
+     "intro": "Focused work runs three to five weeks; a full product redesign with a design system is typically ten to twelve.",
+     "items": [
+       {"title": "Discovery (week 1)", "body": "Interviews, product walkthrough and analytics review, ending in a problem definition both sides sign off."},
+       {"title": "Structure (weeks 2 to 3)", "body": "Information architecture, flows and low-fidelity direction, where the hard decisions are made."},
+       {"title": "Design (weeks 3 to 8)", "body": "High-fidelity design reviewed weekly, with components captured into a system as they emerge."},
+       {"title": "Build support (ongoing)", "body": "Handover, engineering walkthrough and design QA against the implementation."}
+     ]},
+    {"type": "work", "id": "selected-work", "heading": "Selected work",
+     "items": ["betacrew", "kelp-global", "tata-elxsi"]},
+    {"type": "answer", "id": "how-much-does-ui-ux-design-cost", "heading": "How much does UI/UX design cost?",
+     "answer": "It depends on scope more than hours, so we quote against a written scope rather than a single rate. One flow or one dashboard is materially cheaper than a full redesign with a design system.",
+     "body": ["What moves the price: the number of screens and states, research depth, platforms, whether a design system is included and how much build support you want. You get a fixed written scope and price before we start."]}
+  ],
+  "faq": [
+    {"q": "What's the difference between UI and UX design, practically?", "a": "UX is the decision layer: what the product does, how it is structured, what happens in what order. UI is the expression layer: how that structure looks and responds. They are done by the same people on the same project; we start with the structural half."},
+    {"q": "Do you work with our existing brand and design language?", "a": "Yes, by default. Unless you have asked for a rebrand, we design within your existing visual language and extend it where it has gaps. See <a href=\"/services/branding/\">branding</a> if you need more."},
+    {"q": "Can you work with our in-house designers?", "a": "Frequently. A common arrangement is that we handle structural and system work while your designers own day-to-day feature design. We are equally happy as extra senior hands inside an existing team."},
+    {"q": "What happens after handover?", "a": "We stay available through implementation and run design QA against what ships. Without a QA pass, a meaningful share of design intent gets lost between Figma and production."},
+    {"q": "Will we get juniors after the pitch?", "a": "No. Senior designers work on your product from kickoff to handover, with no account managers relaying messages."},
+    {"q": "Do you design for accessibility?", "a": "Yes. WCAG 2.1 AA is our default for contrast, keyboard navigation, focus states and screen-reader semantics. It is far cheaper to design in than to retrofit."},
+    {"q": "Where are you based, and who do you work with?", "a": "We are based in Noida, India, and work with clients in India and the UAE, and take on projects for teams in the United States and the United Kingdom. See <a href=\"/locations/\">locations</a> for how international engagements run."}
+  ]
+}

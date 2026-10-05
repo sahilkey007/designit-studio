@@ -1,0 +1,62 @@
+{
+  "url": "/services/", "file": "services/index.html",
+  "pageType": "hub", "action": "KEEP + REWRITE", "priority": "P0",
+  "metaTitle": "Product Design Services: Research, UX, Systems | Designit",
+  "metaDescription": "Product design services from discovery and UX research to SaaS design, design systems, AI product design, website design and branding, led by senior designers.",
+  "h1": "Product design services, from research to scale",
+  "eyebrow": ["Research-led", "Senior designers only", "Developer-ready"],
+  "subtitle": "Designit is a senior-led, research-led product design studio for complex digital products. Start with the problem you have, or browse the services below.",
+  "ctas": [{"label": "Tell us what's not working", "href": "/start-a-project/", "event": "start_project"}, {"label": "See the work", "href": "/projects/"}],
+  "breadcrumb": [["Home", "/"], ["Services", "/services/"]],
+  "primaryKeyword": "product design services", "secondaryKeywords": ["ui ux design services", "ux design services", "design services for saas"],
+  "searchIntent": "commercial / navigational", "businessIntent": "Route visitors to the right service", "funnelStage": "evaluation",
+  "topicCluster": "Hub", "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "CollectionPage",
+  "itemList": [["Product Design", "/services/product-design/"], ["SaaS Product Design", "/services/saas-product-design/"], ["UX Audit", "/services/ux-audit/"], ["UX Research", "/services/ux-research/"], ["Design Systems", "/services/design-systems/"], ["AI Product Design", "/services/ai-product-design/"], ["Website Design", "/services/website-design/"], ["Mobile App Design", "/services/mobile-app-design/"], ["Conversion Optimization", "/services/conversion-optimization/"], ["Branding", "/services/branding/"], ["UI/UX Design", "/services/ui-ux-design/"]],
+  "conversionEvent": "start_project", "refreshInterval": "quarterly",
+  "cta": {"heading": "Start with a conversation, not a proposal", "body": "Thirty minutes. Tell us what you are building and we will tell you what we would tackle first, including when we think we are not the right partner.",
+    "buttons": [{"label": "Start a project", "href": "/start-a-project/", "event": "start_project"}, {"label": "How to choose a design agency", "href": "/blog/how-to-choose-a-product-design-agency/"}]},
+  "sections": [
+    {"type": "problems", "id": "what-do-you-need-help-with", "heading": "What do you need help with?",
+     "intro": "Most teams arrive with a symptom, not a service name. Here is where each one usually starts.",
+     "items": [
+       {"problem": "Users are dropping off during onboarding", "detail": "Sign-ups look healthy, activation doesn't.", "route": "SaaS UX audit", "href": "/services/ux-audit/"},
+       {"problem": "The product has become a collection of inconsistent workflows", "detail": "Every screen looks like a different product and shipping is slowing down.", "route": "Product redesign + design system", "href": "/solutions/product-redesign/"},
+       {"problem": "You're launching a new product and need to validate it", "detail": "The outcome is clear, the product isn't.", "route": "Discovery + MVP design", "href": "/solutions/mvp-design/"},
+       {"problem": "Your website gets traffic but doesn't explain the product", "detail": "Visitors arrive, can't tell what you do, and leave.", "route": "Website + conversion redesign", "href": "/services/website-design/"},
+       {"problem": "Your AI feature isn't trusted or used", "detail": "It demos well and disappoints in daily use.", "route": "AI product design", "href": "/services/ai-product-design/"},
+       {"problem": "Your team needs senior design capacity", "detail": "You need someone to own structure, systems and hard trade-offs.", "route": "Product design", "href": "/services/product-design/"}
+     ]},
+    {"type": "stages", "id": "how-we-work", "heading": "How we work: discover, define, design, validate, scale",
+     "intro": "One method across every engagement. It tells you, and any answer engine, not just what we do but how we do it.",
+     "items": [
+       {"key": "Discover", "title": "Research before opinions", "body": "<a href=\"/services/ux-research/\">User research</a>, discovery, <a href=\"/services/ux-audit/\">UX audits</a>, interviews and usability testing to find out what is actually happening."},
+       {"key": "Define", "title": "Strategy and structure", "body": "Product strategy, information architecture, user journeys and a written definition of the problem and how success is measured."},
+       {"key": "Design", "title": "Experience and interface", "body": "UX and UI, prototyping and <a href=\"/services/design-systems/\">design systems</a>, designed against real data and real constraints."},
+       {"key": "Validate", "title": "Test before you build", "body": "Usability testing, heuristic evaluation and iteration while changes are still cheap."},
+       {"key": "Scale", "title": "Keep it working as you grow", "body": "Design systems, ongoing product design and <a href=\"/services/conversion-optimization/\">conversion optimization</a> after launch."}
+     ]},
+    {"type": "clusters", "id": "all-services", "heading": "All services",
+     "items": [
+       {"title": "Research & Strategy", "desc": "Find out what is wrong and what to build.", "links": [{"label": "UX Research", "href": "/services/ux-research/"}, {"label": "UX Audit", "href": "/services/ux-audit/"}, {"label": "Product discovery", "href": "/services/product-design/#discovery"}, {"label": "Product strategy", "href": "/services/product-design/#strategy"}]},
+       {"title": "Product Experience", "desc": "Design the product people use every day.", "links": [{"label": "Product Design", "href": "/services/product-design/"}, {"label": "SaaS Product Design", "href": "/services/saas-product-design/"}, {"label": "Mobile App Design", "href": "/services/mobile-app-design/"}, {"label": "AI Product Design", "href": "/services/ai-product-design/"}, {"label": "UI/UX Design", "href": "/services/ui-ux-design/"}]},
+       {"title": "Systems & Growth", "desc": "Scale consistently and convert better.", "links": [{"label": "Design Systems", "href": "/services/design-systems/"}, {"label": "Conversion Optimization", "href": "/services/conversion-optimization/"}]},
+       {"title": "Web & Brand", "desc": "How the company looks and explains itself.", "links": [{"label": "Website Design", "href": "/services/website-design/"}, {"label": "Branding", "href": "/services/branding/"}]}
+     ]},
+    {"type": "links", "id": "solutions", "heading": "Or start from the situation you're in",
+     "items": [
+       {"title": "MVP design", "body": "Launch the smallest product that proves the point.", "href": "/solutions/mvp-design/"},
+       {"title": "Product redesign", "body": "Fix adoption without breaking what works.", "href": "/solutions/product-redesign/"},
+       {"title": "Legacy product modernization", "body": "Modernise without stopping the business.", "href": "/solutions/legacy-product-modernization/"},
+       {"title": "Design system scaling", "body": "One language across products and teams.", "href": "/solutions/design-system-scaling/"},
+       {"title": "Conversion improvement", "body": "Find where intent is lost, and fix it.", "href": "/solutions/conversion-improvement/"}
+     ]},
+    {"type": "work", "id": "selected-work", "heading": "Selected work", "items": ["adda247", "kelp-global", "tata-elxsi"]}
+  ],
+  "faq": [
+    {"q": "How long does a Designit engagement take?", "a": "A design sprint is delivered in five business days, a UX audit in about two weeks, and full product design engagements run four to twelve weeks depending on scope. Retainers are ongoing."},
+    {"q": "Who actually works on the engagement?", "a": "Senior practitioners from kickoff through developer handoff. There are no account managers in the middle and no junior hand-offs after the contract is signed."},
+    {"q": "Which service should we start with?", "a": "If you have a live product and something is wrong, start with a <a href=\"/services/ux-audit/\">UX audit</a>: fixed scope, two weeks and a ranked fix list whether or not you continue. If you are deciding what to build, start with discovery."},
+    {"q": "Which regions does Designit work with?", "a": "Clients in India and the UAE, and projects for teams in the United States and the United Kingdom. Communication is in English, and invoices are in the client's market currency: INR, USD, GBP or AED. See <a href=\"/locations/\">locations</a>."},
+    {"q": "How do I start a project with Designit?", "a": "Use the <a href=\"/start-a-project/\">Start a Project</a> form, book a call or email contact@designit.co.in. A tailored scope follows the first conversation."}
+  ]
+}

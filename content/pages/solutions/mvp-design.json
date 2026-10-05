@@ -1,0 +1,226 @@
+{
+  "url": "/solutions/mvp-design/",
+  "pageType": "solution",
+  "action": "CREATE",
+  "priority": "P1",
+  "metaTitle": "MVP Design for Startups: Discovery to Launch | Designit",
+  "metaDescription": "MVP design for startups: product discovery, the core flow designed properly, prototypes tested with real users, and foundations you won't need to replace.",
+  "h1": "MVP design: launch the smallest product that proves the point",
+  "eyebrow": [
+    "Product discovery",
+    "Core flow",
+    "Tested before build"
+  ],
+  "subtitle": "An MVP fails in two ways: it is too big to learn from, or too rough for people to judge fairly. We help you decide what the first version must prove, design that properly, and test it before engineering commits.",
+  "ctas": [
+    {
+      "label": "Discuss your MVP",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "Product design service",
+      "href": "/services/product-design/"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Solutions",
+      "/solutions/"
+    ],
+    [
+      "MVP Design",
+      "/solutions/mvp-design/"
+    ]
+  ],
+  "about": [
+    "MVP design",
+    "Startup product design",
+    "Product discovery"
+  ],
+  "primaryKeyword": "mvp design",
+  "secondaryKeywords": [
+    "startup product design",
+    "product discovery",
+    "mvp ux design",
+    "mvp ui design",
+    "mvp design agency"
+  ],
+  "searchIntent": "problem-aware / commercial",
+  "businessIntent": "Lead: discovery + MVP engagement",
+  "funnelStage": "solution-aware",
+  "audience": [
+    "Founders",
+    "First product managers"
+  ],
+  "topicCluster": "Startup Product Design",
+  "pillarPage": "/services/product-design/",
+  "parentTopic": "mvp design",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "WebPage",
+  "evidenceIds": [
+    "EV-PROCESS-PRODUCT",
+    "EV-BETACREW-SCOPE"
+  ],
+  "relatedServices": [
+    "/services/product-design/",
+    "/services/ux-research/"
+  ],
+  "relatedCaseStudies": [
+    "/projects/betacrew/"
+  ],
+  "aiAnswerTargets": [
+    "What should an MVP include?",
+    "How do you design an MVP?",
+    "How long does MVP design take?"
+  ],
+  "conversionEvent": "start_project",
+  "refreshInterval": "6 months",
+  "cta": {
+    "heading": "What does your first version need to prove?",
+    "body": "Tell us the idea and the users. We'll tell you what we would put in the first release, and what we would deliberately leave out.",
+    "buttons": [
+      {
+        "label": "Discuss your MVP",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "answer",
+      "id": "what-to-do",
+      "heading": "What should you do first?",
+      "answer": "Before designing an MVP, write down the one assumption the first release must prove, such as that a specific user will complete a specific job with your product, and design only what is needed to test it convincingly.",
+      "body": [
+        "Everything else is deferred on purpose, not forgotten. The core flow, though, should be designed properly: a rough version of the main job tests whether people tolerate rough software, not whether your idea is right."
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "signs",
+      "heading": "You're in this situation if",
+      "items": [
+        "The business goal is clear and the product is not",
+        "The feature list for version one keeps growing",
+        "Investors or early customers are waiting for something to try",
+        "Nobody has watched a target user attempt the core task",
+        "Engineering is ready to start and the flows aren't"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how-we-help",
+      "heading": "How we help",
+      "items": [
+        {
+          "title": "Discovery (2 to 3 weeks)",
+          "body": "Interviews with target users, competitor and category review, and a written definition of what the MVP must prove."
+        },
+        {
+          "title": "Scope the first release",
+          "body": "The core flow and the minimum around it, with everything else consciously parked."
+        },
+        {
+          "title": "Design the core flow properly",
+          "body": "Information architecture, interaction and interface for the one job that matters, including errors and empty states."
+        },
+        {
+          "title": "Prototype and test",
+          "body": "Clickable prototypes tested with people who match your users, before code."
+        },
+        {
+          "title": "Foundations for later",
+          "body": "A small set of tokens and components so version two extends version one rather than replacing it."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "options",
+      "heading": "Your options, honestly compared",
+      "columns": [
+        "",
+        "Best when",
+        "Risk"
+      ],
+      "rows": [
+        [
+          "Discovery only",
+          "You are not yet sure what to build or for whom",
+          "Low cost; you still need design afterwards"
+        ],
+        [
+          "Discovery + MVP design",
+          "You know the users and need a tested first release",
+          "The usual choice for funded early-stage teams"
+        ],
+        [
+          "Design sprint",
+          "One specific question needs a fast, prototyped answer",
+          "Answers a question, does not design a product"
+        ],
+        [
+          "Build first, design later",
+          "The product is internal or throwaway",
+          "Redesign cost arrives with your first real users"
+        ]
+      ]
+    },
+    {
+      "type": "work",
+      "id": "work",
+      "heading": "Related work",
+      "intro": "A new developer platform designed from research, replacing three tools with one.",
+      "items": [
+        "betacrew"
+      ]
+    },
+    {
+      "type": "links",
+      "id": "related",
+      "heading": "Related reading",
+      "items": [
+        {
+          "title": "Hire a designer or an agency?",
+          "href": "/blog/hire-ui-ux-designer-vs-agency-india/",
+          "body": "Which suits an early-stage team."
+        },
+        {
+          "title": "Freelancer vs design agency for startups",
+          "href": "/blog/freelancer-vs-design-agency-startups/",
+          "body": "Trade-offs at each stage."
+        },
+        {
+          "title": "How to choose a product design agency",
+          "href": "/blog/how-to-choose-a-product-design-agency/",
+          "body": "Questions that predict outcomes."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What should an MVP include?",
+      "a": "The one core flow that proves your main assumption, designed properly, plus the minimum around it (sign-up, a way to get help, a way to measure). Everything else is deferred deliberately."
+    },
+    {
+      "q": "How long does MVP design take?",
+      "a": "Discovery runs two to three weeks. Designing and testing the core flow usually adds several more, depending on complexity. You get written dates before we start."
+    },
+    {
+      "q": "Do we need discovery if we already know our users?",
+      "a": "Sometimes not. If you have recent, first-hand evidence of the problem and the users, we can go straight to scoping and design. We will tell you if discovery is not worth it."
+    },
+    {
+      "q": "Will the MVP design need to be thrown away later?",
+      "a": "It shouldn't. We keep a small set of foundations, such as tokens, components and naming, so later versions extend the MVP rather than replacing it."
+    }
+  ]
+}

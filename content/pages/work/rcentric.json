@@ -1,0 +1,258 @@
+{
+  "pageType": "case-study",
+  "action": "KEEP + EXPAND",
+  "priority": "P1",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "Article",
+  "searchIntent": "evaluation",
+  "funnelStage": "evaluation / vendor",
+  "topicCluster": "Work",
+  "refreshInterval": "when new evidence is available",
+  "conversionEvent": "start_project",
+  "url": "/projects/rcentric/",
+  "file": "projects/rcentric.html",
+  "client": "R-Centric",
+  "metaTitle": "R-Centric Case Study: Luxury Dubai Property Sites | Designit",
+  "metaDescription": "How Designit designed seven luxury Dubai property experiences for R-Centric, including Omniyat developments, on a shared system that kept each launch distinct.",
+  "h1": "R-Centric: seven luxury Dubai property experiences on one shared system",
+  "eyebrow": [
+    "PropTech",
+    "Dubai",
+    "Shared design system"
+  ],
+  "subtitle": "For R-Centric we designed digital experiences for seven luxury developments in Dubai, including Omniyat projects. Each needed its own story and buyer journey; a shared system let every launch ship without starting from scratch.",
+  "ctas": [
+    {
+      "label": "Discuss a similar problem",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "PropTech design",
+      "href": "/industries/real-estate/"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Work",
+      "/projects/"
+    ],
+    [
+      "R-Centric",
+      "/projects/rcentric/"
+    ]
+  ],
+  "ogImage": "/assets/projects/rcentric/anwa-aria-hero.webp",
+  "about": [
+    "Luxury real estate",
+    "PropTech",
+    "Website design"
+  ],
+  "primaryKeyword": "luxury property website case study",
+  "secondaryKeywords": [
+    "dubai real estate website design",
+    "proptech case study",
+    "omniyat website"
+  ],
+  "evidenceIds": [
+    "EV-RCENTRIC-SCOPE",
+    "EV-RCENTRIC-QUALIFICATION"
+  ],
+  "relatedServices": [
+    "/services/website-design/",
+    "/services/design-systems/"
+  ],
+  "relatedIndustries": [
+    "/industries/real-estate/"
+  ],
+  "cta": {
+    "heading": "Launching a property or a portfolio?",
+    "body": "Tell us about the development and the buyer. We'll show you how we'd structure the journey to a qualified enquiry.",
+    "buttons": [
+      {
+        "label": "Start a project",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "answer",
+      "id": "executive-summary",
+      "heading": "Executive summary",
+      "answer": "Each luxury development needed a digital experience that matched its architecture and convinced a specific international buyer, without every launch starting from zero. Designit designed experiences for LIV, LIV Reside, Orla Infinity, OPUS, Vela Viento, Anwa Aria and Ela on a shared system that kept each property distinct.",
+      "body": [
+        "What changed is how each site sells: location first where the area was new, daily life instead of slogans where community was the promise, and separate journeys for each audience in a mixed-use building, with enquiry flows designed to qualify buyers rather than collect form fills."
+      ]
+    },
+    {
+      "type": "facts",
+      "id": "project-facts",
+      "heading": "Project facts",
+      "items": [
+        [
+          "Industry",
+          "Luxury real estate and PropTech"
+        ],
+        [
+          "Product",
+          "Property websites for seven developments"
+        ],
+        [
+          "Users",
+          "International high-net-worth buyers; for OPUS also corporate tenants and hotel guests"
+        ],
+        [
+          "Market",
+          "Dubai, UAE"
+        ],
+        [
+          "Our role",
+          "Website design, design system"
+        ],
+        [
+          "Tools",
+          "Figma, Webflow, animation, photography direction"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "the-problem",
+      "heading": "The business and buyer problem",
+      "paras": [
+        "Every property had a different obstacle. Anwa Aria sat in an emerging area and had to overcome location scepticism. OPUS, a Zaha Hadid building, served three audiences with different goals. LIV Reside's \"community living\" needed proof rather than adjectives. Ela had to balance sustainability with luxury. Vela Viento's international buyers needed multiple languages and currencies, and Orla Infinity needed cinematic media without sacrificing performance."
+      ]
+    },
+    {
+      "type": "stages",
+      "id": "what-we-did",
+      "heading": "What we did",
+      "items": [
+        {
+          "key": "Positioning",
+          "title": "A story per property",
+          "body": "Research and positioning for each development's buyer, from location storytelling to lifestyle vignettes."
+        },
+        {
+          "key": "Architecture",
+          "title": "Journeys per audience",
+          "body": "Multi-audience information architecture where buildings served homebuyers, tenants and guests."
+        },
+        {
+          "key": "Experience",
+          "title": "Immersive, but fast",
+          "body": "Scrollytelling, full-bleed imagery and animation, with performance optimisation for media-heavy pages and mobile."
+        },
+        {
+          "key": "Conversion",
+          "title": "Qualification, not capture",
+          "body": "Comparison tools, availability and enquiry flows designed to bring serious buyers forward."
+        },
+        {
+          "key": "System",
+          "title": "One shared system",
+          "body": "Foundations reused across launches so each new property shipped faster while keeping its own identity."
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "key-lessons",
+      "heading": "Key lessons",
+      "items": [
+        "<strong>Sell the location before the unit</strong> when the area is new.",
+        "<strong>Show daily life, don't claim community.</strong> Buyers discount adjectives.",
+        "<strong>Give each audience its own journey</strong> in a mixed-use building.",
+        "<strong>Qualify, don't just capture.</strong> Fewer, better enquiries serve sales teams."
+      ]
+    },
+    {
+      "type": "modules",
+      "id": "every-property",
+      "heading": "Every property",
+      "items": [
+        {
+          "href": "/projects/rcentric/liv/",
+          "title": "LIV",
+          "desc": "Positioned LIV as exclusive partner for Omniyat's luxury properties through premium platform design.",
+          "img": "/assets/projects/rcentric/liv-hero.webp"
+        },
+        {
+          "href": "/projects/rcentric/orla-infinity/",
+          "title": "Orla Infinity",
+          "desc": "Architectural masterpiece on Palm Jumeirah — digital presence for unparalleled luxury living.",
+          "img": "/assets/projects/rcentric/orla-infinity-hero.webp"
+        },
+        {
+          "href": "/projects/rcentric/opus/",
+          "title": "OPUS",
+          "desc": "Landmark Zaha Hadid building — digital presence for luxury residences, offices, hotel.",
+          "img": "/assets/projects/rcentric/opus-hero.webp"
+        },
+        {
+          "href": "/projects/rcentric/vela-viento/",
+          "title": "Vela Viento",
+          "desc": "Foster + Partners luxury in Marasi Bay with Dorchester Collection services.",
+          "img": "/assets/projects/rcentric/vela-viento-hero.webp"
+        },
+        {
+          "href": "/projects/rcentric/anwa-aria/",
+          "title": "Anwa Aria",
+          "desc": "Luxury residential tower in Dubai Maritime City emphasizing waterfront living.",
+          "img": "/assets/projects/rcentric/anwa-aria-hero.webp"
+        },
+        {
+          "href": "/projects/rcentric/liv-reside/",
+          "title": "LIV Reside",
+          "desc": "Upscale residential project with focus on community living.",
+          "img": "/assets/projects/rcentric/liv-reside-hero.webp"
+        },
+        {
+          "href": "/projects/rcentric/ela/",
+          "title": "Ela",
+          "desc": "Wellness-focused luxury residences balancing sustainability credentials with premium positioning.",
+          "img": "/assets/projects/rcentric/ela.webp"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "related",
+      "heading": "Related",
+      "items": [
+        {
+          "title": "PropTech and real estate design",
+          "href": "/industries/real-estate/",
+          "body": "How we approach property platforms."
+        },
+        {
+          "title": "UX design for Dubai and the UAE",
+          "href": "/ux-design-agency-dubai/",
+          "body": "Working with UAE clients."
+        },
+        {
+          "title": "Arabic RTL UX for PropTech",
+          "href": "/blog/arabic-rtl-ux-design-proptech-uae/",
+          "body": "Bilingual property apps done properly."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which properties did Designit design for R-Centric?",
+      "a": "LIV, LIV Reside, Orla Infinity, OPUS, Vela Viento, Anwa Aria and Ela, luxury developments in Dubai including Omniyat projects."
+    },
+    {
+      "q": "Why a shared system across properties?",
+      "a": "So each new launch could ship quickly while keeping its own identity, instead of designing every property from scratch."
+    }
+  ]
+}

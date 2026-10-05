@@ -1,0 +1,46 @@
+{
+  "url": "/ui-ux-design-agency-usa/", "file": "ui-ux-design-agency-usa/index.html", "pageType": "location", "action": "KEEP + REWRITE", "priority": "P1",
+  "metaTitle": "UI/UX Design Agency for US Software Companies | Designit",
+  "metaDescription": "A senior UI/UX and product design team for US SaaS and enterprise companies: EST/PST overlap, ADA and WCAG 2.1 AA as standard, USD contracts and IP assignment.",
+  "h1": "A senior design team for US software companies",
+  "eyebrow": ["EST/PST overlap", "ADA / WCAG 2.1 AA", "USD contracts"],
+  "subtitle": "We work with American SaaS and enterprise teams the way a good in-house function works: senior people, async by default, live overlap when it matters, and accessibility treated as a legal requirement rather than a nice-to-have.",
+  "ctas": [{"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"}, {"label": "See the Kelp Global case study", "href": "/projects/kelp-global/"}],
+  "breadcrumb": [["Home", "/"], ["Locations", "/locations/"], ["USA", "/ui-ux-design-agency-usa/"]],
+  "about": ["UI/UX design agency USA", "Product design for US companies"],
+  "primaryKeyword": "ui ux design agency usa", "secondaryKeywords": ["ui ux design companies in usa", "product design agency usa", "saas design agency us"],
+  "searchIntent": "commercial / vendor", "businessIntent": "Lead: US client", "funnelStage": "vendor",
+  "audience": ["US SaaS founders", "US product leaders"], "topicCluster": "Locations", "pillarPage": "/locations/", "parentTopic": "ui ux design agency usa",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-KELP-SCOPE", "EV-OWNER-USD-CONTRACTS", "EV-MARKETS"],
+  "relatedServices": ["/services/saas-product-design/", "/services/ux-audit/"], "relatedCaseStudies": ["/projects/kelp-global/", "/projects/betacrew/"],
+  "conversionEvent": "start_project", "refreshInterval": "6 months",
+  "cta": {"heading": "Senior design capacity this quarter, not after a long hire", "body": "Tell us about your product and timeline. We usually suggest starting with a two-week UX audit, to test working together across the distance.", "buttons": [{"label": "Discuss your product", "href": "/start-a-project/", "event": "start_project"}, {"label": "UX audit", "href": "/services/ux-audit/"}]},
+  "sections": [
+    {"type": "cards", "id": "what-us-teams-need", "heading": "What US software teams tend to need",
+     "items": [
+       {"title": "Accessibility is a litigation surface", "body": "ADA web accessibility claims run into the thousands each year and enterprise procurement increasingly asks for a VPAT. Designing to WCAG 2.1 AA from the start costs a fraction of retrofitting."},
+       {"title": "Senior design is expensive and slow to hire", "body": "For many teams the constraint is getting senior capacity onto the problem this quarter."},
+       {"title": "Enterprise buyers audit design maturity", "body": "Procurement reviews look at accessibility, consistency and documentation."},
+       {"title": "Offshore has burned you before", "body": "The usual failure is layers, not skill: account managers, juniors after the pitch, no overlap hours. We have made the opposite choices."}
+     ]},
+    {"type": "cards", "id": "how-we-work-with-us-teams", "heading": "How we work with US teams",
+     "items": [
+       {"title": "Time zones", "body": "A 9am to 1pm EST overlap window for live calls and reviews, earlier in our day for PST teams. Everything else runs async."},
+       {"title": "Async by default", "body": "Loom walkthroughs, structured written updates and Figma comments, so progress doesn't depend on both sides being awake."},
+       {"title": "Contracting", "body": "USD contracts, US-standard NDAs and full IP assignment on payment, with W-8BEN documentation provided."},
+       {"title": "Senior designers, directly", "body": "No account managers and no junior hand-off after the sale."},
+       {"title": "Accessibility documentation", "body": "WCAG 2.1 AA designed in, with the documentation enterprise procurement asks for."},
+       {"title": "Engineering-compatible handover", "body": "Specs against your stack, delivered in increments that match your release rhythm."}
+     ]},
+    {"type": "work", "id": "relevant-work", "heading": "Relevant work", "items": ["kelp-global", "betacrew", "tata-elxsi"]},
+    {"type": "prose", "id": "honest-trade-off", "heading": "The honest trade-off",
+     "paras": ["We are an India-based studio that works with US teams remotely; we do not have a US office and would rather say so. You get senior designers directly and capacity in weeks rather than after a months-long hire. The trade-off is time zone, which async working and a defined overlap window address but do not eliminate. If you need someone in the room every day, hire locally."]}
+  ],
+  "faq": [
+    {"q": "How do you handle the time difference with US teams?", "a": "We keep a 9am to 1pm EST overlap window for live calls and reviews and run everything else async, through Loom walkthroughs, written updates and Figma comments. For PST teams the overlap shifts earlier in our day."},
+    {"q": "Do you have a US office?", "a": "No. We are an India-based studio that works with US teams remotely. What we offer is USD contracting, US-standard NDAs and IP assignment, EST/PST overlap hours and senior designers on your project."},
+    {"q": "Do you design to ADA and WCAG standards?", "a": "WCAG 2.1 AA is our default. In the US this matters commercially as well as ethically, because accessibility claims run into the thousands each year and enterprise procurement increasingly requires a VPAT."},
+    {"q": "How do you handle IP, NDAs and contracting?", "a": "US-standard NDAs, full IP assignment on payment, and USD contracts. We provide W-8BEN documentation so your finance team isn't navigating an unfamiliar process."},
+    {"q": "How quickly can you start?", "a": "Design kickoff is normally within 48 hours of signature, with an initial direction typically within five working days."}
+  ]
+}

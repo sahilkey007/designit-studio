@@ -1,0 +1,157 @@
+{
+  "url": "/resources/",
+  "file": "resources/index.html",
+  "pageType": "hub",
+  "action": "CREATE",
+  "priority": "P2",
+  "metaTitle": "Product Design Resources: Checklists & Guides | Designit",
+  "metaDescription": "Free product design resources from Designit: interactive UX audit, website, onboarding and AI checklists, a scope assessment, cost guides and buyer guides.",
+  "h1": "Resources for product teams",
+  "eyebrow": [
+    "Checklists",
+    "Guides",
+    "Tools"
+  ],
+  "subtitle": "Practical tools and guides you can use without hiring anyone: run a first-pass UX audit, scope a project, or understand what design work costs.",
+  "ctas": [
+    {
+      "label": "Get the UX audit checklist",
+      "href": "/blog/ux-audit-checklist/",
+      "event": "asset_open"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Resources",
+      "/resources/"
+    ]
+  ],
+  "primaryKeyword": "ux design resources",
+  "searchIntent": "informational",
+  "funnelStage": "problem-aware",
+  "topicCluster": "Resources",
+  "author": "Designit",
+  "updatedAt": "2026-10-05",
+  "schemaType": "CollectionPage",
+  "itemList": [
+    [
+      "UX audit checklist",
+      "/blog/ux-audit-checklist/"
+    ],
+    [
+      "Project scope & fit assessment",
+      "/start-a-project/"
+    ]
+  ],
+  "conversionEvent": "asset_open",
+  "refreshInterval": "quarterly",
+  "sections": [
+    {
+      "type": "links",
+      "id": "tools-and-checklists",
+      "heading": "Tools and checklists",
+      "items": [
+        {
+          "kicker": "Interactive",
+          "title": "UX audit checklist",
+          "body": "48 checks in 10 groups. Score your product as you go and get the first things to fix.",
+          "href": "/resources/ux-audit-checklist/",
+          "more": "Score your product"
+        },
+        {
+          "kicker": "Interactive",
+          "title": "Website UX scorecard",
+          "body": "30 checks on clarity, proof, conversion, mobile and speed, before you spend on a redesign.",
+          "href": "/resources/website-ux-scorecard/",
+          "more": "Score your website"
+        },
+        {
+          "kicker": "Interactive",
+          "title": "SaaS onboarding friction checklist",
+          "body": "25 checks on where new users stall between signup and first value.",
+          "href": "/resources/saas-onboarding-friction-checklist/",
+          "more": "Check your onboarding"
+        },
+        {
+          "kicker": "Interactive",
+          "title": "AI product UX checklist",
+          "body": "25 checks on expectations, uncertainty, agent approval and recovery.",
+          "href": "/resources/ai-product-ux-checklist/",
+          "more": "Check your AI product"
+        },
+        {
+          "kicker": "Guide",
+          "title": "UX audit checklist: the full guide",
+          "body": "Why each check matters, in the order we run them, and how to rank what you find.",
+          "href": "/blog/ux-audit-checklist/",
+          "more": "Read the guide"
+        },
+        {
+          "kicker": "Assessment",
+          "title": "Project scope and fit assessment",
+          "body": "Ten questions that recommend where to start: an audit, discovery, an MVP, a redesign or something smaller.",
+          "href": "/start-a-project/",
+          "more": "Take the assessment"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "cost-guides",
+      "heading": "Cost guides",
+      "items": [
+        {
+          "title": "UI/UX design pricing in India",
+          "href": "/blog/ui-ux-design-pricing-india-2026/",
+          "body": "What drives the cost of design work."
+        },
+        {
+          "title": "Design system cost",
+          "href": "/blog/design-system-cost-india-2026/",
+          "body": "What a design system costs and why."
+        },
+        {
+          "title": "Mobile app UI/UX design cost",
+          "href": "/blog/cost-ui-ux-design-mobile-app-india/",
+          "body": "Budgeting for app design."
+        },
+        {
+          "title": "Startup branding cost",
+          "href": "/blog/branding-services-for-startups-india-cost/",
+          "body": "What branding packages include."
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "buyer-guides",
+      "heading": "Buyer guides",
+      "items": [
+        {
+          "title": "How to choose a product design agency",
+          "href": "/blog/how-to-choose-a-product-design-agency/",
+          "body": "Questions that predict outcomes, and when an agency is the wrong call."
+        },
+        {
+          "title": "Hire a designer or an agency?",
+          "href": "/blog/hire-ui-ux-designer-vs-agency-india/",
+          "body": "Which suits your stage."
+        },
+        {
+          "title": "Freelancer vs design agency for startups",
+          "href": "/blog/freelancer-vs-design-agency-startups/",
+          "body": "The trade-offs, honestly."
+        },
+        {
+          "title": "Custom website vs template",
+          "href": "/blog/custom-website-vs-template-roi-india/",
+          "body": "When a template is enough."
+        }
+      ]
+    }
+  ]
+}

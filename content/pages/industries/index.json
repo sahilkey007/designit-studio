@@ -1,0 +1,206 @@
+{
+  "url": "/industries/",
+  "file": "industries/index.html",
+  "pageType": "hub",
+  "action": "KEEP + REWRITE",
+  "priority": "P1",
+  "metaTitle": "Industries We Design For: SaaS, Fintech, EdTech | Designit",
+  "metaDescription": "Product design for B2B SaaS, fintech, EdTech, PropTech, AI products, e-commerce and automotive HMI: each with its own users, constraints and proof.",
+  "h1": "Industries we design for",
+  "eyebrow": [
+    "Technology",
+    "Financial",
+    "Platforms",
+    "Product-heavy"
+  ],
+  "subtitle": "Every sector has its own logic, users and pressure points. We bring domain research and shipped experience to each, and start every project by learning how your users and regulators think.",
+  "ctas": [
+    {
+      "label": "Discuss your product",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "See the work",
+      "href": "/projects/"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Industries",
+      "/industries/"
+    ]
+  ],
+  "primaryKeyword": "industry ux design",
+  "searchIntent": "navigational",
+  "funnelStage": "evaluation",
+  "topicCluster": "Hub",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "CollectionPage",
+  "itemList": [
+    [
+      "B2B SaaS",
+      "/industries/b2b-saas/"
+    ],
+    [
+      "AI Products",
+      "/industries/ai/"
+    ],
+    [
+      "Fintech",
+      "/industries/fintech/"
+    ],
+    [
+      "EdTech",
+      "/industries/edtech/"
+    ],
+    [
+      "PropTech & Real Estate",
+      "/industries/real-estate/"
+    ],
+    [
+      "E-commerce",
+      "/industries/e-commerce/"
+    ],
+    [
+      "Automotive HMI",
+      "/industries/automotive/"
+    ]
+  ],
+  "evidenceIds": [
+    "EV-SITE-CASE-COUNT",
+    "EV-FOUNDER"
+  ],
+  "conversionEvent": "start_project",
+  "refreshInterval": "6 months",
+  "cta": {
+    "heading": "Don't see your industry?",
+    "body": "The method transfers; the domain research is where we start. Tell us about your product and users.",
+    "buttons": [
+      {
+        "label": "Start a project",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "links",
+      "id": "technology",
+      "heading": "Technology",
+      "items": [
+        {
+          "kicker": "B2B SaaS",
+          "title": "Software people use all day",
+          "body": "Dense workflows, dashboards and admin tools that drive adoption and cut support load.",
+          "href": "/industries/b2b-saas/"
+        },
+        {
+          "kicker": "AI products",
+          "title": "AI startups, AI SaaS and agents",
+          "body": "Interfaces for software whose output isn't fully predictable.",
+          "href": "/industries/ai/"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "financial",
+      "heading": "Financial",
+      "items": [
+        {
+          "kicker": "Fintech",
+          "title": "Trust as a feature",
+          "body": "KYC, payments and dashboards that satisfy compliance without interrogating users.",
+          "href": "/industries/fintech/"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "growth-and-platforms",
+      "heading": "Growth and platforms",
+      "items": [
+        {
+          "kicker": "EdTech",
+          "title": "Completion, not enrolment",
+          "body": "Test-series engines, live classes and dashboards that keep learners going.",
+          "href": "/industries/edtech/"
+        },
+        {
+          "kicker": "PropTech & real estate",
+          "title": "The website is the first viewing",
+          "body": "Property experiences, qualification journeys and Arabic RTL.",
+          "href": "/industries/real-estate/"
+        },
+        {
+          "kicker": "E-commerce",
+          "title": "Revenue per visitor",
+          "body": "Product pages, checkout and retention, starting from a funnel audit.",
+          "href": "/industries/e-commerce/"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "product-heavy-sectors",
+      "heading": "Product-heavy sectors",
+      "items": [
+        {
+          "kicker": "Automotive HMI",
+          "title": "A second of attention is the budget",
+          "body": "Infotainment and instrument clusters designed around glance duration.",
+          "href": "/industries/automotive/"
+        }
+      ]
+    },
+    {
+      "type": "facts",
+      "id": "experience",
+      "heading": "Experience behind the work",
+      "items": [
+        [
+          "Industries",
+          "7"
+        ],
+        [
+          "Published case studies",
+          "22"
+        ],
+        [
+          "Named client engagements",
+          "5"
+        ],
+        [
+          "Years of design experience (founder)",
+          "10+"
+        ]
+      ]
+    },
+    {
+      "type": "html",
+      "id": "experience-note",
+      "html": "<p class=\"source-note\">Years of experience are the founder&rsquo;s, across previous roles. Designit Studio launched in 2026; every case study counted here is published on the <a href=\"/projects/\">Work</a> page.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which industries does Designit specialise in?",
+      "a": "B2B SaaS, AI products, fintech, EdTech, PropTech and real estate, e-commerce, and automotive HMI."
+    },
+    {
+      "q": "Do you only work with Indian companies?",
+      "a": "No. We are based in Noida, India, and work with clients in the UAE, the United States and the United Kingdom as well as India, collaborating remotely across time zones."
+    },
+    {
+      "q": "Can Designit handle domain-specific requirements?",
+      "a": "Yes. Every project starts with domain research: industry conventions, competitor products, regulatory constraints and how users in that sector think."
+    }
+  ]
+}

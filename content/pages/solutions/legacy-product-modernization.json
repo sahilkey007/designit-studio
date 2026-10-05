@@ -1,0 +1,186 @@
+{
+  "url": "/solutions/legacy-product-modernization/",
+  "pageType": "solution",
+  "action": "CREATE",
+  "priority": "P1",
+  "metaTitle": "Legacy Product UX Modernization for Enterprise | Designit",
+  "metaDescription": "Modernise a legacy or enterprise product's UX without stopping the business: map real workflows, protect power users and sequence migration with engineering.",
+  "h1": "Modernise a legacy product without stopping the business",
+  "eyebrow": [
+    "Enterprise UX",
+    "Workflow mapping",
+    "Phased migration"
+  ],
+  "subtitle": "Legacy products carry years of workarounds that the business now depends on. We map the real workflows before changing them, protect the people who use the product all day, and sequence modernisation alongside engineering.",
+  "ctas": [
+    {
+      "label": "Discuss your modernization",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "Product design service",
+      "href": "/services/product-design/"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Solutions",
+      "/solutions/"
+    ],
+    [
+      "Legacy Product Modernization",
+      "/solutions/legacy-product-modernization/"
+    ]
+  ],
+  "about": [
+    "Legacy UX modernization",
+    "Enterprise UX modernization",
+    "Outdated product redesign"
+  ],
+  "primaryKeyword": "legacy ux modernization",
+  "secondaryKeywords": [
+    "enterprise ux modernization",
+    "outdated product redesign",
+    "legacy application redesign",
+    "modernize legacy software ux"
+  ],
+  "searchIntent": "problem-aware / commercial",
+  "businessIntent": "Lead: modernization programme",
+  "funnelStage": "solution-aware",
+  "audience": [
+    "Enterprise product leaders",
+    "CTOs"
+  ],
+  "topicCluster": "Startup Product Design",
+  "pillarPage": "/services/product-design/",
+  "parentTopic": "legacy modernization",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "WebPage",
+  "evidenceIds": [
+    "EV-BETACREW-SCOPE",
+    "EV-ADDA-LIVECLASS"
+  ],
+  "relatedServices": [
+    "/services/product-design/",
+    "/services/ux-research/",
+    "/services/design-systems/"
+  ],
+  "relatedCaseStudies": [
+    "/projects/betacrew/",
+    "/projects/adda247/live-class/"
+  ],
+  "aiAnswerTargets": [
+    "How do you modernize a legacy product's UX?",
+    "How do you redesign enterprise software without disrupting users?"
+  ],
+  "conversionEvent": "start_project",
+  "refreshInterval": "6 months",
+  "cta": {
+    "heading": "Map it before you change it",
+    "body": "Tell us about the product and the people who rely on it. We'll suggest where modernisation should start and what to leave alone for now.",
+    "buttons": [
+      {
+        "label": "Discuss your modernization",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "answer",
+      "id": "what-to-do",
+      "heading": "What should you do first?",
+      "answer": "Map how people actually use the legacy product, including the workarounds and the spreadsheets beside it, before changing anything. Workarounds are requirements the original design never captured.",
+      "body": [
+        "Then modernise in slices: the workflows with the highest cost or risk first, each one shipped and adopted before the next begins, rather than a big-bang replacement that asks everyone to relearn their job on the same day."
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "signs",
+      "heading": "You're in this situation if",
+      "items": [
+        "New features have to be built around an older core",
+        "Power users rely on shortcuts and workarounds nobody documented",
+        "Onboarding a new hire to the tool takes weeks",
+        "Several disconnected tools do one job between them",
+        "The interface blocks enterprise sales or accessibility requirements"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how-we-help",
+      "heading": "How we help",
+      "items": [
+        {
+          "title": "Workflow mapping",
+          "body": "Contextual research with real users to document how work actually gets done today."
+        },
+        {
+          "title": "Prioritise by cost and risk",
+          "body": "Decide which workflows to modernise first, and which to leave alone for now."
+        },
+        {
+          "title": "Target experience",
+          "body": "Design where the product should end up, so each slice moves toward the same destination."
+        },
+        {
+          "title": "Slice and sequence",
+          "body": "Break the target into shippable increments planned with engineering."
+        },
+        {
+          "title": "Protect power users",
+          "body": "Keyboard paths, density options and transition guidance so experts don't lose speed."
+        }
+      ]
+    },
+    {
+      "type": "work",
+      "id": "work",
+      "heading": "Related work",
+      "intro": "Three disconnected developer tools consolidated into one platform.",
+      "items": [
+        "betacrew"
+      ]
+    },
+    {
+      "type": "links",
+      "id": "related",
+      "heading": "Related",
+      "items": [
+        {
+          "title": "Adda247 live class module",
+          "body": "An in-house module replacing third-party services.",
+          "href": "/projects/adda247/live-class/",
+          "more": "Read the case study"
+        },
+        {
+          "title": "Design system scaling",
+          "body": "The system that keeps a modernised product consistent.",
+          "href": "/solutions/design-system-scaling/"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should we rebuild or modernise incrementally?",
+      "a": "Incrementally, in most cases. Big-bang replacements concentrate risk and force everyone to relearn at once. Rebuild when the underlying technology has to change anyway, and design the target experience first so the rebuild has a destination."
+    },
+    {
+      "q": "How do you avoid slowing down expert users?",
+      "a": "By studying their shortcuts before redesigning, keeping keyboard paths, offering density options and giving clear transition guidance."
+    },
+    {
+      "q": "Can you work within enterprise procurement and security requirements?",
+      "a": "Yes. We work under NDA and design to accessibility and compliance requirements, documenting conformance for procurement."
+    }
+  ]
+}

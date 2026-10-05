@@ -1,0 +1,49 @@
+{
+  "url": "/solutions/product-redesign/", "pageType": "solution", "action": "CREATE", "priority": "P1",
+  "metaTitle": "Product Redesign: Fix Adoption Without a Rebuild | Designit",
+  "metaDescription": "Product and SaaS redesign that starts from evidence: find where users struggle, fix structure before styling, and keep what already works for current customers.",
+  "h1": "Product redesign without breaking what already works",
+  "eyebrow": ["SaaS redesign", "Evidence first", "Phased rollout"],
+  "subtitle": "Most redesigns fail by changing what looked dated instead of what was costing users. We start from evidence of where people struggle, fix the structure before the styling, and roll changes out so current customers aren't lost.",
+  "ctas": [{"label": "Discuss your redesign", "href": "/start-a-project/", "event": "start_project"}, {"label": "Start with a UX audit", "href": "/services/ux-audit/"}],
+  "breadcrumb": [["Home", "/"], ["Solutions", "/solutions/"], ["Product Redesign", "/solutions/product-redesign/"]],
+  "about": ["Product redesign", "SaaS redesign", "Product modernization"],
+  "primaryKeyword": "product redesign", "secondaryKeywords": ["saas redesign", "redesign saas product", "legacy product ux", "product modernization", "app redesign"],
+  "searchIntent": "problem-aware / commercial", "businessIntent": "Lead: audit then redesign", "funnelStage": "solution-aware",
+  "audience": ["Heads of product", "SaaS founders"], "topicCluster": "B2B SaaS Product Design", "pillarPage": "/services/saas-product-design/", "parentTopic": "product redesign",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-ADDA-SCOPE", "EV-KELP-SCOPE"],
+  "relatedServices": ["/services/ux-audit/", "/services/saas-product-design/", "/services/design-systems/"], "relatedCaseStudies": ["/projects/adda247/", "/projects/kelp-global/"],
+  "aiAnswerTargets": ["When does a product need a redesign?", "How do you redesign a SaaS product?", "How long does a product redesign take?"],
+  "conversionEvent": "start_project", "refreshInterval": "6 months",
+  "cta": {"heading": "Find out what actually needs redesigning", "body": "A two-week audit tells you which problems cost users and money, and whether you need a redesign at all.", "buttons": [{"label": "Discuss your redesign", "href": "/start-a-project/", "event": "start_project"}, {"label": "UX audit", "href": "/services/ux-audit/"}]},
+  "sections": [
+    {"type": "answer", "id": "what-to-do", "heading": "What should you do first?",
+     "answer": "Before a redesign, establish with evidence which journeys lose users and why. Then fix the structure (navigation, information architecture, flows) before the visual layer, because restyling a broken structure preserves the problem.",
+     "body": ["For a SaaS redesign, we usually map the highest-friction workflows before changing the interface. Redesigning screens without understanding the underlying workflow tends to keep the original product problem, now with a new look."]},
+    {"type": "checklist", "id": "signs", "heading": "You're in this situation if",
+     "items": ["Activation or adoption is falling while sign-ups hold", "Support repeats the same answers every week", "Each new feature is harder to place in the navigation", "Enterprise buyers stall at the demo", "Different parts of the product look like different products"]},
+    {"type": "table", "id": "redesign-or-not", "heading": "Redesign, refactor or targeted fixes?",
+     "columns": ["", "Choose it when", "Typical effort"],
+     "rows": [
+       ["Targeted fixes", "Specific journeys fail and the structure is sound", "Weeks; often straight from an audit"],
+       ["Structural redesign", "Navigation and architecture can't absorb the product any more", "A focused surface runs three to five weeks; a full redesign with a design system about ten to twelve"],
+       ["Visual refresh", "Usability is fine and the brand or UI looks dated", "Lower risk, lower impact on adoption"],
+       ["Rebuild", "The underlying technology must change anyway", "Highest cost; design the target experience first"]
+     ]},
+    {"type": "steps", "id": "how-we-help", "heading": "How we help",
+     "items": [
+       {"title": "Audit", "body": "A fixed-scope <a href=\"/services/ux-audit/\">UX audit</a> ranks what is broken by impact and effort."},
+       {"title": "Research the hard parts", "body": "Interviews and testing on the journeys the audit flags, with your real customers."},
+       {"title": "Restructure", "body": "Information architecture and flows first, validated before visual design."},
+       {"title": "Redesign and systemise", "body": "High-fidelity design with a design system so the fix stays fixed."},
+       {"title": "Roll out in phases", "body": "Changes sequenced so existing users are not forced to relearn everything at once."}
+     ]},
+    {"type": "work", "id": "work", "heading": "Related work", "items": ["adda247", "kelp-global"]}
+  ],
+  "faq": [
+    {"q": "How do we know if we need a redesign?", "a": "When problems are structural, such as navigation that can't absorb new features or flows built around the data model rather than the user, a redesign is warranted. When specific journeys fail inside a sound structure, targeted fixes are faster and cheaper. An audit tells you which."},
+    {"q": "How long does a product redesign take?", "a": "A focused surface, such as onboarding or one dashboard, typically runs three to five weeks. A full product redesign with a design system is usually ten to twelve weeks."},
+    {"q": "How do you avoid upsetting existing users?", "a": "By keeping what people rely on, testing changes with current customers, and rolling them out in phases with clear in-product guidance."},
+    {"q": "Can our engineers keep shipping during the redesign?", "a": "Yes. We deliver in increments matched to your release cadence rather than one large drop at the end."}
+  ]
+}

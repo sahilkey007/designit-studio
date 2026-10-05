@@ -1,0 +1,59 @@
+{
+  "url": "/industries/edtech/", "pageType": "industry", "action": "KEEP + EXPAND", "priority": "P1",
+  "metaTitle": "EdTech UX Design Agency: Learning Platforms | Designit",
+  "metaDescription": "EdTech UX design for learning platforms: onboarding, assessment and test-series engines, live classes, progress dashboards and low-bandwidth mobile learning.",
+  "h1": "EdTech design measured by completion, not by enrolment",
+  "eyebrow": ["Learning platforms", "Assessment engines", "Live class"],
+  "subtitle": "Signing learners up is a marketing problem. Getting them to finish is a design problem, and it decides whether an education product actually works. We have designed modules across one of India's largest exam-preparation platforms.",
+  "ctas": [{"label": "Discuss your learning product", "href": "/start-a-project/", "event": "start_project"}, {"label": "See the Adda247 case study", "href": "/projects/adda247/"}],
+  "breadcrumb": [["Home", "/"], ["Industries", "/industries/"], ["EdTech", "/industries/edtech/"]],
+  "about": ["EdTech UX design", "Learning platform design", "Assessment UX"],
+  "primaryKeyword": "edtech ux design agency", "secondaryKeywords": ["edtech app design", "learning platform ux", "e-learning ux design", "edtech ux design india"],
+  "searchIntent": "commercial", "businessIntent": "Lead: EdTech engagement", "funnelStage": "evaluation",
+  "audience": ["EdTech founders", "Heads of product"], "topicCluster": "EdTech", "pillarPage": "/industries/edtech/", "parentTopic": "edtech ux design",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-ADDA-SCOPE", "EV-QUOTE-AKANKSHA", "EV-QUOTE-MURLIDHAR", "EV-QUOTE-VISHVESH"],
+  "relatedServices": ["/services/ux-research/", "/services/product-design/", "/services/mobile-app-design/"], "relatedCaseStudies": ["/projects/adda247/"],
+  "aiAnswerTargets": ["What improves course completion rates?", "How do you design assessment interfaces learners trust?", "How do you design for low-end devices?"],
+  "conversionEvent": "start_project", "refreshInterval": "6 months",
+  "cta": {"heading": "Where do your learners stop?", "body": "Share your funnel from sign-up to first lesson. We'll tell you where we'd look first and what we'd test.", "buttons": [{"label": "Discuss your learning product", "href": "/start-a-project/", "event": "start_project"}]},
+  "sections": [
+    {"type": "cards", "id": "what-edtech-design-has-to-solve", "heading": "What EdTech design has to solve",
+     "items": [
+       {"title": "Motivation is the real constraint", "body": "Learners are blocked by effort, not the interface. Every unclear next step spends motivation they needed for the material."},
+       {"title": "High stakes, low tolerance", "body": "A timed test that mis-saves an answer can affect an exam outcome. Assessment needs failure handling closer to financial software."},
+       {"title": "Two users, one product", "body": "Learners want progress and clarity; parents or institutions want evidence and oversight."},
+       {"title": "The device is not a flagship phone", "body": "Much learning happens on mid-range Android devices on unreliable connections."}
+     ]},
+    {"type": "cards", "id": "what-we-design", "heading": "What we design",
+     "items": [
+       {"title": "Onboarding and activation", "body": "Getting a new learner to a first genuine learning moment quickly."},
+       {"title": "Assessment and test-series engines", "body": "Reliable state handling, clear navigation, review flows and connection-loss recovery.", "href": "/projects/adda247/test-series/", "more": "Test series case study"},
+       {"title": "Live class interfaces", "body": "Video, materials and participation balanced without overwhelming a learner.", "href": "/projects/adda247/live-class/", "more": "Live class case study"},
+       {"title": "Performance dashboards", "body": "Progress shown to motivate rather than discourage.", "href": "/projects/adda247/performance-dashboard/", "more": "Dashboard case study"},
+       {"title": "Support-load reduction", "body": "Finding the interface ambiguities that generate repeat tickets and designing them out."},
+       {"title": "Low-bandwidth resilience", "body": "Mid-range hardware and intermittent connectivity as the default case."}
+     ]},
+    {"type": "steps", "id": "how-the-engagement-runs", "heading": "How an EdTech engagement runs",
+     "items": [
+       {"title": "Understand the learner", "body": "Research with real learners, including the ones who stopped."},
+       {"title": "Find the drop-off", "body": "Funnel and session analysis to locate where learners stall."},
+       {"title": "Design and test", "body": "Validated with learners on representative devices and connections."},
+       {"title": "Ship and measure", "body": "Handover, design QA and measurement against the completion metric agreed at the start."}
+     ]},
+    {"type": "work", "id": "selected-edtech-work", "heading": "Selected EdTech work", "items": ["adda247"]},
+    {"type": "quotes", "id": "what-edtech-teams-say", "heading": "What EdTech product leaders say", "items": ["akanksha", "murlidhar", "vishvesh"], "note": "Public LinkedIn recommendations, reproduced verbatim."},
+    {"type": "links", "id": "related-insights", "heading": "Related insights",
+     "items": [
+       {"title": "UX design for EdTech startups in India", "href": "/blog/edtech-ux-design-india/", "body": "What drives enrolment, retention and revenue."},
+       {"title": "EdTech onboarding UX", "href": "/blog/edtech-onboarding-ux-india/", "body": "Fixing the Day-7 drop-off."},
+       {"title": "Choosing an EdTech UX design agency", "href": "/blog/edtech-ux-design-agency-india/", "body": "What to look for in a partner."}
+     ]}
+  ],
+  "faq": [
+    {"q": "What actually improves course completion rates?", "a": "In our experience, reducing the effort required to resume. Most learners don't quit dramatically; they stop and find returning slightly too hard. Clear next steps, honest progress, resumable sessions and short first wins do more than gamification layers."},
+    {"q": "How do you design assessment interfaces that learners trust?", "a": "By treating state reliability as the primary requirement: answers visibly save, timers survive a refresh, connection loss is recoverable, and learners can see what they have answered without leaving the question."},
+    {"q": "Do you design for low-end devices and poor connectivity?", "a": "As the default case. That shapes image weight, offline behaviour, how much state lives on the device and whether an animation is worth its cost."},
+    {"q": "How do you balance learner and parent or institution needs?", "a": "Usually with separate views over shared data. Learners need encouragement and a next action; parents and institutions need evidence and comparison."},
+    {"q": "Can you work on live and synchronous learning?", "a": "Yes. We designed the live class module for Adda247, where attention is already committed to the material and the interface has to support interaction without distraction."}
+  ]
+}

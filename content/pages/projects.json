@@ -1,0 +1,274 @@
+{
+  "url": "/projects/",
+  "file": "projects.html",
+  "pageType": "hub",
+  "action": "KEEP + REWRITE",
+  "priority": "P1",
+  "metaTitle": "Selected Product Design Work & Case Studies | Designit",
+  "metaDescription": "Product design case studies across EdTech, B2B SaaS, developer tools, PropTech and automotive HMI: the problem, what we designed and what changed.",
+  "h1": "Selected product design work",
+  "eyebrow": [
+    "22 case studies",
+    "5 client engagements"
+  ],
+  "subtitle": "Every case study states the client, the product, the problem and what we designed. Filter by industry or service, or browse every module below.",
+  "ctas": [
+    {
+      "label": "Start a project",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Work",
+      "/projects/"
+    ]
+  ],
+  "primaryKeyword": "product design case studies",
+  "secondaryKeywords": [
+    "ux case studies",
+    "ui ux portfolio",
+    "saas design case study"
+  ],
+  "searchIntent": "evaluation",
+  "businessIntent": "Proof for buyers",
+  "funnelStage": "evaluation / vendor",
+  "topicCluster": "Work",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "CollectionPage",
+  "itemList": [
+    [
+      "Adda247",
+      "/projects/adda247/"
+    ],
+    [
+      "Kelp Global",
+      "/projects/kelp-global/"
+    ],
+    [
+      "Betacrew",
+      "/projects/betacrew/"
+    ],
+    [
+      "R-Centric (Omniyat portfolio)",
+      "/projects/rcentric/"
+    ],
+    [
+      "Tata Elxsi",
+      "/projects/tata-elxsi/"
+    ]
+  ],
+  "evidenceIds": [
+    "EV-ADDA-SCOPE",
+    "EV-KELP-SCOPE",
+    "EV-BETACREW-SCOPE",
+    "EV-RCENTRIC-SCOPE",
+    "EV-TATA-SCOPE",
+    "EV-TESTIMONIALS"
+  ],
+  "conversionEvent": "start_project",
+  "refreshInterval": "when new evidence is available",
+  "scripts": [
+    "/work-filter.js"
+  ],
+  "css": ".wf{max-width:980px;margin:0 auto 8px;display:flex;flex-direction:column;gap:12px}.wf-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px;justify-content:center}.wf-label{font-size:12px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:#8f8f8f;margin-right:6px}.wf-btn{font:inherit;font-size:14px;padding:8px 14px;border-radius:999px;border:1px solid var(--border-default);background:var(--bg-card);color:#ccc;cursor:pointer}.wf-btn:hover{border-color:var(--border-medium)}.wf-btn[aria-pressed=true]{background:#fff;color:#000;border-color:#fff}.wf-btn:focus-visible{outline:2px solid #fff;outline-offset:2px}.wf-status{text-align:center;font-size:13px;color:var(--text-tertiary);margin:4px 0 0}.work-card[hidden]{display:none!important}",
+  "cta": {
+    "heading": "Have a similar problem?",
+    "body": "Tell us what isn't working. We'll tell you which of these approaches would apply, and where we'd start.",
+    "buttons": [
+      {
+        "label": "Start a project",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "html",
+      "id": "filters",
+      "html": "<div id=\"workFilters\" class=\"wf\"><div class=\"wf-row\" role=\"group\" aria-label=\"Filter by industry\"><span class=\"wf-label\">Industry</span><button type=\"button\" class=\"wf-btn\" data-group=\"industry\" data-filter=\"all\" aria-pressed=\"true\">All</button><button type=\"button\" class=\"wf-btn\" data-group=\"industry\" data-filter=\"edtech\" aria-pressed=\"false\">EdTech</button><button type=\"button\" class=\"wf-btn\" data-group=\"industry\" data-filter=\"b2b-saas\" aria-pressed=\"false\">B2B SaaS</button><button type=\"button\" class=\"wf-btn\" data-group=\"industry\" data-filter=\"developer-tools\" aria-pressed=\"false\">Developer tools</button><button type=\"button\" class=\"wf-btn\" data-group=\"industry\" data-filter=\"proptech\" aria-pressed=\"false\">PropTech</button><button type=\"button\" class=\"wf-btn\" data-group=\"industry\" data-filter=\"automotive\" aria-pressed=\"false\">Automotive</button></div><div class=\"wf-row\" role=\"group\" aria-label=\"Filter by service\"><span class=\"wf-label\">Service</span><button type=\"button\" class=\"wf-btn\" data-group=\"service\" data-filter=\"all\" aria-pressed=\"true\">All</button><button type=\"button\" class=\"wf-btn\" data-group=\"service\" data-filter=\"product-design\" aria-pressed=\"false\">Product design</button><button type=\"button\" class=\"wf-btn\" data-group=\"service\" data-filter=\"saas-product-design\" aria-pressed=\"false\">SaaS</button><button type=\"button\" class=\"wf-btn\" data-group=\"service\" data-filter=\"design-systems\" aria-pressed=\"false\">Design systems</button><button type=\"button\" class=\"wf-btn\" data-group=\"service\" data-filter=\"website-design\" aria-pressed=\"false\">Website</button><button type=\"button\" class=\"wf-btn\" data-group=\"service\" data-filter=\"mobile-app-design\" aria-pressed=\"false\">Mobile</button><button type=\"button\" class=\"wf-btn\" data-group=\"service\" data-filter=\"ux-research\" aria-pressed=\"false\">Research</button></div><p id=\"workFilterStatus\" class=\"wf-status\" role=\"status\" aria-live=\"polite\"></p></div>"
+    },
+    {
+      "type": "work",
+      "id": "all-work",
+      "heading": "Client engagements",
+      "items": [
+        "adda247",
+        "kelp-global",
+        "betacrew",
+        "rcentric",
+        "tata-elxsi"
+      ]
+    },
+    {
+      "type": "clusters",
+      "id": "every-case-study",
+      "heading": "Every case study",
+      "intro": "Each module has its own case study with the challenge, the approach and what we delivered.",
+      "items": [
+        {
+          "title": "Adda247",
+          "href": "/projects/adda247/",
+          "desc": "EdTech platform modules.",
+          "links": [
+            {
+              "label": "Homepage revamp",
+              "href": "/projects/adda247/homepage-revamp/"
+            },
+            {
+              "label": "Test series",
+              "href": "/projects/adda247/test-series/"
+            },
+            {
+              "label": "Live class module",
+              "href": "/projects/adda247/live-class/"
+            },
+            {
+              "label": "iOS & iPad app",
+              "href": "/projects/adda247/ios-app/"
+            },
+            {
+              "label": "Studio app for smart boards",
+              "href": "/projects/adda247/studio-app/"
+            },
+            {
+              "label": "My Content",
+              "href": "/projects/adda247/my-content/"
+            },
+            {
+              "label": "Community module",
+              "href": "/projects/adda247/community/"
+            },
+            {
+              "label": "Performance dashboard",
+              "href": "/projects/adda247/performance-dashboard/"
+            },
+            {
+              "label": "Sankalp Bharat app",
+              "href": "/projects/adda247/sankalp-bharat/"
+            }
+          ]
+        },
+        {
+          "title": "Kelp Global",
+          "href": "/projects/kelp-global/",
+          "desc": "CRM intelligence suite.",
+          "links": [
+            {
+              "label": "Kelp browser plugin",
+              "href": "/projects/kelp-global/kelp-plugin/"
+            },
+            {
+              "label": "Truenorth analytics",
+              "href": "/projects/kelp-global/truenorth/"
+            },
+            {
+              "label": "Deals module",
+              "href": "/projects/kelp-global/deals-module/"
+            }
+          ]
+        },
+        {
+          "title": "Betacrew",
+          "href": "/projects/betacrew/",
+          "desc": "Developer platform.",
+          "links": [
+            {
+              "label": "Portle API management platform",
+              "href": "/projects/betacrew/portle/"
+            }
+          ]
+        },
+        {
+          "title": "R-Centric (Omniyat portfolio)",
+          "href": "/projects/rcentric/",
+          "desc": "Seven Dubai property experiences.",
+          "links": [
+            {
+              "label": "LIV",
+              "href": "/projects/rcentric/liv/"
+            },
+            {
+              "label": "LIV Reside",
+              "href": "/projects/rcentric/liv-reside/"
+            },
+            {
+              "label": "Orla Infinity",
+              "href": "/projects/rcentric/orla-infinity/"
+            },
+            {
+              "label": "OPUS",
+              "href": "/projects/rcentric/opus/"
+            },
+            {
+              "label": "Vela Viento",
+              "href": "/projects/rcentric/vela-viento/"
+            },
+            {
+              "label": "Anwa Aria",
+              "href": "/projects/rcentric/anwa-aria/"
+            },
+            {
+              "label": "Ela",
+              "href": "/projects/rcentric/ela/"
+            }
+          ]
+        },
+        {
+          "title": "Tata Elxsi",
+          "href": "/projects/tata-elxsi/",
+          "desc": "Automotive HMI.",
+          "links": [
+            {
+              "label": "Infotainment system",
+              "href": "/projects/tata-elxsi/infotainment/"
+            },
+            {
+              "label": "Digital instrument cluster",
+              "href": "/projects/tata-elxsi/instrument-cluster/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "what-clients-say",
+      "heading": "What the people we worked with say",
+      "items": [
+        "pankaj",
+        "vishvesh",
+        "akanksha",
+        "murlidhar",
+        "girish",
+        "firdosh"
+      ],
+      "note": "Public LinkedIn recommendations, reproduced verbatim."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What case studies does Designit have?",
+      "a": "Five client engagements broken into 22 case studies: Adda247 (EdTech), Kelp Global (B2B SaaS), Betacrew (developer tools), R-Centric for the Omniyat portfolio (luxury real estate) and Tata Elxsi (automotive HMI)."
+    },
+    {
+      "q": "What was designed for Adda247?",
+      "a": "A redesign across Adda247's competitive-exam preparation platform, including the homepage, test series, live classes, performance dashboard, community, a native iOS and iPad app, and more. See the <a href=\"/projects/adda247/\">Adda247 case study</a>."
+    },
+    {
+      "q": "What was designed for Kelp Global?",
+      "a": "A product suite for sales teams: a browser plugin, the Truenorth analytics dashboard and a deals module, on one design system. See the <a href=\"/projects/kelp-global/\">Kelp Global case study</a>."
+    },
+    {
+      "q": "Can we see work that isn't published here?",
+      "a": "Some work is under NDA. On a call we can walk you through relevant projects that aren't public."
+    }
+  ]
+}

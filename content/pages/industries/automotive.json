@@ -1,0 +1,50 @@
+{
+  "url": "/industries/automotive/", "pageType": "industry", "action": "KEEP + EXPAND", "priority": "P1",
+  "metaTitle": "Automotive HMI Design Agency: Infotainment UX | Designit",
+  "metaDescription": "Automotive HMI design for infotainment systems and digital instrument clusters, built around glance duration, cognitive load and fixed hardware constraints.",
+  "h1": "In-car design where a second of attention is the budget",
+  "eyebrow": ["Infotainment", "Instrument clusters", "Safety-critical"],
+  "subtitle": "Automotive HMI is one place where an interface decision has a physical safety consequence. We design infotainment and cluster experiences around glance duration and cognitive load, constraints that make most conventional UI thinking actively wrong.",
+  "ctas": [{"label": "Discuss your HMI programme", "href": "/start-a-project/", "event": "start_project"}, {"label": "See the Tata Elxsi case study", "href": "/projects/tata-elxsi/"}],
+  "breadcrumb": [["Home", "/"], ["Industries", "/industries/"], ["Automotive HMI", "/industries/automotive/"]],
+  "about": ["Automotive HMI design", "Infotainment UX", "Digital instrument cluster"],
+  "primaryKeyword": "automotive hmi design agency", "secondaryKeywords": ["infotainment ux design", "instrument cluster design", "in-car ux", "hmi design services"],
+  "searchIntent": "commercial", "businessIntent": "Lead: HMI programme", "funnelStage": "evaluation",
+  "audience": ["OEM and tier-one HMI teams"], "topicCluster": "Automotive", "pillarPage": "/industries/automotive/", "parentTopic": "automotive hmi",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-TATA-SCOPE"],
+  "relatedServices": ["/services/product-design/", "/services/ux-research/", "/services/design-systems/"], "relatedCaseStudies": ["/projects/tata-elxsi/"],
+  "aiAnswerTargets": ["How do you design for driver distraction?", "What is glance duration in HMI design?"],
+  "conversionEvent": "start_project", "refreshInterval": "6 months",
+  "cta": {"heading": "Designing for the road, not the desk", "body": "Tell us about your programme, hardware and timeline. We'll tell you how we would approach the glance and task model.", "buttons": [{"label": "Discuss your HMI programme", "href": "/start-a-project/", "event": "start_project"}]},
+  "sections": [
+    {"type": "cards", "id": "why-hmi-breaks-normal-design-rules", "heading": "Why automotive HMI breaks normal design rules",
+     "items": [
+       {"title": "Attention is borrowed, not given", "body": "Every glance at a screen is attention taken from the road. Guidance converges on roughly two seconds per glance."},
+       {"title": "The user is physically moving", "body": "Vibration, changing light and occupied hands. Targets and contrast that pass on a desk fail on the road."},
+       {"title": "Hardware is fixed years ahead", "body": "Screen, processing budget and control layout are locked long before design starts."},
+       {"title": "Safety-critical and comfort share a screen", "body": "The hierarchy between what a driver must see and might want is a safety decision expressed as layout."}
+     ]},
+    {"type": "cards", "id": "what-we-design", "heading": "What we design",
+     "items": [
+       {"title": "Digital instrument clusters", "body": "Speed, range, warnings and ADAS state designed for peripheral legibility.", "href": "/projects/tata-elxsi/instrument-cluster/", "more": "Cluster case study"},
+       {"title": "Infotainment systems", "body": "Navigation, media, climate and settings structured so common tasks fit a safe glance budget.", "href": "/projects/tata-elxsi/infotainment/", "more": "Infotainment case study"},
+       {"title": "Glance-load analysis", "body": "Task-by-task assessment of glance cost, so distraction is measured during design."},
+       {"title": "Day, night and adverse conditions", "body": "Full state design across lighting and glare."},
+       {"title": "Multi-modal interaction", "body": "Touch, physical controls, steering-wheel input and voice that behave coherently."},
+       {"title": "Design systems for vehicle ranges", "body": "A consistent HMI language across trims and model years."}
+     ]},
+    {"type": "steps", "id": "how-the-engagement-runs", "heading": "How an HMI engagement runs",
+     "items": [
+       {"title": "Constraints first", "body": "Hardware, regulation, control layout and driving contexts define the design space."},
+       {"title": "Task and glance modelling", "body": "Every driver task mapped against the attention it costs."},
+       {"title": "Design and simulate", "body": "Interfaces evaluated in driving-simulator conditions, because desk evaluation underestimates glance cost."},
+       {"title": "Handover", "body": "Specifications detailed enough for embedded engineering teams."}
+     ]},
+    {"type": "work", "id": "selected-work", "heading": "Selected automotive work", "intro": "An infotainment interface and a digital instrument cluster, designed within a tier-one supplier's engineering constraints.", "items": ["tata-elxsi"]}
+  ],
+  "faq": [
+    {"q": "How do you design for driver distraction?", "a": "By treating glance duration as the primary design budget. Industry guidance converges on roughly two seconds per glance and a limited total per task, so we model each task's glance cost during design: larger type, fewer simultaneous decisions, information positioned for peripheral pickup, and frequent actions on physical controls where possible."},
+    {"q": "Do you work within existing hardware constraints?", "a": "Always. In automotive that is the job: screen size, resolution, processing budget and control layout are fixed, and the design has to work within them."},
+    {"q": "How long do automotive engagements take?", "a": "A single HMI surface typically runs eight to ten weeks. A full cluster plus infotainment programme is a multi-month engagement with validation gates built in."}
+  ]
+}

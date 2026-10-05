@@ -1,0 +1,210 @@
+{
+  "pageType": "case-study",
+  "action": "KEEP + EXPAND",
+  "priority": "P1",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "Article",
+  "searchIntent": "evaluation",
+  "funnelStage": "evaluation / vendor",
+  "topicCluster": "Work",
+  "refreshInterval": "when new evidence is available",
+  "conversionEvent": "start_project",
+  "url": "/projects/betacrew/",
+  "file": "projects/betacrew.html",
+  "client": "Betacrew",
+  "metaTitle": "Betacrew Portle Case Study: Developer Platform UX | Designit",
+  "metaDescription": "How Designit designed Portle for Betacrew: one developer-first API platform replacing three tools, with adaptive density and a white-label theming system.",
+  "h1": "Betacrew Portle: one developer platform replacing three API tools",
+  "eyebrow": [
+    "Developer tools",
+    "API management",
+    "White-label system"
+  ],
+  "subtitle": "Developers were designing, testing and documenting APIs in three disconnected tools, so documentation drifted and onboarding took weeks. We designed Portle, a developer-first platform that brings that work into one workspace.",
+  "ctas": [
+    {
+      "label": "Discuss a similar problem",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "Read the Portle case study",
+      "href": "/projects/betacrew/portle/"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Work",
+      "/projects/"
+    ],
+    [
+      "Betacrew",
+      "/projects/betacrew/"
+    ]
+  ],
+  "ogImage": "/assets/projects/betacrew/portle-hero.webp",
+  "about": [
+    "Developer tools",
+    "API management",
+    "Design systems"
+  ],
+  "primaryKeyword": "developer platform ux case study",
+  "secondaryKeywords": [
+    "api management ui design",
+    "developer ux design",
+    "white-label design system"
+  ],
+  "evidenceIds": [
+    "EV-BETACREW-SCOPE"
+  ],
+  "relatedServices": [
+    "/services/product-design/",
+    "/services/design-systems/"
+  ],
+  "relatedIndustries": [
+    "/industries/b2b-saas/"
+  ],
+  "cta": {
+    "heading": "Consolidating tools into one product?",
+    "body": "Tell us which tools and which users. We'll tell you how we'd map the workflow first.",
+    "buttons": [
+      {
+        "label": "Start a project",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "answer",
+      "id": "executive-summary",
+      "heading": "Executive summary",
+      "answer": "Developers managed APIs across separate tools for design, testing and documentation, so documentation was always out of date and new team members needed weeks to learn the setup. Designit designed Portle, a developer-first API management platform that brings design, testing, documentation and monitoring into one workspace, with a white-label theming system for enterprise deployments.",
+      "body": [
+        "What changed is that each view shares context: editing an API definition updates its documentation and test templates, removing the synchronisation problem of a multi-tool setup."
+      ]
+    },
+    {
+      "type": "facts",
+      "id": "project-facts",
+      "heading": "Project facts",
+      "items": [
+        [
+          "Industry",
+          "Developer tools"
+        ],
+        [
+          "Product",
+          "Portle, an API management platform"
+        ],
+        [
+          "Users",
+          "Developers from junior engineers to senior architects; enterprise admins"
+        ],
+        [
+          "Our role",
+          "Product design, developer UX, design system"
+        ],
+        [
+          "Scope",
+          "One platform replacing three tools; white-label theming"
+        ],
+        [
+          "Tools",
+          "Figma, component library, theming system"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "the-problem",
+      "heading": "The business and user problem",
+      "paras": [
+        "Documentation lived apart from the API, so it was always outdated. Onboarding to API workflows took weeks because people had to learn three tools and how they connected. The platform also had to support white-label deployment for different enterprise clients."
+      ]
+    },
+    {
+      "type": "stages",
+      "id": "what-we-did",
+      "heading": "What we did",
+      "items": [
+        {
+          "key": "Research",
+          "title": "Developer experience research",
+          "body": "We mapped engineers' daily tool use, timing workflows and documenting every context switch and manual step."
+        },
+        {
+          "key": "Architecture",
+          "title": "Unified information architecture",
+          "body": "A workspace that follows the developer's workflow: define endpoints, test, document, monitor, with shared context across views."
+        },
+        {
+          "key": "Prototyping",
+          "title": "Prototypes with real API data",
+          "body": "Tested with developers of different experience levels, which led to an adaptive interface with a density setting and sensible defaults."
+        },
+        {
+          "key": "System",
+          "title": "White-label theming",
+          "body": "Typography, logo placement, terminology overrides and feature toggles, with accessibility maintained under any brand, plus a theme editor for non-technical admins."
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "id": "key-lessons",
+      "heading": "Key lessons",
+      "items": [
+        "<strong>Experts and newcomers need different density.</strong> A density setting served both.",
+        "<strong>Keep documentation with the thing it documents.</strong> Separation guarantees drift.",
+        "<strong>White-label is more than colour.</strong> Terminology and features vary by client too."
+      ]
+    },
+    {
+      "type": "modules",
+      "id": "case-study",
+      "heading": "Read the full case study",
+      "items": [
+        {
+          "href": "/projects/betacrew/portle/",
+          "title": "Portle — API Management Platform",
+          "desc": "Developer-first API management with minimalist interface reducing cognitive load.",
+          "img": "/assets/projects/betacrew/portle-hero.webp"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "related",
+      "heading": "Related",
+      "items": [
+        {
+          "title": "Legacy product modernization",
+          "href": "/solutions/legacy-product-modernization/",
+          "body": "Consolidating tools without stopping work."
+        },
+        {
+          "title": "Design system scaling",
+          "href": "/solutions/design-system-scaling/",
+          "body": "Theming and multi-brand systems."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Portle?",
+      "a": "Portle is a developer-first API management platform that unifies API design, testing, documentation and monitoring in one interface, designed by Designit for Betacrew."
+    },
+    {
+      "q": "How does the white-label system work?",
+      "a": "Through a theming system that goes beyond colour, covering typography, logo placement, terminology overrides and feature toggles, with accessibility maintained under every theme."
+    }
+  ]
+}

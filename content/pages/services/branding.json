@@ -1,0 +1,91 @@
+{
+  "url": "/services/branding/",
+  "pageType": "service", "action": "CREATE", "priority": "P1",
+  "metaTitle": "Branding Agency for Tech Startups & B2B SaaS | Designit",
+  "metaDescription": "Brand strategy, positioning, brand research, visual identity and digital brand systems for technology startups and B2B SaaS companies, from launch to rebrand.",
+  "h1": "Brand systems for technology companies ready to grow",
+  "eyebrow": ["Brand strategy", "Visual identity", "Digital brand systems"],
+  "subtitle": "For a technology company, the brand lives mostly in the product, the website and the sales deck. We build brand systems that start with positioning and carry all the way into the interface, so the company looks as credible as the product is.",
+  "ctas": [
+    {"label": "Discuss your brand", "href": "/start-a-project/", "event": "start_project"},
+    {"label": "Read: what startup branding includes", "href": "/blog/branding-services-for-startups-india-cost/"}
+  ],
+  "breadcrumb": [["Home", "/"], ["Services", "/services/"], ["Branding", "/services/branding/"]],
+  "serviceName": "Branding",
+  "serviceType": ["Brand Strategy", "Brand Positioning", "Brand Research", "Visual Identity", "Digital Brand Systems", "Startup Branding", "Rebranding"],
+  "serviceDescription": "Branding for technology companies: brand research, strategy and positioning, visual identity, brand guidelines and digital brand systems that connect brand to product UI, for startups, B2B SaaS companies and rebrands.",
+  "audienceType": "Technology startups, B2B SaaS companies and growing technology businesses",
+  "primaryKeyword": "startup branding agency",
+  "secondaryKeywords": ["startup branding packages india", "branding company for startups", "b2b saas branding", "technology brand positioning", "brand identity", "rebranding", "brand research"],
+  "searchIntent": "commercial", "businessIntent": "Lead: branding engagement", "funnelStage": "evaluation / buying",
+  "audience": ["Founders", "Marketing leads"], "topicCluster": "Branding", "pillarPage": "/services/branding/", "parentTopic": "startup branding",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "Service",
+  "evidenceIds": ["EV-OWNER-BRANDING-SERVICE", "EV-HOME-BRANDING-SERVICE"],
+  "relatedServices": ["/services/website-design/", "/services/design-systems/"],
+  "relatedIndustries": ["/industries/b2b-saas/", "/industries/fintech/"],
+  "relatedCaseStudies": [],
+  "aiAnswerTargets": ["How much does startup branding cost?", "What should a startup branding package include?", "How should a B2B SaaS company approach rebranding?", "What should a technology startup include in its brand system?"],
+  "conversionEvent": "start_project", "refreshInterval": "annually (pricing) / 6 months",
+  "cta": {"heading": "Does your brand look as credible as your product?", "body": "Show us your current brand, website and deck. In 30 minutes we'll tell you whether you need a refresh, a new identity or a full repositioning.",
+    "buttons": [{"label": "Discuss your brand", "href": "/start-a-project/", "event": "start_project"}, {"label": "Signs you need a rebrand", "href": "/blog/signs-your-company-needs-a-rebrand-india/"}]},
+  "sections": [
+    {"type": "answer", "id": "brand-strategy", "heading": "Brand strategy",
+     "answer": "Brand strategy defines who the company is for, what it stands for, and why a buyer should believe it, before any logo is drawn. It is the brief that every visual and verbal decision is checked against.",
+     "body": ["For a technology company that usually means a sharp positioning statement, a clear category, the proof that backs the claim, and a tone of voice that fits the people who buy."]},
+    {"type": "prose", "id": "positioning", "heading": "Positioning",
+     "paras": ["Positioning decides what you want to be known for, and against whom. A crowded category punishes vague positioning: if a buyer cannot repeat what you do in one sentence after visiting your site, the brand is not doing its job.",
+               "We test positioning against how buyers actually describe their problem, in sales calls, reviews and search queries, so the words on the website match the words in the buyer's head."]},
+    {"type": "cards", "id": "brand-research", "heading": "Brand research",
+     "items": [
+       {"title": "Customer and buyer interviews", "body": "How customers describe you, why they chose you, and what nearly stopped them."},
+       {"title": "Competitive audit", "body": "How the category presents itself visually and verbally, and where there is room to stand apart."},
+       {"title": "Perception review", "body": "How the current brand reads across website, product, deck and social, compared with how you want to be seen."}
+     ]},
+    {"type": "checklist", "id": "visual-identity", "heading": "Visual identity",
+     "items": ["<strong>Logo system</strong>: primary, secondary and favicon versions",
+               "<strong>Colour</strong>: palettes that work on screen and meet accessibility contrast",
+               "<strong>Typography</strong>: type that holds up in headlines, product UI and documents",
+               "<strong>Iconography and illustration</strong>: a consistent visual language",
+               "<strong>Imagery direction</strong>: what photography and graphics should and shouldn't look like",
+               "<strong>Brand guidelines</strong>: how to use everything, so partners and new hires keep it consistent"]},
+    {"type": "prose", "id": "digital-brand-systems", "heading": "Digital brand systems",
+     "paras": ["A modern brand has to work in software as well as on a slide. We translate identity into design tokens and components, so the same colours, type and spacing drive the website, the product and marketing assets.",
+               "This is where branding and product design meet. It is also why technology brands built only for print tend to fall apart the first time an engineer has to apply them. See <a href=\"/services/design-systems/\">design systems</a>."]},
+    {"type": "stages", "id": "branding-by-situation", "heading": "B2B SaaS branding, startup branding and rebranding",
+     "items": [
+       {"key": "B2B SaaS", "title": "Credibility for a committee purchase", "body": "Enterprise buyers judge maturity from the brand before the demo. Consistency across site, product and documents signals a company that will still be there at renewal."},
+       {"key": "Startup", "title": "A foundation you won't outgrow next year", "body": "Positioning, identity and guidelines sized for an early company, built so they can extend as the product and team grow."},
+       {"key": "Rebrand", "title": "Change what is holding you back, keep what people recognise", "body": "An audit of brand equity first, so a rebrand moves the company forward without throwing away recognition you have earned. See <a href=\"/blog/signs-your-company-needs-a-rebrand-india/\">signs you need a rebrand</a>."}
+     ]},
+    {"type": "cards", "id": "branding-packages", "heading": "Branding packages: how we scope them",
+     "intro": "Every brand project is quoted against a written scope. Most fall into one of three shapes.",
+     "items": [
+       {"kicker": "Identity", "title": "Visual identity and guidelines", "body": "For companies with clear positioning that need a professional identity: logo system, colour, type and a brand book."},
+       {"kicker": "Brand system", "title": "Strategy, identity and digital system", "body": "Research and positioning, full visual identity, guidelines, and a digital brand system with website UI direction."},
+       {"kicker": "Rebrand", "title": "Audit, reposition and migrate", "body": "Brand equity audit, repositioning, new or evolved identity, and a rollout plan across website, product and collateral."}
+     ]},
+    {"type": "steps", "id": "branding-process", "heading": "Branding process",
+     "intro": "A brand strategy and visual identity project typically takes four to eight weeks, depending on revisions and decision-maker availability.",
+     "items": [
+       {"title": "Research", "body": "Interviews, competitive audit and perception review."},
+       {"title": "Strategy", "body": "Positioning, audience, proof and tone of voice, agreed in writing."},
+       {"title": "Identity", "body": "Visual directions explored, refined and applied to real touchpoints."},
+       {"title": "System and guidelines", "body": "Guidelines, tokens and templates so the brand survives daily use."}
+     ]},
+    {"type": "links", "id": "branding-insights", "heading": "Related reading",
+     "items": [
+       {"title": "What startup branding includes, and what it costs", "href": "/blog/branding-services-for-startups-india-cost/", "body": "A breakdown of packages and deliverables."},
+       {"title": "How to choose a branding agency for a tech startup", "href": "/blog/best-branding-agency-tech-startups-india/", "body": "What to look for and what to ask."},
+       {"title": "Visual identity vs branding", "href": "/blog/visual-identity-vs-branding-startups/", "body": "Why a logo is not a brand."},
+       {"title": "Signs your company needs a rebrand", "href": "/blog/signs-your-company-needs-a-rebrand-india/", "body": "When a refresh is enough, and when it isn't."}
+     ]}
+  ],
+  "faq": [
+    {"q": "How much does startup branding cost?", "a": "It depends on how much strategy and research the brand needs and how far the identity has to extend (website, product, collateral). We quote against a written scope. Our <a href=\"/blog/branding-services-for-startups-india-cost/\">startup branding cost guide</a> explains typical scopes in India."},
+    {"q": "What should a startup branding package include?", "a": "At minimum, positioning, a logo system, colour, typography and guidelines that tell others how to use them. Funded technology startups usually also need a digital brand system and website direction so the brand works in the product."},
+    {"q": "How long does a branding project take?", "a": "A brand strategy and visual identity project typically takes four to eight weeks, depending on the number of revision rounds and decision-maker availability."},
+    {"q": "How should a B2B SaaS company approach rebranding?", "a": "Start with what is not working and what equity you have: what customers recognise and value. Reposition first, then evolve the identity, then roll it out across website, product and documents in a planned sequence."},
+    {"q": "Do you design logos only?", "a": "We can, but for a technology company a logo alone rarely solves the problem. Positioning and a usable system matter more than the mark."},
+    {"q": "Can you also design our website and product UI?", "a": "Yes. Brand, <a href=\"/services/website-design/\">website</a> and product design are done by the same senior team, which keeps the brand consistent where buyers actually meet it."}
+  ]
+}

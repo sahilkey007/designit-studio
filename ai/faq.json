@@ -1,32 +1,135 @@
 {
+  "source": "https://designit.co.in/",
   "faqs": [
     {
-      "question": "What does Designit do?",
-      "answer": "Designit is India's premier B2B SaaS and product design agency. We design high-conversion digital experiences — dashboards, onboarding flows, landing pages, mobile apps, and design systems — for SaaS companies, Fintech startups, and enterprise software products."
+      "question": "What types of companies do you work with?",
+      "answer": "Mainly B2B SaaS companies, fintech and Web3 startups, AI products, EdTech platforms, e-commerce brands and enterprise software teams, typically funded startups and growth-stage companies redesigning a product, building a design system or making design a growth lever. Shipped work includes Adda247, StudyIQ, Kelp Global, Tata Elxsi, Betacrew and the Omniyat portfolio."
     },
     {
-      "question": "How much does Designit charge for UI/UX design?",
-      "answer": "Designit offers three flexible engagement models. Project-based fixed pricing for defined scopes (landing pages, single-product redesigns, design sprints) — fixed price, fixed timeline. Monthly retainers for ongoing product partnerships (typically ₹1.5L–₹4L/month). Design subscriptions with a flat monthly fee and pause-anytime flexibility for early-stage startups. A tailored quote is sent within 24 hours of your discovery call."
+      "question": "How long does a typical project take?",
+      "answer": "A focused landing page or marketing-site sprint runs two to three weeks, a complete product redesign or new SaaS dashboard six to ten weeks, and a full design system eight to twelve weeks. Single-feature design sprints can ship in five working days."
     },
     {
-      "question": "What is Designit's approach to product design?",
-      "answer": "Designit is a research-led product design studio. Every engagement starts with user research and UX discovery before any interface is designed, ensuring decisions are grounded in real user behaviour. Our senior design team has 10+ years of experience across B2B SaaS, Fintech, and e-commerce conversion design."
+      "question": "What's your design process like?",
+      "answer": "Research, strategy, experience design, validation, systems and evolution. In practice: a fast onboarding, about a week of research and discovery, two to three weeks of design and iteration, and a handoff with developer specs and implementation support, with async updates throughout and one short weekly sync."
     },
     {
-      "question": "Does Designit work with international clients?",
-      "answer": "Yes. Designit works with clients in India, the US, the UK, and the UAE. All communication is in English and invoicing is available in INR or USD."
+      "question": "What tools do you use?",
+      "answer": "Figma as the primary canvas; FigJam or Miro for workshops; Figma, Framer or Protopie for prototypes; Maze, Lookback or Lyssna for testing; and Notion, Slack, Loom and Linear for project work. We happily work inside your team's tools."
     },
     {
-      "question": "What industries does Designit specialise in?",
-      "answer": "Designit designs products across six core sectors: B2B SaaS and enterprise tools, EdTech and digital learning platforms, Fintech and Web3 applications, Luxury Real Estate and PropTech, E-Commerce and digital retail, and Automotive HMI and smart mobility. The studio has shipped work for Adda247, StudyIQ, Tata Elxsi, Kelp Global, Betacrew, Omniyat, and LIV Residences across India, UAE, the US, and the UK."
+      "question": "What are your pricing models?",
+      "answer": "Project-based fixed pricing for defined scopes, monthly retainers for ongoing partnerships, and design subscriptions with a flat monthly fee. Pricing scales with complexity, team size and timeline, and you get a tailored quote after a discovery call."
     },
     {
-      "question": "How long does a design project take at Designit?",
-      "answer": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing with one active request at a time and a 24-hour response time."
+      "question": "What is UX research consulting?",
+      "answer": "UX research consulting means bringing in specialists to plan, run and synthesise research with your users, so that a product decision rests on evidence. Our studies are framed around a single decision and delivered as ranked recommendations.",
+      "source": "https://designit.co.in/services/ux-research/"
     },
     {
-      "question": "Is Designit a good UI/UX design agency for startups in India?",
-      "answer": "Yes. Designit is specifically built for startups. The agency offers direct founder access, 5-day delivery sprints, and a track record with funded Indian startups and global enterprise clients."
+      "question": "How many users do you need to interview?",
+      "answer": "For usability testing, five to eight participants per distinct user type surfaces the large majority of usability problems. For generative research about a market or behaviour, eight to twelve is more typical. Two well-defined small studies beat one large unfocused one.",
+      "source": "https://designit.co.in/services/ux-research/"
+    },
+    {
+      "question": "What is a UX audit?",
+      "answer": "A UX audit is a structured evaluation of a digital product or website that identifies usability problems, interaction friction, accessibility issues and conversion blockers, and ranks the fixes by impact and effort. Ours combines a heuristic and task-based review, analytics and session evidence, and an accessibility check.",
+      "source": "https://designit.co.in/services/ux-audit/"
+    },
+    {
+      "question": "Is a UX audit the same as a design audit?",
+      "answer": "Mostly, yes. \"Design audit\" is sometimes used for a purely visual review of consistency and brand. A UX audit goes further: it evaluates whether people can complete tasks, where they drop off and why, and it includes accessibility. Ours covers visual consistency as one of eleven dimensions.",
+      "source": "https://designit.co.in/services/ux-audit/"
+    },
+    {
+      "question": "What does a product design agency actually do?",
+      "answer": "It decides what should be built, researches who it is for, structures how it fits together, designs the interface, prototypes to test assumptions and supports the engineers who build it. Agencies that only produce screens are doing visual design on software, which is a smaller job.",
+      "source": "https://designit.co.in/services/product-design/"
+    },
+    {
+      "question": "How is product design different from UI/UX design?",
+      "answer": "Mostly scope. UI/UX design tends to start once someone has decided what to build; product design includes that decision. In practice they overlap heavily, and the label matters less than whether the team is allowed to question the brief. See our UI/UX design service.",
+      "source": "https://designit.co.in/services/product-design/"
+    },
+    {
+      "question": "How is this different from hiring a general UI/UX agency?",
+      "answer": "Most agencies are strongest on marketing sites and consumer apps, where the design problem is attention. B2B SaaS is the opposite: users already want to be there, and design either removes friction from complex work or adds to it. We work mostly on dense, data-heavy product surfaces such as dashboards, workflows and admin tools.",
+      "source": "https://designit.co.in/services/saas-product-design/"
+    },
+    {
+      "question": "How long does a SaaS product design engagement take?",
+      "answer": "A focused piece of work, such as an onboarding flow or a single dashboard, typically runs three to five weeks. A full product redesign with a design system is usually ten to twelve weeks. Design kickoff is normally within 48 hours of signature.",
+      "source": "https://designit.co.in/services/saas-product-design/"
+    },
+    {
+      "question": "Should our iOS and Android apps look the same?",
+      "answer": "Your brand, content and core flows should be consistent; navigation patterns, controls and system behaviour should feel native to each platform. People notice when an app ignores the conventions of their phone.",
+      "source": "https://designit.co.in/services/mobile-app-design/"
+    },
+    {
+      "question": "Do you design for tablets and iPad?",
+      "answer": "Yes. Larger screens deserve layouts that use the space, such as split views and side panels, rather than a stretched phone design.",
+      "source": "https://designit.co.in/services/mobile-app-design/"
+    },
+    {
+      "question": "How should an AI agent communicate what it is doing?",
+      "answer": "With meaningful status rather than a spinner: what step it is on, what it is waiting for, what it has already done and what it plans next. Long tasks should show partial results where useful and always offer a way to stop.",
+      "source": "https://designit.co.in/services/ai-product-design/"
+    },
+    {
+      "question": "How should users approve an agent's action?",
+      "answer": "With a preview of exactly what will happen before anything irreversible or external, such as sending, paying, deleting or publishing. Routine, reversible actions can be batched for review so approval does not become a reflex.",
+      "source": "https://designit.co.in/services/ai-product-design/"
+    },
+    {
+      "question": "What's the difference between UI and UX design, practically?",
+      "answer": "UX is the decision layer: what the product does, how it is structured, what happens in what order. UI is the expression layer: how that structure looks and responds. They are done by the same people on the same project; we start with the structural half.",
+      "source": "https://designit.co.in/services/ui-ux-design/"
+    },
+    {
+      "question": "Do you work with our existing brand and design language?",
+      "answer": "Yes, by default. Unless you have asked for a rebrand, we design within your existing visual language and extend it where it has gaps. See branding if you need more.",
+      "source": "https://designit.co.in/services/ui-ux-design/"
+    },
+    {
+      "question": "How long does it take to build a design system?",
+      "answer": "A full system (audit, tokens, components, documentation and adoption support) typically runs ten to twelve weeks. Consolidating and documenting an existing library is usually four to six. The variable is how many products the system serves and how much disagreement exists about the foundations, not component count.",
+      "source": "https://designit.co.in/services/design-systems/"
+    },
+    {
+      "question": "Do we need a design system at all?",
+      "answer": "Not always, and we will tell you if you do not. Below roughly one product and two designers, a system is usually overhead. Systems earn their cost when several people ship in parallel across several surfaces.",
+      "source": "https://designit.co.in/services/design-systems/"
+    },
+    {
+      "question": "How is UX-led conversion optimization different from CRO testing?",
+      "answer": "Tactical CRO often starts with tests on page elements. UX-led optimisation starts by finding why motivated people hesitate, using analytics, sessions and research, then designs changes grounded in that evidence and validates them.",
+      "source": "https://designit.co.in/services/conversion-optimization/"
+    },
+    {
+      "question": "How much can conversion improve?",
+      "answer": "We will not quote a number before looking. The size of the opportunity depends on where the funnel leaks and how much traffic you have. The diagnostic tells you which leaks are worth fixing and roughly how much each is costing.",
+      "source": "https://designit.co.in/services/conversion-optimization/"
+    },
+    {
+      "question": "How do you redesign a website without losing SEO?",
+      "answer": "By auditing rankings, top landing pages and backlinks first, keeping URLs that hold search equity or redirecting them one-to-one, carrying metadata and internal links across deliberately, and checking crawl errors and rankings after launch.",
+      "source": "https://designit.co.in/services/website-design/"
+    },
+    {
+      "question": "How long does a website redesign take?",
+      "answer": "A focused landing page or marketing-site sprint typically runs two to three weeks. A full redesign takes longer, depending on the number of page types, content readiness and how many people sign off.",
+      "source": "https://designit.co.in/services/website-design/"
+    },
+    {
+      "question": "How much does startup branding cost?",
+      "answer": "It depends on how much strategy and research the brand needs and how far the identity has to extend (website, product, collateral). We quote against a written scope. Our startup branding cost guide explains typical scopes in India.",
+      "source": "https://designit.co.in/services/branding/"
+    },
+    {
+      "question": "What should a startup branding package include?",
+      "answer": "At minimum, positioning, a logo system, colour, typography and guidelines that tell others how to use them. Funded technology startups usually also need a digital brand system and website direction so the brand works in the product.",
+      "source": "https://designit.co.in/services/branding/"
     }
   ]
 }

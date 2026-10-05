@@ -24,7 +24,10 @@
         'background:#121212', 'color:#EEEEEE',
         'border:1px solid rgba(255,255,255,0.12)', 'border-radius:16px',
         'box-shadow:0px 20px 40px rgba(0,0,0,0.4)',
-        'padding:18px 20px', 'font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif',
+        // System fonts only: the banner is fixed to the bottom, so if Inter swaps
+        // in after it renders, the text reflows, the bar grows upward and that
+        // counts as a layout shift (~0.1 CLS on mobile).
+        'padding:18px 20px', 'font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif',
         'display:flex', 'flex-direction:column', 'gap:12px',
         'opacity:0', 'transform:translateY(12px)', 'transition:opacity .3s ease,transform .3s ease'
     ].join(';');
@@ -54,6 +57,10 @@
 
     document.getElementById('dsnConsentAccept').addEventListener('click', function () {
         if (typeof window.__dsnGrantConsent === 'function') window.__dsnGrantConsent();
+        // Google Consent Mode: analytics and ads storage default to denied in every page head
+        if (typeof window.gtag === 'function') window.gtag('consent', 'update', {
+            analytics_storage: 'granted', ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted'
+        });
         dismiss();
     });
     document.getElementById('dsnConsentDecline').addEventListener('click', function () {

@@ -1,0 +1,200 @@
+{
+  "url": "/services/ux-audit/",
+  "pageType": "service",
+  "action": "KEEP + REWRITE",
+  "priority": "P0",
+  "metaTitle": "UX Audit Services for SaaS, Websites & Apps | Designit",
+  "metaDescription": "A fixed-scope UX audit for SaaS products, websites and apps: heuristic review, analytics evidence, an accessibility pass and a prioritised fix list.",
+  "h1": "Find the friction before it costs you users",
+  "eyebrow": ["Fixed scope", "Two weeks", "Prioritised fix list"],
+  "subtitle": "A UX audit finds where people get stuck in your product or website, explains why, and ranks every fix by impact against effort. You get a backlog your team can act on, not a report that gets filed.",
+  "ctas": [
+    {"label": "Request a UX audit", "href": "/start-a-project/", "event": "start_project"},
+    {"label": "Try the UX audit checklist", "href": "/blog/ux-audit-checklist/"}
+  ],
+  "breadcrumb": [["Home", "/"], ["Services", "/services/"], ["UX Audit", "/services/ux-audit/"]],
+  "serviceName": "UX Audit",
+  "serviceType": ["UX Audit", "Usability Audit", "Design Audit", "Heuristic Evaluation", "Accessibility Review", "Conversion Audit"],
+  "serviceDescription": "A fixed-scope evaluation of a SaaS product, website or mobile app that identifies usability problems, interaction friction, accessibility issues and conversion blockers, and delivers a prioritised, implementation-ready fix list.",
+  "audienceType": "SaaS companies, product teams, e-commerce brands and enterprise software teams with a live product or website",
+  "primaryKeyword": "ux audit services",
+  "secondaryKeywords": ["ux audit agency", "ux audit company", "user experience audit services", "website ux audit", "saas ux audit", "design audit", "heuristic evaluation", "website ux audit company"],
+  "searchIntent": "commercial",
+  "businessIntent": "Lead: request an audit (lowest-risk first engagement)",
+  "funnelStage": "evaluation / buying",
+  "audience": ["SaaS founders", "Heads of product", "Growth and marketing leads"],
+  "topicCluster": "UX Audit",
+  "pillarPage": "/services/ux-audit/",
+  "parentTopic": "ux audit",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "Service",
+  "evidenceIds": ["EV-PROCESS-AUDIT", "EV-ADDA-SCOPE", "EV-KELP-SCOPE"],
+  "relatedServices": ["/services/ux-research/", "/services/saas-product-design/", "/services/conversion-optimization/", "/services/website-design/"],
+  "relatedIndustries": ["/industries/b2b-saas/", "/industries/e-commerce/", "/industries/fintech/"],
+  "relatedCaseStudies": ["/projects/adda247/", "/projects/kelp-global/"],
+  "aiAnswerTargets": ["What is a UX audit?", "What does a UX audit include?", "How long does a UX audit take?", "How much does a UX audit cost?", "UX audit vs UX research", "UX audit vs usability testing"],
+  "conversionEvent": "start_project",
+  "refreshInterval": "quarterly",
+  "cta": {
+    "heading": "Request a UX audit",
+    "body": "Tell us what isn't working. In a 30-minute call we agree which journeys are worth auditing, and you get a fixed written scope before any work starts.",
+    "buttons": [
+      {"label": "Request a UX audit", "href": "/start-a-project/", "event": "start_project"},
+      {"label": "Use the free UX audit checklist", "href": "/blog/ux-audit-checklist/"}
+    ]
+  },
+  "sections": [
+    {
+      "type": "answer", "id": "what-is-a-ux-audit",
+      "heading": "What is a UX audit?",
+      "answer": "A UX audit is a structured evaluation of a digital product or website that identifies usability problems, interaction friction, accessibility issues and conversion blockers, and ranks the fixes by impact and effort.",
+      "body": [
+        "Ours combines three kinds of evidence: a heuristic and task-based review of your core journeys, your analytics and session data where you have them, and a WCAG 2.1 AA accessibility pass. It applies to SaaS products, mobile apps and marketing websites alike.",
+        "The output that matters is the ranking. Most audits hand over a long list of observations with no priorities; ours scores every finding so the work sorts itself into quick wins and structural changes. To run a first pass yourself, start with our <a href=\"/blog/ux-audit-checklist/\">48-point UX audit checklist</a>."
+      ]
+    },
+    {
+      "type": "cards", "id": "problems-a-ux-audit-reveals",
+      "heading": "What problems can a UX audit reveal?",
+      "intro": "The symptoms usually show up in your numbers first. An audit connects each one to the specific screens and decisions causing it.",
+      "items": [
+        {"title": "Onboarding drop-off", "body": "Sign-ups that never reach a first meaningful action, usually because the first session asks for effort before it shows value."},
+        {"title": "Features nobody can find", "body": "Navigation and labels that make sense to the team that built them and hide important capability from everyone else."},
+        {"title": "Leaks on high-intent pages", "body": "Pricing, sign-up, checkout or demo-request pages where people arrive ready to act and leave without acting."},
+        {"title": "Forms and error states", "body": "Validation that fires too late, messages that blame the user, and dead ends with no way to recover."},
+        {"title": "Inconsistency that reads as risk", "body": "Five button styles and three date formats. In B2B and fintech especially, visual inconsistency erodes trust."},
+        {"title": "Accessibility gaps", "body": "Contrast, keyboard and screen-reader problems that exclude real users and increasingly block enterprise procurement."}
+      ]
+    },
+    {
+      "type": "cards", "id": "when-to-run-a-ux-audit",
+      "heading": "When should you conduct a UX audit?",
+      "intro": "An audit is the cheapest way to replace opinions with evidence. These are the situations where it pays back fastest.",
+      "items": [
+        {"title": "Traffic is fine, conversion isn't", "body": "Acquisition is working and the funnel still leaks. You suspect the problem is on the page rather than in the campaign, but nobody can point at the step that loses people."},
+        {"title": "Support keeps answering the same question", "body": "The same few tickets arrive every week. That is a design problem being absorbed by people, and it is measurable."},
+        {"title": "Everyone has an opinion, nobody has evidence", "body": "Design is being decided by whoever argues hardest. An external audit gives the team a shared, ranked list to work from."},
+        {"title": "You're about to fund a redesign", "body": "Before committing to a rebuild, it is worth knowing which problems actually cost money. Often a targeted fix list captures most of the value for far less."}
+      ]
+    },
+    {
+      "type": "checklist", "id": "what-we-evaluate",
+      "heading": "What we evaluate",
+      "intro": "Every audit covers the same eleven dimensions across the journeys agreed at scoping, so findings are comparable and nothing important is skipped.",
+      "items": [
+        "<strong>Navigation</strong>: can people find what they came for without guessing?",
+        "<strong>Information architecture</strong>: are things grouped and named the way users think?",
+        "<strong>Usability</strong>: can core tasks be completed without help?",
+        "<strong>Accessibility</strong>: WCAG 2.1 AA contrast, keyboard, focus and screen-reader checks",
+        "<strong>Interaction</strong>: do controls behave predictably and give feedback?",
+        "<strong>Content clarity</strong>: does the copy explain, or does it assume knowledge?",
+        "<strong>Conversion</strong>: where do high-intent visitors drop, and why?",
+        "<strong>Onboarding</strong>: how long until a new user reaches first value?",
+        "<strong>Error states</strong>: can people recover when something goes wrong?",
+        "<strong>Visual hierarchy</strong>: does the most important thing look most important?",
+        "<strong>Consistency</strong>: do the same things look and behave the same everywhere?"
+      ]
+    },
+    {
+      "type": "steps", "id": "methodology",
+      "heading": "Our UX audit methodology",
+      "intro": "Five lenses, applied to the same journeys. Each catches problems the others miss.",
+      "items": [
+        {"title": "Heuristic evaluation", "body": "An expert walk-through of each journey against established usability principles, recording every point of friction with a screenshot and an explanation."},
+        {"title": "Competitive analysis", "body": "How comparable products solve the same task, so we know which conventions your users already carry and when breaking them costs adoption."},
+        {"title": "User journey analysis", "body": "The end-to-end path a real user takes, including the moments outside your product, mapped against where analytics show people stalling."},
+        {"title": "Accessibility review", "body": "A WCAG 2.1 AA pass over the audited journeys. Accessibility and usability problems overlap heavily, so they are ranked together."},
+        {"title": "Conversion analysis", "body": "Where you have GA4, Hotjar, Clarity or similar, we tie observed friction to actual drop-off, so a finding is backed by a number rather than an assertion."}
+      ]
+    },
+    {
+      "type": "cards", "id": "what-you-receive",
+      "heading": "What you receive",
+      "intro": "The deliverable is designed to go straight into your backlog.",
+      "items": [
+        {"title": "Audit report", "body": "Every finding with a screenshot, the journey it sits in, and a plain explanation of why it hurts."},
+        {"title": "Issue prioritisation", "body": "Each issue scored on user impact, business impact and implementation effort, so the list sorts itself."},
+        {"title": "Severity classification", "body": "Blocking, major and minor, so engineering can see at a glance what cannot wait."},
+        {"title": "Annotated screens", "body": "The problem shown in place, not described in prose that someone has to interpret."},
+        {"title": "Recommendations", "body": "What to do instead, with wireframes or visual direction for the highest-impact fixes."},
+        {"title": "Quick wins", "body": "Changes that are cheap to ship and worth shipping this sprint."},
+        {"title": "Strategic recommendations", "body": "The structural problems that a sprint cannot fix, framed so you can decide whether a redesign is warranted."},
+        {"title": "Implementation roadmap", "body": "A suggested sequence agreed in a live walkthrough with your product and engineering team."}
+      ]
+    },
+    {
+      "type": "steps", "id": "how-long-does-a-ux-audit-take",
+      "heading": "How long does a UX audit take?",
+      "intro": "Two weeks from kickoff to walkthrough. Kickoff is normally within 48 hours of signature, and we can compress to one week when there is a genuine deadline.",
+      "items": [
+        {"title": "Scoping (days 1 to 2)", "body": "We agree which journeys are in scope and which metric matters most. You get a written scope with a fixed price before work starts."},
+        {"title": "Review (days 3 to 7)", "body": "Heuristic evaluation, task walkthroughs, analytics review and the accessibility pass across the agreed journeys."},
+        {"title": "Prioritisation (days 8 to 10)", "body": "Every issue scored and ranked. This is the step most audits skip, and the one that makes the output usable."},
+        {"title": "Handover (days 11 to 14)", "body": "Written report, annotated recommendations and a live walkthrough where your team argues with the findings and agrees what goes into the next sprint."}
+      ]
+    },
+    {
+      "type": "answer", "id": "how-much-does-a-ux-audit-cost",
+      "heading": "How much does a UX audit cost?",
+      "answer": "A UX audit is quoted as a fixed fee against a written scope, agreed before any work starts, so there is no hourly drift. The fee depends on how much of the product is in scope, not on a day rate.",
+      "body": [
+        "What moves the price: the number of journeys audited; how many platforms are involved (web, iOS, Android); whether analytics and session data are available; how deep the accessibility review needs to go; whether you want recommendations as written guidance or as wireframes for the top fixes; and whether the audit includes a round of usability testing with real users.",
+        "Because it is fixed-scope, an audit is the lowest-risk way to work with us for the first time, and the fee is credited against a subsequent design engagement if you continue. For broader context on design pricing, see our <a href=\"/blog/ui-ux-design-pricing-india-2026/\">guide to UI/UX design pricing in India</a>."
+      ]
+    },
+    {
+      "type": "table", "id": "ux-audit-vs-ux-research-vs-usability-testing",
+      "heading": "UX audit vs UX research vs usability testing",
+      "intro": "Three ways to find out what is wrong. They answer different questions, and the cheapest one is often enough.",
+      "columns": ["", "UX audit", "UX research", "Usability testing"],
+      "rows": [
+        ["What it is", "Expert evaluation of your product against usability principles and your own data", "Empirical study of actual users: interviews, observation, journey mapping", "Watching people attempt specific tasks on your product or a prototype"],
+        ["Tells you", "What is likely wrong, and what to fix first", "What is actually happening, and why", "Whether particular tasks succeed, and where they fail"],
+        ["Best when", "You need a prioritised fix list fast, or before deciding on a redesign", "The team is not the user, or a big decision rests on an untested assumption", "You want to validate a flow or a redesign before building it"],
+        ["Typical length", "About two weeks", "Two to four weeks, depending on recruitment", "One to two weeks for a focused round"],
+        ["Output", "Ranked issue register, annotated screens, roadmap", "Prioritised findings with evidence and recordings", "Task success, observed problems, timestamped recordings"]
+      ]
+    },
+    {
+      "type": "links", "id": "audits-by-product-type",
+      "heading": "SaaS, website and mobile app UX audits",
+      "intro": "The method is the same; what we look at first changes with the product.",
+      "items": [
+        {"kicker": "SaaS UX audit", "title": "Activation, dashboards and dense workflows", "body": "Time-to-first-value, onboarding, permissions and the screens power users live in.", "href": "/services/saas-product-design/", "more": "SaaS product design"},
+        {"kicker": "Website UX audit", "title": "Clarity and conversion on marketing sites", "body": "Whether the site explains the product, and where high-intent visitors drop before contacting you.", "href": "/services/website-design/", "more": "Website design"},
+        {"kicker": "Mobile app UX audit", "title": "Thumb reach, flows and failure states", "body": "Platform conventions, forms on small screens, offline and slow-network behaviour.", "href": "/services/mobile-app-design/", "more": "Mobile app design"},
+        {"kicker": "E-commerce audit", "title": "Product pages and checkout", "body": "The objections a product page fails to answer, and the checkout steps that cost orders.", "href": "/industries/e-commerce/", "more": "E-commerce UX"},
+        {"kicker": "Fintech audit", "title": "KYC and onboarding", "body": "Verification sequencing, trust signals and recoverable failure states in regulated flows.", "href": "/industries/fintech/", "more": "Fintech UX"}
+      ]
+    },
+    {
+      "type": "links", "id": "ux-audit-examples",
+      "heading": "UX audit examples",
+      "intro": "See how findings are written, scored and turned into work.",
+      "items": [
+        {"title": "Example findings, scored on impact and effort", "body": "A worked table of audit findings and how each one is prioritised, inside our UX audit checklist.", "href": "/blog/ux-audit-checklist/", "more": "See the examples"},
+        {"title": "What to expect from a UI/UX audit", "body": "What a website audit covers in detail and what you should receive at the end.", "href": "/blog/ui-ux-audit-for-website-india/", "more": "Read the guide"},
+        {"title": "Landing page conversion audits", "body": "How we audit a single high-intent page and what usually turns up.", "href": "/blog/landing-page-conversion-audit-services-india/", "more": "Read the guide"}
+      ]
+    },
+    {
+      "type": "work", "id": "related-work",
+      "heading": "Diagnostic work behind our design engagements",
+      "intro": "Most of our design projects start with this kind of diagnosis.",
+      "items": ["adda247", "kelp-global"]
+    }
+  ],
+  "faq": [
+    {"q": "What is a UX audit?", "a": "A UX audit is a structured evaluation of a digital product or website that identifies usability problems, interaction friction, accessibility issues and conversion blockers, and ranks the fixes by impact and effort. Ours combines a heuristic and task-based review, analytics and session evidence, and an accessibility check."},
+    {"q": "Is a UX audit the same as a design audit?", "a": "Mostly, yes. \"Design audit\" is sometimes used for a purely visual review of consistency and brand. A UX audit goes further: it evaluates whether people can complete tasks, where they drop off and why, and it includes accessibility. Ours covers visual consistency as one of eleven dimensions."},
+    {"q": "How much does a UX audit cost?", "a": "A UX audit is quoted as a fixed fee against an agreed written scope, so there is no hourly drift. The price depends on the number of journeys, the platforms involved, whether analytics are available, the depth of accessibility review and whether you want wireframes for the top fixes. The fee is credited against a subsequent design engagement if you continue."},
+    {"q": "What do I actually receive at the end?", "a": "A prioritised issue register, with every finding scored on user impact, business impact and implementation effort, plus annotated recommendations with visual direction for the highest-impact fixes and a live walkthrough with your team. It is designed to go straight into your backlog."},
+    {"q": "How long does a UX audit take?", "a": "Two weeks from kickoff to walkthrough is standard: two days scoping, five days reviewing, three days prioritising, and the rest writing up and presenting. We can compress to one week when there is a real deadline, though the prioritisation stage is the one worth protecting."},
+    {"q": "How is a paid audit different from a free one an agency offers?", "a": "A free audit is a sales document; its purpose is to find enough problems to justify a proposal. A paid, fixed-scope audit is a deliverable in its own right, deep enough to be useful whether or not you hire us for the fixes."},
+    {"q": "Do you need access to our analytics?", "a": "It makes the audit substantially better but is not required. With GA4, Hotjar, Clarity or similar we can tie observed friction to actual drop-off numbers. Without it we still run heuristic and task-based evaluation; we just cannot quantify the cost of each issue as precisely."},
+    {"q": "Will you also fix the problems you find?", "a": "If you want us to. Many clients run the audit as a standalone diagnostic and hand the list to their own team, and the report is written to support that. Others continue into a design engagement, in which case the audit fee is credited."},
+    {"q": "Can you audit a product that hasn't launched?", "a": "Yes, though the method changes. Without live users or analytics we rely on heuristic evaluation, comparison against category conventions and task walkthroughs with people matching your target profile. Pre-launch fixes are cheaper because nothing is locked in yet."},
+    {"q": "Should we start with a UX audit or UX research?", "a": "If budget only allows one, start with the audit: it is faster and often sufficient. Choose research when the team is not the user, or when an expensive decision rests on an assumption nobody has tested. See our <a href=\"/services/ux-research/\">UX research service</a>."}
+  ]
+}

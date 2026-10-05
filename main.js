@@ -38,6 +38,39 @@
     });
   }
 
+  // --- Mega-menu disclosures (Services / Industries / Solutions) ---
+  // Top-level labels stay real links; the chevron button opens the panel. Pointer hover also opens
+  // panels on desktop via CSS, so this only manages click/keyboard state and closing.
+  var disclosures = Array.prototype.slice.call(document.querySelectorAll('.nav-disclosure'));
+  function panelFor(btn) { return document.getElementById(btn.getAttribute('aria-controls')); }
+  function closeMenus(except) {
+    disclosures.forEach(function (btn) {
+      if (btn === except) return;
+      btn.setAttribute('aria-expanded', 'false');
+      var p = panelFor(btn); if (p) p.hidden = true;
+    });
+  }
+  disclosures.forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      closeMenus(btn);
+      btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+      var p = panelFor(btn); if (p) p.hidden = open;
+    });
+  });
+  if (disclosures.length) {
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest || !e.target.closest('.has-mega')) closeMenus();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      var openBtn = document.querySelector('.nav-disclosure[aria-expanded="true"]');
+      closeMenus();
+      if (openBtn) openBtn.focus();
+    });
+  }
+
   // --- Scroll reveal animations ---
   var revealElements = document.querySelectorAll('.reveal');
   if (revealElements.length > 0 && 'IntersectionObserver' in window) {

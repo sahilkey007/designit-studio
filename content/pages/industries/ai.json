@@ -1,0 +1,187 @@
+{
+  "url": "/industries/ai/",
+  "pageType": "industry",
+  "action": "CREATE",
+  "priority": "P1",
+  "metaTitle": "Product Design for AI Startups & AI SaaS | Designit",
+  "metaDescription": "Product and UX design for AI startups, AI SaaS and agentic products: interfaces, workflows and strategy for software whose output isn't fully predictable.",
+  "h1": "Product design for AI startups and AI-native software",
+  "eyebrow": [
+    "AI startups",
+    "AI SaaS",
+    "Agentic products"
+  ],
+  "subtitle": "AI products fail less often on model quality than on product design: people don't know what to ask, can't tell when to trust the answer, and can't follow what an agent did. We design the product around the model so it gets used, and used safely.",
+  "ctas": [
+    {
+      "label": "Discuss your AI product",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "AI product design service",
+      "href": "/services/ai-product-design/"
+    }
+  ],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Industries",
+      "/industries/"
+    ],
+    [
+      "AI Products",
+      "/industries/ai/"
+    ]
+  ],
+  "about": [
+    "AI startups",
+    "AI SaaS",
+    "Agentic products",
+    "AI product strategy"
+  ],
+  "primaryKeyword": "ai startup product design",
+  "secondaryKeywords": [
+    "ai saas design",
+    "agentic product design",
+    "ai interface design",
+    "ai workflow design"
+  ],
+  "searchIntent": "commercial",
+  "businessIntent": "Lead: AI product engagement",
+  "funnelStage": "evaluation",
+  "audience": [
+    "AI startup founders",
+    "AI product leaders"
+  ],
+  "topicCluster": "AI Product Design",
+  "pillarPage": "/services/ai-product-design/",
+  "parentTopic": "ai product design",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "WebPage",
+  "evidenceIds": [
+    "EV-OWNER-AI-SERVICE",
+    "EV-QUOTE-PANKAJ"
+  ],
+  "relatedServices": [
+    "/services/ai-product-design/",
+    "/services/saas-product-design/",
+    "/services/ux-research/"
+  ],
+  "relatedCaseStudies": [],
+  "aiAnswerTargets": [
+    "What do AI startups get wrong about product design?",
+    "How should AI SaaS products onboard users?"
+  ],
+  "conversionEvent": "start_project",
+  "refreshInterval": "monthly to quarterly",
+  "cta": {
+    "heading": "Tell us what your AI does, and what happens when it's wrong",
+    "body": "Much of our AI work is under NDA, so we walk through relevant examples on a call.",
+    "buttons": [
+      {
+        "label": "Discuss your AI product",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "cards",
+      "id": "who-we-work-with",
+      "heading": "Who we work with",
+      "items": [
+        {
+          "title": "AI startups",
+          "body": "Turning a capable model into a product people adopt: positioning the capability, onboarding, and the core workflow."
+        },
+        {
+          "title": "AI SaaS",
+          "body": "Adding AI to an existing SaaS product without breaking the workflows customers already rely on."
+        },
+        {
+          "title": "Agentic products",
+          "body": "Software that acts on the user's behalf, where delegation, approval and oversight are the product."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "what-we-design",
+      "heading": "What we design",
+      "items": [
+        {
+          "title": "AI interfaces",
+          "body": "Prompting, results, sources and editing designed around how much error the task can tolerate."
+        },
+        {
+          "title": "AI workflows",
+          "body": "Where AI sits in a real job: what it drafts, what a person checks and what happens next."
+        },
+        {
+          "title": "AI product strategy",
+          "body": "Which problems benefit from AI, which don't, and how to test that before building."
+        },
+        {
+          "title": "Agent oversight",
+          "body": "Status, approvals, audit trails and review queues for work an agent did on someone's behalf."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "our-point-of-view",
+      "heading": "Our point of view",
+      "paras": [
+        "Design the wrong answer first. If an AI feature cannot gracefully handle a confident mistake, it is not ready, however good the model is.",
+        "Match autonomy to reversibility. Suggest when mistakes are cheap, draft when people will check the work, and require approval before anything that can't be undone.",
+        "Show the basis, not a disclaimer. Sources and the data an answer used build calibrated trust; generic warnings teach people to ignore warnings."
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "what-product-leaders-say",
+      "heading": "What product leaders say",
+      "items": [
+        "pankaj"
+      ],
+      "note": "Public LinkedIn recommendation, reproduced verbatim."
+    },
+    {
+      "type": "links",
+      "id": "related",
+      "heading": "Related",
+      "items": [
+        {
+          "title": "AI product design service",
+          "href": "/services/ai-product-design/",
+          "body": "Patterns for uncertainty, agent approvals, recovery and trust."
+        },
+        {
+          "title": "How AI is changing UX design",
+          "href": "/blog/how-ai-is-changing-ux-design-india/",
+          "body": "What shifts when interfaces become probabilistic."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What do AI startups most often get wrong in product design?",
+      "a": "Shipping a blank prompt box instead of guiding a task, designing only the happy path, and giving no way to see or correct what the AI did. Those choices make strong models feel unreliable."
+    },
+    {
+      "q": "How should an AI SaaS product onboard new users?",
+      "a": "With example tasks rather than an empty prompt, honest limits up front, and a first success in the first session that shows what the product is for."
+    },
+    {
+      "q": "Can you show us AI work you've done?",
+      "a": "Much of it is under NDA, so we walk through relevant work on a call rather than publishing it."
+    }
+  ]
+}

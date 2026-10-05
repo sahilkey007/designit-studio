@@ -1,0 +1,29 @@
+{
+  "url": "/solutions/", "pageType": "hub", "action": "CREATE", "priority": "P1",
+  "metaTitle": "Product Design Solutions by Problem | Designit",
+  "metaDescription": "Start from the problem you have: launching an MVP, redesigning a product, modernising legacy UX, scaling a design system or improving conversion.",
+  "h1": "Start with the problem you have",
+  "eyebrow": ["Launch", "Improve", "Modernize"],
+  "subtitle": "Services describe what we do. Solutions describe the situation you are in and what to do about it, in what order, before you commit budget.",
+  "ctas": [{"label": "Tell us what's not working", "href": "/start-a-project/", "event": "start_project"}, {"label": "Browse services", "href": "/services/"}],
+  "breadcrumb": [["Home", "/"], ["Solutions", "/solutions/"]],
+  "primaryKeyword": "product design solutions", "searchIntent": "problem-aware / navigational", "funnelStage": "problem-aware",
+  "topicCluster": "Hub", "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "CollectionPage",
+  "itemList": [["MVP Design", "/solutions/mvp-design/"], ["Product Redesign", "/solutions/product-redesign/"], ["Legacy Product Modernization", "/solutions/legacy-product-modernization/"], ["Design System Scaling", "/solutions/design-system-scaling/"], ["Conversion Improvement", "/solutions/conversion-improvement/"]],
+  "conversionEvent": "start_project", "refreshInterval": "6 months",
+  "cta": {"heading": "Not sure which one you're in?", "body": "Answer a few questions and we'll recommend where to start: an audit, discovery, a redesign or something smaller.", "buttons": [{"label": "Start a project", "href": "/start-a-project/", "event": "start_project"}]},
+  "sections": [
+    {"type": "links", "id": "launch", "heading": "Launch",
+     "items": [{"kicker": "New product", "title": "MVP design", "body": "Decide what to build first, design the core flow properly and test it before engineering commits.", "href": "/solutions/mvp-design/"}]},
+    {"type": "links", "id": "improve", "heading": "Improve",
+     "items": [
+       {"kicker": "Adoption", "title": "Product redesign", "body": "When users sign up but don't adopt, and every release makes the product harder to use.", "href": "/solutions/product-redesign/"},
+       {"kicker": "Revenue", "title": "Conversion improvement", "body": "When motivated visitors or trial users fail to take the next step.", "href": "/solutions/conversion-improvement/"}
+     ]},
+    {"type": "links", "id": "modernize", "heading": "Modernize",
+     "items": [
+       {"kicker": "Legacy", "title": "Legacy product modernization", "body": "When an older core holds back newer work and users have built workarounds.", "href": "/solutions/legacy-product-modernization/"},
+       {"kicker": "Scale", "title": "Design system scaling", "body": "When more products, teams and platforms need to speak one design language.", "href": "/solutions/design-system-scaling/"}
+     ]}
+  ]
+}

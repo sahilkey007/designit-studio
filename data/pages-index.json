@@ -1,0 +1,3658 @@
+{
+  "/": {
+    "url": "/",
+    "pageType": "home",
+    "metaTitle": "Product & UI/UX Design Agency in India for SaaS | Designit",
+    "metaDescription": "A senior-led, research-led product design studio in India helping SaaS, technology and enterprise teams research, redesign and scale complex products.",
+    "h1": "Product design for complex digital products",
+    "primaryKeyword": "product design agency india",
+    "secondaryKeywords": [
+      "ui ux design agency india",
+      "saas product design",
+      "ux design studio india"
+    ],
+    "searchIntent": "navigational / commercial",
+    "businessIntent": "Entity + positioning; route authority to core commercial pages",
+    "funnelStage": "all",
+    "topicCluster": "Home",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-CLIENT-LOGOS",
+      "EV-TESTIMONIALS",
+      "EV-FOUNDER",
+      "EV-SITE-CASE-COUNT",
+      "EV-MARKETS"
+    ],
+    "cta": {
+      "heading": "Start with the problem",
+      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Tell us what's not working",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Email contact@designit.co.in",
+          "href": "mailto:contact@designit.co.in"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "REWRITE",
+    "h2s": [
+      "What we help teams solve",
+      "How we work",
+      "Services",
+      "Industries",
+      "Selected work",
+      "Why Designit",
+      "What product leaders say",
+      "Experience behind the studio",
+      "Insights",
+      "FAQ"
+    ],
+    "faq": [
+      "What types of companies do you work with?",
+      "How long does a typical project take?",
+      "What's your design process like?",
+      "What tools do you use?",
+      "What are your pricing models?"
+    ],
+    "internalLinks": [
+      "/about/",
+      "/blog/arabic-rtl-ux-design-proptech-uae/",
+      "/blog/best-ai-tools-ui-ux-designers-2026/",
+      "/blog/branding-services-for-startups-india-cost/",
+      "/blog/cost-ui-ux-design-mobile-app-india/",
+      "/blog/cro-strategies-for-b2b-saas-india/",
+      "/blog/edtech-ux-design-india/",
+      "/blog/fintech-onboarding-kyc-ux-india/",
+      "/blog/generative-ai-website-personalization/",
+      "/blog/hire-ui-ux-designer-vs-agency-india/",
+      "/blog/how-ai-is-changing-ux-design-india/",
+      "/blog/how-to-choose-a-product-design-agency/",
+      "/blog/landing-page-conversion-audit-services-india/",
+      "/blog/saas-dashboard-design-best-practices/",
+      "/blog/saas-onboarding-ux-best-practices-india/",
+      "/blog/signs-your-company-needs-a-rebrand-india/",
+      "/blog/ui-ux-audit-for-website-india/",
+      "/blog/ux-audit-checklist/",
+      "/blog/visual-identity-vs-branding-startups/",
+      "/industries/",
+      "/industries/ai/",
+      "/industries/automotive/",
+      "/industries/b2b-saas/",
+      "/industries/edtech/",
+      "/industries/fintech/",
+      "/industries/real-estate/",
+      "/locations/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/kelp-global/",
+      "/projects/rcentric/",
+      "/projects/tata-elxsi/",
+      "/resources/",
+      "/services/",
+      "/services/ai-product-design/",
+      "/services/branding/",
+      "/services/conversion-optimization/",
+      "/services/design-systems/",
+      "/services/product-design/",
+      "/services/saas-product-design/",
+      "/services/ux-audit/",
+      "/services/ux-research/",
+      "/solutions/legacy-product-modernization/",
+      "/solutions/mvp-design/",
+      "/start-a-project/"
+    ],
+    "file": "index.html"
+  },
+  "/industries/": {
+    "url": "/industries/",
+    "pageType": "hub",
+    "metaTitle": "Industries We Design For: SaaS, Fintech, EdTech | Designit",
+    "metaDescription": "Product design for B2B SaaS, fintech, EdTech, PropTech, AI products, e-commerce and automotive HMI: each with its own users, constraints and proof.",
+    "h1": "Industries we design for",
+    "primaryKeyword": "industry ux design",
+    "searchIntent": "navigational",
+    "funnelStage": "evaluation",
+    "topicCluster": "Hub",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "CollectionPage",
+    "evidenceIds": [
+      "EV-SITE-CASE-COUNT",
+      "EV-FOUNDER"
+    ],
+    "cta": {
+      "heading": "Don't see your industry?",
+      "body": "The method transfers; the domain research is where we start. Tell us about your product and users.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "Technology",
+      "Financial",
+      "Growth and platforms",
+      "Product-heavy sectors",
+      "Experience behind the work",
+      "FAQ"
+    ],
+    "faq": [
+      "Which industries does Designit specialise in?",
+      "Do you only work with Indian companies?",
+      "Can Designit handle domain-specific requirements?"
+    ],
+    "internalLinks": [
+      "/",
+      "/industries/ai/",
+      "/industries/automotive/",
+      "/industries/b2b-saas/",
+      "/industries/e-commerce/",
+      "/industries/edtech/",
+      "/industries/fintech/",
+      "/industries/real-estate/",
+      "/projects/",
+      "/start-a-project/"
+    ],
+    "file": "industries/index.html"
+  },
+  "/industries/ai/": {
+    "url": "/industries/ai/",
+    "pageType": "industry",
+    "metaTitle": "Product Design for AI Startups & AI SaaS | Designit",
+    "metaDescription": "Product and UX design for AI startups, AI SaaS and agentic products: interfaces, workflows and strategy for software whose output isn't fully predictable.",
+    "h1": "Product design for AI startups and AI-native software",
+    "primaryKeyword": "ai startup product design",
+    "secondaryKeywords": [
+      "ai saas design",
+      "agentic product design",
+      "ai interface design",
+      "ai workflow design"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: AI product engagement",
+    "funnelStage": "evaluation",
+    "audience": [
+      "AI startup founders",
+      "AI product leaders"
+    ],
+    "topicCluster": "AI Product Design",
+    "pillarPage": "/services/ai-product-design/",
+    "parentTopic": "ai product design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-OWNER-AI-SERVICE",
+      "EV-QUOTE-PANKAJ"
+    ],
+    "relatedServices": [
+      "/services/ai-product-design/",
+      "/services/saas-product-design/",
+      "/services/ux-research/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "What do AI startups get wrong about product design?",
+      "How should AI SaaS products onboard users?"
+    ],
+    "cta": {
+      "heading": "Tell us what your AI does, and what happens when it's wrong",
+      "body": "Much of our AI work is under NDA, so we walk through relevant examples on a call.",
+      "buttons": [
+        {
+          "label": "Discuss your AI product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "monthly to quarterly",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "Who we work with",
+      "What we design",
+      "Our point of view",
+      "What product leaders say",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What do AI startups most often get wrong in product design?",
+      "How should an AI SaaS product onboard new users?",
+      "Can you show us AI work you've done?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/how-ai-is-changing-ux-design-india/",
+      "/industries/",
+      "/services/ai-product-design/",
+      "/start-a-project/"
+    ],
+    "file": "industries/ai/index.html"
+  },
+  "/industries/automotive/": {
+    "url": "/industries/automotive/",
+    "pageType": "industry",
+    "metaTitle": "Automotive HMI Design Agency: Infotainment UX | Designit",
+    "metaDescription": "Automotive HMI design for infotainment systems and digital instrument clusters, built around glance duration, cognitive load and fixed hardware constraints.",
+    "h1": "In-car design where a second of attention is the budget",
+    "primaryKeyword": "automotive hmi design agency",
+    "secondaryKeywords": [
+      "infotainment ux design",
+      "instrument cluster design",
+      "in-car ux",
+      "hmi design services"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: HMI programme",
+    "funnelStage": "evaluation",
+    "audience": [
+      "OEM and tier-one HMI teams"
+    ],
+    "topicCluster": "Automotive",
+    "pillarPage": "/industries/automotive/",
+    "parentTopic": "automotive hmi",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-TATA-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-research/",
+      "/services/design-systems/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/tata-elxsi/"
+    ],
+    "aiAnswerTargets": [
+      "How do you design for driver distraction?",
+      "What is glance duration in HMI design?"
+    ],
+    "cta": {
+      "heading": "Designing for the road, not the desk",
+      "body": "Tell us about your programme, hardware and timeline. We'll tell you how we would approach the glance and task model.",
+      "buttons": [
+        {
+          "label": "Discuss your HMI programme",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Why automotive HMI breaks normal design rules",
+      "What we design",
+      "How an HMI engagement runs",
+      "Selected automotive work",
+      "FAQ"
+    ],
+    "faq": [
+      "How do you design for driver distraction?",
+      "Do you work within existing hardware constraints?",
+      "How long do automotive engagements take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/industries/",
+      "/projects/tata-elxsi/",
+      "/projects/tata-elxsi/infotainment/",
+      "/projects/tata-elxsi/instrument-cluster/",
+      "/start-a-project/"
+    ],
+    "file": "industries/automotive/index.html"
+  },
+  "/industries/b2b-saas/": {
+    "url": "/industries/b2b-saas/",
+    "pageType": "industry",
+    "metaTitle": "B2B SaaS Design Agency: Dashboards & Workflows | Designit",
+    "metaDescription": "B2B SaaS product design for complex workflows: onboarding, dashboards, navigation, feature adoption, permissions and design systems, grounded in user research.",
+    "h1": "B2B SaaS product design for complex workflows",
+    "primaryKeyword": "b2b saas design agency",
+    "secondaryKeywords": [
+      "b2b saas ux design",
+      "b2b ui/ux design services",
+      "saas dashboard design",
+      "enterprise saas ux"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: SaaS engagement",
+    "funnelStage": "evaluation",
+    "audience": [
+      "B2B SaaS founders",
+      "Heads of product"
+    ],
+    "topicCluster": "B2B SaaS Product Design",
+    "pillarPage": "/services/saas-product-design/",
+    "parentTopic": "b2b saas design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-KELP-SCOPE",
+      "EV-BETACREW-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/saas-product-design/",
+      "/services/ux-audit/",
+      "/services/design-systems/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/kelp-global/",
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "Why do SaaS products become difficult to use?",
+      "What makes B2B SaaS design different?",
+      "Which SaaS metrics does design move?"
+    ],
+    "cta": {
+      "heading": "Bring the screen your users complain about",
+      "body": "In 30 minutes we'll walk through it and tell you what we'd change first, whether or not you hire us.",
+      "buttons": [
+        {
+          "label": "Discuss your SaaS product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "SaaS product design service",
+          "href": "/services/saas-product-design/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Why SaaS products become difficult to use",
+      "SaaS UX challenges we work on",
+      "Research, redesign and audit",
+      "Selected SaaS work",
+      "Related insights",
+      "FAQ"
+    ],
+    "faq": [
+      "What makes B2B SaaS design different from consumer product design?",
+      "How do you design dashboards without making them cluttered?",
+      "Which B2B SaaS metrics does design actually move?",
+      "Do you work with our existing design system?",
+      "How long does a SaaS engagement take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/b2b-saas-ui-ux-design-services-india/",
+      "/blog/cro-strategies-for-b2b-saas-india/",
+      "/blog/saas-dashboard-design-best-practices/",
+      "/blog/saas-onboarding-ux-best-practices-india/",
+      "/industries/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/services/design-systems/",
+      "/services/saas-product-design/",
+      "/services/ux-audit/",
+      "/services/ux-research/",
+      "/solutions/product-redesign/",
+      "/start-a-project/"
+    ],
+    "file": "industries/b2b-saas/index.html"
+  },
+  "/industries/e-commerce/": {
+    "url": "/industries/e-commerce/",
+    "pageType": "industry",
+    "metaTitle": "E-commerce UX Design Agency: PDP & Checkout | Designit",
+    "metaDescription": "E-commerce UX design judged on revenue per visitor: discovery, search, product pages, checkout, mobile and retention, starting from a funnel audit.",
+    "h1": "E-commerce design judged on revenue per visitor, not aesthetics",
+    "primaryKeyword": "ecommerce ux design agency",
+    "secondaryKeywords": [
+      "checkout ux",
+      "product page design",
+      "ecommerce conversion",
+      "d2c ux design"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: conversion audit",
+    "funnelStage": "evaluation",
+    "audience": [
+      "D2C founders",
+      "E-commerce managers"
+    ],
+    "topicCluster": "Website Redesign",
+    "pillarPage": "/services/conversion-optimization/",
+    "parentTopic": "ecommerce ux",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-PROCESS-AUDIT"
+    ],
+    "relatedServices": [
+      "/services/conversion-optimization/",
+      "/services/ux-audit/",
+      "/services/website-design/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "What has the biggest impact on e-commerce conversion?",
+      "How do you reduce checkout abandonment?"
+    ],
+    "cta": {
+      "heading": "Which step is costing you most?",
+      "body": "A two-week, fixed-scope audit ranks every leak in your funnel by revenue impact against effort.",
+      "buttons": [
+        {
+          "label": "Discuss your store",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Where online retail actually loses money",
+      "What we design",
+      "How a retail engagement runs",
+      "Related insights",
+      "FAQ"
+    ],
+    "faq": [
+      "What has the biggest impact on e-commerce conversion?",
+      "How much can we expect conversion to improve?",
+      "Do you work on Shopify and other platforms?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/generative-ai-website-personalization/",
+      "/blog/how-to-improve-website-conversion-rate-india/",
+      "/blog/why-ecommerce-bounce-rate-so-high-india/",
+      "/industries/",
+      "/services/conversion-optimization/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "industries/e-commerce/index.html"
+  },
+  "/industries/edtech/": {
+    "url": "/industries/edtech/",
+    "pageType": "industry",
+    "metaTitle": "EdTech UX Design Agency: Learning Platforms | Designit",
+    "metaDescription": "EdTech UX design for learning platforms: onboarding, assessment and test-series engines, live classes, progress dashboards and low-bandwidth mobile learning.",
+    "h1": "EdTech design measured by completion, not by enrolment",
+    "primaryKeyword": "edtech ux design agency",
+    "secondaryKeywords": [
+      "edtech app design",
+      "learning platform ux",
+      "e-learning ux design",
+      "edtech ux design india"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: EdTech engagement",
+    "funnelStage": "evaluation",
+    "audience": [
+      "EdTech founders",
+      "Heads of product"
+    ],
+    "topicCluster": "EdTech",
+    "pillarPage": "/industries/edtech/",
+    "parentTopic": "edtech ux design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-ADDA-SCOPE",
+      "EV-QUOTE-AKANKSHA",
+      "EV-QUOTE-MURLIDHAR",
+      "EV-QUOTE-VISHVESH"
+    ],
+    "relatedServices": [
+      "/services/ux-research/",
+      "/services/product-design/",
+      "/services/mobile-app-design/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/adda247/"
+    ],
+    "aiAnswerTargets": [
+      "What improves course completion rates?",
+      "How do you design assessment interfaces learners trust?",
+      "How do you design for low-end devices?"
+    ],
+    "cta": {
+      "heading": "Where do your learners stop?",
+      "body": "Share your funnel from sign-up to first lesson. We'll tell you where we'd look first and what we'd test.",
+      "buttons": [
+        {
+          "label": "Discuss your learning product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "What EdTech design has to solve",
+      "What we design",
+      "How an EdTech engagement runs",
+      "Selected EdTech work",
+      "What EdTech product leaders say",
+      "Related insights",
+      "FAQ"
+    ],
+    "faq": [
+      "What actually improves course completion rates?",
+      "How do you design assessment interfaces that learners trust?",
+      "Do you design for low-end devices and poor connectivity?",
+      "How do you balance learner and parent or institution needs?",
+      "Can you work on live and synchronous learning?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/edtech-onboarding-ux-india/",
+      "/blog/edtech-ux-design-agency-india/",
+      "/blog/edtech-ux-design-india/",
+      "/industries/",
+      "/projects/adda247/",
+      "/projects/adda247/live-class/",
+      "/projects/adda247/performance-dashboard/",
+      "/projects/adda247/test-series/",
+      "/start-a-project/"
+    ],
+    "file": "industries/edtech/index.html"
+  },
+  "/industries/fintech/": {
+    "url": "/industries/fintech/",
+    "pageType": "industry",
+    "metaTitle": "Fintech UX Design Agency: KYC, Payments & Trust | Designit",
+    "metaDescription": "Fintech UX design for onboarding and KYC, payments, dashboards and compliance-sensitive flows: trust, transactional confidence and recoverable failure states.",
+    "h1": "Fintech design, where trust is a feature and regulation is a constraint",
+    "primaryKeyword": "fintech ux design agency",
+    "secondaryKeywords": [
+      "fintech app design",
+      "kyc onboarding ux",
+      "payment ux design",
+      "fintech dashboard design"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: fintech engagement",
+    "funnelStage": "evaluation",
+    "audience": [
+      "Fintech founders",
+      "Heads of product",
+      "Compliance-aware product teams"
+    ],
+    "topicCluster": "Fintech",
+    "pillarPage": "/industries/fintech/",
+    "parentTopic": "fintech ux design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-BETACREW-SCOPE",
+      "EV-QUOTE-FIRDOSH"
+    ],
+    "relatedServices": [
+      "/services/ux-audit/",
+      "/services/product-design/",
+      "/services/mobile-app-design/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "How do you reduce KYC drop-off?",
+      "How do you design trust into a fintech app?",
+      "Can you design Arabic RTL fintech flows?"
+    ],
+    "cta": {
+      "heading": "Where do your users stop trusting the flow?",
+      "body": "Show us your onboarding or payment journey. We'll point to the steps most likely losing people and what we'd change first.",
+      "buttons": [
+        {
+          "label": "Discuss your fintech product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Start with a UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "What makes fintech design harder than it looks",
+      "What we design for fintech",
+      "How a fintech engagement runs",
+      "Related work",
+      "Related insights",
+      "FAQ"
+    ],
+    "faq": [
+      "How do you reduce KYC drop-off without breaking compliance?",
+      "Do you work with our compliance team?",
+      "Can you design for Arabic and RTL markets?",
+      "Which markets' regulations do you design for?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/fintech-onboarding-kyc-ux-india/",
+      "/blog/fintech-ux-design-agency-india/",
+      "/industries/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "industries/fintech/index.html"
+  },
+  "/industries/real-estate/": {
+    "url": "/industries/real-estate/",
+    "pageType": "industry",
+    "metaTitle": "PropTech & Real Estate Design Agency | Designit",
+    "metaDescription": "PropTech and luxury real estate design: property experiences, enquiry qualification, unit explorers, asset-heavy performance and Arabic RTL for Gulf markets.",
+    "h1": "PropTech and real estate design, where the website is the first viewing",
+    "primaryKeyword": "proptech design agency",
+    "secondaryKeywords": [
+      "real estate website design",
+      "luxury property website design",
+      "proptech ux",
+      "real estate ux design dubai"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: property platform engagement",
+    "funnelStage": "evaluation",
+    "audience": [
+      "Developers",
+      "Brokerages",
+      "PropTech founders"
+    ],
+    "topicCluster": "PropTech",
+    "pillarPage": "/industries/real-estate/",
+    "parentTopic": "proptech design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-RCENTRIC-SCOPE",
+      "EV-RCENTRIC-QUALIFICATION"
+    ],
+    "relatedServices": [
+      "/services/website-design/",
+      "/services/design-systems/",
+      "/services/conversion-optimization/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/rcentric/"
+    ],
+    "aiAnswerTargets": [
+      "How do you increase qualified property enquiries?",
+      "How do you design Arabic RTL property websites?"
+    ],
+    "cta": {
+      "heading": "Make the first viewing count",
+      "body": "Show us your current property site and enquiry flow. We'll tell you where serious buyers are likely dropping off.",
+      "buttons": [
+        {
+          "label": "Discuss your property platform",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX design in Dubai",
+          "href": "/ux-design-agency-dubai/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + REPOSITION AS PROPTECH",
+    "h2s": [
+      "What property design actually has to solve",
+      "What we design",
+      "Selected PropTech work",
+      "Related insights",
+      "FAQ"
+    ],
+    "faq": [
+      "How do you increase qualified enquiries rather than total enquiries?",
+      "Can you handle Arabic and RTL for Gulf markets?",
+      "How long does a property experience take?",
+      "Do you work with PropTech platforms as well as developers?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/arabic-rtl-ux-design-proptech-uae/",
+      "/blog/ui-ux-design-agency-dubai-proptech/",
+      "/industries/",
+      "/projects/rcentric/",
+      "/start-a-project/",
+      "/ux-design-agency-dubai/"
+    ],
+    "file": "industries/real-estate/index.html"
+  },
+  "/locations/": {
+    "url": "/locations/",
+    "pageType": "hub",
+    "metaTitle": "Where We Work: India, USA, UK and UAE | Designit",
+    "metaDescription": "Designit is based in Noida, India, works with clients in India and the UAE and takes on projects for US and UK teams. How each engagement works.",
+    "h1": "Where we work",
+    "primaryKeyword": "ui ux design agency locations",
+    "searchIntent": "navigational",
+    "funnelStage": "vendor",
+    "topicCluster": "Locations",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "CollectionPage",
+    "evidenceIds": [
+      "EV-MARKETS"
+    ],
+    "cta": {
+      "heading": "Wherever you are, the first step is the same",
+      "body": "Tell us what you're building. We'll suggest the right starting point and how we'd work across your time zone.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "Markets we serve",
+      "How international engagements run"
+    ],
+    "faq": [],
+    "internalLinks": [
+      "/",
+      "/about/",
+      "/start-a-project/",
+      "/ui-ux-design-agency-uk/",
+      "/ui-ux-design-agency-usa/",
+      "/ux-design-agency-dubai/"
+    ],
+    "file": "locations/index.html"
+  },
+  "/projects/": {
+    "url": "/projects/",
+    "pageType": "hub",
+    "metaTitle": "Selected Product Design Work & Case Studies | Designit",
+    "metaDescription": "Product design case studies across EdTech, B2B SaaS, developer tools, PropTech and automotive HMI: the problem, what we designed and what changed.",
+    "h1": "Selected product design work",
+    "primaryKeyword": "product design case studies",
+    "secondaryKeywords": [
+      "ux case studies",
+      "ui ux portfolio",
+      "saas design case study"
+    ],
+    "searchIntent": "evaluation",
+    "businessIntent": "Proof for buyers",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "CollectionPage",
+    "evidenceIds": [
+      "EV-ADDA-SCOPE",
+      "EV-KELP-SCOPE",
+      "EV-BETACREW-SCOPE",
+      "EV-RCENTRIC-SCOPE",
+      "EV-TATA-SCOPE",
+      "EV-TESTIMONIALS"
+    ],
+    "cta": {
+      "heading": "Have a similar problem?",
+      "body": "Tell us what isn't working. We'll tell you which of these approaches would apply, and where we'd start.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "Client engagements",
+      "Every case study",
+      "What the people we worked with say",
+      "FAQ"
+    ],
+    "faq": [
+      "What case studies does Designit have?",
+      "What was designed for Adda247?",
+      "What was designed for Kelp Global?",
+      "Can we see work that isn't published here?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/adda247/",
+      "/projects/adda247/community/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/adda247/ios-app/",
+      "/projects/adda247/live-class/",
+      "/projects/adda247/my-content/",
+      "/projects/adda247/performance-dashboard/",
+      "/projects/adda247/sankalp-bharat/",
+      "/projects/adda247/studio-app/",
+      "/projects/adda247/test-series/",
+      "/projects/betacrew/",
+      "/projects/betacrew/portle/",
+      "/projects/kelp-global/",
+      "/projects/kelp-global/deals-module/",
+      "/projects/kelp-global/kelp-plugin/",
+      "/projects/kelp-global/truenorth/",
+      "/projects/rcentric/",
+      "/projects/rcentric/anwa-aria/",
+      "/projects/rcentric/ela/",
+      "/projects/rcentric/liv-reside/",
+      "/projects/rcentric/liv/",
+      "/projects/rcentric/opus/",
+      "/projects/rcentric/orla-infinity/",
+      "/projects/rcentric/vela-viento/",
+      "/projects/tata-elxsi/",
+      "/projects/tata-elxsi/infotainment/",
+      "/projects/tata-elxsi/instrument-cluster/",
+      "/start-a-project/"
+    ],
+    "file": "projects.html"
+  },
+  "/projects/adda247/": {
+    "url": "/projects/adda247/",
+    "pageType": "case-study",
+    "metaTitle": "Adda247 Case Study: EdTech Platform Redesign | Designit",
+    "metaDescription": "How Designit redesigned Adda247's exam-prep platform around how learners study: test series, live classes, dashboards, content, community and iOS apps.",
+    "h1": "Adda247: one coherent learning experience across a growing exam-prep platform",
+    "primaryKeyword": "adda247 ux case study",
+    "secondaryKeywords": [
+      "edtech ux case study",
+      "learning platform redesign",
+      "test series ui design"
+    ],
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Article",
+    "evidenceIds": [
+      "EV-ADDA-SCOPE",
+      "EV-QUOTE-AKANKSHA",
+      "EV-QUOTE-MURLIDHAR"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-research/",
+      "/services/mobile-app-design/"
+    ],
+    "relatedIndustries": [
+      "/industries/edtech/"
+    ],
+    "cta": {
+      "heading": "Have a learning product that needs this?",
+      "body": "Tell us where your learners stall. We'll tell you where we'd start.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Executive summary",
+      "Project facts",
+      "The business problem",
+      "The user problem",
+      "What we did",
+      "Key lessons",
+      "Every Adda247 module",
+      "What the Adda247 team says",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What did Designit design for Adda247?",
+      "Which platforms did the work cover?",
+      "Are outcome metrics published for this project?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/edtech-ux-design-india/",
+      "/industries/edtech/",
+      "/projects/",
+      "/projects/adda247/community/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/adda247/ios-app/",
+      "/projects/adda247/live-class/",
+      "/projects/adda247/my-content/",
+      "/projects/adda247/performance-dashboard/",
+      "/projects/adda247/sankalp-bharat/",
+      "/projects/adda247/studio-app/",
+      "/projects/adda247/test-series/",
+      "/services/mobile-app-design/",
+      "/services/ux-research/",
+      "/start-a-project/"
+    ],
+    "file": "projects/adda247.html"
+  },
+  "/projects/betacrew/": {
+    "url": "/projects/betacrew/",
+    "pageType": "case-study",
+    "metaTitle": "Betacrew Portle Case Study: Developer Platform UX | Designit",
+    "metaDescription": "How Designit designed Portle for Betacrew: one developer-first API platform replacing three tools, with adaptive density and a white-label theming system.",
+    "h1": "Betacrew Portle: one developer platform replacing three API tools",
+    "primaryKeyword": "developer platform ux case study",
+    "secondaryKeywords": [
+      "api management ui design",
+      "developer ux design",
+      "white-label design system"
+    ],
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Article",
+    "evidenceIds": [
+      "EV-BETACREW-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/design-systems/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/"
+    ],
+    "cta": {
+      "heading": "Consolidating tools into one product?",
+      "body": "Tell us which tools and which users. We'll tell you how we'd map the workflow first.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Executive summary",
+      "Project facts",
+      "The business and user problem",
+      "What we did",
+      "Key lessons",
+      "Read the full case study",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What is Portle?",
+      "How does the white-label system work?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/betacrew/portle/",
+      "/solutions/design-system-scaling/",
+      "/solutions/legacy-product-modernization/",
+      "/start-a-project/"
+    ],
+    "file": "projects/betacrew.html"
+  },
+  "/projects/kelp-global/": {
+    "url": "/projects/kelp-global/",
+    "pageType": "case-study",
+    "metaTitle": "Kelp Global Case Study: B2B SaaS Product Suite | Designit",
+    "metaDescription": "How Designit designed Kelp Global's sales product suite: a Chrome extension, the Truenorth analytics dashboard and a deals module, on one design system.",
+    "h1": "Kelp Global: three connected sales products on one design system",
+    "primaryKeyword": "b2b saas design case study",
+    "secondaryKeywords": [
+      "crm dashboard design",
+      "browser extension ux",
+      "saas design system case study"
+    ],
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Article",
+    "evidenceIds": [
+      "EV-KELP-SCOPE",
+      "EV-QUOTE-GIRISH"
+    ],
+    "relatedServices": [
+      "/services/saas-product-design/",
+      "/services/design-systems/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/"
+    ],
+    "cta": {
+      "heading": "Building a multi-product SaaS suite?",
+      "body": "Show us the products and where they disagree. We'll tell you what a shared system would fix first.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Executive summary",
+      "Project facts",
+      "The business problem",
+      "The user problem",
+      "What we did",
+      "Key lessons",
+      "Every Kelp Global module",
+      "What the Kelp Global team says",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What did Designit design for Kelp Global?",
+      "Are outcome metrics published for this project?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/saas-dashboard-design-best-practices/",
+      "/projects/",
+      "/projects/kelp-global/deals-module/",
+      "/projects/kelp-global/kelp-plugin/",
+      "/projects/kelp-global/truenorth/",
+      "/services/design-systems/",
+      "/services/saas-product-design/",
+      "/start-a-project/"
+    ],
+    "file": "projects/kelp-global.html"
+  },
+  "/projects/rcentric/": {
+    "url": "/projects/rcentric/",
+    "pageType": "case-study",
+    "metaTitle": "R-Centric Case Study: Luxury Dubai Property Sites | Designit",
+    "metaDescription": "How Designit designed seven luxury Dubai property experiences for R-Centric, including Omniyat developments, on a shared system that kept each launch distinct.",
+    "h1": "R-Centric: seven luxury Dubai property experiences on one shared system",
+    "primaryKeyword": "luxury property website case study",
+    "secondaryKeywords": [
+      "dubai real estate website design",
+      "proptech case study",
+      "omniyat website"
+    ],
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Article",
+    "evidenceIds": [
+      "EV-RCENTRIC-SCOPE",
+      "EV-RCENTRIC-QUALIFICATION"
+    ],
+    "relatedServices": [
+      "/services/website-design/",
+      "/services/design-systems/"
+    ],
+    "relatedIndustries": [
+      "/industries/real-estate/"
+    ],
+    "cta": {
+      "heading": "Launching a property or a portfolio?",
+      "body": "Tell us about the development and the buyer. We'll show you how we'd structure the journey to a qualified enquiry.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Executive summary",
+      "Project facts",
+      "The business and buyer problem",
+      "What we did",
+      "Key lessons",
+      "Every property",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "Which properties did Designit design for R-Centric?",
+      "Why a shared system across properties?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/arabic-rtl-ux-design-proptech-uae/",
+      "/industries/real-estate/",
+      "/projects/",
+      "/projects/rcentric/anwa-aria/",
+      "/projects/rcentric/ela/",
+      "/projects/rcentric/liv-reside/",
+      "/projects/rcentric/liv/",
+      "/projects/rcentric/opus/",
+      "/projects/rcentric/orla-infinity/",
+      "/projects/rcentric/vela-viento/",
+      "/start-a-project/",
+      "/ux-design-agency-dubai/"
+    ],
+    "file": "projects/rcentric.html"
+  },
+  "/projects/tata-elxsi/": {
+    "url": "/projects/tata-elxsi/",
+    "pageType": "case-study",
+    "metaTitle": "Tata Elxsi Case Study: Automotive HMI Design | Designit",
+    "metaDescription": "How Designit designed an infotainment system and digital instrument cluster for Tata Elxsi around glance duration, adaptive modes and simulator testing.",
+    "h1": "Tata Elxsi: an infotainment system and instrument cluster designed for the glance",
+    "primaryKeyword": "automotive hmi case study",
+    "secondaryKeywords": [
+      "infotainment ux case study",
+      "digital instrument cluster design",
+      "tata elxsi hmi"
+    ],
+    "searchIntent": "evaluation",
+    "funnelStage": "evaluation / vendor",
+    "topicCluster": "Work",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Article",
+    "evidenceIds": [
+      "EV-TATA-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-research/"
+    ],
+    "relatedIndustries": [
+      "/industries/automotive/"
+    ],
+    "cta": {
+      "heading": "Designing for the road?",
+      "body": "Tell us about the hardware and the programme. We'll tell you how we'd model the glance budget.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "when new evidence is available",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "Executive summary",
+      "Project facts",
+      "The business and driver problem",
+      "What we did",
+      "Key lessons",
+      "Both systems",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What did Designit design for Tata Elxsi?",
+      "How was the design validated?"
+    ],
+    "internalLinks": [
+      "/",
+      "/industries/automotive/",
+      "/projects/",
+      "/projects/tata-elxsi/infotainment/",
+      "/projects/tata-elxsi/instrument-cluster/",
+      "/services/product-design/",
+      "/start-a-project/"
+    ],
+    "file": "projects/tata-elxsi.html"
+  },
+  "/resources/": {
+    "url": "/resources/",
+    "pageType": "hub",
+    "metaTitle": "Product Design Resources: Checklists & Guides | Designit",
+    "metaDescription": "Free product design resources from Designit: interactive UX audit, website, onboarding and AI checklists, a scope assessment, cost guides and buyer guides.",
+    "h1": "Resources for product teams",
+    "primaryKeyword": "ux design resources",
+    "searchIntent": "informational",
+    "funnelStage": "problem-aware",
+    "topicCluster": "Resources",
+    "author": "Designit",
+    "updatedAt": "2026-10-05",
+    "schemaType": "CollectionPage",
+    "conversionEvent": "asset_open",
+    "refreshInterval": "quarterly",
+    "priority": "P2",
+    "action": "CREATE",
+    "h2s": [
+      "Tools and checklists",
+      "Cost guides",
+      "Buyer guides"
+    ],
+    "faq": [],
+    "internalLinks": [
+      "/",
+      "/blog/branding-services-for-startups-india-cost/",
+      "/blog/cost-ui-ux-design-mobile-app-india/",
+      "/blog/custom-website-vs-template-roi-india/",
+      "/blog/design-system-cost-india-2026/",
+      "/blog/freelancer-vs-design-agency-startups/",
+      "/blog/hire-ui-ux-designer-vs-agency-india/",
+      "/blog/how-to-choose-a-product-design-agency/",
+      "/blog/ui-ux-design-pricing-india-2026/",
+      "/blog/ux-audit-checklist/",
+      "/resources/ai-product-ux-checklist/",
+      "/resources/saas-onboarding-friction-checklist/",
+      "/resources/ux-audit-checklist/",
+      "/resources/website-ux-scorecard/",
+      "/start-a-project/"
+    ],
+    "file": "resources/index.html"
+  },
+  "/resources/ai-product-ux-checklist/": {
+    "url": "/resources/ai-product-ux-checklist/",
+    "pageType": "tool",
+    "metaTitle": "AI Product UX Checklist: Trust, Control, Recovery | Designit",
+    "metaDescription": "A free AI product UX checklist: 25 checks on expectations, input, uncertainty, agent approval, error recovery, privacy, feedback and measurement.",
+    "h1": "Check whether people can understand and trust your AI product",
+    "primaryKeyword": "ai product ux checklist",
+    "secondaryKeywords": [
+      "ai ux checklist",
+      "ai agent ux",
+      "ai interface design checklist",
+      "human-ai interaction checklist"
+    ],
+    "searchIntent": "informational / tool",
+    "businessIntent": "Linkable asset (blueprint section 52) + problem-aware lead path",
+    "funnelStage": "problem-aware",
+    "audience": [
+      "founders",
+      "product managers",
+      "designers"
+    ],
+    "topicCluster": "AI Product Design",
+    "pillarPage": "/services/ai-product-design/",
+    "parentTopic": "AI Product Design",
+    "author": "Designit",
+    "updatedAt": "2026-10-05",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-OWNER-AI-SERVICE"
+    ],
+    "relatedServices": [
+      "/services/ai-product-design/",
+      "/services/ux-research/"
+    ],
+    "relatedIndustries": [
+      "/industries/ai/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "What makes an AI product easy to trust?"
+    ],
+    "cta": {
+      "heading": "Tell us what your AI should do, and what happens when it's wrong",
+      "body": "We'll show you how we would design for trust, control and recovery in your product.",
+      "buttons": [
+        {
+          "label": "Discuss your AI product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "AI product design",
+          "href": "/services/ai-product-design/"
+        }
+      ]
+    },
+    "conversionEvent": "calculator_complete",
+    "refreshInterval": "6 months",
+    "priority": "P2",
+    "action": "CREATE",
+    "h2s": [
+      "What makes an AI product easy to trust?",
+      "The checklist: 25 checks",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "How should an AI agent ask for approval?",
+      "How is the score calculated?",
+      "Is my data stored?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/how-ai-is-changing-ux-design-india/",
+      "/industries/ai/",
+      "/resources/",
+      "/services/ai-product-design/",
+      "/start-a-project/"
+    ],
+    "file": "resources/ai-product-ux-checklist/index.html"
+  },
+  "/resources/saas-onboarding-friction-checklist/": {
+    "url": "/resources/saas-onboarding-friction-checklist/",
+    "pageType": "tool",
+    "metaTitle": "SaaS Onboarding Friction Checklist: 25 Checks | Designit",
+    "metaDescription": "Find where new users stall in your SaaS onboarding: 25 checks across signup, first value, setup, guidance, teams, measurement and re-engagement.",
+    "h1": "Find where new users stall in your onboarding",
+    "primaryKeyword": "saas onboarding checklist",
+    "secondaryKeywords": [
+      "saas onboarding friction",
+      "user onboarding checklist",
+      "saas activation checklist",
+      "onboarding ux audit"
+    ],
+    "searchIntent": "informational / tool",
+    "businessIntent": "Linkable asset (blueprint section 52) + problem-aware lead path",
+    "funnelStage": "problem-aware",
+    "audience": [
+      "founders",
+      "product managers",
+      "designers"
+    ],
+    "topicCluster": "B2B SaaS Product Design",
+    "pillarPage": "/services/saas-product-design/",
+    "parentTopic": "B2B SaaS Product Design",
+    "author": "Designit",
+    "updatedAt": "2026-10-05",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-PROCESS-SAAS"
+    ],
+    "relatedServices": [
+      "/services/saas-product-design/",
+      "/services/ux-audit/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "What causes SaaS onboarding drop-off?"
+    ],
+    "cta": {
+      "heading": "Where do your new users stop?",
+      "body": "Bring your step-level drop-off and we'll show you where we would start.",
+      "buttons": [
+        {
+          "label": "Discuss your SaaS product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "calculator_complete",
+    "refreshInterval": "6 months",
+    "priority": "P2",
+    "action": "CREATE",
+    "h2s": [
+      "What causes SaaS onboarding drop-off?",
+      "The checklist: 25 checks",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What is an activation event?",
+      "How is the score calculated?",
+      "Is my data stored?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/saas-onboarding-ux-best-practices-india/",
+      "/industries/b2b-saas/",
+      "/resources/",
+      "/services/saas-product-design/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "resources/saas-onboarding-friction-checklist/index.html"
+  },
+  "/resources/ux-audit-checklist/": {
+    "url": "/resources/ux-audit-checklist/",
+    "pageType": "tool",
+    "metaTitle": "Interactive UX Audit Checklist (48 Checks) | Designit",
+    "metaDescription": "Score your product against 48 UX audit checks in 10 groups: journeys, navigation, forms, content, states, accessibility, mobile, speed and evidence.",
+    "h1": "Score your product with the UX audit checklist",
+    "primaryKeyword": "interactive ux audit checklist",
+    "secondaryKeywords": [
+      "ux audit checklist tool",
+      "ux audit template",
+      "ux audit self assessment",
+      "website ux audit checklist"
+    ],
+    "searchIntent": "informational / tool",
+    "businessIntent": "Linkable asset (blueprint section 52) + problem-aware lead path",
+    "funnelStage": "problem-aware",
+    "audience": [
+      "founders",
+      "product managers",
+      "designers"
+    ],
+    "topicCluster": "UX Audit",
+    "pillarPage": "/services/ux-audit/",
+    "parentTopic": "UX Audit",
+    "author": "Designit",
+    "updatedAt": "2026-10-05",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-PROCESS-AUDIT"
+    ],
+    "relatedServices": [
+      "/services/ux-audit/",
+      "/services/ux-research/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "How do you use a UX audit checklist?"
+    ],
+    "cta": {
+      "heading": "Want the ranked version?",
+      "body": "A Designit UX audit runs these checks on your real journeys with your analytics and session recordings, then ranks every fix by impact and effort.",
+      "buttons": [
+        {
+          "label": "Request a UX audit",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX audit services",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "calculator_complete",
+    "refreshInterval": "6 months",
+    "priority": "P2",
+    "action": "CREATE",
+    "h2s": [
+      "How do you use a UX audit checklist?",
+      "The checklist: 48 checks",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "Is this the same checklist Designit uses?",
+      "How is the score calculated?",
+      "Is my data stored?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/ux-audit-checklist/",
+      "/resources/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "resources/ux-audit-checklist/index.html"
+  },
+  "/resources/website-ux-scorecard/": {
+    "url": "/resources/website-ux-scorecard/",
+    "pageType": "tool",
+    "metaTitle": "Website UX Scorecard: Check What Converts | Designit",
+    "metaDescription": "A free website UX scorecard: 30 checks across clarity, navigation, proof, conversion, content, mobile, speed and accessibility, with a score and next steps.",
+    "h1": "Score your website before you redesign it",
+    "primaryKeyword": "website ux scorecard",
+    "secondaryKeywords": [
+      "website ux checklist",
+      "website redesign checklist",
+      "website conversion checklist",
+      "b2b website audit"
+    ],
+    "searchIntent": "informational / tool",
+    "businessIntent": "Linkable asset (blueprint section 52) + problem-aware lead path",
+    "funnelStage": "problem-aware",
+    "audience": [
+      "founders",
+      "product managers",
+      "designers"
+    ],
+    "topicCluster": "Website Redesign",
+    "pillarPage": "/services/website-design/",
+    "parentTopic": "Website Redesign",
+    "author": "Designit",
+    "updatedAt": "2026-10-05",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-OWNER-WEBSITE-SERVICE"
+    ],
+    "relatedServices": [
+      "/services/website-design/",
+      "/services/conversion-optimization/"
+    ],
+    "relatedIndustries": [],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "How do you know if your website needs a redesign?"
+    ],
+    "cta": {
+      "heading": "Is your website explaining you, or hiding you?",
+      "body": "Tell us what the site needs to do. We'll tell you whether it needs a redesign or a set of targeted fixes.",
+      "buttons": [
+        {
+          "label": "Discuss your website",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Website design",
+          "href": "/services/website-design/"
+        }
+      ]
+    },
+    "conversionEvent": "calculator_complete",
+    "refreshInterval": "6 months",
+    "priority": "P2",
+    "action": "CREATE",
+    "h2s": [
+      "How do you know if your website needs a redesign?",
+      "The checklist: 30 checks",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "What does this scorecard cover?",
+      "How is the score calculated?",
+      "Is my data stored?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/why-website-not-converting-visitors-india/",
+      "/resources/",
+      "/services/conversion-optimization/",
+      "/services/website-design/",
+      "/start-a-project/"
+    ],
+    "file": "resources/website-ux-scorecard/index.html"
+  },
+  "/services/": {
+    "url": "/services/",
+    "pageType": "hub",
+    "metaTitle": "Product Design Services: Research, UX, Systems | Designit",
+    "metaDescription": "Product design services from discovery and UX research to SaaS design, design systems, AI product design, website design and branding, led by senior designers.",
+    "h1": "Product design services, from research to scale",
+    "primaryKeyword": "product design services",
+    "secondaryKeywords": [
+      "ui ux design services",
+      "ux design services",
+      "design services for saas"
+    ],
+    "searchIntent": "commercial / navigational",
+    "businessIntent": "Route visitors to the right service",
+    "funnelStage": "evaluation",
+    "topicCluster": "Hub",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "CollectionPage",
+    "cta": {
+      "heading": "Start with a conversation, not a proposal",
+      "body": "Thirty minutes. Tell us what you are building and we will tell you what we would tackle first, including when we think we are not the right partner.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "How to choose a design agency",
+          "href": "/blog/how-to-choose-a-product-design-agency/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "What do you need help with?",
+      "How we work: discover, define, design, validate, scale",
+      "All services",
+      "Or start from the situation you're in",
+      "Selected work",
+      "FAQ"
+    ],
+    "faq": [
+      "How long does a Designit engagement take?",
+      "Who actually works on the engagement?",
+      "Which service should we start with?",
+      "Which regions does Designit work with?",
+      "How do I start a project with Designit?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/how-to-choose-a-product-design-agency/",
+      "/locations/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/kelp-global/",
+      "/projects/tata-elxsi/",
+      "/services/ai-product-design/",
+      "/services/branding/",
+      "/services/conversion-optimization/",
+      "/services/design-systems/",
+      "/services/mobile-app-design/",
+      "/services/product-design/",
+      "/services/saas-product-design/",
+      "/services/ui-ux-design/",
+      "/services/ux-audit/",
+      "/services/ux-research/",
+      "/services/website-design/",
+      "/solutions/conversion-improvement/",
+      "/solutions/design-system-scaling/",
+      "/solutions/legacy-product-modernization/",
+      "/solutions/mvp-design/",
+      "/solutions/product-redesign/",
+      "/start-a-project/"
+    ],
+    "file": "services/index.html"
+  },
+  "/services/ai-product-design/": {
+    "url": "/services/ai-product-design/",
+    "pageType": "service",
+    "metaTitle": "AI Product Design & AI UX Design Agency | Designit",
+    "metaDescription": "AI product design for SaaS and technology teams: interaction patterns for uncertainty, agent approvals, error recovery, trust and explainability.",
+    "h1": "Designing AI products people can understand and trust",
+    "primaryKeyword": "ai product design agency",
+    "secondaryKeywords": [
+      "ai ux design",
+      "ai interface design",
+      "ai product strategy",
+      "ai agent ux",
+      "conversational ux",
+      "human-ai interaction",
+      "chatbot ui"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: AI product design engagement; long-term authority category",
+    "funnelStage": "evaluation / buying",
+    "audience": [
+      "AI startup founders",
+      "Heads of product",
+      "ML and engineering leads"
+    ],
+    "topicCluster": "AI Product Design",
+    "pillarPage": "/services/ai-product-design/",
+    "parentTopic": "ai product design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-OWNER-AI-SERVICE"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-research/",
+      "/services/saas-product-design/"
+    ],
+    "relatedIndustries": [
+      "/industries/ai/",
+      "/industries/b2b-saas/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "How should AI interfaces handle uncertainty?",
+      "How should users approve an AI agent's action?",
+      "How much autonomy should an AI agent have?",
+      "What are good UX patterns for AI agents?",
+      "How do users recover from AI mistakes?"
+    ],
+    "cta": {
+      "heading": "Tell us what your AI should do, and what happens when it's wrong",
+      "body": "Much AI product work sits under NDA, so we walk through relevant work on a call. Bring the feature or agent you're designing and we'll tell you where we'd start.",
+      "buttons": [
+        {
+          "label": "Discuss your AI product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "AI products we design for",
+          "href": "/industries/ai/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "monthly to quarterly",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What changes when a product becomes AI-powered?",
+      "AI product problems we solve",
+      "AI interaction patterns",
+      "Designing for uncertainty",
+      "Designing AI feedback and system state",
+      "Human approval and agent actions",
+      "Error recovery",
+      "Trust and explainability",
+      "AI onboarding, dashboards and agentic experiences",
+      "AI product discovery",
+      "AI product design process",
+      "Related AI insights",
+      "FAQ"
+    ],
+    "faq": [
+      "How should an AI agent communicate what it is doing?",
+      "How should users approve an agent's action?",
+      "How much autonomy should an AI agent have?",
+      "What happens when an AI agent fails?",
+      "How do users recover from AI mistakes?",
+      "How should AI explain uncertainty?",
+      "How do you design the handoff from AI to a human?",
+      "How should agent permissions work?",
+      "Do you build or train AI models?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/ai-driven-website-design-services-india/",
+      "/blog/best-ai-tools-ui-ux-designers-2026/",
+      "/blog/generative-ai-website-personalization/",
+      "/blog/how-ai-is-changing-ux-design-india/",
+      "/industries/ai/",
+      "/services/",
+      "/start-a-project/"
+    ],
+    "file": "services/ai-product-design/index.html"
+  },
+  "/services/branding/": {
+    "url": "/services/branding/",
+    "pageType": "service",
+    "metaTitle": "Branding Agency for Tech Startups & B2B SaaS | Designit",
+    "metaDescription": "Brand strategy, positioning, brand research, visual identity and digital brand systems for technology startups and B2B SaaS companies, from launch to rebrand.",
+    "h1": "Brand systems for technology companies ready to grow",
+    "primaryKeyword": "startup branding agency",
+    "secondaryKeywords": [
+      "startup branding packages india",
+      "branding company for startups",
+      "b2b saas branding",
+      "technology brand positioning",
+      "brand identity",
+      "rebranding",
+      "brand research"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: branding engagement",
+    "funnelStage": "evaluation / buying",
+    "audience": [
+      "Founders",
+      "Marketing leads"
+    ],
+    "topicCluster": "Branding",
+    "pillarPage": "/services/branding/",
+    "parentTopic": "startup branding",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-OWNER-BRANDING-SERVICE",
+      "EV-HOME-BRANDING-SERVICE"
+    ],
+    "relatedServices": [
+      "/services/website-design/",
+      "/services/design-systems/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/",
+      "/industries/fintech/"
+    ],
+    "relatedCaseStudies": [],
+    "aiAnswerTargets": [
+      "How much does startup branding cost?",
+      "What should a startup branding package include?",
+      "How should a B2B SaaS company approach rebranding?",
+      "What should a technology startup include in its brand system?"
+    ],
+    "cta": {
+      "heading": "Does your brand look as credible as your product?",
+      "body": "Show us your current brand, website and deck. In 30 minutes we'll tell you whether you need a refresh, a new identity or a full repositioning.",
+      "buttons": [
+        {
+          "label": "Discuss your brand",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Signs you need a rebrand",
+          "href": "/blog/signs-your-company-needs-a-rebrand-india/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "annually (pricing) / 6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "Brand strategy",
+      "Positioning",
+      "Brand research",
+      "Visual identity",
+      "Digital brand systems",
+      "B2B SaaS branding, startup branding and rebranding",
+      "Branding packages: how we scope them",
+      "Branding process",
+      "Related reading",
+      "FAQ"
+    ],
+    "faq": [
+      "How much does startup branding cost?",
+      "What should a startup branding package include?",
+      "How long does a branding project take?",
+      "How should a B2B SaaS company approach rebranding?",
+      "Do you design logos only?",
+      "Can you also design our website and product UI?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/best-branding-agency-tech-startups-india/",
+      "/blog/branding-services-for-startups-india-cost/",
+      "/blog/signs-your-company-needs-a-rebrand-india/",
+      "/blog/visual-identity-vs-branding-startups/",
+      "/services/",
+      "/services/design-systems/",
+      "/services/website-design/",
+      "/start-a-project/"
+    ],
+    "file": "services/branding/index.html"
+  },
+  "/services/conversion-optimization/": {
+    "url": "/services/conversion-optimization/",
+    "pageType": "service",
+    "metaTitle": "Conversion Rate Optimization Through UX | Designit",
+    "metaDescription": "UX-led conversion optimization for SaaS, e-commerce and B2B websites: friction diagnosis, landing pages, onboarding, checkout and experiment-ready design.",
+    "h1": "Conversion optimization through better product experience",
+    "primaryKeyword": "conversion rate optimization ux",
+    "secondaryKeywords": [
+      "cro agency",
+      "ux conversion optimization",
+      "landing page conversion",
+      "saas conversion",
+      "checkout optimization",
+      "website conversion improvement"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: conversion engagement",
+    "funnelStage": "problem-aware / evaluation",
+    "audience": [
+      "Heads of growth",
+      "Marketing leads",
+      "Founders"
+    ],
+    "topicCluster": "Website Redesign",
+    "pillarPage": "/services/conversion-optimization/",
+    "parentTopic": "conversion optimization",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-RCENTRIC-QUALIFICATION",
+      "EV-PROCESS-AUDIT"
+    ],
+    "relatedServices": [
+      "/services/ux-audit/",
+      "/services/website-design/",
+      "/services/saas-product-design/"
+    ],
+    "relatedIndustries": [
+      "/industries/e-commerce/",
+      "/industries/b2b-saas/",
+      "/industries/real-estate/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/rcentric/"
+    ],
+    "aiAnswerTargets": [
+      "What causes conversion friction?",
+      "How does UX affect conversion rate?",
+      "How do you improve SaaS trial-to-paid conversion?",
+      "What is UX-led CRO?"
+    ],
+    "cta": {
+      "heading": "Where are you losing people who wanted to buy?",
+      "body": "Share your funnel numbers and the page that worries you most. In 30 minutes we'll tell you where we would look first.",
+      "buttons": [
+        {
+          "label": "Discuss your funnel",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Read: CRO strategies for B2B SaaS",
+          "href": "/blog/cro-strategies-for-b2b-saas-india/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What causes conversion friction?",
+      "How UX affects conversion",
+      "Where conversion is won or lost",
+      "Experimentation",
+      "Analytics-informed design",
+      "UX audit + CRO",
+      "Case studies",
+      "Related reading",
+      "FAQ"
+    ],
+    "faq": [
+      "How is UX-led conversion optimization different from CRO testing?",
+      "How much can conversion improve?",
+      "Do you run the A/B tests?",
+      "What data do you need?",
+      "Should we fix conversion before spending more on ads?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/cro-strategies-for-b2b-saas-india/",
+      "/blog/how-to-improve-website-conversion-rate-india/",
+      "/blog/landing-page-conversion-audit-services-india/",
+      "/blog/saas-onboarding-ux-best-practices-india/",
+      "/blog/why-ecommerce-bounce-rate-so-high-india/",
+      "/blog/why-website-not-converting-visitors-india/",
+      "/industries/e-commerce/",
+      "/industries/real-estate/",
+      "/projects/rcentric/",
+      "/services/",
+      "/services/saas-product-design/",
+      "/services/ux-audit/",
+      "/solutions/conversion-improvement/",
+      "/start-a-project/"
+    ],
+    "file": "services/conversion-optimization/index.html"
+  },
+  "/services/design-systems/": {
+    "url": "/services/design-systems/",
+    "pageType": "service",
+    "metaTitle": "Design System Agency: Tokens, Components & Docs | Designit",
+    "metaDescription": "Design systems your engineers will adopt: audit, design tokens, Figma component libraries, documentation and governance for SaaS and enterprise products.",
+    "h1": "Design systems that help product teams ship consistently",
+    "primaryKeyword": "design system agency",
+    "secondaryKeywords": [
+      "design system services",
+      "design tokens",
+      "figma design system",
+      "design system governance",
+      "enterprise design system",
+      "design system for saas"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: design system engagement",
+    "funnelStage": "evaluation / buying",
+    "audience": [
+      "Heads of design",
+      "Engineering leads",
+      "Product leaders"
+    ],
+    "topicCluster": "Design Systems",
+    "pillarPage": "/services/design-systems/",
+    "parentTopic": "design systems",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-PROCESS-DS",
+      "EV-KELP-SCOPE",
+      "EV-ADDA-SCOPE",
+      "EV-BETACREW-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/saas-product-design/",
+      "/services/ux-audit/",
+      "/solutions/design-system-scaling/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/kelp-global/",
+      "/projects/betacrew/",
+      "/projects/adda247/"
+    ],
+    "aiAnswerTargets": [
+      "When do you need a design system?",
+      "What is included in a design system?",
+      "How long does it take to build a design system?",
+      "How do you get engineers to adopt a design system?"
+    ],
+    "cta": {
+      "heading": "Is your system being worked around?",
+      "body": "Show us your library and a few recent features. In 30 minutes we'll tell you whether you need a new system, a consolidation or just better documentation.",
+      "buttons": [
+        {
+          "label": "Discuss your design system",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Read: what a design system costs",
+          "href": "/blog/design-system-cost-india-2026/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P1",
+    "action": "KEEP + EXPAND",
+    "h2s": [
+      "When do you need a design system?",
+      "Signs your product has outgrown ad-hoc UI",
+      "What we build",
+      "Design system governance",
+      "Design system implementation",
+      "Design system ROI",
+      "Design systems for SaaS and enterprise",
+      "Case studies",
+      "What does a design system cost?",
+      "FAQ"
+    ],
+    "faq": [
+      "How long does it take to build a design system?",
+      "Do we need a design system at all?",
+      "Will this work with our existing codebase and framework?",
+      "What if we already have a design system that isn't working?",
+      "How do you make sure engineers actually adopt it?",
+      "Does the system include dark mode and theming?",
+      "Who maintains it after handover?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/design-system-cost-india-2026/",
+      "/projects/adda247/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/services/",
+      "/start-a-project/"
+    ],
+    "file": "services/design-systems/index.html"
+  },
+  "/services/mobile-app-design/": {
+    "url": "/services/mobile-app-design/",
+    "pageType": "service",
+    "metaTitle": "Mobile App Design Agency: iOS & Android UX | Designit",
+    "metaDescription": "Mobile app design for iOS and Android: research, flows, interface design, platform conventions, offline and slow-network states, prototypes and handoff.",
+    "h1": "Mobile app design for products people open every day",
+    "primaryKeyword": "mobile app design agency",
+    "secondaryKeywords": [
+      "mobile app ui ux design",
+      "ios app design",
+      "android app design",
+      "mobile app redesign",
+      "mobile apps dashboard design"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: mobile app design engagement",
+    "funnelStage": "evaluation / buying",
+    "audience": [
+      "Founders",
+      "Mobile product managers",
+      "Engineering leads"
+    ],
+    "topicCluster": "Product Design",
+    "pillarPage": "/services/product-design/",
+    "parentTopic": "mobile app design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-ADDA-SCOPE",
+      "EV-ADDA-IOS",
+      "EV-DELIVERY-BOUNDARY"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-audit/",
+      "/services/design-systems/"
+    ],
+    "relatedIndustries": [
+      "/industries/edtech/",
+      "/industries/fintech/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/adda247/ios-app/",
+      "/projects/adda247/sankalp-bharat/",
+      "/projects/adda247/studio-app/"
+    ],
+    "aiAnswerTargets": [
+      "How do you design a mobile app for iOS and Android?",
+      "Should iOS and Android apps look the same?",
+      "How much does mobile app design cost?"
+    ],
+    "cta": {
+      "heading": "Let's look at your app on a real phone",
+      "body": "Send us your app or prototype. In 30 minutes we'll walk the core flow on a mid-range device and tell you where people are likely to drop.",
+      "buttons": [
+        {
+          "label": "Discuss your app",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Read: mobile app design cost in India",
+          "href": "/blog/cost-ui-ux-design-mobile-app-india/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "Why mobile apps lose users",
+      "What we design",
+      "iOS and Android: same product, native behaviour",
+      "Designing for real devices and networks",
+      "Mobile app design process",
+      "Mobile app case studies",
+      "How much does mobile app design cost?",
+      "FAQ"
+    ],
+    "faq": [
+      "Should our iOS and Android apps look the same?",
+      "Do you design for tablets and iPad?",
+      "Can you redesign an existing app without disrupting current users?",
+      "Do you design for offline and low-bandwidth use?",
+      "Do you build the app?",
+      "How long does mobile app design take?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/cost-ui-ux-design-mobile-app-india/",
+      "/projects/adda247/ios-app/",
+      "/projects/adda247/sankalp-bharat/",
+      "/projects/adda247/studio-app/",
+      "/services/",
+      "/start-a-project/"
+    ],
+    "file": "services/mobile-app-design/index.html"
+  },
+  "/services/product-design/": {
+    "url": "/services/product-design/",
+    "pageType": "service",
+    "metaTitle": "Product Design Agency for Complex Products | Designit",
+    "metaDescription": "Senior-led product design: discovery, research, architecture, UX, UI, prototyping, design systems and developer handoff for new products and redesigns.",
+    "h1": "Product design that turns complexity into usable experiences",
+    "primaryKeyword": "product design agency",
+    "secondaryKeywords": [
+      "digital product design",
+      "product design services",
+      "product redesign",
+      "product discovery",
+      "mvp design",
+      "enterprise product design",
+      "ux ui product design",
+      "product design agency for startups"
+    ],
+    "searchIntent": "commercial / transactional",
+    "businessIntent": "Lead: product design engagement",
+    "funnelStage": "vendor / buying",
+    "audience": [
+      "Founders",
+      "Heads of product",
+      "CTOs"
+    ],
+    "topicCluster": "Startup Product Design",
+    "pillarPage": "/services/product-design/",
+    "parentTopic": "product design agency",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-PROCESS-PRODUCT",
+      "EV-TATA-SCOPE",
+      "EV-ADDA-SCOPE",
+      "EV-BETACREW-SCOPE",
+      "EV-RCENTRIC-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/saas-product-design/",
+      "/services/ux-research/",
+      "/services/design-systems/",
+      "/services/ux-audit/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/",
+      "/industries/automotive/",
+      "/industries/edtech/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/tata-elxsi/",
+      "/projects/adda247/",
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "What does a product design agency do?",
+      "When should you hire a product design partner?",
+      "What is product discovery?",
+      "How much does product design cost?",
+      "Product design vs UI/UX design"
+    ],
+    "cta": {
+      "heading": "Start a product conversation",
+      "body": "Tell us what you're building and what isn't working. Thirty minutes, no deck: we'll tell you what we would tackle first, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "See selected work",
+          "href": "/projects/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "What product design solves",
+      "When should you bring in a product design partner?",
+      "Product discovery: deciding what to build",
+      "Product strategy: structure before screens",
+      "What we cover",
+      "Product design for different stages",
+      "Our process",
+      "How we collaborate with product and engineering teams",
+      "Selected product design work",
+      "How much does product design cost?",
+      "FAQ"
+    ],
+    "faq": [
+      "What does a product design agency actually do?",
+      "How is product design different from UI/UX design?",
+      "Can you run discovery without committing to the full build?",
+      "How long does a product design engagement take?",
+      "Do you work on regulated or safety-critical products?",
+      "How do you handle disagreement about direction?",
+      "What if we already have a designer or a design team?",
+      "How do you measure success?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/",
+      "/projects/adda247/",
+      "/projects/betacrew/",
+      "/projects/rcentric/",
+      "/projects/tata-elxsi/",
+      "/services/",
+      "/services/design-systems/",
+      "/services/saas-product-design/",
+      "/services/ui-ux-design/",
+      "/services/ux-research/",
+      "/solutions/legacy-product-modernization/",
+      "/solutions/mvp-design/",
+      "/solutions/product-redesign/",
+      "/start-a-project/"
+    ],
+    "file": "services/product-design/index.html"
+  },
+  "/services/saas-product-design/": {
+    "url": "/services/saas-product-design/",
+    "pageType": "service",
+    "metaTitle": "SaaS Product Design Agency for B2B Products | Designit",
+    "metaDescription": "B2B SaaS product design: onboarding, dashboards, navigation, permissions and design systems, grounded in research with your users and built with your engineers.",
+    "h1": "SaaS product design for complex B2B products",
+    "primaryKeyword": "saas product design agency",
+    "secondaryKeywords": [
+      "b2b saas ux design",
+      "saas ui/ux design services",
+      "ui ux design services for saas",
+      "saas redesign",
+      "saas dashboard design",
+      "saas onboarding ux"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: SaaS design engagement",
+    "funnelStage": "vendor / buying",
+    "audience": [
+      "B2B SaaS founders",
+      "Heads of product",
+      "Product managers"
+    ],
+    "topicCluster": "B2B SaaS Product Design",
+    "pillarPage": "/services/saas-product-design/",
+    "parentTopic": "saas product design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-PROCESS-SAAS",
+      "EV-KELP-SCOPE",
+      "EV-BETACREW-SCOPE",
+      "EV-ADDA-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/ux-audit/",
+      "/services/design-systems/",
+      "/services/product-design/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/kelp-global/",
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "What makes SaaS UX difficult?",
+      "When does a SaaS product need a redesign?",
+      "How long does a SaaS redesign take?",
+      "How much does SaaS product design cost?",
+      "Who provides B2B SaaS UX design?"
+    ],
+    "cta": {
+      "heading": "Let's look at your product together",
+      "body": "Bring your dashboard or onboarding flow. In 30 minutes we'll tell you where users are likely dropping and what we would change first, whether or not you hire us.",
+      "buttons": [
+        {
+          "label": "Discuss your SaaS product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Start with a UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "What makes SaaS UX difficult?",
+      "When does a SaaS product need redesign?",
+      "SaaS problems we help solve",
+      "SaaS product design process",
+      "SaaS case studies",
+      "What does SaaS product design cost?",
+      "How long does a SaaS redesign take?",
+      "Related SaaS insights",
+      "FAQ"
+    ],
+    "faq": [
+      "How is this different from hiring a general UI/UX agency?",
+      "How long does a SaaS product design engagement take?",
+      "Do you work with our existing design system, or replace it?",
+      "Can you work with our engineering team's stack and sprint cadence?",
+      "How do you measure whether the design worked?",
+      "Who actually does the work?",
+      "Do you sign NDAs and work with regulated data?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/b2b-saas-ui-ux-design-services-india/",
+      "/blog/cro-strategies-for-b2b-saas-india/",
+      "/blog/saas-dashboard-design-best-practices/",
+      "/blog/saas-onboarding-ux-best-practices-india/",
+      "/projects/adda247/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/services/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "services/saas-product-design/index.html"
+  },
+  "/services/ui-ux-design/": {
+    "url": "/services/ui-ux-design/",
+    "pageType": "service",
+    "metaTitle": "UI/UX Design Company & Studio in India | Designit",
+    "metaDescription": "A senior UI/UX design studio in Noida, India: research, information architecture, interface and interaction design, and design QA for software people use daily.",
+    "h1": "A UI/UX design studio for software people use every day",
+    "primaryKeyword": "ui ux design company",
+    "secondaryKeywords": [
+      "ui ux design studio",
+      "ui ux studio",
+      "ui ux design services in india",
+      "ui ux design consulting",
+      "ui/ux design company",
+      "ui/ux studio",
+      "ui ux designing company"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: design engagement",
+    "funnelStage": "vendor",
+    "audience": [
+      "Founders",
+      "Product managers",
+      "Engineering leads"
+    ],
+    "topicCluster": "Product Design",
+    "pillarPage": "/services/product-design/",
+    "parentTopic": "ui ux design company",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-PROCESS-UIUX",
+      "EV-BETACREW-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-audit/",
+      "/services/design-systems/"
+    ],
+    "relatedIndustries": [
+      "/industries/automotive/",
+      "/industries/e-commerce/",
+      "/industries/fintech/",
+      "/industries/edtech/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "What does a UI/UX design company do?",
+      "What is the difference between UI and UX design?",
+      "How do I choose a UI/UX design agency?"
+    ],
+    "cta": {
+      "heading": "Tell us what isn't working",
+      "body": "Thirty minutes, no deck. Bring the screens your users struggle with and we'll tell you what we would change first.",
+      "buttons": [
+        {
+          "label": "Discuss your product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "How to choose a design agency",
+          "href": "/blog/how-to-choose-a-product-design-agency/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P1",
+    "action": "KEEP + RETARGET",
+    "h2s": [
+      "What does a UI/UX design company do?",
+      "What usually brings teams to us",
+      "What you get",
+      "UI/UX design consulting",
+      "How the engagement runs",
+      "Selected work",
+      "How much does UI/UX design cost?",
+      "FAQ"
+    ],
+    "faq": [
+      "What's the difference between UI and UX design, practically?",
+      "Do you work with our existing brand and design language?",
+      "Can you work with our in-house designers?",
+      "What happens after handover?",
+      "Will we get juniors after the pitch?",
+      "Do you design for accessibility?",
+      "Where are you based, and who do you work with?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/how-to-choose-a-product-design-agency/",
+      "/locations/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/projects/tata-elxsi/",
+      "/services/",
+      "/services/branding/",
+      "/services/product-design/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "services/ui-ux-design/index.html"
+  },
+  "/services/ux-audit/": {
+    "url": "/services/ux-audit/",
+    "pageType": "service",
+    "metaTitle": "UX Audit Services for SaaS, Websites & Apps | Designit",
+    "metaDescription": "A fixed-scope UX audit for SaaS products, websites and apps: heuristic review, analytics evidence, an accessibility pass and a prioritised fix list.",
+    "h1": "Find the friction before it costs you users",
+    "primaryKeyword": "ux audit services",
+    "secondaryKeywords": [
+      "ux audit agency",
+      "ux audit company",
+      "user experience audit services",
+      "website ux audit",
+      "saas ux audit",
+      "design audit",
+      "heuristic evaluation",
+      "website ux audit company"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: request an audit (lowest-risk first engagement)",
+    "funnelStage": "evaluation / buying",
+    "audience": [
+      "SaaS founders",
+      "Heads of product",
+      "Growth and marketing leads"
+    ],
+    "topicCluster": "UX Audit",
+    "pillarPage": "/services/ux-audit/",
+    "parentTopic": "ux audit",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-PROCESS-AUDIT",
+      "EV-ADDA-SCOPE",
+      "EV-KELP-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/ux-research/",
+      "/services/saas-product-design/",
+      "/services/conversion-optimization/",
+      "/services/website-design/"
+    ],
+    "relatedIndustries": [
+      "/industries/b2b-saas/",
+      "/industries/e-commerce/",
+      "/industries/fintech/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/adda247/",
+      "/projects/kelp-global/"
+    ],
+    "aiAnswerTargets": [
+      "What is a UX audit?",
+      "What does a UX audit include?",
+      "How long does a UX audit take?",
+      "How much does a UX audit cost?",
+      "UX audit vs UX research",
+      "UX audit vs usability testing"
+    ],
+    "cta": {
+      "heading": "Request a UX audit",
+      "body": "Tell us what isn't working. In a 30-minute call we agree which journeys are worth auditing, and you get a fixed written scope before any work starts.",
+      "buttons": [
+        {
+          "label": "Request a UX audit",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Use the free UX audit checklist",
+          "href": "/blog/ux-audit-checklist/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "What is a UX audit?",
+      "What problems can a UX audit reveal?",
+      "When should you conduct a UX audit?",
+      "What we evaluate",
+      "Our UX audit methodology",
+      "What you receive",
+      "How long does a UX audit take?",
+      "How much does a UX audit cost?",
+      "UX audit vs UX research vs usability testing",
+      "SaaS, website and mobile app UX audits",
+      "UX audit examples",
+      "Diagnostic work behind our design engagements",
+      "FAQ"
+    ],
+    "faq": [
+      "What is a UX audit?",
+      "Is a UX audit the same as a design audit?",
+      "How much does a UX audit cost?",
+      "What do I actually receive at the end?",
+      "How long does a UX audit take?",
+      "How is a paid audit different from a free one an agency offers?",
+      "Do you need access to our analytics?",
+      "Will you also fix the problems you find?",
+      "Can you audit a product that hasn't launched?",
+      "Should we start with a UX audit or UX research?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/landing-page-conversion-audit-services-india/",
+      "/blog/ui-ux-audit-for-website-india/",
+      "/blog/ui-ux-design-pricing-india-2026/",
+      "/blog/ux-audit-checklist/",
+      "/industries/e-commerce/",
+      "/industries/fintech/",
+      "/projects/adda247/",
+      "/projects/kelp-global/",
+      "/services/",
+      "/services/mobile-app-design/",
+      "/services/saas-product-design/",
+      "/services/ux-research/",
+      "/services/website-design/",
+      "/start-a-project/"
+    ],
+    "file": "services/ux-audit/index.html"
+  },
+  "/services/ux-research/": {
+    "url": "/services/ux-research/",
+    "pageType": "service",
+    "metaTitle": "UX Research Services: Interviews & Testing | Designit",
+    "metaDescription": "UX research consulting for product teams: user interviews, usability testing, journey mapping and concept tests, framed around the decision you need to make.",
+    "h1": "Research that turns product uncertainty into decisions",
+    "primaryKeyword": "ux research services",
+    "secondaryKeywords": [
+      "ux research consulting",
+      "user research agency",
+      "usability testing services",
+      "user interviews",
+      "ux research agency"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: research study",
+    "funnelStage": "evaluation / buying",
+    "audience": [
+      "Heads of product",
+      "Product managers",
+      "Founders"
+    ],
+    "topicCluster": "UX Research",
+    "pillarPage": "/services/ux-research/",
+    "parentTopic": "ux research",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-PROCESS-RESEARCH",
+      "EV-ADDA-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/ux-audit/",
+      "/services/product-design/",
+      "/services/saas-product-design/"
+    ],
+    "relatedIndustries": [
+      "/industries/edtech/",
+      "/industries/b2b-saas/",
+      "/industries/automotive/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/adda247/",
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "When should product teams invest in UX research?",
+      "What UX research methods are there?",
+      "How many users do you need to interview?",
+      "UX research vs UX audit",
+      "What does UX research cost?"
+    ],
+    "cta": {
+      "heading": "What decision are you stuck on?",
+      "body": "Tell us the decision. In 30 minutes we'll tell you what research would actually resolve it, and whether you need research at all, because sometimes you don't.",
+      "buttons": [
+        {
+          "label": "Scope a research study",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Start with a UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "When should product teams invest in research?",
+      "Research methods",
+      "Research across the product lifecycle",
+      "Research deliverables",
+      "How research changes product decisions",
+      "SaaS and enterprise UX research",
+      "How a study runs",
+      "What does UX research cost?",
+      "FAQ"
+    ],
+    "faq": [
+      "What is UX research consulting?",
+      "How many users do you need to interview?",
+      "Can you recruit participants, or do we provide them?",
+      "How is UX research different from a UX audit?",
+      "What do we get at the end?",
+      "Do you do quantitative research too?",
+      "Can you run research on a product that hasn't launched?"
+    ],
+    "internalLinks": [
+      "/",
+      "/services/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "services/ux-research/index.html"
+  },
+  "/services/website-design/": {
+    "url": "/services/website-design/",
+    "pageType": "service",
+    "metaTitle": "Website Design & Redesign for B2B and SaaS | Designit",
+    "metaDescription": "Website design and redesign for B2B, SaaS and technology companies: strategy, website architecture, UX, UI, content structure, conversion design and handoff.",
+    "h1": "Websites built to explain, convince and convert",
+    "primaryKeyword": "website redesign",
+    "secondaryKeywords": [
+      "website design",
+      "redesign of website",
+      "revamping a website",
+      "website ux",
+      "landing page ux",
+      "b2b website design",
+      "saas website design",
+      "website architecture",
+      "website redesign agency",
+      "website ux redesign"
+    ],
+    "searchIntent": "commercial",
+    "businessIntent": "Lead: website project",
+    "funnelStage": "evaluation / buying",
+    "audience": [
+      "Founders",
+      "Marketing leads",
+      "Heads of growth"
+    ],
+    "topicCluster": "Website Redesign",
+    "pillarPage": "/services/website-design/",
+    "parentTopic": "website redesign",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "Service",
+    "evidenceIds": [
+      "EV-RCENTRIC-SCOPE",
+      "EV-OWNER-WEBSITE-SERVICE",
+      "EV-DELIVERY-BOUNDARY"
+    ],
+    "relatedServices": [
+      "/services/conversion-optimization/",
+      "/services/ux-audit/",
+      "/services/branding/"
+    ],
+    "relatedIndustries": [
+      "/industries/real-estate/",
+      "/industries/b2b-saas/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/rcentric/",
+      "/projects/adda247/homepage-revamp/"
+    ],
+    "aiAnswerTargets": [
+      "How do I redesign a website?",
+      "How do you redesign a website without losing SEO?",
+      "What makes a technology website convert?",
+      "How much does a website redesign cost?"
+    ],
+    "cta": {
+      "heading": "Is your website explaining you, or hiding you?",
+      "body": "Send us your site and the page that matters most. In 30 minutes we'll tell you where buyers are likely getting lost and what we would change first.",
+      "buttons": [
+        {
+          "label": "Discuss your website",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Start with a website UX audit",
+          "href": "/services/ux-audit/#audits-by-product-type"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "quarterly",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "Why websites underperform",
+      "Website strategy",
+      "Information architecture and website architecture",
+      "UX, UI and content structure",
+      "Where our work ends and build begins",
+      "Website redesign",
+      "Landing page optimization",
+      "Website design case studies",
+      "Website redesign cost",
+      "FAQ"
+    ],
+    "faq": [
+      "How do you redesign a website without losing SEO?",
+      "How long does a website redesign take?",
+      "Do you also build the website?",
+      "Can you design for Webflow or WordPress?",
+      "Do you write the copy?",
+      "What should a B2B or SaaS website include?",
+      "Should we redesign or optimise what we have?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/how-to-improve-website-conversion-rate-india/",
+      "/blog/landing-page-conversion-audit-services-india/",
+      "/blog/why-website-not-converting-visitors-india/",
+      "/projects/rcentric/",
+      "/services/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "services/website-design/index.html"
+  },
+  "/solutions/": {
+    "url": "/solutions/",
+    "pageType": "hub",
+    "metaTitle": "Product Design Solutions by Problem | Designit",
+    "metaDescription": "Start from the problem you have: launching an MVP, redesigning a product, modernising legacy UX, scaling a design system or improving conversion.",
+    "h1": "Start with the problem you have",
+    "primaryKeyword": "product design solutions",
+    "searchIntent": "problem-aware / navigational",
+    "funnelStage": "problem-aware",
+    "topicCluster": "Hub",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "CollectionPage",
+    "cta": {
+      "heading": "Not sure which one you're in?",
+      "body": "Answer a few questions and we'll recommend where to start: an audit, discovery, a redesign or something smaller.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "Launch",
+      "Improve",
+      "Modernize"
+    ],
+    "faq": [],
+    "internalLinks": [
+      "/",
+      "/services/",
+      "/solutions/conversion-improvement/",
+      "/solutions/design-system-scaling/",
+      "/solutions/legacy-product-modernization/",
+      "/solutions/mvp-design/",
+      "/solutions/product-redesign/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/index.html"
+  },
+  "/solutions/conversion-improvement/": {
+    "url": "/solutions/conversion-improvement/",
+    "pageType": "solution",
+    "metaTitle": "How to Improve Website & SaaS Conversion with UX | Designit",
+    "metaDescription": "Improve website and SaaS conversion by finding where motivated visitors lose intent: separate traffic, offer and experience problems, then fix by impact.",
+    "h1": "Improve conversion by fixing the experience, not the button colour",
+    "primaryKeyword": "website conversion improvement",
+    "secondaryKeywords": [
+      "improve saas conversion",
+      "ux conversion optimization",
+      "increase website conversion rate",
+      "trial to paid conversion"
+    ],
+    "searchIntent": "problem-aware",
+    "businessIntent": "Lead: conversion audit",
+    "funnelStage": "problem-aware",
+    "audience": [
+      "Founders",
+      "Heads of growth"
+    ],
+    "topicCluster": "Website Redesign",
+    "pillarPage": "/services/conversion-optimization/",
+    "parentTopic": "conversion improvement",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-RCENTRIC-QUALIFICATION"
+    ],
+    "relatedServices": [
+      "/services/conversion-optimization/",
+      "/services/ux-audit/",
+      "/services/website-design/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/rcentric/"
+    ],
+    "aiAnswerTargets": [
+      "How do I improve my website conversion rate?",
+      "Why is my SaaS trial-to-paid conversion low?",
+      "Is low conversion a traffic or UX problem?"
+    ],
+    "cta": {
+      "heading": "Find the leak before you fix it",
+      "body": "Share your funnel and we'll tell you where we'd look first, and whether it's an experience problem at all.",
+      "buttons": [
+        {
+          "label": "Discuss your funnel",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Start with a UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What should you do first?",
+      "Traffic, offer or experience?",
+      "How we help",
+      "Related work",
+      "Related reading",
+      "FAQ"
+    ],
+    "faq": [
+      "How do I know if low conversion is a UX problem?",
+      "What is usually the biggest leak?",
+      "Do we need a redesign to improve conversion?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/how-to-improve-website-conversion-rate-india/",
+      "/blog/saas-onboarding-ux-best-practices-india/",
+      "/blog/why-website-not-converting-visitors-india/",
+      "/projects/rcentric/",
+      "/services/conversion-optimization/",
+      "/services/ux-audit/",
+      "/solutions/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/conversion-improvement/index.html"
+  },
+  "/solutions/design-system-scaling/": {
+    "url": "/solutions/design-system-scaling/",
+    "pageType": "solution",
+    "metaTitle": "Scaling a Design System Across Products & Teams | Designit",
+    "metaDescription": "Scale a design system across products, platforms and teams: shared tokens, multi-brand theming, governance and an adoption plan your engineers will follow.",
+    "h1": "Scale a design system across products and teams",
+    "primaryKeyword": "scaling design systems",
+    "secondaryKeywords": [
+      "enterprise design system",
+      "design system governance",
+      "multi-brand design system",
+      "design system for multiple products"
+    ],
+    "searchIntent": "problem-aware / commercial",
+    "businessIntent": "Lead: design system engagement",
+    "funnelStage": "solution-aware",
+    "audience": [
+      "Heads of design",
+      "Engineering leads"
+    ],
+    "topicCluster": "Design Systems",
+    "pillarPage": "/services/design-systems/",
+    "parentTopic": "design system scaling",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-KELP-SCOPE",
+      "EV-RCENTRIC-SCOPE",
+      "EV-BETACREW-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/design-systems/",
+      "/services/saas-product-design/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/kelp-global/",
+      "/projects/rcentric/",
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "How do you scale a design system?",
+      "What is design system governance?",
+      "How do you theme a design system for multiple brands?"
+    ],
+    "cta": {
+      "heading": "Will your system survive the next product?",
+      "body": "Show us your library and your roadmap. We'll tell you what breaks first as you scale, and what to fix now.",
+      "buttons": [
+        {
+          "label": "Discuss your system",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What should you do first?",
+      "You're in this situation if",
+      "How we help",
+      "Systems shared across products",
+      "FAQ"
+    ],
+    "faq": [
+      "What is design system governance?",
+      "How do you support multiple brands or white-label products?",
+      "Should every team use the same components?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/projects/rcentric/",
+      "/services/design-systems/",
+      "/solutions/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/design-system-scaling/index.html"
+  },
+  "/solutions/legacy-product-modernization/": {
+    "url": "/solutions/legacy-product-modernization/",
+    "pageType": "solution",
+    "metaTitle": "Legacy Product UX Modernization for Enterprise | Designit",
+    "metaDescription": "Modernise a legacy or enterprise product's UX without stopping the business: map real workflows, protect power users and sequence migration with engineering.",
+    "h1": "Modernise a legacy product without stopping the business",
+    "primaryKeyword": "legacy ux modernization",
+    "secondaryKeywords": [
+      "enterprise ux modernization",
+      "outdated product redesign",
+      "legacy application redesign",
+      "modernize legacy software ux"
+    ],
+    "searchIntent": "problem-aware / commercial",
+    "businessIntent": "Lead: modernization programme",
+    "funnelStage": "solution-aware",
+    "audience": [
+      "Enterprise product leaders",
+      "CTOs"
+    ],
+    "topicCluster": "Startup Product Design",
+    "pillarPage": "/services/product-design/",
+    "parentTopic": "legacy modernization",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-BETACREW-SCOPE",
+      "EV-ADDA-LIVECLASS"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-research/",
+      "/services/design-systems/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/betacrew/",
+      "/projects/adda247/live-class/"
+    ],
+    "aiAnswerTargets": [
+      "How do you modernize a legacy product's UX?",
+      "How do you redesign enterprise software without disrupting users?"
+    ],
+    "cta": {
+      "heading": "Map it before you change it",
+      "body": "Tell us about the product and the people who rely on it. We'll suggest where modernisation should start and what to leave alone for now.",
+      "buttons": [
+        {
+          "label": "Discuss your modernization",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What should you do first?",
+      "You're in this situation if",
+      "How we help",
+      "Related work",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "Should we rebuild or modernise incrementally?",
+      "How do you avoid slowing down expert users?",
+      "Can you work within enterprise procurement and security requirements?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/adda247/live-class/",
+      "/projects/betacrew/",
+      "/services/product-design/",
+      "/solutions/",
+      "/solutions/design-system-scaling/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/legacy-product-modernization/index.html"
+  },
+  "/solutions/mvp-design/": {
+    "url": "/solutions/mvp-design/",
+    "pageType": "solution",
+    "metaTitle": "MVP Design for Startups: Discovery to Launch | Designit",
+    "metaDescription": "MVP design for startups: product discovery, the core flow designed properly, prototypes tested with real users, and foundations you won't need to replace.",
+    "h1": "MVP design: launch the smallest product that proves the point",
+    "primaryKeyword": "mvp design",
+    "secondaryKeywords": [
+      "startup product design",
+      "product discovery",
+      "mvp ux design",
+      "mvp ui design",
+      "mvp design agency"
+    ],
+    "searchIntent": "problem-aware / commercial",
+    "businessIntent": "Lead: discovery + MVP engagement",
+    "funnelStage": "solution-aware",
+    "audience": [
+      "Founders",
+      "First product managers"
+    ],
+    "topicCluster": "Startup Product Design",
+    "pillarPage": "/services/product-design/",
+    "parentTopic": "mvp design",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-PROCESS-PRODUCT",
+      "EV-BETACREW-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/product-design/",
+      "/services/ux-research/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/betacrew/"
+    ],
+    "aiAnswerTargets": [
+      "What should an MVP include?",
+      "How do you design an MVP?",
+      "How long does MVP design take?"
+    ],
+    "cta": {
+      "heading": "What does your first version need to prove?",
+      "body": "Tell us the idea and the users. We'll tell you what we would put in the first release, and what we would deliberately leave out.",
+      "buttons": [
+        {
+          "label": "Discuss your MVP",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What should you do first?",
+      "You're in this situation if",
+      "How we help",
+      "Your options, honestly compared",
+      "Related work",
+      "Related reading",
+      "FAQ"
+    ],
+    "faq": [
+      "What should an MVP include?",
+      "How long does MVP design take?",
+      "Do we need discovery if we already know our users?",
+      "Will the MVP design need to be thrown away later?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/freelancer-vs-design-agency-startups/",
+      "/blog/hire-ui-ux-designer-vs-agency-india/",
+      "/blog/how-to-choose-a-product-design-agency/",
+      "/projects/betacrew/",
+      "/services/product-design/",
+      "/solutions/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/mvp-design/index.html"
+  },
+  "/solutions/product-redesign/": {
+    "url": "/solutions/product-redesign/",
+    "pageType": "solution",
+    "metaTitle": "Product Redesign: Fix Adoption Without a Rebuild | Designit",
+    "metaDescription": "Product and SaaS redesign that starts from evidence: find where users struggle, fix structure before styling, and keep what already works for current customers.",
+    "h1": "Product redesign without breaking what already works",
+    "primaryKeyword": "product redesign",
+    "secondaryKeywords": [
+      "saas redesign",
+      "redesign saas product",
+      "legacy product ux",
+      "product modernization",
+      "app redesign"
+    ],
+    "searchIntent": "problem-aware / commercial",
+    "businessIntent": "Lead: audit then redesign",
+    "funnelStage": "solution-aware",
+    "audience": [
+      "Heads of product",
+      "SaaS founders"
+    ],
+    "topicCluster": "B2B SaaS Product Design",
+    "pillarPage": "/services/saas-product-design/",
+    "parentTopic": "product redesign",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-ADDA-SCOPE",
+      "EV-KELP-SCOPE"
+    ],
+    "relatedServices": [
+      "/services/ux-audit/",
+      "/services/saas-product-design/",
+      "/services/design-systems/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/adda247/",
+      "/projects/kelp-global/"
+    ],
+    "aiAnswerTargets": [
+      "When does a product need a redesign?",
+      "How do you redesign a SaaS product?",
+      "How long does a product redesign take?"
+    ],
+    "cta": {
+      "heading": "Find out what actually needs redesigning",
+      "body": "A two-week audit tells you which problems cost users and money, and whether you need a redesign at all.",
+      "buttons": [
+        {
+          "label": "Discuss your redesign",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "CREATE",
+    "h2s": [
+      "What should you do first?",
+      "You're in this situation if",
+      "Redesign, refactor or targeted fixes?",
+      "How we help",
+      "Related work",
+      "FAQ"
+    ],
+    "faq": [
+      "How do we know if we need a redesign?",
+      "How long does a product redesign take?",
+      "How do you avoid upsetting existing users?",
+      "Can our engineers keep shipping during the redesign?"
+    ],
+    "internalLinks": [
+      "/",
+      "/projects/adda247/",
+      "/projects/kelp-global/",
+      "/services/ux-audit/",
+      "/solutions/",
+      "/start-a-project/"
+    ],
+    "file": "solutions/product-redesign/index.html"
+  },
+  "/start-a-project/": {
+    "url": "/start-a-project/",
+    "pageType": "tool",
+    "metaTitle": "Start a Project: Product Scope & Fit Assessment | Designit",
+    "metaDescription": "Tell us what you're building and what isn't working. Ten short questions, and we recommend where to start: a UX audit, discovery, an MVP, a redesign or more.",
+    "h1": "Tell us what isn't working",
+    "primaryKeyword": "start a design project",
+    "searchIntent": "transactional",
+    "businessIntent": "Qualified lead capture + CRM segmentation",
+    "funnelStage": "vendor-ready",
+    "topicCluster": "Conversion",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "conversionEvent": "form_submit",
+    "refreshInterval": "quarterly",
+    "priority": "P0",
+    "action": "CREATE",
+    "h2s": [
+      "FAQ"
+    ],
+    "faq": [
+      "What happens after I send this?",
+      "Do I need to know which service I need?",
+      "Is the budget question required?",
+      "Would you rather talk first?"
+    ],
+    "internalLinks": [
+      "/",
+      "/privacy-policy/",
+      "/services/"
+    ],
+    "file": "start-a-project/index.html"
+  },
+  "/ui-ux-design-agency-uk/": {
+    "url": "/ui-ux-design-agency-uk/",
+    "pageType": "location",
+    "metaTitle": "UI/UX Design Agency for UK Software Teams | Designit",
+    "metaDescription": "Senior UI/UX and product design for UK software teams: a shared working day, WCAG 2.2 AA and GDPR-aware flows, GBP invoicing and full IP assignment.",
+    "h1": "A senior design partner for UK software teams, in your working day",
+    "primaryKeyword": "ui ux design agency uk",
+    "secondaryKeywords": [
+      "product design agency uk",
+      "ux design agency london",
+      "saas design agency uk"
+    ],
+    "searchIntent": "commercial / vendor",
+    "businessIntent": "Lead: UK client",
+    "funnelStage": "vendor",
+    "audience": [
+      "UK SaaS founders",
+      "UK product leaders"
+    ],
+    "topicCluster": "Locations",
+    "pillarPage": "/locations/",
+    "parentTopic": "ui ux design agency uk",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-BETACREW-SCOPE",
+      "EV-OWNER-GBP-INVOICING",
+      "EV-MARKETS"
+    ],
+    "relatedServices": [
+      "/services/saas-product-design/",
+      "/services/ux-audit/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/betacrew/",
+      "/projects/kelp-global/"
+    ],
+    "cta": {
+      "heading": "Same working day, senior design team",
+      "body": "We usually suggest starting with a two-week UX audit, a low-risk way to test the working relationship.",
+      "buttons": [
+        {
+          "label": "Discuss your product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "What UK software teams tend to need",
+      "How we work with UK teams",
+      "Relevant work",
+      "Remote, and upfront about it",
+      "FAQ"
+    ],
+    "faq": [
+      "How does the time difference work with UK teams?",
+      "Do you have a UK office?",
+      "Do you design to WCAG 2.2 and UK accessibility requirements?",
+      "How do you handle UK GDPR in design?",
+      "Can you work with UK public sector or regulated clients?"
+    ],
+    "internalLinks": [
+      "/",
+      "/locations/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "ui-ux-design-agency-uk/index.html"
+  },
+  "/ui-ux-design-agency-usa/": {
+    "url": "/ui-ux-design-agency-usa/",
+    "pageType": "location",
+    "metaTitle": "UI/UX Design Agency for US Software Companies | Designit",
+    "metaDescription": "A senior UI/UX and product design team for US SaaS and enterprise companies: EST/PST overlap, ADA and WCAG 2.1 AA as standard, USD contracts and IP assignment.",
+    "h1": "A senior design team for US software companies",
+    "primaryKeyword": "ui ux design agency usa",
+    "secondaryKeywords": [
+      "ui ux design companies in usa",
+      "product design agency usa",
+      "saas design agency us"
+    ],
+    "searchIntent": "commercial / vendor",
+    "businessIntent": "Lead: US client",
+    "funnelStage": "vendor",
+    "audience": [
+      "US SaaS founders",
+      "US product leaders"
+    ],
+    "topicCluster": "Locations",
+    "pillarPage": "/locations/",
+    "parentTopic": "ui ux design agency usa",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-KELP-SCOPE",
+      "EV-OWNER-USD-CONTRACTS",
+      "EV-MARKETS"
+    ],
+    "relatedServices": [
+      "/services/saas-product-design/",
+      "/services/ux-audit/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/kelp-global/",
+      "/projects/betacrew/"
+    ],
+    "cta": {
+      "heading": "Senior design capacity this quarter, not after a long hire",
+      "body": "Tell us about your product and timeline. We usually suggest starting with a two-week UX audit, to test working together across the distance.",
+      "buttons": [
+        {
+          "label": "Discuss your product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "UX audit",
+          "href": "/services/ux-audit/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "What US software teams tend to need",
+      "How we work with US teams",
+      "Relevant work",
+      "The honest trade-off",
+      "FAQ"
+    ],
+    "faq": [
+      "How do you handle the time difference with US teams?",
+      "Do you have a US office?",
+      "Do you design to ADA and WCAG standards?",
+      "How do you handle IP, NDAs and contracting?",
+      "How quickly can you start?"
+    ],
+    "internalLinks": [
+      "/",
+      "/locations/",
+      "/projects/betacrew/",
+      "/projects/kelp-global/",
+      "/projects/tata-elxsi/",
+      "/services/ux-audit/",
+      "/start-a-project/"
+    ],
+    "file": "ui-ux-design-agency-usa/index.html"
+  },
+  "/ux-design-agency-dubai/": {
+    "url": "/ux-design-agency-dubai/",
+    "pageType": "location",
+    "metaTitle": "UX Design Agency for Dubai & the UAE: Arabic RTL | Designit",
+    "metaDescription": "UX and product design for Dubai and UAE companies: Arabic RTL done properly, luxury property experiences, regulated fintech flows and a shared working day.",
+    "h1": "A UX design partner for the UAE, with the work to prove it",
+    "primaryKeyword": "ux design agency dubai",
+    "secondaryKeywords": [
+      "ui ux design company dubai",
+      "arabic rtl ux design",
+      "proptech design dubai",
+      "ux agency uae"
+    ],
+    "searchIntent": "commercial / vendor",
+    "businessIntent": "Lead: UAE client",
+    "funnelStage": "vendor",
+    "audience": [
+      "UAE developers",
+      "UAE fintech and PropTech founders"
+    ],
+    "topicCluster": "Locations",
+    "pillarPage": "/locations/",
+    "parentTopic": "ux design agency dubai",
+    "author": "Designit",
+    "updatedAt": "2026-10-04",
+    "schemaType": "WebPage",
+    "evidenceIds": [
+      "EV-RCENTRIC-SCOPE",
+      "EV-MARKETS"
+    ],
+    "relatedServices": [
+      "/services/website-design/",
+      "/services/design-systems/"
+    ],
+    "relatedIndustries": [
+      "/industries/real-estate/",
+      "/industries/fintech/"
+    ],
+    "relatedCaseStudies": [
+      "/projects/rcentric/"
+    ],
+    "cta": {
+      "heading": "Bilingual from the first wireframe",
+      "body": "Tell us about your audience and markets. We'll show you how we would structure the product for English and Arabic from the start.",
+      "buttons": [
+        {
+          "label": "Discuss your product",
+          "href": "/start-a-project/",
+          "event": "start_project"
+        },
+        {
+          "label": "Arabic RTL guide",
+          "href": "/blog/arabic-rtl-ux-design-proptech-uae/"
+        }
+      ]
+    },
+    "conversionEvent": "start_project",
+    "refreshInterval": "6 months",
+    "priority": "P1",
+    "action": "KEEP + REWRITE",
+    "h2s": [
+      "What working in the UAE actually requires",
+      "How we work with UAE teams",
+      "Work in Dubai",
+      "Related",
+      "FAQ"
+    ],
+    "faq": [
+      "Do you have actual UAE experience, or just a Dubai landing page?",
+      "How do you handle Arabic RTL properly?",
+      "Can you work with DIFC or ADGM-regulated entities?",
+      "What are your working hours relative to the UAE?",
+      "Do you work in Abu Dhabi and the wider Gulf?",
+      "Can you handle English and Arabic in one design system?"
+    ],
+    "internalLinks": [
+      "/",
+      "/blog/arabic-rtl-ux-design-proptech-uae/",
+      "/blog/ui-ux-design-agency-dubai-proptech/",
+      "/industries/real-estate/",
+      "/locations/",
+      "/projects/rcentric/",
+      "/start-a-project/"
+    ],
+    "file": "ux-design-agency-dubai/index.html"
+  }
+}

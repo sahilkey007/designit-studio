@@ -1,0 +1,50 @@
+{
+  "url": "/industries/real-estate/", "pageType": "industry", "action": "KEEP + REPOSITION AS PROPTECH", "priority": "P1",
+  "metaTitle": "PropTech & Real Estate Design Agency | Designit",
+  "metaDescription": "PropTech and luxury real estate design: property experiences, enquiry qualification, unit explorers, asset-heavy performance and Arabic RTL for Gulf markets.",
+  "h1": "PropTech and real estate design, where the website is the first viewing",
+  "eyebrow": ["PropTech", "Luxury property", "Arabic RTL"],
+  "subtitle": "For a high-value development, the digital experience is where a buyer decides whether to take the call. We design property platforms that hold attention long enough to produce a qualified enquiry, not a form fill from someone who will never transact.",
+  "ctas": [{"label": "Discuss your property platform", "href": "/start-a-project/", "event": "start_project"}, {"label": "See the Rcentric case study", "href": "/projects/rcentric/"}],
+  "breadcrumb": [["Home", "/"], ["Industries", "/industries/"], ["PropTech & Real Estate", "/industries/real-estate/"]],
+  "about": ["PropTech", "Real estate website design", "Luxury property UX"],
+  "primaryKeyword": "proptech design agency", "secondaryKeywords": ["real estate website design", "luxury property website design", "proptech ux", "real estate ux design dubai"],
+  "searchIntent": "commercial", "businessIntent": "Lead: property platform engagement", "funnelStage": "evaluation",
+  "audience": ["Developers", "Brokerages", "PropTech founders"], "topicCluster": "PropTech", "pillarPage": "/industries/real-estate/", "parentTopic": "proptech design",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "WebPage", "evidenceIds": ["EV-RCENTRIC-SCOPE", "EV-RCENTRIC-QUALIFICATION"],
+  "relatedServices": ["/services/website-design/", "/services/design-systems/", "/services/conversion-optimization/"], "relatedCaseStudies": ["/projects/rcentric/"],
+  "aiAnswerTargets": ["How do you increase qualified property enquiries?", "How do you design Arabic RTL property websites?"],
+  "conversionEvent": "start_project", "refreshInterval": "6 months",
+  "cta": {"heading": "Make the first viewing count", "body": "Show us your current property site and enquiry flow. We'll tell you where serious buyers are likely dropping off.", "buttons": [{"label": "Discuss your property platform", "href": "/start-a-project/", "event": "start_project"}, {"label": "UX design in Dubai", "href": "/ux-design-agency-dubai/"}]},
+  "sections": [
+    {"type": "cards", "id": "what-property-design-has-to-solve", "heading": "What property design actually has to solve",
+     "items": [
+       {"title": "Enquiry volume is the wrong metric", "body": "In high-value property the job is qualification, not capture. Fewer, better enquiries beat more of them."},
+       {"title": "Luxury is communicated through restraint", "body": "Premium positioning is carried by pacing, typography, whitespace and image quality, not by more features."},
+       {"title": "The assets are enormous", "body": "Renders, fly-throughs and 4K photography presented at the quality the property demands, while staying usable on a phone."},
+       {"title": "Gulf markets are not a translation job", "body": "Arabic RTL mirrors layout, but numerals, icons, floorplan orientation and reading gravity follow their own rules."}
+     ]},
+    {"type": "cards", "id": "what-we-design", "heading": "What we design",
+     "items": [
+       {"title": "Project presentation experiences", "body": "Location, architecture, amenity and unit detail sequenced in the order that builds conviction."},
+       {"title": "Enquiry and qualification journeys", "body": "Progressive qualification by budget band, timeline and unit type, without feeling like an interrogation. We applied this at Rcentric."},
+       {"title": "Unit and floorplate explorers", "body": "Availability, comparison and orientation tools that let serious buyers self-serve detail."},
+       {"title": "Asset-heavy performance", "body": "Art direction and loading strategy that keep render quality and mobile usability."},
+       {"title": "Arabic RTL and multi-market", "body": "Genuine bidirectional design for UAE and wider Gulf audiences.", "href": "/blog/arabic-rtl-ux-design-proptech-uae/", "more": "Arabic RTL guide"},
+       {"title": "Multi-property design systems", "body": "A shared system so each new launch takes weeks rather than months, the pattern behind seven Rcentric properties."}
+     ]},
+    {"type": "work", "id": "selected-proptech-work", "heading": "Selected PropTech work", "intro": "Digital experiences for Omniyat, LIV Residences, Orla Infinity, Opus, Anwa Aria, Ela and Vela Viento.", "items": ["rcentric"]},
+    {"type": "links", "id": "related-insights", "heading": "Related insights",
+     "items": [
+       {"title": "Arabic RTL UX design for PropTech", "href": "/blog/arabic-rtl-ux-design-proptech-uae/", "body": "Designing bilingual property apps for the UAE."},
+       {"title": "UI/UX design for Dubai PropTech", "href": "/blog/ui-ux-design-agency-dubai-proptech/", "body": "What Gulf buyers expect from a property platform."},
+       {"title": "UX design agency in Dubai", "href": "/ux-design-agency-dubai/", "body": "How we work with UAE clients."}
+     ]}
+  ],
+  "faq": [
+    {"q": "How do you increase qualified enquiries rather than total enquiries?", "a": "By designing the enquiry journey as progressive qualification rather than a single form. Serious buyers will answer questions about budget, timeline and unit preference if they are sequenced sensibly and clearly justified; casual browsers will not. That self-selection is the mechanism."},
+    {"q": "Can you handle Arabic and RTL for Gulf markets?", "a": "Yes, properly. RTL is a structural design task: layout mirrors, but numerals stay left-to-right, directional icons need individual decisions and floorplan orientation must stay true."},
+    {"q": "How long does a property experience take?", "a": "A single property experience typically runs six to eight weeks. Subsequent properties on an established system are usually three to four."},
+    {"q": "Do you work with PropTech platforms as well as developers?", "a": "Yes. The same qualification, asset-presentation and RTL principles apply to listing platforms and investor tools."}
+  ]
+}

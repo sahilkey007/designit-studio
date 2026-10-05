@@ -1,0 +1,93 @@
+{
+  "url": "/services/ux-research/",
+  "pageType": "service", "action": "KEEP + REWRITE", "priority": "P0",
+  "metaTitle": "UX Research Services: Interviews & Testing | Designit",
+  "metaDescription": "UX research consulting for product teams: user interviews, usability testing, journey mapping and concept tests, framed around the decision you need to make.",
+  "h1": "Research that turns product uncertainty into decisions",
+  "eyebrow": ["Interviews", "Usability testing", "Actionable synthesis"],
+  "subtitle": "Most research decks get read once. We run interviews, usability tests and journey mapping designed to settle a specific decision you are stuck on, and we deliver findings ranked by what they should change.",
+  "ctas": [
+    {"label": "Scope a research study", "href": "/start-a-project/", "event": "start_project"},
+    {"label": "Compare research with a UX audit", "href": "/services/ux-audit/#ux-audit-vs-ux-research-vs-usability-testing"}
+  ],
+  "breadcrumb": [["Home", "/"], ["Services", "/services/"], ["UX Research", "/services/ux-research/"]],
+  "serviceName": "UX Research",
+  "serviceType": ["UX Research", "UX Research Consulting", "User Interviews", "Usability Testing", "Journey Mapping", "Concept Testing"],
+  "serviceDescription": "UX research for digital products: user interviews, usability testing, contextual research, competitive research, journey mapping, concept testing and information architecture research, delivered as prioritised, evidence-backed findings.",
+  "audienceType": "Product teams, founders and enterprise teams facing an expensive product decision",
+  "primaryKeyword": "ux research services",
+  "secondaryKeywords": ["ux research consulting", "user research agency", "usability testing services", "user interviews", "ux research agency"],
+  "searchIntent": "commercial", "businessIntent": "Lead: research study", "funnelStage": "evaluation / buying",
+  "audience": ["Heads of product", "Product managers", "Founders"], "topicCluster": "UX Research", "pillarPage": "/services/ux-research/", "parentTopic": "ux research",
+  "author": "Designit", "updatedAt": "2026-10-04", "schemaType": "Service",
+  "evidenceIds": ["EV-PROCESS-RESEARCH", "EV-ADDA-SCOPE"],
+  "relatedServices": ["/services/ux-audit/", "/services/product-design/", "/services/saas-product-design/"],
+  "relatedIndustries": ["/industries/edtech/", "/industries/b2b-saas/", "/industries/automotive/"],
+  "relatedCaseStudies": ["/projects/adda247/", "/projects/betacrew/"],
+  "aiAnswerTargets": ["When should product teams invest in UX research?", "What UX research methods are there?", "How many users do you need to interview?", "UX research vs UX audit", "What does UX research cost?"],
+  "conversionEvent": "start_project", "refreshInterval": "quarterly",
+  "cta": {"heading": "What decision are you stuck on?", "body": "Tell us the decision. In 30 minutes we'll tell you what research would actually resolve it, and whether you need research at all, because sometimes you don't.",
+    "buttons": [{"label": "Scope a research study", "href": "/start-a-project/", "event": "start_project"}, {"label": "Start with a UX audit", "href": "/services/ux-audit/"}]},
+  "sections": [
+    {"type": "answer", "id": "when-to-invest-in-research", "heading": "When should product teams invest in research?",
+     "answer": "Invest in research when a decision is expensive to reverse, when the team is not the user, or when a credible internal disagreement has stalled progress. Otherwise, intuition plus a fast experiment is often better value.",
+     "body": ["A big build about to start on an untested assumption is the classic case: two weeks of research is cheap insurance against months of building the wrong thing. So is the moment when analytics show precisely where people drop off and nobody can say why. Numbers locate the problem; qualitative research explains it well enough to fix.",
+              "Research matters most when you design for people unlike yourselves: operations staff, students, drivers, developers. When the team is not the user, which is most of the time in B2B, intuition fails in ways that are invisible from inside."]},
+    {"type": "cards", "id": "research-methods", "heading": "Research methods",
+     "intro": "We choose the method from the decision, not the other way round.",
+     "items": [
+       {"title": "User interviews", "body": "Structured conversations that surface behaviour and context rather than opinions and feature requests."},
+       {"title": "Usability testing", "body": "Task-based testing on your live product or a prototype, moderated or unmoderated, with timestamped recordings."},
+       {"title": "Contextual research", "body": "Observing the work where it happens, including the spreadsheet, email or phone call outside your product."},
+       {"title": "Competitive research", "body": "The conventions your users already carry from other tools, and the cost of breaking them."},
+       {"title": "Journey mapping", "body": "The end-to-end path, showing where friction and drop-off actually concentrate."},
+       {"title": "Concept testing", "body": "Early ideas tested with target users before design or engineering commit."},
+       {"title": "Information architecture research", "body": "Testing how people group and find things, before navigation is locked in."},
+       {"title": "Heuristic evaluation", "body": "Expert review against usability principles, to focus a study or as a faster alternative to one."},
+       {"title": "Quantitative analysis, where available", "body": "Your analytics, funnels and survey data used to scope the study and interpret what we observe."}
+     ]},
+    {"type": "stages", "id": "research-across-the-product-lifecycle", "heading": "Research across the product lifecycle",
+     "items": [
+       {"key": "Before building", "title": "Is this the right problem?", "body": "Interviews and concept tests to check that the problem is real and worth solving before anything is built."},
+       {"key": "During MVP", "title": "Does the core flow work?", "body": "Prototype testing of the one flow the product depends on, while changes cost a design revision rather than a rebuild."},
+       {"key": "During growth", "title": "Why aren't people adopting?", "body": "Research on activation and feature discovery, paired with your analytics."},
+       {"key": "Before redesign", "title": "What is actually broken?", "body": "Evidence of where users struggle, so the redesign changes what matters and keeps what works."},
+       {"key": "After redesign", "title": "Did it work?", "body": "Usability testing and metric review against the goals agreed at the start."}
+     ]},
+    {"type": "cards", "id": "research-deliverables", "heading": "Research deliverables",
+     "items": [
+       {"title": "Prioritised findings", "body": "Ranked by decision impact, each stated as a specific recommendation with the evidence attached."},
+       {"title": "Session recordings", "body": "Timestamped, so your team can watch the relevant moments instead of taking our word for it."},
+       {"title": "Journey maps", "body": "The end-to-end experience, including the parts outside your product."},
+       {"title": "Competitive and category analysis", "body": "What users expect from comparable tools, and where your product departs from it."},
+       {"title": "Working session", "body": "We present, your team pushes back, and together we agree what actually changes."}
+     ]},
+    {"type": "prose", "id": "how-research-changes-product-decisions", "heading": "How research changes product decisions",
+     "paras": ["Research earns its cost when it changes what gets built. At Adda247, research into onboarding and test-taking behaviour across several product modules focused the design work on where learners stalled, not on redesigning what merely looked dated.",
+               "We frame every study around a decision before recruiting anyone. If we cannot name the decision the research must inform, we will tell you the research is not worth running. Findings arrive ranked by what they should change, because a themed summary that leaves interpretation to you rarely changes behaviour."]},
+    {"type": "compare", "id": "saas-and-enterprise-ux-research", "heading": "SaaS and enterprise UX research",
+     "left": {"title": "SaaS UX research", "summary": "Fast, close to the product, tied to adoption metrics.", "points": ["Recruit from your own customers, which is faster and more representative", "Focus on activation, feature discovery and churn signals", "Studies sized to fit a release cycle"]},
+     "right": {"title": "Enterprise UX research", "summary": "Harder to recruit, higher stakes, more stakeholders.", "points": ["Specialist and internal users with complex workflows", "Contextual research in the real working environment", "Findings packaged for several stakeholder groups and procurement"]}},
+    {"type": "steps", "id": "how-a-study-runs", "heading": "How a study runs",
+     "intro": "Two to four weeks, depending on how hard your audience is to recruit.",
+     "items": [
+       {"title": "Frame the decision (days 1 to 3)", "body": "We define what decision the research must inform, or tell you it is not worth running."},
+       {"title": "Recruit and prepare (days 3 to 7)", "body": "Participant recruitment against a defined screener, with a discussion guide and test protocol."},
+       {"title": "Run the study (week 2)", "body": "Interviews or usability sessions, recorded and timestamped, with interim findings shared as they emerge."},
+       {"title": "Synthesise and present (weeks 3 to 4)", "body": "Analysis, prioritised findings and a working session where the team decides what changes."}
+     ]},
+    {"type": "answer", "id": "what-does-ux-research-cost", "heading": "What does UX research cost?",
+     "answer": "Standalone studies are fixed-scope and fixed-price. When research is the first phase of a design engagement, it is included in that scope.",
+     "body": ["What moves the price: the number and type of participants; how hard they are to recruit (your own users are faster and cheaper than specialist or non-customer audiences); the methods involved; whether sessions are moderated; and how many decision areas the study has to cover."]}
+  ],
+  "faqHeading": "UX research FAQs",
+  "faq": [
+    {"q": "What is UX research consulting?", "a": "UX research consulting means bringing in specialists to plan, run and synthesise research with your users, so that a product decision rests on evidence. Our studies are framed around a single decision and delivered as ranked recommendations."},
+    {"q": "How many users do you need to interview?", "a": "For usability testing, five to eight participants per distinct user type surfaces the large majority of usability problems. For generative research about a market or behaviour, eight to twelve is more typical. Two well-defined small studies beat one large unfocused one."},
+    {"q": "Can you recruit participants, or do we provide them?", "a": "Either. Recruiting from your own user base is faster, cheaper and usually more representative, so we prefer it. For non-customers or a new segment we recruit against an agreed screener, which adds time and cost."},
+    {"q": "How is UX research different from a UX audit?", "a": "An audit is expert evaluation: we assess your product against usability principles and observed data, quickly. Research is empirical: we observe actual users. The audit tells you what is likely wrong; research tells you what is actually happening and why. If budget allows only one, start with the <a href=\"/services/ux-audit/\">UX audit</a>."},
+    {"q": "What do we get at the end?", "a": "Prioritised findings ranked by decision impact, each with evidence attached and stated as a recommendation, plus timestamped session recordings and a working session to agree what changes."},
+    {"q": "Do you do quantitative research too?", "a": "We work with your quantitative data rather than generating it. Analytics, funnel analysis and survey data feed into how we scope and interpret a study; our contribution is the qualitative half that explains why the numbers look the way they do."},
+    {"q": "Can you run research on a product that hasn't launched?", "a": "Yes, and that is often when it is most valuable. We test prototypes or concepts with people matching your target profile, when acting on a finding costs a design revision rather than an engineering rebuild."}
+  ]
+}

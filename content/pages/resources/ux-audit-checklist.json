@@ -1,0 +1,255 @@
+{
+  "url": "/resources/ux-audit-checklist/",
+  "pageType": "tool",
+  "action": "CREATE",
+  "priority": "P2",
+  "metaTitle": "Interactive UX Audit Checklist (48 Checks) | Designit",
+  "metaDescription": "Score your product against 48 UX audit checks in 10 groups: journeys, navigation, forms, content, states, accessibility, mobile, speed and evidence.",
+  "h1": "Score your product with the UX audit checklist",
+  "eyebrow": [
+    "48 checks",
+    "10 groups",
+    "About 15 minutes"
+  ],
+  "subtitle": "The self-run version of the checklist Designit starts every audit with. Answer Yes, Partly or No for your product, and get a score and the first things to fix.",
+  "ctas": [],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Resources",
+      "/resources/"
+    ],
+    [
+      "UX audit checklist",
+      "/resources/ux-audit-checklist/"
+    ]
+  ],
+  "primaryKeyword": "interactive ux audit checklist",
+  "secondaryKeywords": [
+    "ux audit checklist tool",
+    "ux audit template",
+    "ux audit self assessment",
+    "website ux audit checklist"
+  ],
+  "searchIntent": "informational / tool",
+  "businessIntent": "Linkable asset (blueprint section 52) + problem-aware lead path",
+  "funnelStage": "problem-aware",
+  "audience": [
+    "founders",
+    "product managers",
+    "designers"
+  ],
+  "topicCluster": "UX Audit",
+  "pillarPage": "/services/ux-audit/",
+  "parentTopic": "UX Audit",
+  "author": "Designit",
+  "updatedAt": "2026-10-05",
+  "schemaType": "WebPage",
+  "evidenceIds": [
+    "EV-PROCESS-AUDIT"
+  ],
+  "relatedServices": [
+    "/services/ux-audit/",
+    "/services/ux-research/"
+  ],
+  "relatedIndustries": [
+    "/industries/b2b-saas/"
+  ],
+  "relatedCaseStudies": [],
+  "aiAnswerTargets": [
+    "How do you use a UX audit checklist?"
+  ],
+  "conversionEvent": "calculator_complete",
+  "refreshInterval": "6 months",
+  "scripts": [
+    "/checklist-tool.js?v=2"
+  ],
+  "cta": {
+    "heading": "Want the ranked version?",
+    "body": "A Designit UX audit runs these checks on your real journeys with your analytics and session recordings, then ranks every fix by impact and effort.",
+    "buttons": [
+      {
+        "label": "Request a UX audit",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      },
+      {
+        "label": "UX audit services",
+        "href": "/services/ux-audit/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "answer",
+      "id": "how-to-use",
+      "heading": "How do you use a UX audit checklist?",
+      "answer": "Walk your core journeys (signup, activation, the main workflow, checkout or upgrade) as a first-time user would, and answer each check honestly for what happens today, not what the team intends.",
+      "body": "Every check maps to the explained version in our <a href=\"/blog/ux-audit-checklist/\">UX audit checklist guide</a>, which covers why each one matters and how to rank what you find. Do it with the screens open, ideally on a phone as well as a laptop."
+    },
+    {
+      "type": "tool",
+      "id": "checklist",
+      "tool": "ux-audit-checklist",
+      "name": "UX audit checklist",
+      "heading": "The checklist: 48 checks",
+      "intro": "Answer each check for your product as it is today. Your score and a short start-here list update as you go.",
+      "groups": [
+        {
+          "title": "Before you start: scope and evidence",
+          "items": [
+            "Have you picked the one metric this audit exists to move (activation, trial-to-paid, checkout completion, enquiries)?",
+            "Have you listed the journeys in scope: signup, activation, the primary workflow, and checkout or upgrade?",
+            "Have you gathered the evidence you already hold: analytics funnels, session recordings, support tickets and sales-call notes?",
+            "Do you know who will act on the findings, so each item can be written for the person who has to fix it?"
+          ]
+        },
+        {
+          "title": "Journeys and task success",
+          "items": [
+            "Can a first-time user complete each in-scope task without help or a tutorial?",
+            "Is the next step obvious on every screen, or does the user have to guess?",
+            "Is there any screen with no way forward or back?",
+            "Does each step ask only for what it needs at that moment?",
+            "Can users recover from a mistake without starting again?",
+            "Is the most common path also the easiest one to find?"
+          ]
+        },
+        {
+          "title": "Navigation and information architecture",
+          "items": [
+            "Are labels written in your users' words rather than internal team language?",
+            "Can a user tell where they are and how they got there?",
+            "Are the pages people look for most reachable from the main navigation?",
+            "If there is search, does it return useful results for the terms people actually use?",
+            "Is there one clear way to get help or contact you from any page?"
+          ]
+        },
+        {
+          "title": "Forms and input",
+          "items": [
+            "Does every field have a visible label, not only placeholder text?",
+            "Do error messages say what went wrong and how to fix it?",
+            "Is validation shown next to the field at a sensible moment, rather than only after a failed submit?",
+            "Does each field bring up the right mobile keyboard and support autofill?",
+            "Has every optional or unnecessary field been questioned?",
+            "In multi-step forms, is progress visible and is entered data kept when users go back?"
+          ]
+        },
+        {
+          "title": "Content and calls to action",
+          "items": [
+            "Can a new visitor say what the product does and who it is for from the first screen?",
+            "Is there one primary action per screen, visibly stronger than the rest?",
+            "Do button labels describe the outcome (\"Start free trial\") rather than the mechanism (\"Submit\")?",
+            "Is the price, or the cost of the next step, stated before the user has to commit?",
+            "Is proof (customers, results, security) placed next to the decision it supports?"
+          ]
+        },
+        {
+          "title": "Feedback, states and trust",
+          "items": [
+            "Does the interface show status while something loads or saves?",
+            "Are empty, loading, error and success states designed rather than left as defaults?",
+            "Does every important action get a clear confirmation?",
+            "Do destructive actions ask for confirmation or offer undo?",
+            "Do security, privacy and payment moments say plainly what will happen to the user's data or money?"
+          ]
+        },
+        {
+          "title": "Accessibility (a WCAG 2.1 AA pass)",
+          "items": [
+            "Does body text have a contrast ratio of at least 4.5:1 against its background, and large text at least 3:1?",
+            "Can every interactive element be reached and operated with the keyboard alone?",
+            "Is keyboard focus always visible and in a logical order?",
+            "Do images that carry meaning have text alternatives?",
+            "Is colour never the only way information is conveyed?",
+            "Do inputs, buttons and links have names a screen reader can announce clearly?"
+          ]
+        },
+        {
+          "title": "Mobile and responsive",
+          "items": [
+            "Does each journey work at phone width without horizontal scrolling?",
+            "Are tap targets large enough, and spaced so they can be hit without zooming?",
+            "Is the key action reachable without being hidden behind a fixed bar or the on-screen keyboard?",
+            "Do tables, charts and long forms have a considered small-screen layout?"
+          ]
+        },
+        {
+          "title": "Speed as users feel it",
+          "items": [
+            "Does the interface respond quickly at the moment the user needs to act, not only on first load?",
+            "Does content jump around as the page loads?",
+            "Is anything important held back by slow scripts or heavy images?"
+          ]
+        },
+        {
+          "title": "Evidence: tie every finding to a number",
+          "items": [
+            "Can you name the funnel step or drop-off figure that each finding explains?",
+            "Have you watched session recordings at the point where users leave?",
+            "Have you matched findings to support tickets or sales questions about the same screen?",
+            "Has each problem been reproduced on more than one device and by more than one person?"
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "min": 80,
+          "title": "In good shape",
+          "body": "Most journeys hold up. Fix the No items in the order listed, then re-run the checklist after each release."
+        },
+        {
+          "min": 50,
+          "title": "Clear friction to fix",
+          "body": "There are several places where users are likely to stall. Start with the items below: they are listed in the order users meet them."
+        },
+        {
+          "min": 0,
+          "title": "Significant friction",
+          "body": "Many core checks fail. Focus first on the journey that carries your main metric, and consider a structured audit so fixes are ranked by impact and effort rather than opinion."
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "related",
+      "heading": "Related",
+      "items": [
+        {
+          "title": "UX audit checklist: the full guide",
+          "href": "/blog/ux-audit-checklist/",
+          "body": "Why each check matters and how to rank findings."
+        },
+        {
+          "title": "UX audit services",
+          "href": "/services/ux-audit/",
+          "body": "A full audit with analytics and session evidence and a ranked fix list."
+        },
+        {
+          "title": "UX audit vs UX research",
+          "href": "/services/ux-audit/#ux-audit-vs-ux-research-vs-usability-testing",
+          "body": "Which one you need, and when."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this the same checklist Designit uses?",
+      "a": "It is the self-run version of the checklist we start every audit with. A full audit adds analytics and session evidence, an accessibility review against WCAG 2.1 AA and a fix list ranked by impact and effort."
+    },
+    {
+      "q": "How is the score calculated?",
+      "a": "Yes counts as 2 points, Partly as 1 and No as 0. N/A answers are left out. The score is the share of available points you scored, so it stays fair if some checks do not apply to your product."
+    },
+    {
+      "q": "Is my data stored?",
+      "a": "Your individual answers are saved only in your own browser, so you can come back to them. If you have accepted analytics cookies, Designit records that the checklist was started and completed and the overall score, never your answers."
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "url": "/resources/website-ux-scorecard/",
+  "pageType": "tool",
+  "action": "CREATE",
+  "priority": "P2",
+  "metaTitle": "Website UX Scorecard: Check What Converts | Designit",
+  "metaDescription": "A free website UX scorecard: 30 checks across clarity, navigation, proof, conversion, content, mobile, speed and accessibility, with a score and next steps.",
+  "h1": "Score your website before you redesign it",
+  "eyebrow": [
+    "30 checks",
+    "8 groups",
+    "About 10 minutes"
+  ],
+  "subtitle": "Before you spend on a redesign, find out which parts of your website actually hold visitors back. Answer each check and get a score and a short list of where to start.",
+  "ctas": [],
+  "breadcrumb": [
+    [
+      "Home",
+      "/"
+    ],
+    [
+      "Resources",
+      "/resources/"
+    ],
+    [
+      "Website UX scorecard",
+      "/resources/website-ux-scorecard/"
+    ]
+  ],
+  "primaryKeyword": "website ux scorecard",
+  "secondaryKeywords": [
+    "website ux checklist",
+    "website redesign checklist",
+    "website conversion checklist",
+    "b2b website audit"
+  ],
+  "searchIntent": "informational / tool",
+  "businessIntent": "Linkable asset (blueprint section 52) + problem-aware lead path",
+  "funnelStage": "problem-aware",
+  "audience": [
+    "founders",
+    "product managers",
+    "designers"
+  ],
+  "topicCluster": "Website Redesign",
+  "pillarPage": "/services/website-design/",
+  "parentTopic": "Website Redesign",
+  "author": "Designit",
+  "updatedAt": "2026-10-05",
+  "schemaType": "WebPage",
+  "evidenceIds": [
+    "EV-OWNER-WEBSITE-SERVICE"
+  ],
+  "relatedServices": [
+    "/services/website-design/",
+    "/services/conversion-optimization/"
+  ],
+  "relatedIndustries": [],
+  "relatedCaseStudies": [],
+  "aiAnswerTargets": [
+    "How do you know if your website needs a redesign?"
+  ],
+  "conversionEvent": "calculator_complete",
+  "refreshInterval": "6 months",
+  "scripts": [
+    "/checklist-tool.js?v=2"
+  ],
+  "cta": {
+    "heading": "Is your website explaining you, or hiding you?",
+    "body": "Tell us what the site needs to do. We'll tell you whether it needs a redesign or a set of targeted fixes.",
+    "buttons": [
+      {
+        "label": "Discuss your website",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      },
+      {
+        "label": "Website design",
+        "href": "/services/website-design/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "answer",
+      "id": "how-to-use",
+      "heading": "How do you know if your website needs a redesign?",
+      "answer": "A website needs a redesign when its structure stops it explaining, convincing and converting: visitors cannot tell what you do, cannot find proof, or cannot see a sensible next step. Fixing copy or a single page is often enough when the structure is sound.",
+      "body": "Score the site as a first-time visitor would, on a phone and on a laptop. The checks follow the order a visitor meets them, from the first screen to the form."
+    },
+    {
+      "type": "tool",
+      "id": "checklist",
+      "tool": "website-ux-scorecard",
+      "name": "Website UX scorecard",
+      "heading": "The checklist: 30 checks",
+      "intro": "Answer each check for your product as it is today. Your score and a short start-here list update as you go.",
+      "groups": [
+        {
+          "title": "First impression and clarity",
+          "items": [
+            "Can a first-time visitor tell what you do, and who it is for, from the first screen?",
+            "Does the headline describe an outcome the visitor cares about rather than your internal category name?",
+            "Is there one primary call to action above the fold?",
+            "Is it clear what happens after the visitor clicks it?"
+          ]
+        },
+        {
+          "title": "Structure and navigation",
+          "items": [
+            "Is the navigation organised around what visitors want to do rather than around your org chart?",
+            "Can a visitor reach any key page (services or product, engagement or pricing, work, contact) in two clicks?",
+            "Do page titles and headings tell visitors where they are?",
+            "Does every page end with a sensible next step rather than a dead end?"
+          ]
+        },
+        {
+          "title": "Proof and trust",
+          "items": [
+            "Is proof (named clients, case studies, reviews, security) placed next to the claim it supports?",
+            "Are case studies specific about the problem, what was done and what changed?",
+            "Can visitors see who is behind the company: people, location and contact details?",
+            "Are claims specific and checkable rather than superlatives?"
+          ]
+        },
+        {
+          "title": "Conversion and forms",
+          "items": [
+            "Does each page offer a next step matched to the visitor's stage: learn, compare or talk?",
+            "Do forms ask only for what you need to respond?",
+            "Do button labels describe the outcome rather than the mechanism?",
+            "Does the visitor know what happens after submitting, and how soon you will reply?",
+            "Is there a low-commitment option for visitors who are not ready to talk?"
+          ]
+        },
+        {
+          "title": "Content",
+          "items": [
+            "Does the copy explain how things work rather than only describing them?",
+            "Are the questions buyers ask (cost drivers, timelines, process) answered on the page?",
+            "Is the text easy to scan, with clear headings, short paragraphs and meaningful lists?"
+          ]
+        },
+        {
+          "title": "Mobile",
+          "items": [
+            "Does every key page work at phone width without horizontal scrolling?",
+            "Are tap targets large enough, with the main action easy to reach?",
+            "Are forms usable on a phone, with the right keyboards and autofill?"
+          ]
+        },
+        {
+          "title": "Speed and stability",
+          "items": [
+            "Does the main content appear quickly on a mid-range phone on mobile data?",
+            "Does the page stay still while it loads, with no jumping text or buttons?",
+            "Are images sized and compressed for the screens they appear on?"
+          ]
+        },
+        {
+          "title": "Accessibility and findability",
+          "items": [
+            "Is text readable for everyone, with enough contrast and size?",
+            "Can the whole site be used with a keyboard alone?",
+            "Does each page have a unique, descriptive title and meta description?",
+            "Are important pages linked from other pages, not only from the menu?"
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "min": 80,
+          "title": "In good shape",
+          "body": "The site's structure works. Target the No items as focused fixes rather than a full redesign."
+        },
+        {
+          "min": 50,
+          "title": "Clear friction to fix",
+          "body": "The site has real friction. Start with the items below, beginning with clarity and proof, which usually matter most."
+        },
+        {
+          "min": 0,
+          "title": "Significant friction",
+          "body": "Many fundamentals fail. A structured redesign that starts with strategy and information architecture is likely to pay off more than page-by-page fixes."
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "related",
+      "heading": "Related",
+      "items": [
+        {
+          "title": "Website design and redesign",
+          "href": "/services/website-design/",
+          "body": "How we redesign websites to explain, convince and convert."
+        },
+        {
+          "title": "Conversion optimization",
+          "href": "/services/conversion-optimization/",
+          "body": "Fixing the experience behind the numbers."
+        },
+        {
+          "title": "Why your website isn't converting",
+          "href": "/blog/why-website-not-converting-visitors-india/",
+          "body": "The common causes, explained."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What does this scorecard cover?",
+      "a": "Clarity, navigation, proof and trust, conversion and forms, content, mobile, speed and stability, and accessibility and findability: the parts of a website that decide whether a visitor understands you and takes the next step."
+    },
+    {
+      "q": "How is the score calculated?",
+      "a": "Yes counts as 2 points, Partly as 1 and No as 0. N/A answers are left out. The score is the share of available points you scored, so it stays fair if some checks do not apply to your product."
+    },
+    {
+      "q": "Is my data stored?",
+      "a": "Your individual answers are saved only in your own browser, so you can come back to them. If you have accepted analytics cookies, Designit records that the checklist was started and completed and the overall score, never your answers."
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "url": "/",
+  "file": "index.html",
+  "pageType": "home",
+  "action": "REWRITE",
+  "priority": "P0",
+  "metaTitle": "Product & UI/UX Design Agency in India for SaaS | Designit",
+  "metaDescription": "A senior-led, research-led product design studio in India helping SaaS, technology and enterprise teams research, redesign and scale complex products.",
+  "h1": "Product design for complex digital products",
+  "eyebrow": [
+    "Senior-led",
+    "Research-led",
+    "Noida, India"
+  ],
+  "subtitle": "Designit helps SaaS, technology and enterprise teams research, redesign and scale digital products that are easier to use, easier to build and easier to grow.",
+  "ctas": [
+    {
+      "label": "Tell us what's not working",
+      "href": "/start-a-project/",
+      "event": "start_project"
+    },
+    {
+      "label": "See selected work",
+      "href": "/projects/"
+    }
+  ],
+  "primaryKeyword": "product design agency india",
+  "secondaryKeywords": [
+    "ui ux design agency india",
+    "saas product design",
+    "ux design studio india"
+  ],
+  "searchIntent": "navigational / commercial",
+  "businessIntent": "Entity + positioning; route authority to core commercial pages",
+  "funnelStage": "all",
+  "topicCluster": "Home",
+  "author": "Designit",
+  "updatedAt": "2026-10-04",
+  "schemaType": "WebPage",
+  "evidenceIds": [
+    "EV-CLIENT-LOGOS",
+    "EV-TESTIMONIALS",
+    "EV-FOUNDER",
+    "EV-SITE-CASE-COUNT",
+    "EV-MARKETS"
+  ],
+  "conversionEvent": "start_project",
+  "refreshInterval": "quarterly",
+  "about": [
+    "Product design",
+    "SaaS product design",
+    "UX research",
+    "Design systems"
+  ],
+  "cta": {
+    "heading": "Start with the problem",
+    "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+    "buttons": [
+      {
+        "label": "Tell us what's not working",
+        "href": "/start-a-project/",
+        "event": "start_project"
+      },
+      {
+        "label": "Email contact@designit.co.in",
+        "href": "mailto:contact@designit.co.in"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "logos",
+      "id": "clients",
+      "heading": "",
+      "items": [
+        {
+          "src": "/assets/logos/adda247.svg",
+          "alt": "Adda247",
+          "w": 152,
+          "h": 32
+        },
+        {
+          "src": "/assets/logos/tata-elxsi.svg",
+          "alt": "Tata Elxsi",
+          "w": 245,
+          "h": 32
+        },
+        {
+          "src": "/assets/logos/omniyat.svg",
+          "alt": "Omniyat",
+          "w": 436,
+          "h": 32
+        },
+        {
+          "src": "/assets/logos/kelp.svg",
+          "alt": "Kelp Global",
+          "w": 68,
+          "h": 32
+        },
+        {
+          "src": "/assets/logos/betacrew.svg",
+          "alt": "Betacrew",
+          "w": 152,
+          "h": 32
+        },
+        {
+          "src": "/assets/logos/liv.svg",
+          "alt": "LIV Residences",
+          "w": 96,
+          "h": 32
+        }
+      ]
+    },
+    {
+      "type": "problems",
+      "id": "what-we-help-teams-solve",
+      "heading": "What we help teams solve",
+      "intro": "Teams come to us with a problem, not a service name. Here is where each one usually starts.",
+      "items": [
+        {
+          "problem": "Launching something new",
+          "detail": "The outcome is clear and the product isn't. Decide what to build first and test it before engineering commits.",
+          "route": "MVP design",
+          "href": "/solutions/mvp-design/"
+        },
+        {
+          "problem": "Fixing a product that is hard to use",
+          "detail": "Support repeats the same answers and demos need a human to explain the product.",
+          "route": "UX audit",
+          "href": "/services/ux-audit/"
+        },
+        {
+          "problem": "Improving activation and conversion",
+          "detail": "People sign up or visit, then stop before the step that matters.",
+          "route": "Conversion optimization",
+          "href": "/services/conversion-optimization/"
+        },
+        {
+          "problem": "Modernising legacy UX",
+          "detail": "An older core holds back newer work and users rely on undocumented workarounds.",
+          "route": "Legacy modernization",
+          "href": "/solutions/legacy-product-modernization/"
+        },
+        {
+          "problem": "Scaling a growing SaaS product",
+          "detail": "Navigation can't absorb new features and every release makes the product harder to use.",
+          "route": "SaaS product design",
+          "href": "/services/saas-product-design/"
+        },
+        {
+          "problem": "Creating a design system",
+          "detail": "Five button styles, drifting code and slower shipping every quarter.",
+          "route": "Design systems",
+          "href": "/services/design-systems/"
+        },
+        {
+          "problem": "Designing AI experiences",
+          "detail": "An AI feature that demos well and isn't trusted or used in daily work.",
+          "route": "AI product design",
+          "href": "/services/ai-product-design/"
+        }
+      ]
+    },
+    {
+      "type": "stages",
+      "id": "how-we-work",
+      "heading": "How we work",
+      "intro": "One method across every engagement, run by senior designers from kickoff to handover.",
+      "items": [
+        {
+          "key": "Research",
+          "title": "Find out what is actually happening",
+          "body": "Interviews, usability testing and your analytics, before anyone argues about solutions."
+        },
+        {
+          "key": "Strategy",
+          "title": "Agree the problem in writing",
+          "body": "A signed-off definition of what we are solving and how success is measured."
+        },
+        {
+          "key": "Experience design",
+          "title": "Structure first, then interface",
+          "body": "Information architecture and flows, then UI designed against real data and constraints."
+        },
+        {
+          "key": "Validation",
+          "title": "Test while changes are cheap",
+          "body": "Prototypes tested with people who match your users."
+        },
+        {
+          "key": "Systems",
+          "title": "Make it consistent and buildable",
+          "body": "Design systems and developer-ready handoff, with design QA against what ships."
+        },
+        {
+          "key": "Evolution",
+          "title": "Keep improving after launch",
+          "body": "Measurement against the agreed metric, and ongoing design capacity if you need it."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "services",
+      "heading": "Services",
+      "intro": "The core of what we do. <a href=\"/services/\">See all services</a>, including website design, mobile apps, conversion optimization and branding.",
+      "items": [
+        {
+          "title": "Product Design",
+          "body": "From deciding what to build to supporting the team that builds it.",
+          "href": "/services/product-design/",
+          "more": "Product design"
+        },
+        {
+          "title": "SaaS Product Design",
+          "body": "Onboarding, dashboards and dense workflows for B2B software.",
+          "href": "/services/saas-product-design/",
+          "more": "SaaS product design"
+        },
+        {
+          "title": "UX Audit",
+          "body": "A fixed-scope, two-week diagnostic with a prioritised fix list.",
+          "href": "/services/ux-audit/",
+          "more": "UX audit services"
+        },
+        {
+          "title": "UX Research",
+          "body": "Interviews and usability testing framed around a decision.",
+          "href": "/services/ux-research/",
+          "more": "UX research"
+        },
+        {
+          "title": "Design Systems",
+          "body": "Tokens, components and governance engineers adopt.",
+          "href": "/services/design-systems/",
+          "more": "Design systems"
+        },
+        {
+          "title": "AI Product Design",
+          "body": "Interfaces for uncertainty, agent approvals, recovery and trust.",
+          "href": "/services/ai-product-design/",
+          "more": "AI product design"
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "id": "industries",
+      "heading": "Industries",
+      "intro": "Domain knowledge from shipped work.",
+      "items": [
+        {
+          "title": "B2B SaaS",
+          "href": "/industries/b2b-saas/",
+          "body": "Dashboards, workflows and multi-product systems."
+        },
+        {
+          "title": "EdTech",
+          "href": "/industries/edtech/",
+          "body": "Assessment engines, live classes and completion."
+        },
+        {
+          "title": "PropTech & real estate",
+          "href": "/industries/real-estate/",
+          "body": "Property experiences and Arabic RTL."
+        },
+        {
+          "title": "Automotive HMI",
+          "href": "/industries/automotive/",
+          "body": "Infotainment and instrument clusters."
+        },
+        {
+          "title": "Fintech",
+          "href": "/industries/fintech/",
+          "body": "KYC, payments and trust."
+        },
+        {
+          "title": "AI products",
+          "href": "/industries/ai/",
+          "body": "AI startups, AI SaaS and agents."
+        }
+      ]
+    },
+    {
+      "type": "work",
+      "id": "selected-work",
+      "heading": "Selected work",
+      "intro": "Client, product, service, problem and outcome for each engagement.",
+      "items": [
+        "adda247",
+        "kelp-global",
+        "tata-elxsi",
+        "rcentric"
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "why-designit",
+      "heading": "Why Designit",
+      "intro": "Reasons you can check.",
+      "items": [
+        {
+          "title": "Senior people only",
+          "body": "No account managers and no junior hand-off after the pitch. You work with the people doing the design."
+        },
+        {
+          "title": "Research-led",
+          "body": "Every engagement starts with evidence: research, analytics or an audit, before design decisions."
+        },
+        {
+          "title": "Founder-led",
+          "body": "Founded by <a href=\"/about/\">Sahil Sharma</a>, a product designer with more than ten years of experience."
+        },
+        {
+          "title": "Named, published work",
+          "body": "22 case studies across Adda247, Kelp Global, Betacrew, the Omniyat portfolio and Tata Elxsi."
+        },
+        {
+          "title": "India-based, working globally",
+          "body": "Clients in India and the UAE, and projects for teams in the US and the UK. <a href=\"/locations/\">How we work across time zones</a>."
+        },
+        {
+          "title": "Public recommendations",
+          "body": "What product and design leaders say about working with us, below, verbatim."
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "recommendations",
+      "heading": "What product leaders say",
+      "items": [
+        "pankaj",
+        "akanksha",
+        "girish"
+      ],
+      "note": "Public LinkedIn recommendations, reproduced verbatim. <a href=\"/projects/#what-clients-say\">Read more</a>."
+    },
+    {
+      "type": "facts",
+      "id": "career-experience",
+      "heading": "Experience behind the studio",
+      "items": [
+        [
+          "Years of design experience (founder)",
+          "10+"
+        ],
+        [
+          "Published case studies",
+          "22"
+        ],
+        [
+          "Named client engagements",
+          "5"
+        ],
+        [
+          "Industries",
+          "7"
+        ]
+      ]
+    },
+    {
+      "type": "html",
+      "id": "career-note",
+      "html": "<p class=\"source-note\">Years of experience are the founder&rsquo;s, across previous roles. Designit Studio launched in 2026; every case study counted here is published on the <a href=\"/projects/\">Work</a> page.</p>"
+    },
+    {
+      "type": "clusters",
+      "id": "insights",
+      "heading": "Insights",
+      "intro": "Guides organised by the problem you are working on.",
+      "items": [
+        {
+          "title": "B2B SaaS",
+          "href": "/services/saas-product-design/",
+          "desc": "Activation, dashboards and redesign.",
+          "links": [
+            {
+              "label": "SaaS onboarding UX",
+              "href": "/blog/saas-onboarding-ux-best-practices-india/"
+            },
+            {
+              "label": "SaaS dashboard design",
+              "href": "/blog/saas-dashboard-design-best-practices/"
+            },
+            {
+              "label": "CRO for B2B SaaS",
+              "href": "/blog/cro-strategies-for-b2b-saas-india/"
+            }
+          ]
+        },
+        {
+          "title": "UX audits",
+          "href": "/services/ux-audit/",
+          "desc": "Find what to fix first.",
+          "links": [
+            {
+              "label": "UX audit checklist",
+              "href": "/blog/ux-audit-checklist/"
+            },
+            {
+              "label": "What a UI/UX audit covers",
+              "href": "/blog/ui-ux-audit-for-website-india/"
+            },
+            {
+              "label": "Landing page conversion audits",
+              "href": "/blog/landing-page-conversion-audit-services-india/"
+            }
+          ]
+        },
+        {
+          "title": "AI and UX",
+          "href": "/services/ai-product-design/",
+          "desc": "Designing for probabilistic software.",
+          "links": [
+            {
+              "label": "How AI is changing UX design",
+              "href": "/blog/how-ai-is-changing-ux-design-india/"
+            },
+            {
+              "label": "Generative AI personalisation",
+              "href": "/blog/generative-ai-website-personalization/"
+            },
+            {
+              "label": "AI tools for UI/UX designers",
+              "href": "/blog/best-ai-tools-ui-ux-designers-2026/"
+            }
+          ]
+        },
+        {
+          "title": "Choosing a design partner",
+          "href": "/resources/",
+          "desc": "Decisions founders face.",
+          "links": [
+            {
+              "label": "How to choose a product design agency",
+              "href": "/blog/how-to-choose-a-product-design-agency/"
+            },
+            {
+              "label": "Hire a designer or an agency?",
+              "href": "/blog/hire-ui-ux-designer-vs-agency-india/"
+            },
+            {
+              "label": "Mobile app design cost",
+              "href": "/blog/cost-ui-ux-design-mobile-app-india/"
+            }
+          ]
+        },
+        {
+          "title": "Industries",
+          "href": "/industries/",
+          "desc": "Sector-specific guides.",
+          "links": [
+            {
+              "label": "EdTech UX design",
+              "href": "/blog/edtech-ux-design-india/"
+            },
+            {
+              "label": "Fintech KYC onboarding",
+              "href": "/blog/fintech-onboarding-kyc-ux-india/"
+            },
+            {
+              "label": "Arabic RTL for PropTech",
+              "href": "/blog/arabic-rtl-ux-design-proptech-uae/"
+            }
+          ]
+        },
+        {
+          "title": "Branding",
+          "href": "/services/branding/",
+          "desc": "Brand for technology companies.",
+          "links": [
+            {
+              "label": "Startup branding cost",
+              "href": "/blog/branding-services-for-startups-india-cost/"
+            },
+            {
+              "label": "Visual identity vs branding",
+              "href": "/blog/visual-identity-vs-branding-startups/"
+            },
+            {
+              "label": "Signs you need a rebrand",
+              "href": "/blog/signs-your-company-needs-a-rebrand-india/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What types of companies do you work with?",
+      "a": "Mainly B2B SaaS companies, fintech and Web3 startups, AI products, EdTech platforms, e-commerce brands and enterprise software teams, typically funded startups and growth-stage companies redesigning a product, building a design system or making design a growth lever. Shipped work includes Adda247, StudyIQ, Kelp Global, Tata Elxsi, Betacrew and the Omniyat portfolio."
+    },
+    {
+      "q": "How long does a typical project take?",
+      "a": "A focused landing page or marketing-site sprint runs two to three weeks, a complete product redesign or new SaaS dashboard six to ten weeks, and a full design system eight to twelve weeks. Single-feature design sprints can ship in five working days."
+    },
+    {
+      "q": "What's your design process like?",
+      "a": "Research, strategy, experience design, validation, systems and evolution. In practice: a fast onboarding, about a week of research and discovery, two to three weeks of design and iteration, and a handoff with developer specs and implementation support, with async updates throughout and one short weekly sync."
+    },
+    {
+      "q": "What tools do you use?",
+      "a": "Figma as the primary canvas; FigJam or Miro for workshops; Figma, Framer or Protopie for prototypes; Maze, Lookback or Lyssna for testing; and Notion, Slack, Loom and Linear for project work. We happily work inside your team's tools."
+    },
+    {
+      "q": "What are your pricing models?",
+      "a": "Project-based fixed pricing for defined scopes, monthly retainers for ongoing partnerships, and design subscriptions with a flat monthly fee. Pricing scales with complexity, team size and timeline, and you get a tailored quote after a discovery call."
+    }
+  ]
+}
