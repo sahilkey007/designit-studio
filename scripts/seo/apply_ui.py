@@ -5,7 +5,7 @@ Usage: python3 scripts/seo/apply_ui.py"""
 import os, re
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SKIP_DIRS = {"node_modules", ".git", "docs", "_next", "data", "content"}
-UI_CSS = "/ui.css?v=3"
+UI_CSS = "/ui.css?v=4"
 UI_JS = "/ui.js?v=2"
 LENIS = "/assets/vendor/lenis/lenis-1.3.26.min.js"
 HEAD = (f'<!-- ui:css:start --><link rel="preload" href="{UI_CSS}" as="style" onload="this.onload=null;this.rel=\'stylesheet\'">'

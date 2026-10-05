@@ -192,7 +192,9 @@
       if (target) {
         e.preventDefault();
         // ui.js may have started Lenis smooth scroll; native smooth scroll would fight it.
-        if (window.lenis) window.lenis.scrollTo(target, { offset: -88 });
+        var nav = document.getElementById('navbar');
+        var off = -((nav ? nav.getBoundingClientRect().bottom : 88) + 16);
+        if (window.lenis) window.lenis.scrollTo(target, { offset: off });
         else target.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
         // Move focus too (skip link, in-page TOC), without a second jump.
         if (!target.hasAttribute('tabindex') && !/^(A|BUTTON|INPUT|SELECT|TEXTAREA)$/.test(target.tagName)) target.setAttribute('tabindex', '-1');
@@ -533,7 +535,90 @@
 
 })();
 
-/* ===== FLOATING BOOK-A-CALL CTA (desktop ≥1024px) ===== */
+/* ===== ANNOUNCEMENT BAR: dismiss (remembered in localStorage; the head script hides it before paint) ===== */
+(function () {
+  var x = document.getElementById('annClose');
+  if (!x) return;
+  x.addEventListener('click', function () {
+    try { localStorage.setItem('dsn_ann', 'off'); } catch (e) {}
+    document.documentElement.classList.add('ann-off');
+    if (typeof window.trackEvent === 'function') window.trackEvent('announcement_dismiss', { page: location.pathname });
+  });
+})();
+
+/* ===== CONTACT DOCK: one primary action plus three quick channels, on a glass layer =====
+   UX: Hick's law (one primary, three secondaries), Fitts's law (bottom edge on phones, thumb reach),
+   Jakob's law (WhatsApp / call / email icons people already know). Appears after the hero, hides near the footer
+   (which repeats the same contacts), while the cookie banner is open on small screens, and on the contact,
+   start-a-project and checklist-tool pages that already have their own sticky actions. */
+(function () {
+  'use strict';
+  var path = location.pathname.replace(/\/+$/, '');
+  if (/^\/(contact|start-a-project)(\.html)?$/.test(path)) return;
+  if (document.querySelector('form.ct')) return;
+  var KEY = 'dsn_dock_hidden';
+  try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
+
+  var WA = 'https://wa.me/918564948954?text=' + encodeURIComponent('Hi Designit, I would like to talk about a project.');
+  var CAL = 'https://calendly.com/sahilnsharma77/new-meeting';
+  var MAIL = 'mailto:contact@designit.co.in';
+  var S = 'width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"';
+  var IC = {
+    wa: '<svg ' + S + '><path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.6-4.2A8.5 8.5 0 1 1 20.5 11.6z"/><path d="M9 8.6c.2-.5.5-.6.8-.6h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .5.6 1 1.4 1.8 2.4 2.4.2.1.4.1.5 0l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.2.1.3.3.3.5 0 .9-.6 1.6-1.5 1.7-1 .1-2.6-.4-4.3-2-1.7-1.6-2.4-3.2-2.4-4.2 0-.4.1-.8.3-1.1z"/></svg>',
+    cal: '<svg ' + S + '><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg>',
+    mail: '<svg ' + S + '><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 6.5l8.5 6.5 8.5-6.5"/></svg>',
+    x: '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>'
+  };
+  function item(href, label, ch, icon, ext) {
+    return '<a class="dock-i" href="' + href + '" data-ch="' + ch + '" aria-label="' + label + '"' + (ext ? ' target="_blank" rel="noopener"' : '') + '>' + icon + '<span class="dock-tip" aria-hidden="true">' + label + '</span></a>';
+  }
+  var dock = null, shown = false;
+
+  function styled() { return getComputedStyle(document.documentElement).getPropertyValue('--ui-ease').trim() !== ''; }
+  function build() {
+    dock = document.createElement('div');
+    dock.className = 'dock';
+    dock.setAttribute('role', 'region');
+    dock.setAttribute('aria-label', 'Contact Designit');
+    dock.innerHTML = '<button type="button" class="dock-main" data-ch="start">Start a project</button>' +
+      item(WA, 'Chat on WhatsApp', 'whatsapp', IC.wa, true) +
+      item(CAL, 'Book a call', 'call', IC.cal, true) +
+      item(MAIL, 'Email us', 'email', IC.mail, false) +
+      '<button type="button" class="dock-x" aria-label="Hide contact options">' + IC.x + '</button>';
+    document.body.appendChild(dock);
+    dock.addEventListener('click', function (e) {
+      var t = e.target.closest('[data-ch], .dock-x');
+      if (!t) return;
+      if (t.classList.contains('dock-x')) {
+        try { sessionStorage.setItem(KEY, '1'); } catch (er) {}
+        dock.classList.remove('on');
+        window.removeEventListener('scroll', check);
+        return;
+      }
+      var ch = t.getAttribute('data-ch');
+      if (typeof window.trackEvent === 'function') {
+        var ev = { start: 'start_project', call: 'schedule_call', whatsapp: 'whatsapp_click', email: 'email_click' }[ch];
+        window.trackEvent(ev, { source: 'contact_dock', page: location.pathname });
+      }
+      if (ch === 'start') {
+        if (typeof window.openIntakeForm === 'function') window.openIntakeForm();
+        else location.href = '/start-a-project/';
+      }
+    });
+  }
+  function check() {
+    var footer = document.querySelector('footer.footer, footer');
+    var nearFooter = footer && footer.getBoundingClientRect().top < window.innerHeight - 40;
+    var banner = window.innerWidth < 1024 && document.querySelector('[aria-label="Cookie consent"]');
+    var want = window.scrollY > window.innerHeight * 0.7 && !nearFooter && !banner;
+    if (want && !dock) { if (!styled()) return; build(); }
+    if (dock && want !== shown) { shown = want; dock.classList.toggle('on', want); }
+  }
+  window.addEventListener('scroll', check, { passive: true });
+  window.addEventListener('resize', check, { passive: true });
+})();
+
+/* ===== (retired) FLOATING BOOK-A-CALL CTA (desktop ≥1024px) ===== */
 (function () {
   'use strict';
 
@@ -640,11 +725,8 @@
     window.removeEventListener('scroll', onScroll);
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', inject);
-  } else {
-    inject();
-  }
+  // The single "Book a Free Call" pill is replaced by the contact dock below (Start a project, WhatsApp, call, email).
+  void inject;
 
   // --- Services accordion (mobile only) ---
   if (window.innerWidth <= 768) {

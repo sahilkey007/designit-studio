@@ -84,3 +84,26 @@ Not adopted, deliberately: Whyte/Archivo display face (the system uses it only a
 carries every statement), the 1920×1080 slide grid, and the Kelp red action colour (product UI, not brand).
 
 Order after any change: `apply_ds.py` → `apply_ui.py` → `build_pages.py` → quality gate, link validator, axe, CLS.
+
+## Pass 2: premium and conversion (October 2026, owner choices)
+
+Owner decisions: glass on floating layers only; Claude drafts new copy from approved evidence and the owner reviews it on
+staging; add a contact dock, a "how we compare" matrix, problem-first cards, an announcement bar and WhatsApp;
+homepage and shared parts first, other templates in a second pass.
+
+| Change | UX principle | Where |
+|---|---|---|
+| Glass on floating layers only (nav after scroll, mega menu, mobile menu, contact dock, cookie banner, case-study chip). 78% black so text keeps at least 4.5:1 over the white sections. Cards stay solid. | Apple-style depth without breaking the system | `ds-critical.css`, `ui.css`, `consent-banner.js` |
+| Announcement bar → free 48-point checklist (dismiss remembered; hidden before paint) | Low-commitment entry point | `apply_ds.py` (markup), `ds-critical.css`, `main.js` |
+| Contact dock: Start a project + WhatsApp + Book a call + Email; after the hero, hidden near the footer, under the cookie banner on phones, and on contact, start-a-project and tool pages | Hick's law (one primary), Fitts's law (thumb zone), Jakob's law (familiar icons) | `main.js`, `ui.css` |
+| Homepage order: problems → services → work → why → compare → recommendations → CTA band → process | Proof before process; serial-position effect | `content/pages/home.json` |
+| "How Designit compares" matrix (stacks to cards on phones) | Differentiation; von Restorff (the highlighted column) | `r_matrix`, `page.css` |
+| Mid-page CTA band (Start a project / Book a call / free checklist) | Goal-gradient: an action at the point of conviction | `r_ctaband`, `page.css` |
+| Problem cards: numbered, two columns, whole card clickable | Fitts's law; users self-identify by symptom | `r_problems`, `page.css` |
+| Deck-style eyebrows, 112px section rhythm, h2 at 56px, intro at 19px | Apple-like hierarchy and whitespace | `head_block`, `page.css` |
+| Card interactions: arrow travels 4px; case-study image dims and a glass "Read case study" chip floats in; press states darken | Doherty threshold (feedback <100ms); nothing scales, per the system | `ui.css` |
+| Card grids balance by item count (6 → 3×2, 4 → 4 or 2×2) | Gestalt: no orphans | `page.css` |
+
+New copy (owner to review): the comparison matrix, its intro and note, the CTA band, the eyebrows and the announcement.
+Every Designit claim maps to an evidence record (EV-SITE-CASE-COUNT, EV-TESTIMONIALS, EV-DELIVERY-BOUNDARY, EV-FOUNDER,
+EV-PROCESS-*); statements about freelancers, agencies and in-house hires are framed as general patterns, not facts.

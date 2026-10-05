@@ -72,6 +72,7 @@ def hero(p):
 
 def head_block(s):
     out = ""
+    if s.get("eyebrow"): out += f'<p class="pg-eyebrow">{s["eyebrow"]}</p>'
     if s.get("heading"): out += f'<h2 class="pg-h2">{s["heading"]}</h2>'
     if s.get("intro"): out += f'<p class="pg-intro">{s["intro"]}</p>'
     return out
@@ -97,17 +98,20 @@ def card(it):
     kicker = f'<p class="card-kicker">{it["kicker"]}</p>' if it.get("kicker") else ""
     body = f'<div class="card-body"><p>{it["body"]}</p></div>' if it.get("body") else ""
     if it.get("href"):
-        more = f'<span class="card-more">{it.get("more", "Learn more")} &rarr;</span>'
+        more = f'<span class="card-more">{it.get("more", "Learn more")} <span class="arw" aria-hidden="true">&rarr;</span></span>'
         return f'<a class="card" href="{a(it["href"])}">{kicker}<h3>{it["title"]}</h3>{body}{more}</a>'
     return f'<div class="card">{kicker}<h3>{it["title"]}</h3>{body}</div>'
 
 def r_cards(s): return sec(s, '<div class="card-grid">' + "".join(card(i) for i in s["items"]) + "</div>")
 
 def r_problems(s):
+    """Problem-first cards (UX: users self-identify by symptom, not service name). The whole card is the hit area
+    (Fitts's law): the route link's ::after is stretched over the card, so there is still exactly one link per card."""
     rows = "".join(
-        f'<div class="problem-row"><div><h3>{i["problem"]}</h3><p>{i["detail"]}</p></div>'
-        f'<a class="route" href="{a(i["href"])}"><span>Start with</span> {i["route"]} &rarr;</a></div>'
-        for i in s["items"])
+        f'<div class="problem-row"><span class="pr-n" aria-hidden="true">{n:02d}</span>'
+        f'<div class="pr-body"><h3>{i["problem"]}</h3><p>{i["detail"]}</p></div>'
+        f'<a class="route" href="{a(i["href"])}"><span>Start with</span> {i["route"]} <span class="arw" aria-hidden="true">&rarr;</span></a></div>'
+        for n, i in enumerate(s["items"], 1))
     return sec(s, f'<div class="problem-map">{rows}</div>')
 
 def r_steps(s):
@@ -140,7 +144,7 @@ def work_card(key):
             f'<div class="wc-body"><h3>{w["client"]}</h3><p class="wc-product">{w["product"]}</p>'
             f'<dl><dt>Industry</dt><dd>{w["industry"]}</dd><dt>Service</dt><dd>{w["service"]}</dd>'
             f'<dt>Problem</dt><dd>{w["problem"]}</dd><dt>Outcome</dt><dd>{w["outcome"]}</dd></dl>'
-            f'<span class="wc-more">Read the case study &rarr;</span></div></a>')
+            f'<span class="wc-more">Read the case study <span class="arw" aria-hidden="true">&rarr;</span></span></div></a>')
 
 def r_work(s): return sec(s, '<div class="work-grid">' + "".join(work_card(k) for k in s["items"]) + "</div>")
 
@@ -169,6 +173,36 @@ def r_links(s):
 
 def r_html(s): return sec(s, s["html"])
 
+def r_matrix(s):
+    """Comparison matrix with one highlighted column (the studio). A real table for screen readers; on narrow screens
+    each row stacks into a card and data-label supplies the column name."""
+    cols, hi = s["columns"], s.get("highlight", len(s["columns"]) - 1)
+    HI = ' class="mx-hi"'
+    th = '<th scope="col"><span class="sr-only">Factor</span></th>' + "".join(
+        f'<th scope="col"{HI if k == hi else ""}>{c}</th>' for k, c in enumerate(cols))
+    rows = "".join(
+        "<tr>" + f'<th scope="row">{r[0]}</th>' + "".join(
+            f'<td data-label="{a(plain(cols[k]))}"{HI if k == hi else ""}>{c}</td>' for k, c in enumerate(r[1:]))
+        + "</tr>" for r in s["rows"])
+    note = f'<p class="mx-note">{s["note"]}</p>' if s.get("note") else ""
+    label = a(plain(s.get("heading", "Comparison")))
+    return sec(s, f'<div class="mx-wrap"><table class="mx" aria-label="{label}"><thead><tr>{th}</tr></thead><tbody>{rows}</tbody></table></div>{note}')
+
+def r_ctaband(s):
+    """Mid-page conversion band. Buttons carry data-track so analytics.js records them as cta_click."""
+    btns = "".join(
+        f'<a href="{a(b["href"])}" class="btn {"btn-primary" if k == 0 else "btn-outline"} btn-lg"'
+        + (f' data-track="{a(b["track"])}"' if b.get("track") else "")
+        + (' target="_blank" rel="noopener"' if b["href"].startswith("http") else "") + f'>{b["label"]}</a>'
+        for k, b in enumerate(s["buttons"]))
+    note = f'<p class="cb-note">{s["note"]}</p>' if s.get("note") else ""
+    eyebrow = f'<p class="pg-eyebrow">{s["eyebrow"]}</p>' if s.get("eyebrow") else ""
+    sid = s.get("id") or slug(s.get("heading", "cta"))
+    return f'''    <section class="pg-section cta-band-section" id="{a(sid)}">
+        <div class="container"><div class="cta-band">{eyebrow}<h2 class="cb-h">{s["heading"]}</h2><p class="cb-body">{s["body"]}</p><div class="hero-ctas">{btns}</div>{note}</div></div>
+    </section>
+'''
+
 def _img_dims(src):
     try:
         from PIL import Image
@@ -181,7 +215,7 @@ def r_modules(s):
     for m in s["items"]:
         w, h = _img_dims(m["img"])
         out.append(f'<a class="work-card" href="{a(m["href"])}"><img src="{a(m["img"])}" width="{w}" height="{h}" alt="{a(m.get("alt", plain(m["title"])))}" loading="lazy">'
-                   f'<div class="wc-body"><h3>{m["title"]}</h3><p class="wc-product">{m["desc"]}</p><span class="wc-more">Read the case study &rarr;</span></div></a>')
+                   f'<div class="wc-body"><h3>{m["title"]}</h3><p class="wc-product">{m["desc"]}</p><span class="wc-more">Read the case study <span class="arw" aria-hidden="true">&rarr;</span></span></div></a>')
     return sec(s, '<div class="work-grid">' + "".join(out) + "</div>")
 
 def r_logos(s):
@@ -223,7 +257,7 @@ def r_tool(s):
 
 RENDER = {"answer": r_answer, "prose": r_prose, "cards": r_cards, "problems": r_problems, "steps": r_steps,
           "stages": r_stages, "checklist": r_checklist, "table": r_table, "compare": r_compare, "work": r_work,
-          "quotes": r_quotes, "clusters": r_clusters, "facts": r_facts, "links": r_links, "html": r_html, "logos": r_logos, "modules": r_modules, "tool": r_tool}
+          "quotes": r_quotes, "clusters": r_clusters, "facts": r_facts, "links": r_links, "html": r_html, "logos": r_logos, "modules": r_modules, "tool": r_tool, "matrix": r_matrix, "ctaband": r_ctaband}
 
 def faq_block(p):
     if not p.get("faq"): return ""

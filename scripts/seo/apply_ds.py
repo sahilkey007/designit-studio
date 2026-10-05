@@ -29,13 +29,28 @@ POP = ("<style>"
        "</style>")
 PRELOAD = '<link rel="preload" href="/assets/fonts/poppins-latin-400.woff2" as="font" type="font/woff2" crossorigin>'
 
+ANN_HEAD = "<script id=\"ds-ann\">try{if(localStorage.getItem('dsn_ann')==='off')document.documentElement.classList.add('ann-off')}catch(e){}</script>"
+X_ICON = ('<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7" '
+          'stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>')
+ANN = ('<!-- ds:ann:start --><div class="ann-bar" id="annBar" role="region" aria-label="Announcement">'
+       '<a href="/resources/ux-audit-checklist/" data-track="announcement_checklist"><span class="ann-k">Free</span>'
+       '<span class="ann-long">Score your product against our 48-point UX audit checklist</span>'
+       '<span class="ann-short">48-point UX audit checklist</span><span aria-hidden="true">&rarr;</span></a>'
+       f'<button type="button" class="ann-x" id="annClose" aria-label="Dismiss announcement">{X_ICON}</button></div><!-- ds:ann:end -->\n')
+
 def apply_html(s):
+    s = re.sub(r"<script id=\"ds-ann\">.*?</script>\n?", "", s, flags=re.S)
+    s = re.sub(r"<!-- ds:ann:start -->.*?<!-- ds:ann:end -->\n?", "", s, flags=re.S)
+    s = re.sub(r'(<html\b[^>]*?)\s+class="has-ann"', r"\1", s, count=1)
+    if '<header class="navbar"' in s:
+        s = s.replace('<header class="navbar"', ANN + '    <header class="navbar"', 1)
+        s = re.sub(r"<html\b(?![^>]*class=)", '<html class="has-ann"', s, count=1)
     s = re.sub(r"<!-- ds:fonts:start -->.*?<!-- ds:fonts:end -->\n?", "", s, flags=re.S)
     s = re.sub(r"<style id=\"ds-critical\">.*?</style>\n?", "", s, flags=re.S)
     if "<!-- fonts:end -->" not in s:
         return s
     s = s.replace("<!-- fonts:end -->", f"<!-- ds:fonts:start -->{PRELOAD}{POP}<!-- ds:fonts:end -->\n    <!-- fonts:end -->", 1)
-    block = f'<style id="ds-critical">{CRIT}</style>\n'
+    block = f'{ANN_HEAD}<style id="ds-critical">{CRIT}</style>\n'
     if "<!-- ui:css:start -->" in s:
         s = s.replace("<!-- ui:css:start -->", block + "<!-- ui:css:start -->", 1)
     else:

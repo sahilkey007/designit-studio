@@ -35,14 +35,16 @@
   "funnelStage": "all",
   "topicCluster": "Home",
   "author": "Designit",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "schemaType": "WebPage",
   "evidenceIds": [
     "EV-CLIENT-LOGOS",
     "EV-TESTIMONIALS",
     "EV-FOUNDER",
     "EV-SITE-CASE-COUNT",
-    "EV-MARKETS"
+    "EV-MARKETS",
+    "EV-DELIVERY-BOUNDARY",
+    "EV-PROCESS-AUDIT"
   ],
   "conversionEvent": "start_project",
   "refreshInterval": "quarterly",
@@ -159,45 +161,8 @@
           "route": "AI product design",
           "href": "/services/ai-product-design/"
         }
-      ]
-    },
-    {
-      "type": "stages",
-      "id": "how-we-work",
-      "heading": "How we work",
-      "intro": "One method across every engagement, run by senior designers from kickoff to handover.",
-      "items": [
-        {
-          "key": "Research",
-          "title": "Find out what is actually happening",
-          "body": "Interviews, usability testing and your analytics, before anyone argues about solutions."
-        },
-        {
-          "key": "Strategy",
-          "title": "Agree the problem in writing",
-          "body": "A signed-off definition of what we are solving and how success is measured."
-        },
-        {
-          "key": "Experience design",
-          "title": "Structure first, then interface",
-          "body": "Information architecture and flows, then UI designed against real data and constraints."
-        },
-        {
-          "key": "Validation",
-          "title": "Test while changes are cheap",
-          "body": "Prototypes tested with people who match your users."
-        },
-        {
-          "key": "Systems",
-          "title": "Make it consistent and buildable",
-          "body": "Design systems and developer-ready handoff, with design QA against what ships."
-        },
-        {
-          "key": "Evolution",
-          "title": "Keep improving after launch",
-          "body": "Measurement against the agreed metric, and ongoing design capacity if you need it."
-        }
-      ]
+      ],
+      "eyebrow": "Where teams start"
     },
     {
       "type": "cards",
@@ -241,7 +206,205 @@
           "href": "/services/ai-product-design/",
           "more": "AI product design"
         }
-      ]
+      ],
+      "eyebrow": "What we do"
+    },
+    {
+      "type": "work",
+      "id": "selected-work",
+      "heading": "Selected work",
+      "intro": "Client, product, service, problem and outcome for each engagement.",
+      "items": [
+        "adda247",
+        "kelp-global",
+        "tata-elxsi",
+        "rcentric"
+      ],
+      "eyebrow": "Case studies"
+    },
+    {
+      "type": "cards",
+      "id": "why-designit",
+      "heading": "Why Designit",
+      "intro": "Reasons you can check.",
+      "items": [
+        {
+          "title": "Senior people only",
+          "body": "No account managers and no junior hand-off after the pitch. You work with the people doing the design."
+        },
+        {
+          "title": "Research-led",
+          "body": "Every engagement starts with evidence: research, analytics or an audit, before design decisions."
+        },
+        {
+          "title": "Founder-led",
+          "body": "Founded by <a href=\"/about/\">Sahil Sharma</a>, a product designer with more than ten years of experience."
+        },
+        {
+          "title": "Named, published work",
+          "body": "22 case studies across Adda247, Kelp Global, Betacrew, the Omniyat portfolio and Tata Elxsi."
+        },
+        {
+          "title": "India-based, working globally",
+          "body": "Clients in India and the UAE, and projects for teams in the US and the UK. <a href=\"/locations/\">How we work across time zones</a>."
+        },
+        {
+          "title": "Public recommendations",
+          "body": "What product and design leaders say about working with us, below, verbatim."
+        }
+      ],
+      "eyebrow": "Who we are"
+    },
+    {
+      "type": "matrix",
+      "id": "how-designit-compares",
+      "eyebrow": "The difference",
+      "heading": "How Designit compares",
+      "intro": "Freelancers, agencies and in-house hires all work. This is where a senior, research-led studio is different.",
+      "columns": [
+        "Freelancer",
+        "Typical agency",
+        "In-house hire",
+        "Designit"
+      ],
+      "rows": [
+        [
+          "Who designs your product",
+          "One person; depth varies",
+          "Often a junior team after the pitch",
+          "Your hire, once you find them",
+          "Senior designers, from kickoff to handover"
+        ],
+        [
+          "Where the work starts",
+          "A brief for screens",
+          "Discovery, on a larger budget and timeline",
+          "Depends on the team's bandwidth",
+          "Research, analytics or an audit, before design decisions"
+        ],
+        [
+          "What you get in writing",
+          "Design files",
+          "Decks and design files",
+          "Whatever the team documents",
+          "A signed-off problem definition and a developer-ready handoff"
+        ],
+        [
+          "After handoff",
+          "Usually ends at delivery",
+          "Change requests",
+          "Ongoing",
+          "Design QA against what ships, and launch support"
+        ],
+        [
+          "Proof you can check",
+          "Portfolio shots",
+          "Case studies, often anonymised",
+          "Their previous roles",
+          "22 published case studies and named recommendations"
+        ]
+      ],
+      "note": "General patterns, not rules: there are excellent freelancers, agencies and in-house designers. The right choice depends on your budget, timeline and how much strategy you need. <a href=\"/blog/freelancer-vs-design-agency-startups/\">Freelancer or agency? A fuller comparison</a>."
+    },
+    {
+      "type": "quotes",
+      "id": "recommendations",
+      "heading": "What product leaders say",
+      "items": [
+        "pankaj",
+        "akanksha",
+        "girish"
+      ],
+      "note": "Public LinkedIn recommendations, reproduced verbatim. <a href=\"/projects/#what-clients-say\">Read more</a>.",
+      "eyebrow": "In their words"
+    },
+    {
+      "type": "ctaband",
+      "id": "talk-to-us",
+      "eyebrow": "Next step",
+      "heading": "Not sure which service you need?",
+      "body": "Describe what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
+      "buttons": [
+        {
+          "label": "Start a project",
+          "href": "/start-a-project/",
+          "track": "start_project"
+        },
+        {
+          "label": "Book a call",
+          "href": "https://calendly.com/sahilnsharma77/new-meeting",
+          "track": "schedule_call"
+        }
+      ],
+      "note": "Prefer to look first? <a href=\"/resources/ux-audit-checklist/\">Score your product with our free 48-point UX audit checklist</a>."
+    },
+    {
+      "type": "stages",
+      "id": "how-we-work",
+      "heading": "How we work",
+      "intro": "One method across every engagement, run by senior designers from kickoff to handover.",
+      "items": [
+        {
+          "key": "Research",
+          "title": "Find out what is actually happening",
+          "body": "Interviews, usability testing and your analytics, before anyone argues about solutions."
+        },
+        {
+          "key": "Strategy",
+          "title": "Agree the problem in writing",
+          "body": "A signed-off definition of what we are solving and how success is measured."
+        },
+        {
+          "key": "Experience design",
+          "title": "Structure first, then interface",
+          "body": "Information architecture and flows, then UI designed against real data and constraints."
+        },
+        {
+          "key": "Validation",
+          "title": "Test while changes are cheap",
+          "body": "Prototypes tested with people who match your users."
+        },
+        {
+          "key": "Systems",
+          "title": "Make it consistent and buildable",
+          "body": "Design systems and developer-ready handoff, with design QA against what ships."
+        },
+        {
+          "key": "Evolution",
+          "title": "Keep improving after launch",
+          "body": "Measurement against the agreed metric, and ongoing design capacity if you need it."
+        }
+      ],
+      "eyebrow": "Process"
+    },
+    {
+      "type": "facts",
+      "id": "career-experience",
+      "heading": "Experience behind the studio",
+      "items": [
+        [
+          "Years of design experience (founder)",
+          "10+"
+        ],
+        [
+          "Published case studies",
+          "22"
+        ],
+        [
+          "Named client engagements",
+          "5"
+        ],
+        [
+          "Industries",
+          "7"
+        ]
+      ],
+      "eyebrow": "At a glance"
+    },
+    {
+      "type": "html",
+      "id": "career-note",
+      "html": "<p class=\"source-note\">Years of experience are the founder&rsquo;s, across previous roles. Designit Studio launched in 2026; every case study counted here is published on the <a href=\"/projects/\">Work</a> page.</p>"
     },
     {
       "type": "links",
@@ -279,90 +442,8 @@
           "href": "/industries/ai/",
           "body": "AI startups, AI SaaS and agents."
         }
-      ]
-    },
-    {
-      "type": "work",
-      "id": "selected-work",
-      "heading": "Selected work",
-      "intro": "Client, product, service, problem and outcome for each engagement.",
-      "items": [
-        "adda247",
-        "kelp-global",
-        "tata-elxsi",
-        "rcentric"
-      ]
-    },
-    {
-      "type": "cards",
-      "id": "why-designit",
-      "heading": "Why Designit",
-      "intro": "Reasons you can check.",
-      "items": [
-        {
-          "title": "Senior people only",
-          "body": "No account managers and no junior hand-off after the pitch. You work with the people doing the design."
-        },
-        {
-          "title": "Research-led",
-          "body": "Every engagement starts with evidence: research, analytics or an audit, before design decisions."
-        },
-        {
-          "title": "Founder-led",
-          "body": "Founded by <a href=\"/about/\">Sahil Sharma</a>, a product designer with more than ten years of experience."
-        },
-        {
-          "title": "Named, published work",
-          "body": "22 case studies across Adda247, Kelp Global, Betacrew, the Omniyat portfolio and Tata Elxsi."
-        },
-        {
-          "title": "India-based, working globally",
-          "body": "Clients in India and the UAE, and projects for teams in the US and the UK. <a href=\"/locations/\">How we work across time zones</a>."
-        },
-        {
-          "title": "Public recommendations",
-          "body": "What product and design leaders say about working with us, below, verbatim."
-        }
-      ]
-    },
-    {
-      "type": "quotes",
-      "id": "recommendations",
-      "heading": "What product leaders say",
-      "items": [
-        "pankaj",
-        "akanksha",
-        "girish"
       ],
-      "note": "Public LinkedIn recommendations, reproduced verbatim. <a href=\"/projects/#what-clients-say\">Read more</a>."
-    },
-    {
-      "type": "facts",
-      "id": "career-experience",
-      "heading": "Experience behind the studio",
-      "items": [
-        [
-          "Years of design experience (founder)",
-          "10+"
-        ],
-        [
-          "Published case studies",
-          "22"
-        ],
-        [
-          "Named client engagements",
-          "5"
-        ],
-        [
-          "Industries",
-          "7"
-        ]
-      ]
-    },
-    {
-      "type": "html",
-      "id": "career-note",
-      "html": "<p class=\"source-note\">Years of experience are the founder&rsquo;s, across previous roles. Designit Studio launched in 2026; every case study counted here is published on the <a href=\"/projects/\">Work</a> page.</p>"
+      "eyebrow": "Domains"
     },
     {
       "type": "clusters",
@@ -484,7 +565,8 @@
             }
           ]
         }
-      ]
+      ],
+      "eyebrow": "Guides"
     }
   ],
   "faq": [

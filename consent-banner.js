@@ -21,7 +21,7 @@
     bar.style.cssText = [
         'position:fixed', 'left:16px', 'right:16px', 'bottom:16px', 'z-index:99999',
         'max-width:640px', 'margin:0 auto',
-        'background:#000', 'color:#EEEEEE',
+        'background:rgba(0,0,0,0.78)', '-webkit-backdrop-filter:saturate(180%) blur(20px)', 'backdrop-filter:saturate(180%) blur(20px)', 'color:#EEEEEE',
         'border:1px solid rgba(255,255,255,0.3)', 'border-radius:13px',
         // System fonts only: the banner is fixed to the bottom, so if Inter swaps
         // in after it renders, the text reflows, the bar grows upward and that

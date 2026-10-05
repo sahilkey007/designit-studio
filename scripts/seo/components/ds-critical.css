@@ -32,12 +32,31 @@ html body h1:not(#_){font-family:var(--font-heading);font-weight:400;line-height
 html body .gradient-text:not(#_){background:none;-webkit-background-clip:border-box;background-clip:border-box;-webkit-text-fill-color:currentColor;color:rgba(255,255,255,.6)}
 html body h1.gradient-text:not(#_){color:rgba(255,255,255,.6)}
 
-/* Top bar: solid ground, hairline, no blur */
-.navbar{background:#000;-webkit-backdrop-filter:none;backdrop-filter:none;border-bottom:1px solid rgba(255,255,255,.2)}
+/* Announcement bar (fixed, above the nav). Present in the HTML from first paint so the nav never jumps;
+   html.ann-off (set before paint from localStorage) removes it. --ann-h drives every offset below it. */
+:root{--ann-h:0px}
+html.has-ann{--ann-h:36px}
+html.has-ann.ann-off{--ann-h:0px}
+/* every template's hero clears the fixed nav; the bar's height is added once, here */
+body{padding-top:var(--ann-h)}
+.ann-bar{position:fixed;top:0;left:0;right:0;z-index:1001;height:var(--ann-h);display:flex;align-items:center;justify-content:center;gap:12px;padding:0 48px;background:#000;border-bottom:1px solid rgba(255,255,255,.14);font-size:14px;line-height:1;letter-spacing:-.011em}
+html.ann-off .ann-bar{display:none}
+.ann-bar a{display:inline-flex;align-items:center;gap:10px;color:rgba(255,255,255,.85);text-decoration:none;white-space:nowrap}
+.ann-bar a:hover{color:#fff}
+.ann-bar .ann-k{display:inline-block;padding:4px 8px;border-radius:9999px;background:#fff;color:#000;font-size:12px;font-weight:600}
+.ann-bar .ann-short{display:none}
+.ann-bar .ann-x{position:absolute;right:12px;top:50%;transform:translateY(-50%);width:28px;height:28px;display:inline-flex;align-items:center;justify-content:center;border-radius:9999px;color:rgba(255,255,255,.7);cursor:pointer}
+.ann-bar .ann-x:hover{color:#fff;background:rgba(255,255,255,.08)}
+@media (max-width:640px){.ann-bar .ann-long{display:none}.ann-bar .ann-short{display:inline}.ann-bar{justify-content:flex-start;padding:0 48px 0 20px}}
+
+/* Top bar: solid black at rest; frosted glass once the page scrolls under it (Apple-style floating layer) */
+.navbar{top:var(--ann-h);background:#000;-webkit-backdrop-filter:none;backdrop-filter:none;border-bottom:1px solid rgba(255,255,255,.2);transition:background-color .2s cubic-bezier(.2,0,.2,1),top .2s cubic-bezier(.2,0,.2,1)}
+.navbar.scrolled{background:rgba(0,0,0,.78);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px)}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.navbar.scrolled{background:#000}}
 .nav-links a,.navbar .nav-links .nav-top{color:rgba(255,255,255,.7)}
 .navbar .nav-links .nav-top:hover,.navbar .nav-links .nav-top.active{color:#fff}
-.navbar .mega{background:#000;box-shadow:none;border-bottom:1px solid rgba(255,255,255,.2)}
-@media (max-width:768px){.nav-links{background:#000;-webkit-backdrop-filter:none;backdrop-filter:none}}
+.navbar .mega{background:rgba(0,0,0,.82);-webkit-backdrop-filter:saturate(180%) blur(24px);backdrop-filter:saturate(180%) blur(24px);box-shadow:none;border-bottom:1px solid rgba(255,255,255,.2)}
+@media (max-width:768px){.nav-links{top:calc(56px + var(--ann-h));background:rgba(0,0,0,.9);-webkit-backdrop-filter:saturate(180%) blur(24px);backdrop-filter:saturate(180%) blur(24px)}}
 
 /* Buttons: flat pills. Primary is white on black (hover darkens); ghost is a hairline. No rainbow, no glow. */
 html body .btn-primary:not(#_),html body .nav-cta:not(#_){background:#fff!important;border:1px solid #fff!important;color:#000!important;animation:none;box-shadow:none;font-weight:600;transition:background-color .2s cubic-bezier(.2,0,.2,1),border-color .2s cubic-bezier(.2,0,.2,1)}
@@ -47,6 +66,12 @@ html body .btn-primary:not(#_):hover,html body .nav-cta:not(#_):hover{background
 .btn-outline:hover{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.45)}
 a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #fff;outline-offset:3px}
 .btn:focus-visible{outline:none;box-shadow:0 0 0 4px rgb(238,239,244)}
+
+/* Hero statement at the system's statement scale (96 / 64 / 56) */
+html body .geo-hero h1:not(#_){font-size:clamp(44px,7vw,96px);margin:20px auto 24px;max-width:1100px}
+.geo-hero .subtitle{font-size:clamp(18px,1.6vw,21px);line-height:1.5;max-width:720px}
+.geo-hero{padding-top:150px}
+@media (max-width:768px){.geo-hero{padding-top:116px}}
 
 /* Pills / eyebrows */
 .tag{background:#000;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.85);font-weight:500}

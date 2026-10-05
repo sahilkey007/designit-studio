@@ -143,3 +143,80 @@ html body .ui-stage :is(.subtitle,p):not(.page-meta):not(#_) { color: rgba(255, 
   .ui-shader { transition: none; }
   .faq-list .faq-a, .faq-list .faq-a p { transition: none; }
 }
+
+/* --- Card interactions (paint-only). The system says hover darkens or brightens a hairline and nothing scales;
+       motion is carried by the arrow, which travels 4px (Doherty threshold: feedback inside 100ms). --- */
+.arw { transition: transform .2s cubic-bezier(.2, 0, .2, 1); }
+@media (hover: hover) {
+  a.card:hover .arw, .work-card:hover .arw, .problem-row:hover .arw, .route:focus-visible .arw { transform: translateX(4px); }
+  .problem-row { transition: border-color .2s cubic-bezier(.2, 0, .2, 1), background-color .2s cubic-bezier(.2, 0, .2, 1); }
+  .problem-row:hover { border-color: rgba(255, 255, 255, .5); }
+  .ground-light .problem-row:hover { border-color: rgba(0, 0, 0, .2); background-color: #f4f4f4; }
+  .problem-row:hover .route span:not(.arw) { color: rgba(255, 255, 255, .85); }
+  .ground-light .problem-row:hover .route span:not(.arw) { color: rgba(0, 0, 0, .8); }
+}
+/* Case-study cards: a glass chip floats over the image on hover (a floating layer, so glass is allowed) */
+.work-card { position: relative; }
+.work-card::after {
+  content: "Read case study \2197"; position: absolute; top: 16px; right: 16px; z-index: 3;
+  padding: 8px 14px; border-radius: 9999px; font-size: 13px; font-weight: 500; letter-spacing: -.011em; color: #fff;
+  background: rgba(0, 0, 0, .7); -webkit-backdrop-filter: saturate(180%) blur(16px); backdrop-filter: saturate(180%) blur(16px);
+  border: 1px solid rgba(255, 255, 255, .25);
+  opacity: 0; transform: translateY(-4px); transition: opacity .2s cubic-bezier(.2, 0, .2, 1), transform .2s cubic-bezier(.2, 0, .2, 1);
+  pointer-events: none;
+}
+@media (hover: hover) { .work-card:hover::after { opacity: 1; transform: none; } }
+.work-card:focus-visible::after { opacity: 1; transform: none; }
+.work-card img { transition: filter .2s cubic-bezier(.2, 0, .2, 1); }
+@media (hover: hover) { .work-card:hover img { filter: brightness(.82); } }
+
+/* Press state: the system reuses the darkened value; no scale */
+html body .btn-primary:not(#_):active, html body .nav-cta:not(#_):active { background: #cfcfcf !important; border-color: #cfcfcf !important; }
+.btn-outline:active { background: rgba(255, 255, 255, .14); }
+
+/* --- Contact dock (glass floating layer; main.js builds it after the hero) --- */
+.dock {
+  position: fixed; right: 24px; bottom: 24px; z-index: 9000; display: flex; align-items: center; gap: 6px; padding: 6px;
+  border-radius: 9999px; border: 1px solid rgba(255, 255, 255, .22);
+  background: rgba(0, 0, 0, .78); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px);
+  opacity: 0; visibility: hidden; transform: translateY(12px);
+  transition: opacity .2s cubic-bezier(.2, 0, .2, 1), transform .2s cubic-bezier(.2, 0, .2, 1), visibility 0s linear .2s;
+}
+.dock.on { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) { .dock { background: #000; } }
+.dock-main {
+  height: 44px; padding: 0 20px; border-radius: 9999px; background: #fff; color: #000; border: 0;
+  font: 600 15px/1 Inter, 'Inter Fallback', sans-serif; letter-spacing: -.022em; cursor: pointer;
+  transition: background-color .2s cubic-bezier(.2, 0, .2, 1);
+}
+.dock-main:hover { background: #e3e3e3; }
+.dock-main:active { background: #cfcfcf; }
+.dock-i {
+  position: relative; width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 9999px; color: rgba(255, 255, 255, .85); text-decoration: none;
+  transition: background-color .2s cubic-bezier(.2, 0, .2, 1), color .2s cubic-bezier(.2, 0, .2, 1);
+}
+.dock-i:hover { background: rgba(255, 255, 255, .12); color: #fff; }
+.dock-tip {
+  position: absolute; bottom: calc(100% + 10px); left: 50%; transform: translate(-50%, 4px); white-space: nowrap;
+  padding: 6px 10px; border-radius: 8px; font-size: 13px; color: #fff; background: rgba(0, 0, 0, .8);
+  -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, .2);
+  opacity: 0; pointer-events: none; transition: opacity .12s cubic-bezier(.2, 0, .2, 1), transform .12s cubic-bezier(.2, 0, .2, 1);
+}
+@media (hover: hover) { .dock-i:hover .dock-tip { opacity: 1; transform: translate(-50%, 0); } }
+.dock-i:focus-visible .dock-tip { opacity: 1; transform: translate(-50%, 0); }
+.dock-x {
+  width: 32px; height: 32px; margin-left: 2px; display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 9999px; color: rgba(255, 255, 255, .65); background: transparent; border: 0; cursor: pointer;
+}
+.dock-x:hover { color: #fff; background: rgba(255, 255, 255, .1); }
+.dock :focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+@media (max-width: 640px) {
+  .dock { left: 12px; right: 12px; bottom: 12px; justify-content: space-between; }
+  .dock-main { flex: 1; }
+  .dock-tip { display: none; }
+}
+@media print { .dock, .ann-bar { display: none !important; } }
+@media (prefers-reduced-motion: reduce) {
+  .arw, .dock, .work-card::after, .dock-tip { transition: none; }
+}

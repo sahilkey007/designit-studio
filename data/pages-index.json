@@ -16,14 +16,16 @@
     "funnelStage": "all",
     "topicCluster": "Home",
     "author": "Designit",
-    "updatedAt": "2026-10-04",
+    "updatedAt": "2026-10-05",
     "schemaType": "WebPage",
     "evidenceIds": [
       "EV-CLIENT-LOGOS",
       "EV-TESTIMONIALS",
       "EV-FOUNDER",
       "EV-SITE-CASE-COUNT",
-      "EV-MARKETS"
+      "EV-MARKETS",
+      "EV-DELIVERY-BOUNDARY",
+      "EV-PROCESS-AUDIT"
     ],
     "cta": {
       "heading": "Start with the problem",
@@ -46,13 +48,15 @@
     "action": "REWRITE",
     "h2s": [
       "What we help teams solve",
-      "How we work",
       "Services",
-      "Industries",
       "Selected work",
       "Why Designit",
+      "How Designit compares",
       "What product leaders say",
+      "Not sure which service you need?",
+      "How we work",
       "Experience behind the studio",
+      "Industries",
       "Insights",
       "FAQ"
     ],
@@ -72,6 +76,7 @@
       "/blog/cro-strategies-for-b2b-saas-india/",
       "/blog/edtech-ux-design-india/",
       "/blog/fintech-onboarding-kyc-ux-india/",
+      "/blog/freelancer-vs-design-agency-startups/",
       "/blog/generative-ai-website-personalization/",
       "/blog/hire-ui-ux-designer-vs-agency-india/",
       "/blog/how-ai-is-changing-ux-design-india/",
@@ -97,6 +102,7 @@
       "/projects/rcentric/",
       "/projects/tata-elxsi/",
       "/resources/",
+      "/resources/ux-audit-checklist/",
       "/services/",
       "/services/ai-product-design/",
       "/services/branding/",

@@ -1423,7 +1423,7 @@ main:focus { outline: none; }
    after the tokens block taken from ds-critical.css. Sentence case eyebrows, Poppins titles, hairline cards on black,
    no coloured accents, no shadows, hover = border or fill change only (nothing scales or lifts). */
 h2,h3,h4,h5{font-family:var(--font-heading)}
-html body h2:not(#_){font-weight:400;letter-spacing:-.04em;line-height:1.1;color:#fff}
+html body h2:not(#_){font-weight:400;letter-spacing:-.045em;line-height:1.06;color:#fff}
 html body h3:not(#_),html body h4:not(#_){font-weight:500;letter-spacing:-.02em;color:#fff}
 html body h2.gradient-text:not(#_){color:rgba(255,255,255,.6)}
 
@@ -1466,10 +1466,13 @@ input:focus,textarea:focus,select:focus{border-color:#fff;outline:none;box-shado
 .pg-section.ground-light{padding:88px 0}
 .ground-light + .pg-section:not(.ground-light){padding-top:88px}
 html body .ground-light :is(h1,h2,h3,h4,.pg-h2,.answer,.card h3,.faq-q):not(#_){color:#000}
+html body .ground-light .pg-eyebrow:not(#_){color:rgba(0,0,0,.65)}
+html body .ground-light .problem-row .pr-n:not(#_){color:rgba(0,0,0,.6)}
+html body .ground-light .problem-row:focus-within:not(#_){outline-color:#000}
 html body .ground-light h2.gradient-text:not(#_){color:rgba(0,0,0,.58)}
 html body .ground-light :is(.pg-intro,p,.card-body p,.faq-a p,li,dd,figcaption,blockquote):not(#_){color:rgba(0,0,0,.72)}
 html body .ground-light :is(.quote figcaption strong,.pg-intro a,.prose a,.card-body a,.problem-row .route,.problem-row .route span,dt,strong):not(#_){color:#000}
-html body .ground-light a:not(.btn):not(#_){color:#000;text-decoration:underline;text-decoration-color:rgba(0,0,0,.4);text-underline-offset:3px}
+html body .ground-light a:not(.btn):not(.route):not(#_){color:#000;text-decoration:underline;text-decoration-color:rgba(0,0,0,.4);text-underline-offset:3px}
 html body .ground-light :is(a.card,.work-card):not(#_){text-decoration:none}
 html body .ground-light :is(.card,.step,.stage,.problem-row,.quote,.work-card):not(#_){background:#fafafa;border:1px solid transparent;color:#000}
 html body .ground-light :is(a.card,.work-card):hover:not(#_){border-color:rgba(0,0,0,.2)}
