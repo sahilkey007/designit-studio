@@ -15,3 +15,4 @@ a83cfb5   # legacy-layout header/footer links (chrome only)
 50672e0   # CLS critical-CSS fixes (style only)
 e67f5f0   # intake-form.js ?v=3 bump (+ meta keywords on 4 pages)
 f0d07ec   # visible breadcrumb navigation on 27 hand-written pages
+e1b8851   # self-hosted Inter font (technical)
