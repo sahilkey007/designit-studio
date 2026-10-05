@@ -48,9 +48,9 @@ backlink check before any redirect; none were needed.
 | 2 Run crawl | `validate-site.mjs` (104 pages, all links and redirects), `quality_gate.py` (102 pages), axe on 100 pages, render at 1440 and 390, font-delayed CLS on 99 URLs × 2 widths | ✅ All pass. One known lab-only CLS item (DEV-B in `08-developer-backlog.md`) |
 | 3 Check 200 / 301 / 404 / canonical / indexability / robots / sitemap / schema / metadata / links / images / mobile / performance | Covered by stage 2 plus SEO-001…008 checks | ✅ See `08-developer-backlog.md` |
 | — Owner review | Review staging pages and decide the open items in `04-evidence-ledger.md` and `10-implementation-status.md` | ⏳ **Waiting for the owner** |
-| — Owner exports | GSC Pages + Links exports, backlink export (section 1 above) | ⏳ Owner |
-| 4 Launch | Merge `staging` → `main`, push to `designit-studio` (production) and `origin`. **Only with explicit approval** | ⏳ |
-| 5 Submit sitemap | Search Console → Sitemaps: `https://designit.co.in/sitemap.xml` and `/blog/sitemap.xml` | ⏳ Owner after launch |
+| — Owner exports | Search Console performance, indexing and links exports | ✅ `baseline/` |
+| 4 Launch | Merged `staging` → `main` (`4efe729`), pushed to `designit-studio` and `origin` on **2026-10-05** with the owner's explicit approval. Previous production deployment `dpl_9LjSwpfhtTxTMsyiJPjgZrGFXzvZ` (`df1c307`) is the rollback target | ✅ |
+| 5 Submit sitemap | Search Console → Sitemaps: `https://designit.co.in/sitemap.xml` and `/blog/sitemap.xml` | ⏳ Owner (now) |
 | 6 Inspect representative URLs | URL Inspection → "Request indexing" for `/`, `/services/`, `/services/ux-audit/`, `/services/saas-product-design/`, `/services/product-design/`, `/services/ai-product-design/`, `/solutions/`, `/industries/ai/`, `/locations/`, `/start-a-project/` | ⏳ Owner after launch |
 | 7 Monitor | 404s, soft 404s, canonical changes, indexing, ranking changes, GSC traffic: daily for week 1, then weekly (`06-measurement.md` dashboard) | ⏳ |
 
@@ -78,3 +78,15 @@ Then verify **against the live domain**, not just the deployment URL:
 
 **Rollback:** Vercel → Deployments → promote the previous production deployment (instant). Or
 `git revert -m 1 <merge-commit>` and push.
+
+## 5. Live verification, 2026-10-05 (against https://designit.co.in)
+
+- 20 new/rebuilt pages return 200; 13 aliases 308 to the right targets (`/work/`, `/industries/proptech/`, `/industries/ecommerce/`, `/locations/{usa,uk,uae,india}/`, `/pricing/`, the four `.html` URLs, `/about-designit/`).
+- 10 internal paths (`/docs/…`, `/data/…`, `/content/…`, `/scripts/…`, `site.config.json`, `generate-blog.js`, working `.md` files, `sitemap-ignore-commits.txt`) return 404.
+- No `x-robots-tag: noindex` on production; every sampled page has a self canonical and `index,follow`.
+- Sitemaps: 68 + 35 URLs, new pages included, no redirect sources.
+- Googlebot, OAI-SearchBot and the sitemap lines present in `robots.txt`.
+- Schema present per type (Organization, WebSite, WebPage, Service, BreadcrumbList, FAQPage, BlogPosting, Article).
+- Removed claims absent (98%, ₹1.5L retainer, 31%→62%, 12%, Driveit, 50M+, "INR or USD").
+- Fonts, `checklist-tool.js?v=2`, `intake-form.js?v=3`, `main.js?v=5`, `llms.txt` and `ai/*.json` all 200.
+- In a real browser: no `_ga`/`_fbp` cookie before Accept, Consent Mode default set, no console errors, mega-menu and font working.

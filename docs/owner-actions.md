@@ -38,9 +38,14 @@ the live site until you say so.** Full detail: `docs/seo-blueprint/` (start with
 - Four interactive checklists under `/resources/`: UX audit (48 checks), website UX scorecard (30), SaaS onboarding friction (25) and AI product UX (25).
 - Top 5 ranking posts refreshed with in-body pillar, sibling, service and tool links; outlier sprint prices in two agency guides replaced with a pointer to the pricing guide.
 
-**Still open:**
-1. Export Search Console (Pages + Links) and a backlink list as the pre-merge baseline, then say "merge".
-2. Case-study depth: send a few bullets and screenshots per project (before/after, how it was validated, what you'd do differently). I'll write them into the template and log each claim in the evidence ledger.
+**LIVE since 2026-10-05** (`main` = `4efe729`, verified on designit.co.in; rollback = promote the previous Vercel deployment).
+
+**Your next steps:**
+1. Search Console → Sitemaps: submit `sitemap.xml` and `blog/sitemap.xml`.
+2. URL Inspection → Request indexing for: `/`, `/services/`, `/services/ux-audit/`, `/services/saas-product-design/`, `/services/product-design/`, `/services/ai-product-design/`, `/solutions/`, `/industries/ai/`, `/locations/`, `/start-a-project/`.
+3. Watch daily for a week: Indexing → Pages (new 404s, "crawled, not indexed"), Performance (drops). Compare with `docs/seo-blueprint/baseline/README.md` at 2 and 6 weeks.
+4. Send the GoodFirms and DesignRush profile URLs if you want them in `sameAs`.
+5. Case-study notes per project (before, decisions, validation, outcome, lesson, screenshots).
 
 **Your accounts and data (nothing was created, submitted or sent):**
 - Before the merge: export Search Console Pages + Links and a backlink list (Ahrefs or similar) for the migration
