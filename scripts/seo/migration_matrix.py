@@ -30,6 +30,13 @@ def is_redirect(r):
     return bool(r) and r["action"].startswith("REDIRECT")
 
 
+# Pages the owner chose to retire, each 301-redirected to its client page (vercel.json). Listed so the gate still fails
+# on any other page that turns into a redirect or disappears.
+APPROVED_REMOVALS = {  # 2026-10-06, owner request: remove these case studies
+    "/projects/adda247/ios-app/", "/projects/adda247/performance-dashboard/",
+    "/projects/adda247/sankalp-bharat/", "/projects/rcentric/ela/",
+}
+
 rows, risky = [], []
 for u in sorted(set(base) | set(stag)):
     a, b = base.get(u), stag.get(u)
@@ -46,7 +53,9 @@ for u in sorted(set(base) | set(stag)):
     else:
         diff = [k for k in ("title", "h1", "canonical_self", "in_sitemap", "indexable") if a[k] != b[k]]
         change = "unchanged" if not diff else "same URL, changed: " + ", ".join(diff)
-    if change.startswith(("REMOVED", "PAGE ->")) or any(k in change for k in ("canonical_self", "in_sitemap", "indexable")):
+    if change == "PAGE -> REDIRECT" and u in APPROVED_REMOVALS:
+        change += " (owner-approved removal)"
+    elif change.startswith(("REMOVED", "PAGE ->")) or any(k in change for k in ("canonical_self", "in_sitemap", "indexable")):
         risky.append((u, change))
     src = b or a
     rows.append({

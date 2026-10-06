@@ -593,7 +593,6 @@
       "/industries/",
       "/projects/adda247/",
       "/projects/adda247/live-class/",
-      "/projects/adda247/performance-dashboard/",
       "/projects/adda247/test-series/",
       "/start-a-project/"
     ],
@@ -884,11 +883,8 @@
       "/projects/adda247/",
       "/projects/adda247/community/",
       "/projects/adda247/homepage-revamp/",
-      "/projects/adda247/ios-app/",
       "/projects/adda247/live-class/",
       "/projects/adda247/my-content/",
-      "/projects/adda247/performance-dashboard/",
-      "/projects/adda247/sankalp-bharat/",
       "/projects/adda247/studio-app/",
       "/projects/adda247/test-series/",
       "/projects/betacrew/",
@@ -899,7 +895,6 @@
       "/projects/kelp-global/truenorth/",
       "/projects/rcentric/",
       "/projects/rcentric/anwa-aria/",
-      "/projects/rcentric/ela/",
       "/projects/rcentric/liv-reside/",
       "/projects/rcentric/liv/",
       "/projects/rcentric/opus/",
@@ -990,11 +985,8 @@
       "/projects/",
       "/projects/adda247/community/",
       "/projects/adda247/homepage-revamp/",
-      "/projects/adda247/ios-app/",
       "/projects/adda247/live-class/",
       "/projects/adda247/my-content/",
-      "/projects/adda247/performance-dashboard/",
-      "/projects/adda247/sankalp-bharat/",
       "/projects/adda247/studio-app/",
       "/projects/adda247/test-series/",
       "/services/mobile-app-design/",
@@ -1009,6 +1001,7 @@
     "metaTitle": "Community Module — Adda 247 | Designit Case Study",
     "metaDescription": "Building a collaborative community for peer-to-peer learning, doubt resolution, and gamified knowledge sharing on Adda 247.",
     "h1": "Community Module",
+    "primaryKeyword": "adda247 community module case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -1056,7 +1049,6 @@
       "/projects/",
       "/projects/adda247/",
       "/projects/adda247/homepage-revamp/",
-      "/projects/adda247/ios-app/",
       "/projects/kelp-global/deals-module/",
       "/start-a-project/"
     ],
@@ -1068,6 +1060,7 @@
     "metaTitle": "Homepage Revamp — Adda247 | Designit Case Study",
     "metaDescription": "Revamping the Adda247 home screen to improve onboarding, boost engagement and drive free-to-paid conversion for 3M+ competitive exam students.",
     "h1": "Keeping ADDA Home Simple &amp; Approachable",
+    "primaryKeyword": "adda247 homepage revamp case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -1106,6 +1099,8 @@
       "Why does heavy hamburger-menu use matter?",
       "How do you decide what goes above the fold?",
       "What are engagement boosters in a learning app?",
+      "Who was the persona for the Adda247 home redesign?",
+      "What did the Adda247 user journey map show?",
       "How long does a Designit engagement take?",
       "Which regions does Designit work with?",
       "Who actually works on the engagement?",
@@ -1122,69 +1117,13 @@
     ],
     "file": "projects/adda247/homepage-revamp.html"
   },
-  "/projects/adda247/ios-app/": {
-    "url": "/projects/adda247/ios-app/",
-    "pageType": "case-study",
-    "metaTitle": "iOS & iPad App — Adda 247 | Designit Case Study",
-    "metaDescription": "Expanding Adda247's reach to Apple users with a native iOS and iPad experience following platform-specific design conventions.",
-    "h1": "iOS &amp; iPad App",
-    "searchIntent": "evaluation",
-    "funnelStage": "evaluation / vendor",
-    "topicCluster": "Work",
-    "author": "Designit",
-    "updatedAt": "2026-10-06",
-    "schemaType": "Article",
-    "cta": {
-      "heading": "Have a similar problem?",
-      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
-      "buttons": [
-        {
-          "label": "Start a project",
-          "href": "/start-a-project/",
-          "event": "start_project"
-        },
-        {
-          "label": "Book a call",
-          "href": "https://calendly.com/sahilnsharma77/new-meeting",
-          "event": "schedule_call"
-        }
-      ]
-    },
-    "conversionEvent": "start_project",
-    "refreshInterval": "when new evidence is available",
-    "priority": "P2",
-    "action": "KEEP + RESTRUCTURE",
-    "h2s": [
-      "FAQ"
-    ],
-    "faq": [
-      "What is iOS & iPad App?",
-      "What problem did iOS & iPad App solve?",
-      "How did Designit approach iOS & iPad App?",
-      "Should you build a native iOS app or port the Android app?",
-      "How should an iPad app differ from the iPhone app?",
-      "What makes an education app feel native on iOS?",
-      "How do students continue across iPhone and iPad?",
-      "How long does a Designit engagement take?",
-      "Which regions does Designit work with?",
-      "Who actually works on the engagement?"
-    ],
-    "internalLinks": [
-      "/",
-      "/projects/",
-      "/projects/adda247/",
-      "/projects/adda247/homepage-revamp/",
-      "/projects/kelp-global/deals-module/",
-      "/start-a-project/"
-    ],
-    "file": "projects/adda247/ios-app.html"
-  },
   "/projects/adda247/live-class/": {
     "url": "/projects/adda247/live-class/",
     "pageType": "case-study",
     "metaTitle": "Live Class Module — Adda 247 | Designit Case Study",
     "metaDescription": "In-house live streaming module replacing third-party services with real-time interaction, content sharing, and engagement tools for competitive exam…",
     "h1": "Live Class Module",
+    "primaryKeyword": "adda247 live class module case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -1243,6 +1182,7 @@
     "metaTitle": "My Content — Adda 247 | Designit Case Study",
     "metaDescription": "User-centric content consumption redesign shifting from package-centric to learner-centric with clear progress tracking and personalized recommendations.",
     "h1": "My Content",
+    "primaryKeyword": "adda247 my content case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -1287,123 +1227,11 @@
       "/projects/",
       "/projects/adda247/",
       "/projects/adda247/homepage-revamp/",
-      "/projects/adda247/performance-dashboard/",
-      "/projects/kelp-global/deals-module/",
-      "/start-a-project/"
-    ],
-    "file": "projects/adda247/my-content.html"
-  },
-  "/projects/adda247/performance-dashboard/": {
-    "url": "/projects/adda247/performance-dashboard/",
-    "pageType": "case-study",
-    "metaTitle": "Performance Dashboard — Adda 247 | Designit Case Study",
-    "metaDescription": "Comprehensive analytics dashboard providing actionable insights into test performance, study patterns, and personalized improvement paths for Adda 247 students.",
-    "h1": "Performance Dashboard",
-    "searchIntent": "evaluation",
-    "funnelStage": "evaluation / vendor",
-    "topicCluster": "Work",
-    "author": "Designit",
-    "updatedAt": "2026-10-06",
-    "schemaType": "Article",
-    "cta": {
-      "heading": "Have a similar problem?",
-      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
-      "buttons": [
-        {
-          "label": "Start a project",
-          "href": "/start-a-project/",
-          "event": "start_project"
-        },
-        {
-          "label": "Book a call",
-          "href": "https://calendly.com/sahilnsharma77/new-meeting",
-          "event": "schedule_call"
-        }
-      ]
-    },
-    "conversionEvent": "start_project",
-    "refreshInterval": "when new evidence is available",
-    "priority": "P2",
-    "action": "KEEP + RESTRUCTURE",
-    "h2s": [
-      "FAQ"
-    ],
-    "faq": [
-      "What is Performance Dashboard?",
-      "What problem did Performance Dashboard solve?",
-      "How did Designit approach Performance Dashboard?",
-      "What should a student performance dashboard show?",
-      "Which charts work best for learners?",
-      "How do you design analytics for very different users?",
-      "Why lead with a recommendation instead of the score?",
-      "How long does a Designit engagement take?"
-    ],
-    "internalLinks": [
-      "/",
-      "/projects/",
-      "/projects/adda247/",
-      "/projects/adda247/homepage-revamp/",
-      "/projects/adda247/sankalp-bharat/",
-      "/projects/kelp-global/deals-module/",
-      "/start-a-project/"
-    ],
-    "file": "projects/adda247/performance-dashboard.html"
-  },
-  "/projects/adda247/sankalp-bharat/": {
-    "url": "/projects/adda247/sankalp-bharat/",
-    "pageType": "case-study",
-    "metaTitle": "Sankalp Bharat App — Adda 247 | Designit Case Study",
-    "metaDescription": "Transforming the home screen for IIT/JEE aspirants from a low-engagement feed to a value-driven, personalized learning hub.",
-    "h1": "Sankalp Bharat App",
-    "searchIntent": "evaluation",
-    "funnelStage": "evaluation / vendor",
-    "topicCluster": "Work",
-    "author": "Designit",
-    "updatedAt": "2026-10-06",
-    "schemaType": "Article",
-    "cta": {
-      "heading": "Have a similar problem?",
-      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
-      "buttons": [
-        {
-          "label": "Start a project",
-          "href": "/start-a-project/",
-          "event": "start_project"
-        },
-        {
-          "label": "Book a call",
-          "href": "https://calendly.com/sahilnsharma77/new-meeting",
-          "event": "schedule_call"
-        }
-      ]
-    },
-    "conversionEvent": "start_project",
-    "refreshInterval": "when new evidence is available",
-    "priority": "P2",
-    "action": "KEEP + RESTRUCTURE",
-    "h2s": [
-      "FAQ"
-    ],
-    "faq": [
-      "What is Sankalp Bharat App?",
-      "What problem did Sankalp Bharat App solve?",
-      "How did Designit approach Sankalp Bharat App?",
-      "How do you design a home screen that drives daily engagement?",
-      "How was the new home screen validated?",
-      "Should the home screen change as the exam gets closer?",
-      "What is a good way to introduce premium features to free users?",
-      "How long does a Designit engagement take?"
-    ],
-    "internalLinks": [
-      "/",
-      "/projects/",
-      "/projects/adda247/",
-      "/projects/adda247/homepage-revamp/",
       "/projects/adda247/studio-app/",
       "/projects/kelp-global/deals-module/",
       "/start-a-project/"
     ],
-    "file": "projects/adda247/sankalp-bharat.html"
+    "file": "projects/adda247/my-content.html"
   },
   "/projects/adda247/studio-app/": {
     "url": "/projects/adda247/studio-app/",
@@ -1411,6 +1239,7 @@
     "metaTitle": "Studio App for Smart Boards — Adda 247 | Designit Case Study",
     "metaDescription": "In-house application enhancing teaching with smart board tools for recording, annotation, and content sharing at Adda 247.",
     "h1": "Studio App for Smart Boards",
+    "primaryKeyword": "adda247 studio app for smart boards case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -1472,6 +1301,7 @@
     "metaTitle": "Test Series Enhancement — Adda 247 | Designit Case Study",
     "metaDescription": "Comprehensive upgrade of the online test-taking experience for competitive exam students with real-time progress tracking and smart question navigation.",
     "h1": "Test Series Enhancement",
+    "primaryKeyword": "adda247 test series case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -1604,6 +1434,7 @@
     "metaTitle": "Portle Case Study — Betacrew Fintech UX | Designit",
     "metaDescription": "Case study: Portle, a developer-first API management platform for Betacrew that unifies API design, testing, documentation and monitoring in one interface.",
     "h1": "Portle",
+    "primaryKeyword": "betacrew portle case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -1745,6 +1576,7 @@
     "metaTitle": "Deals Module Case Study — Kelp Global | Designit",
     "metaDescription": "How Designit designed Kelp's deals module for investment teams: company one-pagers, IC notes, valuations and side-by-side comparison in one place.",
     "h1": "Deals Module",
+    "primaryKeyword": "kelp global deals module case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -1807,6 +1639,7 @@
     "metaTitle": "Kelp Plugin Case Study — Kelp Global | Designit",
     "metaDescription": "How Designit designed the Kelp plugin: file an email, its contacts and attachments to the right deal or company in Kelp without leaving the inbox.",
     "h1": "Kelp Plugin",
+    "primaryKeyword": "kelp global kelp plugin case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -1863,6 +1696,7 @@
     "metaTitle": "Truenorth Investor Portal Case Study | Designit",
     "metaDescription": "How Designit designed the Truenorth investor portal on Kelp: fund documents, portfolio companies and the annual meeting in one secure place for investors.",
     "h1": "Truenorth Investor Portal",
+    "primaryKeyword": "kelp global truenorth investor portal case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -1985,7 +1819,6 @@
       "/industries/real-estate/",
       "/projects/",
       "/projects/rcentric/anwa-aria/",
-      "/projects/rcentric/ela/",
       "/projects/rcentric/liv-reside/",
       "/projects/rcentric/liv/",
       "/projects/rcentric/opus/",
@@ -2002,6 +1835,7 @@
     "metaTitle": "Anwa Aria — R-Centric (Omniyat) — Designit",
     "metaDescription": "Case study: website for Anwa Aria, a luxury tower in Dubai Maritime City, built to give a newer waterfront district credibility against Palm Jumeirah.",
     "h1": "Anwa Aria",
+    "primaryKeyword": "r-centric anwa aria case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -2046,69 +1880,10 @@
       "/projects/",
       "/projects/adda247/homepage-revamp/",
       "/projects/rcentric/",
-      "/projects/rcentric/ela/",
       "/projects/rcentric/liv/",
       "/start-a-project/"
     ],
     "file": "projects/rcentric/anwa-aria.html"
-  },
-  "/projects/rcentric/ela/": {
-    "url": "/projects/rcentric/ela/",
-    "pageType": "case-study",
-    "metaTitle": "ELA Residences — R-Centric (Omniyat) — Designit",
-    "metaDescription": "ELA Residences case study: digital experience design for the Foster + Partners wellness and luxury development on Palm Jumeirah, Dubai.",
-    "h1": "ELA Residences",
-    "searchIntent": "evaluation",
-    "funnelStage": "evaluation / vendor",
-    "topicCluster": "Work",
-    "author": "Designit",
-    "updatedAt": "2026-10-06",
-    "schemaType": "Article",
-    "cta": {
-      "heading": "Have a similar problem?",
-      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
-      "buttons": [
-        {
-          "label": "Start a project",
-          "href": "/start-a-project/",
-          "event": "start_project"
-        },
-        {
-          "label": "Book a call",
-          "href": "https://calendly.com/sahilnsharma77/new-meeting",
-          "event": "schedule_call"
-        }
-      ]
-    },
-    "conversionEvent": "start_project",
-    "refreshInterval": "when new evidence is available",
-    "priority": "P2",
-    "action": "KEEP + RESTRUCTURE",
-    "h2s": [
-      "FAQ"
-    ],
-    "faq": [
-      "What is ELA Residences?",
-      "What problem did ELA Residences solve?",
-      "How did Designit approach ELA Residences?",
-      "What features should a luxury real estate website in Dubai have?",
-      "How do you design a property website for international buyers?",
-      "Were the Omniyat property websites built on one design system?",
-      "How do you design a website for a sustainable luxury brand?",
-      "How long does a Designit engagement take?",
-      "Which regions does Designit work with?",
-      "Who actually works on the engagement?",
-      "What tools does the studio work in?"
-    ],
-    "internalLinks": [
-      "/",
-      "/projects/",
-      "/projects/adda247/homepage-revamp/",
-      "/projects/rcentric/",
-      "/projects/rcentric/liv/",
-      "/start-a-project/"
-    ],
-    "file": "projects/rcentric/ela.html"
   },
   "/projects/rcentric/liv-reside/": {
     "url": "/projects/rcentric/liv-reside/",
@@ -2116,6 +1891,7 @@
     "metaTitle": "LIV Reside — R-Centric (Omniyat) — Designit",
     "metaDescription": "LIV Reside case study: extending the LIV brand into an upscale residential community concept where luxury living meets genuine neighbourhood connection.",
     "h1": "LIV Reside",
+    "primaryKeyword": "r-centric liv reside case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -2172,6 +1948,7 @@
     "metaTitle": "LIV — R-Centric (Omniyat) — Designit",
     "metaDescription": "Case study: a premium platform for LIV, Omniyat's exclusive real estate partner, replacing a generic site with a boutique, personalized property experience.",
     "h1": "LIV",
+    "primaryKeyword": "r-centric liv case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -2229,6 +2006,7 @@
     "metaTitle": "OPUS — R-Centric (Omniyat) — Designit",
     "metaDescription": "Case study: website for OPUS, the Zaha Hadid-designed Dubai building of residences, offices and a hotel, serving homebuyers, tenants and hotel guests.",
     "h1": "OPUS",
+    "primaryKeyword": "r-centric opus case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -2286,6 +2064,7 @@
     "metaTitle": "Orla Infinity — R-Centric (Omniyat) — Designit",
     "metaDescription": "Case study: website for Orla Infinity, Omniyat's Palm Jumeirah residence, designed to match the architecture and convey the lifestyle before a visit.",
     "h1": "Orla Infinity",
+    "primaryKeyword": "r-centric orla infinity case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -2342,6 +2121,7 @@
     "metaTitle": "Vela Viento — R-Centric (Omniyat) — Designit",
     "metaDescription": "Case study: digital storytelling for Vela Viento, a Foster + Partners residence in Marasi Bay with Dorchester Collection services, for international buyers.",
     "h1": "Vela Viento",
+    "primaryKeyword": "r-centric vela viento case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -2474,6 +2254,7 @@
     "metaTitle": "Infotainment System — Tata Elxsi — Designit",
     "metaDescription": "Case study: next-generation in-vehicle infotainment for Tata Elxsi, with navigation, media, climate and phone controls designed to work at a glance.",
     "h1": "Infotainment System",
+    "primaryKeyword": "tata elxsi infotainment system case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -2531,6 +2312,7 @@
     "metaTitle": "Digital Instrument Cluster — Tata Elxsi — Designit",
     "metaDescription": "Case study: a programmable digital instrument cluster for Tata Elxsi with adaptive display modes for city, highway, sport and eco driving.",
     "h1": "Digital Instrument Cluster",
+    "primaryKeyword": "tata elxsi digital instrument cluster case study",
     "searchIntent": "evaluation",
     "funnelStage": "evaluation / vendor",
     "topicCluster": "Work",
@@ -3476,7 +3258,6 @@
     "schemaType": "Service",
     "evidenceIds": [
       "EV-ADDA-SCOPE",
-      "EV-ADDA-IOS",
       "EV-DELIVERY-BOUNDARY"
     ],
     "relatedServices": [
@@ -3489,8 +3270,8 @@
       "/industries/fintech/"
     ],
     "relatedCaseStudies": [
-      "/projects/adda247/ios-app/",
-      "/projects/adda247/sankalp-bharat/",
+      "/projects/adda247/homepage-revamp/",
+      "/projects/adda247/community/",
       "/projects/adda247/studio-app/"
     ],
     "aiAnswerTargets": [
@@ -3538,8 +3319,8 @@
     "internalLinks": [
       "/",
       "/blog/cost-ui-ux-design-mobile-app-india/",
-      "/projects/adda247/ios-app/",
-      "/projects/adda247/sankalp-bharat/",
+      "/projects/adda247/community/",
+      "/projects/adda247/homepage-revamp/",
       "/projects/adda247/studio-app/",
       "/services/",
       "/start-a-project/"

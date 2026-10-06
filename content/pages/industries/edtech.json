@@ -29,7 +29,7 @@
        {"title": "Onboarding and activation", "body": "Getting a new learner to a first genuine learning moment quickly."},
        {"title": "Assessment and test-series engines", "body": "Reliable state handling, clear navigation, review flows and connection-loss recovery.", "href": "/projects/adda247/test-series/", "more": "Test series case study"},
        {"title": "Live class interfaces", "body": "Video, materials and participation balanced without overwhelming a learner.", "href": "/projects/adda247/live-class/", "more": "Live class case study"},
-       {"title": "Performance dashboards", "body": "Progress shown to motivate rather than discourage.", "href": "/projects/adda247/performance-dashboard/", "more": "Dashboard case study"},
+       {"title": "Performance dashboards", "body": "Progress shown to motivate rather than discourage."},
        {"title": "Support-load reduction", "body": "Finding the interface ambiguities that generate repeat tickets and designing them out."},
        {"title": "Low-bandwidth resilience", "body": "Mid-range hardware and intermittent connectivity as the default case."}
      ]},

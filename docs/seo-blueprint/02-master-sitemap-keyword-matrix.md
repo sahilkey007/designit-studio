@@ -48,32 +48,28 @@ Actions use the blueprint vocabulary: KEEP / REWRITE / EXPAND / MERGE / REDIRECT
 | URL | Action | P | Primary keyword | Evidence | Notes |
 |---|---|---|---|---|---|
 | /projects/adda247/ | KEEP + EXPAND | P1 | adda247 ux case study | EV-ADDA-SCOPE; EV-QUOTE-AKANKSHA; EV-QUOTE-MURLIDHAR | Existing impressions and proof |
-| /projects/adda247/community/ | KEEP* | P2 | adda247 community design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/adda247/homepage-revamp/ | KEEP, review for consolidation later | P2 | adda247 homepage revamp design |  | Preserve existing search equity |
-| /projects/adda247/ios-app/ | KEEP | P2 | adda247 ios app design |  | Distinct product artifact |
-| /projects/adda247/live-class/ | KEEP | P2 | adda247 live class design |  | Unique scope |
-| /projects/adda247/my-content/ | KEEP* | P2 | adda247 my content design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/adda247/performance-dashboard/ | KEEP* | P2 | adda247 performance dashboard design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/adda247/sankalp-bharat/ | KEEP | P2 | adda247 sankalp bharat design |  | Unique scope |
-| /projects/adda247/studio-app/ | KEEP* | P2 | adda247 studio app design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/adda247/test-series/ | KEEP | P2 | adda247 test series design |  | Unique scope |
+| /projects/adda247/community/ | KEEP* | P2 | adda247 community module case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/adda247/homepage-revamp/ | KEEP, review for consolidation later | P2 | adda247 homepage revamp case study |  | Preserve existing search equity |
+| /projects/adda247/live-class/ | KEEP | P2 | adda247 live class module case study |  | Unique scope |
+| /projects/adda247/my-content/ | KEEP* | P2 | adda247 my content case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/adda247/studio-app/ | KEEP* | P2 | adda247 studio app for smart boards case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/adda247/test-series/ | KEEP | P2 | adda247 test series case study |  | Unique scope |
 | /projects/betacrew/ | KEEP + EXPAND | P1 | developer platform ux case study | EV-BETACREW-SCOPE | Case-study opportunity |
-| /projects/betacrew/portle/ | KEEP* | P2 | betacrew portle design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/betacrew/portle/ | KEEP* | P2 | betacrew portle case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
 | /projects/kelp-global/ | KEEP + EXPAND | P1 | b2b saas design case study | EV-KELP-SCOPE; EV-QUOTE-GIRISH | SaaS/product proof |
-| /projects/kelp-global/deals-module/ | KEEP* | P2 | kelp global deals module design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/kelp-global/kelp-plugin/ | KEEP* | P2 | kelp global kelp plugin design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/kelp-global/truenorth/ | KEEP* | P2 | kelp global truenorth design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/kelp-global/deals-module/ | KEEP* | P2 | kelp global deals module case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/kelp-global/kelp-plugin/ | KEEP* | P2 | kelp global kelp plugin case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/kelp-global/truenorth/ | KEEP* | P2 | kelp global truenorth investor portal case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
 | /projects/rcentric/ | KEEP + EXPAND | P1 | luxury property website case study | EV-RCENTRIC-SCOPE; EV-RCENTRIC-QUALIFICATION | Existing case study |
-| /projects/rcentric/anwa-aria/ | KEEP* | P2 | rcentric anwa aria design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/rcentric/ela/ | KEEP* | P2 | rcentric ela design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/rcentric/liv-reside/ | KEEP* | P2 | rcentric liv reside design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/rcentric/liv/ | KEEP* | P2 | rcentric liv design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/rcentric/opus/ | KEEP* | P2 | rcentric opus design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/rcentric/orla-infinity/ | KEEP* | P2 | rcentric orla infinity design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/rcentric/vela-viento/ | KEEP* | P2 | rcentric vela viento design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/rcentric/anwa-aria/ | KEEP* | P2 | r-centric anwa aria case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/rcentric/liv-reside/ | KEEP* | P2 | r-centric liv reside case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/rcentric/liv/ | KEEP* | P2 | r-centric liv case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/rcentric/opus/ | KEEP* | P2 | r-centric opus case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/rcentric/orla-infinity/ | KEEP* | P2 | r-centric orla infinity case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/rcentric/vela-viento/ | KEEP* | P2 | r-centric vela viento case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
 | /projects/tata-elxsi/ | KEEP + EXPAND | P1 | automotive hmi case study | EV-TATA-SCOPE | Existing visibility |
-| /projects/tata-elxsi/infotainment/ | KEEP* | P2 | tata elxsi infotainment design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
-| /projects/tata-elxsi/instrument-cluster/ | KEEP* | P2 | tata elxsi instrument cluster design |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/tata-elxsi/infotainment/ | KEEP* | P2 | tata elxsi infotainment system case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
+| /projects/tata-elxsi/instrument-cluster/ | KEEP* | P2 | tata elxsi digital instrument cluster case study |  | Not in the blueprint table; kept as-is, joins the internal-link graph |
 
 ## Insights (existing articles)
 
@@ -223,5 +219,13 @@ Named in the blueprint but not built, by design: section 114 says not to start t
 | /projects/adda247/studio-app/my-content/ | 301 -> /projects/adda247/my-content/ |
 | /projects/adda247/my-content/studio-app.html/ | 301 -> /projects/adda247/studio-app/ |
 | /projects/adda247/my-content/studio-app/ | 301 -> /projects/adda247/studio-app/ |
-| /projects/rcentric/opus/ela.html/ | 301 -> /projects/rcentric/ela/ |
-| /projects/rcentric/opus/ela/ | 301 -> /projects/rcentric/ela/ |
+| /projects/rcentric/opus/ela.html/ | 301 -> /projects/rcentric/ |
+| /projects/rcentric/opus/ela/ | 301 -> /projects/rcentric/ |
+| /projects/adda247/ios-app.html/ | 301 -> /projects/adda247/ |
+| /projects/adda247/ios-app/ | 301 -> /projects/adda247/ |
+| /projects/adda247/performance-dashboard.html/ | 301 -> /projects/adda247/ |
+| /projects/adda247/performance-dashboard/ | 301 -> /projects/adda247/ |
+| /projects/adda247/sankalp-bharat.html/ | 301 -> /projects/adda247/ |
+| /projects/adda247/sankalp-bharat/ | 301 -> /projects/adda247/ |
+| /projects/rcentric/ela.html/ | 301 -> /projects/rcentric/ |
+| /projects/rcentric/ela/ | 301 -> /projects/rcentric/ |

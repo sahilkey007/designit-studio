@@ -71,32 +71,40 @@
     "label": "Research & Insights",
     "heading": "What the data revealed",
     "intro": [
-      "Deep behavioural analysis of 3M+ users surfaced critical gaps between what users needed and what the home screen offered."
+      "Behavioural data from the app showed a clear gap between what students used most and what the home screen put first."
     ],
     "items": [
       [
         "3.12M",
-        "clicks on study materials — the #1 action, but access required extra navigation steps"
+        "clicks on study material, the most-used action, yet reaching it took extra navigation steps"
       ],
       [
         "1.47M",
-        "Daily Quiz clicks — a top feature that was visually deprioritised in the UI"
+        "Daily Quiz clicks from 235K users, a top study tool that the home screen deprioritised"
+      ],
+      [
+        "574K",
+        "Current Affairs clicks from 161K users, another high-intent feature that was hard to find"
       ],
       [
         "8.8%",
-        "of users engaged with video content — poor discovery buried high-value content"
+        "of users interacted with video; students preferred text, and video discovery was weak"
       ],
       [
-        "37.5K",
-        "users clicked the hamburger menu — a signal of navigation failure, not preference"
+        "57.6%",
+        "of users (375K) opened the hamburger menu to reach study-material sections"
       ],
       [
-        "3–5×",
-        "scroll required before users found relevant content, despite infinite scroll design"
+        "3–5",
+        "scrolls was as far as most people went, despite a feed designed for infinite scroll"
       ],
       [
-        "<2%",
-        "social engagement — community features lacked incentive and visual prominence"
+        "0.5%",
+        "of users shared content (6.5% commented, 2.2% liked posts): little reason to engage socially"
+      ],
+      [
+        "110K+",
+        "unique users of premium content, which sat buried inside long lists"
       ]
     ]
   },
@@ -189,7 +197,7 @@
     ]
   },
   "results": {
-    "label": "Outcome",
+    "label": "Conclusion",
     "heading": "Impact of the redesign",
     "intro": [
       "The new design streamlined navigation, improved content discoverability, and prioritised high-engagement features — delivering a more intuitive, personalised learning journey."
@@ -339,6 +347,14 @@
       "a": "Small, honest reasons to come back: daily streaks, badges, educator recommendations and community nudges. They work when they reward real study, not just opening the app."
     },
     {
+      "q": "Who was the persona for the Adda247 home redesign?",
+      "a": "Yash, a 17-year-old first-time free user from a tier 2 city preparing for defence exams. He wants quality material, a free trial or an affordable plan, progress tracking and doubt resolution, and he struggles with too much choice and with convincing his parents to pay for a course."
+    },
+    {
+      "q": "What did the Adda247 user journey map show?",
+      "a": "The lowest moments came when students compared apps, checked prices, chose a course and made their first practice attempts. The redesign focused there: value before the store, clearer course information, and practice that is easy to start from the home screen."
+    },
+    {
       "q": "How long does a Designit engagement take?",
       "a": "A Design Sprint is delivered in 5 business days. Full product design engagements run 4–12 weeks depending on scope. Monthly retainers are ongoing, with one active request at a time and a 24-hour response time."
     },
@@ -354,5 +370,428 @@
       "q": "What tools does the studio work in?",
       "a": "Figma is the primary canvas, with prototyping in Figma or Protopie and engineering handoff through Figma Dev Mode. Research runs on Maze and Hotjar. Project tracking sits in Notion or Linear, and teams are welcome to work inside their own stack instead."
     }
+  ],
+  "context": {
+    "label": "Background",
+    "heading": "Setting up the context",
+    "paras": [
+      "The platform serves students and professionals who want quick access to study material, quizzes and career-related content. Navigation problems, cognitive overload and poor content prioritisation were getting in the way of all three.",
+      "Engagement potential was high, but the home screen was not keeping people. Fixing the experience could improve discoverability and retention, and lead to better learning outcomes: a home that feels more intuitive, more engaging and easier to come back to.",
+      "The brief was to revamp the home section so that new users get a structured, frictionless onboarding, existing users get a personalised and engaging experience, the interface builds trust with modern UI, and free users are nudged towards paid plans through self-trial."
+    ],
+    "listHeading": "Project goals",
+    "list": [
+      "Motivate users to explore and engage with the app.",
+      "Enable self-trial for new and existing students, to drive product-led growth.",
+      "Establish trust through a clean, modern interface.",
+      "Nudge users towards paid plans, improving conversion."
+    ]
+  },
+  "userChallenges": {
+    "label": "Problem areas",
+    "heading": "Where the old home screen got in the way",
+    "intro": [
+      "We audited the existing app screen by screen and grouped what we found into four problem areas."
+    ],
+    "groups": [
+      {
+        "title": "Navigation and discovery",
+        "items": [
+          [
+            "Dual-tab confusion",
+            "Feed and Study Material as two tabs split attention and hid content."
+          ],
+          [
+            "Ineffective navigation",
+            "375K users relied on the hamburger menu, a sign that key sections were hard to find."
+          ],
+          [
+            "Teacher-based navigation",
+            "Students prefer to reach material through specific teachers, but the app did not emphasise them."
+          ]
+        ],
+        "img": {
+          "src": "/assets/projects/adda247/homepage-revamp-before-tabs.webp",
+          "alt": "The old Adda247 app with separate Feed and Study Material tabs",
+          "caption": "Before: Feed and Study Material as separate tabs."
+        }
+      },
+      {
+        "title": "Content accessibility and engagement",
+        "items": [
+          [
+            "Poor prioritisation",
+            "High-click features (study material, quizzes, job alerts) were not visually prioritised; Daily Quiz was under-emphasised despite 1.47M clicks."
+          ],
+          [
+            "Hidden premium content",
+            "Premium content, used by 110K+ unique users, was buried in lists."
+          ],
+          [
+            "Study material",
+            "Long, unstructured lists made content hard to find, and similar icons made navigation unintuitive."
+          ]
+        ]
+      },
+      {
+        "title": "Cognitive overload",
+        "items": [
+          [
+            "Information overload",
+            "A cluttered home and long articles raised cognitive strain; the feed was built for engagement but did not retain people."
+          ],
+          [
+            "Feed issues",
+            "Most users scrolled only 3–5 times, competing content types fought for attention, and banner ads broke the flow."
+          ]
+        ],
+        "img": {
+          "src": "/assets/projects/adda247/homepage-revamp-before-banner.webp",
+          "alt": "The old Adda247 feed with a promotional banner covering the content",
+          "caption": "Before: banner ads interrupting the feed."
+        }
+      },
+      {
+        "title": "Barriers to learning",
+        "items": [
+          [
+            "Feature access",
+            "Power Capsules (45K users) sat at the bottom of a list; videos had low engagement (57K users) yet appeared in several places; Current Affairs was placed twice."
+          ],
+          [
+            "Buried material",
+            "60% of study materials lived in separate sections, which made them hard to reach."
+          ],
+          [
+            "Onboarding",
+            "New users were sent to the store too soon, before they had seen the product's value."
+          ]
+        ]
+      }
+    ]
+  },
+  "persona": {
+    "label": "Persona",
+    "heading": "Designing for Yash, a first-time free user",
+    "intro": "The persona that anchored every decision: a student exploring the app before paying, with limited money and a lot of choice.",
+    "tag": "First-time free user",
+    "name": "Yash",
+    "role": "Preparing for defence exams, Class 11",
+    "quote": "I want to start my preparation early so that I can be fully prepared to crack the defence exam.",
+    "facts": [
+      [
+        "Age",
+        "17"
+      ],
+      [
+        "City",
+        "Tier 2"
+      ]
+    ],
+    "traits": [
+      "Tech savvy",
+      "Extrovert",
+      "Punctual",
+      "Hardworking"
+    ],
+    "wantsHeading": "What he wants",
+    "wants": [
+      "High-quality learning material",
+      "A free trial or an affordable plan, because he is careful about spending money",
+      "Performance tracking and analysis",
+      "Effective doubt resolution",
+      "Motivational support"
+    ],
+    "painsHeading": "His pain points",
+    "pains": [
+      "Feeling overwhelmed by the amount of study material online",
+      "Struggling to find reliable sources and the courses best suited to him",
+      "Struggling to convince his parents to buy the course he likes"
+    ],
+    "appsHeading": "Other apps he uses",
+    "apps": [
+      [
+        "YouTube:",
+        "free lessons from popular educators and motivational videos from student vloggers."
+      ],
+      [
+        "Instagram and Snapchat:",
+        "to connect and socialise with peers."
+      ],
+      [
+        "WhatsApp:",
+        "defence-aspirant groups for tips, free content and what to study (previous years' papers, mocks)."
+      ]
+    ]
+  },
+  "journey": {
+    "label": "User journey",
+    "heading": "From searching to feeling prepared",
+    "intro": "We mapped Yash's journey across six stages to see where the app could help, and where it was losing him.",
+    "stages": [
+      "Awareness",
+      "Consideration",
+      "Decision",
+      "Onboarding",
+      "Engagement",
+      "Completion"
+    ],
+    "rows": [
+      [
+        "Goals",
+        [
+          "Find the best learning resources for the exam",
+          "Compare platforms and courses",
+          "Choose an affordable, effective course",
+          "Start using the platform effectively",
+          "Stay consistent with learning",
+          "Feel prepared and confident"
+        ]
+      ],
+      [
+        "Feeling",
+        [
+          "Curious, hopeful",
+          "Confused, cautious",
+          "Anxious, hesitant",
+          "Excited, slightly overwhelmed",
+          "Distracted, determined",
+          "Relieved, accomplished"
+        ]
+      ],
+      [
+        "Thinking",
+        [
+          "&ldquo;Where can I find quality material?&rdquo;",
+          "&ldquo;Which platform suits me best?&rdquo;",
+          "&ldquo;Is this worth my money?&rdquo;",
+          "&ldquo;How do I make the most of this?&rdquo;",
+          "&ldquo;Am I learning effectively?&rdquo;",
+          "&ldquo;Did I learn enough?&rdquo;"
+        ]
+      ],
+      [
+        "Doing",
+        [
+          "Browsing YouTube, social media and EdTech platforms",
+          "Checking free trials, reviews and recommendations",
+          "Evaluating pricing, free trials and content quality",
+          "Exploring the UI, setting up study plans",
+          "Watching videos, taking notes, joining discussions",
+          "Taking mock tests, reviewing content"
+        ]
+      ],
+      [
+        "Experience",
+        [
+          "Neutral",
+          "Anxious",
+          "Anxious",
+          "Neutral",
+          "Neutral to anxious",
+          "Relaxed"
+        ]
+      ],
+      [
+        "UX opportunities",
+        [
+          "Clear, engaging content that grabs attention early",
+          "Simpler course selection with guided recommendations and comparisons",
+          "Affordable plans, trial options and transparent pricing",
+          "Intuitive onboarding with tutorials",
+          "Gamification, reminders and peer interaction",
+          "Performance tracking, feedback and revision tools"
+        ]
+      ]
+    ]
+  },
+  "moods": {
+    "label": "Emotional journey",
+    "heading": "Where the experience dipped",
+    "intro": "Each moment in the journey, and how it felt. The lows cluster around comparing options, prices and the first practice attempts, which is where the redesign focused.",
+    "stages": [
+      {
+        "title": "Discovery",
+        "steps": [
+          [
+            "Search for exam prep",
+            "neutral"
+          ],
+          [
+            "Compare different apps",
+            "negative"
+          ],
+          [
+            "Ask peers for recommendations",
+            "positive"
+          ]
+        ]
+      },
+      {
+        "title": "First interaction",
+        "steps": [
+          [
+            "Download the app",
+            "positive"
+          ],
+          [
+            "Initial app exploration",
+            "negative"
+          ],
+          [
+            "Free content access",
+            "positive"
+          ]
+        ]
+      },
+      {
+        "title": "Evaluation",
+        "steps": [
+          [
+            "Try free materials",
+            "neutral"
+          ],
+          [
+            "Check course prices",
+            "negative"
+          ],
+          [
+            "Compare with alternatives",
+            "negative"
+          ]
+        ]
+      },
+      {
+        "title": "Decision making",
+        "steps": [
+          [
+            "Course selection",
+            "negative"
+          ],
+          [
+            "Payment consideration",
+            "negative"
+          ],
+          [
+            "Parental consultation",
+            "neutral"
+          ]
+        ]
+      },
+      {
+        "title": "Early usage",
+        "steps": [
+          [
+            "Content exploration",
+            "positive"
+          ],
+          [
+            "Schedule creation",
+            "neutral"
+          ],
+          [
+            "Practice attempts",
+            "negative"
+          ]
+        ]
+      },
+      {
+        "title": "Regular usage",
+        "steps": [
+          [
+            "Daily study routine",
+            "positive"
+          ],
+          [
+            "Progress tracking",
+            "positive"
+          ],
+          [
+            "Doubt resolution",
+            "neutral"
+          ]
+        ]
+      }
+    ]
+  },
+  "figures": [
+    {
+      "id": "information-architecture",
+      "label": "Information architecture",
+      "heading": "Mapping the app before redrawing it",
+      "intro": "We mapped the existing structure, from the Feed and Study Material tabs down to filters, comments and banners, and annotated the problems on the screens themselves.",
+      "images": [
+        {
+          "src": "/assets/projects/adda247/homepage-revamp-ia.webp",
+          "alt": "Information architecture of the Adda247 app: Home branching into Feeds and Study Material, with top navigation, current affairs filters, feed actions and banners",
+          "caption": "The existing information architecture, with review notes on the screens.",
+          "wide": true
+        }
+      ]
+    },
+    {
+      "id": "iterations",
+      "label": "Iterations",
+      "heading": "Exploring the layout in rounds",
+      "intro": "Several directions for the home screen, from free-material grids to teacher-led layouts, converging on three clear sections: Watch, Practice and Read.",
+      "images": [
+        {
+          "src": "/assets/projects/adda247/homepage-revamp-iterations.webp",
+          "alt": "Five iterations of the Adda247 home screen, from free study material grids to the final Watch, Practice and Read layout",
+          "caption": "Iterations of the home screen, left to right.",
+          "wide": true
+        }
+      ]
+    },
+    {
+      "id": "visual-kit",
+      "label": "Visual development",
+      "heading": "A component kit for the new home",
+      "intro": "Bottom navigation, the exam selector, educator video cards, class types, quiz cards, product and article cards, built as reusable components.",
+      "images": [
+        {
+          "src": "/assets/projects/adda247/homepage-revamp-visual-kit.webp",
+          "alt": "Adda247 home components: bottom navigation, exam selector, educator video card, live and recorded class tiles, quiz card, product and article cards",
+          "caption": "Components designed for the new home screen.",
+          "wide": true
+        }
+      ]
+    }
+  ],
+  "beforeAfter": {
+    "label": "Refreshing the app",
+    "heading": "The home screen, before and after",
+    "intro": "From a menu-first app, where students opened the hamburger to find anything, to a home organised around what they came to do.",
+    "before": {
+      "tag": "2017–2024",
+      "src": "/assets/projects/adda247/homepage-revamp-before-menu.webp",
+      "alt": "The old Adda247 app with its long hamburger menu open",
+      "caption": "Before: key sections lived in a long hamburger menu."
+    },
+    "after": {
+      "tag": "Redesigned",
+      "src": "/assets/projects/adda247/homepage-revamp-after-home.webp",
+      "alt": "The redesigned Adda247 home with Watch, Practice and Read tabs, educator videos, shorts, class types and quizzes",
+      "caption": "After: Watch, Practice and Read, with educators, classes and quizzes on the home screen."
+    }
+  },
+  "storyOrder": [
+    "overview",
+    "context",
+    "challenges",
+    "insights",
+    "userChallenges",
+    "problemStatement",
+    "empathy",
+    "persona",
+    "journey",
+    "moods",
+    "approach",
+    "figure:information-architecture",
+    "figure:iterations",
+    "figure:visual-kit",
+    "beforeAfter",
+    "decisions",
+    "results"
   ]
 }

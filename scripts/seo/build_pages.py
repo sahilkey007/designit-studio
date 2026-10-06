@@ -106,7 +106,10 @@ def sec(s, inner):
 '''
 
 def r_answer(s):
-    body = "".join(f"<p>{x}</p>" for x in s.get("body", []))
+    paras = s.get("body", [])
+    if isinstance(paras, str):  # a single paragraph; iterating a str would emit one <p> per character
+        paras = [paras]
+    body = "".join(f"<p>{x}</p>" for x in paras)
     return sec(s, f'<div class="answer-block"><p class="answer">{s["answer"]}</p>{body}</div>')
 
 def r_prose(s):
@@ -450,23 +453,116 @@ def cs_more(p):
     allc = f'<p class="cs-more-all"><a href="{a(p.get("clientUrl", "/projects/"))}">All {p.get("client", "")} case studies</a> &middot; <a href="/projects/">All work</a></p>'
     return cs_section("more-projects", cs_head("More projects", "Keep exploring") + '<div class="cs-grid cs-grid-3">' + "".join(case_card(c) for c in pick) + "</div>" + allc)
 
+def cs_context(c, light=False):
+    """Background context: why the product needed the work, with the project goals as a list."""
+    body = "".join(f"<p>{x}</p>" for x in c.get("paras", []))
+    lst = "".join(f"<li>{x}</li>" for x in c.get("list", []))
+    side = (f'<div class="cs-ctx-side"><h3 class="cs-h3">{c.get("listHeading", "Project goals")}</h3><ul class="cs-notes">{lst}</ul></div>' if lst else "")
+    return cs_section(c.get("id", "context"), cs_head(c.get("label") or "Background", c["heading"]) + f'<div class="cs-ctx"><div class="cs-ctx-main">{body}</div>{side}</div>', light)
+
+def cs_userchallenges(u, light=False):
+    """Problem areas found in the old product, grouped by theme; each group can sit beside a screen of the old UI."""
+    rows = []
+    for i, g in enumerate(u["groups"]):
+        dl = "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in g["items"])
+        txt = f'<div class="cs-row-txt"><span class="cs-n" aria-hidden="true">{i + 1:02d}</span><h3>{g["title"]}</h3><dl class="cs-uc">{dl}</dl></div>'
+        if g.get("img"):
+            img = g["img"]
+            fig = f'<figure class="cs-row-img">{_img(img["src"], img["alt"])}' + (f'<figcaption>{img["caption"]}</figcaption>' if img.get("caption") else "") + "</figure>"
+            rows.append(f'<div class="cs-row cs-row-narrow cs-row-shot{" cs-row-r" if i % 2 else ""}">{fig}{txt}</div>')
+        else:
+            rows.append(f'<div class="cs-row cs-row-solo">{txt}</div>')
+    return cs_section(u.get("id", "user-challenges"), cs_head(u.get("label") or "Problem areas", u["heading"], u.get("intro")) + f'<div class="cs-rows">{"".join(rows)}</div>', light)
+
+def cs_persona(pp, light=True):
+    """A research persona: identity card, needs, pain points and the other apps the person already uses."""
+    facts = "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in pp.get("facts", []))
+    traits = "".join(f"<li>{t}</li>" for t in pp.get("traits", []))
+    def lst(items): return "".join(f"<li>{x}</li>" for x in items)
+    apps = "".join(f"<li><strong>{k}</strong> {v}</li>" for k, v in pp.get("apps", []))
+    card = (f'<div class="cs-pp-card"><p class="cs-pp-tag">{pp.get("tag", "")}</p><h3 class="cs-pp-name">{pp["name"]}</h3>'
+            f'<p class="cs-pp-role">{pp.get("role", "")}</p>'
+            + (f'<blockquote class="cs-pp-q">&ldquo;{pp["quote"]}&rdquo;</blockquote>' if pp.get("quote") else "")
+            + (f'<dl class="cs-pp-facts">{facts}</dl>' if facts else "") + (f'<ul class="cs-tags">{traits}</ul>' if traits else "") + "</div>")
+    cols = (f'<div class="cs-pp-col"><h3>{pp.get("wantsHeading", "What he wants")}</h3><ul class="cs-notes">{lst(pp.get("wants", []))}</ul></div>'
+            f'<div class="cs-pp-col"><h3>{pp.get("painsHeading", "His pain points")}</h3><ul class="cs-notes">{lst(pp.get("pains", []))}</ul></div>'
+            + (f'<div class="cs-pp-col cs-pp-wide"><h3>{pp.get("appsHeading", "Other apps he uses")}</h3><ul class="cs-notes">{apps}</ul></div>' if apps else ""))
+    note = f'<p class="cs-pp-note">{pp["note"]}</p>' if pp.get("note") else ""
+    return cs_section(pp.get("id", "persona"), cs_head(pp.get("label") or "Persona", pp["heading"], pp.get("intro")) + f'<div class="cs-pp">{card}<div class="cs-pp-cols">{cols}</div></div>{note}', light)
+
+def cs_journey(j, light=False):
+    """Journey map as a real table: stages across, lenses (goals, feelings, thinking, doing, opportunities) down."""
+    th = '<th scope="col">Stage</th>' + "".join(f'<th scope="col">{x}</th>' for x in j["stages"])
+    rows = "".join(f'<tr><th scope="row">{k}</th>' + "".join(f"<td>{c}</td>" for c in cells) + "</tr>" for k, cells in j["rows"])
+    label = a(plain(j["heading"]))
+    table = f'<div class="cs-jm-wrap" tabindex="0" role="region" aria-label="{label}"><table class="cs-jm"><thead><tr>{th}</tr></thead><tbody>{rows}</tbody></table></div>'
+    return cs_section(j.get("id", "user-journey"), cs_head(j.get("label") or "User journey", j["heading"], j.get("intro")) + table, light)
+
+MOOD = {"positive": ("Positive", "+"), "neutral": ("Neutral", "~"), "negative": ("Frustrated", "&minus;")}
+def cs_moods(m, light=False):
+    """Emotional journey: each stage's moments with how the person felt, so the low points are easy to spot."""
+    cards = ""
+    for i, st in enumerate(m["stages"], 1):
+        steps = "".join(f'<li class="cs-mood-{md}"><span class="cs-mood-i" aria-hidden="true">{MOOD[md][1]}</span><span>{t}</span><span class="cs-mood-l">{MOOD[md][0]}</span></li>'
+                        for t, md in st["steps"])
+        cards += f'<li class="cs-mood-stage"><span class="cs-n" aria-hidden="true">{i:02d}</span><h3>{st["title"]}</h3><ul>{steps}</ul></li>'
+    return cs_section(m.get("id", "emotional-journey"), cs_head(m.get("label") or "Emotional journey", m["heading"], m.get("intro")) + f'<ol class="cs-moods">{cards}</ol>', light)
+
+def cs_figure(f, light=False):
+    """A titled set of project visuals (information architecture, iterations, the component kit)."""
+    figs = "".join(f'<figure class="cs-g{" cs-g-wide" if x.get("wide") else ""}">{_img(x["src"], x["alt"])}'
+                   + (f'<figcaption>{x["caption"]}</figcaption>' if x.get("caption") else "") + "</figure>" for x in f["images"])
+    cols = " cs-gallery-3" if f.get("columns") == 3 else ""
+    return cs_section(f["id"], cs_head(f.get("label"), f["heading"], f.get("intro")) + f'<div class="cs-gallery{cols}">{figs}</div>', light)
+
+def cs_beforeafter(b, light=False):
+    def side(x, k):
+        return f'<figure class="cs-ba-{k}"><span class="cs-ba-tag">{x["tag"]}</span>{_img(x["src"], x["alt"])}<figcaption>{x["caption"]}</figcaption></figure>'
+    return cs_section(b.get("id", "before-after"), cs_head(b.get("label") or "Before and after", b["heading"], b.get("intro"))
+                      + f'<div class="cs-ba">{side(b["before"], "before")}{side(b["after"], "after")}</div>', light)
+
+
 def case_main(p):
     """Case-study detail page: hero + meta row, cover, overview, problem statement, empathy, challenges, research,
     approach, the experience (image-led), design decisions, gallery, results, quote, FAQ, more projects, CTA."""
     parts = [cs_hero(p)]
-    if p.get("overview"): parts.append(cs_overview(p))
-    if p.get("problemStatement"): parts.append(r_statement({"text": p["problemStatement"], "label": p.get("problemLabel", "Problem statement")}))
-    if p.get("empathy"): parts.append(r_empathy(p["empathy"]))
-    if p.get("challenges"): parts.append(cs_challenges(p["challenges"]))
-    if p.get("insights"): parts.append(cs_insights(p["insights"]))
-    if p.get("approach"): parts.append(cs_approach(p["approach"], light=not p.get("insights")))
-    if p.get("solution") or p.get("features") or p.get("showcase"): parts.append(cs_experience(p))
-    if p.get("decisions"): parts.append(cs_decisions(p["decisions"]))
-    if p.get("gallery"):
-        shown = {p["hero"]["src"]} | {x["src"] for x in p.get("showcase", [])}
-        parts.append(cs_gallery(p["gallery"], shown))
-    if p.get("results"): parts.append(cs_results(p["results"]))
-    if p.get("sections"): parts.append(render_sections(p["sections"]))
+    if p.get("storyOrder"):
+        # A spec can set its own story order (e.g. when it follows the original case-study deck). Grounds alternate
+        # automatically; the problem statement is its own band and resets the rhythm.
+        build = {
+            "overview": lambda L: cs_overview(p), "context": lambda L: cs_context(p["context"], L),
+            "challenges": lambda L: cs_challenges(p["challenges"], L), "insights": lambda L: cs_insights(p["insights"], L),
+            "userChallenges": lambda L: cs_userchallenges(p["userChallenges"], L),
+            "problemStatement": lambda L: r_statement({"text": p["problemStatement"], "label": p.get("problemLabel", "Problem statement")}),
+            "empathy": lambda L: r_empathy(p["empathy"]), "persona": lambda L: cs_persona(p["persona"], L),
+            "journey": lambda L: cs_journey(p["journey"], L), "moods": lambda L: cs_moods(p["moods"], L),
+            "approach": lambda L: cs_approach(p["approach"], L), "experience": lambda L: cs_experience(p),
+            "beforeAfter": lambda L: cs_beforeafter(p["beforeAfter"], L), "decisions": lambda L: cs_decisions(p["decisions"], L),
+            "results": lambda L: cs_results(p["results"], L),
+        }
+        fixed = {"overview": False, "experience": False, "empathy": True}  # these components set their own ground
+        light = False
+        for key in p["storyOrder"]:
+            if key.startswith("figure:"):
+                parts.append(cs_figure(next(x for x in p["figures"] if x["id"] == key[7:]), light))
+            else:
+                light = fixed.get(key, light)
+                parts.append(build[key](light))
+            light = True if key == "problemStatement" else not light
+    else:
+        if p.get("overview"): parts.append(cs_overview(p))
+        if p.get("problemStatement"): parts.append(r_statement({"text": p["problemStatement"], "label": p.get("problemLabel", "Problem statement")}))
+        if p.get("empathy"): parts.append(r_empathy(p["empathy"]))
+        if p.get("challenges"): parts.append(cs_challenges(p["challenges"]))
+        if p.get("insights"): parts.append(cs_insights(p["insights"]))
+        if p.get("approach"): parts.append(cs_approach(p["approach"], light=not p.get("insights")))
+        if p.get("solution") or p.get("features") or p.get("showcase"): parts.append(cs_experience(p))
+        if p.get("decisions"): parts.append(cs_decisions(p["decisions"]))
+        if p.get("gallery"):
+            shown = {p["hero"]["src"]} | {x["src"] for x in p.get("showcase", [])}
+            parts.append(cs_gallery(p["gallery"], shown))
+        if p.get("results"): parts.append(cs_results(p["results"]))
+        if p.get("sections"): parts.append(render_sections(p["sections"]))
     if p.get("quote"): parts.append(cs_quote(p["quote"]))
     parts.append(faq_block(p))
     parts.append(cs_more(p))
@@ -634,6 +730,8 @@ def case_defaults(p):
     p.setdefault("ogImage", p.get("hero", {}).get("src"))
     p.setdefault("cta", CTA_CASE)
     p.setdefault("faqHeading", "Frequently asked questions")
+    if p.get("template") == "casestudy":  # the keyword matrix needs one owner keyword per URL
+        p.setdefault("primaryKeyword", f'{p["client"]} {plain(p.get("cardTitle") or case_title(p))} case study'.lower())
     if not p.get("faq") and p.get("faqExisting"): p["faq"] = p["faqExisting"]
     return p
 
@@ -688,8 +786,14 @@ if __name__ == "__main__":
                 if not want or key in want: specs.append((key, os.path.join(root, f)))
     index_path = os.path.join(ROOT, "data", "pages-index.json")
     index = json.load(open(index_path)) if os.path.exists(index_path) else {}
+    built = set()
     for key, path in sorted(specs):
         rec, n = build(path)
         index[rec["url"]] = rec
+        built.add(rec["url"])
+    if not want:  # full build: drop pages whose spec was deleted
+        for gone in [u for u in index if u not in built]:
+            print(f"removed {gone} from the index (no spec)")
+            del index[gone]
         print(f"built {rec['url']:44} -> {rec['file']:40} ({n:,} chars of main)")
     json.dump(dict(sorted(index.items())), open(index_path, "w"), indent=2, ensure_ascii=False)

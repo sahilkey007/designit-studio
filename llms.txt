@@ -17,7 +17,7 @@ Designit is a senior-led, research-led product design studio in Noida, India. It
 - **Senior people only** — No account managers and no junior hand-off after the pitch. You work with the people doing the design.
 - **Research-led** — Every engagement starts with evidence: research, analytics or an audit, before design decisions.
 - **Founder-led** — Founded by Sahil Sharma, a product designer with more than ten years of experience.
-- **Named, published work** — 22 case studies across Adda247, Kelp Global, Betacrew, the Omniyat portfolio and Tata Elxsi.
+- **Named, published work** — 18 case studies across Adda247, Kelp Global, Betacrew, the Omniyat portfolio and Tata Elxsi.
 - **India-based, working globally** — Clients in India and the UAE, and projects for teams in the US and the UK.
 
 ## How we work
@@ -320,13 +320,13 @@ Case study: [Adda247](https://designit.co.in/projects/adda247/)
 - Problem: A platform that grew module by module needed one coherent learning experience across tests, live classes, dashboards and community.
 - What was delivered: Redesigned modules including the test-series engine, live classes, performance dashboards, community and native iOS/iPad apps.
 
-### Kelp Global — B2B SaaS
+### Kelp Global — Fintech
 
 Case study: [Kelp Global](https://designit.co.in/projects/kelp-global/)
 
-- Product: CRM intelligence suite: Chrome extension, Truenorth analytics dashboard, deals module
-- Services: SaaS product design, dashboard design, design system
-- Problem: Sales teams were switching between tools to find contact intelligence, read pipeline health and manage deals.
+- Product: Private-markets software: deals module, inbox plugin, Truenorth investor portal
+- Services: SaaS product design, data-dense UI, design system
+- Problem: Deal teams kept company summaries, notes and documents in decks and inboxes, and investors had no single place for fund documents.
 - What was delivered: Three connected products designed on one shared design system.
 
 ### Betacrew — Developer tools

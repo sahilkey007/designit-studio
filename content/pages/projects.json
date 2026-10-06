@@ -8,7 +8,7 @@
   "metaDescription": "Product design case studies across EdTech, B2B SaaS, developer tools, PropTech and automotive HMI: the problem, what we designed and what changed.",
   "h1": "Selected product design work",
   "eyebrow": [
-    "22 case studies",
+    "18 case studies",
     "5 client engagements"
   ],
   "subtitle": "Every case study starts from the problem and the people, then shows the approach and the screens. Filter by industry or service.",
@@ -52,24 +52,12 @@
       "/projects/adda247/homepage-revamp/"
     ],
     [
-      "iOS & iPad App",
-      "/projects/adda247/ios-app/"
-    ],
-    [
       "Live Class Module",
       "/projects/adda247/live-class/"
     ],
     [
       "My Content",
       "/projects/adda247/my-content/"
-    ],
-    [
-      "Performance Dashboard",
-      "/projects/adda247/performance-dashboard/"
-    ],
-    [
-      "Sankalp Bharat App",
-      "/projects/adda247/sankalp-bharat/"
     ],
     [
       "Studio App for Smart Boards",
@@ -98,10 +86,6 @@
     [
       "Anwa Aria",
       "/projects/rcentric/anwa-aria/"
-    ],
-    [
-      "ELA Residences",
-      "/projects/rcentric/ela/"
     ],
     [
       "LIV Reside",
@@ -203,7 +187,7 @@
   "faq": [
     {
       "q": "What case studies does Designit have?",
-      "a": "Five client engagements broken into 22 case studies: Adda247 (EdTech), Kelp Global (fintech, private markets), Betacrew (developer tools), R-Centric for the Omniyat portfolio (luxury real estate) and Tata Elxsi (automotive HMI)."
+      "a": "Five client engagements broken into 18 case studies: Adda247 (EdTech), Kelp Global (fintech, private markets), Betacrew (developer tools), R-Centric for the Omniyat portfolio (luxury real estate) and Tata Elxsi (automotive HMI)."
     },
     {
       "q": "What was designed for Adda247?",
@@ -231,7 +215,7 @@
     },
     {
       "q": "How do I choose the right case study to read?",
-      "a": "Use the filters by industry or service, or start from the problem closest to yours: a confusing product (test series, My Content), low engagement (homepage revamp, community), dense data (Kelp deals, performance dashboard) or a premium website (the Omniyat properties)."
+      "a": "Use the filters by industry or service, or start from the problem closest to yours: a confusing product (test series, My Content), low engagement (homepage revamp, community), dense data (Kelp deals, Truenorth) or a premium website (the Omniyat properties)."
     },
     {
       "q": "Can I talk to Designit about a project similar to one of these?",

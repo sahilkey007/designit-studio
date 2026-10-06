@@ -80,7 +80,7 @@ html body .cs-h1:not(#_){font-family:var(--font-heading);font-size:clamp(42px,6.
 .cs-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:0 28px;counter-reset:none}
 .cs-step{border-top:1px solid rgba(255,255,255,.3);padding:22px 0 8px}
 .cs-step-k{display:block;font-size:14px;color:rgba(255,255,255,.65);margin-bottom:14px}
-.cs-step h3{font-family:var(--font-heading);font-size:20px;font-weight:500;letter-spacing:-.02em;color:#fff;margin:0 0 10px}
+.cs-step h3{font-family:var(--font-heading);font-size:20px;font-weight:500;letter-spacing:-.02em;line-height:1.3;color:#fff;margin:0 0 10px}
 .cs-step p{font-size:15px;line-height:1.65;color:rgba(255,255,255,.62);margin:0}
 .cs-step .cs-step-lead{font-size:17px;line-height:1.55;color:#fff;margin:0 0 10px}
 .ground-light .cs-step .cs-step-lead{color:#000}
@@ -154,3 +154,109 @@ html body .cs-h1:not(#_){font-family:var(--font-heading);font-size:clamp(42px,6.
 .cs-big{font-size:20px}
 .cs-head{margin-bottom:32px}
 }
+
+/* Story components used when a spec follows its own deck (storyOrder): background, problem areas, persona, journey
+   map, emotional journey, before/after. Each works on both grounds. */
+.cs-sec:not(.ground-light) .cs-notes li{color:rgba(255,255,255,.78)}
+.cs-sec:not(.ground-light) .cs-notes li::before{background:rgba(255,255,255,.55)}
+.cs-sec:not(.ground-light) .cs-stats li{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12)}
+.cs-sec:not(.ground-light) .cs-stats p{color:rgba(255,255,255,.72)}
+.ground-light .cs-tags li{border-color:rgba(0,0,0,.2);color:rgba(0,0,0,.8)}
+.ground-light .cs-g figcaption{color:rgba(0,0,0,.62)}
+.ground-light .cs-g img,.ground-light .cs-row-img img{border-color:rgba(0,0,0,.1);background:#f4f4f4}
+.ground-light .cs-row-txt h3{color:#000}
+.ground-light .cs-row-txt p{color:rgba(0,0,0,.72)}
+.cs-row-narrow .cs-row-img{flex-direction:column;align-items:center}
+.cs-row-shot .cs-row-img img{max-width:440px;border-radius:16px}
+.cs-row-img figcaption{font-size:14px;color:rgba(255,255,255,.62);margin-top:12px;text-align:center}
+.ground-light .cs-row-img figcaption{color:rgba(0,0,0,.6)}
+
+.cs-ctx{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:64px;align-items:start}
+.cs-ctx-main p{font-size:18px;line-height:1.7;color:rgba(0,0,0,.75);margin:0 0 18px}
+.cs-sec:not(.ground-light) .cs-ctx-main p{color:rgba(255,255,255,.78)}
+.cs-ctx-side{border-radius:16px;padding:28px 28px 30px;background:#fafafa}
+.cs-sec:not(.ground-light) .cs-ctx-side{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12)}
+.cs-ctx-side .cs-h3{margin:0}
+.cs-ctx-side .cs-notes{margin-top:18px}
+
+.cs-row-solo{grid-template-columns:minmax(0,1fr)}
+.cs-row-solo .cs-row-txt{max-width:none}
+.cs-row-solo .cs-uc{grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px 32px}
+.cs-uc{display:grid;gap:18px;margin:6px 0 0}
+.cs-uc dt{font-weight:600;font-size:16px;color:#fff;margin:0 0 4px}
+.cs-uc dd{margin:0;font-size:16px;line-height:1.6;color:rgba(255,255,255,.72)}
+.ground-light .cs-uc dt{color:#000}
+.ground-light .cs-uc dd{color:rgba(0,0,0,.7)}
+
+.cs-pp{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:20px;align-items:stretch}
+.cs-pp-card,.cs-pp-col{border-radius:16px;padding:30px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12)}
+.ground-light .cs-pp-card,.ground-light .cs-pp-col{background:#fafafa;border-color:transparent}
+.cs-pp-tag{display:inline-block;margin:0 0 18px;padding:7px 12px;border-radius:9999px;background:#fff;color:#000;font-size:12px;font-weight:600;letter-spacing:.02em}
+.ground-light .cs-pp-tag{background:#000;color:#fff}
+.cs-pp-name{font-family:var(--font-heading);font-size:40px;font-weight:400;letter-spacing:-.04em;line-height:1;color:#fff;margin:0 0 6px}
+.cs-pp-role{font-size:15px;color:rgba(255,255,255,.7);margin:0 0 22px}
+.cs-pp-q{margin:0 0 22px;padding:0 0 0 16px;border-left:2px solid rgba(255,255,255,.5);font-size:17px;line-height:1.55;color:#fff}
+.cs-pp-facts{display:flex;gap:28px;margin:0 0 20px}
+.cs-pp-facts dt{font-size:13px;color:rgba(255,255,255,.6);margin:0 0 2px}
+.cs-pp-facts dd{margin:0;font-size:16px;color:#fff}
+.ground-light .cs-pp-name,.ground-light .cs-pp-q,.ground-light .cs-pp-facts dd{color:#000}
+.ground-light .cs-pp-role,.ground-light .cs-pp-facts dt{color:rgba(0,0,0,.62)}
+.ground-light .cs-pp-q{border-left-color:rgba(0,0,0,.4)}
+.cs-pp-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.cs-pp-wide{grid-column:1/-1}
+.cs-pp-col h3{font-family:var(--font-heading);font-size:20px;font-weight:500;letter-spacing:-.02em;color:#fff;margin:0}
+.ground-light .cs-pp-col h3{color:#000}
+.cs-pp-col .cs-notes{margin-top:16px}
+.cs-pp-col .cs-notes strong{font-weight:600;color:inherit}
+.cs-pp-note{font-size:14px;color:rgba(255,255,255,.6);margin:16px 0 0}
+
+.cs-jm-wrap{overflow-x:auto;border-radius:16px;border:1px solid rgba(0,0,0,.1);background:#fff}
+.cs-sec:not(.ground-light) .cs-jm-wrap{border-color:rgba(255,255,255,.14);background:rgba(255,255,255,.02)}
+.cs-jm{width:100%;min-width:960px;border-collapse:collapse;font-size:15px;line-height:1.5}
+.cs-jm th,.cs-jm td{padding:16px 18px;text-align:left;vertical-align:top;border-bottom:1px solid rgba(0,0,0,.08)}
+.cs-jm thead th{font-family:var(--font-heading);font-weight:500;font-size:16px;color:#000;background:#f4f4f4}
+.cs-jm tbody th{font-weight:600;color:#000;white-space:nowrap}
+.cs-jm td{color:rgba(0,0,0,.72)}
+.cs-jm tbody tr:last-child th,.cs-jm tbody tr:last-child td{border-bottom:0;background:#000;color:#fff}
+.cs-sec:not(.ground-light) .cs-jm thead th{background:rgba(255,255,255,.06);color:#fff}
+.cs-sec:not(.ground-light) .cs-jm th,.cs-sec:not(.ground-light) .cs-jm td{border-bottom-color:rgba(255,255,255,.1)}
+.cs-sec:not(.ground-light) .cs-jm tbody th{color:#fff}
+.cs-sec:not(.ground-light) .cs-jm td{color:rgba(255,255,255,.72)}
+.cs-sec:not(.ground-light) .cs-jm tbody tr:last-child th,.cs-sec:not(.ground-light) .cs-jm tbody tr:last-child td{background:#fff;color:#000}
+.cs-jm-wrap:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+
+.cs-moods{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.cs-mood-stage{border-radius:16px;padding:24px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12)}
+.cs-mood-stage h3{font-family:var(--font-heading);font-size:20px;font-weight:500;letter-spacing:-.02em;color:#fff;margin:6px 0 16px}
+.cs-mood-stage ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.cs-mood-stage li{display:grid;grid-template-columns:24px 1fr auto;gap:10px;align-items:center;font-size:15px;color:rgba(255,255,255,.85)}
+.cs-mood-i{width:24px;height:24px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;line-height:1}
+.cs-mood-l{font-size:12px;color:rgba(255,255,255,.6)}
+.cs-mood-positive .cs-mood-i{background:#fff;color:#000}
+.cs-mood-neutral .cs-mood-i{border:1px solid rgba(255,255,255,.6);color:#fff}
+.cs-mood-negative .cs-mood-i{border:1px dashed rgba(255,255,255,.5);color:rgba(255,255,255,.8)}
+.cs-mood-negative span:nth-child(2){color:#fff;font-weight:500}
+.ground-light .cs-mood-stage{background:#fafafa;border-color:transparent}
+.ground-light .cs-mood-stage h3{color:#000}
+.ground-light .cs-mood-stage li{color:rgba(0,0,0,.8)}
+.ground-light .cs-mood-l{color:rgba(0,0,0,.55)}
+.ground-light .cs-mood-positive .cs-mood-i{background:#000;color:#fff}
+.ground-light .cs-mood-neutral .cs-mood-i{border-color:rgba(0,0,0,.55);color:#000}
+.ground-light .cs-mood-negative .cs-mood-i{border-color:rgba(0,0,0,.45);color:rgba(0,0,0,.75)}
+.ground-light .cs-mood-negative span:nth-child(2){color:#000}
+
+.cs-ba{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.cs-ba figure{margin:0;position:relative;border-radius:16px;padding:48px 24px 24px;background:#f4f4f4;display:flex;flex-direction:column;align-items:center}
+.cs-sec:not(.ground-light) .cs-ba figure{background:#0d0d0d;border:1px solid rgba(255,255,255,.14)}
+.cs-ba img{width:100%;max-width:320px;height:auto;aspect-ratio:9/19;object-fit:cover;object-position:top;border-radius:22px;border:1px solid rgba(0,0,0,.1)}
+.cs-ba-tag{position:absolute;top:16px;left:16px;padding:6px 12px;border-radius:9999px;font-size:13px;font-weight:600;background:#fff;color:#000;border:1px solid rgba(0,0,0,.12)}
+.cs-ba-after .cs-ba-tag{background:#000;color:#fff}
+.cs-ba figcaption{font-size:15px;line-height:1.5;color:rgba(0,0,0,.68);margin-top:16px;text-align:center;max-width:380px}
+.cs-sec:not(.ground-light) .cs-ba figcaption{color:rgba(255,255,255,.7)}
+
+@media (max-width:1024px){.cs-ctx,.cs-pp{grid-template-columns:1fr;gap:20px}.cs-moods{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:760px){.cs-pp-cols,.cs-moods,.cs-ba{grid-template-columns:1fr}.cs-pp-card,.cs-pp-col{padding:24px}.cs-ctx-main p{font-size:17px}.cs-ba img{max-width:260px}}
+.cs-jm tbody th,.cs-jm thead th:first-child{position:sticky;left:0;z-index:1;background:#fff}
+.cs-jm thead th:first-child{background:#f4f4f4}
+.cs-sec:not(.ground-light) .cs-jm tbody th{background:#000}
+.cs-sec:not(.ground-light) .cs-jm thead th:first-child{background:#111}

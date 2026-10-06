@@ -1,7 +1,7 @@
 # Case studies (October 2026)
 
 Every case study on the site follows one storytelling structure, inspired by thefinch.design's portfolio pages and
-extended with a problem statement, empathy and an FAQ. 27 pages use it: 22 project case studies and 5 client overviews.
+extended with a problem statement, empathy and an FAQ. 23 pages use it: 18 project case studies and 5 client overviews.
 
 ## Structure of a project case study
 
@@ -26,6 +26,32 @@ extended with a problem statement, empathy and an FAQ. 27 pages use it: 22 proje
 
 Client overview pages (`template: "client"`) use the same hero and cover, then their own sections, with a problem
 statement and empathy block after the facts and an image-led grid of their case studies (`casegrid`).
+
+## Custom story order (`storyOrder`)
+
+A spec can follow its own deck instead of the default order by listing section keys in `storyOrder`. Grounds alternate
+automatically. Extra components available this way:
+
+| Key | Field | What it renders |
+|---|---|---|
+| `context` | `context` (`paras`, `listHeading`, `list`) | Background paragraphs beside a goals list |
+| `userChallenges` | `userChallenges.groups[]` (`title`, `items` as [term, detail], optional `img`) | Problem areas, each beside a screen of the old UI |
+| `persona` | `persona` (`name`, `tag`, `role`, `quote`, `facts`, `traits`, `wants`, `pains`, `apps`) | Persona card with needs, pain points and other apps |
+| `journey` | `journey` (`stages`, `rows`) | Journey-map table (scrolls sideways on phones, first column pinned) |
+| `moods` | `moods.stages[]` (`steps` as [moment, positive/neutral/negative]) | Emotional journey |
+| `figure:<id>` | `figures[]` (`id`, `heading`, `images`) | A titled set of visuals (IA, iterations, component kit) |
+| `beforeAfter` | `beforeAfter` (`before`, `after`) | Side-by-side before and after |
+
+The Adda247 Homepage Revamp page uses it, with content and images taken from the owner's Figma case study
+(old portfolio file, October 2026). Figures there replaced two earlier numbers on the page: hamburger-menu use is 375K
+users (57.6%), not 37.5K, and social engagement is 0.5% share / 6.5% comment / 2.2% like.
+
+## Removed case studies (owner request, 2026-10-06)
+
+Adda247 iOS & iPad App, Performance Dashboard and Sankalp Bharat App, and R-Centric ELA Residences. Each URL 301s to its
+client page (`vercel.json`); `migration_matrix.py` lists them in `APPROVED_REMOVALS`. Scope statements that are still
+true (for example "seven developments", "nine modules", iOS and iPad platforms) were kept; statements that every one
+of them has a case study were corrected.
 
 ## Honesty rules (owner-approved, 2026-10-06)
 

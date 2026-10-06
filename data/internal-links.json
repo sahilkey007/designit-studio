@@ -14,18 +14,20 @@
    "/services/",
    "/services/product-design/",
    "/services/ux-research/",
-   "/industries/b2b-saas/",
-   "/industries/edtech/",
-   "/industries/real-estate/",
-   "/industries/automotive/",
-   "/industries/fintech/",
-   "/industries/ai/",
    "/projects/adda247/",
    "/projects/kelp-global/",
    "/projects/tata-elxsi/",
    "/projects/rcentric/",
    "/about/",
    "/locations/",
+   "/blog/freelancer-vs-design-agency-startups/",
+   "/resources/ux-audit-checklist/",
+   "/industries/b2b-saas/",
+   "/industries/edtech/",
+   "/industries/real-estate/",
+   "/industries/automotive/",
+   "/industries/fintech/",
+   "/industries/ai/",
    "/blog/saas-onboarding-ux-best-practices-india/",
    "/blog/saas-dashboard-design-best-practices/",
    "/blog/cro-strategies-for-b2b-saas-india/",
@@ -203,7 +205,7 @@
    "/about/",
    "/services/mobile-app-design/",
    "/services/product-design/",
-   "/projects/adda247/ios-app/",
+   "/projects/adda247/homepage-revamp/",
    "/start-a-project/",
    "/contact/",
    "/blog/design-system-cost-india-2026/",
@@ -624,7 +626,6 @@
    "/projects/adda247/",
    "/projects/adda247/test-series/",
    "/projects/adda247/live-class/",
-   "/projects/adda247/performance-dashboard/",
    "/blog/edtech-ux-design-india/",
    "/blog/edtech-onboarding-ux-india/",
    "/blog/edtech-ux-design-agency-india/"
@@ -663,33 +664,29 @@
   "/projects/": [
    "/",
    "/start-a-project/",
+   "/projects/adda247/homepage-revamp/",
+   "/projects/adda247/test-series/",
+   "/projects/adda247/live-class/",
+   "/projects/adda247/my-content/",
+   "/projects/adda247/studio-app/",
+   "/projects/adda247/community/",
+   "/projects/kelp-global/deals-module/",
+   "/projects/kelp-global/kelp-plugin/",
+   "/projects/kelp-global/truenorth/",
+   "/projects/betacrew/portle/",
+   "/projects/rcentric/liv/",
+   "/projects/rcentric/liv-reside/",
+   "/projects/rcentric/opus/",
+   "/projects/rcentric/orla-infinity/",
+   "/projects/rcentric/vela-viento/",
+   "/projects/rcentric/anwa-aria/",
+   "/projects/tata-elxsi/infotainment/",
+   "/projects/tata-elxsi/instrument-cluster/",
    "/projects/adda247/",
    "/projects/kelp-global/",
    "/projects/betacrew/",
    "/projects/rcentric/",
-   "/projects/tata-elxsi/",
-   "/projects/adda247/homepage-revamp/",
-   "/projects/adda247/test-series/",
-   "/projects/adda247/live-class/",
-   "/projects/adda247/ios-app/",
-   "/projects/adda247/studio-app/",
-   "/projects/adda247/my-content/",
-   "/projects/adda247/community/",
-   "/projects/adda247/performance-dashboard/",
-   "/projects/adda247/sankalp-bharat/",
-   "/projects/kelp-global/kelp-plugin/",
-   "/projects/kelp-global/truenorth/",
-   "/projects/kelp-global/deals-module/",
-   "/projects/betacrew/portle/",
-   "/projects/rcentric/liv/",
-   "/projects/rcentric/liv-reside/",
-   "/projects/rcentric/orla-infinity/",
-   "/projects/rcentric/opus/",
-   "/projects/rcentric/vela-viento/",
-   "/projects/rcentric/anwa-aria/",
-   "/projects/rcentric/ela/",
-   "/projects/tata-elxsi/infotainment/",
-   "/projects/tata-elxsi/instrument-cluster/"
+   "/projects/tata-elxsi/"
   ],
   "/projects/adda247/": [
    "/",
@@ -699,12 +696,9 @@
    "/projects/adda247/homepage-revamp/",
    "/projects/adda247/test-series/",
    "/projects/adda247/live-class/",
-   "/projects/adda247/ios-app/",
-   "/projects/adda247/studio-app/",
    "/projects/adda247/my-content/",
+   "/projects/adda247/studio-app/",
    "/projects/adda247/community/",
-   "/projects/adda247/performance-dashboard/",
-   "/projects/adda247/sankalp-bharat/",
    "/services/ux-research/",
    "/services/mobile-app-design/",
    "/blog/edtech-ux-design-india/"
@@ -713,72 +707,54 @@
    "/",
    "/projects/",
    "/projects/adda247/",
-   "/projects/adda247/my-content/",
-   "/projects/adda247/performance-dashboard/",
-   "/contact/"
+   "/projects/adda247/homepage-revamp/",
+   "/projects/kelp-global/deals-module/",
+   "/start-a-project/"
   ],
   "/projects/adda247/homepage-revamp/": [
    "/",
    "/projects/",
    "/projects/adda247/",
    "/projects/adda247/test-series/",
-   "/projects/adda247/live-class/"
-  ],
-  "/projects/adda247/ios-app/": [
-   "/",
-   "/projects/",
-   "/projects/adda247/",
    "/projects/adda247/live-class/",
-   "/projects/adda247/sankalp-bharat/",
-   "/contact/"
+   "/projects/kelp-global/deals-module/",
+   "/start-a-project/"
   ],
   "/projects/adda247/live-class/": [
    "/",
    "/projects/",
    "/projects/adda247/",
+   "/projects/adda247/my-content/",
    "/projects/adda247/homepage-revamp/",
-   "/projects/adda247/ios-app/",
-   "/contact/"
+   "/projects/kelp-global/deals-module/",
+   "/start-a-project/"
   ],
   "/projects/adda247/my-content/": [
    "/",
    "/projects/",
    "/projects/adda247/",
    "/projects/adda247/studio-app/",
-   "/projects/adda247/community/",
-   "/contact/"
-  ],
-  "/projects/adda247/performance-dashboard/": [
-   "/",
-   "/projects/",
-   "/projects/adda247/",
-   "/projects/adda247/community/",
-   "/projects/adda247/test-series/",
-   "/contact/"
-  ],
-  "/projects/adda247/sankalp-bharat/": [
-   "/",
-   "/projects/",
-   "/projects/adda247/",
-   "/projects/adda247/ios-app/",
-   "/projects/adda247/studio-app/",
-   "/contact/"
+   "/projects/adda247/homepage-revamp/",
+   "/projects/kelp-global/deals-module/",
+   "/start-a-project/"
   ],
   "/projects/adda247/studio-app/": [
    "/",
    "/projects/",
    "/projects/adda247/",
-   "/projects/adda247/sankalp-bharat/",
-   "/projects/adda247/my-content/",
-   "/contact/"
+   "/projects/adda247/community/",
+   "/projects/adda247/homepage-revamp/",
+   "/projects/kelp-global/deals-module/",
+   "/start-a-project/"
   ],
   "/projects/adda247/test-series/": [
    "/",
    "/projects/",
    "/projects/adda247/",
-   "/projects/adda247/performance-dashboard/",
+   "/projects/adda247/live-class/",
    "/projects/adda247/homepage-revamp/",
-   "/contact/"
+   "/projects/kelp-global/deals-module/",
+   "/start-a-project/"
   ],
   "/projects/betacrew/": [
    "/",
@@ -792,16 +768,17 @@
    "/",
    "/projects/",
    "/projects/betacrew/",
-   "/contact/"
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/projects/kelp-global/": [
    "/",
    "/projects/",
    "/start-a-project/",
    "/services/saas-product-design/",
+   "/projects/kelp-global/deals-module/",
    "/projects/kelp-global/kelp-plugin/",
    "/projects/kelp-global/truenorth/",
-   "/projects/kelp-global/deals-module/",
    "/services/design-systems/",
    "/blog/saas-dashboard-design-best-practices/"
   ],
@@ -809,25 +786,27 @@
    "/",
    "/projects/",
    "/projects/kelp-global/",
-   "/projects/kelp-global/truenorth/",
    "/projects/kelp-global/kelp-plugin/",
-   "/contact/"
+   "/projects/kelp-global/truenorth/",
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/projects/kelp-global/kelp-plugin/": [
    "/",
    "/projects/",
    "/projects/kelp-global/",
-   "/projects/kelp-global/deals-module/",
    "/projects/kelp-global/truenorth/",
-   "/contact/"
+   "/projects/kelp-global/deals-module/",
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/projects/kelp-global/truenorth/": [
    "/",
    "/projects/",
    "/projects/kelp-global/",
-   "/projects/kelp-global/kelp-plugin/",
    "/projects/kelp-global/deals-module/",
-   "/contact/"
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/projects/rcentric/": [
    "/",
@@ -835,12 +814,11 @@
    "/start-a-project/",
    "/industries/real-estate/",
    "/projects/rcentric/liv/",
-   "/projects/rcentric/orla-infinity/",
+   "/projects/rcentric/liv-reside/",
    "/projects/rcentric/opus/",
+   "/projects/rcentric/orla-infinity/",
    "/projects/rcentric/vela-viento/",
    "/projects/rcentric/anwa-aria/",
-   "/projects/rcentric/liv-reside/",
-   "/projects/rcentric/ela/",
    "/ux-design-agency-dubai/",
    "/blog/arabic-rtl-ux-design-proptech-uae/"
   ],
@@ -848,57 +826,54 @@
    "/",
    "/projects/",
    "/projects/rcentric/",
-   "/projects/rcentric/vela-viento/",
-   "/projects/rcentric/liv-reside/",
-   "/contact/"
-  ],
-  "/projects/rcentric/ela/": [
-   "/",
-   "/projects/",
-   "/projects/rcentric/",
-   "/projects/rcentric/orla-infinity/",
-   "/projects/rcentric/opus/",
-   "/contact/"
+   "/projects/rcentric/liv/",
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/projects/rcentric/liv-reside/": [
    "/",
    "/projects/",
    "/projects/rcentric/",
-   "/projects/rcentric/anwa-aria/",
+   "/projects/rcentric/opus/",
    "/projects/rcentric/liv/",
-   "/contact/"
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/projects/rcentric/liv/": [
    "/",
    "/projects/",
    "/projects/rcentric/",
    "/projects/rcentric/liv-reside/",
-   "/projects/rcentric/orla-infinity/",
-   "/contact/"
+   "/projects/rcentric/opus/",
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/projects/rcentric/opus/": [
    "/",
    "/projects/",
    "/projects/rcentric/",
-   "/projects/rcentric/ela/",
-   "/projects/rcentric/vela-viento/",
-   "/contact/"
+   "/projects/rcentric/orla-infinity/",
+   "/projects/rcentric/liv/",
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/projects/rcentric/orla-infinity/": [
    "/",
    "/projects/",
    "/projects/rcentric/",
+   "/projects/rcentric/vela-viento/",
    "/projects/rcentric/liv/",
-   "/projects/rcentric/ela/",
-   "/contact/"
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/projects/rcentric/vela-viento/": [
    "/",
    "/projects/",
    "/projects/rcentric/",
-   "/projects/rcentric/opus/",
    "/projects/rcentric/anwa-aria/",
-   "/contact/"
+   "/projects/rcentric/liv/",
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/projects/tata-elxsi/": [
    "/",
@@ -914,14 +889,16 @@
    "/projects/",
    "/projects/tata-elxsi/",
    "/projects/tata-elxsi/instrument-cluster/",
-   "/contact/"
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/projects/tata-elxsi/instrument-cluster/": [
    "/",
    "/projects/",
    "/projects/tata-elxsi/",
    "/projects/tata-elxsi/infotainment/",
-   "/contact/"
+   "/projects/adda247/homepage-revamp/",
+   "/start-a-project/"
   ],
   "/resources/": [
    "/",
@@ -1049,8 +1026,8 @@
    "/",
    "/services/",
    "/start-a-project/",
-   "/projects/adda247/ios-app/",
-   "/projects/adda247/sankalp-bharat/",
+   "/projects/adda247/homepage-revamp/",
+   "/projects/adda247/community/",
    "/projects/adda247/studio-app/",
    "/blog/cost-ui-ux-design-mobile-app-india/"
   ],

@@ -19,8 +19,8 @@
       "event": "start_project"
     },
     {
-      "label": "See the Adda247 iOS app",
-      "href": "/projects/adda247/ios-app/"
+      "label": "See the Adda247 app redesign",
+      "href": "/projects/adda247/homepage-revamp/"
     }
   ],
   "breadcrumb": [
@@ -69,7 +69,10 @@
   "author": "Designit",
   "updatedAt": "2026-10-04",
   "schemaType": "Service",
-  "evidenceIds": ["EV-ADDA-SCOPE", "EV-ADDA-IOS", "EV-DELIVERY-BOUNDARY"],
+  "evidenceIds": [
+    "EV-ADDA-SCOPE",
+    "EV-DELIVERY-BOUNDARY"
+  ],
   "relatedServices": [
     "/services/product-design/",
     "/services/ux-audit/",
@@ -80,8 +83,8 @@
     "/industries/fintech/"
   ],
   "relatedCaseStudies": [
-    "/projects/adda247/ios-app/",
-    "/projects/adda247/sankalp-bharat/",
+    "/projects/adda247/homepage-revamp/",
+    "/projects/adda247/community/",
     "/projects/adda247/studio-app/"
   ],
   "aiAnswerTargets": [
@@ -232,16 +235,16 @@
       "items": [
         {
           "kicker": "Adda247",
-          "title": "Native iOS and iPad app",
-          "body": "Bringing an Android-first learning platform to Apple users, following platform conventions.",
-          "href": "/projects/adda247/ios-app/",
+          "title": "Homepage revamp for the iOS and Android app",
+          "body": "A cluttered feed turned into a home organised around Watch, Practice and Read.",
+          "href": "/projects/adda247/homepage-revamp/",
           "more": "Read the case study"
         },
         {
           "kicker": "Adda247",
-          "title": "Sankalp Bharat app",
-          "body": "Turning a low-engagement home feed into a personalised learning hub.",
-          "href": "/projects/adda247/sankalp-bharat/",
+          "title": "Community module",
+          "body": "Peer learning inside the app: a discussion feed, study groups, profiles and recognition.",
+          "href": "/projects/adda247/community/",
           "more": "Read the case study"
         },
         {

@@ -82,8 +82,20 @@
     { "source": "/projects/adda247/my-content/studio-app.html", "destination": "/projects/adda247/studio-app/", "permanent": true },
     { "source": "/projects/adda247/my-content/studio-app", "destination": "/projects/adda247/studio-app/", "permanent": true },
     { "source": "/projects/adda247/my-content/studio-app/", "destination": "/projects/adda247/studio-app/", "permanent": true },
-    { "source": "/projects/rcentric/opus/ela.html", "destination": "/projects/rcentric/ela/", "permanent": true },
-    { "source": "/projects/rcentric/opus/ela", "destination": "/projects/rcentric/ela/", "permanent": true },
-    { "source": "/projects/rcentric/opus/ela/", "destination": "/projects/rcentric/ela/", "permanent": true }
+    { "source": "/projects/rcentric/opus/ela.html", "destination": "/projects/rcentric/", "permanent": true },
+    { "source": "/projects/rcentric/opus/ela", "destination": "/projects/rcentric/", "permanent": true },
+    { "source": "/projects/rcentric/opus/ela/", "destination": "/projects/rcentric/", "permanent": true },
+    { "source": "/projects/adda247/ios-app.html", "destination": "/projects/adda247/", "permanent": true },
+    { "source": "/projects/adda247/ios-app", "destination": "/projects/adda247/", "permanent": true },
+    { "source": "/projects/adda247/ios-app/", "destination": "/projects/adda247/", "permanent": true },
+    { "source": "/projects/adda247/performance-dashboard.html", "destination": "/projects/adda247/", "permanent": true },
+    { "source": "/projects/adda247/performance-dashboard", "destination": "/projects/adda247/", "permanent": true },
+    { "source": "/projects/adda247/performance-dashboard/", "destination": "/projects/adda247/", "permanent": true },
+    { "source": "/projects/adda247/sankalp-bharat.html", "destination": "/projects/adda247/", "permanent": true },
+    { "source": "/projects/adda247/sankalp-bharat", "destination": "/projects/adda247/", "permanent": true },
+    { "source": "/projects/adda247/sankalp-bharat/", "destination": "/projects/adda247/", "permanent": true },
+    { "source": "/projects/rcentric/ela.html", "destination": "/projects/rcentric/", "permanent": true },
+    { "source": "/projects/rcentric/ela", "destination": "/projects/rcentric/", "permanent": true },
+    { "source": "/projects/rcentric/ela/", "destination": "/projects/rcentric/", "permanent": true }
   ]
 }

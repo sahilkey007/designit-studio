@@ -51,11 +51,15 @@ html.ann-off .ann-bar{display:none}
 
 /* Top bar: solid black at rest; frosted glass once the page scrolls under it (Apple-style floating layer) */
 .navbar{top:var(--ann-h);background:#000;-webkit-backdrop-filter:none;backdrop-filter:none;border-bottom:1px solid rgba(255,255,255,.2);transition:background-color .2s cubic-bezier(.2,0,.2,1),top .2s cubic-bezier(.2,0,.2,1)}
-.navbar.scrolled{background:rgba(0,0,0,.78);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px)}
-@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.navbar.scrolled{background:#000}}
+/* The glass lives on a ::before layer, not on .navbar itself: an element with backdrop-filter becomes a "backdrop
+   root", which stops the mega menu (a descendant) from blurring the page behind it, so menu text overlapped page text. */
+.navbar::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:transparent;transition:background-color .2s cubic-bezier(.2,0,.2,1)}
+.navbar.scrolled{background:transparent;-webkit-backdrop-filter:none;backdrop-filter:none}
+.navbar.scrolled::before{background:rgba(0,0,0,.78);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px)}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.navbar.scrolled::before{background:#000}}
 .nav-links a,.navbar .nav-links .nav-top{color:rgba(255,255,255,.7)}
 .navbar .nav-links .nav-top:hover,.navbar .nav-links .nav-top.active{color:#fff}
-.navbar .mega{background:rgba(0,0,0,.82);-webkit-backdrop-filter:saturate(180%) blur(24px);backdrop-filter:saturate(180%) blur(24px);box-shadow:none;border-bottom:1px solid rgba(255,255,255,.2)}
+.navbar .mega{background:rgba(0,0,0,.88);-webkit-backdrop-filter:saturate(160%) blur(32px);backdrop-filter:saturate(160%) blur(32px);box-shadow:none;border-bottom:1px solid rgba(255,255,255,.2)}
 @media (max-width:768px){.nav-links{top:calc(56px + var(--ann-h));background:rgba(0,0,0,.9);-webkit-backdrop-filter:saturate(180%) blur(24px);backdrop-filter:saturate(180%) blur(24px)}}
 
 /* Buttons: flat pills. Primary is white on black (hover darkens); ghost is a hairline. No rainbow, no glow. */

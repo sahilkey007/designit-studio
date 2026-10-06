@@ -61,6 +61,8 @@ a.card:hover{border-color:var(--border-medium);transform:translateY(-2px)}
 .compare{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:1000px;margin:40px auto 0}
 .compare .card ul{margin:6px 0 0;padding-left:18px;color:var(--text-tertiary);font-size:15px;line-height:1.7}
 .work-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:44px}
+/* Balanced rows: 1, 2 or 4 cards sit two-up (never a 3 + 1 orphan, never one card stretched across the page) */
+@media (min-width:700px){.work-grid:has(> :only-child),.work-grid:has(> :nth-child(2):last-child),.work-grid:has(> :nth-child(4):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}}
 .work-card{display:flex;flex-direction:column;background:var(--bg-card);border:1px solid var(--border-default);border-radius:var(--radius-lg);overflow:hidden;transition:border-color .25s,transform .2s}
 .work-card:hover{border-color:var(--border-medium);transform:translateY(-2px)}
 .work-card img{width:100%;aspect-ratio:16/10;object-fit:cover;background:var(--bg-surface)}
@@ -116,28 +118,36 @@ a.card:hover{border-color:var(--border-medium);transform:translateY(-2px)}
 .logo-pause[hidden]{display:none}
 @media (prefers-reduced-motion:reduce){.logo-marquee{-webkit-mask-image:none;mask-image:none;justify-content:center}.logo-strip{animation:none;flex:1 1 auto;flex-wrap:wrap;justify-content:center;gap:28px 44px;padding:0}.logo-strip[aria-hidden]{display:none}.logo-pause{display:none}}
 .arw{display:inline-block}
-.mx-wrap{max-width:1100px;margin:52px auto 0}
-.mx{width:100%;border-collapse:separate;border-spacing:0;font-size:15px;line-height:1.5;table-layout:fixed}
-.mx th,.mx td{padding:18px 20px;text-align:left;vertical-align:top;border-bottom:1px solid rgba(255,255,255,.14)}
-.mx thead th{font-family:var(--font-heading);font-weight:500;font-size:16px;color:rgba(255,255,255,.75);border-bottom-color:rgba(255,255,255,.3)}
-.mx tbody th{font-weight:500;color:#fff;width:22%}
-.mx td{color:rgba(255,255,255,.72)}
+/* Comparison matrix: a framed glass panel; the studio column is a raised white card with check marks, the other
+   columns stay quiet. Rows are numbered so the eye can track a factor across the table. */
+.mx-wrap{max-width:1120px;margin:52px auto 0;padding:10px;border:1px solid rgba(255,255,255,.12);border-radius:24px;background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015))}
+.mx{width:100%;border-collapse:separate;border-spacing:0;font-size:15px;line-height:1.5;table-layout:fixed;counter-reset:mxrow}
+.mx th,.mx td{padding:20px 22px;text-align:left;vertical-align:top;border-bottom:1px solid rgba(255,255,255,.09)}
+.mx thead th{padding:26px 22px 20px;font-family:var(--font-heading);font-weight:500;font-size:17px;letter-spacing:-.02em;color:rgba(255,255,255,.62);border-bottom-color:rgba(255,255,255,.18);vertical-align:bottom}
+.mx tbody th{font-weight:500;color:#fff;width:24%;font-family:var(--font-heading);font-size:16px;letter-spacing:-.02em;line-height:1.35}
+.mx tbody th::before{counter-increment:mxrow;content:counter(mxrow,decimal-leading-zero);display:block;margin-bottom:6px;font-family:var(--font-body);font-size:12px;font-weight:500;letter-spacing:.04em;color:rgba(255,255,255,.45)}
+.mx td{color:rgba(255,255,255,.62)}
+.mx tbody tr:hover th,.mx tbody tr:hover td:not(.mx-hi){background:rgba(255,255,255,.03);color:rgba(255,255,255,.85)}
+.mx tbody tr:hover th{color:#fff}
 .mx .mx-hi{background:#fff;color:#000}
-.mx thead .mx-hi{color:#000;border-radius:13px 13px 0 0;border-bottom-color:rgba(0,0,0,.12)}
-.mx tbody .mx-hi{border-bottom-color:rgba(0,0,0,.1);font-weight:500}
-.mx tbody tr:last-child .mx-hi{border-radius:0 0 13px 13px;border-bottom:0}
+.mx thead .mx-hi{color:#000;font-size:20px;font-weight:600;border-radius:16px 16px 0 0;border-bottom-color:rgba(0,0,0,.1)}
+.mx tbody .mx-hi{position:relative;padding-left:56px;border-bottom-color:rgba(0,0,0,.08);font-weight:500;color:#111}
+.mx tbody .mx-hi::before{content:"";position:absolute;left:22px;top:21px;width:20px;height:20px;border-radius:50%;background:#000 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.2 8.4l2.5 2.4 5-5.3' fill='none' stroke='%23fff' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/13px no-repeat}
+.mx tbody tr:last-child .mx-hi{border-radius:0 0 16px 16px;border-bottom:0}
 .mx tbody tr:last-child th,.mx tbody tr:last-child td{border-bottom:0}
 .mx-note{max-width:760px;margin:24px auto 0;text-align:center;font-size:14px;line-height:1.6;color:rgba(255,255,255,.65)}
 .mx-note a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:1000px){.mx th,.mx td{padding:18px 16px}.mx tbody .mx-hi{padding-left:46px}.mx tbody .mx-hi::before{left:16px;top:19px}}
 @media (max-width:820px){
+.mx-wrap{padding:0;border:0;background:none}
 .mx,.mx tbody,.mx tr,.mx th,.mx td{display:block;width:100%}
 .mx thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-.mx tr{border:1px solid rgba(255,255,255,.2);border-radius:13px;margin:0 0 14px;overflow:hidden}
-.mx tbody th{width:100%;padding:16px 18px 6px;border:0;font-size:17px;font-family:var(--font-heading)}
-.mx td{display:grid;grid-template-columns:38% 1fr;gap:12px;padding:10px 18px;border-bottom:1px solid rgba(255,255,255,.1)}
-.mx td::before{content:attr(data-label);color:rgba(255,255,255,.6);font-size:14px}
-.mx tbody tr:last-child .mx-hi,.mx tbody .mx-hi{border-radius:0;border-bottom:0}
-.mx td.mx-hi::before{color:rgba(0,0,0,.65)}
+.mx tr{border:1px solid rgba(255,255,255,.16);border-radius:16px;margin:0 0 14px;overflow:hidden;background:rgba(255,255,255,.03)}
+.mx tbody th{width:100%;padding:18px 18px 8px;border:0;font-size:18px}
+.mx td{display:grid;grid-template-columns:38% 1fr;gap:12px;padding:11px 18px;border-bottom:1px solid rgba(255,255,255,.08)}
+.mx td::before{content:attr(data-label);color:rgba(255,255,255,.55);font-size:14px}
+.mx tbody tr:last-child .mx-hi,.mx tbody .mx-hi{border-radius:0;border-bottom:0;padding:14px 18px 16px}
+.mx tbody .mx-hi::before{position:static;width:auto;height:auto;border-radius:0;background:none;content:attr(data-label);color:rgba(0,0,0,.6);font-weight:600}
 }
 .cta-band-section{padding:112px 0}
 .cta-band{max-width:980px;margin:0 auto;padding:64px 48px;text-align:center;border:1px solid rgba(255,255,255,.2);border-radius:16px;position:relative;overflow:hidden;isolation:isolate}
