@@ -6,7 +6,7 @@
   "schemaType": "Article",
   "client": "Adda247",
   "clientUrl": "/projects/adda247/",
-  "metaTitle": "Studio App for Smart Boards — Adda 247 | Designit Case Study",
+  "metaTitle": "Studio App for Smart Boards: Adda 247 | Designit Case Study",
   "metaDescription": "In-house application enhancing teaching with smart board tools for recording, annotation, and content sharing at Adda 247.",
   "author": "Designit",
   "topicCluster": "Work",
@@ -25,7 +25,7 @@
   ],
   "kicker": "Adda247 · EdTech",
   "h1": "Studio App for Smart Boards",
-  "summary": "In-house application enhancing teaching workflows with smart board tools — enabling recording, annotation, and seamless content sharing.",
+  "summary": "In-house application enhancing teaching workflows with smart board tools, enabling recording, annotation, and seamless content sharing.",
   "tags": [
     "Product Design",
     "Touch Interface",
@@ -40,7 +40,7 @@
     "label": "Overview",
     "heading": "The Challenge &amp; Opportunity",
     "paras": [
-      "Adda 247's classroom studios were equipped with smart boards, but teachers were barely using them beyond basic whiteboard functionality. The potential of these expensive devices was being wasted because the existing software was generic, designed for corporate presentations rather than teaching workflows. We designed a purpose-built Studio App that transforms smart boards into powerful teaching instruments — with recording, annotation, content library access, and automated content publishing built into a teacher-friendly interface."
+      "Adda 247's classroom studios were equipped with smart boards, but teachers were barely using them beyond basic whiteboard functionality. The potential of these expensive devices was being wasted because the existing software was generic, designed for corporate presentations rather than teaching workflows. We designed a purpose-built Studio App that transforms smart boards into powerful teaching instruments, with recording, annotation, content library access, and automated content publishing built into a teacher-friendly interface."
     ]
   },
   "metaCards": [
@@ -65,8 +65,8 @@
     "label": "The Problem",
     "heading": "What Needed to Change",
     "paras": [
-      "Teachers relied on physical whiteboards for explanations during live classes but had no way to record, save, or share their whiteboard work digitally. After each session, all the diagrams, formulas, and explanations were erased — lost forever. Students who missed a class or wanted to revisit a teacher's explanation had no way to access that content. The smart boards installed in studios were underutilized because the default software was unintuitive and required technical setup that teachers couldn't do independently.",
-      "Content preparation was also a major bottleneck. Teachers spent 2-3 hours preparing visual materials for each 1-hour class — creating slides, diagrams, and handouts using desktop tools like PowerPoint, then transferring them to the classroom via USB drives. This workflow was error-prone (wrong files, formatting issues) and time-consuming. Teachers wanted to access their entire content library directly from the smart board and annotate over existing materials during class.",
+      "Teachers relied on physical whiteboards for explanations during live classes but had no way to record, save, or share their whiteboard work digitally. After each session, all the diagrams, formulas, and explanations were erased, lost forever. Students who missed a class or wanted to revisit a teacher's explanation had no way to access that content. The smart boards installed in studios were underutilized because the default software was unintuitive and required technical setup that teachers couldn't do independently.",
+      "Content preparation was also a major bottleneck. Teachers spent 2-3 hours preparing visual materials for each 1-hour class, creating slides, diagrams, and handouts using desktop tools like PowerPoint, then transferring them to the classroom via USB drives. This workflow was error-prone (wrong files, formatting issues) and time-consuming. Teachers wanted to access their entire content library directly from the smart board and annotate over existing materials during class.",
       "From a content production perspective, the company was producing thousands of hours of video content but the quality was inconsistent. Without standardized studio tools, each teacher had a different setup, recording quality varied, and there was no way to maintain brand consistency across content. The operations team spent significant time in post-production cleanup that could have been avoided with better tooling."
     ],
     "titles": [
@@ -83,22 +83,22 @@
       {
         "k": "Phase 01",
         "title": "Discovery &amp; Research",
-        "body": "We observed 15 teachers across different subjects — Mathematics, English, Reasoning, and General Knowledge — in actual classroom settings over two weeks. We documented their whiteboard workflows frame by frame: how they organize space, when they erase content, how they reference previous diagrams, and what tools they reach for most often. Key insight: Math teachers needed infinite canvas and equation tools, while English teachers needed text formatting and image placement. We also interviewed the operations team about recording and publishing pain points."
+        "body": "We observed 15 teachers across different subjects (Mathematics, English, Reasoning, and General Knowledge) in actual classroom settings over two weeks. We documented their whiteboard workflows frame by frame: how they organize space, when they erase content, how they reference previous diagrams, and what tools they reach for most often. Key insight: Math teachers needed infinite canvas and equation tools, while English teachers needed text formatting and image placement. We also interviewed the operations team about recording and publishing pain points."
       },
       {
         "k": "Phase 02",
         "title": "Information Architecture",
-        "body": "We designed a tool hierarchy matching the natural teaching flow: write, annotate, record, and share. The interface was organized into three zones: (1) the canvas — the primary workspace taking up 85% of the screen, (2) the tool bar — a minimal floating panel with frequently used tools, and (3) the side drawer — containing the content library, recording controls, and session management. We ensured that the most common action (writing) required zero navigation — the board is always ready to write the moment it turns on. Less frequent actions were progressively disclosed through the side drawer."
+        "body": "We designed a tool hierarchy matching the natural teaching flow: write, annotate, record, and share. The interface was organized into three zones: (1) the canvas, the primary workspace taking up 85% of the screen, (2) the tool bar, a minimal floating panel with frequently used tools, and (3) the side drawer, containing the content library, recording controls, and session management. We ensured that the most common action (writing) required zero navigation, the board is always ready to write the moment it turns on. Less frequent actions were progressively disclosed through the side drawer."
       },
       {
         "k": "Phase 03",
         "title": "Wireframing &amp; Prototyping",
-        "body": "We built prototypes and tested them on actual smart boards with teachers during live class simulations. Touch target sizes were calibrated for standing-at-arm's-length interaction — everything needed to be hittable without precise aiming. We tested three toolbar configurations: fixed bottom bar, floating radial menu, and collapsible side panel. The floating toolbar won because teachers could position it near where they were writing, minimizing hand travel. We also tested palm rejection and pressure sensitivity to ensure natural writing experience comparable to physical markers."
+        "body": "We built prototypes and tested them on actual smart boards with teachers during live class simulations. Touch target sizes were calibrated for standing-at-arm's-length interaction, everything needed to be hittable without precise aiming. We tested three toolbar configurations: fixed bottom bar, floating radial menu, and collapsible side panel. The floating toolbar won because teachers could position it near where they were writing, minimizing hand travel. We also tested palm rejection and pressure sensitivity to ensure natural writing experience comparable to physical markers."
       },
       {
         "k": "Phase 04",
         "title": "Visual Design &amp; Handoff",
-        "body": "The visual design prioritized maximum canvas space with minimal UI chrome. The toolbar used large, high-contrast icons legible from across the classroom. Color palettes were limited to 8 pen colors chosen specifically for visibility on projected displays — avoiding colors that wash out under studio lighting. The recording interface was simplified to a single red button with clear status indicators visible from teaching position. We delivered 28 screens covering all tool states, recording flows, content import workflows, and export/publishing options, along with a specification document for touch latency and rendering requirements."
+        "body": "The visual design prioritized maximum canvas space with minimal UI chrome. The toolbar used large, high-contrast icons legible from across the classroom. Color palettes were limited to 8 pen colors chosen specifically for visibility on projected displays, avoiding colors that wash out under studio lighting. The recording interface was simplified to a single red button with clear status indicators visible from teaching position. We delivered 28 screens covering all tool states, recording flows, content import workflows, and export/publishing options, along with a specification document for touch latency and rendering requirements."
       }
     ]
   },
@@ -106,8 +106,8 @@
     "label": "The Solution",
     "heading": "What We Built",
     "paras": [
-      "A streamlined teaching tool designed specifically for smart board interaction in classroom studios. The app boots directly into the writing canvas — teachers can start writing within seconds of entering the studio. The floating toolbar provides quick access to pens, highlighters, shapes, text, and an eraser, with the content library accessible through a swipe-in side panel. One-tap recording captures both the canvas content and the teacher's voice, automatically timestamping key moments.",
-      "Content management is built into the workflow. Teachers can import slides, PDFs, and images from a centralized content library, annotate over them during class, and save the annotated versions back to the library. Completed sessions are automatically exported in multiple formats — video recordings go to the content pipeline for publishing, annotated PDFs are shared with students, and session summaries are generated for the content management team. Auto-save ensures no work is ever lost, even during power interruptions."
+      "A streamlined teaching tool designed specifically for smart board interaction in classroom studios. The app boots directly into the writing canvas: teachers can start writing within seconds of entering the studio. The floating toolbar provides quick access to pens, highlighters, shapes, text, and an eraser, with the content library accessible through a swipe-in side panel. One-tap recording captures both the canvas content and the teacher's voice, automatically timestamping key moments.",
+      "Content management is built into the workflow. Teachers can import slides, PDFs, and images from a centralized content library, annotate over them during class, and save the annotated versions back to the library. Completed sessions are automatically exported in multiple formats: video recordings go to the content pipeline for publishing, annotated PDFs are shared with students, and session summaries are generated for the content management team. Auto-save ensures no work is ever lost, even during power interruptions."
     ]
   },
   "features": {
@@ -117,7 +117,7 @@
     "items": [
       {
         "title": "Smart Board Optimization",
-        "body": "Touch targets, pen latency, and palm rejection calibrated for large-screen standing interaction — the writing experience feels as natural as a physical whiteboard."
+        "body": "Touch targets, pen latency, and palm rejection calibrated for large-screen standing interaction, the writing experience feels as natural as a physical whiteboard."
       },
       {
         "title": "Recording &amp; Playback",
@@ -125,11 +125,11 @@
       },
       {
         "title": "Annotation Tools",
-        "body": "Pens, highlighters, shapes, text, and equation tools designed for teaching — with infinite canvas, zoom, and the ability to annotate over imported content."
+        "body": "Pens, highlighters, shapes, text, and equation tools designed for teaching, with infinite canvas, zoom, and the ability to annotate over imported content."
       },
       {
         "title": "Content Library",
-        "body": "Centralized library of slides, PDFs, and images accessible from the side panel — import, annotate, and save back without leaving the teaching flow."
+        "body": "Centralized library of slides, PDFs, and images accessible from the side panel: import, annotate, and save back without leaving the teaching flow."
       },
       {
         "title": "Auto-save &amp; Sync",
@@ -137,7 +137,7 @@
       },
       {
         "title": "Multi-format Export",
-        "body": "One-click export to video, annotated PDF, and image formats — feeding directly into the content publishing pipeline without manual post-processing."
+        "body": "One-click export to video, annotated PDF, and image formats, feeding directly into the content publishing pipeline without manual post-processing."
       }
     ]
   },
@@ -177,15 +177,15 @@
   "faqExisting": [
     {
       "q": "What is Studio App for Smart Boards?",
-      "a": "In-house application enhancing teaching workflows with smart board tools — enabling recording, annotation, and seamless content sharing."
+      "a": "In-house application enhancing teaching workflows with smart board tools, enabling recording, annotation, and seamless content sharing."
     },
     {
       "q": "What problem did Studio App for Smart Boards solve?",
-      "a": "Adda 247's classroom studios were equipped with smart boards, but teachers were barely using them beyond basic whiteboard functionality. The potential of these expensive devices was being wasted because the existing software was generic, designed for corporate presentations rather than teaching workflows. We designed a purpose-built Studio App that transforms smart boards into powerful teaching instruments — with recording, annotation, content library access, and automated content publishing built into a teacher-friendly interface."
+      "a": "Adda 247's classroom studios were equipped with smart boards, but teachers were barely using them beyond basic whiteboard functionality. The potential of these expensive devices was being wasted because the existing software was generic, designed for corporate presentations rather than teaching workflows. We designed a purpose-built Studio App that transforms smart boards into powerful teaching instruments, with recording, annotation, content library access, and automated content publishing built into a teacher-friendly interface."
     },
     {
       "q": "How did Designit approach Studio App for Smart Boards?",
-      "a": "Teachers relied on physical whiteboards for explanations during live classes but had no way to record, save, or share their whiteboard work digitally. After each session, all the diagrams, formulas, and explanations were erased — lost forever. Students who missed a class or wanted to revisit a teacher's explanation had no way to access that content. The smart boards installed in studios were underutilized because the default software was unintuitive and required technical setup that teachers couldn't do independently."
+      "a": "Teachers relied on physical whiteboards for explanations during live classes but had no way to record, save, or share their whiteboard work digitally. After each session, all the diagrams, formulas, and explanations were erased, lost forever. Students who missed a class or wanted to revisit a teacher's explanation had no way to access that content. The smart boards installed in studios were underutilized because the default software was unintuitive and required technical setup that teachers couldn't do independently."
     },
     {
       "q": "How long does a Designit engagement take?",
@@ -281,15 +281,15 @@
   "faq": [
     {
       "q": "What is Studio App for Smart Boards?",
-      "a": "In-house application enhancing teaching workflows with smart board tools — enabling recording, annotation, and seamless content sharing."
+      "a": "In-house application enhancing teaching workflows with smart board tools, enabling recording, annotation, and seamless content sharing."
     },
     {
       "q": "What problem did Studio App for Smart Boards solve?",
-      "a": "Teachers relied on physical whiteboards for explanations during live classes but had no way to record, save, or share their whiteboard work digitally. After each session, all the diagrams, formulas, and explanations were erased — lost forever. Students who missed a class or wanted to revisit a teacher's explanation had no way to access that content. The smart boards installed in studios were underutilized because the default software was unintuitive and required technical setup that teachers couldn't do independently. The question we set out to answer: How might we make a classroom smart board as natural to teach on as a whiteboard, while every explanation is recorded, saved and ready to publish?"
+      "a": "Teachers relied on physical whiteboards for explanations during live classes but had no way to record, save, or share their whiteboard work digitally. After each session, all the diagrams, formulas, and explanations were erased, lost forever. Students who missed a class or wanted to revisit a teacher's explanation had no way to access that content. The smart boards installed in studios were underutilized because the default software was unintuitive and required technical setup that teachers couldn't do independently. The question we set out to answer: How might we make a classroom smart board as natural to teach on as a whiteboard, while every explanation is recorded, saved and ready to publish?"
     },
     {
       "q": "How did Designit approach Studio App for Smart Boards?",
-      "a": "We worked in 4 phases: Discovery & Research; information architecture; wireframing & prototyping; visual design & handoff. We observed 15 teachers across different subjects — Mathematics, English, Reasoning, and General Knowledge — in actual classroom settings over two weeks."
+      "a": "We worked in 4 phases: Discovery & Research; information architecture; wireframing & prototyping; visual design & handoff. We observed 15 teachers across different subjects (Mathematics, English, Reasoning, and General Knowledge) in actual classroom settings over two weeks."
     },
     {
       "q": "How do you design for smart boards and large touch displays?",

@@ -6,7 +6,7 @@
   "schemaType": "Article",
   "client": "Betacrew",
   "clientUrl": "/projects/betacrew/",
-  "metaTitle": "Portle Case Study — Betacrew Fintech UX | Designit",
+  "metaTitle": "Portle Case Study: Betacrew Fintech UX | Designit",
   "metaDescription": "Case study: Portle, a developer-first API management platform for Betacrew that unifies API design, testing, documentation and monitoring in one interface.",
   "author": "Designit",
   "topicCluster": "Work",
@@ -42,7 +42,7 @@
     "label": "Overview",
     "heading": "One Platform, Zero Fragmentation",
     "paras": [
-      "Portle is a developer-first API management platform that unifies API design, testing, documentation, and monitoring into a single clean interface. Built for Betacrew, the platform replaces three disconnected tools that developer teams were juggling — reducing cognitive load while supporting white-label deployment for different enterprise clients. The design prioritizes clarity and speed, with a minimalist aesthetic that lets developers focus on their work rather than fighting the interface."
+      "Portle is a developer-first API management platform that unifies API design, testing, documentation, and monitoring into a single clean interface. Built for Betacrew, the platform replaces three disconnected tools that developer teams were juggling, reducing cognitive load while supporting white-label deployment for different enterprise clients. The design prioritizes clarity and speed, with a minimalist aesthetic that lets developers focus on their work rather than fighting the interface."
     ]
   },
   "metaCards": [
@@ -67,7 +67,7 @@
     "label": "Problem Statement",
     "heading": "The Challenge",
     "paras": [
-      "Developers managed APIs across multiple disconnected tools — one for design, another for testing, a third for documentation. Documentation was always outdated because it lived separately from the API itself. Onboarding new team members to API workflows took weeks because they had to learn three different tools and their integration points. The platform needed to unify these workflows while remaining flexible enough for white-label enterprise deployment."
+      "Developers managed APIs across multiple disconnected tools: one for design, another for testing, a third for documentation. Documentation was always outdated because it lived separately from the API itself. Onboarding new team members to API workflows took weeks because they had to learn three different tools and their integration points. The platform needed to unify these workflows while remaining flexible enough for white-label enterprise deployment."
     ]
   },
   "approach": {
@@ -78,22 +78,22 @@
       {
         "k": "Phase 01",
         "title": "Developer Experience Research",
-        "body": "We conducted developer experience research with 30 engineers across 5 companies, mapping their daily tool usage and pain points. We timed their workflows, documenting every context switch and manual step. The research revealed that developers spent an average of 2 hours per day on API documentation alone — most of which was duplicating information that already existed in their codebase. This became our primary target for automation."
+        "body": "We conducted developer experience research with 30 engineers across 5 companies, mapping their daily tool usage and pain points. We timed their workflows, documenting every context switch and manual step. The research revealed that developers spent an average of 2 hours per day on API documentation alone: most of which was duplicating information that already existed in their codebase. This became our primary target for automation."
       },
       {
         "k": "Phase 02",
         "title": "Unified Information Architecture",
-        "body": "We designed a unified information architecture connecting API design, testing, documentation, and monitoring into a single coherent workspace. The IA follows the natural developer workflow: define endpoints, test them, document them, monitor them. Each view shares context with the others — editing an API definition automatically updates documentation and test templates, eliminating the synchronization problem that plagued multi-tool setups."
+        "body": "We designed a unified information architecture connecting API design, testing, documentation, and monitoring into a single coherent workspace. The IA follows the natural developer workflow: define endpoints, test them, document them, monitor them. Each view shares context with the others, editing an API definition automatically updates documentation and test templates, eliminating the synchronization problem that plagued multi-tool setups."
       },
       {
         "k": "Phase 03",
         "title": "Interactive Prototyping",
-        "body": "We built interactive prototypes with real API data, testing with developers of varying experience levels from junior to senior architects. The prototype phase revealed critical insights about cognitive load — senior developers wanted density and keyboard shortcuts, while junior developers needed progressive disclosure and contextual help. We designed an adaptive interface that serves both through a customizable density setting and intelligent defaults."
+        "body": "We built interactive prototypes with real API data, testing with developers of varying experience levels from junior to senior architects. The prototype phase revealed critical insights about cognitive load: senior developers wanted density and keyboard shortcuts, while junior developers needed progressive disclosure and contextual help. We designed an adaptive interface that serves both through a customizable density setting and intelligent defaults."
       },
       {
         "k": "Phase 04",
         "title": "White-label Theming System",
-        "body": "We created a comprehensive theming system supporting white-label deployment for different companies. The system goes beyond color swaps — it supports custom typography, logo placement, terminology overrides, and feature toggling. Each theme maintains accessibility standards and visual harmony regardless of the brand colors applied. We built a theme editor that non-technical admins can use to configure their instance without design support."
+        "body": "We created a comprehensive theming system supporting white-label deployment for different companies. The system goes beyond color swaps. It supports custom typography, logo placement, terminology overrides, and feature toggling. Each theme maintains accessibility standards and visual harmony regardless of the brand colors applied. We built a theme editor that non-technical admins can use to configure their instance without design support."
       }
     ]
   },
@@ -171,11 +171,11 @@
   "faqExisting": [
     {
       "q": "What is Portle?",
-      "a": "Portle is a developer-first API management platform that unifies API design, testing, documentation, and monitoring into a single clean interface. Built for Betacrew, the platform replaces three disconnected tools that developer teams were juggling — reducing cognitive load while supporting white-label deployment for different enterprise clients. The design prioritizes clarity and speed, with a minimalist aesthetic that lets developers focus on their work rather than fighting the interface."
+      "a": "Portle is a developer-first API management platform that unifies API design, testing, documentation, and monitoring into a single clean interface. Built for Betacrew, the platform replaces three disconnected tools that developer teams were juggling, reducing cognitive load while supporting white-label deployment for different enterprise clients. The design prioritizes clarity and speed, with a minimalist aesthetic that lets developers focus on their work rather than fighting the interface."
     },
     {
       "q": "What problem did Portle solve?",
-      "a": "Developers managed APIs across multiple disconnected tools — one for design, another for testing, a third for documentation. Documentation was always outdated because it lived separately from the API itself. Onboarding new team members to API workflows took weeks because they had to learn three different tools and their integration points. The platform needed to unify these workflows while remaining flexible enough for white-label enterprise deployment."
+      "a": "Developers managed APIs across multiple disconnected tools: one for design, another for testing, a third for documentation. Documentation was always outdated because it lived separately from the API itself. Onboarding new team members to API workflows took weeks because they had to learn three different tools and their integration points. The platform needed to unify these workflows while remaining flexible enough for white-label enterprise deployment."
     },
     {
       "q": "What results did Portle deliver?",
@@ -183,7 +183,7 @@
     },
     {
       "q": "How did Designit approach Portle?",
-      "a": "We conducted developer experience research with 30 engineers across 5 companies, mapping their daily tool usage and pain points. We timed their workflows, documenting every context switch and manual step. The research revealed that developers spent an average of 2 hours per day on API documentation alone — most of which was duplicating information that already existed in their codebase. This became our primary target for automation."
+      "a": "We conducted developer experience research with 30 engineers across 5 companies, mapping their daily tool usage and pain points. We timed their workflows, documenting every context switch and manual step. The research revealed that developers spent an average of 2 hours per day on API documentation alone: most of which was duplicating information that already existed in their codebase. This became our primary target for automation."
     },
     {
       "q": "How long does a Designit engagement take?",
@@ -288,7 +288,7 @@
     },
     {
       "q": "What problem did Portle solve?",
-      "a": "Developers managed APIs across multiple disconnected tools — one for design, another for testing, a third for documentation. Documentation was always outdated because it lived separately from the API itself. Onboarding new team members to API workflows took weeks because they had to learn three different tools and their integration points. The platform needed to unify these workflows while remaining flexible enough for white-label enterprise deployment. The question we set out to answer: How might we give developers one place to design, test, document and monitor their APIs, so documentation stays true and new teammates get productive in days, not weeks?"
+      "a": "Developers managed APIs across multiple disconnected tools: one for design, another for testing, a third for documentation. Documentation was always outdated because it lived separately from the API itself. Onboarding new team members to API workflows took weeks because they had to learn three different tools and their integration points. The platform needed to unify these workflows while remaining flexible enough for white-label enterprise deployment. The question we set out to answer: How might we give developers one place to design, test, document and monitor their APIs, so documentation stays true and new teammates get productive in days, not weeks?"
     },
     {
       "q": "How did Designit approach Portle?",

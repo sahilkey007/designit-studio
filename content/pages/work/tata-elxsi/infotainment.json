@@ -6,7 +6,7 @@
   "schemaType": "Article",
   "client": "Tata Elxsi",
   "clientUrl": "/projects/tata-elxsi/",
-  "metaTitle": "Infotainment System — Tata Elxsi — Designit",
+  "metaTitle": "Infotainment System: Tata Elxsi | Designit",
   "metaDescription": "Case study: next-generation in-vehicle infotainment for Tata Elxsi, with navigation, media, climate and phone controls designed to work at a glance.",
   "author": "Designit",
   "topicCluster": "Work",
@@ -60,7 +60,7 @@
     "label": "Problem Statement",
     "heading": "The Challenge",
     "paras": [
-      "Automotive HMI design must work at a glance — drivers can't afford the cognitive load of complex interfaces. Existing systems were either too simple, missing features users expected from their smartphones, or too complex, creating dangerous distractions. The interface needed to serve both tech-savvy drivers who want full control and those who just want music and navigation without complexity. NHTSA guidelines mandate strict limits on glance time and interaction depth."
+      "Automotive HMI design must work at a glance: drivers can't afford the cognitive load of complex interfaces. Existing systems were either too simple, missing features users expected from their smartphones, or too complex, creating dangerous distractions. The interface needed to serve both tech-savvy drivers who want full control and those who just want music and navigation without complexity. NHTSA guidelines mandate strict limits on glance time and interaction depth."
     ]
   },
   "approach": {
@@ -76,7 +76,7 @@
       {
         "k": "Phase 02",
         "title": "Layered Interaction Model",
-        "body": "We designed a layered interaction model where essential controls — volume, navigation, climate — are always visible on the home screen. Secondary features are behind exactly one tap, never more. The layout uses large touch targets (minimum 44px) with generous spacing to prevent mistouch. Contextual controls appear based on driving state: media controls expand when audio is playing, navigation simplifies during active routing."
+        "body": "We designed a layered interaction model where essential controls (volume, navigation, climate) are always visible on the home screen. Secondary features are behind exactly one tap, never more. The layout uses large touch targets (minimum 44px) with generous spacing to prevent mistouch. Contextual controls appear based on driving state: media controls expand when audio is playing, navigation simplifies during active routing."
       },
       {
         "k": "Phase 03",
@@ -145,7 +145,7 @@
     },
     {
       "q": "What problem did Infotainment System solve?",
-      "a": "Automotive HMI design must work at a glance — drivers can't afford the cognitive load of complex interfaces. Existing systems were either too simple, missing features users expected from their smartphones, or too complex, creating dangerous distractions. The interface needed to serve both tech-savvy drivers who want full control and those who just want music and navigation without complexity. NHTSA guidelines mandate strict limits on glance time and interaction depth."
+      "a": "Automotive HMI design must work at a glance: drivers can't afford the cognitive load of complex interfaces. Existing systems were either too simple, missing features users expected from their smartphones, or too complex, creating dangerous distractions. The interface needed to serve both tech-savvy drivers who want full control and those who just want music and navigation without complexity. NHTSA guidelines mandate strict limits on glance time and interaction depth."
     },
     {
       "q": "How did Designit approach Infotainment System?",
@@ -229,7 +229,7 @@
     },
     {
       "q": "What problem did Infotainment System solve?",
-      "a": "Automotive HMI design must work at a glance — drivers can't afford the cognitive load of complex interfaces. Existing systems were either too simple, missing features users expected from their smartphones, or too complex, creating dangerous distractions. The interface needed to serve both tech-savvy drivers who want full control and those who just want music and navigation without complexity. NHTSA guidelines mandate strict limits on glance time and interaction depth. The question we set out to answer: How might we give drivers the features they expect from their phones while every interaction stays within a glance and a tap, safely?"
+      "a": "Automotive HMI design must work at a glance: drivers can't afford the cognitive load of complex interfaces. Existing systems were either too simple, missing features users expected from their smartphones, or too complex, creating dangerous distractions. The interface needed to serve both tech-savvy drivers who want full control and those who just want music and navigation without complexity. NHTSA guidelines mandate strict limits on glance time and interaction depth. The question we set out to answer: How might we give drivers the features they expect from their phones while every interaction stays within a glance and a tap, safely?"
     },
     {
       "q": "How did Designit approach Infotainment System?",

@@ -6,7 +6,7 @@
   "schemaType": "Article",
   "client": "Tata Elxsi",
   "clientUrl": "/projects/tata-elxsi/",
-  "metaTitle": "Digital Instrument Cluster — Tata Elxsi — Designit",
+  "metaTitle": "Digital Instrument Cluster: Tata Elxsi | Designit",
   "metaDescription": "Case study: a programmable digital instrument cluster for Tata Elxsi with adaptive display modes for city, highway, sport and eco driving.",
   "author": "Designit",
   "topicCluster": "Work",
@@ -35,7 +35,7 @@
     "label": "Overview",
     "heading": "Beyond Analog Gauges",
     "paras": [
-      "The digital instrument cluster replaces traditional analog gauges with a fully programmable display that adapts to driving conditions, modes, and driver preferences. We designed adaptive display modes for city driving, highway cruising, sport, and eco — each prioritizing different information based on what matters most in that context. The design system was built with strict automotive contrast ratios and readability standards, ensuring critical information is always instantly scannable."
+      "The digital instrument cluster replaces traditional analog gauges with a fully programmable display that adapts to driving conditions, modes, and driver preferences. We designed adaptive display modes for city driving, highway cruising, sport, and eco. Each prioritizing different information based on what matters most in that context. The design system was built with strict automotive contrast ratios and readability standards, ensuring critical information is always instantly scannable."
     ]
   },
   "metaCards": [
@@ -60,7 +60,7 @@
     "label": "Problem Statement",
     "heading": "The Challenge",
     "paras": [
-      "Traditional analog clusters were being replaced by digital screens, but early digital clusters simply mimicked analog gauges without leveraging the medium's capabilities. This was a wasted opportunity — digital displays can show contextual information, adapt to conditions, and present data in ways that physical gauges never could. The challenge was designing a system that leverages digital capabilities while maintaining the instant readability that analog gauges provided through decades of driver familiarity."
+      "Traditional analog clusters were being replaced by digital screens, but early digital clusters simply mimicked analog gauges without leveraging the medium's capabilities. This was a wasted opportunity: digital displays can show contextual information, adapt to conditions, and present data in ways that physical gauges never could. The challenge was designing a system that leverages digital capabilities while maintaining the instant readability that analog gauges provided through decades of driver familiarity."
     ]
   },
   "approach": {
@@ -71,7 +71,7 @@
       {
         "k": "Phase 01",
         "title": "Information Needs Research",
-        "body": "We researched driver information needs at different speeds and conditions, studying ergonomic guidelines from SAE International and automotive HMI research papers. We cataloged every piece of information a driver might need — from critical (speed, warnings) to useful (range, temperature) to informational (media, calls). This hierarchy became the foundation for our adaptive display logic, ensuring the most important data is always visible regardless of mode."
+        "body": "We researched driver information needs at different speeds and conditions, studying ergonomic guidelines from SAE International and automotive HMI research papers. We cataloged every piece of information a driver might need, from critical (speed, warnings) to useful (range, temperature) to informational (media, calls). This hierarchy became the foundation for our adaptive display logic, ensuring the most important data is always visible regardless of mode."
       },
       {
         "k": "Phase 02",
@@ -81,7 +81,7 @@
       {
         "k": "Phase 03",
         "title": "Transition Animation",
-        "body": "We prototyped animation transitions between modes, ensuring zero distraction during mode changes. The transitions use morphing animations that maintain spatial consistency — the speedometer always stays in the same relative position, but surrounding elements reorganize around it. We measured glance disruption during transitions in simulator tests, iterating until mode changes were imperceptible to drivers focused on the road."
+        "body": "We prototyped animation transitions between modes, ensuring zero distraction during mode changes. The transitions use morphing animations that maintain spatial consistency, the speedometer always stays in the same relative position, but surrounding elements reorganize around it. We measured glance disruption during transitions in simulator tests, iterating until mode changes were imperceptible to drivers focused on the road."
       },
       {
         "k": "Phase 04",
@@ -104,7 +104,7 @@
     "items": [
       {
         "title": "Adaptive Display Modes",
-        "body": "Four context-aware modes: City, Highway, Sport, and Eco — each optimized for different driving needs."
+        "body": "Four context-aware modes: City, Highway, Sport, and Eco. Each optimized for different driving needs."
       },
       {
         "title": "Speed-based Layout",
@@ -141,15 +141,15 @@
   "faqExisting": [
     {
       "q": "What is Digital Instrument Cluster?",
-      "a": "The digital instrument cluster replaces traditional analog gauges with a fully programmable display that adapts to driving conditions, modes, and driver preferences. We designed adaptive display modes for city driving, highway cruising, sport, and eco — each prioritizing different information based on what matters most in that context. The design system was built with strict automotive contrast ratios and readability standards, ensuring critical information is always instantly scannable."
+      "a": "The digital instrument cluster replaces traditional analog gauges with a fully programmable display that adapts to driving conditions, modes, and driver preferences. We designed adaptive display modes for city driving, highway cruising, sport, and eco. Each prioritizing different information based on what matters most in that context. The design system was built with strict automotive contrast ratios and readability standards, ensuring critical information is always instantly scannable."
     },
     {
       "q": "What problem did Digital Instrument Cluster solve?",
-      "a": "Traditional analog clusters were being replaced by digital screens, but early digital clusters simply mimicked analog gauges without leveraging the medium's capabilities. This was a wasted opportunity — digital displays can show contextual information, adapt to conditions, and present data in ways that physical gauges never could. The challenge was designing a system that leverages digital capabilities while maintaining the instant readability that analog gauges provided through decades of driver familiarity."
+      "a": "Traditional analog clusters were being replaced by digital screens, but early digital clusters simply mimicked analog gauges without leveraging the medium's capabilities. This was a wasted opportunity: digital displays can show contextual information, adapt to conditions, and present data in ways that physical gauges never could. The challenge was designing a system that leverages digital capabilities while maintaining the instant readability that analog gauges provided through decades of driver familiarity."
     },
     {
       "q": "How did Designit approach Digital Instrument Cluster?",
-      "a": "We researched driver information needs at different speeds and conditions, studying ergonomic guidelines from SAE International and automotive HMI research papers. We cataloged every piece of information a driver might need — from critical (speed, warnings) to useful (range, temperature) to informational (media, calls). This hierarchy became the foundation for our adaptive display logic, ensuring the most important data is always visible regardless of mode."
+      "a": "We researched driver information needs at different speeds and conditions, studying ergonomic guidelines from SAE International and automotive HMI research papers. We cataloged every piece of information a driver might need, from critical (speed, warnings) to useful (range, temperature) to informational (media, calls). This hierarchy became the foundation for our adaptive display logic, ensuring the most important data is always visible regardless of mode."
     },
     {
       "q": "How long does a Designit engagement take?",
@@ -226,7 +226,7 @@
     },
     {
       "q": "What problem did Digital Instrument Cluster solve?",
-      "a": "Traditional analog clusters were being replaced by digital screens, but early digital clusters simply mimicked analog gauges without leveraging the medium's capabilities. This was a wasted opportunity — digital displays can show contextual information, adapt to conditions, and present data in ways that physical gauges never could. The challenge was designing a system that leverages digital capabilities while maintaining the instant readability that analog gauges provided through decades of driver familiarity. The question we set out to answer: How might we use a digital cluster to show drivers more of what matters in each moment, without losing the instant readability of analog gauges?"
+      "a": "Traditional analog clusters were being replaced by digital screens, but early digital clusters simply mimicked analog gauges without leveraging the medium's capabilities. This was a wasted opportunity: digital displays can show contextual information, adapt to conditions, and present data in ways that physical gauges never could. The challenge was designing a system that leverages digital capabilities while maintaining the instant readability that analog gauges provided through decades of driver familiarity. The question we set out to answer: How might we use a digital cluster to show drivers more of what matters in each moment, without losing the instant readability of analog gauges?"
     },
     {
       "q": "How did Designit approach Digital Instrument Cluster?",

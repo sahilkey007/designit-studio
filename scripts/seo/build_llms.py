@@ -143,9 +143,9 @@ def build():
         body = re.sub(r"\.\s*<a [^>]*>[^<]*</a>\.?\s*$", ".", i["body"])  # drop trailing "see also" link sentences
         if "below" in body:  # refers to on-page layout; meaningless out of context
             continue
-        L.append(f"- **{text(i['title'])}** — {text(body)}")
+        L.append(f"- **{text(i['title'])}**: {text(body)}")
     L += ["", "## How we work", "", text(stages.get("intro", "")), ""]
-    L += [f"{n}. **{text(i['key'])}: {text(i['title'])}** — {text(i['body'])}" for n, i in enumerate(stages["items"], 1)]
+    L += [f"{n}. **{text(i['key'])}: {text(i['title'])}**: {text(i['body'])}" for n, i in enumerate(stages["items"], 1)]
     L += ["", "Designit designs, specifies and supports build through design QA and launch support. "
           "Development itself is done by the client's team or development partner.", ""]
     L += ["## Services", "", f"All services: [{SITE}/services/]({SITE}/services/)", ""]
@@ -160,12 +160,12 @@ def build():
         L += page_block(p)
     L += ["## Markets", "", "Clients in India and the UAE; projects for teams in the United States and the United Kingdom. "
           f"Hub: [{SITE}/locations/]({SITE}/locations/)", ""]
-    L += [f"- [{text(p['h1'])}]({SITE}{p['url']}) — {text(p['metaDescription'])}" for p in locations]
+    L += [f"- [{text(p['h1'])}]({SITE}{p['url']}): {text(p['metaDescription'])}" for p in locations]
     L += ["", "## Clients and case studies", "",
           f"Published case studies: [{SITE}/projects/]({SITE}/projects/). Outcomes are described qualitatively; "
           "the site does not publish client metrics it cannot verify.", ""]
     for w in work:
-        L += [f"### {w['client']} — {w['industry']}", "", f"Case study: [{w['client']}]({SITE}{w['href']})", "",
+        L += [f"### {w['client']}: {w['industry']}", "", f"Case study: [{w['client']}]({SITE}{w['href']})", "",
               f"- Product: {w['product']}", f"- Services: {w['service']}", f"- Problem: {w['problem']}",
               f"- What was delivered: {w['outcome']}", ""]
     L += ["## Frequently asked questions", "", "Answers as published on the homepage.", ""]
@@ -186,7 +186,7 @@ def build():
                         ("Careers", "/careers/")]:
         L.append(f"- [{label}]({SITE}{path})")
     L += ["", "## Insights", "", f"Practical writing for founders, product leaders and CTOs. Full index: [{SITE}/blog/]({SITE}/blog/)", ""]
-    L += [f"- [{t}]({u}) — {d}" for u, t, d in blog if t]
+    L += [f"- [{t}]({u}): {d}" for u, t, d in blog if t]
     L += ["", "## Optional", "",
           f"- [Full page index (llms-full.txt)]({SITE}/llms-full.txt)",
           f"- [AI crawler permissions (ai.txt)]({SITE}/.well-known/ai.txt)",
@@ -211,7 +211,7 @@ def build():
         rel = u.replace(SITE, "").strip("/")
         g = next(g for g, test in groups if test(rel))
         buckets[g].append((u, page_meta(u)[0] or u))
-    F = ["# Designit — full page index (llms-full.txt)", "",
+    F = ["# Designit: full page index (llms-full.txt)", "",
          f"> Companion to [/llms.txt]({SITE}/llms.txt). Every indexable page on designit.co.in, from the XML sitemaps, with its page title.", "",
          "## About Designit", "", desc, "",
          "Designit Studio (designit.co.in) is independent and not affiliated with Designit A/S (Wipro).", "",

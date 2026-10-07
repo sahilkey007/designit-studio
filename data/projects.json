@@ -4,7 +4,7 @@
     "client": "Adda 247",
     "category": "EdTech",
     "thumbnail": "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Ftest-series%2Fasset1.png&w=1920&q=75",
-    "overview": "Complete UI/UX transformation of India's leading competitive exam preparation platform — spanning test series, live classes, performance analytics, community features, and cross-platform expansion.",
+    "overview": "Complete UI/UX transformation of India's leading competitive exam preparation platform, spanning test series, live classes, performance analytics, community features, and cross-platform expansion.",
     "subprojects": [
       {
         "title": "Test Series",
@@ -73,7 +73,7 @@
       {
         "title": "Community",
         "slug": "community",
-        "description": "Built a collaborative community module transforming Adda247 beyond content delivery — enabling peer-to-peer learning, doubt resolution, content sharing, and engagement among students.",
+        "description": "Built a collaborative community module transforming Adda247 beyond content delivery, enabling peer-to-peer learning, doubt resolution, content sharing, and engagement among students.",
         "images": [
           "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fcommunity%2Fasset1.png&w=1920&q=75",
           "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fcommunity%2Fasset2.png&w=1920&q=75",
@@ -83,7 +83,7 @@
       {
         "title": "Performance Dashboard",
         "slug": "performance-dashboard",
-        "description": "Designed comprehensive analytics dashboard providing actionable insights into learning journeys — covering test performance, content consumption, and personalized improvement paths.",
+        "description": "Designed comprehensive analytics dashboard providing actionable insights into learning journeys, covering test performance, content consumption, and personalized improvement paths.",
         "images": [
           "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fperformance-dashboard%2Fasset1.png&w=1920&q=75",
           "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fadda247%2Fperformance-dashboard%2Fasset2.png&w=1920&q=75",
@@ -102,7 +102,7 @@
     "client": "R-Centric (Omniyat)",
     "category": "Luxury Real Estate",
     "thumbnail": "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Frcentric%2Fliv%2Fasset1.png&w=1920&q=75",
-    "overview": "Designed premium digital experiences for Dubai's most exclusive luxury real estate properties under the Omniyat brand — including LIV, Orla Infinity, ELA, OPUS, Vela Viento, and more.",
+    "overview": "Designed premium digital experiences for Dubai's most exclusive luxury real estate properties under the Omniyat brand, including LIV, Orla Infinity, ELA, OPUS, Vela Viento, and more.",
     "subprojects": [
       {
         "title": "LIV",
@@ -121,35 +121,35 @@
       {
         "title": "ELA Residences",
         "slug": "ela",
-        "description": "Designed the digital experience for Ela Residences — a unique blend of wellness and luxury on Palm Jumeirah by Foster + Partners, featuring eco-conscious design and smart home technology.",
+        "description": "Designed the digital experience for Ela Residences, a unique blend of wellness and luxury on Palm Jumeirah by Foster + Partners, featuring eco-conscious design and smart home technology.",
         "live_link": "https://elaresidences.ae/",
         "images": ["https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Frcentric%2Fela%2Fasset1.png&w=1920&q=75"]
       },
       {
         "title": "OPUS",
         "slug": "opus",
-        "description": "Created the digital presence for OPUS — a landmark Dubai building designed by Zaha Hadid, featuring luxury residences, offices, and a hotel.",
+        "description": "Created the digital presence for OPUS, a landmark Dubai building designed by Zaha Hadid, featuring luxury residences, offices, and a hotel.",
         "live_link": "https://opus.omniyat.com/",
         "images": ["https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Frcentric%2Fopus%2Fasset1.png&w=1920&q=75"]
       },
       {
         "title": "Vela Viento",
         "slug": "vela-viento",
-        "description": "Designed the luxury web experience for Vela Viento — a Foster + Partners development in Marasi Bay with high-end apartments, stunning waterfront views, and Dorchester Collection services.",
+        "description": "Designed the luxury web experience for Vela Viento, a Foster + Partners development in Marasi Bay with high-end apartments, stunning waterfront views, and Dorchester Collection services.",
         "live_link": "https://velaviento.ae/",
         "images": ["https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Frcentric%2Fvela-viento%2Fasset1.png&w=1920&q=75"]
       },
       {
         "title": "Anwa Aria",
         "slug": "anwa-aria",
-        "description": "Crafted the digital experience for Anwa Aria — a luxury residential tower in Dubai Maritime City, emphasizing waterfront living and modern design.",
+        "description": "Crafted the digital experience for Anwa Aria, a luxury residential tower in Dubai Maritime City, emphasizing waterfront living and modern design.",
         "live_link": "https://anwaariabyomniyat.liv.ae/",
         "images": ["https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Frcentric%2Fanwa-aria%2Fasset1.png&w=1920&q=75"]
       },
       {
         "title": "LIV Reside",
         "slug": "liv-reside",
-        "description": "Designed the online platform for LIV Reside — an upscale residential project offering luxurious apartments with high-end amenities and a focus on community living.",
+        "description": "Designed the online platform for LIV Reside, an upscale residential project offering luxurious apartments with high-end amenities and a focus on community living.",
         "live_link": "https://livreside.ae/",
         "images": ["https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Frcentric%2Fliv-reside%2Fasset1.png&w=1920&q=75"]
       }
@@ -165,12 +165,12 @@
     "client": "Kelp Global",
     "category": "SaaS / CRM",
     "thumbnail": "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fkelp-global%2Fkelp-plugin%2Fasset1.png&w=1920&q=75",
-    "overview": "Designed the complete product suite for Kelp Global — a customer relationship platform including browser plugins, analytics dashboards, and deal management modules.",
+    "overview": "Designed the complete product suite for Kelp Global, a customer relationship platform including browser plugins, analytics dashboards, and deal management modules.",
     "subprojects": [
       {
         "title": "Kelp Plugin",
         "slug": "kelp-plugin",
-        "description": "Designed an intuitive browser plugin for real-time customer intelligence — surfacing relevant insights directly within the user's workflow without context-switching.",
+        "description": "Designed an intuitive browser plugin for real-time customer intelligence, surfacing relevant insights directly within the user's workflow without context-switching.",
         "images": [
           "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fkelp-global%2Fkelp-plugin%2Fasset1.png&w=1920&q=75",
           "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fkelp-global%2Fkelp-plugin%2Fasset2.png&w=1920&q=75",
@@ -180,7 +180,7 @@
       {
         "title": "Truenorth",
         "slug": "truenorth",
-        "description": "Built the analytics and reporting interface for Kelp's Truenorth module — providing sales teams with clear performance metrics and actionable pipeline insights.",
+        "description": "Built the analytics and reporting interface for Kelp's Truenorth module, providing sales teams with clear performance metrics and actionable pipeline insights.",
         "images": [
           "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fkelp-global%2Ftruenorth%2Fasset1.png&w=1920&q=75",
           "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fkelp-global%2Ftruenorth%2Fasset2.png&w=1920&q=75",
@@ -190,7 +190,7 @@
       {
         "title": "Deals Module",
         "slug": "deals-module",
-        "description": "Designed the deal pipeline management interface — enabling sales teams to track, manage, and close deals efficiently with clear visual workflows and status tracking.",
+        "description": "Designed the deal pipeline management interface, enabling sales teams to track, manage, and close deals efficiently with clear visual workflows and status tracking.",
         "images": [
           "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fkelp-global%2Fdeals-module%2Fasset1.png&w=1920&q=75",
           "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fkelp-global%2Fdeals-module%2Fasset2.png&w=1920&q=75",
@@ -209,7 +209,7 @@
     "client": "Betacrew",
     "category": "Developer Tools",
     "thumbnail": "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Fbetacrew%2Fportle%2Fasset1.png&w=1920&q=75",
-    "overview": "Designed Portle — a developer-first API management platform with a clean, minimalist interface that reduces cognitive load while supporting diverse branding requirements across companies.",
+    "overview": "Designed Portle, a developer-first API management platform with a clean, minimalist interface that reduces cognitive load while supporting diverse branding requirements across companies.",
     "subprojects": [
       {
         "title": "Portle",
@@ -234,18 +234,18 @@
     "client": "Tata Elxsi",
     "category": "Automotive HMI",
     "thumbnail": "https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Ftata-elxsi%2Finfotainment%2Fasset1.png&w=1920&q=75",
-    "overview": "Designed next-generation automotive HMI experiences for Tata Elxsi — including infotainment systems and digital instrument clusters for connected vehicles.",
+    "overview": "Designed next-generation automotive HMI experiences for Tata Elxsi, including infotainment systems and digital instrument clusters for connected vehicles.",
     "subprojects": [
       {
         "title": "Infotainment System",
         "slug": "infotainment",
-        "description": "Designed the next-generation in-vehicle infotainment interface — balancing driver safety with intuitive media, navigation, and vehicle controls through a distraction-minimized touchscreen experience.",
+        "description": "Designed the next-generation in-vehicle infotainment interface, balancing driver safety with intuitive media, navigation, and vehicle controls through a distraction-minimized touchscreen experience.",
         "images": ["https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Ftata-elxsi%2Finfotainment%2Fasset1.png&w=1920&q=75"]
       },
       {
         "title": "Instrument Cluster",
         "slug": "instrument-cluster",
-        "description": "Created a digital cockpit instrument cluster design — presenting critical driving information through clear visual hierarchy, real-time data visualization, and adaptive display modes.",
+        "description": "Created a digital cockpit instrument cluster design, presenting critical driving information through clear visual hierarchy, real-time data visualization, and adaptive display modes.",
         "images": ["https://sahil-portfolio-fawn.vercel.app/_next/image?url=%2Fimg%2Ftata-elxsi%2Finstrument-cluster%2Fasset1.png&w=1920&q=75"]
       }
     ],

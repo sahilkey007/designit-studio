@@ -6,7 +6,7 @@
   "schemaType": "Article",
   "client": "R-Centric",
   "clientUrl": "/projects/rcentric/",
-  "metaTitle": "OPUS — R-Centric (Omniyat) — Designit",
+  "metaTitle": "OPUS: R-Centric (Omniyat) | Designit",
   "metaDescription": "Case study: website for OPUS, the Zaha Hadid-designed Dubai building of residences, offices and a hotel, serving homebuyers, tenants and hotel guests.",
   "author": "Designit",
   "topicCluster": "Work",
@@ -25,7 +25,7 @@
   ],
   "kicker": "R-Centric (Omniyat) · Real estate",
   "h1": "OPUS",
-  "summary": "Landmark Zaha Hadid building — digital presence for luxury residences, offices, hotel.",
+  "summary": "Landmark Zaha Hadid building: digital presence for luxury residences, offices, hotel.",
   "tags": [
     "Web Design",
     "Mixed-use UX",
@@ -36,7 +36,7 @@
     "label": "Overview",
     "heading": "A Zaha Hadid Masterpiece, Online",
     "paras": [
-      "OPUS is arguably the most iconic building in Omniyat's portfolio — designed by the late Zaha Hadid, it houses luxury residences, premium office spaces, and the ME Dubai hotel. The digital experience needed to be as bold and unconventional as the architecture itself, while serving three distinct audiences. We created a fluid, sculptural web experience that channels Hadid's parametric design philosophy into every interaction, from navigation patterns to loading animations."
+      "OPUS is arguably the most iconic building in Omniyat's portfolio: designed by the late Zaha Hadid, it houses luxury residences, premium office spaces, and the ME Dubai hotel. The digital experience needed to be as bold and unconventional as the architecture itself, while serving three distinct audiences. We created a fluid, sculptural web experience that channels Hadid's parametric design philosophy into every interaction, from navigation patterns to loading animations."
     ]
   },
   "metaCards": [
@@ -61,7 +61,7 @@
     "label": "Problem Statement",
     "heading": "The Challenge",
     "paras": [
-      "Zaha Hadid's architecture defies convention — the website needed to be equally innovative while remaining usable. The mixed-use nature (residential + commercial + hotel) complicated the information architecture significantly. Three distinct buyer personas — luxury homebuyers, corporate tenants, and hotel guests — each had different needs, browsing patterns, and conversion goals. Unifying them under one brand experience without creating confusion was the core challenge."
+      "Zaha Hadid's architecture defies convention, the website needed to be equally innovative while remaining usable. The mixed-use nature (residential + commercial + hotel) complicated the information architecture significantly. Three distinct buyer personas (luxury homebuyers, corporate tenants, and hotel guests) each had different needs, browsing patterns, and conversion goals. Unifying them under one brand experience without creating confusion was the core challenge."
     ]
   },
   "approach": {
@@ -72,7 +72,7 @@
       {
         "k": "Phase 01",
         "title": "Architectural Immersion",
-        "body": "We studied Zaha Hadid's design language exhaustively — from her parametric curves to her approach to space and light. We analyzed how other iconic buildings (Bilbao Guggenheim, Sydney Opera House) present themselves digitally, identifying what works and what falls flat. This research gave us the vocabulary to translate physical architectural drama into digital interaction patterns."
+        "body": "We studied Zaha Hadid's design language exhaustively, from her parametric curves to her approach to space and light. We analyzed how other iconic buildings (Bilbao Guggenheim, Sydney Opera House) present themselves digitally, identifying what works and what falls flat. This research gave us the vocabulary to translate physical architectural drama into digital interaction patterns."
       },
       {
         "k": "Phase 02",
@@ -142,15 +142,15 @@
   "faqExisting": [
     {
       "q": "What is OPUS?",
-      "a": "OPUS is arguably the most iconic building in Omniyat's portfolio — designed by the late Zaha Hadid, it houses luxury residences, premium office spaces, and the ME Dubai hotel. The digital experience needed to be as bold and unconventional as the architecture itself, while serving three distinct audiences. We created a fluid, sculptural web experience that channels Hadid's parametric design philosophy into every interaction, from navigation patterns to loading animations."
+      "a": "OPUS is arguably the most iconic building in Omniyat's portfolio: designed by the late Zaha Hadid, it houses luxury residences, premium office spaces, and the ME Dubai hotel. The digital experience needed to be as bold and unconventional as the architecture itself, while serving three distinct audiences. We created a fluid, sculptural web experience that channels Hadid's parametric design philosophy into every interaction, from navigation patterns to loading animations."
     },
     {
       "q": "What problem did OPUS solve?",
-      "a": "Zaha Hadid's architecture defies convention — the website needed to be equally innovative while remaining usable. The mixed-use nature (residential + commercial + hotel) complicated the information architecture significantly. Three distinct buyer personas — luxury homebuyers, corporate tenants, and hotel guests — each had different needs, browsing patterns, and conversion goals. Unifying them under one brand experience without creating confusion was the core challenge."
+      "a": "Zaha Hadid's architecture defies convention, the website needed to be equally innovative while remaining usable. The mixed-use nature (residential + commercial + hotel) complicated the information architecture significantly. Three distinct buyer personas (luxury homebuyers, corporate tenants, and hotel guests) each had different needs, browsing patterns, and conversion goals. Unifying them under one brand experience without creating confusion was the core challenge."
     },
     {
       "q": "How did Designit approach OPUS?",
-      "a": "We studied Zaha Hadid's design language exhaustively — from her parametric curves to her approach to space and light. We analyzed how other iconic buildings (Bilbao Guggenheim, Sydney Opera House) present themselves digitally, identifying what works and what falls flat. This research gave us the vocabulary to translate physical architectural drama into digital interaction patterns."
+      "a": "We studied Zaha Hadid's design language exhaustively, from her parametric curves to her approach to space and light. We analyzed how other iconic buildings (Bilbao Guggenheim, Sydney Opera House) present themselves digitally, identifying what works and what falls flat. This research gave us the vocabulary to translate physical architectural drama into digital interaction patterns."
     },
     {
       "q": "How long does a Designit engagement take?",
@@ -224,15 +224,15 @@
   "faq": [
     {
       "q": "What is OPUS?",
-      "a": "Landmark Zaha Hadid building — digital presence for luxury residences, offices, hotel."
+      "a": "Landmark Zaha Hadid building: digital presence for luxury residences, offices, hotel."
     },
     {
       "q": "What problem did OPUS solve?",
-      "a": "Zaha Hadid's architecture defies convention — the website needed to be equally innovative while remaining usable. The mixed-use nature (residential + commercial + hotel) complicated the information architecture significantly. Three distinct buyer personas — luxury homebuyers, corporate tenants, and hotel guests — each had different needs, browsing patterns, and conversion goals. Unifying them under one brand experience without creating confusion was the core challenge. The question we set out to answer: How might we give one iconic building a website as bold as its architecture, while three very different audiences, homebuyers, office tenants and hotel guests, each find their way?"
+      "a": "Zaha Hadid's architecture defies convention, the website needed to be equally innovative while remaining usable. The mixed-use nature (residential + commercial + hotel) complicated the information architecture significantly. Three distinct buyer personas (luxury homebuyers, corporate tenants, and hotel guests) each had different needs, browsing patterns, and conversion goals. Unifying them under one brand experience without creating confusion was the core challenge. The question we set out to answer: How might we give one iconic building a website as bold as its architecture, while three very different audiences, homebuyers, office tenants and hotel guests, each find their way?"
     },
     {
       "q": "How did Designit approach OPUS?",
-      "a": "We worked in 4 phases: Architectural Immersion; multi-audience ia; organic animation design; mobile architecture. We studied Zaha Hadid's design language exhaustively — from her parametric curves to her approach to space and light."
+      "a": "We worked in 4 phases: Architectural Immersion; multi-audience ia; organic animation design; mobile architecture. We studied Zaha Hadid's design language exhaustively, from her parametric curves to her approach to space and light."
     },
     {
       "q": "What features should a luxury real estate website in Dubai have?",

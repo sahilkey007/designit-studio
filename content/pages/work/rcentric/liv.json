@@ -6,7 +6,7 @@
   "schemaType": "Article",
   "client": "R-Centric",
   "clientUrl": "/projects/rcentric/",
-  "metaTitle": "LIV — R-Centric (Omniyat) — Designit",
+  "metaTitle": "LIV: R-Centric (Omniyat) | Designit",
   "metaDescription": "Case study: a premium platform for LIV, Omniyat's exclusive real estate partner, replacing a generic site with a boutique, personalized property experience.",
   "author": "Designit",
   "topicCluster": "Work",
@@ -37,7 +37,7 @@
     "label": "Overview",
     "heading": "Exclusive Luxury, Digitally Crafted",
     "paras": [
-      "LIV is Omniyat's exclusive real estate partner, representing some of Dubai's most coveted luxury properties. The digital platform needed to match the caliber of these properties — conveying exclusivity, sophistication, and personalized service at every touchpoint. We designed a premium web experience that positions LIV as the definitive destination for ultra-luxury property seekers, with deep user research driving every design decision from typography to interaction patterns."
+      "LIV is Omniyat's exclusive real estate partner, representing some of Dubai's most coveted luxury properties. The digital platform needed to match the caliber of these properties, conveying exclusivity, sophistication, and personalized service at every touchpoint. We designed a premium web experience that positions LIV as the definitive destination for ultra-luxury property seekers, with deep user research driving every design decision from typography to interaction patterns."
     ]
   },
   "metaCards": [
@@ -62,7 +62,7 @@
     "label": "Problem Statement",
     "heading": "The Challenge",
     "paras": [
-      "Luxury buyers expected a boutique, personalized digital experience. The existing site felt generic and didn't convey exclusivity. Property details were hard to find and compare, leading to high bounce rates among high-net-worth individuals. The platform needed to feel like walking into a private showroom — curated, intimate, and effortlessly elegant — rather than browsing a typical real estate listing site."
+      "Luxury buyers expected a boutique, personalized digital experience. The existing site felt generic and didn't convey exclusivity. Property details were hard to find and compare, leading to high bounce rates among high-net-worth individuals. The platform needed to feel like walking into a private showroom (curated, intimate, and effortlessly elegant) rather than browsing a typical real estate listing site."
     ]
   },
   "approach": {
@@ -78,17 +78,17 @@
       {
         "k": "Phase 02",
         "title": "Information Architecture",
-        "body": "We designed a property showcase with full-screen imagery, virtual tours, and curated collections that grouped properties by lifestyle rather than just location. The navigation was restructured to prioritize browsing by experience — waterfront living, penthouse views, architectural landmarks — making the discovery process feel aspirational rather than transactional."
+        "body": "We designed a property showcase with full-screen imagery, virtual tours, and curated collections that grouped properties by lifestyle rather than just location. The navigation was restructured to prioritize browsing by experience (waterfront living, penthouse views, architectural landmarks) making the discovery process feel aspirational rather than transactional."
       },
       {
         "k": "Phase 03",
         "title": "Prototyping &amp; Testing",
-        "body": "We built interactive prototypes with smooth animations and transitions that convey luxury — from parallax scrolling on property pages to subtle hover states that reveal additional details. Each interaction was tested with target users to ensure the experience felt premium without being slow or over-designed. Load times were optimized to maintain the seamless feel."
+        "body": "We built interactive prototypes with smooth animations and transitions that convey luxury, from parallax scrolling on property pages to subtle hover states that reveal additional details. Each interaction was tested with target users to ensure the experience felt premium without being slow or over-designed. Load times were optimized to maintain the seamless feel."
       },
       {
         "k": "Phase 04",
         "title": "Visual Design &amp; Brand Language",
-        "body": "We created a bespoke design language with custom typography, photography direction, and a refined color palette that evokes understated luxury. Every visual element — from the weight of borders to the spacing between elements — was calibrated to feel premium. The photography guidelines ensured consistency across all property listings, with art direction that emphasizes natural light and architectural detail."
+        "body": "We created a bespoke design language with custom typography, photography direction, and a refined color palette that evokes understated luxury. Every visual element (from the weight of borders to the spacing between elements) was calibrated to feel premium. The photography guidelines ensured consistency across all property listings, with art direction that emphasizes natural light and architectural detail."
       }
     ]
   },
@@ -114,7 +114,7 @@
       },
       {
         "title": "Curated Collections",
-        "body": "Properties grouped by lifestyle themes — waterfront, penthouse, architectural — for aspirational discovery."
+        "body": "Properties grouped by lifestyle themes (waterfront, penthouse, architectural) for aspirational discovery."
       },
       {
         "title": "Personalized Recommendations",
@@ -143,11 +143,11 @@
   "faqExisting": [
     {
       "q": "What is LIV?",
-      "a": "LIV is Omniyat's exclusive real estate partner, representing some of Dubai's most coveted luxury properties. The digital platform needed to match the caliber of these properties — conveying exclusivity, sophistication, and personalized service at every touchpoint. We designed a premium web experience that positions LIV as the definitive destination for ultra-luxury property seekers, with deep user research driving every design decision from typography to interaction patterns."
+      "a": "LIV is Omniyat's exclusive real estate partner, representing some of Dubai's most coveted luxury properties. The digital platform needed to match the caliber of these properties, conveying exclusivity, sophistication, and personalized service at every touchpoint. We designed a premium web experience that positions LIV as the definitive destination for ultra-luxury property seekers, with deep user research driving every design decision from typography to interaction patterns."
     },
     {
       "q": "What problem did LIV solve?",
-      "a": "Luxury buyers expected a boutique, personalized digital experience. The existing site felt generic and didn't convey exclusivity. Property details were hard to find and compare, leading to high bounce rates among high-net-worth individuals. The platform needed to feel like walking into a private showroom — curated, intimate, and effortlessly elegant — rather than browsing a typical real estate listing site."
+      "a": "Luxury buyers expected a boutique, personalized digital experience. The existing site felt generic and didn't convey exclusivity. Property details were hard to find and compare, leading to high bounce rates among high-net-worth individuals. The platform needed to feel like walking into a private showroom (curated, intimate, and effortlessly elegant) rather than browsing a typical real estate listing site."
     },
     {
       "q": "How did Designit approach LIV?",
@@ -229,7 +229,7 @@
     },
     {
       "q": "What problem did LIV solve?",
-      "a": "Luxury buyers expected a boutique, personalized digital experience. The existing site felt generic and didn't convey exclusivity. Property details were hard to find and compare, leading to high bounce rates among high-net-worth individuals. The platform needed to feel like walking into a private showroom — curated, intimate, and effortlessly elegant — rather than browsing a typical real estate listing site. The question we set out to answer: How might we make browsing LIV's properties online feel like walking into a private showroom: curated, intimate and effortless for high-net-worth buyers?"
+      "a": "Luxury buyers expected a boutique, personalized digital experience. The existing site felt generic and didn't convey exclusivity. Property details were hard to find and compare, leading to high bounce rates among high-net-worth individuals. The platform needed to feel like walking into a private showroom (curated, intimate, and effortlessly elegant) rather than browsing a typical real estate listing site. The question we set out to answer: How might we make browsing LIV's properties online feel like walking into a private showroom: curated, intimate and effortless for high-net-worth buyers?"
     },
     {
       "q": "How did Designit approach LIV?",

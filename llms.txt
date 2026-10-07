@@ -14,22 +14,22 @@ Designit is a senior-led, research-led product design studio in Noida, India. It
 
 ## Why teams choose Designit
 
-- **Senior people only** — No account managers and no junior hand-off after the pitch. You work with the people doing the design.
-- **Research-led** — Every engagement starts with evidence: research, analytics or an audit, before design decisions.
-- **Founder-led** — Founded by Sahil Sharma, a product designer with more than ten years of experience.
-- **Named, published work** — 18 case studies across Adda247, Kelp Global, Betacrew, the Omniyat portfolio and Tata Elxsi.
-- **India-based, working globally** — Clients in India and the UAE, and projects for teams in the US and the UK.
+- **Senior people only**: No account managers and no junior hand-off after the pitch. You work with the people doing the design.
+- **Research-led**: Every engagement starts with evidence: research, analytics or an audit, before design decisions.
+- **Founder-led**: Founded by Sahil Sharma, a product designer with more than ten years of experience.
+- **Named, published work**: 18 case studies across Adda247, Kelp Global, Betacrew, the Omniyat portfolio and Tata Elxsi.
+- **India-based, working globally**: Clients in India and the UAE, and projects for teams in the US and the UK.
 
 ## How we work
 
 One method across every engagement, run by senior designers from kickoff to handover.
 
-1. **Research: Find out what is actually happening** — Interviews, usability testing and your analytics, before anyone argues about solutions.
-2. **Strategy: Agree the problem in writing** — A signed-off definition of what we are solving and how success is measured.
-3. **Experience design: Structure first, then interface** — Information architecture and flows, then UI designed against real data and constraints.
-4. **Validation: Test while changes are cheap** — Prototypes tested with people who match your users.
-5. **Systems: Make it consistent and buildable** — Design systems and developer-ready handoff, with design QA against what ships.
-6. **Evolution: Keep improving after launch** — Measurement against the agreed metric, and ongoing design capacity if you need it.
+1. **Research: Find out what is actually happening**: Interviews, usability testing and your analytics, before anyone argues about solutions.
+2. **Strategy: Agree the problem in writing**: A signed-off definition of what we are solving and how success is measured.
+3. **Experience design: Structure first, then interface**: Information architecture and flows, then UI designed against real data and constraints.
+4. **Validation: Test while changes are cheap**: Prototypes tested with people who match your users.
+5. **Systems: Make it consistent and buildable**: Design systems and developer-ready handoff, with design QA against what ships.
+6. **Evolution: Keep improving after launch**: Measurement against the agreed metric, and ongoing design capacity if you need it.
 
 Designit designs, specifies and supports build through design QA and launch support. Development itself is done by the client's team or development partner.
 
@@ -303,15 +303,15 @@ Why automotive HMI breaks normal design rules: Attention is borrowed, not given;
 
 Clients in India and the UAE; projects for teams in the United States and the United Kingdom. Hub: [https://designit.co.in/locations/](https://designit.co.in/locations/)
 
-- [A senior design team for US software companies](https://designit.co.in/ui-ux-design-agency-usa/) — A senior UI/UX and product design team for US SaaS and enterprise companies: EST/PST overlap, ADA and WCAG 2.1 AA as standard, USD contracts and IP assignment.
-- [A senior design partner for UK software teams, in your working day](https://designit.co.in/ui-ux-design-agency-uk/) — Senior UI/UX and product design for UK software teams: a shared working day, WCAG 2.2 AA and GDPR-aware flows, GBP invoicing and full IP assignment.
-- [A UX design partner for the UAE, with the work to prove it](https://designit.co.in/ux-design-agency-dubai/) — UX and product design for Dubai and UAE companies: Arabic RTL done properly, luxury property experiences, regulated fintech flows and a shared working day.
+- [A senior design team for US software companies](https://designit.co.in/ui-ux-design-agency-usa/): A senior UI/UX and product design team for US SaaS and enterprise companies: EST/PST overlap, ADA and WCAG 2.1 AA as standard, USD contracts and IP assignment.
+- [A senior design partner for UK software teams, in your working day](https://designit.co.in/ui-ux-design-agency-uk/): Senior UI/UX and product design for UK software teams: a shared working day, WCAG 2.2 AA and GDPR-aware flows, GBP invoicing and full IP assignment.
+- [A UX design partner for the UAE, with the work to prove it](https://designit.co.in/ux-design-agency-dubai/): UX and product design for Dubai and UAE companies: Arabic RTL done properly, luxury property experiences, regulated fintech flows and a shared working day.
 
 ## Clients and case studies
 
 Published case studies: [https://designit.co.in/projects/](https://designit.co.in/projects/). Outcomes are described qualitatively; the site does not publish client metrics it cannot verify.
 
-### Adda247 — EdTech
+### Adda247: EdTech
 
 Case study: [Adda247](https://designit.co.in/projects/adda247/)
 
@@ -320,7 +320,7 @@ Case study: [Adda247](https://designit.co.in/projects/adda247/)
 - Problem: A platform that grew module by module needed one coherent learning experience across tests, live classes, dashboards and community.
 - What was delivered: Redesigned modules including the test-series engine, live classes, performance dashboards, community and native iOS/iPad apps.
 
-### Kelp Global — Fintech
+### Kelp Global: Fintech
 
 Case study: [Kelp Global](https://designit.co.in/projects/kelp-global/)
 
@@ -329,7 +329,7 @@ Case study: [Kelp Global](https://designit.co.in/projects/kelp-global/)
 - Problem: Deal teams kept company summaries, notes and documents in decks and inboxes, and investors had no single place for fund documents.
 - What was delivered: Three connected products designed on one shared design system.
 
-### Betacrew — Developer tools
+### Betacrew: Developer tools
 
 Case study: [Betacrew](https://designit.co.in/projects/betacrew/)
 
@@ -338,7 +338,7 @@ Case study: [Betacrew](https://designit.co.in/projects/betacrew/)
 - Problem: Developers managed APIs across three disconnected tools for design, testing and documentation, so documentation drifted out of date.
 - What was delivered: One platform replacing three tools, with a white-label theming system for enterprise deployments.
 
-### R-Centric (Omniyat portfolio) — PropTech and real estate
+### R-Centric (Omniyat portfolio): PropTech and real estate
 
 Case study: [R-Centric (Omniyat portfolio)](https://designit.co.in/projects/rcentric/)
 
@@ -347,7 +347,7 @@ Case study: [R-Centric (Omniyat portfolio)](https://designit.co.in/projects/rcen
 - Problem: Each property launch needed a premium digital experience without starting from scratch every time.
 - What was delivered: Seven property experiences delivered on a shared system that kept each launch distinct.
 
-### Tata Elxsi — Automotive HMI
+### Tata Elxsi: Automotive HMI
 
 Case study: [Tata Elxsi](https://designit.co.in/projects/tata-elxsi/)
 
@@ -412,40 +412,40 @@ Project-based fixed pricing for defined scopes, monthly retainers for ongoing pa
 
 Practical writing for founders, product leaders and CTOs. Full index: [https://designit.co.in/blog/](https://designit.co.in/blog/)
 
-- [AI-Driven Website Design Services in India](https://designit.co.in/blog/ai-driven-website-design-services-india/) — Discover how AI-driven website design services are changing the landscape for Indian businesses. Learn how AI can optimize conversions and personalize…
-- [Arabic RTL UX Design for PropTech Apps: UAE Guide (2026)](https://designit.co.in/blog/arabic-rtl-ux-design-proptech-uae/) — Design bilingual Arabic-English PropTech apps for UAE the right way: RTL layout principles, design system checklist, AED pricing and a buyer-portal example.
-- [B2B SaaS UI/UX Design Services in India: 2026 Guide](https://designit.co.in/blog/b2b-saas-ui-ux-design-services-india/) — Learn why specialized B2B SaaS UI/UX design services in India are critical for reducing churn, improving onboarding, and scaling your enterprise software.
-- [B2B Website Redesign for Startups in India](https://designit.co.in/blog/b2b-website-redesign-services-india/) — Is your B2B website holding back your enterprise sales? Discover the critical signs that indicate your Indian startup desperately needs a B2B website…
-- [Best AI Tools for UI/UX Designers (2026)](https://designit.co.in/blog/best-ai-tools-ui-ux-designers-2026/) — Discover the best AI tools for UI/UX designers in 2026. From generative wireframing to AI user research, see the tools transforming the design industry.
-- [Best Branding Agency for Tech Startups India](https://designit.co.in/blog/best-branding-agency-tech-startups-india/) — Looking to hire a branding agency in India? Learn the key criteria to evaluate portfolios, strategies, and costs to find the best branding agency for your…
-- [Branding Services for Startups in India: Cost & ROI](https://designit.co.in/blog/branding-services-for-startups-india-cost/) — What do branding services for startups actually include? Get a transparent breakdown of startup branding packages, deliverables, and costs in India.
-- [Mobile App UI/UX Design Cost in India (2026)](https://designit.co.in/blog/cost-ui-ux-design-mobile-app-india/) — Planning to build an app? Get a realistic breakdown of the cost of UI/UX design for a mobile app in India, including freelancer vs. agency pricing.
-- [CRO Strategies for B2B SaaS Companies in India](https://designit.co.in/blog/cro-strategies-for-b2b-saas-india/) — Discover the most effective Conversion Rate Optimization (CRO) strategies tailored for B2B SaaS companies in India to increase demos and free trial signups.
-- [Custom Website vs Template: ROI in India](https://designit.co.in/blog/custom-website-vs-template-roi-india/) — Should your Indian small business buy a $50 template or invest in a custom website design? Compare the ROI, SEO benefits, and conversion advantages.
-- [Design System Cost in India (2026 Guide)](https://designit.co.in/blog/design-system-cost-india-2026/) — Wondering about design system cost in India? This 2026 guide breaks down real pricing, what's included, and when it pays off for SaaS founders.
-- [EdTech Onboarding UX India: Fix the Day-7 Drop-Off](https://designit.co.in/blog/edtech-onboarding-ux-india/) — EdTech onboarding UX India guide: fix the Day-7 retention cliff with a first-win flow and vernacular UX. ₹ sprint pricing inside. Book a free call.
-- [Choosing an EdTech UX Design Agency in India](https://designit.co.in/blog/edtech-ux-design-agency-india/) — What to look for when hiring an EdTech design partner in India: the questions to ask, the proof that matters, and typical costs and timelines.
-- [EdTech UX Design: What Drives Retention (2026)](https://designit.co.in/blog/edtech-ux-design-india/) — The founder's guide to EdTech UX design in India. 5 patterns that drive course completion, cut drop-offs and turn free users paid — with real outcomes.
-- [Fintech KYC Onboarding UX India: Fix Drop-Off](https://designit.co.in/blog/fintech-onboarding-kyc-ux-india/) — Indian fintech users abandon KYC onboarding at avoidable steps. Here's a UX framework to fix drop-off, satisfy RBI compliance, and improve completion.
-- [Fintech UX Design Agency India (2026 Guide)](https://designit.co.in/blog/fintech-ux-design-agency-india/) — How Indian fintech startups win with trust-first UX: KYC onboarding flows, compliance-friendly design and senior-led 5-day sprints. A 2026 playbook.
-- [Freelancer vs Design Agency for Startups](https://designit.co.in/blog/freelancer-vs-design-agency-startups/) — Freelancer vs design agency vs sprint studio — an honest 2026 comparison for India & UAE founders covering cost, speed, quality and a decision table.
-- [Generative AI for Website Personalization & CRO](https://designit.co.in/blog/generative-ai-website-personalization/) — Learn how to use Generative AI to improve website personalization and conversion rates. Drive massive ROI for your Indian startup with dynamic UX.
-- [Hire UI/UX Designer vs Agency in India](https://designit.co.in/blog/hire-ui-ux-designer-vs-agency-india/) — Should your startup hire a freelance UI/UX designer or an agency in India? Compare costs, scalability, and quality to make the best decision for your…
-- [How AI is Changing UX Design in India (2026)](https://designit.co.in/blog/how-ai-is-changing-ux-design-india/) — Artificial Intelligence is completely transforming user experience. Learn how AI is changing UX design for Indian startups and why you must adapt to survive.
-- [How to Choose a Product Design Agency (2026)](https://designit.co.in/blog/how-to-choose-a-product-design-agency/) — A practical framework for evaluating product design agencies: the questions that predict outcomes, the proof to demand, and what engagements really cost.
-- [How to Improve Website Conversion Rate in India](https://designit.co.in/blog/how-to-improve-website-conversion-rate-india/) — Learn actionable CRO strategies and step-by-step methods on how to improve your website conversion rate in India. Turn your traffic into high-quality leads.
-- [Landing Page Conversion Audit Services in India](https://designit.co.in/blog/landing-page-conversion-audit-services-india/) — Discover what landing page conversion audit services include, how they identify friction points, and why Indian startups need them to scale ad ROI.
-- [Landing Page Design for Lead Generation India](https://designit.co.in/blog/landing-page-design-lead-generation-india/) — Learn the core UI/UX secrets behind high-converting landing pages for lead generation in the Indian market. Maximize your ad ROI with these proven design…
-- [SaaS Dashboard Design Best Practices to Cut Churn](https://designit.co.in/blog/saas-dashboard-design-best-practices/) — Poor dashboard UX kills retention. These 7 SaaS dashboard design best practices show founders exactly what to fix to reduce churn and increase daily usage.
-- [SaaS Onboarding UX Best Practices](https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/) — Struggling with trial drop-off? These SaaS onboarding UX best practices for India 2026 show you how to improve activation without rebuilding your product.
-- [Signs Your Tech Startup Needs a Rebrand in India](https://designit.co.in/blog/signs-your-company-needs-a-rebrand-india/) — Is your brand holding you back? Learn the top signs that your Indian tech startup needs a rebranding strategy to scale and attract enterprise clients.
-- [What a UI/UX Website Audit Covers (India, 2026)](https://designit.co.in/blog/ui-ux-audit-for-website-india/) — Discover how a comprehensive UI/UX audit for your website in India can identify conversion blockers, fix usability issues, and drive massive ROI.
-- [UX for Dubai PropTech: 2026 Playbook](https://designit.co.in/blog/ui-ux-design-agency-dubai-proptech/) — How UAE PropTech platforms win on experience: trust-first UX, faster off-plan flows and investor-grade design. A 2026 playbook from a Dubai studio.
-- [UI/UX Design Cost in India 2026: Pricing Guide](https://designit.co.in/blog/ui-ux-design-pricing-india-2026/) — Real INR pricing for UI/UX design in India. Landing pages, product design, design systems, retainers — transparent numbers, no fluff.
-- [UX Audit Checklist for SaaS Products and Websites](https://designit.co.in/blog/ux-audit-checklist/) — A practical UX audit checklist for SaaS products and websites: 48 checks, the evidence to gather, and how to rank findings by impact and effort.
-- [Visual Identity vs Branding for Startups](https://designit.co.in/blog/visual-identity-vs-branding-startups/) — Understand the critical difference between visual identity vs. branding. Learn why Indian startups need both to build trust and scale their business in 2026.
-- [Why is My Ecommerce Bounce Rate So High in India?](https://designit.co.in/blog/why-ecommerce-bounce-rate-so-high-india/) — Struggling with high bounce rates on your ecommerce store? Discover the top UX issues driving Indian shoppers away and learn how to fix them.
-- [Why Your Website Isn't Converting Visitors (India)](https://designit.co.in/blog/why-website-not-converting-visitors-india/) — Struggling with low conversion rates? Discover the top reasons why your website is not converting visitors in India and learn actionable steps to fix them…
+- [AI-Driven Website Design Services in India](https://designit.co.in/blog/ai-driven-website-design-services-india/): Discover how AI-driven website design services are changing the landscape for Indian businesses. Learn how AI can optimize conversions and personalize…
+- [Arabic RTL UX Design for PropTech Apps: UAE Guide (2026)](https://designit.co.in/blog/arabic-rtl-ux-design-proptech-uae/): Design bilingual Arabic-English PropTech apps for UAE the right way: RTL layout principles, design system checklist, AED pricing and a buyer-portal example.
+- [B2B SaaS UI/UX Design Services in India: 2026 Guide](https://designit.co.in/blog/b2b-saas-ui-ux-design-services-india/): Learn why specialized B2B SaaS UI/UX design services in India are critical for reducing churn, improving onboarding, and scaling your enterprise software.
+- [B2B Website Redesign for Startups in India](https://designit.co.in/blog/b2b-website-redesign-services-india/): Is your B2B website holding back your enterprise sales? Discover the critical signs that indicate your Indian startup desperately needs a B2B website…
+- [Best AI Tools for UI/UX Designers (2026)](https://designit.co.in/blog/best-ai-tools-ui-ux-designers-2026/): Discover the best AI tools for UI/UX designers in 2026. From generative wireframing to AI user research, see the tools transforming the design industry.
+- [Best Branding Agency for Tech Startups India](https://designit.co.in/blog/best-branding-agency-tech-startups-india/): Looking to hire a branding agency in India? Learn the key criteria to evaluate portfolios, strategies, and costs to find the best branding agency for your…
+- [Branding Services for Startups in India: Cost & ROI](https://designit.co.in/blog/branding-services-for-startups-india-cost/): What do branding services for startups actually include? Get a transparent breakdown of startup branding packages, deliverables, and costs in India.
+- [Mobile App UI/UX Design Cost in India (2026)](https://designit.co.in/blog/cost-ui-ux-design-mobile-app-india/): Planning to build an app? Get a realistic breakdown of the cost of UI/UX design for a mobile app in India, including freelancer vs. agency pricing.
+- [CRO Strategies for B2B SaaS Companies in India](https://designit.co.in/blog/cro-strategies-for-b2b-saas-india/): Discover the most effective Conversion Rate Optimization (CRO) strategies tailored for B2B SaaS companies in India to increase demos and free trial signups.
+- [Custom Website vs Template: ROI in India](https://designit.co.in/blog/custom-website-vs-template-roi-india/): Should your Indian small business buy a $50 template or invest in a custom website design? Compare the ROI, SEO benefits, and conversion advantages.
+- [Design System Cost in India (2026 Guide)](https://designit.co.in/blog/design-system-cost-india-2026/): Wondering about design system cost in India? This 2026 guide breaks down real pricing, what's included, and when it pays off for SaaS founders.
+- [EdTech Onboarding UX India: Fix the Day-7 Drop-Off](https://designit.co.in/blog/edtech-onboarding-ux-india/): EdTech onboarding UX India guide: fix the Day-7 retention cliff with a first-win flow and vernacular UX. ₹ sprint pricing inside. Book a free call.
+- [Choosing an EdTech UX Design Agency in India](https://designit.co.in/blog/edtech-ux-design-agency-india/): What to look for when hiring an EdTech design partner in India: the questions to ask, the proof that matters, and typical costs and timelines.
+- [EdTech UX Design: What Drives Retention (2026)](https://designit.co.in/blog/edtech-ux-design-india/): The founder's guide to EdTech UX design in India. 5 patterns that drive course completion, cut drop-offs and turn free users paid, with real outcomes.
+- [Fintech KYC Onboarding UX India: Fix Drop-Off](https://designit.co.in/blog/fintech-onboarding-kyc-ux-india/): Indian fintech users abandon KYC onboarding at avoidable steps. Here's a UX framework to fix drop-off, satisfy RBI compliance, and improve completion.
+- [Fintech UX Design Agency India (2026 Guide)](https://designit.co.in/blog/fintech-ux-design-agency-india/): How Indian fintech startups win with trust-first UX: KYC onboarding flows, compliance-friendly design and senior-led 5-day sprints. A 2026 playbook.
+- [Freelancer vs Design Agency for Startups](https://designit.co.in/blog/freelancer-vs-design-agency-startups/): Freelancer vs design agency vs sprint studio, an honest 2026 comparison for India & UAE founders covering cost, speed, quality and a decision table.
+- [Generative AI for Website Personalization & CRO](https://designit.co.in/blog/generative-ai-website-personalization/): Learn how to use Generative AI to improve website personalization and conversion rates. Drive massive ROI for your Indian startup with dynamic UX.
+- [Hire UI/UX Designer vs Agency in India](https://designit.co.in/blog/hire-ui-ux-designer-vs-agency-india/): Should your startup hire a freelance UI/UX designer or an agency in India? Compare costs, scalability, and quality to make the best decision for your…
+- [How AI is Changing UX Design in India (2026)](https://designit.co.in/blog/how-ai-is-changing-ux-design-india/): Artificial Intelligence is completely transforming user experience. Learn how AI is changing UX design for Indian startups and why you must adapt to survive.
+- [How to Choose a Product Design Agency (2026)](https://designit.co.in/blog/how-to-choose-a-product-design-agency/): A practical framework for evaluating product design agencies: the questions that predict outcomes, the proof to demand, and what engagements really cost.
+- [How to Improve Website Conversion Rate in India](https://designit.co.in/blog/how-to-improve-website-conversion-rate-india/): Learn actionable CRO strategies and step-by-step methods on how to improve your website conversion rate in India. Turn your traffic into high-quality leads.
+- [Landing Page Conversion Audit Services in India](https://designit.co.in/blog/landing-page-conversion-audit-services-india/): Discover what landing page conversion audit services include, how they identify friction points, and why Indian startups need them to scale ad ROI.
+- [Landing Page Design for Lead Generation India](https://designit.co.in/blog/landing-page-design-lead-generation-india/): Learn the core UI/UX secrets behind high-converting landing pages for lead generation in the Indian market. Maximize your ad ROI with these proven design…
+- [SaaS Dashboard Design Best Practices to Cut Churn](https://designit.co.in/blog/saas-dashboard-design-best-practices/): Poor dashboard UX kills retention. These 7 SaaS dashboard design best practices show founders exactly what to fix to reduce churn and increase daily usage.
+- [SaaS Onboarding UX Best Practices](https://designit.co.in/blog/saas-onboarding-ux-best-practices-india/): Struggling with trial drop-off? These SaaS onboarding UX best practices for India 2026 show you how to improve activation without rebuilding your product.
+- [Signs Your Tech Startup Needs a Rebrand in India](https://designit.co.in/blog/signs-your-company-needs-a-rebrand-india/): Is your brand holding you back? Learn the top signs that your Indian tech startup needs a rebranding strategy to scale and attract enterprise clients.
+- [What a UI/UX Website Audit Covers (India, 2026)](https://designit.co.in/blog/ui-ux-audit-for-website-india/): Discover how a comprehensive UI/UX audit for your website in India can identify conversion blockers, fix usability issues, and drive massive ROI.
+- [UX for Dubai PropTech: 2026 Playbook](https://designit.co.in/blog/ui-ux-design-agency-dubai-proptech/): How UAE PropTech platforms win on experience: trust-first UX, faster off-plan flows and investor-grade design. A 2026 playbook from a Dubai studio.
+- [UI/UX Design Cost in India 2026: Pricing Guide](https://designit.co.in/blog/ui-ux-design-pricing-india-2026/): Real INR pricing for UI/UX design in India. Landing pages, product design, design systems, retainers: transparent numbers, no fluff.
+- [UX Audit Checklist for SaaS Products and Websites](https://designit.co.in/blog/ux-audit-checklist/): A practical UX audit checklist for SaaS products and websites: 48 checks, the evidence to gather, and how to rank findings by impact and effort.
+- [Visual Identity vs Branding for Startups](https://designit.co.in/blog/visual-identity-vs-branding-startups/): Understand the critical difference between visual identity vs. branding. Learn why Indian startups need both to build trust and scale their business in 2026.
+- [Why is My Ecommerce Bounce Rate So High in India?](https://designit.co.in/blog/why-ecommerce-bounce-rate-so-high-india/): Struggling with high bounce rates on your ecommerce store? Discover the top UX issues driving Indian shoppers away and learn how to fix them.
+- [Why Your Website Isn't Converting Visitors (India)](https://designit.co.in/blog/why-website-not-converting-visitors-india/): Struggling with low conversion rates? Discover the top reasons why your website is not converting visitors in India and learn actionable steps to fix them…
 
 ## Optional
 

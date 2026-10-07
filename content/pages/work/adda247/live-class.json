@@ -6,7 +6,7 @@
   "schemaType": "Article",
   "client": "Adda247",
   "clientUrl": "/projects/adda247/",
-  "metaTitle": "Live Class Module — Adda 247 | Designit Case Study",
+  "metaTitle": "Live Class Module: Adda 247 | Designit Case Study",
   "metaDescription": "In-house live streaming module replacing third-party services with real-time interaction, content sharing, and engagement tools for competitive exam…",
   "author": "Designit",
   "topicCluster": "Work",
@@ -25,7 +25,7 @@
   ],
   "kicker": "Adda247 · EdTech",
   "h1": "Live Class Module",
-  "summary": "In-house live streaming module replacing third-party services — built for real-time interaction, content sharing, and meaningful student-teacher engagement.",
+  "summary": "In-house live streaming module replacing third-party services: built for real-time interaction, content sharing, and meaningful student-teacher engagement.",
   "tags": [
     "Product Design",
     "Interaction Design",
@@ -40,7 +40,7 @@
     "label": "Overview",
     "heading": "The Challenge &amp; Opportunity",
     "paras": [
-      "Adda 247 relied on third-party streaming services for live classes, which created a fragmented learning experience. Students had to switch between apps, engagement was passive, and the platform had no control over the streaming quality or features. We designed a fully integrated in-house live class module that transforms passive video watching into active, interactive learning sessions — complete with real-time Q&amp;A, in-class polls, resource sharing, and attendance tracking."
+      "Adda 247 relied on third-party streaming services for live classes, which created a fragmented learning experience. Students had to switch between apps, engagement was passive, and the platform had no control over the streaming quality or features. We designed a fully integrated in-house live class module that transforms passive video watching into active, interactive learning sessions: complete with real-time Q&amp;A, in-class polls, resource sharing, and attendance tracking."
     ]
   },
   "metaCards": [
@@ -65,9 +65,9 @@
     "label": "The Problem",
     "heading": "What Needed to Change",
     "paras": [
-      "Third-party streaming was unreliable, expensive, and completely disconnected from the learning platform. Students would join a Zoom-like call, passively watch the teacher, and have no way to interact meaningfully with the content being taught. There was no mechanism for teachers to share PDFs, slides, or practice questions during the live session — they had to upload materials separately, creating a disjointed experience.",
-      "Engagement metrics were alarming: average session duration was only 12 minutes despite classes being 60-90 minutes long. Students would join, watch briefly, and leave — there was no reason to stay engaged. Teachers had no way to gauge comprehension in real-time, ask poll questions, or identify which students were struggling. The lack of integrated attendance tracking also meant there was no accountability or motivation for consistent participation.",
-      "From a business perspective, the third-party streaming costs were significant — eating into margins on a per-student basis. More critically, the poor live class experience was a major factor in low conversion from free to paid tiers, since live classes were a key premium differentiator that wasn't delivering on its promise."
+      "Third-party streaming was unreliable, expensive, and completely disconnected from the learning platform. Students would join a Zoom-like call, passively watch the teacher, and have no way to interact meaningfully with the content being taught. There was no mechanism for teachers to share PDFs, slides, or practice questions during the live session. They had to upload materials separately, creating a disjointed experience.",
+      "Engagement metrics were alarming: average session duration was only 12 minutes despite classes being 60-90 minutes long. Students would join, watch briefly, and leave. There was no reason to stay engaged. Teachers had no way to gauge comprehension in real-time, ask poll questions, or identify which students were struggling. The lack of integrated attendance tracking also meant there was no accountability or motivation for consistent participation.",
+      "From a business perspective, the third-party streaming costs were significant, eating into margins on a per-student basis. More critically, the poor live class experience was a major factor in low conversion from free to paid tiers, since live classes were a key premium differentiator that wasn't delivering on its promise."
     ],
     "titles": [
       "Disconnected, passive streaming",
@@ -83,22 +83,22 @@
       {
         "k": "Phase 01",
         "title": "Discovery &amp; Research",
-        "body": "We studied leading streaming platforms — Zoom, Google Meet, Twitch, and proprietary EdTech solutions like Unacademy and BYJU's — to understand the landscape of live learning interfaces. We conducted interviews with 30 teachers and 100 students to map their ideal live class experience. Key finding: teachers wanted tools to check comprehension mid-class, while students wanted the ability to ask doubts without interrupting the flow. We also analyzed bandwidth constraints across tier-2 and tier-3 cities where most users lived."
+        "body": "We studied leading streaming platforms (Zoom, Google Meet, Twitch, and proprietary EdTech solutions like Unacademy and BYJU's) to understand the landscape of live learning interfaces. We conducted interviews with 30 teachers and 100 students to map their ideal live class experience. Key finding: teachers wanted tools to check comprehension mid-class, while students wanted the ability to ask doubts without interrupting the flow. We also analyzed bandwidth constraints across tier-2 and tier-3 cities where most users lived."
       },
       {
         "k": "Phase 02",
         "title": "Information Architecture",
-        "body": "We designed an interaction model that supported five parallel activities: video streaming, live chat, Q&amp;A queue, resource sharing, and poll/quiz participation. The challenge was fitting all of this into a single screen without overwhelming the user. We created a priority-based layout system where the most relevant panel expands based on context — when the teacher launches a poll, the poll panel auto-expands; when a doubt is being answered, the Q&amp;A panel takes focus. Attendance tracking ran silently in the background."
+        "body": "We designed an interaction model that supported five parallel activities: video streaming, live chat, Q&amp;A queue, resource sharing, and poll/quiz participation. The challenge was fitting all of this into a single screen without overwhelming the user. We created a priority-based layout system where the most relevant panel expands based on context. When the teacher launches a poll, the poll panel auto-expands; when a doubt is being answered, the Q&amp;A panel takes focus. Attendance tracking ran silently in the background."
       },
       {
         "k": "Phase 03",
         "title": "Wireframing &amp; Prototyping",
-        "body": "We built interactive prototypes testing three different layouts for the video + content + chat trifecta. Layout A was a traditional sidebar chat; Layout B used a bottom drawer for interactions; Layout C employed a floating panel system. We tested each with 15 students in simulated live class conditions. Layout C won — students appreciated the ability to resize and reposition panels based on their preference. We also prototyped the teacher-side interface, ensuring they could manage polls, resources, and Q&amp;A without interrupting their teaching flow."
+        "body": "We built interactive prototypes testing three different layouts for the video + content + chat trifecta. Layout A was a traditional sidebar chat; Layout B used a bottom drawer for interactions; Layout C employed a floating panel system. We tested each with 15 students in simulated live class conditions. Layout C won: students appreciated the ability to resize and reposition panels based on their preference. We also prototyped the teacher-side interface, ensuring they could manage polls, resources, and Q&amp;A without interrupting their teaching flow."
       },
       {
         "k": "Phase 04",
         "title": "Visual Design &amp; Handoff",
-        "body": "We created adaptive layouts optimized for mobile-first experience, since 78% of students attended live classes from phones. The mobile design used a tabbed interface switching between video, chat, and resources — keeping each context clean and focused. Bandwidth optimization was a key design consideration: we designed graceful degradation states for low-bandwidth scenarios, including audio-only mode with slide sync. The handoff package included 45 screens, micro-interaction specifications, and edge-case documentation for network interruptions and reconnection flows."
+        "body": "We created adaptive layouts optimized for mobile-first experience, since 78% of students attended live classes from phones. The mobile design used a tabbed interface switching between video, chat, and resources, keeping each context clean and focused. Bandwidth optimization was a key design consideration: we designed graceful degradation states for low-bandwidth scenarios, including audio-only mode with slide sync. The handoff package included 45 screens, micro-interaction specifications, and edge-case documentation for network interruptions and reconnection flows."
       }
     ]
   },
@@ -106,8 +106,8 @@
     "label": "The Solution",
     "heading": "What We Built",
     "paras": [
-      "A fully integrated live class experience that transforms passive video watching into active, participatory learning. The interface adapts fluidly between teaching modes — lecture, Q&amp;A, quiz, and resource sharing — with each mode optimizing the screen layout for the current activity. Teachers have a dedicated control panel for managing class flow, launching polls, pinning important messages, and tracking student engagement in real-time.",
-      "The recording and playback system captures not just the video but the entire interactive experience — including chat timeline, poll results, and shared resources — so students who missed the live session get a near-identical experience during replay. Smart notifications remind students of upcoming classes, and a post-class summary automatically generates highlights and key takeaways."
+      "A fully integrated live class experience that transforms passive video watching into active, participatory learning. The interface adapts fluidly between teaching modes (lecture, Q&amp;A, quiz, and resource sharing) with each mode optimizing the screen layout for the current activity. Teachers have a dedicated control panel for managing class flow, launching polls, pinning important messages, and tracking student engagement in real-time.",
+      "The recording and playback system captures not just the video but the entire interactive experience (including chat timeline, poll results, and shared resources) so students who missed the live session get a near-identical experience during replay. Smart notifications remind students of upcoming classes, and a post-class summary automatically generates highlights and key takeaways."
     ]
   },
   "features": {
@@ -133,7 +133,7 @@
       },
       {
         "title": "Recording &amp; Playback",
-        "body": "Full-fidelity recording capturing video, chat, polls, and resources in a synchronized playback experience — with speed controls and chapter markers."
+        "body": "Full-fidelity recording capturing video, chat, polls, and resources in a synchronized playback experience, with speed controls and chapter markers."
       },
       {
         "title": "Multi-device Support",
@@ -177,15 +177,15 @@
   "faqExisting": [
     {
       "q": "What is Live Class Module?",
-      "a": "In-house live streaming module replacing third-party services — built for real-time interaction, content sharing, and meaningful student-teacher engagement."
+      "a": "In-house live streaming module replacing third-party services: built for real-time interaction, content sharing, and meaningful student-teacher engagement."
     },
     {
       "q": "What problem did Live Class Module solve?",
-      "a": "Adda 247 relied on third-party streaming services for live classes, which created a fragmented learning experience. Students had to switch between apps, engagement was passive, and the platform had no control over the streaming quality or features. We designed a fully integrated in-house live class module that transforms passive video watching into active, interactive learning sessions — complete with real-time Q&A, in-class polls, resource sharing, and attendance tracking."
+      "a": "Adda 247 relied on third-party streaming services for live classes, which created a fragmented learning experience. Students had to switch between apps, engagement was passive, and the platform had no control over the streaming quality or features. We designed a fully integrated in-house live class module that transforms passive video watching into active, interactive learning sessions: complete with real-time Q&A, in-class polls, resource sharing, and attendance tracking."
     },
     {
       "q": "How did Designit approach Live Class Module?",
-      "a": "Third-party streaming was unreliable, expensive, and completely disconnected from the learning platform. Students would join a Zoom-like call, passively watch the teacher, and have no way to interact meaningfully with the content being taught. There was no mechanism for teachers to share PDFs, slides, or practice questions during the live session — they had to upload materials separately, creating a disjointed experience."
+      "a": "Third-party streaming was unreliable, expensive, and completely disconnected from the learning platform. Students would join a Zoom-like call, passively watch the teacher, and have no way to interact meaningfully with the content being taught. There was no mechanism for teachers to share PDFs, slides, or practice questions during the live session. They had to upload materials separately, creating a disjointed experience."
     },
     {
       "q": "How long does a Designit engagement take?",
@@ -265,15 +265,15 @@
   "faq": [
     {
       "q": "What is Live Class Module?",
-      "a": "In-house live streaming module replacing third-party services — built for real-time interaction, content sharing, and meaningful student-teacher engagement."
+      "a": "In-house live streaming module replacing third-party services: built for real-time interaction, content sharing, and meaningful student-teacher engagement."
     },
     {
       "q": "What problem did Live Class Module solve?",
-      "a": "Third-party streaming was unreliable, expensive, and completely disconnected from the learning platform. Students would join a Zoom-like call, passively watch the teacher, and have no way to interact meaningfully with the content being taught. There was no mechanism for teachers to share PDFs, slides, or practice questions during the live session — they had to upload materials separately, creating a disjointed experience. The question we set out to answer: How might we turn a live class from something students passively watch into something they take part in, on a phone and a patchy connection, inside Adda247's own app?"
+      "a": "Third-party streaming was unreliable, expensive, and completely disconnected from the learning platform. Students would join a Zoom-like call, passively watch the teacher, and have no way to interact meaningfully with the content being taught. There was no mechanism for teachers to share PDFs, slides, or practice questions during the live session. They had to upload materials separately, creating a disjointed experience. The question we set out to answer: How might we turn a live class from something students passively watch into something they take part in, on a phone and a patchy connection, inside Adda247's own app?"
     },
     {
       "q": "How did Designit approach Live Class Module?",
-      "a": "We worked in 4 phases: Discovery & Research; information architecture; wireframing & prototyping; visual design & handoff. We studied leading streaming platforms — Zoom, Google Meet, Twitch, and proprietary EdTech solutions like Unacademy and BYJU's — to understand the landscape of live learning interfaces."
+      "a": "We worked in 4 phases: Discovery & Research; information architecture; wireframing & prototyping; visual design & handoff. We studied leading streaming platforms (Zoom, Google Meet, Twitch, and proprietary EdTech solutions like Unacademy and BYJU's) to understand the landscape of live learning interfaces."
     },
     {
       "q": "Should an EdTech platform build its own live class tool or use Zoom?",

@@ -1,11 +1,11 @@
-# ai.txt — AI crawler & usage permissions for designit.co.in
+# ai.txt: AI crawler & usage permissions for designit.co.in
 # Spec reference: https://site.spawning.ai/ai-txt
 
 Site: https://designit.co.in
 Contact: contact@designit.co.in
 Owner: Designit
 
-# Citation / answer-engine crawlers — explicitly welcome to read and cite this site
+# Citation / answer-engine crawlers: explicitly welcome to read and cite this site
 User-agent: OAI-SearchBot
 Allow: /
 

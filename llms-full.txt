@@ -1,4 +1,4 @@
-# Designit — full page index (llms-full.txt)
+# Designit: full page index (llms-full.txt)
 
 > Companion to [/llms.txt](https://designit.co.in/llms.txt). Every indexable page on designit.co.in, from the XML sitemaps, with its page title.
 
@@ -67,28 +67,28 @@ Designit Studio (designit.co.in) is independent and not affiliated with Designit
 
 - [Selected Product Design Work & Case Studies](https://designit.co.in/projects/)
 - [Adda247 Case Study: EdTech Platform Redesign](https://designit.co.in/projects/adda247/)
-- [Community Module — Adda 247 | Designit Case Study](https://designit.co.in/projects/adda247/community/)
-- [Homepage Revamp — Adda247 | Designit Case Study](https://designit.co.in/projects/adda247/homepage-revamp/)
-- [Live Class Module — Adda 247 | Designit Case Study](https://designit.co.in/projects/adda247/live-class/)
-- [My Content — Adda 247 | Designit Case Study](https://designit.co.in/projects/adda247/my-content/)
-- [Studio App for Smart Boards — Adda 247 | Designit Case Study](https://designit.co.in/projects/adda247/studio-app/)
-- [Test Series Enhancement — Adda 247 | Designit Case Study](https://designit.co.in/projects/adda247/test-series/)
+- [Community Module: Adda 247 | Designit Case Study](https://designit.co.in/projects/adda247/community/)
+- [Homepage Revamp: Adda247 | Designit Case Study](https://designit.co.in/projects/adda247/homepage-revamp/)
+- [Live Class Module: Adda 247 | Designit Case Study](https://designit.co.in/projects/adda247/live-class/)
+- [My Content: Adda 247 | Designit Case Study](https://designit.co.in/projects/adda247/my-content/)
+- [Studio App for Smart Boards: Adda 247 | Designit Case Study](https://designit.co.in/projects/adda247/studio-app/)
+- [Test Series Enhancement: Adda 247 | Designit Case Study](https://designit.co.in/projects/adda247/test-series/)
 - [Betacrew Portle Case Study: Developer Platform UX](https://designit.co.in/projects/betacrew/)
-- [Portle Case Study — Betacrew Fintech UX](https://designit.co.in/projects/betacrew/portle/)
+- [Portle Case Study: Betacrew Fintech UX](https://designit.co.in/projects/betacrew/portle/)
 - [Kelp Global Case Study: Private-Markets Products](https://designit.co.in/projects/kelp-global/)
-- [Deals Module Case Study — Kelp Global](https://designit.co.in/projects/kelp-global/deals-module/)
-- [Kelp Plugin Case Study — Kelp Global](https://designit.co.in/projects/kelp-global/kelp-plugin/)
+- [Deals Module Case Study: Kelp Global](https://designit.co.in/projects/kelp-global/deals-module/)
+- [Kelp Plugin Case Study: Kelp Global](https://designit.co.in/projects/kelp-global/kelp-plugin/)
 - [Truenorth Investor Portal Case Study](https://designit.co.in/projects/kelp-global/truenorth/)
 - [R-Centric Case Study: Luxury Dubai Property Sites](https://designit.co.in/projects/rcentric/)
-- [Anwa Aria — R-Centric (Omniyat) — Designit](https://designit.co.in/projects/rcentric/anwa-aria/)
-- [LIV Reside — R-Centric (Omniyat) — Designit](https://designit.co.in/projects/rcentric/liv-reside/)
-- [LIV — R-Centric (Omniyat) — Designit](https://designit.co.in/projects/rcentric/liv/)
-- [OPUS — R-Centric (Omniyat) — Designit](https://designit.co.in/projects/rcentric/opus/)
-- [Orla Infinity — R-Centric (Omniyat) — Designit](https://designit.co.in/projects/rcentric/orla-infinity/)
-- [Vela Viento — R-Centric (Omniyat) — Designit](https://designit.co.in/projects/rcentric/vela-viento/)
+- [Anwa Aria: R-Centric (Omniyat)](https://designit.co.in/projects/rcentric/anwa-aria/)
+- [LIV Reside: R-Centric (Omniyat)](https://designit.co.in/projects/rcentric/liv-reside/)
+- [LIV: R-Centric (Omniyat)](https://designit.co.in/projects/rcentric/liv/)
+- [OPUS: R-Centric (Omniyat)](https://designit.co.in/projects/rcentric/opus/)
+- [Orla Infinity: R-Centric (Omniyat)](https://designit.co.in/projects/rcentric/orla-infinity/)
+- [Vela Viento: R-Centric (Omniyat)](https://designit.co.in/projects/rcentric/vela-viento/)
 - [Tata Elxsi Case Study: Automotive HMI Design](https://designit.co.in/projects/tata-elxsi/)
-- [Infotainment System — Tata Elxsi — Designit](https://designit.co.in/projects/tata-elxsi/infotainment/)
-- [Digital Instrument Cluster — Tata Elxsi — Designit](https://designit.co.in/projects/tata-elxsi/instrument-cluster/)
+- [Infotainment System: Tata Elxsi](https://designit.co.in/projects/tata-elxsi/infotainment/)
+- [Digital Instrument Cluster: Tata Elxsi](https://designit.co.in/projects/tata-elxsi/instrument-cluster/)
 
 ## Insights
 
@@ -97,7 +97,7 @@ Designit Studio (designit.co.in) is independent and not affiliated with Designit
 - [SaaS Onboarding Friction Checklist: 25 Checks](https://designit.co.in/resources/saas-onboarding-friction-checklist/)
 - [Interactive UX Audit Checklist (48 Checks)](https://designit.co.in/resources/ux-audit-checklist/)
 - [Website UX Scorecard: Check What Converts](https://designit.co.in/resources/website-ux-scorecard/)
-- [Blog | Designit — UI/UX Insights for Startup Founders](https://designit.co.in/blog/)
+- [Blog | Designit: UI/UX Insights for Startup Founders](https://designit.co.in/blog/)
 - [AI-Driven Website Design Services in India](https://designit.co.in/blog/ai-driven-website-design-services-india/)
 - [Arabic RTL UX Design for PropTech Apps: UAE Guide (2026)](https://designit.co.in/blog/arabic-rtl-ux-design-proptech-uae/)
 - [B2B SaaS UI/UX Design Services in India: 2026 Guide](https://designit.co.in/blog/b2b-saas-ui-ux-design-services-india/)
@@ -130,7 +130,7 @@ Designit Studio (designit.co.in) is independent and not affiliated with Designit
 
 ## Company
 
-- [About Designit — Research-Led Product Design Studio](https://designit.co.in/about/)
-- [UI/UX Design Jobs India — Remote Design Careers at Designit](https://designit.co.in/careers/)
-- [Contact Us — Designit | Let's Build Something Great Together](https://designit.co.in/contact/)
+- [About Designit: Research-Led Product Design Studio](https://designit.co.in/about/)
+- [UI/UX Design Jobs India: Remote Design Careers at Designit](https://designit.co.in/careers/)
+- [Contact Us: Designit | Let's Build Something Great Together](https://designit.co.in/contact/)
 - [Start a Project: Product Scope & Fit Assessment](https://designit.co.in/start-a-project/)

@@ -71,10 +71,10 @@ User-agent: cohere-ai
 Allow: /
 
 # ── Discovery files ───────────────────────────────────────────────────────────
-# llms.txt — machine-readable site summary for LLMs (https://llmstxt.org)
+# llms.txt, machine-readable site summary for LLMs (https://llmstxt.org)
 # Location: https://designit.co.in/llms.txt
 # Location: https://designit.co.in/llms-full.txt
-# ai.txt — AI crawler & usage permissions (https://site.spawning.ai/ai-txt)
+# ai.txt, AI crawler & usage permissions (https://site.spawning.ai/ai-txt)
 # Location: https://designit.co.in/.well-known/ai.txt
 
 # ── Sitemaps ──────────────────────────────────────────────────────────────────

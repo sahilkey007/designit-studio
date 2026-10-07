@@ -6,7 +6,7 @@
   "schemaType": "Article",
   "client": "Adda247",
   "clientUrl": "/projects/adda247/",
-  "metaTitle": "Homepage Revamp — Adda247 | Designit Case Study",
+  "metaTitle": "Homepage Revamp: Adda247 | Designit Case Study",
   "metaDescription": "Revamping the Adda247 home screen to improve onboarding, boost engagement and drive free-to-paid conversion for 3M+ competitive exam students.",
   "author": "Designit",
   "topicCluster": "Work",
@@ -41,8 +41,8 @@
     "label": "Project Overview",
     "heading": "A smarter home for India's biggest EdTech",
     "paras": [
-      "The Adda247 app serves millions of students preparing for competitive exams. However, its home screen felt outdated and failed to guide users effectively — leading to low retention and drop-off at a critical stage.",
-      "This project focused on revamping the home section to deliver a structured, frictionless onboarding flow for new users and a personalised, high-engagement experience for existing ones — while nudging free users toward paid conversion."
+      "The Adda247 app serves millions of students preparing for competitive exams. However, its home screen felt outdated and failed to guide users effectively, leading to low retention and drop-off at a critical stage.",
+      "This project focused on revamping the home section to deliver a structured, frictionless onboarding flow for new users and a personalised, high-engagement experience for existing ones, while nudging free users toward paid conversion."
     ]
   },
   "metaCards": [
@@ -117,7 +117,7 @@
     "items": [
       {
         "title": "Outdated UI",
-        "body": "The home section lacked modern design aesthetics, making it less appealing and trustworthy — especially to first-time users evaluating whether to invest time in the platform."
+        "body": "The home section lacked modern design aesthetics, making it less appealing and trustworthy, especially to first-time users evaluating whether to invest time in the platform."
       },
       {
         "title": "High Drop-off Rates",
@@ -125,7 +125,7 @@
       },
       {
         "title": "Lack of Product Discovery",
-        "body": "Users struggled to navigate and understand the app's value proposition. High-click features like Quizzes and Job Alerts were buried — causing users to miss the most engaging content."
+        "body": "Users struggled to navigate and understand the app's value proposition. High-click features like Quizzes and Job Alerts were buried, causing users to miss the most engaging content."
       },
       {
         "title": "Retention Issues",
@@ -133,7 +133,7 @@
       }
     ]
   },
-  "problemStatement": "How might we create a seamless and engaging home experience that fosters trust, enhances product discovery, and motivates students to study — while reducing clutter, improving navigation, and leveraging top educators to drive retention and conversions?",
+  "problemStatement": "How might we create a seamless and engaging home experience that fosters trust, enhances product discovery, and motivates students to study, while reducing clutter, improving navigation, and leveraging top educators to drive retention and conversions?",
   "approach": {
     "label": "Our Process",
     "heading": "How we approached it",
@@ -142,22 +142,22 @@
     ],
     "steps": [
       {
-        "k": "01 — Discover",
+        "k": "01: Discover",
         "title": "Research &amp; Opportunity Areas",
         "body": "Behavioural analysis of 3M+ user interactions, heatmaps, session recordings, and stakeholder interviews to identify the biggest friction points and missed engagement opportunities."
       },
       {
-        "k": "02 — Define",
+        "k": "02: Define",
         "title": "What &amp; How",
-        "body": "Synthesised research into a clear problem statement, user persona (Yash — a first-time free user preparing for defence exams), and a structured information architecture for the new home experience."
+        "body": "Synthesised research into a clear problem statement, user persona (Yash, a first-time free user preparing for defence exams), and a structured information architecture for the new home experience."
       },
       {
-        "k": "03 — Ideate",
+        "k": "03: Ideate",
         "title": "Feedback, UX Patterns &amp; Consistency",
-        "body": "Explored multiple layout concepts around three content buckets — Watch, Practice, Read. Validated patterns against competitive benchmarks and Adda247's own highest-performing content types."
+        "body": "Explored multiple layout concepts around three content buckets: Watch, Practice, Read. Validated patterns against competitive benchmarks and Adda247's own highest-performing content types."
       },
       {
-        "k": "04 — Design",
+        "k": "04: Design",
         "title": "Mockups, High-fidelity &amp; Prototype Delivery",
         "body": "Iterated through multiple design rounds, built interactive prototypes for user validation, and delivered production-ready Figma files with full component documentation and developer handoff specs."
       }
@@ -180,7 +180,7 @@
       },
       {
         "title": "Data-Driven Feature Placement",
-        "body": "High-traffic content — Quizzes (1.47M clicks), Job Alerts, Study Materials, Current Affairs — was promoted to above-the-fold positions with visual hierarchy matching actual usage."
+        "body": "High-traffic content: Quizzes (1.47M clicks), Job Alerts, Study Materials, Current Affairs: was promoted to above-the-fold positions with visual hierarchy matching actual usage."
       },
       {
         "title": "Engagement Boosters",
@@ -188,7 +188,7 @@
       },
       {
         "title": "Optimised Premium Visibility",
-        "body": "Premium content and trial offers were repositioned with clear value framing — ensuring new users experienced product value before being redirected to purchase, reducing early drop-off."
+        "body": "Premium content and trial offers were repositioned with clear value framing, ensuring new users experienced product value before being redirected to purchase, reducing early drop-off."
       },
       {
         "title": "Structured Onboarding Flow",
@@ -200,7 +200,7 @@
     "label": "Conclusion",
     "heading": "Impact of the redesign",
     "intro": [
-      "The new design streamlined navigation, improved content discoverability, and prioritised high-engagement features — delivering a more intuitive, personalised learning journey."
+      "The new design streamlined navigation, improved content discoverability, and prioritised high-engagement features, delivering a more intuitive, personalised learning journey."
     ],
     "items": [
       [
@@ -238,11 +238,11 @@
     },
     {
       "q": "What problem did Keeping ADDA Home Simple & Approachable solve?",
-      "a": "The Adda247 app serves millions of students preparing for competitive exams. However, its home screen felt outdated and failed to guide users effectively — leading to low retention and drop-off at a critical stage."
+      "a": "The Adda247 app serves millions of students preparing for competitive exams. However, its home screen felt outdated and failed to guide users effectively, leading to low retention and drop-off at a critical stage."
     },
     {
       "q": "How did Designit approach Keeping ADDA Home Simple & Approachable?",
-      "a": "This project focused on revamping the home section to deliver a structured, frictionless onboarding flow for new users and a personalised, high-engagement experience for existing ones — while nudging free users toward paid conversion."
+      "a": "This project focused on revamping the home section to deliver a structured, frictionless onboarding flow for new users and a personalised, high-engagement experience for existing ones, while nudging free users toward paid conversion."
     },
     {
       "q": "How long does a Designit engagement take?",
@@ -320,7 +320,7 @@
     },
     {
       "q": "What problem did Keeping ADDA Home Simple & Approachable solve?",
-      "a": "The home section lacked modern design aesthetics, making it less appealing and trustworthy — especially to first-time users evaluating whether to invest time in the platform. The question we set out to answer: How might we create a seamless and engaging home experience that fosters trust, enhances product discovery, and motivates students to study — while reducing clutter, improving navigation, and leveraging top educators to drive retention and conversions?"
+      "a": "The home section lacked modern design aesthetics, making it less appealing and trustworthy, especially to first-time users evaluating whether to invest time in the platform. The question we set out to answer: How might we create a seamless and engaging home experience that fosters trust, enhances product discovery, and motivates students to study, while reducing clutter, improving navigation, and leveraging top educators to drive retention and conversions?"
     },
     {
       "q": "How did Designit approach Keeping ADDA Home Simple & Approachable?",

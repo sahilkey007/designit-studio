@@ -6,7 +6,7 @@
   "schemaType": "Article",
   "client": "Adda247",
   "clientUrl": "/projects/adda247/",
-  "metaTitle": "Test Series Enhancement — Adda 247 | Designit Case Study",
+  "metaTitle": "Test Series Enhancement: Adda 247 | Designit Case Study",
   "metaDescription": "Comprehensive upgrade of the online test-taking experience for competitive exam students with real-time progress tracking and smart question navigation.",
   "author": "Designit",
   "topicCluster": "Work",
@@ -25,7 +25,7 @@
   ],
   "kicker": "Adda247 · EdTech",
   "h1": "Test Series Enhancement",
-  "summary": "Comprehensive upgrade of the online test-taking experience for competitive exam students — from question navigation to performance analytics.",
+  "summary": "Comprehensive upgrade of the online test-taking experience for competitive exam students, from question navigation to performance analytics.",
   "tags": [
     "UI/UX Design",
     "User Research",
@@ -40,7 +40,7 @@
     "label": "Overview",
     "heading": "The Challenge &amp; Opportunity",
     "paras": [
-      "Adda 247's test series is the backbone of its competitive exam preparation platform, used by millions of students daily to practice mock tests for SSC, Banking, Railways, and other government exams. The existing test player was functional but dated — it created unnecessary friction during high-stakes practice sessions. Students struggled with navigation, lost track of time, and had limited insight into their performance after completing tests. We saw an opportunity to transform this core experience into something that genuinely helps students perform better under pressure while providing actionable post-test analytics."
+      "Adda 247's test series is the backbone of its competitive exam preparation platform, used by millions of students daily to practice mock tests for SSC, Banking, Railways, and other government exams. The existing test player was functional but dated. It created unnecessary friction during high-stakes practice sessions. Students struggled with navigation, lost track of time, and had limited insight into their performance after completing tests. We saw an opportunity to transform this core experience into something that genuinely helps students perform better under pressure while providing actionable post-test analytics."
     ]
   },
   "metaCards": [
@@ -65,9 +65,9 @@
     "label": "The Problem",
     "heading": "What Needed to Change",
     "paras": [
-      "Students found the existing test interface confusing and anxiety-inducing. The UI did not simulate real exam conditions, which meant students were unprepared for the actual test environment when exam day arrived. Navigation between questions was clunky — requiring multiple clicks to move between sections — which caused unnecessary time loss during timed practice sessions.",
+      "Students found the existing test interface confusing and anxiety-inducing. The UI did not simulate real exam conditions, which meant students were unprepared for the actual test environment when exam day arrived. Navigation between questions was clunky (requiring multiple clicks to move between sections) which caused unnecessary time loss during timed practice sessions.",
       "Performance analytics were limited to basic score summaries. Students had no way to identify their weak areas, track improvement trends over time, or understand which question types consumed the most time. This meant study time was spent inefficiently, with students re-practicing topics they already knew well while neglecting areas that needed attention.",
-      "Support tickets related to the test series module accounted for nearly 40% of all customer queries — ranging from confusion about question status indicators to inability to resume interrupted tests. The business impact was clear: low test completion rates, poor retention after initial sign-up, and negative app store reviews citing the test experience specifically."
+      "Support tickets related to the test series module accounted for nearly 40% of all customer queries, ranging from confusion about question status indicators to inability to resume interrupted tests. The business impact was clear: low test completion rates, poor retention after initial sign-up, and negative app store reviews citing the test experience specifically."
     ],
     "titles": [
       "An interface that added anxiety",
@@ -83,17 +83,17 @@
       {
         "k": "Phase 01",
         "title": "Discovery &amp; Research",
-        "body": "We conducted in-depth interviews with 50+ students across different exam categories — SSC, Banking, and Railways aspirants — to understand their pain points during mock tests. We analyzed completion rate data across 10,000+ test sessions to identify exact drop-off points. Competitive analysis of 8 rival platforms revealed industry best practices and gaps. We also shadowed 15 students during live test sessions, documenting every moment of confusion, hesitation, or frustration."
+        "body": "We conducted in-depth interviews with 50+ students across different exam categories (SSC, Banking, and Railways aspirants) to understand their pain points during mock tests. We analyzed completion rate data across 10,000+ test sessions to identify exact drop-off points. Competitive analysis of 8 rival platforms revealed industry best practices and gaps. We also shadowed 15 students during live test sessions, documenting every moment of confusion, hesitation, or frustration."
       },
       {
         "k": "Phase 02",
         "title": "Information Architecture",
-        "body": "We mapped the complete test-taking journey from test selection through to performance review — a flow spanning 23 distinct screens. Through this mapping, we identified 12 critical friction points in the existing journey, including redundant confirmation screens, unclear question status indicators, and a confusing section-switching mechanism. We redesigned the navigation hierarchy to prioritize the most common actions: answering, flagging, skipping, and reviewing questions."
+        "body": "We mapped the complete test-taking journey from test selection through to performance review, a flow spanning 23 distinct screens. Through this mapping, we identified 12 critical friction points in the existing journey, including redundant confirmation screens, unclear question status indicators, and a confusing section-switching mechanism. We redesigned the navigation hierarchy to prioritize the most common actions: answering, flagging, skipping, and reviewing questions."
       },
       {
         "k": "Phase 03",
         "title": "Wireframing &amp; Prototyping",
-        "body": "We created low-fidelity wireframes for the test player, question navigator, section timer, and results dashboard. Three distinct layout approaches were explored — sidebar navigation, bottom-bar navigation, and an overlay panel approach. Each was prototyped as an interactive Figma prototype and tested with 20 students in moderated usability sessions. The sidebar approach won decisively, with 85% of testers finding it the most intuitive for tracking progress during tests."
+        "body": "We created low-fidelity wireframes for the test player, question navigator, section timer, and results dashboard. Three distinct layout approaches were explored: sidebar navigation, bottom-bar navigation, and an overlay panel approach. Each was prototyped as an interactive Figma prototype and tested with 20 students in moderated usability sessions. The sidebar approach won decisively, with 85% of testers finding it the most intuitive for tracking progress during tests."
       },
       {
         "k": "Phase 04",
@@ -107,7 +107,7 @@
     "heading": "What We Built",
     "paras": [
       "We reimagined the test player from the ground up with a focus on reducing cognitive load during high-pressure timed sessions. The new interface features a persistent sidebar with a visual question map showing answered, unanswered, flagged, and skipped questions at a glance. Section-wise timers help students allocate time strategically across different parts of the exam.",
-      "The post-test analytics dashboard was completely rebuilt to provide actionable insights — not just scores. Students can now drill down into time-per-question analysis, accuracy by topic, difficulty-level performance, and comparative rankings against peers. An intelligent recommendation engine suggests which topics to focus on based on historical performance patterns, turning raw data into a personalized study plan."
+      "The post-test analytics dashboard was completely rebuilt to provide actionable insights, not just scores. Students can now drill down into time-per-question analysis, accuracy by topic, difficulty-level performance, and comparative rankings against peers. An intelligent recommendation engine suggests which topics to focus on based on historical performance patterns, turning raw data into a personalized study plan."
     ]
   },
   "features": {
@@ -117,7 +117,7 @@
     "items": [
       {
         "title": "Real-time Progress Tracking",
-        "body": "A persistent visual question map showing answered, unanswered, flagged, and skipped questions — providing instant awareness of test completion status without breaking focus."
+        "body": "A persistent visual question map showing answered, unanswered, flagged, and skipped questions, providing instant awareness of test completion status without breaking focus."
       },
       {
         "title": "Smart Question Navigator",
@@ -129,11 +129,11 @@
       },
       {
         "title": "Detailed Performance Analytics",
-        "body": "Post-test dashboard with time-per-question analysis, topic-wise accuracy, difficulty breakdown, and peer comparison — turning scores into study strategies."
+        "body": "Post-test dashboard with time-per-question analysis, topic-wise accuracy, difficulty breakdown, and peer comparison, turning scores into study strategies."
       },
       {
         "title": "Exam Simulation Mode",
-        "body": "Full-screen distraction-free mode that mirrors actual exam conditions including section locks, time limits, and negative marking — preparing students for reality."
+        "body": "Full-screen distraction-free mode that mirrors actual exam conditions including section locks, time limits, and negative marking, preparing students for reality."
       },
       {
         "title": "Review &amp; Retry System",
@@ -191,15 +191,15 @@
   "faqExisting": [
     {
       "q": "What is Test Series Enhancement?",
-      "a": "Comprehensive upgrade of the online test-taking experience for competitive exam students — from question navigation to performance analytics."
+      "a": "Comprehensive upgrade of the online test-taking experience for competitive exam students, from question navigation to performance analytics."
     },
     {
       "q": "What problem did Test Series Enhancement solve?",
-      "a": "Adda 247's test series is the backbone of its competitive exam preparation platform, used by millions of students daily to practice mock tests for SSC, Banking, Railways, and other government exams. The existing test player was functional but dated — it created unnecessary friction during high-stakes practice sessions. Students struggled with navigation, lost track of time, and had limited insight into their performance after completing tests. We saw an opportunity to transform this core experience into something that genuinely helps students perform better under pressure while providing actionable post-test analytics."
+      "a": "Adda 247's test series is the backbone of its competitive exam preparation platform, used by millions of students daily to practice mock tests for SSC, Banking, Railways, and other government exams. The existing test player was functional but dated. It created unnecessary friction during high-stakes practice sessions. Students struggled with navigation, lost track of time, and had limited insight into their performance after completing tests. We saw an opportunity to transform this core experience into something that genuinely helps students perform better under pressure while providing actionable post-test analytics."
     },
     {
       "q": "How did Designit approach Test Series Enhancement?",
-      "a": "Students found the existing test interface confusing and anxiety-inducing. The UI did not simulate real exam conditions, which meant students were unprepared for the actual test environment when exam day arrived. Navigation between questions was clunky — requiring multiple clicks to move between sections — which caused unnecessary time loss during timed practice sessions."
+      "a": "Students found the existing test interface confusing and anxiety-inducing. The UI did not simulate real exam conditions, which meant students were unprepared for the actual test environment when exam day arrived. Navigation between questions was clunky (requiring multiple clicks to move between sections) which caused unnecessary time loss during timed practice sessions."
     },
     {
       "q": "How long does a Designit engagement take?",
@@ -275,15 +275,15 @@
   "faq": [
     {
       "q": "What is Test Series Enhancement?",
-      "a": "Comprehensive upgrade of the online test-taking experience for competitive exam students — from question navigation to performance analytics."
+      "a": "Comprehensive upgrade of the online test-taking experience for competitive exam students, from question navigation to performance analytics."
     },
     {
       "q": "What problem did Test Series Enhancement solve?",
-      "a": "Students found the existing test interface confusing and anxiety-inducing. The UI did not simulate real exam conditions, which meant students were unprepared for the actual test environment when exam day arrived. Navigation between questions was clunky — requiring multiple clicks to move between sections — which caused unnecessary time loss during timed practice sessions. The question we set out to answer: How might we make timed mock tests feel like the real exam, without the confusion, and turn every finished test into a clear plan for what to practise next?"
+      "a": "Students found the existing test interface confusing and anxiety-inducing. The UI did not simulate real exam conditions, which meant students were unprepared for the actual test environment when exam day arrived. Navigation between questions was clunky (requiring multiple clicks to move between sections) which caused unnecessary time loss during timed practice sessions. The question we set out to answer: How might we make timed mock tests feel like the real exam, without the confusion, and turn every finished test into a clear plan for what to practise next?"
     },
     {
       "q": "How did Designit approach Test Series Enhancement?",
-      "a": "We worked in 4 phases: Discovery & Research; information architecture; wireframing & prototyping; visual design & handoff. We conducted in-depth interviews with 50+ students across different exam categories — SSC, Banking, and Railways aspirants — to understand their pain points during mock tests."
+      "a": "We worked in 4 phases: Discovery & Research; information architecture; wireframing & prototyping; visual design & handoff. We conducted in-depth interviews with 50+ students across different exam categories (SSC, Banking, and Railways aspirants) to understand their pain points during mock tests."
     },
     {
       "q": "What makes a good online mock test interface?",

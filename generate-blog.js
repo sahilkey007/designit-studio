@@ -284,7 +284,7 @@ function loadPosts() {
 
     const { bodyMd, faqs: parsedFaqs } = parseFaqsFromMarkdown(content);
     const faqs = parsedFaqs.length > 0 ? parsedFaqs : [
-      { question: 'How can Designit help my business?', answer: 'We provide end-to-end UI/UX design services tailored to your business goals — from strategy and wireframes to pixel-perfect UI and design systems.' },
+      { question: 'How can Designit help my business?', answer: 'We provide end-to-end UI/UX design services tailored to your business goals, from strategy and wireframes to pixel-perfect UI and design systems.' },
       { question: 'What is your typical turnaround time?', answer: 'Depending on the scope, most projects are completed within 2–6 weeks. We also offer sprint-based engagements for faster delivery.' },
       { question: 'Do you work with international clients?', answer: 'Yes, we work with clients across India, UAE, USA, UK and beyond.' }
     ];
@@ -608,7 +608,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog | Designit — UI/UX Insights for Startup Founders</title>
+  <title>Blog | Designit: UI/UX Insights for Startup Founders</title>
   <meta name="description" content="Actionable design insights for startup founders, product managers, and CTOs. Conversion optimization, hiring guides, product design process, and more.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://designit.co.in/blog/">

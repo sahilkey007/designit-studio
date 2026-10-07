@@ -128,7 +128,7 @@
     "@id": "https://designit.co.in/#website",
     "url": "https://designit.co.in/",
     "name": "Designit",
-    "description": "Designit — senior-led, research-led product design studio for complex digital products (India, USA, UK, UAE)",
+    "description": "Designit: senior-led, research-led product design studio for complex digital products (India, USA, UK, UAE)",
     "publisher": {
       "@id": "https://designit.co.in/#organization"
     }
