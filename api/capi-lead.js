@@ -16,7 +16,8 @@ const GRAPH_API_VERSION = 'v21.0';
 
 // Only events the site actually sends. Anything else is ignored rather than
 // forwarded, so a malformed or spoofed call cannot inject arbitrary events.
-const ALLOWED_EVENTS = new Set(['Lead', 'Schedule', 'Contact', 'ViewContent']);
+// BookingConfirmed is a custom event sent by /book-a-call/ when Calendly confirms a booking.
+const ALLOWED_EVENTS = new Set(['Lead', 'Schedule', 'Contact', 'ViewContent', 'BookingConfirmed']);
 
 function sha256(value) {
   if (!value) return undefined;
