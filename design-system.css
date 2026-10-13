@@ -1495,4 +1495,7 @@ html body .ground-light .btn-primary:not(#_):hover{background:#2b2b2b!important;
 html body .ground-light .btn-outline:not(#_){background:transparent;color:#000;border-color:rgba(0,0,0,.2)}
 html body .ground-light .btn-outline:not(#_):hover{background:rgba(0,0,0,.05);border-color:rgba(0,0,0,.45)}
 html body .ground-light :is(a,button):focus-visible:not(#_){outline-color:#000}
+.footer-reviews{display:flex;justify-content:center;padding:8px 0 32px;min-height:96px}
+.footer-reviews noscript a,.footer-reviews a{font-size:13px;font-weight:600;letter-spacing:.04em;color:#fff;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:640px){.footer-reviews{padding-bottom:28px}}
 /* ds:end */
