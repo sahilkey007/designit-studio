@@ -18,3 +18,4 @@ f0d07ec   # visible breadcrumb navigation on 27 hand-written pages
 e1b8851   # self-hosted Inter font (technical)
 69069a2   # Designit design system applied site-wide (style only)
 ca52a43   # premium/conversion pass: glass layers, dock, CTA band (style + home sections)
+544d1fb   # DesignRush reviews widget in the footer (chrome only)
