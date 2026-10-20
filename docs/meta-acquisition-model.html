@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Designit Acquisition Model</title>
+<style>
+:root{--bg:#0b0b0d;--card:#151518;--line:#2a2a30;--ink:#f2f2f4;--mut:#9a9aa5;--ok:#4fbf8e;--bad:#e38177;--warn:#d8a44c;--acc:#8aa0ff}
+@media (prefers-color-scheme:light){:root{--bg:#faf9f5;--card:#fff;--line:#e3e0d6;--ink:#16171c;--mut:#6c6f79;--ok:#167a4c;--bad:#b23a2e;--warn:#a0650b;--acc:#3450c9}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.w{max-width:980px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 6px}h2{font-size:16px;margin:28px 0 10px}
+p.s{color:var(--mut);margin:0 0 16px;max-width:70ch}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:640px}th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);font-weight:600}
+td input{width:110px;background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:5px 7px;font:inherit}
+.tag{font-size:11px;padding:2px 7px;border-radius:99px;border:1px solid var(--line);color:var(--mut);white-space:nowrap}
+.tag.o{color:var(--ok);border-color:var(--ok)}.tag.e{color:var(--acc);border-color:var(--acc)}.tag.a{color:var(--warn);border-color:var(--warn)}
+.big{font-size:20px;font-weight:700}.pos{color:var(--ok)}.neg{color:var(--bad)}
+.note{color:var(--mut);font-size:13px;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="w">
+<h1>Designit: Meta acquisition model</h1>
+<p class="s">Edit any number; everything recalculates. Tags show where each number comes from. <b>Observed</b> = real data. <b>Owner estimate</b> = your answer on 2026-10-14. <b>Assumption</b> = my placeholder until real outcomes exist. This is a planning tool, not a forecast.</p>
+
+<h2>Inputs</h2>
+<div class="card"><table id="inp"><thead><tr><th>Input</th><th>Conservative</th><th>Base</th><th>Optimistic</th><th>Source</th></tr></thead><tbody></tbody></table></div>
+
+<h2>Results per month</h2>
+<div class="card"><table id="res"><thead><tr><th></th><th>Conservative</th><th>Base</th><th>Optimistic</th></tr></thead><tbody></tbody></table></div>
+
+<p class="note">How to read it: "Break-even cost per lead" is the most you can pay for one Instant Form lead and still break even, given your project value, margin and the funnel rates. If your real cost per lead is below it, spend is worth it; above it, it is not. Replace assumptions with real numbers after the first 2 to 4 weeks (leads, calls booked, calls attended, proposals, wins).</p>
+<p class="note">Sources: observed CPL of Rs 75 is from the July 2026 Instant Form campaign (5 leads, Rs 376 spent; a tiny sample, and the owner said those leads were mostly not real prospects). Competitor price signals for context only: Eleken subscription from $6,599/month (own blog); GoProtoz designer plan from 1,200/month (currency unstated); Halo Lab budget bands $10k to $200k (own form).</p>
+</div>
+<script>
+var ROWS=[
+ ['spend','Ad spend per month (Rs)',[6000,6000,6000],'o','Rs 200/day x 30 (owner budget)'],
+ ['cpl','Cost per Instant Form lead (Rs)',[200,120,75],'a','Only Rs 75 is observed (July, n=5). Higher-intent + phone check usually costs more per lead'],
+ ['book','Leads who book a call (%)',[10,20,30],'a','Unknown; form ends on a Calendly booking screen'],
+ ['att','Booked calls attended (%)',[60,70,80],'a','Unknown'],
+ ['prop','Attended calls that get a proposal (%)',[40,50,60],'a','Unknown'],
+ ['win','Proposals that win (%)',[5,10,15],'e','Owner: under 15%'],
+ ['val','Project value (Rs)',[300000,550000,800000],'e','Owner: Rs 3 to 8 lakh'],
+ ['mar','Gross margin (%)',[30,35,40],'e','Owner: under 40%']
+];
+function fmt(n,d){if(!isFinite(n))return 'n/a';return n.toLocaleString('en-IN',{maximumFractionDigits:d==null?0:d});}
+var inp=document.querySelector('#inp tbody');
+ROWS.forEach(function(r){
+ var tr=document.createElement('tr');
+ var tagName={o:'Observed',e:'Owner estimate',a:'Assumption'}[r[3]];
+ tr.innerHTML='<td>'+r[1]+'</td>'+[0,1,2].map(function(i){return '<td><input type="number" data-k="'+r[0]+'" data-i="'+i+'" value="'+r[2][i]+'"></td>';}).join('')+'<td><span class="tag '+r[3]+'">'+tagName+'</span> <span class="note">'+r[4]+'</span></td>';
+ inp.appendChild(tr);
+});
+function val(k,i){return parseFloat(document.querySelector('input[data-k="'+k+'"][data-i="'+i+'"]').value)||0;}
+function calc(i){
+ var spend=val('spend',i),cpl=val('cpl',i),b=val('book',i)/100,a=val('att',i)/100,p=val('prop',i)/100,w=val('win',i)/100,v=val('val',i),m=val('mar',i)/100;
+ var contrib=v*m,leads=cpl?spend/cpl:0,booked=leads*b,att=booked*a,props=att*p,wins=props*w;
+ var perLead=b*a*p*w*contrib; // expected contribution per lead
+ return {leads:leads,booked:booked,att:att,props:props,wins:wins,contrib:contrib,
+  costBooked:booked?spend/booked:NaN,costAtt:att?spend/att:NaN,cac:wins?spend/wins:NaN,
+  beCpl:perLead,beBooked:a*p*w*contrib,beAtt:p*w*contrib,
+  months:wins?1/wins:NaN,net:wins*contrib-spend,cpl:cpl};
+}
+var out=[
+ ['Leads',function(c){return fmt(c.leads,0);}],
+ ['Calls booked',function(c){return fmt(c.booked,1);}],
+ ['Calls attended',function(c){return fmt(c.att,1);}],
+ ['Proposals',function(c){return fmt(c.props,2);}],
+ ['Clients won (per month)',function(c){return fmt(c.wins,2);}],
+ ['Months to win one client',function(c){return fmt(c.months,1);}],
+ ['Cost per booked call (Rs)',function(c){return fmt(c.costBooked);}],
+ ['Cost per attended call (Rs)',function(c){return fmt(c.costAtt);}],
+ ['Cost to win one client (Rs)',function(c){return fmt(c.cac);}],
+ ['Contribution per won client (Rs)',function(c){return fmt(c.contrib);}],
+ ['<b>Break-even cost per lead (Rs)</b>',function(c){return '<b>'+fmt(c.beCpl)+'</b>';}],
+ ['Break-even cost per attended call (Rs)',function(c){return fmt(c.beAtt);}],
+ ['Expected contribution minus spend per month (Rs)',function(c){return '<span class="big '+(c.net>=0?'pos':'neg')+'">'+fmt(c.net)+'</span>';}]
+];
+function render(){
+ var cs=[calc(0),calc(1),calc(2)],tb=document.querySelector('#res tbody');tb.innerHTML='';
+ out.forEach(function(o){var tr=document.createElement('tr');tr.innerHTML='<td>'+o[0]+'</td>'+cs.map(function(c){return '<td>'+o[1](c)+'</td>';}).join('');tb.appendChild(tr);});
+}
+document.addEventListener('input',function(e){if(e.target.matches('input[data-k]'))render();});
+render();
+</script>
+</body>
+</html>
