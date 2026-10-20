@@ -32,6 +32,7 @@ const EXCLUDE = new Set([
   'about-designit.html', // 308s to /about/ — a redirect is not a page
   'privacy-policy.html', // noindex, follow — submitting it earns a GSC warning
   'terms.html',          // noindex, follow — same reason
+  'book-a-call/index.html', // paid-traffic booking page, noindex, follow
 ]);
 
 const SKIP_DIRS = new Set(['.git', 'node_modules', '_next', '.vercel', 'scripts']);
