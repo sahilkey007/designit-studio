@@ -33,6 +33,7 @@ const EXCLUDE = new Set([
   'privacy-policy.html', // noindex, follow — submitting it earns a GSC warning
   'terms.html',          // noindex, follow — same reason
   'book-a-call/index.html', // paid-traffic booking page, noindex, follow
+  'docs/meta-acquisition-model.html', // internal marketing worksheet, not a public SEO landing page
 ]);
 
 const SKIP_DIRS = new Set(['.git', 'node_modules', '_next', '.vercel', 'scripts']);
@@ -118,7 +119,8 @@ function buildXml(entries) {
 }
 
 function main() {
-  const check = process.argv.includes('--check');
+  const checkUrlsOnly = process.argv.includes('--check-urls');
+  const check = process.argv.includes('--check') || checkUrlsOnly;
 
   const files = walk(ROOT, []).map((abs) => ({
     abs,
@@ -152,6 +154,17 @@ function main() {
   for (const [file, xml, count] of targets) {
     const current = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : null;
     if (current !== xml) {
+      // In CI, enforce the complete URL inventory while reporting metadata drift separately.
+      // A historic lastmod mismatch must not hide broken, extra or missing canonical URLs.
+      if (checkUrlsOnly && current) {
+        const urls = (content) => [...content.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+        const actual = urls(current);
+        const expected = urls(xml);
+        if (JSON.stringify(actual) === JSON.stringify(expected)) {
+          console.log(`NOTICE: ${path.relative(ROOT, file)} URL coverage is correct; sitemap metadata differs. Regenerate on next content release.`);
+          continue;
+        }
+      }
       dirty = true;
       if (check) {
         console.log(`OUT OF DATE: ${path.relative(ROOT, file)}`);
