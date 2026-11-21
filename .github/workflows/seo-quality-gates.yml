@@ -1,0 +1,54 @@
+name: SEO quality gates
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  internal-seo:
+    name: Internal links, JSON-LD and sitemap integrity
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout reviewed PR commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+
+      - name: Validate internal links and JSON-LD
+        run: node scripts/validate-site.mjs
+
+      - name: Verify complete sitemap URL coverage
+        run: node generate-sitemaps.js --check-urls
+
+      # Strict --check also compares lastmod/changefreq; existing historic drift is
+      # reported by --check-urls until sitemaps are regenerated on a content PR.
+
+  external-link-inventory:
+    name: External links (informational)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout reviewed PR commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Audit documentation links
+        id: links
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2, pinned
+        continue-on-error: true
+        with:
+          args: --no-progress --timeout 15 --max-retries 1 './**/*.md'
+          fail: false
+          jobSummary: true
