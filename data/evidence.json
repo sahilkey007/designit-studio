@@ -437,17 +437,17 @@
     },
     {
       "id": "EV-SITE-CASE-COUNT",
-      "claim": "22 published sub-project case studies and 5 named client engagements (Adda247, Kelp Global, Betacrew, R-Centric/Omniyat, Tata Elxsi).",
-      "source": "Count of /projects/*/*.html sub-pages (Adda247 9, R-Centric 7, Kelp 3, Tata Elxsi 2, Betacrew 1).",
+      "claim": "18 published sub-project case studies and 5 named client engagements (Adda247, Kelp Global, Betacrew, R-Centric/Omniyat, Tata Elxsi).",
+      "source": "Count of /projects/*/*.html sub-pages (Adda247 6, R-Centric 6, Kelp 3, Tata Elxsi 2, Betacrew 1).",
       "sourceType": "internal (site count)",
-      "dateVerified": "2026-10-04",
+      "dateVerified": "2026-11-23",
       "verifiedBy": "site source (Claude)",
       "permissionRequired": false,
       "clientApproved": "n/a",
       "public": true,
       "recheck": "on every new case study",
       "status": "in use",
-      "notes": "Homepage 'Why Designit' card."
+      "notes": "Homepage 'Why Designit' card and Industries hub. Recounted 2026-11-23 after 4 case studies were retired (was 22)."
     },
     {
       "id": "EV-MARKETS",
