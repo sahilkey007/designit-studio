@@ -22,6 +22,7 @@
      ]},
     {"type": "prose", "id": "how-we-work-remotely", "heading": "How international engagements run",
      "paras": ["All our international work is remote, and we say so on every location page rather than implying offices we don't have. Live collaboration happens in a defined overlap window; everything else runs async through written updates, Loom walkthroughs and Figma comments.",
-               "Communication is in English. Contracts, NDAs and IP assignment follow the norms of your market."]}
+               "Communication is in English. Contracts, NDAs and IP assignment follow the norms of your market."]},
+    {"type": "prose", "id": "choosing-a-market-page", "heading": "Which page to read", "paras": ["Pick the page closest to where your team and customers are. The pages differ in the things that matter for a remote engagement: overlap with our Noida working day, contracting and invoicing norms, and the work we have shipped for that market.", "If your market isn't listed, we can still work with you remotely. Tell us your time zone and any constraints on the <a href=\"/contact/\">contact page</a> and we will say plainly whether the working overlap suits your team."]}
   ]
 }

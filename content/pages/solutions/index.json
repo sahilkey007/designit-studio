@@ -24,6 +24,8 @@
      "items": [
        {"kicker": "Legacy", "title": "Legacy product modernization", "body": "When an older core holds back newer work and users have built workarounds.", "href": "/solutions/legacy-product-modernization/"},
        {"kicker": "Scale", "title": "Design system scaling", "body": "When more products, teams and platforms need to speak one design language.", "href": "/solutions/design-system-scaling/"}
-     ]}
+     ]},
+    {"type": "prose", "id": "how-to-choose", "heading": "How to choose where to start", "paras": ["Most teams arrive with a symptom rather than a service name: users who sign up and don't come back, a roadmap that keeps slipping, or a product that has outgrown its first design. Pick the solution closest to the symptom you can already see in your data or in customer conversations.", "If nothing exists yet, start with MVP design. If something exists but isn't adopted, look at product redesign or conversion improvement, depending on whether the problem is inside the product or in the path that leads to it. If the product works but is hard to change, look at legacy product modernization or design system scaling.", "Each solution page sets out the signs that you are in that situation, how we would help, the options you have, and related work, so you can judge fit before talking to anyone. Not sure which applies? The <a href=\"/start-a-project/\">project scope and fit assessment</a> asks ten short questions and recommends where to start."]},
+    {"type": "prose", "id": "solutions-and-services", "heading": "Solutions and services", "paras": ["Solutions start from your situation. <a href=\"/services/\">Services</a> start from the discipline: UX research, SaaS product design, design systems, website design and branding. Most engagements use a solution to choose the starting point and one or more services to do the work."]}
   ]
 }

@@ -161,6 +161,16 @@
       ]
     },
     {
+      "type": "prose",
+      "id": "how-we-approach-industries",
+      "heading": "How to use these pages",
+      "paras": [
+        "A sector changes who your users are, what regulators expect and what a mistake costs. Each industry page covers the users, constraints and design problems that recur in that sector, the engagement we would recommend, and the case studies most relevant to it.",
+        "If your product spans sectors, such as an AI feature inside a fintech product, read both pages: the constraints stack. The trust and compliance needs of the first sector apply, plus the explainability and error-handling needs of the second.",
+        "If your sector isn't listed, the <a href=\"/services/\">services pages</a> describe the work independently of sector, and the <a href=\"/start-a-project/\">project scope and fit assessment</a> will tell you quickly whether we are a good match."
+      ]
+    },
+    {
       "type": "facts",
       "id": "experience",
       "heading": "Experience behind the work",

@@ -152,6 +152,15 @@
           "body": "When a template is enough."
         }
       ]
+    },
+    {
+      "type": "prose",
+      "id": "how-to-use-resources",
+      "heading": "Where to start",
+      "paras": [
+        "Start with a checklist if you want to assess your own product, a cost guide if you are budgeting, and a buyer guide if you are deciding who to hire. Everything here is free to use without talking to us.",
+        "The checklists are written so your own team can run them without a designer. When you would rather have the diagnosis done for you, a fixed-scope <a href=\"/services/ux-audit/\">UX audit</a> is the structured version of the same exercise."
+      ]
     }
   ]
 }
