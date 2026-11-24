@@ -100,7 +100,6 @@
       "/projects/adda247/",
       "/projects/kelp-global/",
       "/projects/rcentric/",
-      "/projects/tata-elxsi/",
       "/resources/",
       "/resources/ux-audit-checklist/",
       "/services/",
@@ -281,17 +280,13 @@
     "author": "Designit",
     "updatedAt": "2026-10-04",
     "schemaType": "WebPage",
-    "evidenceIds": [
-      "EV-TATA-SCOPE"
-    ],
+    "evidenceIds": [],
     "relatedServices": [
       "/services/product-design/",
       "/services/ux-research/",
       "/services/design-systems/"
     ],
-    "relatedCaseStudies": [
-      "/projects/tata-elxsi/"
-    ],
+    "relatedCaseStudies": [],
     "aiAnswerTargets": [
       "How do you design for driver distraction?",
       "What is glance duration in HMI design?"
@@ -315,7 +310,6 @@
       "Why automotive HMI breaks normal design rules",
       "What we design",
       "How an HMI engagement runs",
-      "Selected automotive work",
       "FAQ"
     ],
     "faq": [
@@ -326,9 +320,6 @@
     "internalLinks": [
       "/",
       "/industries/",
-      "/projects/tata-elxsi/",
-      "/projects/tata-elxsi/infotainment/",
-      "/projects/tata-elxsi/instrument-cluster/",
       "/start-a-project/"
     ],
     "file": "industries/automotive/index.html"
@@ -904,9 +895,6 @@
       "/projects/rcentric/opus/",
       "/projects/rcentric/orla-infinity/",
       "/projects/rcentric/vela-viento/",
-      "/projects/tata-elxsi/",
-      "/projects/tata-elxsi/infotainment/",
-      "/projects/tata-elxsi/instrument-cluster/",
       "/start-a-project/"
     ],
     "file": "projects.html"
@@ -2176,197 +2164,6 @@
     ],
     "file": "projects/rcentric/vela-viento.html"
   },
-  "/projects/tata-elxsi/": {
-    "url": "/projects/tata-elxsi/",
-    "pageType": "case-study",
-    "metaTitle": "Tata Elxsi Case Study: Automotive HMI Design | Designit",
-    "metaDescription": "How Designit designed an infotainment system and digital instrument cluster for Tata Elxsi around glance duration, adaptive modes and simulator testing.",
-    "h1": "Tata Elxsi: an infotainment system and instrument cluster designed for the glance",
-    "primaryKeyword": "automotive hmi case study",
-    "secondaryKeywords": [
-      "infotainment ux case study",
-      "digital instrument cluster design",
-      "tata elxsi hmi"
-    ],
-    "searchIntent": "evaluation",
-    "funnelStage": "evaluation / vendor",
-    "topicCluster": "Work",
-    "author": "Designit",
-    "updatedAt": "2026-10-06",
-    "schemaType": "Article",
-    "evidenceIds": [
-      "EV-TATA-SCOPE"
-    ],
-    "relatedServices": [
-      "/services/product-design/",
-      "/services/ux-research/"
-    ],
-    "relatedIndustries": [
-      "/industries/automotive/"
-    ],
-    "cta": {
-      "heading": "Designing for the road?",
-      "body": "Tell us about the hardware and the programme. We'll tell you how we'd model the glance budget.",
-      "buttons": [
-        {
-          "label": "Start a project",
-          "href": "/start-a-project/",
-          "event": "start_project"
-        }
-      ]
-    },
-    "conversionEvent": "start_project",
-    "refreshInterval": "when new evidence is available",
-    "priority": "P1",
-    "action": "KEEP + EXPAND",
-    "h2s": [
-      "Executive summary",
-      "Project facts",
-      "Who we designed for",
-      "The business and driver problem",
-      "What we did",
-      "Key lessons",
-      "Every Tata Elxsi case study",
-      "Related",
-      "FAQ"
-    ],
-    "faq": [
-      "What did Designit design for Tata Elxsi?",
-      "How do infotainment and instrument cluster design differ?",
-      "How was the design validated?",
-      "What is automotive HMI design?",
-      "What are the glance-time guidelines for in-car screens?",
-      "Why use driving simulators in HMI design?",
-      "How should a digital instrument cluster adapt to driving?",
-      "What contrast is needed for critical information on automotive displays?",
-      "Where can I see each Tata Elxsi system in detail?"
-    ],
-    "internalLinks": [
-      "/",
-      "/industries/automotive/",
-      "/projects/",
-      "/projects/tata-elxsi/infotainment/",
-      "/projects/tata-elxsi/instrument-cluster/",
-      "/services/product-design/",
-      "/start-a-project/"
-    ],
-    "file": "projects/tata-elxsi.html"
-  },
-  "/projects/tata-elxsi/infotainment/": {
-    "url": "/projects/tata-elxsi/infotainment/",
-    "pageType": "case-study",
-    "metaTitle": "Infotainment System: Tata Elxsi | Designit",
-    "metaDescription": "Case study: next-generation in-vehicle infotainment for Tata Elxsi, with navigation, media, climate and phone controls designed to work at a glance.",
-    "h1": "Infotainment System",
-    "primaryKeyword": "tata elxsi infotainment system case study",
-    "searchIntent": "evaluation",
-    "funnelStage": "evaluation / vendor",
-    "topicCluster": "Work",
-    "author": "Designit",
-    "updatedAt": "2026-10-06",
-    "schemaType": "Article",
-    "cta": {
-      "heading": "Have a similar problem?",
-      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
-      "buttons": [
-        {
-          "label": "Start a project",
-          "href": "/start-a-project/",
-          "event": "start_project"
-        },
-        {
-          "label": "Book a call",
-          "href": "https://calendly.com/sahilnsharma77/new-meeting",
-          "event": "schedule_call"
-        }
-      ]
-    },
-    "conversionEvent": "start_project",
-    "refreshInterval": "when new evidence is available",
-    "priority": "P2",
-    "action": "KEEP + RESTRUCTURE",
-    "h2s": [
-      "FAQ"
-    ],
-    "faq": [
-      "What is Infotainment System?",
-      "What problem did Infotainment System solve?",
-      "How did Designit approach Infotainment System?",
-      "What is automotive HMI design?",
-      "What are the glance-time guidelines for in-car screens?",
-      "How do you reduce driver distraction on a touchscreen?",
-      "Why test infotainment designs in a driving simulator?",
-      "How long does a Designit engagement take?",
-      "Who actually works on the engagement?",
-      "What tools does the studio work in?"
-    ],
-    "internalLinks": [
-      "/",
-      "/projects/",
-      "/projects/adda247/homepage-revamp/",
-      "/projects/tata-elxsi/",
-      "/projects/tata-elxsi/instrument-cluster/",
-      "/start-a-project/"
-    ],
-    "file": "projects/tata-elxsi/infotainment.html"
-  },
-  "/projects/tata-elxsi/instrument-cluster/": {
-    "url": "/projects/tata-elxsi/instrument-cluster/",
-    "pageType": "case-study",
-    "metaTitle": "Digital Instrument Cluster: Tata Elxsi | Designit",
-    "metaDescription": "Case study: a programmable digital instrument cluster for Tata Elxsi with adaptive display modes for city, highway, sport and eco driving.",
-    "h1": "Digital Instrument Cluster",
-    "primaryKeyword": "tata elxsi digital instrument cluster case study",
-    "searchIntent": "evaluation",
-    "funnelStage": "evaluation / vendor",
-    "topicCluster": "Work",
-    "author": "Designit",
-    "updatedAt": "2026-10-06",
-    "schemaType": "Article",
-    "cta": {
-      "heading": "Have a similar problem?",
-      "body": "Tell us what is not working. We'll tell you where we would start, and whether we're the right partner for it.",
-      "buttons": [
-        {
-          "label": "Start a project",
-          "href": "/start-a-project/",
-          "event": "start_project"
-        },
-        {
-          "label": "Book a call",
-          "href": "https://calendly.com/sahilnsharma77/new-meeting",
-          "event": "schedule_call"
-        }
-      ]
-    },
-    "conversionEvent": "start_project",
-    "refreshInterval": "when new evidence is available",
-    "priority": "P2",
-    "action": "KEEP + RESTRUCTURE",
-    "h2s": [
-      "FAQ"
-    ],
-    "faq": [
-      "What is Digital Instrument Cluster?",
-      "What problem did Digital Instrument Cluster solve?",
-      "How did Designit approach Digital Instrument Cluster?",
-      "What is a digital instrument cluster?",
-      "How should a digital cluster adapt to driving modes?",
-      "What contrast and readability standards apply to cluster displays?",
-      "How do you animate mode changes without distracting the driver?",
-      "How long does a Designit engagement take?",
-      "Which regions does Designit work with?"
-    ],
-    "internalLinks": [
-      "/",
-      "/projects/",
-      "/projects/adda247/homepage-revamp/",
-      "/projects/tata-elxsi/",
-      "/projects/tata-elxsi/infotainment/",
-      "/start-a-project/"
-    ],
-    "file": "projects/tata-elxsi/instrument-cluster.html"
-  },
   "/resources/": {
     "url": "/resources/",
     "pageType": "hub",
@@ -2793,7 +2590,6 @@
       "/projects/",
       "/projects/adda247/",
       "/projects/kelp-global/",
-      "/projects/tata-elxsi/",
       "/services/ai-product-design/",
       "/services/branding/",
       "/services/conversion-optimization/",
@@ -3383,7 +3179,6 @@
       "/industries/edtech/"
     ],
     "relatedCaseStudies": [
-      "/projects/tata-elxsi/",
       "/projects/adda247/",
       "/projects/betacrew/"
     ],
@@ -3442,7 +3237,6 @@
       "/projects/adda247/",
       "/projects/betacrew/",
       "/projects/rcentric/",
-      "/projects/tata-elxsi/",
       "/services/",
       "/services/design-systems/",
       "/services/saas-product-design/",
@@ -3660,7 +3454,6 @@
       "/locations/",
       "/projects/betacrew/",
       "/projects/kelp-global/",
-      "/projects/tata-elxsi/",
       "/services/",
       "/services/branding/",
       "/services/product-design/",
@@ -4666,7 +4459,6 @@
       "/locations/",
       "/projects/betacrew/",
       "/projects/kelp-global/",
-      "/projects/tata-elxsi/",
       "/services/ux-audit/",
       "/start-a-project/"
     ],

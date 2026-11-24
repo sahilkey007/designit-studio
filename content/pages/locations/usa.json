@@ -32,7 +32,7 @@
        {"title": "Accessibility documentation", "body": "WCAG 2.1 AA designed in, with the documentation enterprise procurement asks for."},
        {"title": "Engineering-compatible handover", "body": "Specs against your stack, delivered in increments that match your release rhythm."}
      ]},
-    {"type": "work", "id": "relevant-work", "heading": "Relevant work", "items": ["kelp-global", "betacrew", "tata-elxsi"]},
+    {"type": "work", "id": "relevant-work", "heading": "Relevant work", "items": ["kelp-global", "betacrew"]},
     {"type": "prose", "id": "honest-trade-off", "heading": "The honest trade-off",
      "paras": ["We are an India-based studio that works with US teams remotely; we do not have a US office and would rather say so. You get senior designers directly and capacity in weeks rather than after a months-long hire. The trade-off is time zone, which async working and a defined overlap window address but do not eliminate. If you need someone in the room every day, hire locally."]}
   ],

@@ -86,9 +86,6 @@ Designit Studio (designit.co.in) is independent and not affiliated with Designit
 - [OPUS: R-Centric (Omniyat)](https://designit.co.in/projects/rcentric/opus/)
 - [Orla Infinity: R-Centric (Omniyat)](https://designit.co.in/projects/rcentric/orla-infinity/)
 - [Vela Viento: R-Centric (Omniyat)](https://designit.co.in/projects/rcentric/vela-viento/)
-- [Tata Elxsi Case Study: Automotive HMI Design](https://designit.co.in/projects/tata-elxsi/)
-- [Infotainment System: Tata Elxsi](https://designit.co.in/projects/tata-elxsi/infotainment/)
-- [Digital Instrument Cluster: Tata Elxsi](https://designit.co.in/projects/tata-elxsi/instrument-cluster/)
 
 ## Insights
 
@@ -123,7 +120,7 @@ Designit Studio (designit.co.in) is independent and not affiliated with Designit
 - [Signs Your Tech Startup Needs a Rebrand in India](https://designit.co.in/blog/signs-your-company-needs-a-rebrand-india/)
 - [What a UI/UX Website Audit Covers (India, 2026)](https://designit.co.in/blog/ui-ux-audit-for-website-india/)
 - [UI/UX Design Cost in India 2026: Pricing Guide](https://designit.co.in/blog/ui-ux-design-pricing-india-2026/)
-- [UX Audit Checklist for SaaS Products and Websites](https://designit.co.in/blog/ux-audit-checklist/)
+- [SaaS UX Audit Checklist: 48 Checks for Product Teams](https://designit.co.in/blog/ux-audit-checklist/)
 - [Visual Identity vs Branding for Startups](https://designit.co.in/blog/visual-identity-vs-branding-startups/)
 - [Why is My Ecommerce Bounce Rate So High in India?](https://designit.co.in/blog/why-ecommerce-bounce-rate-so-high-india/)
 - [Why Your Website Isn't Converting Visitors (India)](https://designit.co.in/blog/why-website-not-converting-visitors-india/)

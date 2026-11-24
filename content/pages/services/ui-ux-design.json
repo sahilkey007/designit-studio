@@ -61,7 +61,7 @@
        {"title": "Build support (ongoing)", "body": "Handover, engineering walkthrough and design QA against the implementation."}
      ]},
     {"type": "work", "id": "selected-work", "heading": "Selected work",
-     "items": ["betacrew", "kelp-global", "tata-elxsi"]},
+     "items": ["betacrew", "kelp-global"]},
     {"type": "answer", "id": "how-much-does-ui-ux-design-cost", "heading": "How much does UI/UX design cost?",
      "answer": "It depends on scope more than hours, so we quote against a written scope rather than a single rate. One flow or one dashboard is materially cheaper than a full redesign with a design system.",
      "body": ["What moves the price: the number of screens and states, research depth, platforms, whether a design system is included and how much build support you want. You get a fixed written scope and price before we start."]}

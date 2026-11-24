@@ -50,7 +50,7 @@
        {"title": "Design system scaling", "body": "One language across products and teams.", "href": "/solutions/design-system-scaling/"},
        {"title": "Conversion improvement", "body": "Find where intent is lost, and fix it.", "href": "/solutions/conversion-improvement/"}
      ]},
-    {"type": "work", "id": "selected-work", "heading": "Selected work", "items": ["adda247", "kelp-global", "tata-elxsi"]}
+    {"type": "work", "id": "selected-work", "heading": "Selected work", "items": ["adda247", "kelp-global"]}
   ],
   "faq": [
     {"q": "How long does a Designit engagement take?", "a": "A design sprint is delivered in five business days, a UX audit in about two weeks, and full product design engagements run four to twelve weeks depending on scope. Retainers are ongoing."},

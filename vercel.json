@@ -97,6 +97,15 @@
     { "source": "/projects/adda247/sankalp-bharat/", "destination": "/projects/adda247/", "permanent": true },
     { "source": "/projects/rcentric/ela.html", "destination": "/projects/rcentric/", "permanent": true },
     { "source": "/projects/rcentric/ela", "destination": "/projects/rcentric/", "permanent": true },
-    { "source": "/projects/rcentric/ela/", "destination": "/projects/rcentric/", "permanent": true }
+    { "source": "/projects/rcentric/ela/", "destination": "/projects/rcentric/", "permanent": true },
+    { "source": "/projects/tata-elxsi.html", "destination": "/projects/", "permanent": true },
+    { "source": "/projects/tata-elxsi", "destination": "/projects/", "permanent": true },
+    { "source": "/projects/tata-elxsi/", "destination": "/projects/", "permanent": true },
+    { "source": "/projects/tata-elxsi/infotainment.html", "destination": "/projects/", "permanent": true },
+    { "source": "/projects/tata-elxsi/infotainment", "destination": "/projects/", "permanent": true },
+    { "source": "/projects/tata-elxsi/infotainment/", "destination": "/projects/", "permanent": true },
+    { "source": "/projects/tata-elxsi/instrument-cluster.html", "destination": "/projects/", "permanent": true },
+    { "source": "/projects/tata-elxsi/instrument-cluster", "destination": "/projects/", "permanent": true },
+    { "source": "/projects/tata-elxsi/instrument-cluster/", "destination": "/projects/", "permanent": true }
   ]
 }

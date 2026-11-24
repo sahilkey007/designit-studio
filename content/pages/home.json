@@ -82,12 +82,6 @@
           "h": 32
         },
         {
-          "src": "/assets/logos/tata-elxsi.svg",
-          "alt": "Tata Elxsi",
-          "w": 245,
-          "h": 32
-        },
-        {
           "src": "/assets/logos/omniyat.svg",
           "alt": "Omniyat",
           "w": 436,
@@ -217,7 +211,6 @@
       "items": [
         "adda247",
         "kelp-global",
-        "tata-elxsi",
         "rcentric"
       ],
       "eyebrow": "Case studies"
@@ -242,7 +235,7 @@
         },
         {
           "title": "Named, published work",
-          "body": "18 case studies across Adda247, Kelp Global, Betacrew, the Omniyat portfolio and Tata Elxsi."
+          "body": "18 case studies across Adda247, Kelp Global, Betacrew and the Omniyat portfolio."
         },
         {
           "title": "India-based, working globally",
@@ -388,11 +381,11 @@
         ],
         [
           "Published case studies",
-          "18"
+          "16"
         ],
         [
           "Named client engagements",
-          "5"
+          "4"
         ],
         [
           "Industries",
@@ -572,7 +565,7 @@
   "faq": [
     {
       "q": "What types of companies do you work with?",
-      "a": "Mainly B2B SaaS companies, fintech and Web3 startups, AI products, EdTech platforms, e-commerce brands and enterprise software teams, typically funded startups and growth-stage companies redesigning a product, building a design system or making design a growth lever. Shipped work includes Adda247, StudyIQ, Kelp Global, Tata Elxsi, Betacrew and the Omniyat portfolio."
+      "a": "Mainly B2B SaaS companies, fintech and Web3 startups, AI products, EdTech platforms, e-commerce brands and enterprise software teams, typically funded startups and growth-stage companies redesigning a product, building a design system or making design a growth lever. Shipped work includes Adda247, StudyIQ, Kelp Global, Betacrew and the Omniyat portfolio."
     },
     {
       "q": "How long does a typical project take?",

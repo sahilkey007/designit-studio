@@ -48,7 +48,7 @@ def _load_cases():
                     sp = json.load(open(os.path.join(full, f), encoding="utf-8"))
                     sp["_key"] = f"{d}/{f[:-5]}"
                     out.append(sp)
-    order = {k: i for i, k in enumerate(["adda247", "kelp-global", "betacrew", "rcentric", "tata-elxsi"])}
+    order = {k: i for i, k in enumerate(["adda247", "kelp-global", "betacrew", "rcentric"])}
     out.sort(key=lambda x: (order.get(x["_key"].split("/")[0], 9), x.get("order", 50), x["_key"]))
     return out
 CASES = _load_cases()

@@ -16,7 +16,6 @@
    "/services/ux-research/",
    "/projects/adda247/",
    "/projects/kelp-global/",
-   "/projects/tata-elxsi/",
    "/projects/rcentric/",
    "/about/",
    "/locations/",
@@ -588,10 +587,7 @@
   "/industries/automotive/": [
    "/",
    "/industries/",
-   "/start-a-project/",
-   "/projects/tata-elxsi/",
-   "/projects/tata-elxsi/instrument-cluster/",
-   "/projects/tata-elxsi/infotainment/"
+   "/start-a-project/"
   ],
   "/industries/b2b-saas/": [
    "/",
@@ -680,13 +676,10 @@
    "/projects/rcentric/orla-infinity/",
    "/projects/rcentric/vela-viento/",
    "/projects/rcentric/anwa-aria/",
-   "/projects/tata-elxsi/infotainment/",
-   "/projects/tata-elxsi/instrument-cluster/",
    "/projects/adda247/",
    "/projects/kelp-global/",
    "/projects/betacrew/",
-   "/projects/rcentric/",
-   "/projects/tata-elxsi/"
+   "/projects/rcentric/"
   ],
   "/projects/adda247/": [
    "/",
@@ -875,31 +868,6 @@
    "/projects/adda247/homepage-revamp/",
    "/start-a-project/"
   ],
-  "/projects/tata-elxsi/": [
-   "/",
-   "/projects/",
-   "/start-a-project/",
-   "/industries/automotive/",
-   "/projects/tata-elxsi/infotainment/",
-   "/projects/tata-elxsi/instrument-cluster/",
-   "/services/product-design/"
-  ],
-  "/projects/tata-elxsi/infotainment/": [
-   "/",
-   "/projects/",
-   "/projects/tata-elxsi/",
-   "/projects/tata-elxsi/instrument-cluster/",
-   "/projects/adda247/homepage-revamp/",
-   "/start-a-project/"
-  ],
-  "/projects/tata-elxsi/instrument-cluster/": [
-   "/",
-   "/projects/",
-   "/projects/tata-elxsi/",
-   "/projects/tata-elxsi/infotainment/",
-   "/projects/adda247/homepage-revamp/",
-   "/start-a-project/"
-  ],
   "/resources/": [
    "/",
    "/blog/ux-audit-checklist/",
@@ -971,7 +939,6 @@
    "/solutions/conversion-improvement/",
    "/projects/adda247/",
    "/projects/kelp-global/",
-   "/projects/tata-elxsi/",
    "/locations/",
    "/blog/how-to-choose-a-product-design-agency/"
   ],
@@ -1042,7 +1009,6 @@
    "/services/design-systems/",
    "/services/saas-product-design/",
    "/solutions/legacy-product-modernization/",
-   "/projects/tata-elxsi/",
    "/projects/adda247/",
    "/projects/betacrew/",
    "/projects/rcentric/",
@@ -1069,7 +1035,6 @@
    "/services/product-design/",
    "/services/ux-audit/",
    "/projects/kelp-global/",
-   "/projects/tata-elxsi/",
    "/services/branding/",
    "/locations/",
    "/blog/how-to-choose-a-product-design-agency/"
@@ -1187,7 +1152,6 @@
    "/start-a-project/",
    "/projects/kelp-global/",
    "/projects/betacrew/",
-   "/projects/tata-elxsi/",
    "/services/ux-audit/"
   ],
   "/ux-design-agency-dubai/": [

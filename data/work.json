@@ -81,24 +81,5 @@
   "evidence": [
    "EV-RCENTRIC-SCOPE"
   ]
- },
- "tata-elxsi": {
-  "client": "Tata Elxsi",
-  "product": "In-car infotainment system and digital instrument cluster",
-  "industry": "Automotive HMI",
-  "service": "Product design, HMI design",
-  "problem": "In-car interfaces where every glance is attention taken from the road, inside a tier-one supplier's hardware constraints.",
-  "outcome": "Two HMI systems designed: an infotainment interface and a digital instrument cluster.",
-  "href": "/projects/tata-elxsi/",
-  "img": "/assets/projects/tata-elxsi/infotainment-hero.webp",
-  "alt": "Tata Elxsi infotainment interface design",
-  "filterIndustry": "automotive",
-  "filterServices": [
-   "product-design"
-  ],
-  "stage": "enterprise",
-  "evidence": [
-   "EV-TATA-SCOPE"
-  ]
  }
 }

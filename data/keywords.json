@@ -225,13 +225,6 @@
    "cluster": "PropTech",
    "status": "live (byline, reviewer, next-steps added on staging)"
   },
-  "automotive hmi case study": {
-   "url": "/projects/tata-elxsi/",
-   "role": "primary",
-   "commercial": true,
-   "cluster": "Work",
-   "status": "live, rebuilt on staging"
-  },
   "automotive hmi design agency": {
    "url": "/industries/automotive/",
    "role": "primary",
@@ -589,13 +582,6 @@
    "cluster": "Work",
    "status": "live, rebuilt on staging"
   },
-  "digital instrument cluster design": {
-   "url": "/projects/tata-elxsi/",
-   "role": "secondary",
-   "commercial": true,
-   "cluster": "Work",
-   "status": "live, rebuilt on staging"
-  },
   "digital product design": {
    "url": "/services/product-design/",
    "role": "secondary",
@@ -881,13 +867,6 @@
    "role": "primary",
    "commercial": true,
    "cluster": "Hub",
-   "status": "live, rebuilt on staging"
-  },
-  "infotainment ux case study": {
-   "url": "/projects/tata-elxsi/",
-   "role": "secondary",
-   "commercial": true,
-   "cluster": "Work",
    "status": "live, rebuilt on staging"
   },
   "infotainment ux design": {
@@ -1575,27 +1554,6 @@
    "commercial": false,
    "cluster": "Startup Product Design",
    "status": "planned (not built)"
-  },
-  "tata elxsi digital instrument cluster case study": {
-   "url": "/projects/tata-elxsi/instrument-cluster/",
-   "role": "primary",
-   "commercial": true,
-   "cluster": "Work",
-   "status": "live, rebuilt on staging"
-  },
-  "tata elxsi hmi": {
-   "url": "/projects/tata-elxsi/",
-   "role": "secondary",
-   "commercial": true,
-   "cluster": "Work",
-   "status": "live, rebuilt on staging"
-  },
-  "tata elxsi infotainment system case study": {
-   "url": "/projects/tata-elxsi/infotainment/",
-   "role": "primary",
-   "commercial": true,
-   "cluster": "Work",
-   "status": "live, rebuilt on staging"
   },
   "technology brand positioning": {
    "url": "/services/branding/",

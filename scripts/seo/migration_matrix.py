@@ -35,6 +35,8 @@ def is_redirect(r):
 APPROVED_REMOVALS = {  # 2026-10-06, owner request: remove these case studies
     "/projects/adda247/ios-app/", "/projects/adda247/performance-dashboard/",
     "/projects/adda247/sankalp-bharat/", "/projects/rcentric/ela/",
+    # 2026-11-24, owner request: hide Tata Elxsi projects
+    "/projects/tata-elxsi/", "/projects/tata-elxsi/infotainment/", "/projects/tata-elxsi/instrument-cluster/",
 }
 
 rows, risky = [], []

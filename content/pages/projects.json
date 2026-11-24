@@ -106,14 +106,6 @@
     [
       "Vela Viento",
       "/projects/rcentric/vela-viento/"
-    ],
-    [
-      "Infotainment System",
-      "/projects/tata-elxsi/infotainment/"
-    ],
-    [
-      "Digital Instrument Cluster",
-      "/projects/tata-elxsi/instrument-cluster/"
     ]
   ],
   "evidenceIds": [
@@ -163,8 +155,7 @@
         "adda247",
         "kelp-global",
         "betacrew",
-        "rcentric",
-        "tata-elxsi"
+        "rcentric"
       ],
       "eyebrow": "Clients",
       "intro": "The bigger picture for each engagement: what we designed across the product and how it fits together."
@@ -187,7 +178,7 @@
   "faq": [
     {
       "q": "What case studies does Designit have?",
-      "a": "Five client engagements broken into 18 case studies: Adda247 (EdTech), Kelp Global (fintech, private markets), Betacrew (developer tools), R-Centric for the Omniyat portfolio (luxury real estate) and Tata Elxsi (automotive HMI)."
+      "a": "Four client engagements broken into 16 case studies: Adda247 (EdTech), Kelp Global (fintech, private markets), Betacrew (developer tools) and R-Centric for the Omniyat portfolio (luxury real estate)."
     },
     {
       "q": "What was designed for Adda247?",
@@ -207,7 +198,7 @@
     },
     {
       "q": "Which industries does Designit have case studies in?",
-      "a": "EdTech (Adda247), fintech and private markets (Kelp Global), developer tools (Betacrew), luxury real estate in Dubai (R-Centric for Omniyat) and automotive HMI (Tata Elxsi)."
+      "a": "EdTech (Adda247), fintech and private markets (Kelp Global), developer tools (Betacrew) and luxury real estate in Dubai (R-Centric for Omniyat)."
     },
     {
       "q": "Do the case studies include web, mobile and other platforms?",
